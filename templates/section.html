@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <div class="container">
+        <div class="docs-section">
+            <header class="intro-header text-center">
+                <h1 class="intro-title">{{ section.title }}</h1>
+                <p class="intro-subtitle">{{ section.description }}</p>
+            </header>
+            {{ section.content | safe }}
+            <div class="row">
+                {% for page in section.pages %}
+                    <div class="col-md-4 mb-5">
+                        <div class="card border-0 shadow h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <a href="{{ page.permalink }}">{{ page.title }}</a>
+                                </h5>
+                                <p class="card-text">{{ page.description | truncate(length=150) }}</p>
+                            </div>
+                            <a class="card-link-mask" href="{{ page.permalink }}"></a>
+                        </div>
+                    </div>
+                {% endfor %}
+                {% for subsection in section.subsections %}
+                    {% set subsection = get_section(path=subsection) %}
+                    <div class="col-md-4 mb-5">
+                        <div class="card border-0 shadow h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <a href="{{ subsection.permalink }}">{{ subsection.title }}</a>
+                                </h5>
+                                <p class="card-text">{{ subsection.description | truncate(length=150) }}</p>
+                                <ul>
+                                    {% for page in subsection.pages %}
+                                        <li><a href="{{ page.permalink }}">{{ page.title }}</a></li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                            <a class="card-link-mask" href="{{ subsection.permalink }}"></a>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+{% endblock %}

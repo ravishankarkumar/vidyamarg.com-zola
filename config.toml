@@ -1,0 +1,32 @@
+# The URL the site will be built for
+base_url = "https://vidyamarg.com/"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = true
+title = "Vidya Marg"
+
+[markdown]
+# Whether to do syntax highlighting
+highlight_code = true
+# Theme for syntax highlighting (choose a modern, VitePress-like theme)
+highlight_theme = "base16-onedark"
+# Enable LaTeX rendering with KaTeX
+render_math = true
+extra_syntaxes_and_themes = ["themes"]
+
+[extra]
+# Navigation (similar to VitePress)
+nav = [
+    { name = "Project Kanha", url = "https://projectkanha.com/" },
+    { name = "Home", url = "/" },
+    { name = "Physics", url = "/jee-neet/physics/" },
+    { name = "Books", url = "/books/" },
+]
+
+# Social links (similar to VitePress)
+social_links = [
+    { name = "YouTube", icon = "youtube", url = "https://www.youtube.com/@VidyaMargbyRaviShankar-w9u" }
+]

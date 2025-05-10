@@ -1,0 +1,185 @@
+// KaTeX adjustments
+.katex {
+  font-size: 1.1em;
+  margin: 0.5em 0;
+}
+
+// Ensure no extra padding or margin
+.docs-content {
+  padding: 0;
+  transition: margin-left 0.3s ease; // Smooth transition for margin changes
+}
+
+.docs-content.no-sidebar {
+  margin-left: 0; // Remove sidebar offset on homepage
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+// Custom logo scaling
+.logo-icon {
+  width: 40px; /* Adjust to a suitable width */
+  height: 40px; /* Ensure the height matches to maintain aspect ratio */
+  object-fit: contain; /* Preserve aspect ratio */
+  vertical-align: middle;
+}
+
+// Navbar container to prevent shifts
+.docs-branding {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+// Override default link styles
+a {
+  color: #800000 !important; // Replace green with maroon for all links
+  text-decoration: none;
+}
+
+a:hover {
+  color: #a52a2a !important; // Lighter maroon for hover
+  text-decoration: underline;
+}
+
+// Navbar styling
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 1rem; // Space between items
+}
+
+.nav-list .list-inline-item {
+  margin: 0; // Remove default margin
+}
+
+.nav-list .nav-link {
+  color: #333;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 0.5rem 0;
+  transition: color 0.2s ease;
+}
+
+.nav-list .nav-link:hover {
+  color: #800000; // Replace green with maroon for hover
+}
+
+.nav-list .nav-link.active {
+  color: #800000; // Replace green with maroon for active link
+  font-weight: 600; // Slightly bolder
+  transition: none; // Disable transition during navigation
+}
+
+.nav-list .list-inline-item a i {
+  color: #666;
+  font-size: 1.2rem;
+  transition: opacity 0.2s ease;
+}
+
+.nav-list .list-inline-item a:hover i {
+  opacity: 0.7; // Hover effect for social icons
+}
+
+// Mobile menu styling
+#mobileNav {
+  background-color: #fff;
+  padding: 1rem;
+  border-top: 1px solid #ddd;
+}
+
+#mobileNav .nav-link {
+  color: #333;
+  padding: 0.5rem 1rem;
+}
+
+#mobileNav .nav-link:hover {
+  color: #800000; // Replace green with maroon for mobile menu hover
+}
+
+// Hero strip and thematic color overrides
+.bg-gradient {
+  background: linear-gradient(to right, #800000, #a52a2a) !important; // Replace green gradient with maroon
+}
+
+a.theme-link {
+  color: #800000 !important; // Replace green links with maroon
+}
+
+a.theme-link:hover {
+  color: #a52a2a !important; // Lighter maroon for hover
+}
+
+.btn-primary {
+  background-color: #800000 !important; // Replace green buttons with maroon
+  border-color: #800000 !important;
+}
+
+.btn-primary:hover {
+  background-color: #a52a2a !important; // Lighter maroon for hover
+  border-color: #a52a2a !important;
+}
+
+.callout-block-success {
+  background-color: rgba(128, 0, 0, 0.1) !important; // Replace green callouts with maroon
+}
+
+.callout-block-success .callout-icon-holder {
+  color: #800000 !important;
+}
+
+.alert-success {
+  background-color: rgba(128, 0, 0, 0.1) !important; // Replace green alerts with maroon
+  border-color: rgba(128, 0, 0, 0.3) !important;
+  color: #800000 !important;
+}
+
+.progress-bar.bg-success {
+  background-color: #800000 !important; // Replace green progress bars with maroon
+}
+
+.badge-success {
+  background-color: #800000 !important; // Replace green badges with maroon
+}
+
+// Dark mode (kept for future use, currently disabled)
+/*
+body.dark {
+  background-color: #2d3748;
+  color: #e2e8f0;
+
+  header, footer, #sidebar {
+      background-color: #1a202c;
+  }
+
+  a {
+      color: #63b3ed;
+
+      &:hover {
+          color: #90cdf4;
+      }
+  }
+
+  .posts article {
+      background-color: #4a5568;
+
+      h3 a {
+          color: #e2e8f0;
+      }
+
+      p {
+          color: #a0aec0;
+      }
+  }
+
+  #menu h2, #menu a {
+      color: #e2e8f0;
+  }
+
+  #menu a:hover {
+      color: #90cdf4;
+  }
+}
+*/
