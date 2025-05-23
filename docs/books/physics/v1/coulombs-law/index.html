@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <title>Vidya Marg | Physics Book - Coulomb’s Law for JEE &amp; NEET</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Comprehensive guide on Coulomb’s law for JEE and NEET, covering electric forces, vector analysis, superposition principle, and applications in electrostatics, with extensive examples.">
+    <meta name="keywords" content="JEE physics book, NEET physics book, physics book, physics for JEE and NEET">
+    <meta property="og:image" content="https://vidyamarg.com/og-physics-book.jpg">
+    <link rel="canonical" href="https:&#x2F;&#x2F;vidyamarg.com&#x2F;books&#x2F;physics&#x2F;v1&#x2F;coulombs-law&#x2F;">
+    <link rel="shortcut icon" href="https://vidyamarg.com/logos/maroon-bg-logo-128.ico">
+    
+    <!-- Preload Google Font -->
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" as="style">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript>
+        <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
+    </noscript>
+    
+    <!-- FontAwesome JS -->
+    <script defer src="https://vidyamarg.com/fontawesome/js/all.min.js"></script>
+
+    <!-- KaTeX for LaTeX rendering -->
+    <link rel="stylesheet" href="https://vidyamarg.com/katex/katex.min.css">
+    <script src="https://vidyamarg.com/katex/katex.min.js"></script>
+    <script src="https://vidyamarg.com/katex/auto-render.min.js"></script>
+
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.2/styles/atom-one-dark.min.css">
+    <link rel="stylesheet" href="https://vidyamarg.com/plugins/simplelightbox/simple-lightbox.min.css">
+
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="https://vidyamarg.com/css/theme.css">
+    <link rel="stylesheet" href="https://vidyamarg.com/css/custom.css" />
+</head> 
+
+<body>    
+    <header class="header fixed-top">
+        <div class="branding docs-branding">
+            <div class="container-fluid position-relative py-2">
+                <div class="docs-logo-wrapper">
+                    
+                    
+                    
+                    <button id="docs-sidebar-toggler" class="docs-sidebar-toggler docs-sidebar-visible me-2 d-xl-none" type="button">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    
+                    <div class="site-logo">
+                        <a class="navbar-brand" href="https://vidyamarg.com">
+                            <img class="logo-icon me-2" src="https://vidyamarg.com/logos/maroon-bg-logo-1024.png" alt="logo">
+                            <span class="logo-text">Vidya Marg</span>
+                        </a>
+                    </div>    
+                </div>
+                <div class="docs-top-utilities d-flex justify-content-end align-items-center">
+                    <ul class="nav-list list-inline mb-0 d-none d-lg-flex">
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;">Home</a>
+                            </li>
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics (Youtube series)</a>
+                            </li>
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;">Books</a>
+                            </li>
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;app&#x2F;">App</a>
+                            </li>
+                        
+                        
+                            
+                                <li class="list-inline-item">
+                                    <a href="https:&#x2F;&#x2F;www.youtube.com&#x2F;@VidyaMargbyRaviShankar-w9u" title="YouTube"><i class="fab fa-youtube fa-fw"></i></a>
+                                </li>
+                            
+                                <li class="list-inline-item">
+                                    <a href="https:&#x2F;&#x2F;t.me&#x2F;vidyamarg1" title="Telegram"><i class="fab fa-telegram fa-fw"></i></a>
+                                </li>
+                            
+                        
+                    </ul>
+                    <!-- Mobile Menu Button -->
+                    <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#mobileNav" aria-controls="mobileNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </div>
+            <!-- Mobile Menu -->
+            <div class="collapse navbar-collapse d-lg-none" id="mobileNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;">Home</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics (Youtube series)</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;books&#x2F;">Books</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;app&#x2F;">App</a>
+                        </li>
+                    
+                    
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="https:&#x2F;&#x2F;www.youtube.com&#x2F;@VidyaMargbyRaviShankar-w9u"><i class="fab fa-youtube fa-fw"></i> YouTube</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="https:&#x2F;&#x2F;t.me&#x2F;vidyamarg1"><i class="fab fa-telegram fa-fw"></i> Telegram</a>
+                            </li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="docs-wrapper">
+        
+        
+        
+        <div id="docs-sidebar" class="docs-sidebar">
+            <nav id="docs-nav" class="docs-nav navbar">
+                
+                    
+                        
+
+<ul class="nav flex-column">
+    <!-- Navigation Menu (visible only in mobile view) -->
+    <li class="nav-item d-lg-none">
+        <span class="nav-link">Navigation</span>
+        <ul class="nav flex-column">
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;">Home</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics (Youtube series)</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;books&#x2F;">Books</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;app&#x2F;">App</a>
+                </li>
+            
+        </ul>
+    </li>
+
+    <!-- JEE/NEET Physics Section -->
+    
+    <li class="nav-item">
+        <span class="nav-link">Physics for JEE&#x2F;NEET</span>
+        <ul class="nav flex-column">
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics for JEE&#x2F;NEET</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;maths-basics-for-physics&#x2F;">Maths Basics for Physics</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;units-and-dimensions&#x2F;">Units and Dimensions</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;physical-quantities-and-si-units&#x2F;">Physical Quantities and SI Units</a>
+                </li>
+            
+        </ul>
+    </li>
+
+    <!-- Books Section -->
+    
+    <li class="nav-item">
+        <span class="nav-link">Books</span>
+        <ul class="nav flex-column">
+            <!-- JEE/NEET Physics Book (Version 1) -->
+            
+            <li class="nav-item">
+                <a class="nav-link" href="/books/physics/v1/">Physics Book</a>
+                
+                    <ul class="nav flex-column">
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;measurement&#x2F;">Measurement</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;motion-straight-line&#x2F;">Motion Along a Straight Line</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;vectors&#x2F;">Vectors</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;motion-2d-3d&#x2F;">Motion in Two and Three Dimensions</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;force-motion-1&#x2F;">Force and Motion—I</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;force-motion-2&#x2F;">Force and Motion—II</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;kinetic-energy-work&#x2F;">Kinetic Energy and Work</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;potential-energy-conservation&#x2F;">Potential Energy and Conservation of Energy</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;center-mass-momentum&#x2F;">Center of Mass and Linear Momentum</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;rotation&#x2F;">Rotation</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;rolling-torque-angular-momentum&#x2F;">Rolling, Torque, and Angular Momentum</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;equilibrium-elasticity&#x2F;">Equilibrium and Elasticity</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;gravitation&#x2F;">Gravitation</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;fluids&#x2F;">Fluids</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;oscillations&#x2F;">Oscillations</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;waves-1&#x2F;">Waves—I</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;waves-2&#x2F;">Waves—II</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;kinetic-theory-gases&#x2F;">The Kinetic Theory of Gases</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;thermodynamics-temperature-heat&#x2F;">Temperature, Heat, and the First Law of Thermodynamics</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;entropy-thermodynamics&#x2F;">Entropy and the Second Law of Thermodynamics</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electric-fields&#x2F;">Electric Fields</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;gauss-law&#x2F;">Gauss’s Law</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electric-potential&#x2F;">Electric Potential</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;capacitance&#x2F;">Capacitance</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;current-resistance&#x2F;">Current and Resistance</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;circuits&#x2F;">Circuits</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;magnetic-fields&#x2F;">Magnetic Fields</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;magnetic-fields-currents&#x2F;">Magnetic Fields Due to Currents</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;induction-inductance&#x2F;">Induction and Inductance</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electromagnetic-oscillations-ac&#x2F;">Electromagnetic Oscillations and Alternating Current</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electromagnetic-waves&#x2F;">Electromagnetic Waves</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;images&#x2F;">Images</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;interference&#x2F;">Interference</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;diffraction&#x2F;">Diffraction</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;photons-matter-waves&#x2F;">Photons and Matter Waves</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;matter-waves-advanced&#x2F;">More About Matter Waves</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;atoms&#x2F;">All About Atoms</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;nuclear-physics&#x2F;">Nuclear Physics</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;nuclear-energy&#x2F;">Energy from the Nucleus</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;quarks-leptons&#x2F;">Quarks, Leptons, and the Big Bang</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;relativity&#x2F;">Relativity</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;conduction-solids&#x2F;">Conduction of Electricity in Solids</a>
+                            </li>
+                        
+                    </ul>
+                
+            </li>
+        </ul>
+    </li>
+</ul>
+                    
+                
+            </nav>
+        </div>
+        
+
+        <div class="docs-content">
+            
+    <div class="docs-main">
+        <article class="docs-article">
+            <h1 id="chapter-21-coulomb-s-law">Chapter 21: Coulomb’s Law</h1>
+<div class="callout-block callout-warning">
+    <div class="content">
+        <h4 class="callout-title">
+            <span class="callout-icon-holder me-1">
+                <i class="fas fa-exclamation-triangle"></i>
+            </span>
+            Beta Version
+        </h4>
+        <p>Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!</p>
+    </div>
+</div>
+<p>Coulomb’s law governs the electric forces between charged particles, a fundamental principle in electrostatics with applications ranging from atomic interactions to charged particle propulsion in rockets. Building on the thermodynamic concepts from Chapters 18–20, this chapter introduces the principles of electrostatics. For JEE Main, JEE Advanced, and NEET students, mastering Coulomb’s law is essential, as it forms the basis for understanding electric fields, potentials, and interactions in physics problems. This chapter, <strong>Coulomb’s Law</strong>, covers <strong>electric charge and Coulomb’s law</strong>, <strong>vector nature of electric forces</strong>, <strong>superposition principle</strong>, and <strong>applications of Coulomb’s law</strong>, providing detailed explanations, derivations, solved examples, and practical applications to ensure conceptual clarity and problem-solving proficiency.</p>
+<h2 id="21-1-electric-charge-and-coulomb-s-law">21.1 Electric Charge and Coulomb’s Law</h2>
+<p>Coulomb’s law describes the electric force between charged particles, laying the foundation for electrostatics, a critical topic for JEE/NEET problems.</p>
+<h3 id="electric-charge">Electric Charge</h3>
+<ul>
+<li><strong>Charge Types</strong>: Positive (protons) and negative (electrons). Like charges repel, unlike charges attract.</li>
+<li><strong>Quantization</strong>: Charge is quantized, $q = n e$, where $e = 1.6 \times 10^{-19} , \text{C}$ (elementary charge), $n$ is an integer.</li>
+<li><strong>Conservation</strong>: Charge is conserved in isolated systems (e.g., in reactions, total charge remains constant).</li>
+<li><strong>SI Unit</strong>: Coulomb (C).</li>
+</ul>
+<h3 id="coulomb-s-law">Coulomb’s Law</h3>
+<p>The force between two point charges $q_1$ and $q_2$ separated by distance $r$ in a vacuum is:<br />
+$$
+F = k \frac{|q_1 q_2|}{r^2}
+$$</p>
+<ul>
+<li>$k$: Coulomb’s constant, $k = \frac{1}{4 \pi \epsilon_0}$, where $\epsilon_0 = 8.85 \times 10^{-12} , \text{C}^2/\text{N·m}^2$ (permittivity of free space). Numerically, $k \approx 9 \times 10^9 , \text{N·m}^2/\text{C}^2$.</li>
+<li>$F$: Magnitude of the force (N).</li>
+<li>Direction: Attractive if charges are unlike, repulsive if like, along the line joining the charges.</li>
+</ul>
+<h3 id="in-a-medium">In a Medium</h3>
+<p>In a medium with permittivity $\epsilon$, the force is reduced: $F = \frac{1}{4 \pi \epsilon} \frac{|q_1 q_2|}{r^2}$, where $\epsilon = \epsilon_r \epsilon_0$, and $\epsilon_r$ is the relative permittivity (dielectric constant). Thus, $F_{\text{medium}} = \frac{F_{\text{vacuum}}}{\epsilon_r}$.</p>
+<h3 id="properties">Properties</h3>
+<ul>
+<li><strong>Inverse Square Law</strong>: $F \propto \frac{1}{r^2}$.</li>
+<li><strong>Sign of Force</strong>: Positive $F$ indicates repulsion, negative indicates attraction (in vector form).</li>
+<li><strong>Point Charges</strong>: Assumes charges are point-like (size negligible compared to $r$).</li>
+</ul>
+<p><strong>Derivation</strong>: <strong>Coulomb’s Constant $k$</strong><br />
+Coulomb’s law is an experimental result, but $k$ relates to $\epsilon_0$, the permittivity of free space, defined in SI units. The force $F = \frac{1}{4 \pi \epsilon_0} \frac{q_1 q_2}{r^2}$ ensures consistency with Gauss’s law and electromagnetic theory. Numerically, $k = \frac{1}{4 \pi \times 8.85 \times 10^{-12}} \approx 9 \times 10^9 , \text{N·m}^2/\text{C}^2$.</p>
+<p><strong>Derivation</strong>: <strong>Force in a Medium</strong><br />
+In a medium, electric fields are reduced due to polarization effects. The permittivity becomes $\epsilon = \epsilon_r \epsilon_0$, so $F = \frac{1}{4 \pi \epsilon} \frac{q_1 q_2}{r^2} = \frac{1}{4 \pi \epsilon_r \epsilon_0} \frac{q_1 q_2}{r^2} = \frac{F_{\text{vacuum}}}{\epsilon_r}$.</p>
+<p><strong>Derivation</strong>: <strong>Charge Quantization</strong><br />
+Charge quantization arises from the discrete nature of electrons and protons: $q = n e$, where $e = 1.6 \times 10^{-19} , \text{C}$. This is a fundamental property confirmed by experiments like Millikan’s oil drop experiment.</p>
+<p><strong>Derivation</strong>: <strong>Electrostatic Force in Rocket Systems</strong><br />
+In a charged particle propulsion system, two charges $q_1 = 2 \times 10^{-6} , \text{C}$, $q_2 = -3 \times 10^{-6} , \text{C}$ are separated by $r = 0.1 , \text{m}$. Force: $F = 9 \times 10^9 \times \frac{(2 \times 10^{-6}) \times (3 \times 10^{-6})}{(0.1)^2} = 5.4 , \text{N}$ (attractive), aiding propulsion (your interest, April 19, 2025).</p>
+<p><strong>Solved Example</strong>: A JEE Main problem involves two charges $q_1 = +4 , \mu\text{C}$ and $q_2 = -2 , \mu\text{C}$ separated by $r = 0.2 , \text{m}$ in vacuum. Find the force magnitude.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$q_1 = 4 \times 10^{-6} , \text{C}$, $q_2 = -2 \times 10^{-6} , \text{C}$, $r = 0.2 , \text{m}$, $k = 9 \times 10^9 , \text{N·m}^2/\text{C}^2$:<br />
+$$
+F = k \frac{|q_1 q_2|}{r^2} = 9 \times 10^9 \times \frac{(4 \times 10^{-6}) \times (2 \times 10^{-6})}{(0.2)^2} = 9 \times 10^9 \times \frac{8 \times 10^{-12}}{0.04} = 1.8 , \text{N}
+$$
+<ul>
+<li><strong>JEE Tip</strong>: Use magnitudes for $F$; the negative sign indicates attraction. Common error: Forgetting to convert $\mu\text{C}$ to C ($10^{-6}$).</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A NEET problem involves two charges $q_1 = +5 , \text{nC}$ and $q_2 = +5 , \text{nC}$ separated by $r = 0.1 , \text{m}$ in vacuum. Find the force.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$q_1 = q_2 = 5 \times 10^{-9} , \text{C}$, $r = 0.1 , \text{m}$:<br />
+$$
+F = 9 \times 10^9 \times \frac{(5 \times 10^{-9})^2}{(0.1)^2} = 9 \times 10^9 \times \frac{25 \times 10^{-18}}{0.01} = 2.25 \times 10^{-5} , \text{N}
+$$
+Repulsive (like charges).
+<ul>
+<li><strong>NEET Tip</strong>: Like charges repel; convert nC to C ($10^{-9}$). Common error: Misinterpreting the direction of the force.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Advanced problem involves two charges in water ($\epsilon_r = 80$), $q_1 = +3 , \mu\text{C}$, $q_2 = -6 , \mu\text{C}$, $r = 0.5 , \text{m}$. Find the force.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+In vacuum: $F_{\text{vacuum}} = 9 \times 10^9 \times \frac{(3 \times 10^{-6}) \times (6 \times 10^{-6})}{(0.5)^2} = 0.648 , \text{N}$. In water: $F = \frac{F_{\text{vacuum}}}{\epsilon_r} = \frac{0.648}{80} \approx 0.0081 , \text{N}$. Attractive.
+<ul>
+<li><strong>JEE Tip</strong>: Medium reduces force by $\epsilon_r$; direction depends on charge signs. Common error: Forgetting to divide by $\epsilon_r$.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Main problem involves a charge of $+8 , \mu\text{C}$. How many electrons were removed? ($e = 1.6 \times 10^{-19} , \text{C}$)</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$q = n e$, $q = 8 \times 10^{-6} , \text{C}$: $n = \frac{q}{e} = \frac{8 \times 10^{-6}}{1.6 \times 10^{-19}} = 5 \times 10^{13}$ electrons removed.
+<ul>
+<li><strong>JEE Tip</strong>: Positive charge means electrons removed; use $e$ to find $n$. Common error: Assuming electrons were added.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Application</strong>: Coulomb’s law applies to atomic physics (electron-proton forces), capacitor design, and rocketry (e.g., charged particle propulsion, aligning with your interest, April 19, 2025).</p>
+<h2 id="21-2-vector-nature-of-electric-forces">21.2 Vector Nature of Electric Forces</h2>
+<p>Coulomb’s law is a vector law, requiring careful consideration of directions and components, a key skill for JEE/NEET electrostatics problems.</p>
+<h3 id="vector-form-of-coulomb-s-law">Vector Form of Coulomb’s Law</h3>
+<p>For charges $q_1$ and $q_2$ at positions $\vec{r}<em>1$ and $\vec{r}<em>2$, the force on $q_1$ due to $q_2$ is:<br />
+$$
+\vec{F}</em>{1,2} = k \frac{q_1 q_2}{r^2} \hat{r}</em>{12}
+$$</p>
+<ul>
+<li>$\vec{r}<em>{12} = \vec{r}<em>1 - \vec{r}<em>2$, $r = |\vec{r}</em>{12}|$, $\hat{r}</em>{12} = \frac{\vec{r}</em>{12}}{r}$ (unit vector from $q_2$ to $q_1$).</li>
+<li>$\vec{F}<em>{2,1} = -\vec{F}</em>{1,2}$ (Newton’s third law).</li>
+</ul>
+<h3 id="force-components">Force Components</h3>
+<p>In 2D or 3D, break the force into components:</p>
+<ul>
+<li>$x$-component: $F_x = F \cos \theta$.</li>
+<li>$y$-component: $F_y = F \sin \theta$.</li>
+</ul>
+<h3 id="multiple-charges">Multiple Charges</h3>
+<p>For multiple charges, compute the vector force on each charge due to all others and resolve into components.</p>
+<p><strong>Derivation</strong>: <strong>Vector Form of Coulomb’s Law</strong><br />
+Consider $q_1$ at $\vec{r}<em>1$ and $q_2$ at $\vec{r}<em>2$. The displacement vector $\vec{r}</em>{12} = \vec{r}<em>1 - \vec{r}<em>2$, with magnitude $r = |\vec{r}</em>{12}|$. The unit vector $\hat{r}</em>{12} = \frac{\vec{r}<em>1 - \vec{r}<em>2}{|\vec{r}<em>1 - \vec{r}<em>2|}$ points from $q_2$ to $q_1$. The force magnitude is $F = k \frac{|q_1 q_2|}{r^2}$. The vector force on $q_1$ is $\vec{F}</em>{1,2} = F \hat{r}</em>{12}$ if $q_1 q_2 &gt; 0$ (repulsive), or $-\hat{r}</em>{12}$ if $q_1 q_2 &lt; 0$ (attractive). General form: $\vec{F}</em>{1,2} = k \frac{q_1 q_2}{r^2} \hat{r}</em>{12}$, where the sign of $q_1 q_2$ determines the direction.</p>
+<p><strong>Derivation</strong>: <strong>Force Components in 2D</strong><br />
+For charges $q_1$ at $(x_1, y_1)$ and $q_2$ at $(x_2, y_2)$, $\vec{r}<em>{12} = (x_1 - x_2, y_1 - y_2)$, $r = \sqrt{(x_1 - x_2)^2 + (y_1 - y_2)^2}$. Unit vector: $\hat{r}</em>{12} = \left( \frac{x_1 - x_2}{r}, \frac{y_1 - y_2}{r} \right)$. Force: $\vec{F} = k \frac{q_1 q_2}{r^2} \hat{r}_{12}$, so $F_x = k \frac{q_1 q_2}{r^2} \cdot \frac{x_1 - x_2}{r}$, $F_y = k \frac{q_1 q_2}{r^2} \cdot \frac{y_1 - y_2}{r}$.</p>
+<p><strong>Derivation</strong>: <strong>Net Force on a Charge in a System</strong><br />
+For a charge $q_1$ with charges $q_2$ and $q_3$, compute $\vec{F}<em>{1,2}$ and $\vec{F}</em>{1,3}$ separately using vector form, then add: $\vec{F}<em>{\text{net}} = \vec{F}</em>{1,2} + \vec{F}_{1,3}$. Resolve into components if needed.</p>
+<p><strong>Derivation</strong>: <strong>Electrostatic Steering in Rockets</strong><br />
+In a rocket’s ion propulsion, a charge $q_1 = 1 \times 10^{-6} , \text{C}$ at $(0, 0)$ experiences forces from $q_2 = 2 \times 10^{-6} , \text{C}$ at $(0.1, 0)$ and $q_3 = -3 \times 10^{-6} , \text{C}$ at $(0, 0.1)$. Net force components: $F_x = 1.8 , \text{N}$, $F_y = -2.7 , \text{N}$, steering the particle (your interest, April 19, 2025).</p>
+<p><strong>Solved Example</strong>: A JEE Main problem involves charges $q_1 = +3 , \mu\text{C}$ at $(0, 0)$ and $q_2 = -3 , \mu\text{C}$ at $(0.3, 0)$. Find the force on $q_1$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$r = 0.3 , \text{m}$, $F = 9 \times 10^9 \times \frac{(3 \times 10^{-6})^2}{(0.3)^2} = 0.9 , \text{N}$. $\hat{r}<em>{12}$ points from $q_2$ to $q_1$ (along negative x-axis): $\hat{r}</em>{12} = (-1, 0)$. $\vec{F}_{1,2} = -0.9 \hat{i} , \text{N}$ (attractive).
+<ul>
+<li><strong>JEE Tip</strong>: Use unit vectors to determine direction; negative sign for attraction. Common error: Ignoring direction, giving only magnitude.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A NEET problem involves $q_1 = +2 , \mu\text{C}$ at $(0, 0)$ and $q_2 = +2 , \mu\text{C}$ at $(0, 0.2)$. Find the force vector on $q_1$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$F = 9 \times 10^9 \times \frac{(2 \times 10^{-6})^2}{(0.2)^2} = 0.9 , \text{N}$. $\hat{r}<em>{12} = (0, 1)$ (along positive y-axis). $\vec{F}</em>{1,2} = 0.9 \hat{j} , \text{N}$ (repulsive).
+<ul>
+<li><strong>NEET Tip</strong>: Like charges repel; specify direction using coordinates. Common error: Forgetting repulsion direction.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Advanced problem involves $q_1 = +4 , \mu\text{C}$ at $(0, 0)$, $q_2 = -2 , \mu\text{C}$ at $(0.1, 0)$, $q_3 = +3 , \mu\text{C}$ at $(0, 0.1)$. Find the net force on $q_1$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$\vec{F}<em>{1,2} = 7.2 \hat{i} , \text{N}$ (attractive), $\vec{F}</em>{1,3} = -10.8 \hat{j} , \text{N}$ (repulsive). Net: $\vec{F}_{\text{net}} = 7.2 \hat{i} - 10.8 \hat{j} , \text{N}$.
+<ul>
+<li><strong>JEE Tip</strong>: Add forces as vectors; compute components separately. Common error: Adding magnitudes without direction.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Main problem involves $q_1 = +5 , \mu\text{C}$ at $(0.2, 0.2)$ and $q_2 = -5 , \mu\text{C}$ at $(0, 0)$. Find $\vec{F}$ on $q_1$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$r = \sqrt{(0.2)^2 + (0.2)^2} = 0.2\sqrt{2}$, $F = 2.8125 , \text{N}$. $\hat{r}_{12} = \left( \frac{-0.2}{0.2\sqrt{2}}, \frac{-0.2}{0.2\sqrt{2}} \right) = \left( -\frac{1}{\sqrt{2}}, -\frac{1}{\sqrt{2}} \right)$. $\vec{F} = -2.8125 \left( \frac{1}{\sqrt{2}} \hat{i} + \frac{1}{\sqrt{2}} \hat{j} \right) \approx -1.99 \hat{i} - 1.99 \hat{j} , \text{N}$.
+<ul>
+<li><strong>JEE Tip</strong>: Resolve unit vectors using coordinates; round components appropriately (April 14, 2025). Common error: Incorrect unit vector direction.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Application</strong>: Vector forces apply to charged particle dynamics, crystal structures, and rocketry (e.g., ion propulsion steering, aligning with your interest, April 19, 2025).</p>
+<h2 id="21-3-superposition-principle">21.3 Superposition Principle</h2>
+<p>The <strong>superposition principle</strong> allows the calculation of net forces from multiple charges, a key concept for JEE/NEET electrostatics problems involving systems of charges.</p>
+<h3 id="superposition-principle">Superposition Principle</h3>
+<p>The net force on a charge due to multiple charges is the vector sum of the forces from each charge:<br />
+$$
+\vec{F}_{\text{net}} = \sum_i \vec{F}_i
+$$
+Each $\vec{F}_i$ is calculated using Coulomb’s law, considering magnitude and direction.</p>
+<h3 id="steps-to-apply">Steps to Apply</h3>
+<ol>
+<li>Identify all charges and their positions.</li>
+<li>Calculate the force on the target charge due to each other charge (vector form).</li>
+<li>Resolve forces into components (if needed).</li>
+<li>Sum the components to find the net force.</li>
+<li>Compute magnitude and direction if required.</li>
+</ol>
+<h3 id="equilibrium-of-charges">Equilibrium of Charges</h3>
+<p>A charge is in equilibrium if $\vec{F}_{\text{net}} = 0$. For a system, solve for positions or charges where forces balance.</p>
+<p><strong>Derivation</strong>: <strong>Superposition Principle</strong><br />
+Coulomb’s law applies to pairs of charges. For a charge $q_1$ with charges $q_2, q_3, \ldots, q_n$, the force due to each is independent (electric forces are linear). Thus, $\vec{F}<em>{1, \text{net}} = \vec{F}</em>{1,2} + \vec{F}<em>{1,3} + \cdots + \vec{F}</em>{1,n}$, where each $\vec{F}<em>{1,i} = k \frac{q_1 q_i}{r</em>{1i}^2} \hat{r}_{1i}$. This principle holds due to the linearity of Maxwell’s equations in electrostatics.</p>
+<p><strong>Derivation</strong>: <strong>Equilibrium Position</strong><br />
+For three charges in a line, $q_1 = +q$ at $x = 0$, $q_2 = +q$ at $x = a$, find where $q_3 = -Q$ (at $x$, $0 &lt; x &lt; a$) has $\vec{F}<em>{\text{net}} = 0$. Forces: $F</em>{3,1} = k \frac{q Q}{x^2}$ (right), $F_{3,2} = k \frac{q Q}{(a-x)^2}$ (left). Set equal: $\frac{1}{x^2} = \frac{1}{(a-x)^2}$, $x = a-x$, $x = \frac{a}{2}$.</p>
+<p><strong>Derivation</strong>: <strong>Net Force in a Triangle</strong><br />
+Charges $q_1 = +q$, $q_2 = +q$, $q_3 = -q$ at vertices of an equilateral triangle (side $a$). Net force on $q_1$: $\vec{F}<em>{1,2} = k \frac{q^2}{a^2} \hat{r}</em>{12}$, $\vec{F}<em>{1,3} = -k \frac{q^2}{a^2} \hat{r}</em>{13}$. Use geometry to sum vectors, yielding $\vec{F}_{\text{net}}$ along symmetry axis.</p>
+<p><strong>Derivation</strong>: <strong>Ion Propulsion Force Balance</strong><br />
+In a rocket ion engine, three charges align for propulsion: $q_1 = +q$, $q_2 = +q$, $q_3 = -q$. Equilibrium ensures controlled motion, optimizing thrust (your interest, April 19, 2025).</p>
+<p><strong>Solved Example</strong>: A JEE Main problem involves $q_1 = +2 , \mu\text{C}$ at $(0, 0)$, $q_2 = -3 , \mu\text{C}$ at $(0.2, 0)$, $q_3 = +4 , \mu\text{C}$ at $(0, 0.2)$. Find the net force on $q_1$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$\vec{F}<em>{1,2} = -1.35 \hat{i} , \text{N}$, $\vec{F}</em>{1,3} = 1.8 \hat{j} , \text{N}$. $\vec{F}_{\text{net}} = -1.35 \hat{i} + 1.8 \hat{j} , \text{N}$.
+<ul>
+<li><strong>JEE Tip</strong>: Apply superposition by summing vector forces; compute components. Common error: Adding magnitudes without direction.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A NEET problem involves $q_1 = +q$, $q_2 = +q$ at $x = 0$ and $x = 1 , \text{m}$. Where does $q_3 = -q$ experience zero force?</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+At $x$ (between 0 and 1), $F_{3,1} = k \frac{q^2}{x^2}$ (right), $F_{3,2} = k \frac{q^2}{(1-x)^2}$ (left). Set equal: $x = 0.5 , \text{m}$.
+<ul>
+<li><strong>NEET Tip</strong>: Equilibrium requires forces to balance; solve for position. Common error: Placing $q_3$ outside the charges.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Advanced problem involves charges at vertices of a square (side $a$): $q_1 = +q$, $q_2 = +q$, $q_3 = -q$, $q_4 = -q$. Find the net force on $q_1$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+Compute forces: $\vec{F}<em>{1,2}$, $\vec{F}</em>{1,3}$, $\vec{F}_{1,4}$. Sum vectors considering angles (45° for diagonals). Net force magnitude: $\sqrt{2} k \frac{q^2}{a^2}$.
+<ul>
+<li><strong>JEE Tip</strong>: Use symmetry and vector addition; diagonals require angle resolution. Common error: Ignoring vector nature.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Main problem involves $q_1 = +2q$ at $(0, 0)$, $q_2 = -q$ at $(a, 0)$, $q_3 = -q$ at $(0, a)$. Find $\vec{F}$ on $q_1$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$\vec{F}<em>{1,2} = k \frac{2q^2}{a^2} \hat{i}$, $\vec{F}</em>{1,3} = k \frac{2q^2}{a^2} \hat{j}$. $\vec{F}_{\text{net}} = k \frac{2q^2}{a^2} (\hat{i} + \hat{j})$.
+<ul>
+<li><strong>JEE Tip</strong>: Symmetry simplifies components; net force at 45°. Common error: Incorrect signs for attraction/repulsion.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Application</strong>: Superposition applies to multi-particle systems, molecular forces, and rocketry (e.g., ion engine charge configurations, aligning with your interest, April 19, 2025).</p>
+<h2 id="21-4-applications-of-coulomb-s-law">21.4 Applications of Coulomb’s Law</h2>
+<p>Coulomb’s law is applied to calculate forces, equilibrium positions, and electric fields, providing practical problem-solving skills for JEE/NEET electrostatics.</p>
+<h3 id="force-calculations">Force Calculations</h3>
+<p>Use Coulomb’s law to find forces in systems of charges, often requiring vector addition (Sections 21.2–21.3).</p>
+<h3 id="equilibrium-problems">Equilibrium Problems</h3>
+<p>Find positions where the net force on a charge is zero, often involving solving for distances or charges.</p>
+<h3 id="electric-field-introduction">Electric Field Introduction</h3>
+<p>The electric field at a point due to a charge $q$ is:<br />
+$$
+\vec{E} = k \frac{q}{r^2} \hat{r}
+$$
+For multiple charges, use superposition: $\vec{E}_{\text{net}} = \sum \vec{E}_i$.</p>
+<h3 id="charge-distributions">Charge Distributions</h3>
+<p>For continuous distributions (e.g., line, ring), integrate over the charge elements: $d\vec{F} = k \frac{q , dq}{r^2} \hat{r}$.</p>
+<p><strong>Derivation</strong>: <strong>Electric Field from Coulomb’s Law</strong><br />
+The electric field $\vec{E}$ at a point is the force per unit charge: $\vec{E} = \frac{\vec{F}}{q_{\text{test}}}$. For a charge $q$, $\vec{F} = k \frac{q q_{\text{test}}}{r^2} \hat{r}$, so $\vec{E} = k \frac{q}{r^2} \hat{r}$. For multiple charges, sum vectorially.</p>
+<p><strong>Derivation</strong>: <strong>Equilibrium in a System</strong><br />
+Three charges in a line: $q_1 = +q$, $q_2 = +q$, $q_3 = -2q$. Find $q_3$’s position for equilibrium (as in Section 21.3). Generalize for non-linear systems using vector sums.</p>
+<p><strong>Derivation</strong>: <strong>Field Due to a Line Charge</strong><br />
+A line charge with linear charge density $\lambda$ (C/m), length $L$. Field at point $P$ distance $d$ perpendicular to the midpoint: $dE = k \frac{dq}{r^2}$, $dq = \lambda dx$, integrate over the line, yielding $E = k \frac{\lambda L}{d \sqrt{d^2 + (L/2)^2}}$.</p>
+<p><strong>Derivation</strong>: <strong>Rocket Ion Engine Field</strong><br />
+In an ion engine, a line of charge (length $L$, $\lambda$) creates a field $E$ to accelerate ions, optimizing thrust (your interest, April 19, 2025).</p>
+<p><strong>Solved Example</strong>: A JEE Main problem involves finding the electric field at $(0, 0.3)$ due to $q = +5 , \mu\text{C}$ at $(0, 0)$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$r = 0.3 , \text{m}$, $\vec{E} = 9 \times 10^9 \times \frac{5 \times 10^{-6}}{(0.3)^2} \hat{j} = 5 \times 10^5 \hat{j} , \text{N/C}$.
+<ul>
+<li><strong>JEE Tip</strong>: Field direction is along the line from charge to point; positive charge means field points away. Common error: Incorrect direction.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A NEET problem involves $q_1 = +2 , \mu\text{C}$ at $(0.1, 0)$, $q_2 = -2 , \mu\text{C}$ at $(-0.1, 0)$. Find $\vec{E}$ at $(0, 0.2)$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$E_{1} = 4.5 \times 10^5 \hat{j}$, $E_{2} = -4.5 \times 10^5 \hat{j}$. $\vec{E}_{\text{net}} = 0$.
+<ul>
+<li><strong>NEET Tip</strong>: Superposition for fields; symmetry can cancel components. Common error: Adding magnitudes without direction.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Advanced problem involves a ring of charge (radius $R$, total charge $Q$). Find $\vec{E}$ on the axis at distance $z$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$dE_z = k \frac{dq}{(R^2 + z^2)} \cdot \frac{z}{\sqrt{R^2 + z^2}}$, integrate: $E_z = k \frac{Q z}{(R^2 + z^2)^{3/2}}$.
+<ul>
+<li><strong>JEE Tip</strong>: Symmetry cancels radial components; integrate over the ring. Common error: Forgetting $z$-component projection.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Main problem involves finding the equilibrium position of $q_3 = -q$ between $q_1 = +q$ at $(0, 0)$ and $q_2 = +4q$ at $(a, 0)$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+At $x$, $k \frac{q^2}{x^2} = k \frac{4q^2}{(a-x)^2}$, $2x = a-x$, $x = \frac{a}{3}$.
+<ul>
+<li><strong>JEE Tip</strong>: Equilibrium balances forces; solve for $x$. Common error: Incorrect force ratios.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Application</strong>: Applications include field calculations, capacitor design, and rocketry (e.g., electric fields in ion propulsion, aligning with your interest, April 19, 2025).</p>
+<h2 id="summary-and-quick-revision">Summary and Quick Revision</h2>
+<ul>
+<li><strong>Electric Charge</strong>: Quantized: $q = n e$, $e = 1.6 \times 10^{-19} , \text{C}$. Conserved. Unit: Coulomb (C).</li>
+<li><strong>Coulomb’s Law</strong>: $F = k \frac{|q_1 q_2|}{r^2}$, $k = \frac{1}{4 \pi \epsilon_0} \approx 9 \times 10^9 , \text{N·m}^2/\text{C}^2$, $\epsilon_0 = 8.85 \times 10^{-12} , \text{C}^2/\text{N·m}^2$. In medium: $F = \frac{F_{\text{vacuum}}}{\epsilon_r}$.</li>
+<li><strong>Vector Form</strong>: $\vec{F}<em>{1,2} = k \frac{q_1 q_2}{r^2} \hat{r}</em>{12}$, $\hat{r}_{12} = \frac{\vec{r}_1 - \vec{r}_2}{|\vec{r}_1 - \vec{r}_2|}$. Components: $F_x = F \cos \theta$, $F_y = F \sin \theta$.</li>
+<li><strong>Superposition</strong>: $\vec{F}_{\text{net}} = \sum \vec{F}<em>i$. Equilibrium: $\vec{F}</em>{\text{net}} = 0$.</li>
+<li><strong>Applications</strong>: Electric field: $\vec{E} = k \frac{q}{r^2} \hat{r}$. Continuous distributions: integrate $d\vec{F}$ or $d\vec{E}$.</li>
+<li><strong>JEE/NEET Tips</strong>: Use vector addition for forces/fields, convert units (e.g., $\mu\text{C}$ to C), apply superposition for multiple charges, verify significant figures (April 14, 2025), distinguish attraction/repulsion based on charge signs.</li>
+<li><strong>SI Units</strong>: Charge (C), force (N), electric field (N/C), distance (m).</li>
+</ul>
+<h2 id="practice-problems">Practice Problems</h2>
+<p>Explore our problem set with <strong>100 problems</strong> inspired by JEE Main, JEE Advanced, and NEET patterns to test your understanding.</p>
+<p><a href="https://vidyamarg.com/books/physics/v1/coulombs-law/./problems">View Problems</a></p>
+<h2 id="watch-on-youtube">Watch on YouTube</h2>
+<p>Our Hinglish video lessons make electrostatics engaging! Subscribe for updates.</p>
+<p><a href="https://www.youtube.com/@VidyaMargbyRaviShankar-w9u">Watch Now</a></p>
+<p><em>Animation for visualizing electric forces, field lines, and charge distributions coming soon!</em></p>
+<p><em>Note: Content regularly updated to align with current JEE/NEET syllabi.</em></p>
+
+        </article>
+    </div>
+
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container text-center py-5">
+            <ul class="social-list list-unstyled pt-4 mb-0">
+                
+                    <li class="list-inline-item">
+                        <a href="https:&#x2F;&#x2F;www.youtube.com&#x2F;@VidyaMargbyRaviShankar-w9u" target="_blank" title="YouTube"><i class="fab fa-youtube fa-fw"></i></a>
+                    </li>
+                
+                    <li class="list-inline-item">
+                        <a href="https:&#x2F;&#x2F;t.me&#x2F;vidyamarg1" target="_blank" title="Telegram"><i class="fab fa-telegram fa-fw"></i></a>
+                    </li>
+                
+            </ul>
+            <small class="copyright">
+                © 2025 Vidya Marg. Designed with <span class="sr-only">love</span><i class="fas fa-heart" style="color: #fb866a;"></i> by <a class="theme-link" href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers. <a class="theme-link" href="/app/privacy-policy/">Privacy Policy</a>
+            </small>
+        </div>
+    </footer>
+
+    <!-- Javascript -->          
+    <script src="https://vidyamarg.com/plugins/popper.min.js"></script>
+    <script src="https://vidyamarg.com/plugins/bootstrap/js/bootstrap.min.js"></script>  
+    
+    <!-- Page Specific JS -->
+    <script src="https://vidyamarg.com/plugins/smoothscroll.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
+    <script src="https://vidyamarg.com/js/highlight-custom.js"></script> 
+    <script src="https://vidyamarg.com/plugins/simplelightbox/simple-lightbox.min.js"></script>      
+    <script src="https://vidyamarg.com/plugins/gumshoe/gumshoe.polyfills.min.js"></script> 
+    <script src="https://vidyamarg.com/js/docs.js"></script> 
+
+    <script>
+        function renderLatex() {
+            if (typeof renderMathInElement === "undefined") {
+                setTimeout(renderLatex, 100);
+                return;
+            }
+            renderMathInElement(document.body, {
+                delimiters: [
+                    { left: "$$", right: "$$", display: true },
+                    { left: "$", right: "$", display: false },
+                    { left: "\\(", right: "\\)", display: false },
+                    { left: "\\[", right: "\\]", display: true }
+                ],
+                throwOnError: false
+            });
+        }
+
+        window.addEventListener("load", function() {
+            renderLatex();
+        });
+    </script>
+</body>
+</html>

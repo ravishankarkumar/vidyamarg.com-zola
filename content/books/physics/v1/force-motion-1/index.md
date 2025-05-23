@@ -1,14 +1,26 @@
 ---
 title: Physics Book - Force and Motion—I for JEE & NEET
 description: Comprehensive guide to force and motion for JEE and NEET, covering Newton’s laws, inertial frames, applications in linear motion, and problem-solving techniques, with extensive examples.
-slug: books/physics/force-motion-1
+slug: force-motion-1
 keywords: physics force motion, JEE physics Newton’s laws, NEET physics dynamics, inertial frames
 og:image: https://vidyamarg.com/og-physics-force-motion-1.jpg
 ---
 
 # Chapter 5: Force and Motion—I
 
-**Beta Version**: Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!
+
+
+<div class="callout-block callout-warning">
+    <div class="content">
+        <h4 class="callout-title">
+            <span class="callout-icon-holder me-1">
+                <i class="fas fa-exclamation-triangle"></i>
+            </span>
+            Beta Version
+        </h4>
+        <p>Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!</p>
+    </div>
+</div>
 
 Force and motion are at the heart of classical mechanics, connecting the kinematics of Chapters 2–4 to the causes of motion. This chapter introduces **Newton’s laws of motion**, the foundational principles governing how forces affect the motion of objects, from a sliding block to a rocket in space. For JEE Main, JEE Advanced, and NEET students, mastering these laws is essential, as they appear in problems involving blocks on inclines, pulley systems, and equilibrium scenarios. Building on the concepts of displacement, velocity, acceleration, and vectors, we’ll explore **Newton’s first law (inertia)**, **Newton’s second law ($\vec{F} = m \vec{a}$)**, **Newton’s third law (action-reaction)**, **applications in linear motion**, and **inertial and non-inertial frames**, providing detailed explanations, derivations, numerous solved examples, and exam-focused strategies to ensure conceptual clarity and problem-solving proficiency.
 
@@ -277,7 +289,7 @@ $$
 ## Practice Problems
 Explore our extensive problem set with **100 problems** inspired by JEE Main, JEE Advanced, and NEET patterns to test your understanding of force and motion.
 
-[View Problems](./problems.md)
+[View Problems](./problems)
 
 ## Watch on YouTube
 Our Hinglish video lessons make force and motion engaging for JEE and NEET! Subscribe for updates.

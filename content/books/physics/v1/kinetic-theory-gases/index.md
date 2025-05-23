@@ -1,14 +1,26 @@
 ---
 title: Physics Book - The Kinetic Theory of Gases for JEE & NEET
 description: Comprehensive guide on the kinetic theory of gases for JEE and NEET, covering molecular motion, pressure, temperature, Maxwell-Boltzmann distribution, degrees of freedom, and specific heats, with extensive examples.
-slug: books/physics/kinetic-theory-gases
+slug: kinetic-theory-gases
 keywords: physics kinetic theory, JEE physics ideal gas, NEET physics Maxwell-Boltzmann distribution, degrees of freedom
 og:image: https://vidyamarg.com/og-physics-kinetic-theory-gases.jpg
 ---
 
 # Chapter 19: The Kinetic Theory of Gases
 
-**Beta Version**: Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!
+
+
+<div class="callout-block callout-warning">
+    <div class="content">
+        <h4 class="callout-title">
+            <span class="callout-icon-holder me-1">
+                <i class="fas fa-exclamation-triangle"></i>
+            </span>
+            Beta Version
+        </h4>
+        <p>Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!</p>
+    </div>
+</div>
 
 The kinetic theory of gases provides a microscopic understanding of gas behavior, connecting the random motion of molecules to macroscopic properties like pressure and temperature—a crucial framework for systems like rocket propulsion. Building on the thermodynamic principles from Chapter 18, this chapter explores the molecular basis of gas behavior. For JEE Main, JEE Advanced, and NEET students, mastering the kinetic theory is essential, as it appears in problems involving gas laws, energy distributions, and specific heats. This chapter, **The Kinetic Theory of Gases**, covers **the ideal gas model and molecular motion**, **pressure and temperature from kinetic theory**, **Maxwell-Boltzmann distribution**, and **degrees of freedom and specific heats**, providing detailed explanations, derivations, solved examples, and practical applications to ensure conceptual clarity and problem-solving proficiency.
 
@@ -276,7 +288,7 @@ In a rocket, a diatomic gas (e.g., O₂, $f = 5$ at 300 K) has $C_V = \frac{5}{2
 ## Practice Problems
 Explore our problem set with **100 problems** inspired by JEE Main, JEE Advanced, and NEET patterns to test your understanding.
 
-[View Problems](./problems.md)
+[View Problems](./problems)
 
 ## Watch on YouTube
 Our Hinglish video lessons make kinetic theory engaging! Subscribe for updates.

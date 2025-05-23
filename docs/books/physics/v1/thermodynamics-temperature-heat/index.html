@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <title>Vidya Marg | Physics Book - Temperature, Heat, and the First Law of Thermodynamics for JEE &amp; NEET</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Comprehensive guide on thermodynamics for JEE and NEET, covering temperature scales, heat transfer, specific heat, thermal expansion, and the first law of thermodynamics, with extensive examples.">
+    <meta name="keywords" content="JEE physics book, NEET physics book, physics book, physics for JEE and NEET">
+    <meta property="og:image" content="https://vidyamarg.com/og-physics-book.jpg">
+    <link rel="canonical" href="https:&#x2F;&#x2F;vidyamarg.com&#x2F;books&#x2F;physics&#x2F;v1&#x2F;thermodynamics-temperature-heat&#x2F;">
+    <link rel="shortcut icon" href="https://vidyamarg.com/logos/maroon-bg-logo-128.ico">
+    
+    <!-- Preload Google Font -->
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" as="style">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript>
+        <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
+    </noscript>
+    
+    <!-- FontAwesome JS -->
+    <script defer src="https://vidyamarg.com/fontawesome/js/all.min.js"></script>
+
+    <!-- KaTeX for LaTeX rendering -->
+    <link rel="stylesheet" href="https://vidyamarg.com/katex/katex.min.css">
+    <script src="https://vidyamarg.com/katex/katex.min.js"></script>
+    <script src="https://vidyamarg.com/katex/auto-render.min.js"></script>
+
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.2/styles/atom-one-dark.min.css">
+    <link rel="stylesheet" href="https://vidyamarg.com/plugins/simplelightbox/simple-lightbox.min.css">
+
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="https://vidyamarg.com/css/theme.css">
+    <link rel="stylesheet" href="https://vidyamarg.com/css/custom.css" />
+</head> 
+
+<body>    
+    <header class="header fixed-top">
+        <div class="branding docs-branding">
+            <div class="container-fluid position-relative py-2">
+                <div class="docs-logo-wrapper">
+                    
+                    
+                    
+                    <button id="docs-sidebar-toggler" class="docs-sidebar-toggler docs-sidebar-visible me-2 d-xl-none" type="button">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    
+                    <div class="site-logo">
+                        <a class="navbar-brand" href="https://vidyamarg.com">
+                            <img class="logo-icon me-2" src="https://vidyamarg.com/logos/maroon-bg-logo-1024.png" alt="logo">
+                            <span class="logo-text">Vidya Marg</span>
+                        </a>
+                    </div>    
+                </div>
+                <div class="docs-top-utilities d-flex justify-content-end align-items-center">
+                    <ul class="nav-list list-inline mb-0 d-none d-lg-flex">
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;">Home</a>
+                            </li>
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics (Youtube series)</a>
+                            </li>
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;">Books</a>
+                            </li>
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;app&#x2F;">App</a>
+                            </li>
+                        
+                        
+                            
+                                <li class="list-inline-item">
+                                    <a href="https:&#x2F;&#x2F;www.youtube.com&#x2F;@VidyaMargbyRaviShankar-w9u" title="YouTube"><i class="fab fa-youtube fa-fw"></i></a>
+                                </li>
+                            
+                                <li class="list-inline-item">
+                                    <a href="https:&#x2F;&#x2F;t.me&#x2F;vidyamarg1" title="Telegram"><i class="fab fa-telegram fa-fw"></i></a>
+                                </li>
+                            
+                        
+                    </ul>
+                    <!-- Mobile Menu Button -->
+                    <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#mobileNav" aria-controls="mobileNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </div>
+            <!-- Mobile Menu -->
+            <div class="collapse navbar-collapse d-lg-none" id="mobileNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;">Home</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics (Youtube series)</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;books&#x2F;">Books</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;app&#x2F;">App</a>
+                        </li>
+                    
+                    
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="https:&#x2F;&#x2F;www.youtube.com&#x2F;@VidyaMargbyRaviShankar-w9u"><i class="fab fa-youtube fa-fw"></i> YouTube</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="https:&#x2F;&#x2F;t.me&#x2F;vidyamarg1"><i class="fab fa-telegram fa-fw"></i> Telegram</a>
+                            </li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="docs-wrapper">
+        
+        
+        
+        <div id="docs-sidebar" class="docs-sidebar">
+            <nav id="docs-nav" class="docs-nav navbar">
+                
+                    
+                        
+
+<ul class="nav flex-column">
+    <!-- Navigation Menu (visible only in mobile view) -->
+    <li class="nav-item d-lg-none">
+        <span class="nav-link">Navigation</span>
+        <ul class="nav flex-column">
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;">Home</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics (Youtube series)</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;books&#x2F;">Books</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;app&#x2F;">App</a>
+                </li>
+            
+        </ul>
+    </li>
+
+    <!-- JEE/NEET Physics Section -->
+    
+    <li class="nav-item">
+        <span class="nav-link">Physics for JEE&#x2F;NEET</span>
+        <ul class="nav flex-column">
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics for JEE&#x2F;NEET</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;maths-basics-for-physics&#x2F;">Maths Basics for Physics</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;units-and-dimensions&#x2F;">Units and Dimensions</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;physical-quantities-and-si-units&#x2F;">Physical Quantities and SI Units</a>
+                </li>
+            
+        </ul>
+    </li>
+
+    <!-- Books Section -->
+    
+    <li class="nav-item">
+        <span class="nav-link">Books</span>
+        <ul class="nav flex-column">
+            <!-- JEE/NEET Physics Book (Version 1) -->
+            
+            <li class="nav-item">
+                <a class="nav-link" href="/books/physics/v1/">Physics Book</a>
+                
+                    <ul class="nav flex-column">
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;measurement&#x2F;">Measurement</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;motion-straight-line&#x2F;">Motion Along a Straight Line</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;vectors&#x2F;">Vectors</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;motion-2d-3d&#x2F;">Motion in Two and Three Dimensions</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;force-motion-1&#x2F;">Force and Motion—I</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;force-motion-2&#x2F;">Force and Motion—II</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;kinetic-energy-work&#x2F;">Kinetic Energy and Work</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;potential-energy-conservation&#x2F;">Potential Energy and Conservation of Energy</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;center-mass-momentum&#x2F;">Center of Mass and Linear Momentum</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;rotation&#x2F;">Rotation</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;rolling-torque-angular-momentum&#x2F;">Rolling, Torque, and Angular Momentum</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;equilibrium-elasticity&#x2F;">Equilibrium and Elasticity</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;gravitation&#x2F;">Gravitation</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;fluids&#x2F;">Fluids</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;oscillations&#x2F;">Oscillations</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;waves-1&#x2F;">Waves—I</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;waves-2&#x2F;">Waves—II</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;kinetic-theory-gases&#x2F;">The Kinetic Theory of Gases</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;thermodynamics-temperature-heat&#x2F;">Temperature, Heat, and the First Law of Thermodynamics</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;entropy-thermodynamics&#x2F;">Entropy and the Second Law of Thermodynamics</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electric-fields&#x2F;">Electric Fields</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;gauss-law&#x2F;">Gauss’s Law</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electric-potential&#x2F;">Electric Potential</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;capacitance&#x2F;">Capacitance</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;current-resistance&#x2F;">Current and Resistance</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;circuits&#x2F;">Circuits</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;magnetic-fields&#x2F;">Magnetic Fields</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;magnetic-fields-currents&#x2F;">Magnetic Fields Due to Currents</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;induction-inductance&#x2F;">Induction and Inductance</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electromagnetic-oscillations-ac&#x2F;">Electromagnetic Oscillations and Alternating Current</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electromagnetic-waves&#x2F;">Electromagnetic Waves</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;images&#x2F;">Images</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;interference&#x2F;">Interference</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;diffraction&#x2F;">Diffraction</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;photons-matter-waves&#x2F;">Photons and Matter Waves</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;matter-waves-advanced&#x2F;">More About Matter Waves</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;atoms&#x2F;">All About Atoms</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;nuclear-physics&#x2F;">Nuclear Physics</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;nuclear-energy&#x2F;">Energy from the Nucleus</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;quarks-leptons&#x2F;">Quarks, Leptons, and the Big Bang</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;relativity&#x2F;">Relativity</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;conduction-solids&#x2F;">Conduction of Electricity in Solids</a>
+                            </li>
+                        
+                    </ul>
+                
+            </li>
+        </ul>
+    </li>
+</ul>
+                    
+                
+            </nav>
+        </div>
+        
+
+        <div class="docs-content">
+            
+    <div class="docs-main">
+        <article class="docs-article">
+            <h1 id="chapter-18-temperature-heat-and-the-first-law-of-thermodynamics">Chapter 18: Temperature, Heat, and the First Law of Thermodynamics</h1>
+<div class="callout-block callout-warning">
+    <div class="content">
+        <h4 class="callout-title">
+            <span class="callout-icon-holder me-1">
+                <i class="fas fa-exclamation-triangle"></i>
+            </span>
+            Beta Version
+        </h4>
+        <p>Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!</p>
+    </div>
+</div>
+<p>Thermodynamics governs the principles of energy transfer and transformation, from the heat generated in a rocket engine to the expansion of materials under high temperatures. This chapter introduces the foundational concepts of thermodynamics, building on the wave mechanics from Chapters 16–17. For JEE Main, JEE Advanced, and NEET students, mastering these concepts is essential, as they appear in problems involving heat, work, and energy conservation in physical systems. This chapter, <strong>Temperature, Heat, and the First Law of Thermodynamics</strong>, covers <strong>temperature scales and thermal equilibrium</strong>, <strong>heat transfer mechanisms</strong>, <strong>specific heat, calorimetry, and thermal expansion</strong>, and <strong>the first law of thermodynamics and its applications</strong>, providing detailed explanations, derivations, solved examples, and practical applications to ensure conceptual clarity and problem-solving proficiency.</p>
+<h2 id="18-1-temperature-scales-and-thermal-equilibrium">18.1 Temperature Scales and Thermal Equilibrium</h2>
+<p>Temperature is a measure of the average kinetic energy of particles in a system, and thermal equilibrium occurs when two systems reach the same temperature. This section explores these concepts, fundamental for JEE/NEET thermodynamics problems.</p>
+<h3 id="temperature-scales">Temperature Scales</h3>
+<ul>
+<li><strong>Celsius Scale</strong>: 0°C at the freezing point of water, 100°C at the boiling point (at 1 atm).</li>
+<li><strong>Kelvin Scale</strong>: Absolute scale, $T (\text{K}) = T (\text{°C}) + 273.15$. Absolute zero (0 K) is where particle motion theoretically stops.</li>
+<li><strong>Fahrenheit Scale</strong>: Less common in JEE/NEET, but $T (\text{°F}) = \frac{9}{5} T (\text{°C}) + 32$.</li>
+<li><strong>Conversion</strong>: Between Celsius and Kelvin: $T (\text{K}) = T (\text{°C}) + 273.15$. Between Celsius and Fahrenheit: $T (\text{°C}) = \frac{5}{9} (T (\text{°F}) - 32)$.</li>
+</ul>
+<h3 id="zeroth-law-of-thermodynamics">Zeroth Law of Thermodynamics</h3>
+<p>The zeroth law states: if two systems are each in thermal equilibrium with a third system, they are in thermal equilibrium with each other. This defines temperature as a measurable quantity and allows the use of a thermometer.</p>
+<h3 id="thermometers-and-thermal-equilibrium">Thermometers and Thermal Equilibrium</h3>
+<p>A thermometer (e.g., mercury, alcohol) measures temperature by thermal expansion. When a thermometer is in contact with a system, they exchange heat until they reach thermal equilibrium (same temperature). The zeroth law ensures consistency in temperature measurement.</p>
+<h3 id="temperature-measurement">Temperature Measurement</h3>
+<ul>
+<li><strong>Ideal Gas Thermometer</strong>: Uses $P V = n R T$ at constant volume: $T \propto P$. More accurate at low pressures (ideal gas limit).</li>
+<li><strong>Thermocouples</strong>: Measure temperature via voltage difference due to the Seebeck effect.</li>
+</ul>
+<p><strong>Derivation</strong>: <strong>Kelvin-Celsius Conversion</strong><br />
+The Kelvin scale sets absolute zero at 0 K, where $T = -273.15 , \text{°C}$. Thus, $T (\text{K}) = T (\text{°C}) + 273.15$. For simplicity, JEE/NEET often uses $T (\text{K}) = T (\text{°C}) + 273$.</p>
+<p><strong>Derivation</strong>: <strong>Celsius-Fahrenheit Conversion</strong><br />
+The Celsius and Fahrenheit scales are linear: $T (\text{°F}) = \frac{9}{5} T (\text{°C}) + 32$. At 0°C, $T (\text{°F}) = 32$; at 100°C, $T (\text{°F}) = 212$. Solve for the linear relationship: $\frac{T (\text{°F}) - 32}{T (\text{°C})} = \frac{212 - 32}{100} = \frac{9}{5}$, so $T (\text{°F}) = \frac{9}{5} T (\text{°C}) + 32$.</p>
+<p><strong>Derivation</strong>: <strong>Ideal Gas Thermometer</strong><br />
+For an ideal gas at constant volume, $P V = n R T$ gives $P \propto T$. Measure pressure $P$ at known temperatures (e.g., 0°C, 100°C) to calibrate: $T = \frac{P}{P_{\text{triple}}} \times 273.16$, where $P_{\text{triple}}$ is the pressure at the triple point of water (273.16 K).</p>
+<p><strong>Derivation</strong>: <strong>Thermal Equilibrium via Zeroth Law</strong><br />
+If system A is in equilibrium with system C (same temperature $T_A = T_C$), and system B is also in equilibrium with C ($T_B = T_C$), the zeroth law states A and B are in equilibrium ($T_A = T_B$). This allows temperature to be a universal property.</p>
+<p><strong>Solved Example</strong>: A JEE Main problem involves converting 37°C to Kelvin.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$T (\text{K}) = T (\text{°C}) + 273 = 37 + 273 = 310 , \text{K}$.
+<ul>
+<li><strong>JEE Tip</strong>: Always use Kelvin for thermodynamic calculations; add 273 for simplicity in exams. Common error: Using 273.15 instead of 273, which is fine for JEE/NEET precision.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A NEET problem involves converting 98.6°F to Celsius.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$T (\text{°C}) = \frac{5}{9} (T (\text{°F}) - 32) = \frac{5}{9} (98.6 - 32) = \frac{5}{9} \times 66.6 \approx 37 , \text{°C}$.
+<ul>
+<li><strong>NEET Tip</strong>: Fahrenheit conversions are rare in NEET but useful for real-world context (e.g., body temperature). Common error: Forgetting to subtract 32 first.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Advanced problem involves two systems A and B, each in equilibrium with a thermometer at 25°C. Are A and B in thermal equilibrium?</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+The zeroth law states that if A and B are each in equilibrium with the thermometer (at 25°C), they are in equilibrium with each other (both at 25°C). Yes, they are in thermal equilibrium.
+<ul>
+<li><strong>JEE Tip</strong>: The zeroth law ensures temperature consistency; no heat flows between systems at the same temperature. Common error: Assuming heat flow without temperature difference.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Main problem involves an ideal gas thermometer with pressure $P_1 = 1.2 , \text{atm}$ at 0°C and $P_2 = 1.4 , \text{atm}$ at unknown $T$. Find $T$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$T \propto P$ at constant volume. $T_1 = 0 + 273 = 273 , \text{K}$, $P_1 = 1.2 , \text{atm}$. So, $\frac{T_2}{T_1} = \frac{P_2}{P_1}$, $T_2 = 273 \times \frac{1.4}{1.2} \approx 318.5 , \text{K}$, or $T \approx 45.5 , \text{°C}$.
+<ul>
+<li><strong>JEE Tip</strong>: Ideal gas thermometers use $P \propto T$; convert final $T$ to Celsius if needed. Common error: Not converting initial temperature to Kelvin.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Application</strong>: Temperature scales apply to thermometry (e.g., medical thermometers), industrial processes (e.g., rocket engine temperature monitoring), and thermal equilibrium in calorimetry experiments.</p>
+<h2 id="18-2-heat-transfer-mechanisms">18.2 Heat Transfer Mechanisms</h2>
+<p>Heat transfer occurs via conduction, convection, and radiation, mechanisms that govern energy exchange between systems, a key topic for JEE/NEET thermal problems.</p>
+<h3 id="heat-and-work">Heat and Work</h3>
+<ul>
+<li><strong>Heat ($Q$)</strong>: Energy transferred due to a temperature difference, measured in joules (J). Positive $Q$ means heat added to the system.</li>
+<li><strong>Work ($W$)</strong>: Energy transferred via mechanical means (e.g., expansion/compression). In thermodynamics, $W$ is positive when done by the system.</li>
+</ul>
+<h3 id="conduction">Conduction</h3>
+<p>Heat transfer through a material without bulk motion:<br />
+$$
+Q = \frac{k A \Delta T t}{L}
+$$</p>
+<ul>
+<li>$k$: Thermal conductivity (W/m·K).</li>
+<li>$A$: Cross-sectional area (m²).</li>
+<li>$\Delta T$: Temperature difference (K or °C).</li>
+<li>$L$: Thickness of the material (m).</li>
+<li>$t$: Time (s).</li>
+</ul>
+<h3 id="convection">Convection</h3>
+<p>Heat transfer via bulk motion of a fluid (e.g., air currents). Described qualitatively in JEE/NEET; rate depends on fluid properties, temperature difference, and geometry (e.g., Newton’s law of cooling: $\frac{dQ}{dt} \propto \Delta T$).</p>
+<h3 id="radiation">Radiation</h3>
+<p>Heat transfer via electromagnetic waves, following the Stefan-Boltzmann law:<br />
+$$
+P = \sigma A e T^4
+$$</p>
+<ul>
+<li>$\sigma = 5.67 \times 10^{-8} , \text{W/m}^2\text{·K}^4$: Stefan-Boltzmann constant.</li>
+<li>$A$: Surface area (m²).</li>
+<li>$e$: Emissivity (0 to 1).</li>
+<li>$T$: Absolute temperature (K).</li>
+</ul>
+<h3 id="thermal-resistance">Thermal Resistance</h3>
+<p>For conduction, thermal resistance $R = \frac{L}{k A}$, analogous to electrical resistance. For multiple layers: $Q = \frac{\Delta T}{\sum R_i}$.</p>
+<p><strong>Derivation</strong>: <strong>Conduction Equation ($Q = \frac{k A \Delta T t}{L}$)</strong><br />
+Consider a slab of area $A$, thickness $L$, with temperatures $T_1$ (hot) and $T_2$ (cold) at its faces ($T_1 &gt; T_2$). The temperature gradient is $\frac{\Delta T}{L} = \frac{T_1 - T_2}{L}$. Fourier’s law gives the heat flux: $\frac{dQ}{dt} = - k A \frac{dT}{dx}$. For steady state, $\frac{dT}{dx} = -\frac{T_1 - T_2}{L}$. So, $\frac{dQ}{dt} = k A \frac{T_1 - T_2}{L}$. Integrate over time $t$: $Q = \frac{k A (T_1 - T_2) t}{L}$.</p>
+<p><strong>Derivation</strong>: <strong>Stefan-Boltzmann Law ($P = \sigma A e T^4$)</strong><br />
+A blackbody emits radiation per unit area as $J = \sigma T^4$ (Stefan-Boltzmann law). For a real body with emissivity $e$, power radiated is $P = e \times (\sigma T^4) \times A = \sigma A e T^4$. Net power (if surroundings at $T_0$): $P_{\text{net}} = \sigma A e (T^4 - T_0^4)$.</p>
+<p><strong>Derivation</strong>: <strong>Thermal Resistance for Conduction</strong><br />
+Rewrite conduction as $Q = \frac{\Delta T}{\frac{L}{k A}} t$. Define thermal resistance $R = \frac{L}{k A}$, so $\frac{dQ}{dt} = \frac{\Delta T}{R}$, analogous to Ohm’s law ($I = \frac{\Delta V}{R}$).</p>
+<p><strong>Derivation</strong>: <strong>Heat Transfer in Rocket Engine Cooling</strong><br />
+A rocket engine wall (area $A = 0.1 , \text{m}^2$, $L = 0.02 , \text{m}$, $k = 50 , \text{W/m·K}$) transfers heat from $T_1 = 1000 , \text{K}$ to $T_2 = 300 , \text{K}$. Rate: $\frac{dQ}{dt} = \frac{k A (T_1 - T_2)}{L} = \frac{50 \times 0.1 \times 700}{0.02} = 175000 , \text{W}$, critical for cooling design.</p>
+<p><strong>Solved Example</strong>: A JEE Main problem involves a slab ($k = 0.2 , \text{W/m·K}$, $A = 0.5 , \text{m}^2$, $L = 0.1 , \text{m}$) with faces at 100°C and 20°C. Find the heat transfer rate.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$\frac{dQ}{dt} = \frac{k A (T_1 - T_2)}{L} = \frac{0.2 \times 0.5 \times (100 - 20)}{0.1} = \frac{0.2 \times 0.5 \times 80}{0.1} = 80 , \text{W}$.
+<ul>
+<li><strong>JEE Tip</strong>: Heat flows from high to low temperature; units work out to W (J/s). Common error: Using Kelvin instead of °C for $\Delta T$—both work since it’s a difference.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A NEET problem involves a body at 527°C radiating with $e = 0.8$, $A = 0.01 , \text{m}^2$ ($\sigma = 5.67 \times 10^{-8} , \text{W/m}^2\text{·K}^4$). Find the power radiated (surroundings at 27°C).</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$T = 527 + 273 = 800 , \text{K}$, $T_0 = 27 + 273 = 300 , \text{K}$. Net power: $P_{\text{net}} = \sigma A e (T^4 - T_0^4) = 5.67 \times 10^{-8} \times 0.01 \times 0.8 \times (800^4 - 300^4) = 5.67 \times 10^{-8} \times 0.01 \times 0.8 \times (4.096 \times 10^{11} - 8.1 \times 10^9) \approx 184.5 , \text{W}$.
+<ul>
+<li><strong>NEET Tip</strong>: Use Kelvin for radiation; $T^4$ dominates at higher temperatures. Common error: Forgetting to subtract $T_0^4$.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Advanced problem involves two slabs in series: slab 1 ($k_1 = 0.3 , \text{W/m·K}$, $L_1 = 0.05 , \text{m}$) and slab 2 ($k_2 = 0.5 , \text{W/m·K}$, $L_2 = 0.03 , \text{m}$), $A = 1 , \text{m}^2$, with faces at 80°C and 20°C. Find the heat transfer rate.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$R_1 = \frac{L_1}{k_1 A} = \frac{0.05}{0.3 \times 1} = \frac{1}{6}$, $R_2 = \frac{L_2}{k_2 A} = \frac{0.03}{0.5 \times 1} = \frac{3}{50}$. Total resistance: $R = R_1 + R_2 = \frac{1}{6} + \frac{3}{50} = \frac{23}{75}$. $\frac{dQ}{dt} = \frac{\Delta T}{R} = \frac{80 - 20}{\frac{23}{75}} = 60 \times \frac{75}{23} \approx 195.65 , \text{W}$.
+<ul>
+<li><strong>JEE Tip</strong>: Add thermal resistances in series like electrical resistors; steady-state heat flow is constant. Common error: Not converting resistances to a common denominator.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Main problem involves a rocket engine wall ($k = 40 , \text{W/m·K}$, $A = 0.2 , \text{m}^2$, $L = 0.015 , \text{m}$) with $T_1 = 1200 , \text{K}$, $T_2 = 400 , \text{K}$. Find the heat transfer rate.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$\frac{dQ}{dt} = \frac{k A (T_1 - T_2)}{L} = \frac{40 \times 0.2 \times (1200 - 400)}{0.015} = \frac{40 \times 0.2 \times 800}{0.015} \approx 426667 , \text{W}$.
+<ul>
+<li><strong>JEE Tip</strong>: High heat transfer rates are critical in rocket engines (your interest, April 19, 2025); units are W. Common error: Using °C instead of K for $\Delta T$—both work here.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Application</strong>: Heat transfer applies to cooking (conduction in pans), climate control (convection in air), space (radiation from stars), and rocketry (e.g., heat management in engines, aligning with your interest, April 19, 2025).</p>
+<h2 id="18-3-specific-heat-calorimetry-and-thermal-expansion">18.3 Specific Heat, Calorimetry, and Thermal Expansion</h2>
+<p><strong>Specific heat</strong>, <strong>calorimetry</strong>, and <strong>thermal expansion</strong> describe how materials respond to heat and temperature changes, essential for solving JEE/NEET heat transfer problems.</p>
+<h3 id="specific-heat-and-molar-heat-capacity">Specific Heat and Molar Heat Capacity</h3>
+<ul>
+<li><strong>Specific Heat ($c$)</strong>: Heat required to raise 1 kg of a substance by 1 K: $Q = m c \Delta T$ (J/kg·K).</li>
+<li><strong>Molar Heat Capacity ($C$)</strong>: Heat required to raise 1 mole by 1 K: $Q = n C \Delta T$ (J/mol·K). $C = \frac{M c}{n}$, where $M$ is molar mass.</li>
+<li><strong>Water</strong>: $c_{\text{water}} = 4186 , \text{J/kg·K}$ (1 cal/g·°C, where 1 cal = 4.186 J).</li>
+</ul>
+<h3 id="calorimetry">Calorimetry</h3>
+<p>Calorimetry measures heat exchange: $Q_{\text{gained}} = - Q_{\text{lost}}$. For a system (e.g., mixing water): $m_1 c_1 (T_f - T_1) + m_2 c_2 (T_f - T_2) = 0$, solving for final temperature $T_f$.</p>
+<h3 id="phase-changes">Phase Changes</h3>
+<p>Heat for phase change: $Q = m L$, where $L$ is the latent heat (J/kg).</p>
+<ul>
+<li><strong>Fusion</strong>: $L_f$ (melting/freezing, e.g., water: $L_f = 3.34 \times 10^5 , \text{J/kg}$).</li>
+<li><strong>Vaporization</strong>: $L_v$ (boiling/condensation, e.g., water: $L_v = 2.26 \times 10^6 , \text{J/kg}$).</li>
+</ul>
+<h3 id="thermal-expansion">Thermal Expansion</h3>
+<ul>
+<li><strong>Linear Expansion</strong>: $\Delta L = L_0 \alpha \Delta T$, where $\alpha$ is the coefficient of linear expansion (K⁻¹).</li>
+<li><strong>Area Expansion</strong>: $\Delta A = A_0 (2 \alpha) \Delta T$.</li>
+<li><strong>Volume Expansion</strong>: $\Delta V = V_0 \beta \Delta T$, where $\beta \approx 3 \alpha$ for isotropic solids.</li>
+</ul>
+<p><strong>Derivation</strong>: <strong>Heat Equation ($Q = m c \Delta T$)</strong><br />
+Heat $Q$ raises the temperature of mass $m$ by $\Delta T$. Define specific heat $c$ as $c = \frac{Q}{m \Delta T}$ for a linear temperature dependence (valid for small $\Delta T$). Thus, $Q = m c \Delta T$. For molar heat capacity: $Q = n C \Delta T$, where $C = \frac{m c}{n}$.</p>
+<p><strong>Derivation</strong>: <strong>Calorimetry Equation</strong><br />
+Two systems exchange heat with no external loss: $Q_1 + Q_2 = 0$. For masses $m_1$, $m_2$ at temperatures $T_1$, $T_2$ reaching final temperature $T_f$: $m_1 c_1 (T_f - T_1) + m_2 c_2 (T_f - T_2) = 0$. Solve for $T_f$: $T_f = \frac{m_1 c_1 T_1 + m_2 c_2 T_2}{m_1 c_1 + m_2 c_2}$.</p>
+<p><strong>Derivation</strong>: <strong>Linear Expansion ($\Delta L = L_0 \alpha \Delta T$)</strong><br />
+A rod of length $L_0$ expands with temperature increase $\Delta T$. The fractional change $\frac{\Delta L}{L_0}$ is proportional to $\Delta T$: $\frac{\Delta L}{L_0} = \alpha \Delta T$, where $\alpha$ is the coefficient of linear expansion. Thus, $\Delta L = L_0 \alpha \Delta T$. For area ($A = L \times W$): $\frac{\Delta A}{A_0} \approx 2 \alpha \Delta T$. For volume: $\frac{\Delta V}{V_0} \approx 3 \alpha \Delta T$.</p>
+<p><strong>Derivation</strong>: <strong>Thermal Expansion in Rocket Materials</strong><br />
+A rocket component (steel, $L_0 = 1 , \text{m}$, $\alpha = 12 \times 10^{-6} , \text{K}^{-1}$) heats from 300 K to 800 K. Expansion: $\Delta L = 1 \times 12 \times 10^{-6} \times (800 - 300) = 0.006 , \text{m}$, critical for design tolerances.</p>
+<p><strong>Solved Example</strong>: A JEE Main problem involves mixing 0.2 kg of water at 80°C with 0.3 kg at 20°C ($c_{\text{water}} = 4186 , \text{J/kg·K}$). Find the final temperature.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$m_1 c (T_f - T_1) + m_2 c (T_f - T_2) = 0$: $0.2 \times 4186 \times (T_f - 80) + 0.3 \times 4186 \times (T_f - 20) = 0$. Simplify: $0.2 (T_f - 80) + 0.3 (T_f - 20) = 0$, $0.5 T_f - 22 = 0$, $T_f = 44 , \text{°C}$.
+<ul>
+<li><strong>JEE Tip</strong>: Heat lost equals heat gained; $c$ cancels for the same material. Common error: Not balancing heat terms, leading to incorrect $T_f$.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A NEET problem involves melting 0.5 kg of ice at 0°C to water at 0°C ($L_f = 3.34 \times 10^5 , \text{J/kg}$). Find the heat required.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$Q = m L_f = 0.5 \times 3.34 \times 10^5 = 1.67 \times 10^5 , \text{J}$.
+<ul>
+<li><strong>NEET Tip</strong>: Phase change heat uses $L$, not $c$; no temperature change occurs. Common error: Using $Q = m c \Delta T$ during a phase change.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Advanced problem involves a steel rod ($L_0 = 2 , \text{m}$, $\alpha = 12 \times 10^{-6} , \text{K}^{-1}$) heating from 20°C to 120°C. Find the length increase.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$\Delta L = L_0 \alpha \Delta T = 2 \times 12 \times 10^{-6} \times (120 - 20) = 2 \times 12 \times 10^{-6} \times 100 = 0.0024 , \text{m}$.
+<ul>
+<li><strong>JEE Tip</strong>: Use $\Delta T$ in °C or K (same for differences); $\alpha$ is small, so $\Delta L$ is small. Common error: Forgetting to convert $\alpha$ to base units.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Main problem involves heating 1 kg of water from 20°C to 80°C ($c_{\text{water}} = 4186 , \text{J/kg·K}$). Find the heat added.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$Q = m c \Delta T = 1 \times 4186 \times (80 - 20) = 4186 \times 60 = 251160 , \text{J}$.
+<ul>
+<li><strong>JEE Tip</strong>: $Q$ is in joules; use $\Delta T$ directly. Common error: Using incorrect $c$ (e.g., cal/g·°C without conversion).</li>
+</ul>
+</li>
+</ul>
+<p><strong>Application</strong>: Specific heat and calorimetry apply to cooking (e.g., boiling water), thermal expansion to engineering (e.g., bridges, rocket components), and phase changes to refrigeration and rocketry (e.g., fuel vaporization, aligning with your interest, April 19, 2025).</p>
+<h2 id="18-4-the-first-law-of-thermodynamics-and-its-applications">18.4 The First Law of Thermodynamics and Its Applications</h2>
+<p>The <strong>first law of thermodynamics</strong> is a statement of energy conservation, linking heat, work, and internal energy, a cornerstone for JEE/NEET thermodynamics problems.</p>
+<h3 id="first-law-of-thermodynamics">First Law of Thermodynamics</h3>
+<p>The first law states: the change in internal energy $\Delta U$ of a system equals the heat $Q$ added to the system minus the work $W$ done by the system:<br />
+$$
+\Delta U = Q - W
+$$</p>
+<ul>
+<li>$\Delta U$: Change in internal energy (J), depends on temperature for an ideal gas.</li>
+<li>$Q$: Heat added (positive if added to system).</li>
+<li>$W$: Work done by the system (positive if system expands).</li>
+</ul>
+<h3 id="internal-energy">Internal Energy</h3>
+<p>For an ideal gas, internal energy $U$ depends only on temperature: $U = \frac{f}{2} n R T$, where $f$ is degrees of freedom (e.g., $f = 3$ for monatomic gas), $n$ is moles, $R = 8.314 , \text{J/mol·K}$.</p>
+<h3 id="work-done-by-a-gas">Work Done by a Gas</h3>
+<p>For a gas expanding at pressure $P$: $W = \int P dV$. For constant pressure: $W = P \Delta V$. For an ideal gas, $P V = n R T$, so $W = n R \Delta T$ if $P$ is constant.</p>
+<h3 id="thermodynamic-processes">Thermodynamic Processes</h3>
+<ul>
+<li><strong>Isothermal</strong>: $\Delta T = 0$, $\Delta U = 0$, so $Q = W$. For an ideal gas: $W = n R T \ln\left(\frac{V_2}{V_1}\right)$.</li>
+<li><strong>Adiabatic</strong>: $Q = 0$, so $\Delta U = - W$. For an ideal gas: $P V^\gamma = \text{constant}$, $T V^{\gamma - 1} = \text{constant}$.</li>
+<li><strong>Isobaric</strong>: $P = \text{constant}$, $W = P \Delta V$.</li>
+<li><strong>Isochoric</strong>: $V = \text{constant}$, $W = 0$, so $\Delta U = Q$.</li>
+</ul>
+<p><strong>Derivation</strong>: <strong>First Law ($\Delta U = Q - W$)</strong><br />
+Energy conservation: the total energy change of a system $\Delta U$ equals energy input ($Q$) minus energy output ($W$). For a gas, $U$ is the kinetic energy of molecules (for ideal gas, $U \propto T$). Heat $Q$ adds energy, work $W$ removes energy if done by the system (e.g., expansion). Thus, $\Delta U = Q - W$.</p>
+<p><strong>Derivation</strong>: <strong>Work Done in Isobaric Process ($W = P \Delta V$)</strong><br />
+For constant pressure $P$, work done by a gas during expansion from $V_1$ to $V_2$: $W = \int_{V_1}^{V_2} P dV = P (V_2 - V_1) = P \Delta V$. For an ideal gas, $\Delta V = \frac{n R \Delta T}{P}$, so $W = n R \Delta T$.</p>
+<p><strong>Derivation</strong>: <strong>Isothermal Work for an Ideal Gas</strong><br />
+For an isothermal process ($\Delta T = 0$), $P V = n R T = \text{constant}$. $P = \frac{n R T}{V}$. Work: $W = \int_{V_1}^{V_2} P dV = \int_{V_1}^{V_2} \frac{n R T}{V} dV = n R T \ln\left(\frac{V_2}{V_1}\right)$. Since $\Delta U = 0$, $Q = W$.</p>
+<p><strong>Derivation</strong>: <strong>Adiabatic Rocket Engine Expansion</strong><br />
+In a rocket engine, gas expands adiabatically ($Q = 0$). For $P_1 V_1^\gamma = P_2 V_2^\gamma$, if $V_2 = 2 V_1$, $\gamma = 1.4$: $P_2 = P_1 \left( \frac{V_1}{V_2} \right)^\gamma = P_1 \left( \frac{1}{2} \right)^{1.4} \approx 0.379 P_1$, reducing pressure and temperature, aiding propulsion.</p>
+<p><strong>Solved Example</strong>: A JEE Main problem involves 1 mole of an ideal gas expanding isobarically at $P = 1 , \text{atm}$ ($1.013 \times 10^5 , \text{Pa}$) from $V_1 = 0.01 , \text{m}^3$ to $V_2 = 0.02 , \text{m}^3$. Find the work done.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$W = P \Delta V = 1.013 \times 10^5 \times (0.02 - 0.01) = 1.013 \times 10^5 \times 0.01 = 1013 , \text{J}$.
+<ul>
+<li><strong>JEE Tip</strong>: Work is positive for expansion; convert pressure to Pa for SI units. Common error: Forgetting to compute $\Delta V$.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A NEET problem involves 2 moles of an ideal gas undergoing an isothermal expansion at 300 K from $V_1 = 0.01 , \text{m}^3$ to $V_2 = 0.02 , \text{m}^3$ ($R = 8.314 , \text{J/mol·K}$). Find the heat added.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$\Delta U = 0$ (isothermal), so $Q = W$. $W = n R T \ln\left(\frac{V_2}{V_1}\right) = 2 \times 8.314 \times 300 \times \ln\left(\frac{0.02}{0.01}\right) = 2 \times 8.314 \times 300 \times \ln 2 \approx 3457 , \text{J}$. Thus, $Q = 3457 , \text{J}$.
+<ul>
+<li><strong>NEET Tip</strong>: Isothermal $Q = W$; use $\ln 2 \approx 0.693$ for calculations. Common error: Assuming $\Delta U \neq 0$.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Advanced problem involves 1 mole of monatomic gas ($C_V = \frac{3}{2} R$) heated at constant volume from 300 K to 350 K. Find $\Delta U$ and $Q$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$W = 0$ (constant volume). $\Delta U = n C_V \Delta T = 1 \times \frac{3}{2} \times 8.314 \times (350 - 300) = 1 \times \frac{3}{2} \times 8.314 \times 50 \approx 623.55 , \text{J}$. First law: $\Delta U = Q - W$, so $Q = \Delta U = 623.55 , \text{J}$.
+<ul>
+<li><strong>JEE Tip</strong>: $C_V = \frac{f}{2} R$, $f = 3$ for monatomic gas; $W = 0$ at constant volume. Common error: Using $C_P$ instead of $C_V$.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Main problem involves a rocket engine gas expanding adiabatically from $P_1 = 5 , \text{atm}$, $V_1 = 0.01 , \text{m}^3$ to $V_2 = 0.02 , \text{m}^3$ ($\gamma = 1.4$). Find $P_2$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$P V^\gamma = \text{constant}$, so $P_1 V_1^\gamma = P_2 V_2^\gamma$. $P_2 = P_1 \left( \frac{V_1}{V_2} \right)^\gamma = 5 \times \left( \frac{0.01}{0.02} \right)^{1.4} = 5 \times (0.5)^{1.4} \approx 5 \times 0.379 \approx 1.895 , \text{atm}$.
+<ul>
+<li><strong>JEE Tip</strong>: Adiabatic processes in rocket engines (your interest, April 19, 2025) reduce pressure; use $\gamma$ for the gas. Common error: Using isothermal relation ($P V = \text{constant}$).</li>
+</ul>
+</li>
+</ul>
+<p><strong>Application</strong>: The first law applies to engines (e.g., car engines), refrigeration, and rocketry (e.g., adiabatic expansion in rocket engines, aligning with your interest, April 19, 2025).</p>
+<h2 id="summary-and-quick-revision">Summary and Quick Revision</h2>
+<ul>
+<li><strong>Temperature Scales</strong>: $T (\text{K}) = T (\text{°C}) + 273$. $T (\text{°F}) = \frac{9}{5} T (\text{°C}) + 32$. Zeroth law: if $T_A = T_C$ and $T_B = T_C$, then $T_A = T_B$. Ideal gas thermometer: $T \propto P$.</li>
+<li><strong>Heat Transfer</strong>: Conduction: $Q = \frac{k A \Delta T t}{L}$, $R = \frac{L}{k A}$. Convection: $\frac{dQ}{dt} \propto \Delta T$. Radiation: $P = \sigma A e T^4$, $\sigma = 5.67 \times 10^{-8} , \text{W/m}^2\text{·K}^4$.</li>
+<li><strong>Specific Heat and Calorimetry</strong>: $Q = m c \Delta T$, $Q = n C \Delta T$. Calorimetry: $Q_{\text{gained}} = - Q_{\text{lost}}$. Phase change: $Q = m L$. Linear expansion: $\Delta L = L_0 \alpha \Delta T$. Volume expansion: $\Delta V = V_0 \beta \Delta T$, $\beta \approx 3 \alpha$.</li>
+<li><strong>First Law</strong>: $\Delta U = Q - W$. Ideal gas: $U = \frac{f}{2} n R T$. Isothermal: $\Delta U = 0$, $Q = W = n R T \ln\left(\frac{V_2}{V_1}\right)$. Adiabatic: $Q = 0$, $P V^\gamma = \text{constant}$. Isobaric: $W = P \Delta V$. Isochoric: $W = 0$.</li>
+<li><strong>Applications</strong>: Thermometry, heat transfer in engineering, calorimetry in chemistry, rocket engine thermodynamics.</li>
+<li><strong>JEE/NEET Tips</strong>: Use Kelvin for thermodynamic equations, apply zeroth law for equilibrium, balance heat in calorimetry, use correct $\gamma$ for adiabatic processes, verify significant figures (April 14, 2025), distinguish heat and work signs in the first law.</li>
+<li><strong>SI Units</strong>: Temperature (K), heat/work (J), specific heat (J/kg·K), molar heat capacity (J/mol·K), thermal conductivity (W/m·K), coefficient of expansion (K⁻¹).</li>
+</ul>
+<h2 id="practice-problems">Practice Problems</h2>
+<p>Explore our problem set with <strong>100 problems</strong> inspired by JEE Main, JEE Advanced, and NEET patterns to test your understanding.</p>
+<p><a href="https://vidyamarg.com/books/physics/v1/thermodynamics-temperature-heat/./problems">View Problems</a></p>
+<h2 id="watch-on-youtube">Watch on YouTube</h2>
+<p>Our Hinglish video lessons make thermodynamics engaging! Subscribe for updates.</p>
+<p><a href="https://www.youtube.com/@VidyaMargbyRaviShankar-w9u">Watch Now</a></p>
+<p><em>Animation for visualizing heat transfer, thermal expansion, and thermodynamic processes coming soon!</em></p>
+<p><em>Note: Content regularly updated to align with current JEE/NEET syllabi.</em></p>
+
+        </article>
+    </div>
+
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container text-center py-5">
+            <ul class="social-list list-unstyled pt-4 mb-0">
+                
+                    <li class="list-inline-item">
+                        <a href="https:&#x2F;&#x2F;www.youtube.com&#x2F;@VidyaMargbyRaviShankar-w9u" target="_blank" title="YouTube"><i class="fab fa-youtube fa-fw"></i></a>
+                    </li>
+                
+                    <li class="list-inline-item">
+                        <a href="https:&#x2F;&#x2F;t.me&#x2F;vidyamarg1" target="_blank" title="Telegram"><i class="fab fa-telegram fa-fw"></i></a>
+                    </li>
+                
+            </ul>
+            <small class="copyright">
+                © 2025 Vidya Marg. Designed with <span class="sr-only">love</span><i class="fas fa-heart" style="color: #fb866a;"></i> by <a class="theme-link" href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers. <a class="theme-link" href="/app/privacy-policy/">Privacy Policy</a>
+            </small>
+        </div>
+    </footer>
+
+    <!-- Javascript -->          
+    <script src="https://vidyamarg.com/plugins/popper.min.js"></script>
+    <script src="https://vidyamarg.com/plugins/bootstrap/js/bootstrap.min.js"></script>  
+    
+    <!-- Page Specific JS -->
+    <script src="https://vidyamarg.com/plugins/smoothscroll.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
+    <script src="https://vidyamarg.com/js/highlight-custom.js"></script> 
+    <script src="https://vidyamarg.com/plugins/simplelightbox/simple-lightbox.min.js"></script>      
+    <script src="https://vidyamarg.com/plugins/gumshoe/gumshoe.polyfills.min.js"></script> 
+    <script src="https://vidyamarg.com/js/docs.js"></script> 
+
+    <script>
+        function renderLatex() {
+            if (typeof renderMathInElement === "undefined") {
+                setTimeout(renderLatex, 100);
+                return;
+            }
+            renderMathInElement(document.body, {
+                delimiters: [
+                    { left: "$$", right: "$$", display: true },
+                    { left: "$", right: "$", display: false },
+                    { left: "\\(", right: "\\)", display: false },
+                    { left: "\\[", right: "\\]", display: true }
+                ],
+                throwOnError: false
+            });
+        }
+
+        window.addEventListener("load", function() {
+            renderLatex();
+        });
+    </script>
+</body>
+</html>

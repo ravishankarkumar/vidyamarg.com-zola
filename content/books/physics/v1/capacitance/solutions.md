@@ -1,7 +1,7 @@
 ---
 title: Physics Book - Capacitance Solutions for JEE & NEET
 description: Sample solutions for electrostatics problems, covering capacitance calculations, series and parallel combinations, energy storage, and dielectrics in capacitors, tailored for JEE and NEET preparation.
-slug: books/physics/capacitance/solutions
+slug: solutions
 keywords: physics capacitance solutions, JEE physics capacitors solutions, NEET physics energy storage solutions, electrostatics
 og:image: https://vidyamarg.com/og-physics-capacitance.jpg
 ---
@@ -157,6 +157,6 @@ The answer is (b) $2.50 \times 10^{-2} \, \text{J}$.
 - **JEE/NEET Tip**: Convert $C$ to farads; the $\frac{1}{2}$ factor is critical for energy. Common error: Forgetting to square $V$ or omitting the $\frac{1}{2}$.
 
 ## Back to Chapter
-[Return to Capacitance Chapter](./index.md)
+[Return to Capacitance Chapter](../../capacitance)
 
-[Return to Capacitance Problems](./problems.md)
+[Return to Capacitance Problems](../../capacitance/problems)

@@ -1,14 +1,26 @@
 ---
 title: Physics Book - Rolling, Torque, and Angular Momentum for JEE & NEET
 description: Comprehensive guide on rolling, torque, and angular momentum for JEE and NEET, covering dynamics of rotation, rolling motion, angular momentum conservation, and applications, with extensive examples and exam strategies.
-slug: books/physics/rolling-torque-angular-momentum
+slug: rolling-torque-angular-momentum
 keywords: physics rolling torque angular momentum, JEE physics torque, NEET physics rolling motion, angular momentum conservation
 og:image: https://vidyamarg.com/og-physics-rolling-torque-angular-momentum.jpg
 ---
 
 # Chapter 11: Rolling, Torque, and Angular Momentum
 
-**Beta Version**: Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!
+
+
+<div class="callout-block callout-warning">
+    <div class="content">
+        <h4 class="callout-title">
+            <span class="callout-icon-holder me-1">
+                <i class="fas fa-exclamation-triangle"></i>
+            </span>
+            Beta Version
+        </h4>
+        <p>Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!</p>
+    </div>
+</div>
 
 Rolling, torque, and angular momentum are pivotal concepts in rotational dynamics, building on the foundational principles of rotation introduced in Chapter 10. These topics are essential for understanding how objects spin, roll, and maintain stability—whether it’s a wheel rolling down a hill, a dancer spinning gracefully, or a rocket maintaining its orientation in space. For JEE Main, JEE Advanced, and NEET students, mastering these concepts is crucial, as they frequently appear in problems involving rotational motion, energy conservation, and system dynamics. This chapter provides an in-depth exploration of **torque as the driver of rotational motion**, **angular momentum and its conservation**, and **rolling motion as a combination of translation and rotation**, offering detailed explanations, derivations, numerous solved examples, and practical applications to ensure you can tackle even the most challenging exam questions.
 
@@ -338,7 +350,7 @@ A rocket with $I = 1000 \, kg \cdot m^2$ spins at $\omega = 5 \, \text{rad/s}$. 
 ## Practice Problems
 Explore our problem set with **100 problems** inspired by JEE Main, JEE Advanced, and NEET patterns to test your understanding.
 
-[View Problems](./problems.md)
+[View Problems](./problems)
 
 ## Watch on YouTube
 Our Hinglish video lessons make these concepts engaging! Subscribe for updates.

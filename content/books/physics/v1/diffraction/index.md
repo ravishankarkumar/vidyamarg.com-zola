@@ -1,14 +1,26 @@
 ---
 title: Physics Book - Diffraction for JEE & NEET
 description: Comprehensive guide on diffraction of light for JEE and NEET, covering Huygens' principle, single-slit diffraction, diffraction gratings, and applications, with extensive examples.
-slug: books/physics/diffraction
+slug: diffraction
 keywords: physics diffraction, JEE physics wave optics, NEET physics single-slit diffraction, diffraction patterns
 og:image: https://vidyamarg.com/og-physics-diffraction.jpg
 ---
 
 # Chapter 36: Diffraction
 
-**Beta Version**: Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!
+
+
+<div class="callout-block callout-warning">
+    <div class="content">
+        <h4 class="callout-title">
+            <span class="callout-icon-holder me-1">
+                <i class="fas fa-exclamation-triangle"></i>
+            </span>
+            Beta Version
+        </h4>
+        <p>Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!</p>
+    </div>
+</div>
 
 Diffraction of light, such as in spacecraft optical systems, demonstrates the wave nature of light through bending around obstacles. Building on the concepts of interference (Chapter 35) and electromagnetic waves (Chapter 33), this chapter explores diffraction phenomena in wave optics. For JEE Main, JEE Advanced, and NEET students, mastering diffraction is essential, as it frequently appears in problems involving diffraction patterns, minima/maxima, and resolving power. This chapter, **Diffraction**, covers **Huygens' principle and wave nature**, **single-slit diffraction**, **diffraction gratings**, and **applications of diffraction**, providing detailed explanations, derivations, solved examples, and practical applications to ensure conceptual clarity and problem-solving proficiency.
 
@@ -239,7 +251,7 @@ A spacecraft telescope (aperture $a = 0.1 \, \text{m}$, $\lambda = 550 \, \text{
 ## Practice Problems
 Explore our problem set with **100 problems** inspired by JEE Main, JEE Advanced, and NEET patterns to test your understanding.
 
-[View Problems](./problems.md)
+[View Problems](./problems)
 
 ## Watch on YouTube
 Our Hinglish video lessons make wave optics engaging! Subscribe for updates.

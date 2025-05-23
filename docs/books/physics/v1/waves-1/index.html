@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <title>Vidya Marg | Physics Book - Waves—I for JEE &amp; NEET</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Comprehensive guide on wave motion for JEE and NEET, covering wave characteristics, types of waves, wave equations, superposition, interference, and standing waves, with extensive examples.">
+    <meta name="keywords" content="JEE physics book, NEET physics book, physics book, physics for JEE and NEET">
+    <meta property="og:image" content="https://vidyamarg.com/og-physics-book.jpg">
+    <link rel="canonical" href="https:&#x2F;&#x2F;vidyamarg.com&#x2F;books&#x2F;physics&#x2F;v1&#x2F;waves-1&#x2F;">
+    <link rel="shortcut icon" href="https://vidyamarg.com/logos/maroon-bg-logo-128.ico">
+    
+    <!-- Preload Google Font -->
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" as="style">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript>
+        <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
+    </noscript>
+    
+    <!-- FontAwesome JS -->
+    <script defer src="https://vidyamarg.com/fontawesome/js/all.min.js"></script>
+
+    <!-- KaTeX for LaTeX rendering -->
+    <link rel="stylesheet" href="https://vidyamarg.com/katex/katex.min.css">
+    <script src="https://vidyamarg.com/katex/katex.min.js"></script>
+    <script src="https://vidyamarg.com/katex/auto-render.min.js"></script>
+
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.2/styles/atom-one-dark.min.css">
+    <link rel="stylesheet" href="https://vidyamarg.com/plugins/simplelightbox/simple-lightbox.min.css">
+
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="https://vidyamarg.com/css/theme.css">
+    <link rel="stylesheet" href="https://vidyamarg.com/css/custom.css" />
+</head> 
+
+<body>    
+    <header class="header fixed-top">
+        <div class="branding docs-branding">
+            <div class="container-fluid position-relative py-2">
+                <div class="docs-logo-wrapper">
+                    
+                    
+                    
+                    <button id="docs-sidebar-toggler" class="docs-sidebar-toggler docs-sidebar-visible me-2 d-xl-none" type="button">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    
+                    <div class="site-logo">
+                        <a class="navbar-brand" href="https://vidyamarg.com">
+                            <img class="logo-icon me-2" src="https://vidyamarg.com/logos/maroon-bg-logo-1024.png" alt="logo">
+                            <span class="logo-text">Vidya Marg</span>
+                        </a>
+                    </div>    
+                </div>
+                <div class="docs-top-utilities d-flex justify-content-end align-items-center">
+                    <ul class="nav-list list-inline mb-0 d-none d-lg-flex">
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;">Home</a>
+                            </li>
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics (Youtube series)</a>
+                            </li>
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;">Books</a>
+                            </li>
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;app&#x2F;">App</a>
+                            </li>
+                        
+                        
+                            
+                                <li class="list-inline-item">
+                                    <a href="https:&#x2F;&#x2F;www.youtube.com&#x2F;@VidyaMargbyRaviShankar-w9u" title="YouTube"><i class="fab fa-youtube fa-fw"></i></a>
+                                </li>
+                            
+                                <li class="list-inline-item">
+                                    <a href="https:&#x2F;&#x2F;t.me&#x2F;vidyamarg1" title="Telegram"><i class="fab fa-telegram fa-fw"></i></a>
+                                </li>
+                            
+                        
+                    </ul>
+                    <!-- Mobile Menu Button -->
+                    <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#mobileNav" aria-controls="mobileNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </div>
+            <!-- Mobile Menu -->
+            <div class="collapse navbar-collapse d-lg-none" id="mobileNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;">Home</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics (Youtube series)</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;books&#x2F;">Books</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;app&#x2F;">App</a>
+                        </li>
+                    
+                    
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="https:&#x2F;&#x2F;www.youtube.com&#x2F;@VidyaMargbyRaviShankar-w9u"><i class="fab fa-youtube fa-fw"></i> YouTube</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="https:&#x2F;&#x2F;t.me&#x2F;vidyamarg1"><i class="fab fa-telegram fa-fw"></i> Telegram</a>
+                            </li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="docs-wrapper">
+        
+        
+        
+        <div id="docs-sidebar" class="docs-sidebar">
+            <nav id="docs-nav" class="docs-nav navbar">
+                
+                    
+                        
+
+<ul class="nav flex-column">
+    <!-- Navigation Menu (visible only in mobile view) -->
+    <li class="nav-item d-lg-none">
+        <span class="nav-link">Navigation</span>
+        <ul class="nav flex-column">
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;">Home</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics (Youtube series)</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;books&#x2F;">Books</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;app&#x2F;">App</a>
+                </li>
+            
+        </ul>
+    </li>
+
+    <!-- JEE/NEET Physics Section -->
+    
+    <li class="nav-item">
+        <span class="nav-link">Physics for JEE&#x2F;NEET</span>
+        <ul class="nav flex-column">
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics for JEE&#x2F;NEET</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;maths-basics-for-physics&#x2F;">Maths Basics for Physics</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;units-and-dimensions&#x2F;">Units and Dimensions</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;physical-quantities-and-si-units&#x2F;">Physical Quantities and SI Units</a>
+                </li>
+            
+        </ul>
+    </li>
+
+    <!-- Books Section -->
+    
+    <li class="nav-item">
+        <span class="nav-link">Books</span>
+        <ul class="nav flex-column">
+            <!-- JEE/NEET Physics Book (Version 1) -->
+            
+            <li class="nav-item">
+                <a class="nav-link" href="/books/physics/v1/">Physics Book</a>
+                
+                    <ul class="nav flex-column">
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;measurement&#x2F;">Measurement</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;motion-straight-line&#x2F;">Motion Along a Straight Line</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;vectors&#x2F;">Vectors</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;motion-2d-3d&#x2F;">Motion in Two and Three Dimensions</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;force-motion-1&#x2F;">Force and Motion—I</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;force-motion-2&#x2F;">Force and Motion—II</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;kinetic-energy-work&#x2F;">Kinetic Energy and Work</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;potential-energy-conservation&#x2F;">Potential Energy and Conservation of Energy</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;center-mass-momentum&#x2F;">Center of Mass and Linear Momentum</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;rotation&#x2F;">Rotation</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;rolling-torque-angular-momentum&#x2F;">Rolling, Torque, and Angular Momentum</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;equilibrium-elasticity&#x2F;">Equilibrium and Elasticity</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;gravitation&#x2F;">Gravitation</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;fluids&#x2F;">Fluids</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;oscillations&#x2F;">Oscillations</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;waves-1&#x2F;">Waves—I</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;waves-2&#x2F;">Waves—II</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;kinetic-theory-gases&#x2F;">The Kinetic Theory of Gases</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;thermodynamics-temperature-heat&#x2F;">Temperature, Heat, and the First Law of Thermodynamics</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;entropy-thermodynamics&#x2F;">Entropy and the Second Law of Thermodynamics</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electric-fields&#x2F;">Electric Fields</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;gauss-law&#x2F;">Gauss’s Law</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electric-potential&#x2F;">Electric Potential</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;capacitance&#x2F;">Capacitance</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;current-resistance&#x2F;">Current and Resistance</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;circuits&#x2F;">Circuits</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;magnetic-fields&#x2F;">Magnetic Fields</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;magnetic-fields-currents&#x2F;">Magnetic Fields Due to Currents</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;induction-inductance&#x2F;">Induction and Inductance</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electromagnetic-oscillations-ac&#x2F;">Electromagnetic Oscillations and Alternating Current</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electromagnetic-waves&#x2F;">Electromagnetic Waves</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;images&#x2F;">Images</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;interference&#x2F;">Interference</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;diffraction&#x2F;">Diffraction</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;photons-matter-waves&#x2F;">Photons and Matter Waves</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;matter-waves-advanced&#x2F;">More About Matter Waves</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;atoms&#x2F;">All About Atoms</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;nuclear-physics&#x2F;">Nuclear Physics</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;nuclear-energy&#x2F;">Energy from the Nucleus</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;quarks-leptons&#x2F;">Quarks, Leptons, and the Big Bang</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;relativity&#x2F;">Relativity</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;conduction-solids&#x2F;">Conduction of Electricity in Solids</a>
+                            </li>
+                        
+                    </ul>
+                
+            </li>
+        </ul>
+    </li>
+</ul>
+                    
+                
+            </nav>
+        </div>
+        
+
+        <div class="docs-content">
+            
+    <div class="docs-main">
+        <article class="docs-article">
+            <h1 id="chapter-16-waves-i">Chapter 16: Waves-I</h1>
+<div class="callout-block callout-warning">
+    <div class="content">
+        <h4 class="callout-title">
+            <span class="callout-icon-holder me-1">
+                <i class="fas fa-exclamation-triangle"></i>
+            </span>
+            Beta Version
+        </h4>
+        <p>Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!</p>
+    </div>
+</div>
+<p>Waves are fundamental to understanding a wide range of physical phenomena, from the vibrations of a guitar string to the acoustic design of rocket launch systems. Building on the concepts of oscillatory motion from Chapter 15, this chapter introduces the basics of wave motion, a cornerstone of physics. For JEE Main, JEE Advanced, and NEET students, mastering wave mechanics is essential, as it appears in problems involving sound, light, and mechanical systems. This chapter, <strong>Waves—I</strong>, covers <strong>wave characteristics and types</strong>, <strong>the wave equation and its solutions</strong>, <strong>superposition and interference</strong>, and <strong>standing waves and applications</strong>, providing detailed explanations, derivations, solved examples, and practical applications to ensure conceptual clarity and problem-solving proficiency.</p>
+<h2 id="16-1-wave-characteristics-and-types">16.1 Wave Characteristics and Types</h2>
+<p>Waves are disturbances that transfer energy through a medium or space without transferring matter. This section introduces the fundamental properties of waves and their classifications, crucial for JEE/NEET problems.</p>
+<h3 id="wave-characteristics">Wave Characteristics</h3>
+<ul>
+<li><strong>Wavelength ($\lambda$)</strong>: The distance between two consecutive points in phase (e.g., crests), in meters.</li>
+<li><strong>Frequency ($f$)</strong>: The number of oscillations per second, in Hz.</li>
+<li><strong>Period ($T$)</strong>: The time for one complete oscillation, $T = \frac{1}{f}$, in seconds.</li>
+<li><strong>Wave Speed ($v$)</strong>: The speed of wave propagation, $v = f \lambda$, in m/s.</li>
+<li><strong>Amplitude ($A$)</strong>: The maximum displacement from equilibrium, in meters.</li>
+</ul>
+<h3 id="types-of-waves">Types of Waves</h3>
+<ul>
+<li><strong>Transverse Waves</strong>: Displacement is perpendicular to the direction of wave propagation (e.g., waves on a string, electromagnetic waves). Crests and troughs are visible.</li>
+<li><strong>Longitudinal Waves</strong>: Displacement is parallel to the direction of wave propagation (e.g., sound waves). Compressions and rarefactions occur.</li>
+<li><strong>Mechanical vs. Electromagnetic</strong>: Mechanical waves require a medium (e.g., sound), while electromagnetic waves can travel through a vacuum (e.g., light).</li>
+<li><strong>Progressive vs. Standing</strong>: Progressive waves travel through a medium; standing waves form fixed patterns (covered in Section 16.4).</li>
+</ul>
+<h3 id="wave-speed-in-a-medium">Wave Speed in a Medium</h3>
+<p>For a transverse wave on a string: $v = \sqrt{\frac{T}{\mu}}$, where $T$ is tension (N) and $\mu$ is linear mass density (kg/m). For a longitudinal wave like sound: $v = \sqrt{\frac{B}{\rho}}$, where $B$ is the bulk modulus and $\rho$ is the density.</p>
+<p><strong>Derivation</strong>: <strong>Wave Speed on a String ($v = \sqrt{\frac{T}{\mu}}$)</strong><br />
+Consider a transverse wave on a string with tension $T$ and linear mass density $\mu$. A small segment of length $\Delta l$ forms an arc due to the wave. The net vertical force on the segment arises from the tension at both ends, acting at angles $\theta$. For small angles, the net force is $F_{\text{net}} \approx T \sin \theta_1 - T \sin \theta_2 \approx T \frac{\partial y}{\partial x} \bigg|<em>x - T \frac{\partial y}{\partial x} \bigg|</em>{x+\Delta x}$. Using Newton’s second law for the segment (mass $\mu \Delta l$), and considering the wave equation, we find the speed: $v = \sqrt{\frac{T}{\mu}}$.</p>
+<p><strong>Derivation</strong>: <strong>Relationship Between Wave Speed, Frequency, and Wavelength ($v = f \lambda$)</strong><br />
+A wave travels a distance of one wavelength $\lambda$ in one period $T$. Speed is distance over time: $v = \frac{\lambda}{T}$. Since $f = \frac{1}{T}$, we have $v = f \lambda$.</p>
+<p><strong>Derivation</strong>: <strong>Wave Speed of Sound in a Medium ($v = \sqrt{\frac{B}{\rho}}$)</strong><br />
+For a longitudinal wave like sound, the speed depends on the medium’s elasticity (bulk modulus $B$) and inertia (density $\rho$). Using Newton’s laws and the definition of $B$ as the ratio of stress to strain, the speed of a compressional wave in a fluid is derived as $v = \sqrt{\frac{B}{\rho}}$.</p>
+<p><strong>Derivation</strong>: <strong>Phase Difference and Path Difference</strong><br />
+For two points on a wave, a path difference of $\Delta x$ corresponds to a phase difference $\Delta \phi = \frac{2 \pi}{\lambda} \Delta x$. If $\Delta x = \lambda$, then $\Delta \phi = 2 \pi$, meaning the points are in phase.</p>
+<p><strong>Solved Example</strong>: A JEE Main problem involves a wave on a string with tension $T = 100 , \text{N}$ and linear mass density $\mu = 0.02 , \text{kg/m}$. Calculate the wave speed.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$v = \sqrt{\frac{T}{\mu}} = \sqrt{\frac{100}{0.02}} = \sqrt{5000} \approx 70.71 , \text{m/s}$. Round to $71 , \text{m/s}$.
+<ul>
+<li><strong>JEE Tip</strong>: Wave speed depends on the medium’s properties ($T$, $\mu$); ensure units are consistent ($T$ in N, $\mu$ in kg/m). Common error: Forgetting to take the square root, leading to an incorrect $v$.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A NEET problem involves a wave with frequency $f = 200 , \text{Hz}$ and wavelength $\lambda = 1.5 , \text{m}$. Calculate the wave speed.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$v = f \lambda = 200 \times 1.5 = 300 , \text{m/s}$.
+<ul>
+<li><strong>NEET Tip</strong>: Use $v = f \lambda$ directly; ensure $f$ is in Hz and $\lambda$ in meters. Common error: Mixing up $f$ and $T$ (period), leading to an incorrect speed.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Advanced problem involves a sound wave in air ($B = 1.4 \times 10^5 , \text{Pa}$, $\rho = 1.2 , \text{kg/m}^3$). Calculate the speed of sound.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$v = \sqrt{\frac{B}{\rho}} = \sqrt{\frac{1.4 \times 10^5}{1.2}} = \sqrt{116666.67} \approx 341.6 , \text{m/s}$.
+<ul>
+<li><strong>JEE Tip</strong>: Speed of sound in air is typically ~343 m/s at room temperature; this confirms the calculation. Common error: Using incorrect units for $B$ (Pa) or $\rho$ (kg/m³).</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Main problem involves two points on a wave with a path difference of $0.5 , \text{m}$ and wavelength $2 , \text{m}$. Calculate the phase difference.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$\Delta \phi = \frac{2 \pi}{\lambda} \Delta x = \frac{2 \pi}{2} \times 0.5 = \frac{\pi}{2} , \text{rad}$.
+<ul>
+<li><strong>JEE Tip</strong>: Phase difference scales linearly with path difference; $\Delta x = \lambda$ gives $\Delta \phi = 2 \pi$. Common error: Forgetting to convert path difference to phase using $\frac{2 \pi}{\lambda}$.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Application</strong>: Wave characteristics apply to sound propagation (e.g., rocket launch acoustics), seismic waves, and electromagnetic waves (e.g., radar systems).</p>
+<h2 id="16-2-the-wave-equation-and-its-solutions">16.2 The Wave Equation and Its Solutions</h2>
+<p>The wave equation describes how waves propagate through a medium, and its solutions provide insights into wave behavior, a key topic for JEE/NEET wave problems.</p>
+<h3 id="the-wave-equation">The Wave Equation</h3>
+<p>For a transverse wave on a string, the wave equation is:<br />
+$$
+\frac{\partial^2 y}{\partial t^2} = v^2 \frac{\partial^2 y}{\partial x^2}
+$$
+where $y(x, t)$ is the displacement, $v$ is the wave speed, $x$ is position, and $t$ is time. For a general wave in one dimension:<br />
+$$
+\frac{\partial^2 y}{\partial t^2} = v^2 \frac{\partial^2 y}{\partial x^2}
+$$</p>
+<h3 id="general-solution">General Solution</h3>
+<p>The general solution to the wave equation is:<br />
+$$
+y(x, t) = A \sin(k x - \omega t + \phi)
+$$</p>
+<ul>
+<li>$k = \frac{2 \pi}{\lambda}$: Wave number (rad/m).</li>
+<li>$\omega = 2 \pi f$: Angular frequency (rad/s).</li>
+<li>$v = \frac{\omega}{k} = f \lambda$.</li>
+</ul>
+<h3 id="traveling-waves">Traveling Waves</h3>
+<ul>
+<li><strong>Right-Traveling Wave</strong>: $y(x, t) = A \sin(k x - \omega t)$, moves in the positive $x$-direction.</li>
+<li><strong>Left-Traveling Wave</strong>: $y(x, t) = A \sin(k x + \omega t)$, moves in the negative $x$-direction.</li>
+</ul>
+<p><strong>Derivation</strong>: <strong>The Wave Equation for a String</strong><br />
+Consider a small segment of a string under tension $T$, with linear mass density $\mu$. The net vertical force due to tension at angles $\theta(x)$ and $\theta(x + \Delta x)$ leads to a transverse acceleration. Using Newton’s second law and the small-angle approximation, we derive:<br />
+$$
+\frac{\partial^2 y}{\partial t^2} = \frac{T}{\mu} \frac{\partial^2 y}{\partial x^2}
+$$
+Since $v = \sqrt{\frac{T}{\mu}}$, this becomes the wave equation: $\frac{\partial^2 y}{\partial t^2} = v^2 \frac{\partial^2 y}{\partial x^2}$.</p>
+<p><strong>Derivation</strong>: <strong>General Solution to the Wave Equation</strong><br />
+The wave equation $\frac{\partial^2 y}{\partial t^2} = v^2 \frac{\partial^2 y}{\partial x^2}$ has solutions of the form $y(x, t) = f(x \pm v t)$. A sinusoidal solution is $y(x, t) = A \sin(k x - \omega t + \phi)$, where $k v = \omega$. Since $v = f \lambda$, $\omega = 2 \pi f$, and $k = \frac{2 \pi}{\lambda}$, we confirm $v = \frac{\omega}{k}$.</p>
+<p><strong>Derivation</strong>: <strong>Wave Number and Angular Frequency</strong><br />
+For a wave $y = A \sin(k x - \omega t)$, the spatial period (wavelength) is when $k x$ changes by $2 \pi$: $k \lambda = 2 \pi$, so $k = \frac{2 \pi}{\lambda}$. The temporal period is when $\omega t$ changes by $2 \pi$: $\omega T = 2 \pi$, so $\omega = \frac{2 \pi}{T} = 2 \pi f$.</p>
+<p><strong>Derivation</strong>: <strong>Velocity of a Wave Particle</strong><br />
+For $y(x, t) = A \sin(k x - \omega t)$, the particle velocity at position $x$ is the time derivative: $v_{\text{particle}} = \frac{\partial y}{\partial t} = -A \omega \cos(k x - \omega t)$, distinct from the wave speed $v = \frac{\omega}{k}$.</p>
+<p><strong>Solved Example</strong>: A JEE Main problem involves a wave $y = 0.02 \sin(4 \pi x - 800 \pi t)$ (in SI units). Find the wave speed.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+Compare with $y = A \sin(k x - \omega t)$: $k = 4 \pi , \text{rad/m}$, $\omega = 800 \pi , \text{rad/s}$. Wave speed: $v = \frac{\omega}{k} = \frac{800 \pi}{4 \pi} = 200 , \text{m/s}$.
+<ul>
+<li><strong>JEE Tip</strong>: Identify $k$ and $\omega$ from the wave equation; $v = \frac{\omega}{k}$ gives wave speed, not particle speed. Common error: Confusing particle velocity ($\frac{\partial y}{\partial t}$) with wave speed.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A NEET problem involves a wave with $k = 2 , \text{rad/m}$ and $f = 50 , \text{Hz}$. Find the wavelength.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$k = \frac{2 \pi}{\lambda}$, so $\lambda = \frac{2 \pi}{k} = \frac{2 \pi}{2} = \pi \approx 3.14 , \text{m}$.
+<ul>
+<li><strong>NEET Tip</strong>: Wavelength is spatial period; use $k$ to find $\lambda$, not $f$. Common error: Using $f$ directly without converting to $k$.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Advanced problem involves a wave $y = 0.1 \sin(3 x - 600 t)$ (in SI units). Find the particle velocity at $x = 0$, $t = 0$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$v_{\text{particle}} = \frac{\partial y}{\partial t} = -0.1 \times 600 \cos(3 x - 600 t) = -60 \cos(3 x - 600 t)$. At $x = 0$, $t = 0$: $v_{\text{particle}} = -60 \cos(0) = -60 , \text{m/s}$.
+<ul>
+<li><strong>JEE Tip</strong>: Particle velocity is the time derivative of displacement; evaluate at the given point. Common error: Confusing particle velocity with wave speed.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Main problem involves a wave with $\lambda = 0.5 , \text{m}$ and $v = 340 , \text{m/s}$. Find the frequency.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$v = f \lambda$, so $f = \frac{v}{\lambda} = \frac{340}{0.5} = 680 , \text{Hz}$.
+<ul>
+<li><strong>JEE Tip</strong>: Frequency relates wave speed and wavelength via $v = f \lambda$; ensure units match. Common error: Using period $T$ instead of solving for $f$.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Application</strong>: Wave equations apply to sound waves (e.g., rocket engine acoustics), seismic wave analysis, and signal propagation in communication systems.</p>
+<h2 id="16-3-superposition-and-interference">16.3 Superposition and Interference</h2>
+<p>The <strong>principle of superposition</strong> states that when two or more waves overlap, the resultant displacement is the sum of individual displacements. This leads to phenomena like interference, crucial for JEE/NEET wave problems.</p>
+<h3 id="principle-of-superposition">Principle of Superposition</h3>
+<p>For two waves $y_1(x, t)$ and $y_2(x, t)$, the resultant wave is:<br />
+$$
+y(x, t) = y_1(x, t) + y_2(x, t)
+$$</p>
+<h3 id="interference">Interference</h3>
+<ul>
+<li><strong>Constructive Interference</strong>: Waves are in phase (phase difference $\Delta \phi = 0, 2 \pi, 4 \pi, \ldots$), amplitude adds: $A_{\text{resultant}} = A_1 + A_2$.</li>
+<li><strong>Destructive Interference</strong>: Waves are out of phase (phase difference $\Delta \phi = \pi, 3 \pi, \ldots$), amplitude subtracts: $A_{\text{resultant}} = |A_1 - A_2|$.</li>
+<li>For waves $y_1 = A \sin(k x - \omega t)$ and $y_2 = A \sin(k x - \omega t + \phi)$, the resultant amplitude depends on $\phi$.</li>
+</ul>
+<h3 id="beats">Beats</h3>
+<p>When two waves of slightly different frequencies ($f_1$, $f_2$) interfere, beats occur with beat frequency $f_{\text{beat}} = |f_1 - f_2|$.</p>
+<p><strong>Derivation</strong>: <strong>Resultant Amplitude of Two Interfering Waves</strong><br />
+For two waves $y_1 = A \sin(k x - \omega t)$ and $y_2 = A \sin(k x - \omega t + \phi)$, use trigonometric identity:<br />
+$$
+y = y_1 + y_2 = A \sin(k x - \omega t) + A \sin(k x - \omega t + \phi) = 2 A \cos\left(\frac{\phi}{2}\right) \sin\left(k x - \omega t + \frac{\phi}{2}\right)
+$$
+The resultant amplitude is $2 A \cos\left(\frac{\phi}{2}\right)$. If $\phi = 0$, amplitude is $2 A$ (constructive); if $\phi = \pi$, amplitude is 0 (destructive).</p>
+<p><strong>Derivation</strong>: <strong>Beat Frequency</strong><br />
+For two waves $y_1 = A \sin(2 \pi f_1 t)$ and $y_2 = A \sin(2 \pi f_2 t)$, the superposition is:<br />
+$$
+y = y_1 + y_2 = 2 A \cos\left(2 \pi \frac{f_1 - f_2}{2} t\right) \sin\left(2 \pi \frac{f_1 + f_2}{2} t\right)
+$$
+The envelope oscillates at frequency $\frac{|f_1 - f_2|}{2}$, so the beat frequency (heard as intensity variation) is $f_{\text{beat}} = |f_1 - f_2|$.</p>
+<p><strong>Derivation</strong>: <strong>Path Difference for Constructive and Destructive Interference</strong><br />
+For two waves with the same wavelength $\lambda$, a path difference $\Delta x$ causes a phase difference $\Delta \phi = \frac{2 \pi}{\lambda} \Delta x$. Constructive interference occurs when $\Delta \phi = 2 \pi n$ (n integer), so $\Delta x = n \lambda$. Destructive interference occurs when $\Delta \phi = (2n+1) \pi$, so $\Delta x = (n + \frac{1}{2}) \lambda$.</p>
+<p><strong>Derivation</strong>: <strong>Interference in Rocket Acoustic Design</strong><br />
+Two sound sources in a rocket launch ($A = 0.01 , \text{m}$, $\lambda = 0.5 , \text{m}$) are separated by $0.25 , \text{m}$. Path difference to a point: $\Delta x = 0.25 , \text{m}$, phase difference $\Delta \phi = \frac{2 \pi}{0.5} \times 0.25 = \pi$, leading to destructive interference, reducing noise.</p>
+<p><strong>Solved Example</strong>: A JEE Main problem involves two waves $y_1 = 0.02 \sin(2 \pi x - 400 \pi t)$ and $y_2 = 0.02 \sin(2 \pi x - 400 \pi t + \pi/2)$ (in SI units). Find the resultant amplitude.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$A_1 = A_2 = 0.02 , \text{m}$, $\phi = \frac{\pi}{2}$. Resultant amplitude: $A_{\text{resultant}} = 2 A \cos\left(\frac{\phi}{2}\right) = 2 \times 0.02 \cos\left(\frac{\pi}{4}\right) = 0.04 \times \frac{\sqrt{2}}{2} \approx 0.0283 , \text{m}$.
+<ul>
+<li><strong>JEE Tip</strong>: Use the interference formula for equal amplitudes; phase difference determines constructive or destructive interference. Common error: Adding amplitudes directly without considering phase.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A NEET problem involves two sound waves with frequencies $f_1 = 256 , \text{Hz}$ and $f_2 = 260 , \text{Hz}$. Find the beat frequency.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$f_{\text{beat}} = |f_1 - f_2| = |256 - 260| = 4 , \text{Hz}$.
+<ul>
+<li><strong>NEET Tip</strong>: Beat frequency is the absolute difference in frequencies; heard as intensity variations. Common error: Using the sum of frequencies instead of the difference.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Advanced problem involves two waves from sources separated by $1 , \text{m}$, with $\lambda = 2 , \text{m}$. Find the path difference for constructive interference at a point $1 , \text{m}$ from each source.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+Path difference $\Delta x = 0$ (equidistant), $\Delta \phi = \frac{2 \pi}{\lambda} \Delta x = 0$, which satisfies $\Delta \phi = 2 \pi n$ (constructive).
+<ul>
+<li><strong>JEE Tip</strong>: Constructive interference occurs when path difference is an integer multiple of $\lambda$. Common error: Not converting path difference to phase difference.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Main problem involves two waves $y_1 = 0.03 \sin(5 x - 200 t)$ and $y_2 = 0.03 \sin(5 x - 200 t + \pi)$ (in SI units). Find the resultant amplitude at $x = 0$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$\phi = \pi$, $A_{\text{resultant}} = 2 \times 0.03 \cos\left(\frac{\pi}{2}\right) = 0$ (destructive interference).
+<ul>
+<li><strong>JEE Tip</strong>: A phase difference of $\pi$ leads to complete destructive interference for equal amplitudes. Common error: Not recognizing destructive interference when $\phi = \pi$.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Application</strong>: Superposition and interference apply to sound design (e.g., noise cancellation in rocket launches), optics (e.g., interference patterns), and wave-based technologies (e.g., radar).</p>
+<h2 id="16-4-standing-waves-and-applications">16.4 Standing Waves and Applications</h2>
+<p><strong>Standing waves</strong> result from the superposition of two identical waves traveling in opposite directions, forming nodes and antinodes, a key concept for JEE/NEET problems involving strings and pipes.</p>
+<h3 id="standing-waves-on-a-string">Standing Waves on a String</h3>
+<p>For two waves $y_1 = A \sin(k x - \omega t)$ and $y_2 = A \sin(k x + \omega t)$, the superposition is:<br />
+$$
+y = y_1 + y_2 = 2 A \sin(k x) \cos(\omega t)
+$$</p>
+<ul>
+<li><strong>Nodes</strong>: Points of zero displacement, at $k x = n \pi$, so $x = \frac{n \lambda}{2}$ ($n = 0, 1, 2, \ldots$).</li>
+<li><strong>Antinodes</strong>: Points of maximum displacement, at $k x = (n + \frac{1}{2}) \pi$, so $x = (n + \frac{1}{2}) \frac{\lambda}{2}$.</li>
+</ul>
+<h3 id="harmonics-on-a-string">Harmonics on a String</h3>
+<p>For a string of length $L$ fixed at both ends:</p>
+<ul>
+<li>Frequencies: $f_n = \frac{n v}{2 L}$, where $n = 1, 2, 3, \ldots$ (harmonics), $v = \sqrt{\frac{T}{\mu}}$.</li>
+<li>Fundamental mode ($n=1$): $f_1 = \frac{v}{2 L}$, wavelength $\lambda_1 = 2 L$.</li>
+</ul>
+<h3 id="standing-waves-in-pipes">Standing Waves in Pipes</h3>
+<ul>
+<li><strong>Closed Pipe (one end closed)</strong>: Frequencies $f_n = \frac{(2n-1) v}{4 L}$, $n = 1, 2, 3, \ldots$ (odd harmonics only).</li>
+<li><strong>Open Pipe (both ends open)</strong>: Frequencies $f_n = \frac{n v}{2 L}$, $n = 1, 2, 3, \ldots$ (all harmonics).</li>
+</ul>
+<p><strong>Derivation</strong>: <strong>Standing Wave on a String</strong><br />
+Superpose two waves: $y_1 = A \sin(k x - \omega t)$, $y_2 = A \sin(k x + \omega t)$. Use the identity $\sin a + \sin b = 2 \sin\left(\frac{a+b}{2}\right) \cos\left(\frac{a-b}{2}\right)$:<br />
+$$
+y = 2 A \sin(k x) \cos(\omega t)
+$$
+Nodes occur when $\sin(k x) = 0$, so $k x = n \pi$, $x = \frac{n \lambda}{2}$. Antinodes occur when $|\sin(k x)| = 1$.</p>
+<p><strong>Derivation</strong>: <strong>Harmonic Frequencies on a String</strong><br />
+For a string fixed at $x = 0$ and $x = L$, boundary conditions require nodes: $y(0, t) = 0$, $y(L, t) = 0$. From $y = 2 A \sin(k x) \cos(\omega t)$, $\sin(k L) = 0$, so $k L = n \pi$, $k = \frac{n \pi}{L}$, $\lambda = \frac{2 L}{n}$. Since $v = f \lambda$, $f_n = \frac{n v}{2 L}$.</p>
+<p><strong>Derivation</strong>: <strong>Frequencies in a Closed Pipe</strong><br />
+For a pipe closed at $x = 0$, open at $x = L$, boundary conditions are: displacement $y = 0$ at $x = 0$ (node), pressure node (displacement antinode) at $x = L$. The standing wave is $y = A \sin(k x) \cos(\omega t)$, with $k L = (2n-1) \frac{\pi}{2}$, so $\lambda = \frac{4 L}{2n-1}$, $f_n = \frac{(2n-1) v}{4 L}$.</p>
+<p><strong>Derivation</strong>: <strong>Standing Waves in Rocket Vibration Analysis</strong><br />
+A rocket component (string-like, $L = 1 , \text{m}$, $v = 100 , \text{m/s}$) has standing waves: fundamental frequency $f_1 = \frac{v}{2 L} = \frac{100}{2 \times 1} = 50 , \text{Hz}$. Higher harmonics can cause vibrational resonance, analyzed in design.</p>
+<p><strong>Solved Example</strong>: A JEE Main problem involves a string ($L = 0.5 , \text{m}$, $T = 100 , \text{N}$, $\mu = 0.01 , \text{kg/m}$) fixed at both ends. Find the fundamental frequency.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$v = \sqrt{\frac{T}{\mu}} = \sqrt{\frac{100}{0.01}} = 100 , \text{m/s}$. Fundamental frequency: $f_1 = \frac{v}{2 L} = \frac{100}{2 \times 0.5} = 100 , \text{Hz}$.
+<ul>
+<li><strong>JEE Tip</strong>: The fundamental frequency is the first harmonic; compute $v$ first, then use $L$. Common error: Using $\lambda$ directly without finding $v$.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A NEET problem involves a closed pipe ($L = 0.34 , \text{m}$, $v = 340 , \text{m/s}$). Find the fundamental frequency.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$f_1 = \frac{v}{4 L} = \frac{340}{4 \times 0.34} = \frac{340}{1.36} \approx 250 , \text{Hz}$.
+<ul>
+<li><strong>NEET Tip</strong>: Closed pipes have odd harmonics; fundamental is $\frac{v}{4 L}$. Common error: Using $\frac{v}{2 L}$ (open pipe formula).</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Advanced problem involves a string ($L = 1 , \text{m}$, $v = 50 , \text{m/s}$) fixed at both ends. Find the frequency of the third harmonic.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$f_n = \frac{n v}{2 L}$, third harmonic ($n=3$): $f_3 = \frac{3 \times 50}{2 \times 1} = 75 , \text{Hz}$.
+<ul>
+<li><strong>JEE Tip</strong>: Harmonics are integer multiples of the fundamental frequency; $n=3$ for the third harmonic. Common error: Using $n=2$ for the third harmonic.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Main problem involves an open pipe ($L = 0.17 , \text{m}$, $v = 340 , \text{m/s}$). Find the second harmonic frequency.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$f_n = \frac{n v}{2 L}$, second harmonic ($n=2$): $f_2 = \frac{2 \times 340}{2 \times 0.17} = \frac{680}{0.34} = 2000 , \text{Hz}$.
+<ul>
+<li><strong>JEE Tip</strong>: Open pipes support all harmonics; second harmonic is twice the fundamental. Common error: Using the closed pipe formula.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Application</strong>: Standing waves apply to musical instruments (e.g., guitar strings, organ pipes), structural engineering (e.g., bridge vibrations), and rocketry (e.g., acoustic resonance in launch systems, aligning with your interest, April 19, 2025).</p>
+<h2 id="summary-and-quick-revision">Summary and Quick Revision</h2>
+<ul>
+<li><strong>Wave Characteristics</strong>: Wavelength $\lambda$ (m), frequency $f$ (Hz), period $T = \frac{1}{f}$ (s), wave speed $v = f \lambda$ (m/s), amplitude $A$ (m). Transverse: displacement perpendicular (e.g., string). Longitudinal: displacement parallel (e.g., sound). String: $v = \sqrt{\frac{T}{\mu}}$. Sound: $v = \sqrt{\frac{B}{\rho}}$.</li>
+<li><strong>Wave Equation</strong>: $\frac{\partial^2 y}{\partial t^2} = v^2 \frac{\partial^2 y}{\partial x^2}$, solution $y(x, t) = A \sin(k x - \omega t + \phi)$, $k = \frac{2 \pi}{\lambda}$, $\omega = 2 \pi f$, $v = \frac{\omega}{k}$. Particle velocity: $\frac{\partial y}{\partial t}$.</li>
+<li><strong>Superposition and Interference</strong>: $y = y_1 + y_2$. Constructive: $\Delta \phi = 2 \pi n$, $\Delta x = n \lambda$. Destructive: $\Delta \phi = (2n+1) \pi$, $\Delta x = (n + \frac{1}{2}) \lambda$. Beats: $f_{\text{beat}} = |f_1 - f_2|$.</li>
+<li><strong>Standing Waves</strong>: $y = 2 A \sin(k x) \cos(\omega t)$. String: $f_n = \frac{n v}{2 L}$, $n = 1, 2, \ldots$. Closed pipe: $f_n = \frac{(2n-1) v}{4 L}$. Open pipe: $f_n = \frac{n v}{2 L}$.</li>
+<li><strong>Applications</strong>: Sound waves, musical instruments, structural vibrations in rocketry.</li>
+<li><strong>JEE/NEET Tips</strong>: Use $v = f \lambda$ for wave speed, compute $v$ before frequency in standing waves, identify nodes/antinodes for standing waves, use phase difference for interference, verify significant figures (April 14, 2025), distinguish particle velocity from wave speed.</li>
+<li><strong>SI Units</strong>: Speed (m/s), frequency (Hz), wavelength (m), amplitude (m), wave number (rad/m), angular frequency (rad/s).</li>
+</ul>
+<h2 id="practice-problems">Practice Problems</h2>
+<p>Explore our problem set with <strong>100 problems</strong> inspired by JEE Main, JEE Advanced, and NEET patterns to test your understanding.</p>
+<p><a href="https://vidyamarg.com/books/physics/v1/waves-1/./problems">View Problems</a></p>
+<h2 id="watch-on-youtube">Watch on YouTube</h2>
+<p>Our Hinglish video lessons make waves engaging! Subscribe for updates.</p>
+<p><a href="https://www.youtube.com/@VidyaMargbyRaviShankar-w9u">Watch Now</a></p>
+<p><em>Animation for visualizing wave propagation, interference, and standing waves coming soon!</em></p>
+<p><em>Note: Content regularly updated to align with current JEE/NEET syllabi.</em></p>
+
+        </article>
+    </div>
+
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container text-center py-5">
+            <ul class="social-list list-unstyled pt-4 mb-0">
+                
+                    <li class="list-inline-item">
+                        <a href="https:&#x2F;&#x2F;www.youtube.com&#x2F;@VidyaMargbyRaviShankar-w9u" target="_blank" title="YouTube"><i class="fab fa-youtube fa-fw"></i></a>
+                    </li>
+                
+                    <li class="list-inline-item">
+                        <a href="https:&#x2F;&#x2F;t.me&#x2F;vidyamarg1" target="_blank" title="Telegram"><i class="fab fa-telegram fa-fw"></i></a>
+                    </li>
+                
+            </ul>
+            <small class="copyright">
+                © 2025 Vidya Marg. Designed with <span class="sr-only">love</span><i class="fas fa-heart" style="color: #fb866a;"></i> by <a class="theme-link" href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers. <a class="theme-link" href="/app/privacy-policy/">Privacy Policy</a>
+            </small>
+        </div>
+    </footer>
+
+    <!-- Javascript -->          
+    <script src="https://vidyamarg.com/plugins/popper.min.js"></script>
+    <script src="https://vidyamarg.com/plugins/bootstrap/js/bootstrap.min.js"></script>  
+    
+    <!-- Page Specific JS -->
+    <script src="https://vidyamarg.com/plugins/smoothscroll.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
+    <script src="https://vidyamarg.com/js/highlight-custom.js"></script> 
+    <script src="https://vidyamarg.com/plugins/simplelightbox/simple-lightbox.min.js"></script>      
+    <script src="https://vidyamarg.com/plugins/gumshoe/gumshoe.polyfills.min.js"></script> 
+    <script src="https://vidyamarg.com/js/docs.js"></script> 
+
+    <script>
+        function renderLatex() {
+            if (typeof renderMathInElement === "undefined") {
+                setTimeout(renderLatex, 100);
+                return;
+            }
+            renderMathInElement(document.body, {
+                delimiters: [
+                    { left: "$$", right: "$$", display: true },
+                    { left: "$", right: "$", display: false },
+                    { left: "\\(", right: "\\)", display: false },
+                    { left: "\\[", right: "\\]", display: true }
+                ],
+                throwOnError: false
+            });
+        }
+
+        window.addEventListener("load", function() {
+            renderLatex();
+        });
+    </script>
+</body>
+</html>

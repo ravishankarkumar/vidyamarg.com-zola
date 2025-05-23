@@ -1,8 +1,7 @@
 +++
-title = "Physics for JEE/NEET"
-description = "Comprehensive physics resources for JEE/NEET preparation."
+title = "Units and Dimensions"
+description = "Units and Dimensions"
 +++
 
-# Physics for JEE/NEET
+# Units and Dimensions heading
 
-Explore fundamental physics concepts with detailed chapters and practice problems.

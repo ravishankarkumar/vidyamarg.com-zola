@@ -1,14 +1,26 @@
 ---
 title: Physics Book - Gauss’s Law for JEE & NEET
 description: Comprehensive guide on Gauss’s law for JEE and NEET, covering electric flux, Gauss’s law applications, field calculations for symmetric charge distributions, and conductors, with extensive examples.
-slug: books/physics/gauss-law
+slug: gauss-law
 keywords: physics Gauss’s law, JEE physics electric flux, NEET physics field calculations, electrostatics
 og:image: https://vidyamarg.com/og-physics-gauss-law.jpg
 ---
 
 # Chapter 23: Gauss’s Law
 
-**Beta Version**: Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!
+
+
+<div class="callout-block callout-warning">
+    <div class="content">
+        <h4 class="callout-title">
+            <span class="callout-icon-holder me-1">
+                <i class="fas fa-exclamation-triangle"></i>
+            </span>
+            Beta Version
+        </h4>
+        <p>Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!</p>
+    </div>
+</div>
 
 Gauss’s law provides a powerful method to calculate electric fields, simplifying complex problems in electrostatics with applications like analyzing fields in charged rocket components. Building on the concepts of electric fields from Chapters 21 and 22, this chapter explores Gauss’s law and its applications. For JEE Main, JEE Advanced, and NEET students, mastering Gauss’s law is essential, as it frequently appears in problems involving symmetric charge distributions and conductors. This chapter, **Gauss’s Law**, covers **electric flux and Gauss’s law**, **field due to symmetric charge distributions**, **applications to conductors**, and **field near charged surfaces**, providing detailed explanations, derivations, solved examples, and practical applications to ensure conceptual clarity and problem-solving proficiency.
 
@@ -262,7 +274,7 @@ A parallel-plate system in a rocket engine ($\sigma = 10^{-5} \, \text{C/m}^2$, 
 ## Practice Problems
 Explore our problem set with **100 problems** inspired by JEE Main, JEE Advanced, and NEET patterns to test your understanding.
 
-[View Problems](./problems.md)
+[View Problems](./problems)
 
 ## Watch on YouTube
 Our Hinglish video lessons make electrostatics engaging! Subscribe for updates.

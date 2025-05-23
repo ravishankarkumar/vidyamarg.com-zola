@@ -1,14 +1,26 @@
 ---
 title: Physics Book - More About Matter Waves for JEE & NEET
 description: Advanced guide on matter waves for JEE and NEET, covering wave functions, probability interpretation, particle in a box, quantum tunneling, and uncertainty principle, with extensive examples.
-slug: books/physics/matter-waves-advanced
+slug: matter-waves-advanced
 keywords: physics matter waves advanced, JEE physics wave function, NEET physics quantum tunneling, uncertainty principle
 og:image: https://vidyamarg.com/og-physics-matter-waves-advanced.jpg
 ---
 
 # Chapter 39: More About Matter Waves
 
-**Beta Version**: Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!
+
+
+<div class="callout-block callout-warning">
+    <div class="content">
+        <h4 class="callout-title">
+            <span class="callout-icon-holder me-1">
+                <i class="fas fa-exclamation-triangle"></i>
+            </span>
+            Beta Version
+        </h4>
+        <p>Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!</p>
+    </div>
+</div>
 
 Matter waves, crucial for quantum applications like spacecraft nanotechnology, deepen our understanding of quantum mechanics. Building on the basics of photons and matter waves (Chapter 38) and relativity (Chapter 37), this chapter explores advanced concepts of matter waves. For JEE Main, JEE Advanced, and NEET students, mastering these topics is essential, as they frequently appear in problems involving wave functions, energy quantization, and tunneling. This chapter, **More About Matter Waves**, covers **wave function and probability**, **particle in a box**, **quantum tunneling**, and **uncertainty principle and applications**, providing detailed explanations, derivations, solved examples, and practical applications to ensure conceptual clarity and problem-solving proficiency.
 
@@ -285,7 +297,7 @@ This limits precision in quantum navigation systems (your interest, April 19, 20
 ## Practice Problems
 Explore our problem set with **100 problems** inspired by JEE Main, JEE Advanced, and NEET patterns to test your understanding.
 
-[View Problems](./problems.md)
+[View Problems](./problems)
 
 ## Watch on YouTube
 Our Hinglish video lessons make quantum mechanics engaging! Subscribe for updates.

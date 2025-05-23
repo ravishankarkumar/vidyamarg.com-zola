@@ -1,14 +1,26 @@
 ---
 title: Physics Book - Oscillations for JEE & NEET
 description: Comprehensive guide on oscillations for JEE and NEET, covering simple harmonic motion, damped and forced oscillations, resonance, and applications, with extensive examples and exam strategies.
-slug: books/physics/oscillations
+slug: oscillations
 keywords: physics oscillations, JEE physics simple harmonic motion, NEET physics resonance, damped oscillations
 og:image: https://vidyamarg.com/og-physics-oscillations.jpg
 ---
 
 # Chapter 15: Oscillations
 
-**Beta Version**: Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!
+
+
+<div class="callout-block callout-warning">
+    <div class="content">
+        <h4 class="callout-title">
+            <span class="callout-icon-holder me-1">
+                <i class="fas fa-exclamation-triangle"></i>
+            </span>
+            Beta Version
+        </h4>
+        <p>Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!</p>
+    </div>
+</div>
 
 Oscillations are periodic motions that underpin many physical phenomena, from the swinging of a pendulum to the vibrations of a rocket during launch. Building on the mechanics, energy, and fluid concepts from Chapters 1–14, this chapter explores oscillatory motion, a fundamental topic in physics. For JEE Main, JEE Advanced, and NEET students, mastering oscillations is essential, as it appears in problems involving simple harmonic motion (SHM), damped systems, and resonance in various applications. This chapter covers **simple harmonic motion and its kinematics**, **energy in oscillatory systems**, **damped and forced oscillations**, and **resonance and applications**, providing detailed explanations, derivations, solved examples, and practical applications to ensure conceptual clarity and problem-solving proficiency.
 
@@ -245,7 +257,7 @@ A rocket component ($m = 2 \, \text{kg}$, $k = 1000 \, \text{N/m}$, $b = 5 \, \t
 ## Practice Problems
 Explore our problem set with **100 problems** inspired by JEE Main, JEE Advanced, and NEET patterns to test your understanding.
 
-[View Problems](./problems.md)
+[View Problems](./problems)
 
 ## Watch on YouTube
 Our Hinglish video lessons make oscillations engaging! Subscribe for updates.

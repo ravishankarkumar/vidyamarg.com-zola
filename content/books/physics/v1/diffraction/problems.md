@@ -1,7 +1,7 @@
 ---
 title: Physics Book - Diffraction Problems for JEE & NEET
 description: Practice 100 problems on diffraction of light for JEE and NEET, inspired by exam patterns, covering Huygens' principle, single-slit diffraction, diffraction gratings, and applications.
-slug: books/physics/diffraction/problems
+slug: problems
 keywords: physics diffraction problems, JEE physics wave optics problems, NEET physics single-slit diffraction problems, diffraction patterns
 og:image: https://vidyamarg.com/og-physics-diffraction.jpg
 ---
@@ -569,4 +569,4 @@ This section provides **100 problems** to test your understanding of diffraction
     - (d) $1.22 \, \text{m}$
 
 ## Back to Chapter
-[Return to Diffraction Chapter](./index.md)
+[Return to Diffraction Chapter](../../diffraction)

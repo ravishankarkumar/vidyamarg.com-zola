@@ -1,7 +1,7 @@
 ---
 title: Physics Book - All About Atoms Solutions for JEE & NEET
 description: Sample solutions for atomic physics problems, covering historical models, Bohr model, quantum mechanical model, and atomic spectra, tailored for JEE and NEET preparation.
-slug: books/physics/atoms/solutions
+slug: solutions
 keywords: physics atoms solutions, JEE physics Bohr model solutions, NEET physics atomic spectra solutions, quantum mechanical model
 og:image: https://vidyamarg.com/og-physics-atoms.jpg
 ---
@@ -200,6 +200,6 @@ Round to two decimal places: 13.23 Å. The answer is (b) 13.23 Å.
 - **JEE/NEET Tip**: Use the exact value of $a_0$ (0.529 Å); check rounding in options. Common error: Using an incorrect $a_0$ value.
 
 ## Back to Chapter
-[Return to All About Atoms Chapter](./index.md)
+[Return to All About Atoms Chapter](../../atoms/problems)
 
-[Return to All About Atoms Problems](./problems.md)
+[Return to All About Atoms Problems](../../atoms/solutions)

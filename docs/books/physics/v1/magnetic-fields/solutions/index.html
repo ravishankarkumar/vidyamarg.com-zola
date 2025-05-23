@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <title>Vidya Marg | Physics Book - Magnetic Fields Solutions for JEE &amp; NEET</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sample solutions for magnetic field problems, covering Biot-Savart law, Ampere’s law, magnetic fields due to current distributions, and electromagnetism applications, tailored for JEE and NEET preparation.">
+    <meta name="keywords" content="JEE physics book, NEET physics book, physics book, physics for JEE and NEET">
+    <meta property="og:image" content="https://vidyamarg.com/og-physics-book.jpg">
+    <link rel="canonical" href="https:&#x2F;&#x2F;vidyamarg.com&#x2F;books&#x2F;physics&#x2F;v1&#x2F;magnetic-fields&#x2F;solutions&#x2F;">
+    <link rel="shortcut icon" href="https://vidyamarg.com/logos/maroon-bg-logo-128.ico">
+    
+    <!-- Preload Google Font -->
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" as="style">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript>
+        <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
+    </noscript>
+    
+    <!-- FontAwesome JS -->
+    <script defer src="https://vidyamarg.com/fontawesome/js/all.min.js"></script>
+
+    <!-- KaTeX for LaTeX rendering -->
+    <link rel="stylesheet" href="https://vidyamarg.com/katex/katex.min.css">
+    <script src="https://vidyamarg.com/katex/katex.min.js"></script>
+    <script src="https://vidyamarg.com/katex/auto-render.min.js"></script>
+
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.2/styles/atom-one-dark.min.css">
+    <link rel="stylesheet" href="https://vidyamarg.com/plugins/simplelightbox/simple-lightbox.min.css">
+
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="https://vidyamarg.com/css/theme.css">
+    <link rel="stylesheet" href="https://vidyamarg.com/css/custom.css" />
+</head> 
+
+<body>    
+    <header class="header fixed-top">
+        <div class="branding docs-branding">
+            <div class="container-fluid position-relative py-2">
+                <div class="docs-logo-wrapper">
+                    
+                    
+                    
+                    <button id="docs-sidebar-toggler" class="docs-sidebar-toggler docs-sidebar-visible me-2 d-xl-none" type="button">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    
+                    <div class="site-logo">
+                        <a class="navbar-brand" href="https://vidyamarg.com">
+                            <img class="logo-icon me-2" src="https://vidyamarg.com/logos/maroon-bg-logo-1024.png" alt="logo">
+                            <span class="logo-text">Vidya Marg</span>
+                        </a>
+                    </div>    
+                </div>
+                <div class="docs-top-utilities d-flex justify-content-end align-items-center">
+                    <ul class="nav-list list-inline mb-0 d-none d-lg-flex">
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;">Home</a>
+                            </li>
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics (Youtube series)</a>
+                            </li>
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;">Books</a>
+                            </li>
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;app&#x2F;">App</a>
+                            </li>
+                        
+                        
+                            
+                                <li class="list-inline-item">
+                                    <a href="https:&#x2F;&#x2F;www.youtube.com&#x2F;@VidyaMargbyRaviShankar-w9u" title="YouTube"><i class="fab fa-youtube fa-fw"></i></a>
+                                </li>
+                            
+                                <li class="list-inline-item">
+                                    <a href="https:&#x2F;&#x2F;t.me&#x2F;vidyamarg1" title="Telegram"><i class="fab fa-telegram fa-fw"></i></a>
+                                </li>
+                            
+                        
+                    </ul>
+                    <!-- Mobile Menu Button -->
+                    <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#mobileNav" aria-controls="mobileNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </div>
+            <!-- Mobile Menu -->
+            <div class="collapse navbar-collapse d-lg-none" id="mobileNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;">Home</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics (Youtube series)</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;books&#x2F;">Books</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;app&#x2F;">App</a>
+                        </li>
+                    
+                    
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="https:&#x2F;&#x2F;www.youtube.com&#x2F;@VidyaMargbyRaviShankar-w9u"><i class="fab fa-youtube fa-fw"></i> YouTube</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="https:&#x2F;&#x2F;t.me&#x2F;vidyamarg1"><i class="fab fa-telegram fa-fw"></i> Telegram</a>
+                            </li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="docs-wrapper">
+        
+        
+        
+        <div id="docs-sidebar" class="docs-sidebar">
+            <nav id="docs-nav" class="docs-nav navbar">
+                
+                    
+                        
+
+<ul class="nav flex-column">
+    <!-- Navigation Menu (visible only in mobile view) -->
+    <li class="nav-item d-lg-none">
+        <span class="nav-link">Navigation</span>
+        <ul class="nav flex-column">
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;">Home</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics (Youtube series)</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;books&#x2F;">Books</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;app&#x2F;">App</a>
+                </li>
+            
+        </ul>
+    </li>
+
+    <!-- JEE/NEET Physics Section -->
+    
+    <li class="nav-item">
+        <span class="nav-link">Physics for JEE&#x2F;NEET</span>
+        <ul class="nav flex-column">
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics for JEE&#x2F;NEET</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;maths-basics-for-physics&#x2F;">Maths Basics for Physics</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;units-and-dimensions&#x2F;">Units and Dimensions</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;physical-quantities-and-si-units&#x2F;">Physical Quantities and SI Units</a>
+                </li>
+            
+        </ul>
+    </li>
+
+    <!-- Books Section -->
+    
+    <li class="nav-item">
+        <span class="nav-link">Books</span>
+        <ul class="nav flex-column">
+            <!-- JEE/NEET Physics Book (Version 1) -->
+            
+            <li class="nav-item">
+                <a class="nav-link" href="/books/physics/v1/">Physics Book</a>
+                
+                    <ul class="nav flex-column">
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;measurement&#x2F;">Measurement</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;motion-straight-line&#x2F;">Motion Along a Straight Line</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;vectors&#x2F;">Vectors</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;motion-2d-3d&#x2F;">Motion in Two and Three Dimensions</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;force-motion-1&#x2F;">Force and Motion—I</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;force-motion-2&#x2F;">Force and Motion—II</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;kinetic-energy-work&#x2F;">Kinetic Energy and Work</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;potential-energy-conservation&#x2F;">Potential Energy and Conservation of Energy</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;center-mass-momentum&#x2F;">Center of Mass and Linear Momentum</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;rotation&#x2F;">Rotation</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;rolling-torque-angular-momentum&#x2F;">Rolling, Torque, and Angular Momentum</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;equilibrium-elasticity&#x2F;">Equilibrium and Elasticity</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;gravitation&#x2F;">Gravitation</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;fluids&#x2F;">Fluids</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;oscillations&#x2F;">Oscillations</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;waves-1&#x2F;">Waves—I</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;waves-2&#x2F;">Waves—II</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;kinetic-theory-gases&#x2F;">The Kinetic Theory of Gases</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;thermodynamics-temperature-heat&#x2F;">Temperature, Heat, and the First Law of Thermodynamics</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;entropy-thermodynamics&#x2F;">Entropy and the Second Law of Thermodynamics</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electric-fields&#x2F;">Electric Fields</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;gauss-law&#x2F;">Gauss’s Law</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electric-potential&#x2F;">Electric Potential</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;capacitance&#x2F;">Capacitance</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;current-resistance&#x2F;">Current and Resistance</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;circuits&#x2F;">Circuits</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;magnetic-fields&#x2F;">Magnetic Fields</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;magnetic-fields-currents&#x2F;">Magnetic Fields Due to Currents</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;induction-inductance&#x2F;">Induction and Inductance</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electromagnetic-oscillations-ac&#x2F;">Electromagnetic Oscillations and Alternating Current</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electromagnetic-waves&#x2F;">Electromagnetic Waves</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;images&#x2F;">Images</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;interference&#x2F;">Interference</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;diffraction&#x2F;">Diffraction</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;photons-matter-waves&#x2F;">Photons and Matter Waves</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;matter-waves-advanced&#x2F;">More About Matter Waves</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;atoms&#x2F;">All About Atoms</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;nuclear-physics&#x2F;">Nuclear Physics</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;nuclear-energy&#x2F;">Energy from the Nucleus</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;quarks-leptons&#x2F;">Quarks, Leptons, and the Big Bang</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;relativity&#x2F;">Relativity</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;conduction-solids&#x2F;">Conduction of Electricity in Solids</a>
+                            </li>
+                        
+                    </ul>
+                
+            </li>
+        </ul>
+    </li>
+</ul>
+                    
+                
+            </nav>
+        </div>
+        
+
+        <div class="docs-content">
+            
+    <div class="docs-main">
+        <article class="docs-article">
+            <h1 id="magnetic-fields-solutions">Magnetic Fields Solutions</h1>
+<p>This section provides <strong>sample solutions</strong> for selected problems from the Magnetic Fields chapter, focusing on the Biot-Savart law, Ampere’s law, magnetic fields due to various current distributions, and their applications. These solutions are designed to help JEE Main, JEE Advanced, and NEET students understand key concepts and problem-solving techniques. Each solution includes detailed steps, exam-focused tips to avoid common mistakes, and alignment with JEE/NEET exam patterns. Full solutions for all 100 problems will be available in June 2025.</p>
+<h2 id="numerical-solutions">Numerical Solutions</h2>
+<h3 id="solution-1">Solution 1</h3>
+<p><strong>Problem</strong>: A wire carries a current $I = 5 , \text{A}$ and has length $L = 0.2 , \text{m}$ in a magnetic field $B = 0.3 , \text{T}$ (perpendicular to the wire). Calculate the force on the wire.</p>
+<ul>
+<li>(a) $0.299 , \text{N}$</li>
+<li>(b) $0.300 , \text{N}$</li>
+<li>(c) $0.301 , \text{N}$</li>
+<li>(d) $0.302 , \text{N}$</li>
+</ul>
+<p><strong>Solution</strong>:<br />
+The force on a current-carrying wire in a uniform magnetic field is given by $F = I L B \sin \theta$, where $I$ is the current, $L$ is the length of the wire, $B$ is the magnetic field strength, and $\theta$ is the angle between the wire and the magnetic field. Given $I = 5 , \text{A}$, $L = 0.2 , \text{m}$, $B = 0.3 , \text{T}$, and $\theta = 90^\circ$ (since the field is perpendicular to the wire):<br />
+$$
+F = I L B \sin \theta = 5 \times 0.2 \times 0.3 \times \sin 90^\circ = 5 \times 0.2 \times 0.3 \times 1 = 0.3 , \text{N}
+$$
+The answer is (b) $0.300 , \text{N}$.</p>
+<ul>
+<li><strong>JEE/NEET Tip</strong>: Ensure $\theta$ is the angle between the wire and the field; $\sin 90^\circ = 1$ maximizes the force. Common error: Forgetting $\sin \theta$ or using the wrong angle.</li>
+</ul>
+<h3 id="solution-3">Solution 3</h3>
+<p><strong>Problem</strong>: An infinite straight wire carries $I = 10 , \text{A}$. Calculate the magnetic field at a distance $r = 0.05 , \text{m}$ using the Biot-Savart law ($\mu_0 = 4 \pi \times 10^{-7} , \text{T·m/A}$).</p>
+<ul>
+<li>(a) $3.99 \times 10^{-5} , \text{T}$</li>
+<li>(b) $4.00 \times 10^{-5} , \text{T}$</li>
+<li>(c) $4.01 \times 10^{-5} , \text{T}$</li>
+<li>(d) $4.02 \times 10^{-5} , \text{T}$</li>
+</ul>
+<p><strong>Solution</strong>:<br />
+For an infinite straight wire, the magnetic field at a perpendicular distance $r$ can be derived using the Biot-Savart law, but the standard result is $B = \frac{\mu_0 I}{2 \pi r}$, where $\mu_0$ is the permeability of free space, $I$ is the current, and $r$ is the distance from the wire. Given $I = 10 , \text{A}$, $r = 0.05 , \text{m}$, and $\mu_0 = 4 \pi \times 10^{-7} , \text{T·m/A}$:<br />
+$$
+B = \frac{\mu_0 I}{2 \pi r} = \frac{(4 \pi \times 10^{-7}) \times 10}{2 \pi \times 0.05} = \frac{4 \times 10^{-6}}{0.1} = 4 \times 10^{-5} , \text{T}
+$$
+The answer is (b) $4.00 \times 10^{-5} , \text{T}$.</p>
+<ul>
+<li><strong>JEE/NEET Tip</strong>: The field decreases as $1/r$; ensure $r$ is in meters and use $\mu_0$ correctly. Common error: Using the incorrect formula, such as for a loop or solenoid.</li>
+</ul>
+<hr />
+<h2 id="conceptual-solutions">Conceptual Solutions</h2>
+<h3 id="solution-36">Solution 36</h3>
+<p><strong>Problem</strong>: What is the unit of magnetic field in SI units?</p>
+<ul>
+<li>(a) Tesla</li>
+<li>(b) Ampere</li>
+<li>(c) Ohm</li>
+<li>(d) Volt</li>
+</ul>
+<p><strong>Solution</strong>:<br />
+The magnetic field $\vec{B}$ exerts a force on a moving charge, given by $\vec{F} = q (\vec{v} \times \vec{B})$. The SI unit of magnetic field is derived from this equation: $F = q v B \sin \theta$. Rearrange for $B$: $B = \frac{F}{q v \sin \theta}$. The unit of force $F$ is newton (N), charge $q$ is coulomb (C), and velocity $v$ is meters per second (m/s). Since $F$ has units $\text{N}$, $q$ has units $\text{C}$, and $v$ has units $\text{m/s}$, the unit of $B$ is:<br />
+$$
+\text{Unit of } B = \frac{\text{N}}{\text{C} \cdot \text{m/s}}
+$$
+Since $1 , \text{C} = 1 , \text{A·s}$ (ampere-second), $\text{N}/(\text{C} \cdot \text{m/s}) = \text{N}/(\text{A·s} \cdot \text{m/s}) = \text{N}/(\text{A·m})$. This unit is defined as a tesla (T), so $1 , \text{T} = 1 , \text{N/(A·m)}$. Ampere is the unit of current, ohm is the unit of resistance, and volt is the unit of electric potential, none of which match the unit of magnetic field.</p>
+<ul>
+<li>(a) Correct: The unit of magnetic field is tesla (T).</li>
+<li>(b) Incorrect: Ampere (A) is the unit of current, not magnetic field.</li>
+<li>(c) Incorrect: Ohm ($\Omega$) is the unit of resistance, not magnetic field.</li>
+<li>(d) Incorrect: Volt (V) is the unit of electric potential, not magnetic field.<br />
+The answer is (a) Tesla.</li>
+<li><strong>JEE/NEET Tip</strong>: Magnetic field units are tesla; distinguish from electric field (N/C or V/m). Common error: Confusing tesla with other units like ampere or volt.</li>
+</ul>
+<h3 id="solution-38">Solution 38</h3>
+<p><strong>Problem</strong>: What is the relationship between magnetic field and distance from an infinite straight wire?</p>
+<ul>
+<li>(a) $B \propto r$</li>
+<li>(b) $B \propto \frac{1}{r}$</li>
+<li>(c) $B \propto r^2$</li>
+<li>(d) $B \propto \frac{1}{r^2}$</li>
+</ul>
+<p><strong>Solution</strong>:<br />
+The magnetic field due to an infinite straight wire carrying current $I$ at a perpendicular distance $r$ is given by the Biot-Savart law or Ampere’s law as $B = \frac{\mu_0 I}{2 \pi r}$, where $\mu_0$ is the permeability of free space. This formula shows that the magnetic field $B$ is inversely proportional to the distance $r$ from the wire: $B \propto \frac{1}{r}$. The field forms circular loops around the wire, and its magnitude decreases as you move farther away, consistent with the $1/r$ dependence. A linear dependence ($B \propto r$) would imply the field increases with distance, which is incorrect. A $1/r^2$ dependence is typical for point sources (like electric fields from a point charge), not an infinite wire, and $r^2$ dependence is not applicable here.</p>
+<ul>
+<li>(a) Incorrect: $B \propto r$ would mean the field increases with distance, which is not true.</li>
+<li>(b) Correct: $B \propto \frac{1}{r}$, as per the formula for an infinite wire.</li>
+<li>(c) Incorrect: $B \propto r^2$ would imply the field increases quadratically, which is incorrect.</li>
+<li>(d) Incorrect: $B \propto \frac{1}{r^2}$ applies to point sources, not an infinite wire.<br />
+The answer is (b) $B \propto \frac{1}{r}$.</li>
+<li><strong>JEE/NEET Tip</strong>: The $1/r$ dependence is unique to infinite straight wires; compare with $1/r^2$ for point sources. Common error: Confusing with electric field dependence ($1/r^2$ for a point charge).</li>
+</ul>
+<hr />
+<h2 id="derivation-solutions">Derivation Solutions</h2>
+<h3 id="solution-51">Solution 51</h3>
+<p><strong>Problem</strong>: Derive the magnetic force on a current-carrying wire in a uniform magnetic field $F = I L B \sin \theta$.</p>
+<p><strong>Solution</strong>:<br />
+Consider a straight wire of length $L$ carrying current $I$ in a uniform magnetic field $\vec{B}$. The current consists of charges $q$ moving with drift velocity $\vec{v}$ along the wire. We can derive the force using the Lorentz force on individual charges and then relate it to the current.</p>
+<p>The wire’s length vector $\vec{L}$ is in the direction of the current $I$. Assume $N$ charges, each with charge $q$, move through the wire. The drift velocity $\vec{v}$ is along the wire, and in a time $\Delta t$, each charge moves a distance $v \Delta t$. The total length of the wire $L = v \Delta t$ (if all charges move the length of the wire in time $\Delta t$). The current $I$ is the rate of charge flow: $I = \frac{N q}{\Delta t}$, so $N q = I \Delta t$. The force on one charge is $\vec{F}<em>{\text{charge}} = q (\vec{v} \times \vec{B})$. Since $\vec{v}$ is along the wire, the total length moved by all charges corresponds to $\vec{L}$, so $\vec{v} \Delta t = \vec{L}$, or $\vec{v} = \frac{\vec{L}}{\Delta t}$. The total force on all $N$ charges is:<br />
+$$
+\vec{F} = N \vec{F}</em>{\text{charge}} = N q (\vec{v} \times \vec{B}) = (N q) \left( \frac{\vec{L}}{\Delta t} \times \vec{B} \right) = (I \Delta t) \left( \frac{\vec{L}}{\Delta t} \times \vec{B} \right) = I (\vec{L} \times \vec{B})
+$$
+The magnitude is $F = I L B \sin \theta$, where $\theta$ is the angle between $\vec{L}$ and $\vec{B}$. This matches the given expression. For Problem 1, $I = 5 , \text{A}$, $L = 0.2 , \text{m}$, $B = 0.3 , \text{T}$, $\theta = 90^\circ$, $F = 0.300 , \text{N}$.</p>
+<ul>
+<li><strong>JEE/NEET Tip</strong>: Use the right-hand rule to determine the force direction; $\sin \theta$ accounts for orientation. Common error: Forgetting $\sin \theta$ or misinterpreting the angle.</li>
+</ul>
+<h3 id="solution-53">Solution 53</h3>
+<p><strong>Problem</strong>: Derive the magnetic field at the center of a circular loop $B = \frac{\mu_0 I}{2 R}$.</p>
+<p><strong>Solution</strong>:<br />
+Consider a circular loop of radius $R$ lying in the xy-plane, centered at the origin, with current $I$ flowing in the counterclockwise direction (viewed from above). We need to find the magnetic field at the center of the loop $(0, 0, 0)$ using the Biot-Savart law: $d\vec{B} = \frac{\mu_0}{4 \pi} \frac{I (d\vec{l} \times \hat{r})}{r^2}$.</p>
+<p>Parameterize the loop: a point on the loop is $(R \cos \phi, R \sin \phi, 0)$, where $\phi$ is the azimuthal angle. The current element $d\vec{l}$ at angle $\phi$ has length $R d\phi$ in the tangential direction $\hat{\phi} = (-\sin \phi, \cos \phi, 0)$, so $d\vec{l} = R d\phi \hat{\phi} = R d\phi (-\sin \phi \hat{i} + \cos \phi \hat{j})$. The position of the element is $\vec{r}' = (R \cos \phi, R \sin \phi, 0)$, and the field point is the center $(0, 0, 0)$, so $\vec{r} = (0, 0, 0) - (R \cos \phi, R \sin \phi, 0) = (-R \cos \phi, -R \sin \phi, 0)$, $r = R$, $\hat{r} = \frac{\vec{r}}{r} = (-\cos \phi, -\sin \phi, 0)$. Compute the cross product:<br />
+$$
+d\vec{l} \times \hat{r} = (R d\phi (-\sin \phi \hat{i} + \cos \phi \hat{j})) \times (-\cos \phi \hat{i} - \sin \phi \hat{j}) = R d\phi [(\sin \phi)(\sin \phi) + (\cos \phi)(\cos \phi)] \hat{k} = R d\phi \hat{k}
+$$
+Using the Biot-Savart law:<br />
+$$
+d\vec{B} = \frac{\mu_0}{4 \pi} \frac{I (R d\phi \hat{k})}{R^2} = \frac{\mu_0 I}{4 \pi R} d\phi \hat{k}
+$$
+Integrate over the loop from $\phi = 0$ to $2\pi$:<br />
+$$
+\vec{B} = \int_0^{2\pi} \frac{\mu_0 I}{4 \pi R} d\phi \hat{k} = \frac{\mu_0 I}{4 \pi R} (2 \pi) \hat{k} = \frac{\mu_0 I}{2 R} \hat{k}
+$$
+The magnitude is $B = \frac{\mu_0 I}{2 R}$, directed along the z-axis (perpendicular to the loop plane). For Problem 4, $R = 0.1 , \text{m}$, $I = 2 , \text{A}$, $B \approx 1.257 \times 10^{-5} , \text{T}$.</p>
+<ul>
+<li><strong>JEE/NEET Tip</strong>: Symmetry ensures only the z-component remains; use the right-hand rule for direction. Common error: Forgetting to integrate over the entire loop.</li>
+</ul>
+<hr />
+<h2 id="neet-style-solutions">NEET-style Solutions</h2>
+<h3 id="solution-96">Solution 96</h3>
+<p><strong>Problem</strong>: A wire with $I = 3 , \text{A}$, $L = 0.25 , \text{m}$ in $B = 0.2 , \text{T}$ (perpendicular). Calculate the force.</p>
+<ul>
+<li>(a) $0.149 , \text{N}$</li>
+<li>(b) $0.150 , \text{N}$</li>
+<li>(c) $0.151 , \text{N}$</li>
+<li>(d) $0.152 , \text{N}$</li>
+</ul>
+<p><strong>Solution</strong>:<br />
+The force on a current-carrying wire in a magnetic field is $F = I L B \sin \theta$. Given $I = 3 , \text{A}$, $L = 0.25 , \text{m}$, $B = 0.2 , \text{T}$, and $\theta = 90^\circ$:<br />
+$$
+F = 3 \times 0.25 \times 0.2 \times \sin 90^\circ = 3 \times 0.25 \times 0.2 \times 1 = 0.150 , \text{N}
+$$
+The answer is (b) $0.150 , \text{N}$.</p>
+<ul>
+<li><strong>JEE/NEET Tip</strong>: Force is maximum when perpendicular; use the right-hand rule for direction. Common error: Using the wrong angle or forgetting $\sin \theta$.</li>
+</ul>
+<h3 id="solution-98">Solution 98</h3>
+<p><strong>Problem</strong>: A loop with $R = 0.03 , \text{m}$, $I = 2 , \text{A}$ at its center. Calculate $B$.</p>
+<ul>
+<li>(a) $4.18 \times 10^{-5} , \text{T}$</li>
+<li>(b) $4.19 \times 10^{-5} , \text{T}$</li>
+<li>(c) $4.20 \times 10^{-5} , \text{T}$</li>
+<li>(d) $4.21 \times 10^{-5} , \text{T}$</li>
+</ul>
+<p><strong>Solution</strong>:<br />
+The magnetic field at the center of a circular loop is $B = \frac{\mu_0 I}{2 R}$. Given $R = 0.03 , \text{m}$, $I = 2 , \text{A}$, $\mu_0 = 4 \pi \times 10^{-7} , \text{T·m/A}$:<br />
+$$
+B = \frac{(4 \pi \times 10^{-7}) \times 2}{2 \times 0.03} = \frac{8 \pi \times 10^{-7}}{0.06} \approx 4.1888 \times 10^{-5} , \text{T}
+$$
+Round to two decimal places: $4.19 \times 10^{-5} , \text{T}$. The answer is (b) $4.19 \times 10^{-5} , \text{T}$.</p>
+<ul>
+<li><strong>JEE/NEET Tip</strong>: Field at the center is stronger for smaller $R$; use the right-hand rule for direction. Common error: Using the straight wire formula or incorrect $\mu_0$.</li>
+</ul>
+<h2 id="back-to-chapter">Back to Chapter</h2>
+<p><a href="../../magnetic-fields">Return to Magnetic Fields Chapter</a></p>
+<p><a href="../../magnetic-fields/problems">Return to Magnetic Fields Problems</a></p>
+
+        </article>
+    </div>
+
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container text-center py-5">
+            <ul class="social-list list-unstyled pt-4 mb-0">
+                
+                    <li class="list-inline-item">
+                        <a href="https:&#x2F;&#x2F;www.youtube.com&#x2F;@VidyaMargbyRaviShankar-w9u" target="_blank" title="YouTube"><i class="fab fa-youtube fa-fw"></i></a>
+                    </li>
+                
+                    <li class="list-inline-item">
+                        <a href="https:&#x2F;&#x2F;t.me&#x2F;vidyamarg1" target="_blank" title="Telegram"><i class="fab fa-telegram fa-fw"></i></a>
+                    </li>
+                
+            </ul>
+            <small class="copyright">
+                © 2025 Vidya Marg. Designed with <span class="sr-only">love</span><i class="fas fa-heart" style="color: #fb866a;"></i> by <a class="theme-link" href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers. <a class="theme-link" href="/app/privacy-policy/">Privacy Policy</a>
+            </small>
+        </div>
+    </footer>
+
+    <!-- Javascript -->          
+    <script src="https://vidyamarg.com/plugins/popper.min.js"></script>
+    <script src="https://vidyamarg.com/plugins/bootstrap/js/bootstrap.min.js"></script>  
+    
+    <!-- Page Specific JS -->
+    <script src="https://vidyamarg.com/plugins/smoothscroll.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
+    <script src="https://vidyamarg.com/js/highlight-custom.js"></script> 
+    <script src="https://vidyamarg.com/plugins/simplelightbox/simple-lightbox.min.js"></script>      
+    <script src="https://vidyamarg.com/plugins/gumshoe/gumshoe.polyfills.min.js"></script> 
+    <script src="https://vidyamarg.com/js/docs.js"></script> 
+
+    <script>
+        function renderLatex() {
+            if (typeof renderMathInElement === "undefined") {
+                setTimeout(renderLatex, 100);
+                return;
+            }
+            renderMathInElement(document.body, {
+                delimiters: [
+                    { left: "$$", right: "$$", display: true },
+                    { left: "$", right: "$", display: false },
+                    { left: "\\(", right: "\\)", display: false },
+                    { left: "\\[", right: "\\]", display: true }
+                ],
+                throwOnError: false
+            });
+        }
+
+        window.addEventListener("load", function() {
+            renderLatex();
+        });
+    </script>
+</body>
+</html>

@@ -1,14 +1,26 @@
 ---
 title: Physics Book - Current and Resistance for JEE & NEET
 description: Comprehensive guide on current and resistance for JEE and NEET, covering electric current, Ohm's law, resistivity, temperature effects, electrical power, and applications in circuits, with extensive examples.
-slug: books/physics/current-resistance
+slug: current-resistance
 keywords: physics current resistance, JEE physics Ohm's law, NEET physics electrical power, circuits
 og:image: https://vidyamarg.com/og-physics-current-resistance.jpg
 ---
 
 # Chapter 26: Current and Resistance
 
-**Beta Version**: Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!
+
+
+<div class="callout-block callout-warning">
+    <div class="content">
+        <h4 class="callout-title">
+            <span class="callout-icon-holder me-1">
+                <i class="fas fa-exclamation-triangle"></i>
+            </span>
+            Beta Version
+        </h4>
+        <p>Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!</p>
+    </div>
+</div>
 
 Current and resistance are foundational concepts for understanding how charges flow in circuits, with applications like optimizing spacecraft electrical systems for ion propulsion. Building on the concepts of electric potential and capacitance from Chapters 24–25, this chapter explores current and resistance in depth. For JEE Main, JEE Advanced, and NEET students, mastering current and resistance is essential, as these topics frequently appear in problems involving circuits, power, and material properties. This chapter, **Current and Resistance**, covers **electric current and conduction**, **resistance and Ohm's law**, **resistivity and temperature effects**, and **electrical power and energy**, providing detailed explanations, derivations, solved examples, and practical applications to ensure conceptual clarity and problem-solving proficiency.
 
@@ -286,7 +298,7 @@ A spacecraft resistor ($R = 0.1 \, \Omega$, $I = 5 \, \text{A}$) dissipates $P =
 ## Practice Problems
 Explore our problem set with **100 problems** inspired by JEE Main, JEE Advanced, and NEET patterns to test your understanding.
 
-[View Problems](./problems.md)
+[View Problems](./problems)
 
 ## Watch on YouTube
 Our Hinglish video lessons make electrostatics engaging! Subscribe for updates.

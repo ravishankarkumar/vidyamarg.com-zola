@@ -1,7 +1,7 @@
 ---
 title: Physics Book - Circuits Problems for JEE & NEET
 description: Practice 100 problems on circuits for JEE and NEET, inspired by exam patterns, covering Kirchhoff's laws, series and parallel resistors, capacitors in circuits, RC circuits, and DC circuit applications.
-slug: books/physics/circuits/problems
+slug: problems
 keywords: physics circuits problems, JEE physics Kirchhoff's laws problems, NEET physics RC circuits problems, DC circuits
 og:image: https://vidyamarg.com/og-physics-circuits.jpg
 ---
@@ -569,4 +569,4 @@ This section provides **100 problems** to test your understanding of DC circuits
     - (d) $7.22 \, \text{V}$
 
 ## Back to Chapter
-[Return to Circuits Chapter](./index.md)
+[Return to Circuits Chapter](../../circuits)

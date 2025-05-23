@@ -1,14 +1,26 @@
 ---
 title: Physics Book - Center of Mass and Linear Momentum for JEE & NEET
 description: Comprehensive guide to center of mass and linear momentum for JEE and NEET, covering center of mass, momentum conservation, impulse, and collisions, with extensive examples.
-slug: books/physics/center-mass-momentum
+slug: center-mass-momentum
 keywords: physics center of mass momentum, JEE physics momentum conservation, NEET physics collisions, impulse
 og:image: https://vidyamarg.com/og-physics-center-mass-momentum.jpg
 ---
 
 # Chapter 9: Center of Mass and Linear Momentum
 
-**Beta Version**: Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!
+
+
+<div class="callout-block callout-warning">
+    <div class="content">
+        <h4 class="callout-title">
+            <span class="callout-icon-holder me-1">
+                <i class="fas fa-exclamation-triangle"></i>
+            </span>
+            Beta Version
+        </h4>
+        <p>Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!</p>
+    </div>
+</div>
 
 Center of mass and linear momentum are pivotal concepts in classical mechanics, extending the dynamics and energy principles from Chapters 5–8 to systems of particles. The center of mass simplifies the motion of complex systems by treating them as a single point, while linear momentum and its conservation provide a powerful framework for analyzing interactions like collisions. For JEE Main, JEE Advanced, and NEET students, these topics are essential, appearing in problems involving rocket motion, collisions between particles, and system dynamics. This chapter covers **the definition and calculation of the center of mass**, **linear momentum and its conservation**, **impulse and its relation to momentum change**, and **collisions (elastic and inelastic) with applications**, providing detailed explanations, derivations, numerous solved examples, and exam-focused strategies to ensure conceptual clarity and problem-solving proficiency.
 
@@ -297,7 +309,7 @@ $$
 ## Practice Problems
 Explore our extensive problem set with **100 problems** inspired by JEE Main, JEE Advanced, and NEET patterns to test your understanding of center of mass and linear momentum.
 
-[View Problems](./problems.md)
+[View Problems](./problems)
 
 ## Watch on YouTube
 Our Hinglish video lessons make center of mass and linear momentum engaging for JEE and NEET! Subscribe for updates.

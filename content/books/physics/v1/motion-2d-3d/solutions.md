@@ -1,7 +1,7 @@
 ---
 title: Physics Book - Motion in Two and Three Dimensions Solutions for JEE & NEET
 description: Sample solutions for motion in two and three dimensions problems, covering position, displacement, velocity, acceleration, projectile motion, circular motion, and relative motion, tailored for JEE and NEET preparation.
-slug: books/physics/motion-2d-3d/solutions
+slug: solutions
 keywords: physics motion 2d 3d solutions, JEE physics projectile motion solutions, NEET physics circular motion solutions, relative motion
 og:image: https://vidyamarg.com/og-physics-motion-2d-3d.jpg
 ---
@@ -181,6 +181,6 @@ The answer is (a) $11.66 \, m/s$.
 - **JEE/NEET Tip**: Add velocity vectors component-wise in relative motion problems; the magnitude gives the net speed. Common error: Adding magnitudes directly ($10 + 6 = 16$, which is incorrect).
 
 ## Back to Chapter
-[Return to Motion in Two and Three Dimensions Chapter](./index.md)
+[Return to Motion in Two and Three Dimensions Chapter](../../motion-2d-3d)
 
-[Return to Motion in Two and Three Dimensions Problems](./problems.md)
+[Return to Motion in Two and Three Dimensions Problems](../../motion-2d-3d/problems)

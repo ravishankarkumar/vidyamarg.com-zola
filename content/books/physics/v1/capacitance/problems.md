@@ -1,7 +1,7 @@
 ---
 title: Physics Book - Capacitance Problems for JEE & NEET
 description: Practice 100 electrostatics problems for JEE and NEET, inspired by exam patterns, covering capacitance, series and parallel combinations, energy storage, and dielectrics in capacitors.
-slug: books/physics/capacitance/problems
+slug: problems
 keywords: physics capacitance problems, JEE physics capacitors problems, NEET physics energy storage problems, electrostatics
 og:image: https://vidyamarg.com/og-physics-capacitance.jpg
 ---
@@ -569,4 +569,4 @@ This section provides **100 problems** to test your understanding of capacitance
     - (d) $1.127 \times 10^{-2} \, \text{J}$
 
 ## Back to Chapter
-[Return to Capacitance Chapter](./index.md)
+[Return to Capacitance Chapter](../../capacitance)

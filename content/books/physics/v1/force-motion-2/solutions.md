@@ -1,7 +1,7 @@
 ---
 title: Physics Book - Force and Motion—II Solutions for JEE & NEET
 description: Sample solutions for advanced force and motion problems, covering friction, circular motion dynamics, drag forces, and complex systems, tailored for JEE and NEET preparation.
-slug: books/physics/force-motion-2/solutions
+slug: solutions
 keywords: physics force motion solutions, JEE physics friction solutions, NEET physics circular motion solutions, drag forces
 og:image: https://vidyamarg.com/og-physics-force-motion-2.jpg
 ---
@@ -189,6 +189,6 @@ The answer is (c) $6.0 \, m/s^2$.
 - **JEE/NEET Tip**: Friction reduces the effective pulling force in an Atwood’s setup; use the formula $a = \frac{(m_1 - \mu_k m_2) g}{m_1 + m_2}$ for quick calculation. Common error: Forgetting to include friction in the force balance for $m_2$.
 
 ## Back to Chapter
-[Return to Force and Motion—II Chapter](./index.md)
+[Return to Force and Motion—II Chapter](../../force-motion-2)
 
-[Return to Force and Motion—II Problems](./problems.md)
+[Return to Force and Motion—II Problems](../../force-motion-2/problems)

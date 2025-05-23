@@ -1,7 +1,7 @@
 ---
 title: Physics Book - Electric Fields Solutions for JEE & NEET
 description: Sample solutions for electrostatics problems, covering electric field calculations, charge distributions, field lines, and motion of charges, tailored for JEE and NEET preparation.
-slug: books/physics/electric-fields/solutions
+slug: solutions
 keywords: physics electric fields solutions, JEE physics field calculations solutions, NEET physics field lines solutions, electrostatics
 og:image: https://vidyamarg.com/og-physics-electric-fields.jpg
 ---
@@ -171,6 +171,6 @@ The answer is (a) $1.27 \times 10^6 \, \text{N/C}$.
 - **JEE/NEET Tip**: The field is along the z-axis; ensure correct computation of $(R^2 + z^2)^{3/2}$. Common error: Forgetting $z$ in the numerator, leading to incorrect field strength.
 
 ## Back to Chapter
-[Return to Electric Fields Chapter](./index.md)
+[Return to Electric Fields Chapter](../../electric-fields)
 
-[Return to Electric Fields Problems](./problems.md)
+[Return to Electric Fields Problems](../../electric-fields/problems)

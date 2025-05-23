@@ -1,14 +1,26 @@
 ---
 title: Physics Book - Photons and Matter Waves for JEE & NEET
 description: Comprehensive guide on photons and matter waves for JEE and NEET, covering the nature of photons, photoelectric effect, de Broglie waves, and wave-particle duality, with extensive examples.
-slug: books/physics/photons-matter-waves
+slug: photons-matter-waves
 keywords: physics photons matter waves, JEE physics photoelectric effect, NEET physics de Broglie waves, wave-particle duality
 og:image: https://vidyamarg.com/og-physics-photons-matter-waves.jpg
 ---
 
 # Chapter 38: Photons and Matter Waves
 
-**Beta Version**: Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!
+
+
+<div class="callout-block callout-warning">
+    <div class="content">
+        <h4 class="callout-title">
+            <span class="callout-icon-holder me-1">
+                <i class="fas fa-exclamation-triangle"></i>
+            </span>
+            Beta Version
+        </h4>
+        <p>Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!</p>
+    </div>
+</div>
 
 Photons and matter waves, key to understanding quantum effects in spacecraft technology, bridge classical and quantum physics. Building on relativity (Chapter 37) and electromagnetic waves (Chapter 33), this chapter explores the quantum nature of light and matter. For JEE Main, JEE Advanced, and NEET students, mastering photons and matter waves is essential, as it frequently appears in problems involving the photoelectric effect, de Broglie wavelength, and wave-particle duality. This chapter, **Photons and Matter Waves**, covers **nature of photons**, **photoelectric effect**, **de Broglie waves**, and **wave-particle duality and applications**, providing detailed explanations, derivations, solved examples, and practical applications to ensure conceptual clarity and problem-solving proficiency.
 
@@ -249,7 +261,7 @@ A spacecraft quantum sensor measures an electron’s position with $\Delta x = 1
 ## Practice Problems
 Explore our problem set with **100 problems** inspired by JEE Main, JEE Advanced, and NEET patterns to test your understanding.
 
-[View Problems](./problems.md)
+[View Problems](./problems)
 
 ## Watch on YouTube
 Our Hinglish video lessons make quantum physics engaging! Subscribe for updates.

@@ -1,14 +1,26 @@
 ---
 title: Physics Book - Coulomb’s Law for JEE & NEET
 description: Comprehensive guide on Coulomb’s law for JEE and NEET, covering electric forces, vector analysis, superposition principle, and applications in electrostatics, with extensive examples.
-slug: books/physics/coulombs-law
+slug: coulombs-law
 keywords: physics Coulomb’s law, JEE physics electric force, NEET physics superposition principle, electrostatics
 og:image: https://vidyamarg.com/og-physics-coulombs-law.jpg
 ---
 
 # Chapter 21: Coulomb’s Law
 
-**Beta Version**: Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!
+
+
+<div class="callout-block callout-warning">
+    <div class="content">
+        <h4 class="callout-title">
+            <span class="callout-icon-holder me-1">
+                <i class="fas fa-exclamation-triangle"></i>
+            </span>
+            Beta Version
+        </h4>
+        <p>Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!</p>
+    </div>
+</div>
 
 Coulomb’s law governs the electric forces between charged particles, a fundamental principle in electrostatics with applications ranging from atomic interactions to charged particle propulsion in rockets. Building on the thermodynamic concepts from Chapters 18–20, this chapter introduces the principles of electrostatics. For JEE Main, JEE Advanced, and NEET students, mastering Coulomb’s law is essential, as it forms the basis for understanding electric fields, potentials, and interactions in physics problems. This chapter, **Coulomb’s Law**, covers **electric charge and Coulomb’s law**, **vector nature of electric forces**, **superposition principle**, and **applications of Coulomb’s law**, providing detailed explanations, derivations, solved examples, and practical applications to ensure conceptual clarity and problem-solving proficiency.
 
@@ -255,7 +267,7 @@ In an ion engine, a line of charge (length $L$, $\lambda$) creates a field $E$ t
 ## Practice Problems
 Explore our problem set with **100 problems** inspired by JEE Main, JEE Advanced, and NEET patterns to test your understanding.
 
-[View Problems](./problems.md)
+[View Problems](./problems)
 
 ## Watch on YouTube
 Our Hinglish video lessons make electrostatics engaging! Subscribe for updates.

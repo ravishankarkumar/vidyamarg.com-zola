@@ -1,14 +1,26 @@
 ---
 title: Physics Book - Maxwell’s Equations; Magnetism of Matter for JEE & NEET
 description: Comprehensive guide on Maxwell’s equations and magnetism of matter for JEE and NEET, covering Gauss’s laws, Ampere-Maxwell law, Faraday’s law, magnetic properties of materials, and applications, with extensive examples.
-slug: books/physics/maxwells-equations
+slug: maxwells-equations
 keywords: physics Maxwell’s equations, JEE physics magnetism of matter, NEET physics electromagnetic theory, electromagnetism
 og:image: https://vidyamarg.com/og-physics-maxwells-equations.jpg
 ---
 
 # Chapter 32: Maxwell’s Equations; Magnetism of Matter
 
-**Beta Version**: Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!
+
+
+<div class="callout-block callout-warning">
+    <div class="content">
+        <h4 class="callout-title">
+            <span class="callout-icon-holder me-1">
+                <i class="fas fa-exclamation-triangle"></i>
+            </span>
+            Beta Version
+        </h4>
+        <p>Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!</p>
+    </div>
+</div>
 
 Maxwell’s equations unify electricity and magnetism, enabling applications like magnetic shielding in spacecraft. Building on the concepts of electromagnetism from Chapters 28–31, this chapter explores Maxwell’s equations and the magnetic properties of matter. For JEE Main, JEE Advanced, and NEET students, mastering these topics is essential, as they frequently appear in problems involving fields, electromagnetic waves, and material interactions. This chapter, **Maxwell’s Equations; Magnetism of Matter**, covers **Gauss’s law for electricity**, **Gauss’s law for magnetism**, **Faraday’s law and Ampere-Maxwell law**, and **magnetism of matter**, providing detailed explanations, derivations, solved examples, and practical applications to ensure conceptual clarity and problem-solving proficiency.
 
@@ -241,7 +253,7 @@ A spacecraft uses a ferromagnetic shield ($\mu_r = 1000$, $H = 10 \, \text{A/m}$
 ## Practice Problems
 Explore our problem set with **100 problems** inspired by JEE Main, JEE Advanced, and NEET patterns to test your understanding.
 
-[View Problems](./problems.md)
+[View Problems](./problems)
 
 ## Watch on YouTube
 Our Hinglish video lessons make electromagnetism engaging! Subscribe for updates.

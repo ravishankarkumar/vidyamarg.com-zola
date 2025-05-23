@@ -1,14 +1,26 @@
 ---
 title: Physics Book - Waves—I for JEE & NEET
 description: Comprehensive guide on wave motion for JEE and NEET, covering wave characteristics, types of waves, wave equations, superposition, interference, and standing waves, with extensive examples.
-slug: books/physics/waves-1
+slug: waves-1
 keywords: physics waves, JEE physics wave motion, NEET physics interference, standing waves
 og:image: https://vidyamarg.com/og-physics-waves-1.jpg
 ---
 
 # Chapter 16: Waves-I
 
-**Beta Version**: Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!
+
+
+<div class="callout-block callout-warning">
+    <div class="content">
+        <h4 class="callout-title">
+            <span class="callout-icon-holder me-1">
+                <i class="fas fa-exclamation-triangle"></i>
+            </span>
+            Beta Version
+        </h4>
+        <p>Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!</p>
+    </div>
+</div>
 
 Waves are fundamental to understanding a wide range of physical phenomena, from the vibrations of a guitar string to the acoustic design of rocket launch systems. Building on the concepts of oscillatory motion from Chapter 15, this chapter introduces the basics of wave motion, a cornerstone of physics. For JEE Main, JEE Advanced, and NEET students, mastering wave mechanics is essential, as it appears in problems involving sound, light, and mechanical systems. This chapter, **Waves—I**, covers **wave characteristics and types**, **the wave equation and its solutions**, **superposition and interference**, and **standing waves and applications**, providing detailed explanations, derivations, solved examples, and practical applications to ensure conceptual clarity and problem-solving proficiency.
 
@@ -262,7 +274,7 @@ A rocket component (string-like, $L = 1 \, \text{m}$, $v = 100 \, \text{m/s}$) h
 ## Practice Problems
 Explore our problem set with **100 problems** inspired by JEE Main, JEE Advanced, and NEET patterns to test your understanding.
 
-[View Problems](./problems.md)
+[View Problems](./problems)
 
 ## Watch on YouTube
 Our Hinglish video lessons make waves engaging! Subscribe for updates.

@@ -1,7 +1,7 @@
 ---
 title: Physics Book - All About Atoms Problems for JEE & NEET
 description: Practice 100 problems on atomic physics for JEE and NEET, inspired by exam patterns, covering historical models, Bohr model, quantum mechanical model, and atomic spectra.
-slug: books/physics/atoms/problems
+slug: problems
 keywords: physics atoms problems, JEE physics Bohr model problems, NEET physics atomic spectra problems, quantum mechanical model
 og:image: https://vidyamarg.com/og-physics-atoms.jpg
 ---
@@ -569,4 +569,4 @@ This section provides **100 problems** to test your understanding of atomic phys
     - (d) 12.77 eV
 
 ## Back to Chapter
-[Return to All About Atoms Chapter](./index.md)
+[Return to All About Atoms Chapter](../../atoms)

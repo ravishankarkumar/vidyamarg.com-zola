@@ -1,7 +1,7 @@
 ---
 title: Physics Book - Quarks, Leptons, and the Big Bang Solutions for JEE & NEET
 description: Sample solutions for particle physics and cosmology problems, covering quarks, leptons, the Standard Model, and the Big Bang, tailored for JEE and NEET preparation.
-slug: books/physics/quarks-leptons/solutions
+slug: solutions
 keywords: physics quarks leptons solutions, JEE physics standard model solutions, NEET physics big bang solutions, particle physics cosmology
 og:image: https://vidyamarg.com/og-physics-quarks-leptons.jpg
 ---
@@ -167,6 +167,6 @@ The answer is (b) 1685 km/s.
 - **JEE/NEET Tip**: Hubble’s law gives velocity directly; multiply $H_0$ by $d$ and check units. Common error: Rounding incorrectly or using an incorrect $H_0$.
 
 ## Back to Chapter
-[Return to Quarks, Leptons, and the Big Bang Chapter](./index.md)
+[Return to Quarks, Leptons, and the Big Bang Chapter](../../quarks-leptons)
 
-[Return to Quarks, Leptons, and the Big Bang Problems](./problems.md)
+[Return to Quarks, Leptons, and the Big Bang Problems](../../quarks-leptons/problems)

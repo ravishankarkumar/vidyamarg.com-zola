@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <title>Vidya Marg | Measurement</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn measurement for JEE and NEET, covering SI units, dimensional analysis, significant figures, and error analysis, with practice MCQs.">
+    <meta name="keywords" content="JEE physics book, NEET physics book, physics book, physics for JEE and NEET">
+    <meta property="og:image" content="https://vidyamarg.com/og-physics-book.jpg">
+    <link rel="canonical" href="https:&#x2F;&#x2F;vidyamarg.com&#x2F;books&#x2F;physics&#x2F;v1&#x2F;measurement&#x2F;">
+    <link rel="shortcut icon" href="https://vidyamarg.com/logos/maroon-bg-logo-128.ico">
+    
+    <!-- Preload Google Font -->
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" as="style">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript>
+        <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
+    </noscript>
+    
+    <!-- FontAwesome JS -->
+    <script defer src="https://vidyamarg.com/fontawesome/js/all.min.js"></script>
+
+    <!-- KaTeX for LaTeX rendering -->
+    <link rel="stylesheet" href="https://vidyamarg.com/katex/katex.min.css">
+    <script src="https://vidyamarg.com/katex/katex.min.js"></script>
+    <script src="https://vidyamarg.com/katex/auto-render.min.js"></script>
+
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.2/styles/atom-one-dark.min.css">
+    <link rel="stylesheet" href="https://vidyamarg.com/plugins/simplelightbox/simple-lightbox.min.css">
+
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="https://vidyamarg.com/css/theme.css">
+    <link rel="stylesheet" href="https://vidyamarg.com/css/custom.css" />
+</head> 
+
+<body>    
+    <header class="header fixed-top">
+        <div class="branding docs-branding">
+            <div class="container-fluid position-relative py-2">
+                <div class="docs-logo-wrapper">
+                    
+                    
+                    
+                    <button id="docs-sidebar-toggler" class="docs-sidebar-toggler docs-sidebar-visible me-2 d-xl-none" type="button">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    
+                    <div class="site-logo">
+                        <a class="navbar-brand" href="https://vidyamarg.com">
+                            <img class="logo-icon me-2" src="https://vidyamarg.com/logos/maroon-bg-logo-1024.png" alt="logo">
+                            <span class="logo-text">Vidya Marg</span>
+                        </a>
+                    </div>    
+                </div>
+                <div class="docs-top-utilities d-flex justify-content-end align-items-center">
+                    <ul class="nav-list list-inline mb-0 d-none d-lg-flex">
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;">Home</a>
+                            </li>
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics (Youtube series)</a>
+                            </li>
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;">Books</a>
+                            </li>
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;app&#x2F;">App</a>
+                            </li>
+                        
+                        
+                            
+                                <li class="list-inline-item">
+                                    <a href="https:&#x2F;&#x2F;www.youtube.com&#x2F;@VidyaMargbyRaviShankar-w9u" title="YouTube"><i class="fab fa-youtube fa-fw"></i></a>
+                                </li>
+                            
+                                <li class="list-inline-item">
+                                    <a href="https:&#x2F;&#x2F;t.me&#x2F;vidyamarg1" title="Telegram"><i class="fab fa-telegram fa-fw"></i></a>
+                                </li>
+                            
+                        
+                    </ul>
+                    <!-- Mobile Menu Button -->
+                    <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#mobileNav" aria-controls="mobileNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </div>
+            <!-- Mobile Menu -->
+            <div class="collapse navbar-collapse d-lg-none" id="mobileNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;">Home</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics (Youtube series)</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;books&#x2F;">Books</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;app&#x2F;">App</a>
+                        </li>
+                    
+                    
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="https:&#x2F;&#x2F;www.youtube.com&#x2F;@VidyaMargbyRaviShankar-w9u"><i class="fab fa-youtube fa-fw"></i> YouTube</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="https:&#x2F;&#x2F;t.me&#x2F;vidyamarg1"><i class="fab fa-telegram fa-fw"></i> Telegram</a>
+                            </li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="docs-wrapper">
+        
+        
+        
+        <div id="docs-sidebar" class="docs-sidebar">
+            <nav id="docs-nav" class="docs-nav navbar">
+                
+                    
+                        
+
+<ul class="nav flex-column">
+    <!-- Navigation Menu (visible only in mobile view) -->
+    <li class="nav-item d-lg-none">
+        <span class="nav-link">Navigation</span>
+        <ul class="nav flex-column">
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;">Home</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics (Youtube series)</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;books&#x2F;">Books</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;app&#x2F;">App</a>
+                </li>
+            
+        </ul>
+    </li>
+
+    <!-- JEE/NEET Physics Section -->
+    
+    <li class="nav-item">
+        <span class="nav-link">Physics for JEE&#x2F;NEET</span>
+        <ul class="nav flex-column">
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics for JEE&#x2F;NEET</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;maths-basics-for-physics&#x2F;">Maths Basics for Physics</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;units-and-dimensions&#x2F;">Units and Dimensions</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;physical-quantities-and-si-units&#x2F;">Physical Quantities and SI Units</a>
+                </li>
+            
+        </ul>
+    </li>
+
+    <!-- Books Section -->
+    
+    <li class="nav-item">
+        <span class="nav-link">Books</span>
+        <ul class="nav flex-column">
+            <!-- JEE/NEET Physics Book (Version 1) -->
+            
+            <li class="nav-item">
+                <a class="nav-link" href="/books/physics/v1/">Physics Book</a>
+                
+                    <ul class="nav flex-column">
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;measurement&#x2F;">Measurement</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;motion-straight-line&#x2F;">Motion Along a Straight Line</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;vectors&#x2F;">Vectors</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;motion-2d-3d&#x2F;">Motion in Two and Three Dimensions</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;force-motion-1&#x2F;">Force and Motion—I</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;force-motion-2&#x2F;">Force and Motion—II</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;kinetic-energy-work&#x2F;">Kinetic Energy and Work</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;potential-energy-conservation&#x2F;">Potential Energy and Conservation of Energy</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;center-mass-momentum&#x2F;">Center of Mass and Linear Momentum</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;rotation&#x2F;">Rotation</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;rolling-torque-angular-momentum&#x2F;">Rolling, Torque, and Angular Momentum</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;equilibrium-elasticity&#x2F;">Equilibrium and Elasticity</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;gravitation&#x2F;">Gravitation</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;fluids&#x2F;">Fluids</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;oscillations&#x2F;">Oscillations</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;waves-1&#x2F;">Waves—I</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;waves-2&#x2F;">Waves—II</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;kinetic-theory-gases&#x2F;">The Kinetic Theory of Gases</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;thermodynamics-temperature-heat&#x2F;">Temperature, Heat, and the First Law of Thermodynamics</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;entropy-thermodynamics&#x2F;">Entropy and the Second Law of Thermodynamics</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electric-fields&#x2F;">Electric Fields</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;gauss-law&#x2F;">Gauss’s Law</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electric-potential&#x2F;">Electric Potential</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;capacitance&#x2F;">Capacitance</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;current-resistance&#x2F;">Current and Resistance</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;circuits&#x2F;">Circuits</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;magnetic-fields&#x2F;">Magnetic Fields</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;magnetic-fields-currents&#x2F;">Magnetic Fields Due to Currents</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;induction-inductance&#x2F;">Induction and Inductance</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electromagnetic-oscillations-ac&#x2F;">Electromagnetic Oscillations and Alternating Current</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electromagnetic-waves&#x2F;">Electromagnetic Waves</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;images&#x2F;">Images</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;interference&#x2F;">Interference</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;diffraction&#x2F;">Diffraction</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;photons-matter-waves&#x2F;">Photons and Matter Waves</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;matter-waves-advanced&#x2F;">More About Matter Waves</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;atoms&#x2F;">All About Atoms</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;nuclear-physics&#x2F;">Nuclear Physics</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;nuclear-energy&#x2F;">Energy from the Nucleus</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;quarks-leptons&#x2F;">Quarks, Leptons, and the Big Bang</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;relativity&#x2F;">Relativity</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;conduction-solids&#x2F;">Conduction of Electricity in Solids</a>
+                            </li>
+                        
+                    </ul>
+                
+            </li>
+        </ul>
+    </li>
+</ul>
+                    
+                
+            </nav>
+        </div>
+        
+
+        <div class="docs-content">
+            
+    <div class="docs-main">
+        <article class="docs-article">
+            <h1 id="chapter-1-measurement">Chapter 1: Measurement</h1>
+<div class="callout-block callout-warning">
+    <div class="content">
+        <h4 class="callout-title">
+            <span class="callout-icon-holder me-1">
+                <i class="fas fa-exclamation-triangle"></i>
+            </span>
+            Beta Version
+        </h4>
+        <p>Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!</p>
+    </div>
+</div>
+<p>Measurement is the cornerstone of physics, enabling precise quantification of physical phenomena. This chapter covers <strong>SI units and standards</strong>, <strong>dimensional analysis</strong>, <strong>significant figures</strong>, and <strong>error analysis</strong>, essential for JEE Main, JEE Advanced, and NEET. These topics appear in problems on unit conversions, dimensional consistency, and error calculations. With clear explanations, extensive derivations, exam-focused examples, and robust problem-solving strategies, this chapter equips students to master measurement for competitive exams, ensuring precision and conceptual clarity.</p>
+<h2 id="1-1-si-units-and-standards">1.1 SI Units and Standards</h2>
+<p>The <strong>International System of Units (SI)</strong> defines seven base units: meter ($m$, length), kilogram ($kg$, mass), second ($s$, time), ampere ($A$, electric current), kelvin ($K$, temperature), mole ($mol$, amount of substance), and candela ($cd$, luminous intensity). Derived units, such as the newton ($N = kg \cdot m / s^2$), combine base units. Standards, like the meter defined by the speed of light ($c = 299,792,458 , m/s$), ensure global consistency. JEE/NEET problems focus on unit conversions and derived units. <em>Fundamentals of Physics</em> emphasizes SI’s role in standardization.</p>
+<p><strong>Derivation</strong>: <strong>Unit of Force (Newton)</strong><br />
+Newton’s second law states: $F = m a$. Mass ($m$) is in $kg$, acceleration ($a$) is in $m / s^2$. Thus:<br />
+$$
+F = kg \cdot \frac{m}{s^2} = kg \cdot m / s^2
+$$<br />
+This defines the newton ($N$). To verify, consider work ($W = F \cdot d$):<br />
+$$
+W = (kg \cdot m / s^2) \cdot m = kg \cdot m^2 / s^2 = J
+$$<br />
+(joule), confirming energy units.</p>
+<p><strong>Solved Example</strong>: A JEE Main problem requires converting $54 , km/h$ to $m/s$.</p>
+<ul>
+<li><strong>Solution</strong>: Speed:<br />
+$$
+54 , km/h = 54 \times \frac{1000 , m}{3600 , s} = 54 \times \frac{5}{18} = 15 , m/s
+$$<br />
+(2 significant figures, April 14, 2025).
+<ul>
+<li><strong>JEE Tip</strong>: Use conversion factor $5/18$ for $km/h$ to $m/s$. Common error: Incorrect factor or rounding.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A NEET problem asks the SI unit of power.</p>
+<ul>
+<li><strong>Solution</strong>: Power ($P = W / t$): work ($W = kg \cdot m^2 / s^2$), time ($t = s$). Thus:<br />
+$$
+P = \frac{kg \cdot m^2 / s^2}{s} = kg \cdot m^2 / s^3 = W
+$$<br />
+(watt). Option (a) $kg \cdot m^2 / s^3$ is correct.
+<ul>
+<li><strong>NEET Tip</strong>: Derive from work/time; memorize watt. Common error: Confusing with joule.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Main problem involves a mass of $2.5 , kg$ and acceleration $3.2 , m/s^2$. Calculate the force in newtons.</p>
+<ul>
+<li><strong>Solution</strong>: Force:<br />
+$$
+F = m a = 2.5 \cdot 3.2 = 8.0 , N
+$$<br />
+(2 significant figures).
+<ul>
+<li><strong>JEE Tip</strong>: Multiply with least significant figures. Common error: Retaining extra digits.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Application</strong>: SI units enable precise measurements in GPS (meter-based distances) and medical diagnostics (kelvin for body temperature).</p>
+<h2 id="1-2-dimensional-analysis">1.2 Dimensional Analysis</h2>
+<p><strong>Dimensional analysis</strong> verifies equations by comparing dimensions: length ($[\text{L}]$), mass ($[\text{M}]$), time ($[\text{T}]$). For example, velocity: $[\text{L} \text{T}^{-1}]$. It derives formulas or checks consistency. JEE/NEET problems involve finding dimensions or validating equations. <em>University Physics</em> uses dimensional analysis for problem-solving.</p>
+<p><strong>Derivation</strong>: <strong>Dimensions of Kinetic Energy</strong><br />
+Kinetic energy: $KE = \frac{1}{2} m v^2$. Mass ($m$): $[\text{M}]$, velocity ($v$): $[\text{L} \text{T}^{-1}]$. Thus:<br />
+$$
+KE = \lbrack \text{M} \rbrack \cdot \lbrack \text{L} \text{T}^{-1} \rbrack^2 = \lbrack \text{M} \text{L}^2 \text{T}^{-2} \rbrack
+$$<br />
+Compare with work ($W = F \cdot d$): force ($F = m a = \lbrack \text{M} \text{L} \text{T}^{-2} \rbrack$), distance ($d = [\text{L}]$):<br />
+$$
+W = \lbrack \text{M} \text{L} \text{T}^{-2} \rbrack \cdot [\text{L}] = \lbrack \text{M} \text{L}^2 \text{T}^{-2} \rbrack
+$$<br />
+Both match, confirming energy’s dimensions.</p>
+<p><strong>Solved Example</strong>: A JEE Advanced problem asks the dimensions of pressure.</p>
+<ul>
+<li><strong>Solution</strong>: Pressure: $P = \frac{F}{A}$. Force ($F = m a$): $[\text{M} \text{L} \text{T}^{-2}]$, area ($A$): $[\text{L}^2]$. Thus:<br />
+$$
+P = \frac{[\text{M} \text{L} \text{T}^{-2}]}{[\text{L}^2]} = [\text{M} \text{L}^{-1} \text{T}^{-2}]
+$$<br />
+Answer: $[\text{M} \text{L}^{-1} \text{T}^{-2}]$.
+<ul>
+<li><strong>JEE Tip</strong>: Divide dimensions carefully. Common error: Incorrect area dimension.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A NEET problem checks if $s = ut + \frac{1}{2} at^2$ is dimensionally consistent.</p>
+<ul>
+<li><strong>Solution</strong>: Displacement ($s$): $[\text{L}]$. Velocity ($u$): $[\text{L} \text{T}^{-1}]$, time ($t$): $[\text{T}]$, acceleration ($a$): $[\text{L} \text{T}^{-2}]$. Term $ut$: $[\text{L} \text{T}^{-1}] \cdot [\text{T}] = [\text{L}]$. Term $\frac{1}{2} at^2$: $[\text{L} \text{T}^{-2}] \cdot [\text{T}^2] = [\text{L}]$. Right side: $[\text{L}] + [\text{L}] = [\text{L}]$. Consistent. Option (a) “Consistent” is correct.
+<ul>
+<li><strong>NEET Tip</strong>: Match dimensions; constants are dimensionless. Common error: Incorrect acceleration dimension.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Main problem derives the dimensions of work.</p>
+<ul>
+<li><strong>Solution</strong>: Work: $W = F \cdot d$. Force: $[\text{M} \text{L} \text{T}^{-2}]$, distance: $[\text{L}]$. Thus:<br />
+$$
+W = [\text{M} \text{L} \text{T}^{-2}] \cdot [\text{L}] = [\text{M} \text{L}^2 \text{T}^{-2}]
+$$<br />
+Answer: $[\text{M} \text{L}^2 \text{T}^{-2}]$.
+<ul>
+<li><strong>JEE Tip</strong>: Use force dimensions correctly. Common error: Omitting length.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Application</strong>: Dimensional analysis ensures formula accuracy in astrophysics (e.g., Kepler’s laws) and engineering (e.g., fluid dynamics).</p>
+<h2 id="1-3-significant-figures">1.3 Significant Figures</h2>
+<p><strong>Significant figures</strong> reflect measurement precision (e.g., $2.34 , m$: 3 significant figures). Rules: non-zero digits are significant, zeros between non-zeros are significant, trailing zeros in decimals are significant. Calculations use the least precise input’s significant figures. JEE/NEET problems require reporting results correctly. <em>Fundamentals of Physics</em> stresses precision (April 14, 2025).</p>
+<p><strong>Derivation</strong>: <strong>Significant Figures in Multiplication</strong><br />
+For $z = x \cdot y$, relative uncertainty:<br />
+$$
+\frac{\Delta z}{z} \approx \frac{\Delta x}{x} + \frac{\Delta y}{y}
+$$<br />
+The result’s significant figures match the input with the fewest, preserving precision. Example: $z = 2.5 \cdot 3.24$. $2.5$ (2 significant figures), $3.24$ (3). Compute: $z = 8.1$ (2 significant figures).</p>
+<p><strong>Solved Example</strong>: A JEE Main problem involves a length $4.8 , m$ and width $2.56 , m$. Calculate the area with correct significant figures.</p>
+<ul>
+<li><strong>Solution</strong>: Area:<br />
+$$
+A = 4.8 \cdot 2.56 = 12.288 , m^2
+$$<br />
+$4.8$ has 2 significant figures, $2.56$ has 3. Use 2:<br />
+$$
+A \approx 12 , m^2
+$$
+<ul>
+<li><strong>JEE Tip</strong>: Use least significant figures. Common error: Reporting $12.288$.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A NEET problem asks the significant figures in $0.00450$.</p>
+<ul>
+<li><strong>Solution</strong>: Leading zeros are not significant; trailing zero in decimal is. $0.00450$ has 3 significant figures (4, 5, 0). Option (a) “3” is correct.
+<ul>
+<li><strong>NEET Tip</strong>: Check trailing zeros in decimals. Common error: Counting leading zeros.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Main problem adds $7500$ and $2.567$. Report the sum with correct significant figures.</p>
+<ul>
+<li><strong>Solution</strong>: Sum:<br />
+$$
+7500 + 2.567 = 7502.567
+$$<br />
+$7500$ has 2 significant figures (no decimal), $2.567$ has 4. Use 0 decimal places:<br />
+$$
+7503
+$$<br />
+(April 14, 2025).
+<ul>
+<li><strong>JEE Tip</strong>: Use least precise decimal places for addition. Common error: Retaining decimals.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Application</strong>: Significant figures ensure accuracy in lab experiments (e.g., pendulum timing) and pharmaceutical dosing (e.g., drug concentrations).</p>
+<h2 id="1-4-error-analysis">1.4 Error Analysis</h2>
+<p><strong>Error analysis</strong> quantifies measurement uncertainty. <strong>Absolute error</strong>: $\Delta x = |x_{\text{measured}} - x_{\text{true}}|$. <strong>Relative error</strong>: $\frac{\Delta x}{x}$. <strong>Percentage error</strong>: $\frac{\Delta x}{x} \times 100%$. For functions, error propagates (e.g., $z = x + y$, $\Delta z = \Delta x + \Delta y$). JEE/NEET problems involve error calculations. <em>University Physics</em> connects errors to experimental design.</p>
+<p><strong>Derivation</strong>: <strong>Error Propagation in Product</strong><br />
+For $z = x \cdot y$, relative error:<br />
+$$
+\frac{\Delta z}{z} = \sqrt{\left( \frac{\Delta x}{x} \right)^2 + \left( \frac{\Delta y}{y} \right)^2}
+$$<br />
+Example: $z = 2.0 \cdot 3.0$, $\Delta x = 0.1$, $\Delta y = 0.1$. Relative errors: $\frac{0.1}{2.0} = 0.05$, $\frac{0.1}{3.0} \approx 0.033$. Total: $\frac{\Delta z}{z} = \sqrt{0.05^2 + 0.033^2} \approx 0.06$. If $z = 6.0$, then $\Delta z \approx 0.36$.</p>
+<p><strong>Solved Example</strong>: A JEE Advanced problem involves a length $12.5 \pm 0.2 , cm$. Calculate the percentage error.</p>
+<ul>
+<li><strong>Solution</strong>: Percentage error:<br />
+$$
+\frac{\Delta x}{x} \times 100% = \frac{0.2}{12.5} \times 100 = 1.6%
+$$<br />
+(2 significant figures).
+<ul>
+<li><strong>JEE Tip</strong>: Use measured value for denominator. Common error: Incorrect percentage.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A NEET problem involves $z = x - y$, with $x = 8.0 \pm 0.3 , m$, $y = 5.0 \pm 0.2 , m$. Calculate the absolute error in $z$.</p>
+<ul>
+<li><strong>Solution</strong>: Absolute error:<br />
+$$
+\Delta z = \Delta x + \Delta y = 0.3 + 0.2 = 0.5 , m
+$$<br />
+Option (a) $0.5 , m$ is correct.
+<ul>
+<li><strong>NEET Tip</strong>: Sum absolute errors for subtraction. Common error: Subtracting errors.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Main problem measures $v = 20.0 \pm 0.5 , m/s$, $t = 4.00 \pm 0.05 , s$. Calculate the percentage error in $s = v \cdot t$.</p>
+<ul>
+<li><strong>Solution</strong>: Relative error:<br />
+$$
+\frac{\Delta s}{s} = \frac{\Delta v}{v} + \frac{\Delta t}{t} = \frac{0.5}{20.0} + \frac{0.05}{4.00} = 0.025 + 0.0125 = 0.0375
+$$<br />
+Percentage error:<br />
+$$
+0.0375 \times 100 = 3.75% \approx 3.8%
+$$<br />
+(2 significant figures).
+<ul>
+<li><strong>JEE Tip</strong>: Sum relative errors for multiplication. Common error: Using absolute errors.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Application</strong>: Error analysis ensures reliability in particle physics (e.g., CERN) and structural engineering (e.g., stress tests).</p>
+<h2 id="summary-and-quick-revision">Summary and Quick Revision</h2>
+<ul>
+<li><strong>SI Units</strong>: Base units ($m$, $kg$, $s$, $A$, $K$, $mol$, $cd$); derived units (e.g., $N = kg \cdot m / s^2$). Convert: $1 , km/h = \frac{5}{18} , m/s$.</li>
+<li><strong>Dimensional Analysis</strong>: Dimensions (e.g., velocity: $[\text{L} \text{T}^{-1}]$). Energy: $[\text{M} \text{L}^2 \text{T}^{-2}]$. Checks equation consistency.</li>
+<li><strong>Significant Figures</strong>: Precision (e.g., $2.34$: 3 significant figures). Use least significant figures in calculations (e.g., $4.8 \cdot 2.56 = 12 , m^2$).</li>
+<li><strong>Error Analysis</strong>: Absolute error: $\Delta x$. Relative error: $\frac{\Delta x}{x}$. Propagation: $\Delta z = \Delta x + \Delta y$ for $z = x + y$.</li>
+<li><strong>SI Units</strong>: Length ($m$), mass ($kg$), time ($s$), etc.</li>
+<li><strong>JEE/NEET Tips</strong>: Verify units, use dimensional analysis, report significant figures correctly (April 14, 2025), sum absolute errors for addition/subtraction.</li>
+<li><strong>Applications</strong>: GPS, engineering, labs, CERN.</li>
+</ul>
+<h2 id="practice-problems">Practice Problems</h2>
+<p>Explore our extensive problem set with <strong>100 problems</strong> inspired by JEE Main, JEE Advanced, and NEET patterns to test your understanding of measurement.</p>
+<p><a href="https://vidyamarg.com/books/physics/v1/measurement/./problems">View Problems</a></p>
+<h2 id="watch-on-youtube">Watch on YouTube</h2>
+<p>Our Hinglish video lessons make measurement engaging for JEE and NEET! Subscribe for updates.</p>
+<p><a href="https://www.youtube.com/@VidyaMargbyRaviShankar-w9u">Watch Now</a> <!-- Update with specific video link when available --></p>
+<p><em>Animation for visualizing dimensional analysis and error propagation coming soon!</em></p>
+<p><em>Note: Content regularly updated to align with current JEE/NEET syllabi.</em></p>
+
+        </article>
+    </div>
+
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container text-center py-5">
+            <ul class="social-list list-unstyled pt-4 mb-0">
+                
+                    <li class="list-inline-item">
+                        <a href="https:&#x2F;&#x2F;www.youtube.com&#x2F;@VidyaMargbyRaviShankar-w9u" target="_blank" title="YouTube"><i class="fab fa-youtube fa-fw"></i></a>
+                    </li>
+                
+                    <li class="list-inline-item">
+                        <a href="https:&#x2F;&#x2F;t.me&#x2F;vidyamarg1" target="_blank" title="Telegram"><i class="fab fa-telegram fa-fw"></i></a>
+                    </li>
+                
+            </ul>
+            <small class="copyright">
+                © 2025 Vidya Marg. Designed with <span class="sr-only">love</span><i class="fas fa-heart" style="color: #fb866a;"></i> by <a class="theme-link" href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers. <a class="theme-link" href="/app/privacy-policy/">Privacy Policy</a>
+            </small>
+        </div>
+    </footer>
+
+    <!-- Javascript -->          
+    <script src="https://vidyamarg.com/plugins/popper.min.js"></script>
+    <script src="https://vidyamarg.com/plugins/bootstrap/js/bootstrap.min.js"></script>  
+    
+    <!-- Page Specific JS -->
+    <script src="https://vidyamarg.com/plugins/smoothscroll.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
+    <script src="https://vidyamarg.com/js/highlight-custom.js"></script> 
+    <script src="https://vidyamarg.com/plugins/simplelightbox/simple-lightbox.min.js"></script>      
+    <script src="https://vidyamarg.com/plugins/gumshoe/gumshoe.polyfills.min.js"></script> 
+    <script src="https://vidyamarg.com/js/docs.js"></script> 
+
+    <script>
+        function renderLatex() {
+            if (typeof renderMathInElement === "undefined") {
+                setTimeout(renderLatex, 100);
+                return;
+            }
+            renderMathInElement(document.body, {
+                delimiters: [
+                    { left: "$$", right: "$$", display: true },
+                    { left: "$", right: "$", display: false },
+                    { left: "\\(", right: "\\)", display: false },
+                    { left: "\\[", right: "\\]", display: true }
+                ],
+                throwOnError: false
+            });
+        }
+
+        window.addEventListener("load", function() {
+            renderLatex();
+        });
+    </script>
+</body>
+</html>

@@ -1,14 +1,26 @@
 ---
 title: Physics Book - All About Atoms for JEE & NEET
 description: Comprehensive guide on atomic physics for JEE and NEET, covering historical models, Bohr model, quantum mechanical model, and atomic spectra, with extensive examples.
-slug: books/physics/atoms
+slug: atoms
 keywords: physics atoms, JEE physics Bohr model, NEET physics atomic spectra, quantum mechanical model
 og:image: https://vidyamarg.com/og-physics-atoms.jpg
 ---
 
 # Chapter 40: All About Atoms
 
-**Beta Version**: Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!
+
+
+<div class="callout-block callout-warning">
+    <div class="content">
+        <h4 class="callout-title">
+            <span class="callout-icon-holder me-1">
+                <i class="fas fa-exclamation-triangle"></i>
+            </span>
+            Beta Version
+        </h4>
+        <p>Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!</p>
+    </div>
+</div>
 
 Atomic physics, vital for applications like spacecraft navigation through spectral analysis, reveals the building blocks of matter. Building on photons and matter waves (Chapter 38) and advanced matter waves (Chapter 39), this chapter explores the structure and behavior of atoms. For JEE Main, JEE Advanced, and NEET students, mastering atomic physics is essential, as it frequently appears in problems involving energy levels, orbitals, and spectral lines. This chapter, **All About Atoms**, covers **historical models of the atom**, **Bohr model of the hydrogen atom**, **quantum mechanical model**, and **atomic spectra and applications**, providing detailed explanations, derivations, solved examples, and practical applications to ensure conceptual clarity and problem-solving proficiency.
 
@@ -261,7 +273,7 @@ A spacecraft identifies hydrogen via the Balmer series ($n=4$ to $n=2$): $\frac{
 ## Practice Problems
 Explore our problem set with **100 problems** inspired by JEE Main, JEE Advanced, and NEET patterns to test your understanding.
 
-[View Problems](./problems.md)
+[View Problems](./problems)
 
 ## Watch on YouTube
 Our Hinglish video lessons make atomic physics engaging! Subscribe for updates.

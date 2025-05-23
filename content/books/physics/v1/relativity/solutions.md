@@ -1,7 +1,7 @@
 ---
 title: Physics Book - Relativity Solutions for JEE & NEET
 description: Sample solutions for special relativity problems, covering postulates, time dilation, length contraction, relativistic dynamics, and mass-energy equivalence, tailored for JEE and NEET preparation.
-slug: books/physics/relativity/solutions
+slug: solutions
 keywords: physics relativity solutions, JEE physics special relativity solutions, NEET physics time dilation solutions, mass-energy equivalence
 og:image: https://vidyamarg.com/og-physics-relativity.jpg
 ---
@@ -198,6 +198,6 @@ The answer is (b) 8.00 m.
 - **JEE/NEET Tip**: Length contracts in the direction of motion; ensure $L < L_0$. Common error: Using $\gamma$ to expand rather than contract the length.
 
 ## Back to Chapter
-[Return to Relativity Chapter](./index.md)
+[Return to Relativity Chapter](../../relativity)
 
-[Return to Relativity Problems](./problems.md)
+[Return to Relativity Problems](../../relativity/problems)

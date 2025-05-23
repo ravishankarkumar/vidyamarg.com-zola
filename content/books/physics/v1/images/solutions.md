@@ -1,7 +1,7 @@
 ---
 title: Physics Book - Images Solutions for JEE & NEET
 description: Sample solutions for image formation problems, covering reflection, refraction, mirrors, lenses, and optical instruments, tailored for JEE and NEET preparation.
-slug: books/physics/images/solutions
+slug: solutions
 keywords: physics images solutions, JEE physics geometric optics solutions, NEET physics lenses solutions, ray optics
 og:image: https://vidyamarg.com/og-physics-images.jpg
 ---
@@ -179,6 +179,6 @@ Since the image is virtual (behind the mirror), $v = -8.0 \, \text{cm}$. The ans
 - **JEE/NEET Tip**: Convex mirrors form virtual images; $v$ negative indicates behind the mirror. Common error: Assuming a positive $v$ for a virtual image.
 
 ## Back to Chapter
-[Return to Images Chapter](./index.md)
+[Return to Images Chapter](../../images)
 
-[Return to Images Problems](./problems.md)
+[Return to Images Problems](../../images/problems)

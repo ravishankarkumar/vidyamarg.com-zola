@@ -1,7 +1,7 @@
 ---
 title: Physics Book - Rolling, Torque, and Angular Momentum Solutions for JEE & NEET
 description: Sample solutions for rolling, torque, and angular momentum problems, covering rotational dynamics, angular momentum conservation, and rolling motion, tailored for JEE and NEET preparation.
-slug: books/physics/rolling-torque-angular-momentum/solutions
+slug: solutions
 keywords: physics rolling torque angular momentum solutions, JEE physics torque solutions, NEET physics rolling motion solutions, angular momentum
 og:image: https://vidyamarg.com/og-physics-rolling-torque-angular-momentum.jpg
 ---
@@ -194,6 +194,6 @@ The answer is (b) $5.0 \, m/s$.
 - **JEE/NEET Tip**: Rolling problems are often solved efficiently with energy conservation; the factor $\frac{4}{3}$ accounts for the cylinder’s rotational energy. Common error: Using $v = \sqrt{2gh}$ (sliding), which overestimates the speed by ignoring rotational energy.
 
 ## Back to Chapter
-[Return to Rolling, Torque, and Angular Momentum Chapter](./index.md)
+[Return to Rolling, Torque, and Angular Momentum Chapter](../../rolling-torque-angular-momentum)
 
-[Return to Rolling, Torque, and Angular Momentum Problems](./problems.md)
+[Return to Rolling, Torque, and Angular Momentum Problems](../../rolling-torque-angular-momentum/problems)

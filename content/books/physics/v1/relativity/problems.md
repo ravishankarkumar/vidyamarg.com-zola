@@ -1,7 +1,7 @@
 ---
 title: Physics Book - Relativity Problems for JEE & NEET
 description: Practice 100 problems on special relativity for JEE and NEET, inspired by exam patterns, covering postulates, time dilation, length contraction, relativistic dynamics, and mass-energy equivalence.
-slug: books/physics/relativity/problems
+slug: problems
 keywords: physics relativity problems, JEE physics special relativity problems, NEET physics time dilation problems, mass-energy equivalence
 og:image: https://vidyamarg.com/og-physics-relativity.jpg
 ---
@@ -569,4 +569,4 @@ This section provides **100 problems** to test your understanding of special rel
     - (d) $9.02 \times 10^{14} \, \text{J}$
 
 ## Back to Chapter
-[Return to Relativity Chapter](./index.md)
+[Return to Relativity Chapter](../../relativity)

@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <title>Vidya Marg | Physics Book - Force and Motion—I for JEE &amp; NEET</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Comprehensive guide to force and motion for JEE and NEET, covering Newton’s laws, inertial frames, applications in linear motion, and problem-solving techniques, with extensive examples.">
+    <meta name="keywords" content="JEE physics book, NEET physics book, physics book, physics for JEE and NEET">
+    <meta property="og:image" content="https://vidyamarg.com/og-physics-book.jpg">
+    <link rel="canonical" href="https:&#x2F;&#x2F;vidyamarg.com&#x2F;books&#x2F;physics&#x2F;v1&#x2F;force-motion-1&#x2F;">
+    <link rel="shortcut icon" href="https://vidyamarg.com/logos/maroon-bg-logo-128.ico">
+    
+    <!-- Preload Google Font -->
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" as="style">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript>
+        <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
+    </noscript>
+    
+    <!-- FontAwesome JS -->
+    <script defer src="https://vidyamarg.com/fontawesome/js/all.min.js"></script>
+
+    <!-- KaTeX for LaTeX rendering -->
+    <link rel="stylesheet" href="https://vidyamarg.com/katex/katex.min.css">
+    <script src="https://vidyamarg.com/katex/katex.min.js"></script>
+    <script src="https://vidyamarg.com/katex/auto-render.min.js"></script>
+
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.2/styles/atom-one-dark.min.css">
+    <link rel="stylesheet" href="https://vidyamarg.com/plugins/simplelightbox/simple-lightbox.min.css">
+
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="https://vidyamarg.com/css/theme.css">
+    <link rel="stylesheet" href="https://vidyamarg.com/css/custom.css" />
+</head> 
+
+<body>    
+    <header class="header fixed-top">
+        <div class="branding docs-branding">
+            <div class="container-fluid position-relative py-2">
+                <div class="docs-logo-wrapper">
+                    
+                    
+                    
+                    <button id="docs-sidebar-toggler" class="docs-sidebar-toggler docs-sidebar-visible me-2 d-xl-none" type="button">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    
+                    <div class="site-logo">
+                        <a class="navbar-brand" href="https://vidyamarg.com">
+                            <img class="logo-icon me-2" src="https://vidyamarg.com/logos/maroon-bg-logo-1024.png" alt="logo">
+                            <span class="logo-text">Vidya Marg</span>
+                        </a>
+                    </div>    
+                </div>
+                <div class="docs-top-utilities d-flex justify-content-end align-items-center">
+                    <ul class="nav-list list-inline mb-0 d-none d-lg-flex">
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;">Home</a>
+                            </li>
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics (Youtube series)</a>
+                            </li>
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;">Books</a>
+                            </li>
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;app&#x2F;">App</a>
+                            </li>
+                        
+                        
+                            
+                                <li class="list-inline-item">
+                                    <a href="https:&#x2F;&#x2F;www.youtube.com&#x2F;@VidyaMargbyRaviShankar-w9u" title="YouTube"><i class="fab fa-youtube fa-fw"></i></a>
+                                </li>
+                            
+                                <li class="list-inline-item">
+                                    <a href="https:&#x2F;&#x2F;t.me&#x2F;vidyamarg1" title="Telegram"><i class="fab fa-telegram fa-fw"></i></a>
+                                </li>
+                            
+                        
+                    </ul>
+                    <!-- Mobile Menu Button -->
+                    <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#mobileNav" aria-controls="mobileNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </div>
+            <!-- Mobile Menu -->
+            <div class="collapse navbar-collapse d-lg-none" id="mobileNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;">Home</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics (Youtube series)</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;books&#x2F;">Books</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;app&#x2F;">App</a>
+                        </li>
+                    
+                    
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="https:&#x2F;&#x2F;www.youtube.com&#x2F;@VidyaMargbyRaviShankar-w9u"><i class="fab fa-youtube fa-fw"></i> YouTube</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="https:&#x2F;&#x2F;t.me&#x2F;vidyamarg1"><i class="fab fa-telegram fa-fw"></i> Telegram</a>
+                            </li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="docs-wrapper">
+        
+        
+        
+        <div id="docs-sidebar" class="docs-sidebar">
+            <nav id="docs-nav" class="docs-nav navbar">
+                
+                    
+                        
+
+<ul class="nav flex-column">
+    <!-- Navigation Menu (visible only in mobile view) -->
+    <li class="nav-item d-lg-none">
+        <span class="nav-link">Navigation</span>
+        <ul class="nav flex-column">
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;">Home</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics (Youtube series)</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;books&#x2F;">Books</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;app&#x2F;">App</a>
+                </li>
+            
+        </ul>
+    </li>
+
+    <!-- JEE/NEET Physics Section -->
+    
+    <li class="nav-item">
+        <span class="nav-link">Physics for JEE&#x2F;NEET</span>
+        <ul class="nav flex-column">
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics for JEE&#x2F;NEET</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;maths-basics-for-physics&#x2F;">Maths Basics for Physics</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;units-and-dimensions&#x2F;">Units and Dimensions</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;physical-quantities-and-si-units&#x2F;">Physical Quantities and SI Units</a>
+                </li>
+            
+        </ul>
+    </li>
+
+    <!-- Books Section -->
+    
+    <li class="nav-item">
+        <span class="nav-link">Books</span>
+        <ul class="nav flex-column">
+            <!-- JEE/NEET Physics Book (Version 1) -->
+            
+            <li class="nav-item">
+                <a class="nav-link" href="/books/physics/v1/">Physics Book</a>
+                
+                    <ul class="nav flex-column">
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;measurement&#x2F;">Measurement</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;motion-straight-line&#x2F;">Motion Along a Straight Line</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;vectors&#x2F;">Vectors</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;motion-2d-3d&#x2F;">Motion in Two and Three Dimensions</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;force-motion-1&#x2F;">Force and Motion—I</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;force-motion-2&#x2F;">Force and Motion—II</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;kinetic-energy-work&#x2F;">Kinetic Energy and Work</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;potential-energy-conservation&#x2F;">Potential Energy and Conservation of Energy</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;center-mass-momentum&#x2F;">Center of Mass and Linear Momentum</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;rotation&#x2F;">Rotation</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;rolling-torque-angular-momentum&#x2F;">Rolling, Torque, and Angular Momentum</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;equilibrium-elasticity&#x2F;">Equilibrium and Elasticity</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;gravitation&#x2F;">Gravitation</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;fluids&#x2F;">Fluids</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;oscillations&#x2F;">Oscillations</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;waves-1&#x2F;">Waves—I</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;waves-2&#x2F;">Waves—II</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;kinetic-theory-gases&#x2F;">The Kinetic Theory of Gases</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;thermodynamics-temperature-heat&#x2F;">Temperature, Heat, and the First Law of Thermodynamics</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;entropy-thermodynamics&#x2F;">Entropy and the Second Law of Thermodynamics</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electric-fields&#x2F;">Electric Fields</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;gauss-law&#x2F;">Gauss’s Law</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electric-potential&#x2F;">Electric Potential</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;capacitance&#x2F;">Capacitance</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;current-resistance&#x2F;">Current and Resistance</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;circuits&#x2F;">Circuits</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;magnetic-fields&#x2F;">Magnetic Fields</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;magnetic-fields-currents&#x2F;">Magnetic Fields Due to Currents</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;induction-inductance&#x2F;">Induction and Inductance</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electromagnetic-oscillations-ac&#x2F;">Electromagnetic Oscillations and Alternating Current</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electromagnetic-waves&#x2F;">Electromagnetic Waves</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;images&#x2F;">Images</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;interference&#x2F;">Interference</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;diffraction&#x2F;">Diffraction</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;photons-matter-waves&#x2F;">Photons and Matter Waves</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;matter-waves-advanced&#x2F;">More About Matter Waves</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;atoms&#x2F;">All About Atoms</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;nuclear-physics&#x2F;">Nuclear Physics</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;nuclear-energy&#x2F;">Energy from the Nucleus</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;quarks-leptons&#x2F;">Quarks, Leptons, and the Big Bang</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;relativity&#x2F;">Relativity</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;conduction-solids&#x2F;">Conduction of Electricity in Solids</a>
+                            </li>
+                        
+                    </ul>
+                
+            </li>
+        </ul>
+    </li>
+</ul>
+                    
+                
+            </nav>
+        </div>
+        
+
+        <div class="docs-content">
+            
+    <div class="docs-main">
+        <article class="docs-article">
+            <h1 id="chapter-5-force-and-motion-i">Chapter 5: Force and Motion—I</h1>
+<div class="callout-block callout-warning">
+    <div class="content">
+        <h4 class="callout-title">
+            <span class="callout-icon-holder me-1">
+                <i class="fas fa-exclamation-triangle"></i>
+            </span>
+            Beta Version
+        </h4>
+        <p>Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!</p>
+    </div>
+</div>
+<p>Force and motion are at the heart of classical mechanics, connecting the kinematics of Chapters 2–4 to the causes of motion. This chapter introduces <strong>Newton’s laws of motion</strong>, the foundational principles governing how forces affect the motion of objects, from a sliding block to a rocket in space. For JEE Main, JEE Advanced, and NEET students, mastering these laws is essential, as they appear in problems involving blocks on inclines, pulley systems, and equilibrium scenarios. Building on the concepts of displacement, velocity, acceleration, and vectors, we’ll explore <strong>Newton’s first law (inertia)</strong>, <strong>Newton’s second law ($\vec{F} = m \vec{a}$)</strong>, <strong>Newton’s third law (action-reaction)</strong>, <strong>applications in linear motion</strong>, and <strong>inertial and non-inertial frames</strong>, providing detailed explanations, derivations, numerous solved examples, and exam-focused strategies to ensure conceptual clarity and problem-solving proficiency.</p>
+<h2 id="5-1-newton-s-first-law-and-the-concept-of-force">5.1 Newton’s First Law and the Concept of Force</h2>
+<p><strong>Newton’s first law</strong>, also known as the law of inertia, states: <em>A body at rest remains at rest, and a body in motion remains in motion with a constant velocity (in a straight line), unless acted upon by a net external force.</em> This law defines the concept of <strong>inertia</strong>, the tendency of an object to resist changes to its state of motion, and introduces the idea of a <strong>force</strong> as an interaction that can change an object’s velocity (speed, direction, or both).</p>
+<h3 id="inertia-and-mass">Inertia and Mass</h3>
+<p>The property of inertia is quantified by <strong>mass</strong> ($m$), measured in kilograms ($kg$). A larger mass means greater inertia (e.g., a heavy truck is harder to stop than a bicycle). The first law implies that if the net force on an object is zero, its velocity is constant—this could mean the object is at rest (velocity zero) or moving in a straight line at constant speed.</p>
+<h3 id="net-force">Net Force</h3>
+<p>The <strong>net force</strong> ($\vec{F}<em>{\text{net}}$) is the vector sum of all external forces acting on an object: $\vec{F}</em>{\text{net}} = \vec{F}<em>1 + \vec{F}<em>2 + \cdots$. If $\vec{F}</em>{\text{net}} = 0$, the object’s velocity doesn’t change (Newton’s first law). Forces include gravity, friction, normal force, tension, and applied forces, which we’ll explore in this chapter. JEE/NEET problems often involve identifying when $\vec{F}</em>{\text{net}} = 0$ to determine an object’s state of motion. <em>Fundamentals of Physics</em> emphasizes that Newton’s first law defines an <strong>inertial reference frame</strong>—a frame where the law holds (e.g., a frame at rest or moving at constant velocity).</p>
+<p><strong>Derivation</strong>: <strong>Condition for Constant Velocity</strong><br />
+Newton’s first law can be expressed mathematically. Velocity $\vec{v}$ is constant if its time derivative (acceleration) is zero:<br />
+$$
+\vec{a} = \frac{d\vec{v}}{dt} = 0
+$$<br />
+From Newton’s second law (introduced in Section 5.2), $\vec{F}<em>{\text{net}} = m \vec{a}$. If $\vec{a} = 0$:<br />
+$$
+\vec{F}</em>{\text{net}} = m \cdot 0 = 0
+$$<br />
+Thus, if the net force is zero, the velocity is constant, aligning with Newton’s first law.</p>
+<p><strong>Solved Example</strong>: A JEE Main problem involves a block of mass $5 , kg$ at rest on a frictionless table. No external forces act except gravity and the normal force. Describe the block’s motion.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+Forces: Gravity $\vec{F}<em>g = -mg \hat{j} = -5 \times 9.8 = -49 , N \hat{j}$, normal force $\vec{N} = N \hat{j}$. Since the block is at rest on the table, $\vec{F}</em>{\text{net}} = 0$ in the vertical direction:<br />
+$$
+\vec{F}_{\text{net}} = \vec{F}<em>g + \vec{N} = -49 \hat{j} + N \hat{j} = 0 \quad \Rightarrow \quad N = 49 , N
+$$<br />
+Horizontally, no forces act, so $\vec{F}</em>{\text{net}} = 0$. By Newton’s first law, the block remains at rest (velocity $\vec{v} = 0$).
+<ul>
+<li><strong>JEE Tip</strong>: Sum forces in each direction; if $\vec{F}_{\text{net}} = 0$, velocity is constant (here, zero). Common error: Assuming motion without checking net force.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A NEET problem involves a car moving at a constant speed of $20 , m/s$ on a straight road. What can be said about the net force on the car?</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+Constant speed in a straight line means constant velocity ($\vec{v} = 20 \hat{i} , m/s$). By Newton’s first law, if velocity is constant, the net force is zero: $\vec{F}_{\text{net}} = 0$. This implies forces like engine force balance resistive forces (e.g., friction, air resistance).
+<ul>
+<li><strong>NEET Tip</strong>: Constant velocity (even non-zero) means zero net force in an inertial frame. Common error: Assuming a moving object must have a net force.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Advanced problem involves a block of mass $10 , kg$ sliding on a frictionless surface with velocity $\vec{v} = 5 \hat{i} , m/s$. No forces act except gravity and the normal force. Describe the motion.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+Vertical forces: Gravity $\vec{F}<em>g = -mg \hat{j} = -10 \times 9.8 = -98 , N \hat{j}$, normal force $\vec{N} = 98 \hat{j}$, so $\vec{F}</em>{\text{net, vertical}} = 0$. Horizontally, no forces act, so $\vec{F}_{\text{net, horizontal}} = 0$. By Newton’s first law, the block continues at $\vec{v} = 5 \hat{i} , m/s$.
+<ul>
+<li><strong>JEE Tip</strong>: In a frictionless scenario, constant velocity persists if no horizontal forces act. Common error: Assuming gravity affects horizontal motion.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Main problem involves a block at rest on a table with friction. If no other horizontal forces act, why doesn’t the block move?</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+Horizontal forces: No applied force, friction $\vec{f} = 0$ (since no motion to oppose). $\vec{F}<em>{\text{net, horizontal}} = 0$. Vertical forces balance (gravity and normal force). Since $\vec{F}</em>{\text{net}} = 0$, by Newton’s first law, the block remains at rest.
+<ul>
+<li><strong>JEE Tip</strong>: Friction only acts to oppose motion; if no motion, friction is zero unless an external force is applied. Common error: Assuming friction acts without motion.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Application</strong>: Newton’s first law applies to objects at rest (e.g., a book on a table) and in motion (e.g., a spacecraft in space moving at constant velocity with engines off).</p>
+<h2 id="5-2-newton-s-second-law-and-its-applications">5.2 Newton’s Second Law and Its Applications</h2>
+<p><strong>Newton’s second law</strong> states: <em>The acceleration of an object is directly proportional to the net force acting on it and inversely proportional to its mass, with the direction of acceleration in the direction of the net force.</em> Mathematically:<br />
+$$
+\vec{F}<em>{\text{net}} = m \vec{a}
+$$<br />
+Here, $\vec{F}</em>{\text{net}}$ is the net force (in newtons, $N$), $m$ is the mass (in $kg$), and $\vec{a}$ is the acceleration (in $m/s^2$). This law quantifies how forces cause motion, making it a cornerstone for solving dynamics problems in JEE/NEET, such as blocks on inclines or objects in pulley systems.</p>
+<h3 id="applying-newton-s-second-law">Applying Newton’s Second Law</h3>
+<p>To apply the law:</p>
+<ol>
+<li>Identify all forces acting on the object (e.g., gravity, normal force, friction, tension).</li>
+<li>Calculate the net force: $\vec{F}_{\text{net}} = \vec{F}_1 + \vec{F}_2 + \cdots$.</li>
+<li>Use $\vec{F}_{\text{net}} = m \vec{a}$ to find acceleration, or solve for an unknown force if acceleration is given.</li>
+<li>Resolve forces and acceleration into components in 2D/3D if needed.</li>
+</ol>
+<p><strong>Derivation</strong>: <strong>Acceleration from Net Force</strong><br />
+Start with Newton’s second law: $\vec{F}<em>{\text{net}} = m \vec{a}$. If $\vec{F}</em>{\text{net}}$ and $m$ are known, solve for acceleration:<br />
+$$
+\vec{a} = \frac{\vec{F}<em>{\text{net}}}{m}
+$$<br />
+This shows acceleration is in the direction of the net force, and its magnitude is inversely proportional to mass. For example, if $\vec{F}</em>{\text{net}} = 20 \hat{i} , N$, $m = 5 , kg$, then $\vec{a} = \frac{20 \hat{i}}{5} = 4 \hat{i} , m/s^2$.</p>
+<p><strong>Derivation</strong>: <strong>Force Unit (Newton)</strong><br />
+The unit of force, the newton ($N$), is defined using Newton’s second law. If $m = 1 , kg$ and $a = 1 , m/s^2$, then:<br />
+$$
+F = m a = 1 \times 1 = 1 , N
+$$<br />
+Thus, $1 , N = 1 , kg \cdot m/s^2$. This connects to the derivation of the newton in Chapter 1 (Measurement), reinforcing the SI unit system.</p>
+<p><strong>Solved Example</strong>: A JEE Main problem involves a block of mass $2 , kg$ on a frictionless surface with a force $\vec{F} = 10 \hat{i} , N$. Find the acceleration.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+Net force: $\vec{F}<em>{\text{net}} = 10 \hat{i} , N$ (no other horizontal forces). Using Newton’s second law:<br />
+$$
+\vec{F}</em>{\text{net}} = m \vec{a} \quad \Rightarrow \quad \vec{a} = \frac{\vec{F}_{\text{net}}}{m} = \frac{10 \hat{i}}{2} = 5 \hat{i} , m/s^2
+$$<br />
+The acceleration is $5 \hat{i} , m/s^2$.
+<ul>
+<li><strong>JEE Tip</strong>: Ensure all forces are considered; on a frictionless surface, the applied force is the net force horizontally. Common error: Forgetting to divide by mass.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A NEET problem involves a $3 , kg$ block accelerating at $\vec{a} = 4 \hat{i} + 2 \hat{j} , m/s^2$. Find the net force.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+Using Newton’s second law: $\vec{F}<em>{\text{net}} = m \vec{a}$. Given $m = 3 , kg$, $\vec{a} = 4 \hat{i} + 2 \hat{j} , m/s^2$:<br />
+$$
+\vec{F}</em>{\text{net}} = 3 \times (4 \hat{i} + 2 \hat{j}) = 12 \hat{i} + 6 \hat{j} , N
+$$<br />
+Magnitude: $|\vec{F}_{\text{net}}| = \sqrt{12^2 + 6^2} \approx 13.42 , N$, round to $13 , N$ (2 significant figures, April 14, 2025).
+<ul>
+<li><strong>NEET Tip</strong>: Net force is mass times acceleration; compute components separately. Common error: Using magnitude of acceleration first.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Advanced problem involves a $5 , kg$ block on a frictionless incline at $30^\circ$ ($g = 9.8 , m/s^2$). Find the acceleration down the incline.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+Forces: Gravity $\vec{F}<em>g = -mg \hat{j} = -5 \times 9.8 = -49 , N \hat{j}$, normal force $\vec{N}$ perpendicular to the incline. Choose axes: x-axis down the incline, y-axis perpendicular. Gravity components: $F</em>{gx} = mg \sin \theta = 5 \times 9.8 \times \sin 30^\circ = 24.5 , N$, $F_{gy} = -mg \cos \theta$. Net force down incline: $\vec{F}<em>{\text{net}} = 24.5 \hat{i}$. Acceleration:<br />
+$$
+\vec{a} = \frac{\vec{F}</em>{\text{net}}}{m} = \frac{24.5 \hat{i}}{5} = 4.9 \hat{i} , m/s^2
+$$
+<ul>
+<li><strong>JEE Tip</strong>: Resolve forces along the incline; normal force doesn’t affect motion down the incline. Common error: Using $\cos \theta$ for the incline component.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Main problem involves a $4 , kg$ block pulled by a force $F = 20 , N$ at $37^\circ$ above the horizontal on a frictionless surface. Find the acceleration.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+Force components: $F_x = F \cos \theta = 20 \cos 37^\circ \approx 16 , N$, $F_y = F \sin \theta = 20 \sin 37^\circ \approx 12 , N$. Net force: $F_{\text{net, x}} = 16 , N$, $F_{\text{net, y}} = 12 + N - mg = 0$ (no vertical acceleration, so $N = mg - 12$). Horizontal acceleration:<br />
+$$
+a_x = \frac{F_{\text{net, x}}}{m} = \frac{16}{4} = 4 , m/s^2
+$$<br />
+$\vec{a} = 4 \hat{i} , m/s^2$.
+<ul>
+<li><strong>JEE Tip</strong>: Resolve applied forces into components; only the horizontal component causes acceleration here. Common error: Using the total force magnitude.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Application</strong>: Newton’s second law applies to vehicle acceleration (e.g., cars), elevator motion, and sports (e.g., a batsman hitting a ball).</p>
+<h2 id="5-3-newton-s-third-law-and-action-reaction-pairs">5.3 Newton’s Third Law and Action-Reaction Pairs</h2>
+<p><strong>Newton’s third law</strong> states: <em>For every action, there is an equal and opposite reaction.</em> If object A exerts a force $\vec{F}<em>{A \text{ on } B}$ on object B, then object B exerts a force $\vec{F}</em>{B \text{ on } A} = -\vec{F}_{A \text{ on } B}$ on object A. These forces are equal in magnitude, opposite in direction, and act on different objects, forming an <strong>action-reaction pair</strong>. This law explains interactions like a book on a table or a rocket’s propulsion.</p>
+<h3 id="key-points">Key Points</h3>
+<ul>
+<li>Action-reaction forces act on different objects, so they don’t cancel each other in a single object’s motion.</li>
+<li>Examples: Normal force (table pushes book up, book pushes table down), tension (rope pulls two blocks equally), gravity (Earth pulls person down, person pulls Earth up).</li>
+</ul>
+<p><strong>Derivation</strong>: <strong>Action-Reaction in a Two-Body System</strong><br />
+Consider two objects A and B. If A exerts $\vec{F}<em>{A \text{ on } B}$ on B, Newton’s third law states $\vec{F}</em>{B \text{ on } A} = -\vec{F}_{A \text{ on } B}$. Apply Newton’s second law to each:</p>
+<ul>
+<li>For A: $\vec{F}_{B \text{ on } A} = m_A \vec{a}_A$.</li>
+<li>For B: $\vec{F}<em>{A \text{ on } B} = m_B \vec{a}<em>B$.<br />
+Since $\vec{F}</em>{B \text{ on } A} = -\vec{F}</em>{A \text{ on } B}$, we have $m_A \vec{a}_A = -m_B \vec{a}_B$, implying the accelerations are related but act on different objects.</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Main problem involves a book of mass $1 , kg$ resting on a table ($g = 9.8 , m/s^2$). Find the force the book exerts on the table.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+Forces on the book: Gravity $\vec{F}<em>g = -mg \hat{j} = -1 \times 9.8 = -9.8 , N \hat{j}$, normal force $\vec{N} = N \hat{j}$. Since the book is at rest, $\vec{F}</em>{\text{net}} = 0$, so $N = 9.8 , N$. By Newton’s third law, the book exerts a force on the table equal and opposite to the normal force: $-\vec{N} = -9.8 \hat{j} , N$. Magnitude: $9.8 , N$ downward.
+<ul>
+<li><strong>JEE Tip</strong>: Action-reaction pairs act on different objects; the normal force on the book is the reaction force on the table. Common error: Assuming forces cancel on the book.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A NEET problem involves a person of mass $60 , kg$ standing on the ground ($g = 9.8 , m/s^2$). Find the force the ground exerts on the person.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+Forces on the person: Gravity $\vec{F}<em>g = -mg \hat{j} = -60 \times 9.8 = -588 , N \hat{j}$, normal force $\vec{N} = N \hat{j}$. Since the person is at rest, $\vec{F}</em>{\text{net}} = 0$, so $N = 588 , N$. The ground exerts $\vec{N} = 588 \hat{j} , N$ upward on the person.
+<ul>
+<li><strong>NEET Tip</strong>: The normal force is the reaction to the person’s weight; use Newton’s third law to identify the pair. Common error: Forgetting the normal force acts on the person.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Advanced problem involves two blocks A ($2 , kg$) and B ($3 , kg$) in contact on a frictionless surface, with a force $F = 15 , N$ applied to A. Find the force between A and B.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+System (A + B): Total mass $m_A + m_B = 2 + 3 = 5 , kg$. Acceleration: $a = \frac{F}{m_A + m_B} = \frac{15}{5} = 3 , m/s^2$. For block B: Forces are the contact force $\vec{F}<em>{A \text{ on } B}$ (to the right). Using Newton’s second law on B: $F</em>{A \text{ on } B} = m_B a = 3 \times 3 = 9 , N$. By Newton’s third law, $\vec{F}_{B \text{ on } A} = -9 \hat{i} , N$. Magnitude: $9 , N$.
+<ul>
+<li><strong>JEE Tip</strong>: Use the system to find acceleration, then isolate one block; contact forces are action-reaction pairs. Common error: Forgetting to apply Newton’s third law.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Main problem involves a rocket of mass $1000 , kg$ accelerating upward at $5 , m/s^2$ ($g = 9.8 , m/s^2$). Find the thrust force.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+Forces on the rocket: Thrust $\vec{T}$ upward, gravity $\vec{F}<em>g = -mg \hat{j} = -1000 \times 9.8 = -9800 , N \hat{j}$. Net force: $\vec{F}</em>{\text{net}} = \vec{T} + \vec{F}<em>g = (T - 9800) \hat{j}$. Using Newton’s second law: $F</em>{\text{net}} = m a$, so $T - 9800 = 1000 \times 5 = 5000$. Thus, $T = 5000 + 9800 = 14800 , N$. The exhaust gases experience an equal and opposite force downward (Newton’s third law).
+<ul>
+<li><strong>JEE Tip</strong>: Thrust overcomes gravity and provides acceleration; action-reaction explains rocket propulsion. Common error: Ignoring gravity.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Application</strong>: Newton’s third law explains walking (foot pushes ground backward, ground pushes foot forward), swimming (hands push water backward, water pushes hands forward), and rocket propulsion (exhaust gases downward, rocket upward).</p>
+<h2 id="5-4-applications-in-linear-motion">5.4 Applications in Linear Motion</h2>
+<p>Newton’s laws are applied to solve problems involving linear motion, such as blocks on surfaces, pulley systems, and objects under multiple forces. These scenarios are common in JEE/NEET, testing the ability to draw free-body diagrams, sum forces, and solve for unknowns like acceleration or tension.</p>
+<h3 id="common-forces">Common Forces</h3>
+<ul>
+<li><strong>Gravity</strong>: $\vec{F}_g = -mg \hat{j}$.</li>
+<li><strong>Normal Force</strong>: Perpendicular to the surface, balances forces to prevent motion through the surface.</li>
+<li><strong>Tension</strong>: Force along a string or rope, equal in magnitude at both ends (massless string).</li>
+<li><strong>Applied Force</strong>: External force, often at an angle, requiring component resolution.</li>
+</ul>
+<p><strong>Derivation</strong>: <strong>Acceleration of a Block on a Frictionless Surface</strong><br />
+A block of mass $m$ on a frictionless horizontal surface is pushed by a force $\vec{F}$ at angle $\theta$ above the horizontal. Components: $F_x = F \cos \theta$, $F_y = F \sin \theta$. Vertical: $F_{\text{net, y}} = N + F \sin \theta - mg = 0$ (no vertical acceleration), so $N = mg - F \sin \theta$. Horizontal: $F_{\text{net, x}} = F \cos \theta$. Acceleration:<br />
+$$
+a_x = \frac{F_{\text{net, x}}}{m} = \frac{F \cos \theta}{m}
+$$</p>
+<p><strong>Derivation</strong>: <strong>Tension in a Pulley System (Atwood’s Machine)</strong><br />
+Two masses $m_1$ and $m_2$ ($m_1 &gt; m_2$) are connected by a massless string over a frictionless pulley. Forces on $m_1$: $F_{g1} = m_1 g$ downward, tension $T$ upward; on $m_2$: $F_{g2} = m_2 g$ downward, $T$ upward. Acceleration $a$ is the same for both (string inextensible). For $m_1$: $m_1 g - T = m_1 a$. For $m_2$: $T - m_2 g = m_2 a$. Solve:<br />
+$$
+m_1 g - m_2 g = m_1 a + m_2 a \quad \Rightarrow \quad a = \frac{(m_1 - m_2) g}{m_1 + m_2}, \quad T = \frac{2 m_1 m_2 g}{m_1 + m_2}
+$$</p>
+<p><strong>Solved Example</strong>: A JEE Main problem involves a $6 , kg$ block on a frictionless surface pulled by $F = 30 , N$ horizontally. Find the acceleration.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+Net force: $\vec{F}<em>{\text{net}} = 30 \hat{i} , N$. Using Newton’s second law:<br />
+$$
+\vec{a} = \frac{\vec{F}</em>{\text{net}}}{m} = \frac{30 \hat{i}}{6} = 5 \hat{i} , m/s^2
+$$<br />
+The acceleration is $5 , m/s^2$ in the direction of the force.
+<ul>
+<li><strong>JEE Tip</strong>: On a frictionless surface, the applied force directly causes acceleration. Common error: Including unnecessary forces.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A NEET problem involves two masses $m_1 = 4 , kg$ and $m_2 = 2 , kg$ in an Atwood’s machine ($g = 9.8 , m/s^2$). Find the acceleration.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+Using the derived formula: $a = \frac{(m_1 - m_2) g}{m_1 + m_2}$. Given $m_1 = 4 , kg$, $m_2 = 2 , kg$, $g = 9.8 , m/s^2$:<br />
+$$
+a = \frac{(4 - 2) \times 9.8}{4 + 2} = \frac{2 \times 9.8}{6} = \frac{19.6}{6} \approx 3.27 , m/s^2
+$$<br />
+Round to $3.3 , m/s^2$ (2 significant figures).
+<ul>
+<li><strong>NEET Tip</strong>: The heavier mass accelerates downward; use the pulley formula. Common error: Incorrect mass difference.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Advanced problem involves a $5 , kg$ block on a frictionless incline at $37^\circ$ pushed by $F = 20 , N$ parallel to the incline ($g = 9.8 , m/s^2$). Find the acceleration.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+Forces down the incline: Gravity component $F_{gx} = mg \sin \theta = 5 \times 9.8 \times \sin 37^\circ \approx 29.54 , N$, applied force $F = 20 , N$. Net force: $F_{\text{net}} = 29.54 + 20 = 49.54 , N$. Acceleration:<br />
+$$
+a = \frac{F_{\text{net}}}{m} = \frac{49.54}{5} \approx 9.91 , m/s^2
+$$<br />
+Round to $9.9 , m/s^2$.
+<ul>
+<li><strong>JEE Tip</strong>: Add forces along the incline; both forces act in the same direction here. Common error: Incorrect trigonometric component.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Main problem involves a $3 , kg$ block on a horizontal surface with friction coefficient $\mu = 0.2$ ($g = 9.8 , m/s^2$), pushed by $F = 18 , N$. Find the acceleration.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+Normal force: $N = mg = 3 \times 9.8 = 29.4 , N$. Friction: $f = \mu N = 0.2 \times 29.4 = 5.88 , N$. Net force: $F_{\text{net}} = F - f = 18 - 5.88 = 12.12 , N$. Acceleration:<br />
+$$
+a = \frac{F_{\text{net}}}{m} = \frac{12.12}{3} \approx 4.04 , m/s^2
+$$<br />
+Round to $4.0 , m/s^2$.
+<ul>
+<li><strong>JEE Tip</strong>: Friction opposes motion; subtract it from the applied force. Common error: Forgetting friction.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Application</strong>: Linear motion problems apply to elevators (tension in cables), vehicles (acceleration with friction), and sports (e.g., a sprinter’s start).</p>
+<h2 id="5-5-inertial-and-non-inertial-frames">5.5 Inertial and Non-Inertial Frames</h2>
+<p>An <strong>inertial frame</strong> is a reference frame where Newton’s laws hold directly—a frame at rest or moving at constant velocity (e.g., the ground, a train moving at constant speed). A <strong>non-inertial frame</strong> is accelerating (e.g., a car turning a corner, an elevator accelerating upward), where Newton’s laws appear to fail unless <strong>pseudo-forces</strong> (fictitious forces) are introduced, such as the centrifugal force felt in a turning car.</p>
+<h3 id="pseudo-forces-in-non-inertial-frames">Pseudo-Forces in Non-Inertial Frames</h3>
+<p>In a non-inertial frame accelerating at $\vec{a}<em>{\text{frame}}$ relative to an inertial frame, an observer perceives a pseudo-force on an object of mass $m$ as $\vec{F}</em>{\text{pseudo}} = -m \vec{a}_{\text{frame}}$. This accounts for the frame’s acceleration (e.g., in an accelerating car, you “feel” pushed back due to a pseudo-force opposite the car’s acceleration).</p>
+<p><strong>Derivation</strong>: <strong>Pseudo-Force in a Non-Inertial Frame</strong><br />
+In an inertial frame, Newton’s second law is $\vec{F}<em>{\text{net}} = m \vec{a}$, where $\vec{a}$ is the object’s acceleration in the inertial frame. In a non-inertial frame accelerating at $\vec{a}</em>{\text{frame}}$, the object’s acceleration relative to the non-inertial frame is $\vec{a}' = \vec{a} - \vec{a}<em>{\text{frame}}$. The observer in the non-inertial frame applies Newton’s second law:<br />
+$$
+\vec{F}</em>{\text{net}} + \vec{F}<em>{\text{pseudo}} = m \vec{a}'
+$$<br />
+Substitute $\vec{a}' = \vec{a} - \vec{a}</em>{\text{frame}}$ and use $\vec{F}<em>{\text{net}} = m \vec{a}$:<br />
+$$
+\vec{F}</em>{\text{pseudo}} = m (\vec{a}' - \vec{a}) = m ((\vec{a} - \vec{a}<em>{\text{frame}}) - \vec{a}) = -m \vec{a}</em>{\text{frame}}
+$$</p>
+<p><strong>Solved Example</strong>: A JEE Main problem involves a $2 , kg$ block in a car accelerating at $\vec{a}_{\text{car}} = 3 \hat{i} , m/s^2$. Find the pseudo-force on the block in the car’s frame.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+Pseudo-force: $\vec{F}<em>{\text{pseudo}} = -m \vec{a}</em>{\text{car}}$. Given $m = 2 , kg$, $\vec{a}<em>{\text{car}} = 3 \hat{i} , m/s^2$:<br />
+$$
+\vec{F}</em>{\text{pseudo}} = -2 \times 3 \hat{i} = -6 \hat{i} , N
+$$<br />
+The pseudo-force is $6 , N$ opposite the car’s acceleration.
+<ul>
+<li><strong>JEE Tip</strong>: Pseudo-forces act opposite the frame’s acceleration; use the negative sign. Common error: Forgetting the minus sign.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A NEET problem involves a person of mass $50 , kg$ in an elevator accelerating upward at $2 , m/s^2$ ($g = 9.8 , m/s^2$). Find the apparent weight in the elevator.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+In the elevator’s frame (non-inertial, accelerating upward at $\vec{a}<em>{\text{elevator}} = 2 \hat{j} , m/s^2$), pseudo-force: $\vec{F}</em>{\text{pseudo}} = -m \vec{a}_{\text{elevator}} = -50 \times 2 \hat{j} = -100 \hat{j} , N$. Forces on the person: Gravity $\vec{F}<em>g = -mg \hat{j} = -50 \times 9.8 = -490 , N \hat{j}$, normal force $\vec{N}$ (apparent weight), pseudo-force. Net force in the elevator frame: $F</em>{\text{net}} = 0$ (person at rest relative to elevator). So: $N \hat{j} - 490 \hat{j} - 100 \hat{j} = 0$, $N = 490 + 100 = 590 , N$. Apparent weight is $590 , N$.
+<ul>
+<li><strong>NEET Tip</strong>: Apparent weight increases in an upward-accelerating elevator; use pseudo-forces. Common error: Ignoring the pseudo-force.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Advanced problem involves a $1 , kg$ block on a frictionless surface in a frame accelerating at $\vec{a}_{\text{frame}} = 4 \hat{i} , m/s^2$. A force $\vec{F} = 10 \hat{i} , N$ is applied. Find the acceleration in the frame.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+Pseudo-force: $\vec{F}<em>{\text{pseudo}} = -m \vec{a}</em>{\text{frame}} = -1 \times 4 \hat{i} = -4 \hat{i} , N$. Forces: $\vec{F} = 10 \hat{i} , N$, $\vec{F}<em>{\text{pseudo}} = -4 \hat{i} , N$. Net force in the frame: $F</em>{\text{net}}' = 10 - 4 = 6 , N$. Acceleration in the frame: $a' = \frac{F_{\text{net}}'}{m} = \frac{6}{1} = 6 , m/s^2$.
+<ul>
+<li><strong>JEE Tip</strong>: Acceleration in a non-inertial frame requires pseudo-forces; add them to real forces. Common error: Using inertial frame equations directly.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Main problem involves a $0.5 , kg$ pendulum bob in a car moving at constant velocity $v = 10 , m/s$. Describe the forces in the car’s frame.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+The car moves at constant velocity, so it’s an inertial frame ($\vec{a}_{\text{frame}} = 0$). No pseudo-forces are needed. Forces on the bob: Gravity $\vec{F}<em>g = -mg \hat{j} = -0.5 \times 9.8 = -4.9 , N \hat{j}$, tension $\vec{T}$ along the string. If the bob is at rest relative to the car, $\vec{F}</em>{\text{net}} = 0$, so $T$ balances the vertical forces.
+<ul>
+<li><strong>JEE Tip</strong>: Constant velocity means an inertial frame; no pseudo-forces apply. Common error: Assuming pseudo-forces in an inertial frame.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Application</strong>: Inertial frames are used in most JEE/NEET problems (e.g., ground frame), while non-inertial frames apply to accelerating systems (e.g., elevators, turning cars), affecting perceived forces like apparent weight.</p>
+<h2 id="summary-and-quick-revision">Summary and Quick Revision</h2>
+<ul>
+<li><strong>Newton’s First Law (Inertia)</strong>: If $\vec{F}_{\text{net}} = 0$, velocity is constant (at rest or constant motion). Inertia is quantified by mass ($m$, $kg$). Defines inertial frames.</li>
+<li><strong>Newton’s Second Law</strong>: $\vec{F}_{\text{net}} = m \vec{a}$. Net force causes acceleration; $1 , N = 1 , kg \cdot m/s^2$. Solve using components in 2D/3D (e.g., inclines, pulleys).</li>
+<li><strong>Newton’s Third Law</strong>: For every action, there is an equal and opposite reaction: $\vec{F}<em>{A \text{ on } B} = -\vec{F}</em>{B \text{ on } A}$. Forces act on different objects (e.g., normal force, tension, rocket thrust).</li>
+<li><strong>Applications in Linear Motion</strong>: Use free-body diagrams to identify forces (gravity, normal, tension, friction). Examples: Atwood’s machine ($a = \frac{(m_1 - m_2) g}{m_1 + m_2}$), blocks on inclines ($a = \frac{F_{\text{net}}}{m}$), friction ($f = \mu N$).</li>
+<li><strong>Inertial and Non-Inertial Frames</strong>: Inertial frame: Newton’s laws hold directly (e.g., ground). Non-inertial frame: Introduce pseudo-force $\vec{F}<em>{\text{pseudo}} = -m \vec{a}</em>{\text{frame}}$ (e.g., accelerating elevator increases apparent weight).</li>
+<li><strong>SI Units</strong>: Force ($N = kg \cdot m/s^2$), mass ($kg$), acceleration ($m/s^2$).</li>
+<li><strong>JEE/NEET Tips</strong>: Draw free-body diagrams, sum forces in each direction, use $\vec{F}_{\text{net}} = m \vec{a}$, identify action-reaction pairs, apply pseudo-forces in non-inertial frames, verify significant figures (April 14, 2025), check directions in 2D/3D problems.</li>
+<li><strong>Applications</strong>: Vehicle motion, elevators, pulley systems, walking, rocket propulsion, apparent weight in accelerating frames.</li>
+</ul>
+<h2 id="practice-problems">Practice Problems</h2>
+<p>Explore our extensive problem set with <strong>100 problems</strong> inspired by JEE Main, JEE Advanced, and NEET patterns to test your understanding of force and motion.</p>
+<p><a href="https://vidyamarg.com/books/physics/v1/force-motion-1/./problems">View Problems</a></p>
+<h2 id="watch-on-youtube">Watch on YouTube</h2>
+<p>Our Hinglish video lessons make force and motion engaging for JEE and NEET! Subscribe for updates.</p>
+<p><a href="https://www.youtube.com/@VidyaMargbyRaviShankar-w9u">Watch Now</a> <!-- Update with specific video link when available --></p>
+<p><em>Animation for visualizing Newton’s laws, pulley systems, and non-inertial frames coming soon!</em></p>
+<p><em>Note: Content regularly updated to align with current JEE/NEET syllabi.</em></p>
+
+        </article>
+    </div>
+
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container text-center py-5">
+            <ul class="social-list list-unstyled pt-4 mb-0">
+                
+                    <li class="list-inline-item">
+                        <a href="https:&#x2F;&#x2F;www.youtube.com&#x2F;@VidyaMargbyRaviShankar-w9u" target="_blank" title="YouTube"><i class="fab fa-youtube fa-fw"></i></a>
+                    </li>
+                
+                    <li class="list-inline-item">
+                        <a href="https:&#x2F;&#x2F;t.me&#x2F;vidyamarg1" target="_blank" title="Telegram"><i class="fab fa-telegram fa-fw"></i></a>
+                    </li>
+                
+            </ul>
+            <small class="copyright">
+                © 2025 Vidya Marg. Designed with <span class="sr-only">love</span><i class="fas fa-heart" style="color: #fb866a;"></i> by <a class="theme-link" href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers. <a class="theme-link" href="/app/privacy-policy/">Privacy Policy</a>
+            </small>
+        </div>
+    </footer>
+
+    <!-- Javascript -->          
+    <script src="https://vidyamarg.com/plugins/popper.min.js"></script>
+    <script src="https://vidyamarg.com/plugins/bootstrap/js/bootstrap.min.js"></script>  
+    
+    <!-- Page Specific JS -->
+    <script src="https://vidyamarg.com/plugins/smoothscroll.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
+    <script src="https://vidyamarg.com/js/highlight-custom.js"></script> 
+    <script src="https://vidyamarg.com/plugins/simplelightbox/simple-lightbox.min.js"></script>      
+    <script src="https://vidyamarg.com/plugins/gumshoe/gumshoe.polyfills.min.js"></script> 
+    <script src="https://vidyamarg.com/js/docs.js"></script> 
+
+    <script>
+        function renderLatex() {
+            if (typeof renderMathInElement === "undefined") {
+                setTimeout(renderLatex, 100);
+                return;
+            }
+            renderMathInElement(document.body, {
+                delimiters: [
+                    { left: "$$", right: "$$", display: true },
+                    { left: "$", right: "$", display: false },
+                    { left: "\\(", right: "\\)", display: false },
+                    { left: "\\[", right: "\\]", display: true }
+                ],
+                throwOnError: false
+            });
+        }
+
+        window.addEventListener("load", function() {
+            renderLatex();
+        });
+    </script>
+</body>
+</html>

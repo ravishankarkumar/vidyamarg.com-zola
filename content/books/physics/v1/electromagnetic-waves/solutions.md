@@ -1,7 +1,7 @@
 ---
 title: Physics Book - Electromagnetic Waves Solutions for JEE & NEET
 description: Sample solutions for electromagnetic wave problems, covering wave generation, propagation, electromagnetic spectrum, and energy transport, tailored for JEE and NEET preparation.
-slug: books/physics/electromagnetic-waves/solutions
+slug: solutions
 keywords: physics electromagnetic waves solutions, JEE physics wave propagation solutions, NEET physics electromagnetic spectrum solutions, electromagnetism
 og:image: https://vidyamarg.com/og-physics-electromagnetic-waves.jpg
 ---
@@ -192,6 +192,6 @@ Round to two decimal places in the coefficient: $4.29 \times 10^{14} \, \text{Hz
 - **JEE/NEET Tip**: This wavelength is in the visible range (red light); convert $\lambda$ to meters. Common error: Misinterpreting the wavelength unit or rounding incorrectly.
 
 ## Back to Chapter
-[Return to Electromagnetic Waves Chapter](./index.md)
+[Return to Electromagnetic Waves Chapter](../../electromagnetic-waves)
 
-[Return to Electromagnetic Waves Problems](./problems.md)
+[Return to Electromagnetic Waves Problems](../../electromagnetic-waves/problems)

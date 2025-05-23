@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <title>Vidya Marg | Physics Book - Gravitation for JEE &amp; NEET</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Comprehensive guide on gravitation for JEE and NEET, covering Newton’s law of gravitation, gravitational fields, potential energy, Kepler’s laws, orbital motion, and escape velocity, with extensive examples.">
+    <meta name="keywords" content="JEE physics book, NEET physics book, physics book, physics for JEE and NEET">
+    <meta property="og:image" content="https://vidyamarg.com/og-physics-book.jpg">
+    <link rel="canonical" href="https:&#x2F;&#x2F;vidyamarg.com&#x2F;books&#x2F;physics&#x2F;v1&#x2F;gravitation&#x2F;">
+    <link rel="shortcut icon" href="https://vidyamarg.com/logos/maroon-bg-logo-128.ico">
+    
+    <!-- Preload Google Font -->
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" as="style">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript>
+        <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
+    </noscript>
+    
+    <!-- FontAwesome JS -->
+    <script defer src="https://vidyamarg.com/fontawesome/js/all.min.js"></script>
+
+    <!-- KaTeX for LaTeX rendering -->
+    <link rel="stylesheet" href="https://vidyamarg.com/katex/katex.min.css">
+    <script src="https://vidyamarg.com/katex/katex.min.js"></script>
+    <script src="https://vidyamarg.com/katex/auto-render.min.js"></script>
+
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.2/styles/atom-one-dark.min.css">
+    <link rel="stylesheet" href="https://vidyamarg.com/plugins/simplelightbox/simple-lightbox.min.css">
+
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="https://vidyamarg.com/css/theme.css">
+    <link rel="stylesheet" href="https://vidyamarg.com/css/custom.css" />
+</head> 
+
+<body>    
+    <header class="header fixed-top">
+        <div class="branding docs-branding">
+            <div class="container-fluid position-relative py-2">
+                <div class="docs-logo-wrapper">
+                    
+                    
+                    
+                    <button id="docs-sidebar-toggler" class="docs-sidebar-toggler docs-sidebar-visible me-2 d-xl-none" type="button">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    
+                    <div class="site-logo">
+                        <a class="navbar-brand" href="https://vidyamarg.com">
+                            <img class="logo-icon me-2" src="https://vidyamarg.com/logos/maroon-bg-logo-1024.png" alt="logo">
+                            <span class="logo-text">Vidya Marg</span>
+                        </a>
+                    </div>    
+                </div>
+                <div class="docs-top-utilities d-flex justify-content-end align-items-center">
+                    <ul class="nav-list list-inline mb-0 d-none d-lg-flex">
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;">Home</a>
+                            </li>
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics (Youtube series)</a>
+                            </li>
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;">Books</a>
+                            </li>
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;app&#x2F;">App</a>
+                            </li>
+                        
+                        
+                            
+                                <li class="list-inline-item">
+                                    <a href="https:&#x2F;&#x2F;www.youtube.com&#x2F;@VidyaMargbyRaviShankar-w9u" title="YouTube"><i class="fab fa-youtube fa-fw"></i></a>
+                                </li>
+                            
+                                <li class="list-inline-item">
+                                    <a href="https:&#x2F;&#x2F;t.me&#x2F;vidyamarg1" title="Telegram"><i class="fab fa-telegram fa-fw"></i></a>
+                                </li>
+                            
+                        
+                    </ul>
+                    <!-- Mobile Menu Button -->
+                    <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#mobileNav" aria-controls="mobileNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </div>
+            <!-- Mobile Menu -->
+            <div class="collapse navbar-collapse d-lg-none" id="mobileNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;">Home</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics (Youtube series)</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;books&#x2F;">Books</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;app&#x2F;">App</a>
+                        </li>
+                    
+                    
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="https:&#x2F;&#x2F;www.youtube.com&#x2F;@VidyaMargbyRaviShankar-w9u"><i class="fab fa-youtube fa-fw"></i> YouTube</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="https:&#x2F;&#x2F;t.me&#x2F;vidyamarg1"><i class="fab fa-telegram fa-fw"></i> Telegram</a>
+                            </li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="docs-wrapper">
+        
+        
+        
+        <div id="docs-sidebar" class="docs-sidebar">
+            <nav id="docs-nav" class="docs-nav navbar">
+                
+                    
+                        
+
+<ul class="nav flex-column">
+    <!-- Navigation Menu (visible only in mobile view) -->
+    <li class="nav-item d-lg-none">
+        <span class="nav-link">Navigation</span>
+        <ul class="nav flex-column">
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;">Home</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics (Youtube series)</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;books&#x2F;">Books</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;app&#x2F;">App</a>
+                </li>
+            
+        </ul>
+    </li>
+
+    <!-- JEE/NEET Physics Section -->
+    
+    <li class="nav-item">
+        <span class="nav-link">Physics for JEE&#x2F;NEET</span>
+        <ul class="nav flex-column">
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics for JEE&#x2F;NEET</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;maths-basics-for-physics&#x2F;">Maths Basics for Physics</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;units-and-dimensions&#x2F;">Units and Dimensions</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;physical-quantities-and-si-units&#x2F;">Physical Quantities and SI Units</a>
+                </li>
+            
+        </ul>
+    </li>
+
+    <!-- Books Section -->
+    
+    <li class="nav-item">
+        <span class="nav-link">Books</span>
+        <ul class="nav flex-column">
+            <!-- JEE/NEET Physics Book (Version 1) -->
+            
+            <li class="nav-item">
+                <a class="nav-link" href="/books/physics/v1/">Physics Book</a>
+                
+                    <ul class="nav flex-column">
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;measurement&#x2F;">Measurement</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;motion-straight-line&#x2F;">Motion Along a Straight Line</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;vectors&#x2F;">Vectors</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;motion-2d-3d&#x2F;">Motion in Two and Three Dimensions</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;force-motion-1&#x2F;">Force and Motion—I</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;force-motion-2&#x2F;">Force and Motion—II</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;kinetic-energy-work&#x2F;">Kinetic Energy and Work</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;potential-energy-conservation&#x2F;">Potential Energy and Conservation of Energy</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;center-mass-momentum&#x2F;">Center of Mass and Linear Momentum</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;rotation&#x2F;">Rotation</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;rolling-torque-angular-momentum&#x2F;">Rolling, Torque, and Angular Momentum</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;equilibrium-elasticity&#x2F;">Equilibrium and Elasticity</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;gravitation&#x2F;">Gravitation</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;fluids&#x2F;">Fluids</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;oscillations&#x2F;">Oscillations</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;waves-1&#x2F;">Waves—I</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;waves-2&#x2F;">Waves—II</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;kinetic-theory-gases&#x2F;">The Kinetic Theory of Gases</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;thermodynamics-temperature-heat&#x2F;">Temperature, Heat, and the First Law of Thermodynamics</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;entropy-thermodynamics&#x2F;">Entropy and the Second Law of Thermodynamics</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electric-fields&#x2F;">Electric Fields</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;gauss-law&#x2F;">Gauss’s Law</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electric-potential&#x2F;">Electric Potential</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;capacitance&#x2F;">Capacitance</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;current-resistance&#x2F;">Current and Resistance</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;circuits&#x2F;">Circuits</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;magnetic-fields&#x2F;">Magnetic Fields</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;magnetic-fields-currents&#x2F;">Magnetic Fields Due to Currents</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;induction-inductance&#x2F;">Induction and Inductance</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electromagnetic-oscillations-ac&#x2F;">Electromagnetic Oscillations and Alternating Current</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electromagnetic-waves&#x2F;">Electromagnetic Waves</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;images&#x2F;">Images</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;interference&#x2F;">Interference</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;diffraction&#x2F;">Diffraction</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;photons-matter-waves&#x2F;">Photons and Matter Waves</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;matter-waves-advanced&#x2F;">More About Matter Waves</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;atoms&#x2F;">All About Atoms</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;nuclear-physics&#x2F;">Nuclear Physics</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;nuclear-energy&#x2F;">Energy from the Nucleus</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;quarks-leptons&#x2F;">Quarks, Leptons, and the Big Bang</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;relativity&#x2F;">Relativity</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;conduction-solids&#x2F;">Conduction of Electricity in Solids</a>
+                            </li>
+                        
+                    </ul>
+                
+            </li>
+        </ul>
+    </li>
+</ul>
+                    
+                
+            </nav>
+        </div>
+        
+
+        <div class="docs-content">
+            
+    <div class="docs-main">
+        <article class="docs-article">
+            <h1 id="chapter-13-gravitation">Chapter 13: Gravitation</h1>
+<div class="callout-block callout-warning">
+    <div class="content">
+        <h4 class="callout-title">
+            <span class="callout-icon-holder me-1">
+                <i class="fas fa-exclamation-triangle"></i>
+            </span>
+            Beta Version
+        </h4>
+        <p>Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!</p>
+    </div>
+</div>
+<p>Gravitation is the universal force that governs the motion of celestial bodies, from planets orbiting the Sun to rockets escaping Earth’s atmosphere. Building on the mechanics and energy concepts from Chapters 1–12, this chapter explores the fundamental principles of gravitation, a cornerstone of classical physics. For JEE Main, JEE Advanced, and NEET students, understanding gravitation is essential, as it appears in problems involving planetary motion, satellite orbits, and gravitational potential energy. This chapter covers <strong>Newton’s law of gravitation</strong>, <strong>gravitational fields and potential</strong>, <strong>Kepler’s laws and orbital motion</strong>, and <strong>escape velocity and applications</strong>, providing detailed explanations, derivations, solved examples, and practical applications to ensure conceptual clarity and problem-solving proficiency.</p>
+<h2 id="13-1-newton-s-law-of-gravitation">13.1 Newton’s Law of Gravitation</h2>
+<p><strong>Newton’s law of gravitation</strong> describes the attractive force between any two masses, a fundamental interaction that operates across the universe. It’s the basis for understanding gravitational effects, from the fall of an apple to the orbits of planets.</p>
+<h3 id="newton-s-law">Newton’s Law</h3>
+<p>The gravitational force between two point masses $m_1$ and $m_2$ separated by a distance $r$ is:<br />
+$$
+F = G \frac{m_1 m_2}{r^2}
+$$<br />
+where $G$ is the gravitational constant, $G \approx 6.674 \times 10^{-11} , \text{N} \cdot \text{m}^2/\text{kg}^2$. The force is attractive, acts along the line joining the masses, and follows an inverse-square law with distance.</p>
+<h3 id="properties-of-gravitational-force">Properties of Gravitational Force</h3>
+<ul>
+<li><strong>Attractive</strong>: Always pulls masses together.</li>
+<li><strong>Inverse-Square Law</strong>: $F \propto \frac{1}{r^2}$, so doubling the distance reduces the force to a quarter.</li>
+<li><strong>Universal</strong>: Applies to all masses, from particles to planets.</li>
+<li><strong>Central Force</strong>: Acts along the line connecting the centers of the masses.</li>
+</ul>
+<h3 id="gravitational-force-for-extended-objects">Gravitational Force for Extended Objects</h3>
+<p>For spherical objects (e.g., planets), the gravitational force can be calculated as if all mass is concentrated at the center, provided the distance $r$ is measured between centers and the objects are outside each other. Inside a uniform spherical shell, the gravitational force is zero (shell theorem).</p>
+<p><strong>Derivation</strong>: <strong>Gravitational Force Between Two Point Masses</strong><br />
+Consider two point masses $m_1$ and $m_2$ separated by distance $r$. Newton’s law of gravitation states the force is proportional to the product of the masses and inversely proportional to the square of the distance: $F \propto \frac{m_1 m_2}{r^2}$. Introduce the gravitational constant $G$ to make it an equality:<br />
+$$
+F = G \frac{m_1 m_2}{r^2}
+$$<br />
+The force is a vector, directed along the line joining the masses. For $m_1$ at position $\vec{r}_1$ and $m_2$ at $\vec{r}<em>2$, the unit vector from $m_1$ to $m_2$ is $\hat{r}</em>{12} = \frac{\vec{r}_2 - \vec{r}_1}{|\vec{r}<em>2 - \vec{r}<em>1|}$, so the force on $m_1$ is:<br />
+$$
+\vec{F}</em>{12} = G \frac{m_1 m_2}{r^2} \hat{r}</em>{12}
+$$</p>
+<p><strong>Derivation</strong>: <strong>Gravitational Force Inside a Spherical Shell</strong><br />
+For a uniform spherical shell of mass $M$, radius $R$, consider a point mass $m$ inside at distance $r &lt; R$ from the center. By the shell theorem, the net gravitational force inside a uniform shell is zero due to symmetry: forces from opposite sides cancel. Mathematically, integrate over the shell’s mass elements; the components perpendicular to the radial direction cancel, and radial components sum to zero.</p>
+<p><strong>Derivation</strong>: <strong>Gravitational Force Outside a Spherical Mass</strong><br />
+For a spherical mass $M$ (radius $R$), a point mass $m$ outside at distance $r &gt; R$ experiences a force as if $M$ were concentrated at the center (shell theorem). The force is:<br />
+$$
+F = G \frac{M m}{r^2}
+$$</p>
+<p><strong>Derivation</strong>: <strong>Gravitational Acceleration Near Earth’s Surface</strong><br />
+Near Earth’s surface, the gravitational force on a mass $m$ is $F = mg$, where $g$ is the acceleration due to gravity. Using Newton’s law, $F = G \frac{M_E m}{R_E^2}$, where $M_E$ is Earth’s mass, $R_E$ is Earth’s radius. Equate:<br />
+$$
+mg = G \frac{M_E m}{R_E^2} \quad \Rightarrow \quad g = \frac{G M_E}{R_E^2}
+$$<br />
+Using $G = 6.674 \times 10^{-11} , \text{N} \cdot \text{m}^2/\text{kg}^2$, $M_E \approx 5.972 \times 10^{24} , \text{kg}$, $R_E \approx 6.371 \times 10^6 , m$:<br />
+$$
+g \approx \frac{(6.674 \times 10^{-11}) (5.972 \times 10^{24})}{(6.371 \times 10^6)^2} \approx 9.8 , \text{m/s}^2
+$$</p>
+<p><strong>Solved Example</strong>: A JEE Main problem involves two point masses $m_1 = 2 , kg$ and $m_2 = 3 , kg$ separated by $0.5 , m$. Calculate the gravitational force between them ($G = 6.67 \times 10^{-11} , \text{N} \cdot \text{m}^2/\text{kg}^2$).</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+Use Newton’s law: $F = G \frac{m_1 m_2}{r^2}$. Given $m_1 = 2 , kg$, $m_2 = 3 , kg$, $r = 0.5 , m$, $G = 6.67 \times 10^{-11}$:<br />
+$$
+F = (6.67 \times 10^{-11}) \frac{2 \times 3}{(0.5)^2} = (6.67 \times 10^{-11}) \frac{6}{0.25} = (6.67 \times 10^{-11}) \times 24 = 1.6008 \times 10^{-9} , N
+$$<br />
+Round to $1.60 \times 10^{-9} , N$ (3 significant figures, April 14, 2025).
+<ul>
+<li><strong>JEE Tip</strong>: Gravitational forces are small for everyday objects; $G$ has a small value, so expect small $F$. Common error: Forgetting to square the distance in the denominator.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A NEET problem involves a satellite of mass $500 , kg$ orbiting Earth at a height of $1000 , km$. Calculate the gravitational force ($M_E = 5.972 \times 10^{24} , \text{kg}$, $R_E = 6371 , \text{km}$, $G = 6.67 \times 10^{-11} , \text{N} \cdot \text{m}^2/\text{kg}^2$).</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+Distance from Earth’s center: $r = R_E + h = 6371 + 1000 = 7371 , \text{km} = 7.371 \times 10^6 , m$. Force: $F = G \frac{M_E m}{r^2}$:<br />
+$$
+F = (6.67 \times 10^{-11}) \frac{(5.972 \times 10^{24}) \times 500}{(7.371 \times 10^6)^2} = (6.67 \times 10^{-11}) \frac{2.986 \times 10^{27}}{5.433 \times 10^{13}} \approx 3668 , N
+$$<br />
+Round to $3670 , N$.
+<ul>
+<li><strong>NEET Tip</strong>: Convert distances to meters; $r$ is from the center of Earth, not the surface. Common error: Using height instead of total distance $r$.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Advanced problem involves a spherical planet of mass $2 \times 10^{22} , \text{kg}$ and radius $5 \times 10^5 , m$. Calculate the gravitational acceleration at its surface ($G = 6.67 \times 10^{-11} , \text{N} \cdot \text{m}^2/\text{kg}^2$).</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$g = \frac{G M}{R^2} = (6.67 \times 10^{-11}) \frac{2 \times 10^{22}}{(5 \times 10^5)^2} = (6.67 \times 10^{-11}) \frac{2 \times 10^{22}}{2.5 \times 10^{11}} = 5.336 \times 10^0 = 5.34 , \text{m/s}^2$.
+<ul>
+<li><strong>JEE Tip</strong>: Gravitational acceleration depends on $M$ and $R$; compare to Earth’s $g$ to check reasonableness. Common error: Forgetting to square the radius.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Main problem involves the gravitational force between two identical spheres of mass $10 , kg$ with centers $0.2 , m$ apart ($G = 6.67 \times 10^{-11} , \text{N} \cdot \text{m}^2/\text{kg}^2$).</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$F = G \frac{m_1 m_2}{r^2} = (6.67 \times 10^{-11}) \frac{10 \times 10}{(0.2)^2} = (6.67 \times 10^{-11}) \frac{100}{0.04} = 1.6675 \times 10^{-8} , N \approx 1.67 \times 10^{-8} , N$.
+<ul>
+<li><strong>JEE Tip</strong>: For spheres, use the distance between centers; the force is small due to small masses. Common error: Using the wrong distance (e.g., surface-to-surface).</li>
+</ul>
+</li>
+</ul>
+<p><strong>Application</strong>: Newton’s law of gravitation applies to planetary motion, satellite orbits, and rocketry (e.g., calculating forces on a rocket during launch, aligning with your interest, April 19, 2025).</p>
+<h2 id="13-2-gravitational-fields-and-potential">13.2 Gravitational Fields and Potential</h2>
+<p>The <strong>gravitational field</strong> describes the influence of a mass on its surroundings, while <strong>gravitational potential</strong> quantifies the potential energy per unit mass, providing a framework for understanding gravitational effects without directly calculating forces.</p>
+<h3 id="gravitational-field">Gravitational Field</h3>
+<p>The gravitational field strength $\vec{g}$ at a point is the force per unit mass experienced by a test mass:<br />
+$$
+\vec{g} = \frac{\vec{F}}{m_{\text{test}}}
+$$<br />
+For a point mass $M$, the field at distance $r$ is:<br />
+$$
+g = \frac{G M}{r^2}
+$$<br />
+Direction is toward the mass. Units: $\text{m/s}^2$. Near Earth’s surface, $g \approx 9.8 , \text{m/s}^2$.</p>
+<h3 id="gravitational-potential">Gravitational Potential</h3>
+<p>Gravitational potential $V$ at a point is the potential energy per unit mass:<br />
+$$
+V = -\frac{G M}{r}
+$$<br />
+Units: $\text{J/kg}$. The negative sign reflects that potential is zero at infinity (reference point), and work is done against gravity to move a mass to infinity. Potential energy of a mass $m$ in the field:<br />
+$$
+U = m V = -\frac{G M m}{r}
+$$</p>
+<h3 id="gravitational-potential-energy">Gravitational Potential Energy</h3>
+<p>For two masses $m_1$ and $m_2$ separated by $r$, the potential energy is:<br />
+$$
+U = -\frac{G m_1 m_2}{r}
+$$<br />
+This energy is negative, indicating a bound system; work must be done to separate the masses to infinity.</p>
+<p><strong>Derivation</strong>: <strong>Gravitational Field of a Point Mass</strong><br />
+The force on a test mass $m$ at distance $r$ from mass $M$ is $F = G \frac{M m}{r^2}$. Gravitational field:<br />
+$$
+g = \frac{F}{m} = \frac{G \frac{M m}{r^2}}{m} = \frac{G M}{r^2}
+$$<br />
+The field is radial, pointing toward $M$.</p>
+<p><strong>Derivation</strong>: <strong>Gravitational Potential ($V = -\frac{G M}{r}$)</strong><br />
+Gravitational potential is the work done per unit mass to bring a test mass from infinity to point $r$. The force on a test mass $m$ at distance $x$ is $F = G \frac{M m}{x^2}$ (inward). Work done by the field (positive, as the mass moves inward) from infinity to $r$:<br />
+$$
+W = \int_{\infty}^{r} \vec{F} \cdot d\vec{x} = \int_{\infty}^{r} \left(-G \frac{M m}{x^2}\right) dx = G M m \left[\frac{1}{x}\right]_{\infty}^{r} = G M m \left(\frac{1}{r} - 0\right) = \frac{G M m}{r}
+$$<br />
+Potential: $V = \frac{W}{m} = \frac{G M m}{r} \cdot \frac{1}{m} = \frac{G M}{r}$. By convention, $V = 0$ at infinity, so:<br />
+$$
+V = -\frac{G M}{r}
+$$</p>
+<p><strong>Derivation</strong>: <strong>Gravitational Potential Energy ($U = -\frac{G M m}{r}$)</strong><br />
+Potential energy is the work done to bring two masses from infinity to distance $r$. Using the potential: $U = m V = m \left(-\frac{G M}{r}\right) = -\frac{G M m}{r}$. Alternatively, compute work directly: $U = W = -\int_{\infty}^{r} F dx = -\int_{\infty}^{r} \left(G \frac{M m}{x^2}\right) dx = -\frac{G M m}{r}$.</p>
+<p><strong>Derivation</strong>: <strong>Gravitational Field Inside a Spherical Shell</strong><br />
+For a point inside a spherical shell at $r &lt; R$, the field is zero (from the shell theorem). Potential inside is constant, equal to the potential at the surface: $V = -\frac{G M}{R}$. Since $V$ is constant, the field $g = -\frac{dV}{dr} = 0$.</p>
+<p><strong>Solved Example</strong>: A JEE Main problem involves the gravitational field at $2000 , \text{km}$ above Earth’s surface ($M_E = 5.972 \times 10^{24} , \text{kg}$, $R_E = 6371 , \text{km}$, $G = 6.67 \times 10^{-11} , \text{N} \cdot \text{m}^2/\text{kg}^2$).</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$r = 6371 + 2000 = 8371 , \text{km} = 8.371 \times 10^6 , m$. Field: $g = \frac{G M_E}{r^2}$:<br />
+$$
+g = (6.67 \times 10^{-11}) \frac{5.972 \times 10^{24}}{(8.371 \times 10^6)^2} = \frac{3.983 \times 10^{14}}{7.007 \times 10^{13}} \approx 5.68 , \text{m/s}^2
+$$
+<ul>
+<li><strong>JEE Tip</strong>: Field decreases with distance ($1/r^2$); compare to $g \approx 9.8 , \text{m/s}^2$ at the surface. Common error: Using height instead of total distance from the center.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A NEET problem involves the gravitational potential at $500 , \text{km}$ above Earth’s surface ($M_E = 5.972 \times 10^{24} , \text{kg}$, $R_E = 6371 , \text{km}$, $G = 6.67 \times 10^{-11} , \text{N} \cdot \text{m}^2/\text{kg}^2$).</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$r = 6371 + 500 = 6871 , \text{km} = 6.871 \times 10^6 , m$. Potential: $V = -\frac{G M_E}{r}$:<br />
+$$
+V = -(6.67 \times 10^{-11}) \frac{5.972 \times 10^{24}}{6.871 \times 10^6} \approx -5.79 \times 10^7 , \text{J/kg}
+$$
+<ul>
+<li><strong>NEET Tip</strong>: Potential is negative and increases (less negative) as $r$ increases; use SI units. Common error: Forgetting the negative sign in potential.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Advanced problem involves the potential energy of two masses $m_1 = 1 , kg$, $m_2 = 2 , kg$ separated by $0.1 , m$ ($G = 6.67 \times 10^{-11} , \text{N} \cdot \text{m}^2/\text{kg}^2$).</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$U = -\frac{G m_1 m_2}{r} = -(6.67 \times 10^{-11}) \frac{1 \times 2}{0.1} = -1.334 \times 10^{-9} , \text{J}$.
+<ul>
+<li><strong>JEE Tip</strong>: Potential energy is negative for attractive forces; small $r$ increases magnitude. Common error: Omitting the negative sign.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Main problem involves the gravitational field at the midpoint between two equal masses $M = 5 , kg$ at $0.4 , m$ apart ($G = 6.67 \times 10^{-11} , \text{N} \cdot \text{m}^2/\text{kg}^2$).</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+Midpoint: $r = 0.2 , m$ from each mass. Field due to each: $g = \frac{G M}{r^2} = (6.67 \times 10^{-11}) \frac{5}{(0.2)^2} = 8.3375 \times 10^{-9} , \text{m/s}^2$, but fields cancel (opposite directions). Net field: $0$.
+<ul>
+<li><strong>JEE Tip</strong>: Fields are vectors; at the midpoint, symmetry often cancels the field. Common error: Adding magnitudes instead of considering directions.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Application</strong>: Gravitational fields and potentials are used in astrophysics (e.g., black holes), satellite positioning, and rocketry (e.g., calculating a rocket’s potential energy in orbit, aligning with your interest, April 19, 2025).</p>
+<h2 id="13-3-kepler-s-laws-and-orbital-motion">13.3 Kepler’s Laws and Orbital Motion</h2>
+<p><strong>Kepler’s laws</strong> describe the motion of planets around the Sun, later generalized to any orbiting body under gravitational force. <strong>Orbital motion</strong> applies these principles to satellites, moons, and rockets, a key topic for JEE/NEET celestial mechanics problems.</p>
+<h3 id="kepler-s-laws">Kepler’s Laws</h3>
+<ul>
+<li><strong>First Law (Law of Ellipses)</strong>: Planets move in elliptical orbits with the Sun at one focus.</li>
+<li><strong>Second Law (Law of Equal Areas)</strong>: A line from the planet to the Sun sweeps out equal areas in equal times, implying faster motion near the Sun (conservation of angular momentum).</li>
+<li><strong>Third Law (Law of Periods)</strong>: The square of the orbital period $T$ is proportional to the cube of the semi-major axis $a$:<br />
+$$
+T^2 \propto a^3 \quad \text{or} \quad \frac{T^2}{a^3} = \text{constant}
+$$<br />
+For circular orbits around a mass $M$:<br />
+$$
+T^2 = \left(\frac{4 \pi^2}{G M}\right) r^3
+$$</li>
+</ul>
+<h3 id="orbital-motion">Orbital Motion</h3>
+<p>For a circular orbit, gravitational force provides the centripetal force:<br />
+$$
+\frac{G M m}{r^2} = \frac{m v^2}{r} \quad \Rightarrow \quad v = \sqrt{\frac{G M}{r}}
+$$<br />
+Orbital period: $T = \frac{2 \pi r}{v} = 2 \pi r \sqrt{\frac{r}{G M}} = 2 \pi \sqrt{\frac{r^3}{G M}}$.</p>
+<h3 id="energy-in-orbits">Energy in Orbits</h3>
+<ul>
+<li>Kinetic energy: $K = \frac{1}{2} m v^2 = \frac{1}{2} m \left(\frac{G M}{r}\right) = \frac{G M m}{2 r}$.</li>
+<li>Potential energy: $U = -\frac{G M m}{r}$.</li>
+<li>Total energy: $E = K + U = \frac{G M m}{2 r} - \frac{G M m}{r} = -\frac{G M m}{2 r}$ (negative for bound orbits).</li>
+</ul>
+<p><strong>Derivation</strong>: <strong>Kepler’s Third Law for Circular Orbits</strong><br />
+For a mass $m$ in a circular orbit of radius $r$ around mass $M$, gravitational force provides centripetal force: $\frac{G M m}{r^2} = \frac{m v^2}{r}$, so $v = \sqrt{\frac{G M}{r}}$. Period: $T = \frac{2 \pi r}{v} = 2 \pi r \sqrt{\frac{r}{G M}} = 2 \pi \sqrt{\frac{r^3}{G M}}$. Square both sides:<br />
+$$
+T^2 = \left(2 \pi \sqrt{\frac{r^3}{G M}}\right)^2 = \frac{4 \pi^2 r^3}{G M} \quad \Rightarrow \quad T^2 \propto r^3
+$$</p>
+<p><strong>Derivation</strong>: <strong>Orbital Velocity ($v = \sqrt{\frac{G M}{r}}$)</strong><br />
+Gravitational force equals centripetal force: $\frac{G M m}{r^2} = \frac{m v^2}{r}$. Cancel $m$ and simplify:<br />
+$$
+\frac{G M}{r^2} = \frac{v^2}{r} \quad \Rightarrow \quad v^2 = \frac{G M}{r} \quad \Rightarrow \quad v = \sqrt{\frac{G M}{r}}
+$$</p>
+<p><strong>Derivation</strong>: <strong>Total Energy in a Circular Orbit</strong><br />
+Kinetic energy: $K = \frac{1}{2} m v^2$, with $v = \sqrt{\frac{G M}{r}}$, so $K = \frac{1}{2} m \left(\frac{G M}{r}\right) = \frac{G M m}{2 r}$. Potential energy: $U = -\frac{G M m}{r}$. Total energy:<br />
+$$
+E = K + U = \frac{G M m}{2 r} - \frac{G M m}{r} = -\frac{G M m}{2 r}
+$$</p>
+<p><strong>Derivation</strong>: <strong>Kepler’s Second Law from Angular Momentum Conservation</strong><br />
+A planet’s angular momentum $L = m v r \sin \theta$ is conserved (no external torques). For a circular orbit, $\theta = 90^\circ$, $L = m v r$. Area swept: $dA = \frac{1}{2} r (v dt)$ for small angle $d\theta = \frac{v dt}{r}$. Rate: $\frac{dA}{dt} = \frac{1}{2} r v = \frac{1}{2} \frac{L}{m} = \text{constant}$, proving equal areas in equal times.</p>
+<p><strong>Solved Example</strong>: A JEE Main problem involves a satellite in a circular orbit at $400 , \text{km}$ above Earth ($M_E = 5.972 \times 10^{24} , \text{kg}$, $R_E = 6371 , \text{km}$, $G = 6.67 \times 10^{-11} , \text{N} \cdot \text{m}^2/\text{kg}^2$). Find the orbital velocity.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$r = 6371 + 400 = 6771 , \text{km} = 6.771 \times 10^6 , m$. Orbital velocity: $v = \sqrt{\frac{G M_E}{r}}$:<br />
+$$
+v = \sqrt{\frac{(6.67 \times 10^{-11}) (5.972 \times 10^{24})}{6.771 \times 10^6}} = \sqrt{\frac{3.983 \times 10^{14}}{6.771 \times 10^6}} \approx \sqrt{5.885 \times 10^7} \approx 7670 , \text{m/s}
+$$
+<ul>
+<li><strong>JEE Tip</strong>: Orbital velocity decreases with increasing $r$; compare to typical satellite speeds (~7–8 km/s). Common error: Using $r$ as the height instead of the total distance from Earth’s center.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A NEET problem involves a planet with period $T = 2$ years and semi-major axis $a = 4 , \text{AU}$ orbiting a star. Find $T^2/a^3$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+By Kepler’s third law, $T^2 \propto a^3$, so $\frac{T^2}{a^3}$ is constant for orbits around the same star. $T = 2$ years, $a = 4 , \text{AU}$, $T^2 = 4$, $a^3 = 64$, so:<br />
+$$
+\frac{T^2}{a^3} = \frac{4}{64} = 0.0625
+$$
+<ul>
+<li><strong>NEET Tip</strong>: Kepler’s third law applies to all orbits around the same central mass; units cancel in the ratio. Common error: Not cubing $a$ in the denominator.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Advanced problem involves a satellite of mass $1000 , kg$ in orbit at $500 , \text{km}$ above Earth. Find the total energy ($M_E = 5.972 \times 10^{24} , \text{kg}$, $R_E = 6371 , \text{km}$, $G = 6.67 \times 10^{-11} , \text{N} \cdot \text{m}^2/\text{kg}^2$).</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$r = 6871 , \text{km} = 6.871 \times 10^6 , m$. Total energy: $E = -\frac{G M_E m}{2 r}$:<br />
+$$
+E = -\frac{(6.67 \times 10^{-11}) (5.972 \times 10^{24}) (1000)}{2 \times 6.871 \times 10^6} \approx -\frac{3.983 \times 10^{17}}{1.374 \times 10^7} \approx -2.90 \times 10^{10} , \text{J}
+$$
+<ul>
+<li><strong>JEE Tip</strong>: Total energy is negative for bound orbits; use $r$ from Earth’s center. Common error: Forgetting the factor of 2 in the denominator.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Main problem involves a geostationary satellite ($T = 24 , \text{hours}$, $M_E = 5.972 \times 10^{24} , \text{kg}$, $G = 6.67 \times 10^{-11} , \text{N} \cdot \text{m}^2/\text{kg}^2$). Find the orbital radius.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$T = 24 \times 3600 = 86400 , s$. $T^2 = \frac{4 \pi^2 r^3}{G M_E}$, so $r^3 = \frac{G M_E T^2}{4 \pi^2}$:<br />
+$$
+r^3 = \frac{(6.67 \times 10^{-11}) (5.972 \times 10^{24}) (86400)^2}{4 \pi^2} \approx 7.548 \times 10^{21}, \quad r \approx (7.548 \times 10^{21})^{1/3} \approx 4.23 \times 10^7 , m = 42300 , \text{km}
+$$
+<ul>
+<li><strong>JEE Tip</strong>: Geostationary orbits have $T = 24$ hours; the radius is ~42,300 km. Common error: Forgetting to convert $T$ to seconds.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Application</strong>: Kepler’s laws and orbital motion are used in astronomy (planetary motion), satellite technology (geostationary orbits), and rocketry (e.g., calculating orbital parameters for a rocket, aligning with your interest, April 19, 2025).</p>
+<h2 id="13-4-escape-velocity-and-applications">13.4 Escape Velocity and Applications</h2>
+<p><strong>Escape velocity</strong> is the minimum speed needed for an object to escape a gravitational field without further propulsion. This section also explores applications of gravitation, including satellite orbits, gravitational time dilation, and rocketry scenarios.</p>
+<h3 id="escape-velocity">Escape Velocity</h3>
+<p>Escape velocity $v_{\text{esc}}$ is the speed at which an object’s kinetic energy equals the magnitude of its gravitational potential energy:<br />
+$$
+\frac{1}{2} m v_{\text{esc}}^2 = \frac{G M m}{r} \quad \Rightarrow \quad v_{\text{esc}} = \sqrt{\frac{2 G M}{r}}
+$$<br />
+For Earth ($M_E = 5.972 \times 10^{24} , \text{kg}$, $R_E = 6371 , \text{km}$), $v_{\text{esc}} \approx 11.2 , \text{km/s}$.</p>
+<h3 id="gravitational-time-dilation-conceptual-overview">Gravitational Time Dilation (Conceptual Overview)</h3>
+<p>In general relativity, time runs slower in stronger gravitational fields (not typically in JEE/NEET but noted for context):<br />
+$$
+\Delta t' = \frac{\Delta t}{\sqrt{1 - \frac{2 G M}{r c^2}}}
+$$</p>
+<h3 id="applications">Applications</h3>
+<ul>
+<li><strong>Satellite Orbits</strong>: Low Earth orbit (LEO), geostationary orbits, Hohmann transfers.</li>
+<li><strong>Rocketry</strong>: Calculating escape velocity and orbital insertion speeds.</li>
+<li><strong>Gravitational Assist</strong>: Using planetary gravity to accelerate spacecraft (e.g., Voyager missions).</li>
+</ul>
+<p><strong>Derivation</strong>: <strong>Escape Velocity ($v_{\text{esc}} = \sqrt{\frac{2 G M}{r}}$)</strong><br />
+To escape, the total energy must be zero (kinetic + potential). At escape velocity: $E = K + U = 0$. Kinetic energy: $K = \frac{1}{2} m v_{\text{esc}}^2$. Potential energy: $U = -\frac{G M m}{r}$. Set $E = 0$:<br />
+$$
+\frac{1}{2} m v_{\text{esc}}^2 - \frac{G M m}{r} = 0 \quad \Rightarrow \quad \frac{1}{2} m v_{\text{esc}}^2 = \frac{G M m}{r} \quad \Rightarrow \quad v_{\text{esc}}^2 = \frac{2 G M}{r} \quad \Rightarrow \quad v_{\text{esc}} = \sqrt{\frac{2 G M}{r}}
+$$</p>
+<p><strong>Derivation</strong>: <strong>Escape Velocity from Earth</strong><br />
+Using $M_E = 5.972 \times 10^{24} , \text{kg}$, $R_E = 6.371 \times 10^6 , m$, $G = 6.67 \times 10^{-11}$:<br />
+$$
+v_{\text{esc}} = \sqrt{\frac{2 (6.67 \times 10^{-11}) (5.972 \times 10^{24})}{6.371 \times 10^6}} = \sqrt{\frac{7.966 \times 10^{14}}{6.371 \times 10^6}} \approx \sqrt{1.250 \times 10^8} \approx 11180 , \text{m/s} \approx 11.2 , \text{km/s}
+$$</p>
+<p><strong>Derivation</strong>: <strong>Minimum Energy for Escape</strong><br />
+Total energy at escape: $E = 0$. Initial energy: $E = \frac{1}{2} m v_{\text{esc}}^2 - \frac{G M m}{r}$. Set $E = 0$ to find $v_{\text{esc}}$ (as above). Minimum energy required: $\Delta E = 0 - \left(-\frac{G M m}{r}\right) = \frac{G M m}{r}$, the energy to reach infinity.</p>
+<p><strong>Derivation</strong>: <strong>Orbital Height for a Given Escape Velocity</strong><br />
+For $v_{\text{esc}} = \sqrt{\frac{2 G M}{r}}$, solve for $r$: $r = \frac{2 G M}{v_{\text{esc}}^2}$. If a rocket needs $v_{\text{esc}} = 15 , \text{km/s}$ from a planet: $r = \frac{2 (6.67 \times 10^{-11}) (M)}{(15 \times 10^3)^2}$.</p>
+<p><strong>Solved Example</strong>: A JEE Main problem involves calculating Earth’s escape velocity ($M_E = 5.972 \times 10^{24} , \text{kg}$, $R_E = 6371 , \text{km}$, $G = 6.67 \times 10^{-11} , \text{N} \cdot \text{m}^2/\text{kg}^2$).</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$v_{\text{esc}} = \sqrt{\frac{2 G M_E}{R_E}} \approx 11180 , \text{m/s} = 11.2 , \text{km/s}$ (from derivation).
+<ul>
+<li><strong>JEE Tip</strong>: Escape velocity is independent of the object’s mass; compare to Earth’s known value (~11.2 km/s). Common error: Using $R_E$ in km without converting to meters.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A NEET problem involves a rocket escaping from a planet with $M = 3 \times 10^{23} , \text{kg}$, $R = 2 \times 10^6 , m$ ($G = 6.67 \times 10^{-11} , \text{N} \cdot \text{m}^2/\text{kg}^2$). Find the escape velocity.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$v_{\text{esc}} = \sqrt{\frac{2 (6.67 \times 10^{-11}) (3 \times 10^{23})}{2 \times 10^6}} = \sqrt{2 \times 10^7} \approx 4472 , \text{m/s} \approx 4.47 , \text{km/s}$.
+<ul>
+<li><strong>NEET Tip</strong>: Escape velocity scales with $M$ and $R$; smaller planets have lower $v_{\text{esc}}$. Common error: Forgetting the factor of 2 in the formula.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Advanced problem involves a satellite transitioning from an orbit at $300 , \text{km}$ to $600 , \text{km}$ above Earth. Find the energy change ($m = 2000 , \text{kg}$, $M_E = 5.972 \times 10^{24} , \text{kg}$, $R_E = 6371 , \text{km}$, $G = 6.67 \times 10^{-11}$).</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$r_1 = 6671 \times 10^6 , m$, $r_2 = 6971 \times 10^6 , m$. $E_1 = -\frac{G M_E m}{2 r_1} \approx -5.97 \times 10^{10} , \text{J}$, $E_2 \approx -5.71 \times 10^{10} , \text{J}$, $\Delta E = E_2 - E_1 \approx 2.6 \times 10^9 , \text{J}$.
+<ul>
+<li><strong>JEE Tip</strong>: Energy increases (less negative) as $r$ increases; calculate for each orbit separately. Common error: Forgetting the factor of 2 in orbital energy.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Main problem involves the escape velocity from the Moon ($M_{\text{Moon}} = 7.342 \times 10^{22} , \text{kg}$, $R_{\text{Moon}} = 1738 , \text{km}$, $G = 6.67 \times 10^{-11}$).</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$v_{\text{esc}} = \sqrt{\frac{2 (6.67 \times 10^{-11}) (7.342 \times 10^{22})}{1.738 \times 10^6}} \approx 2370 , \text{m/s} \approx 2.37 , \text{km/s}$.
+<ul>
+<li><strong>JEE Tip</strong>: The Moon’s escape velocity is lower due to smaller $M$ and $R$; compare to Earth’s 11.2 km/s. Common error: Using incorrect units for $R$.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Application</strong>: Escape velocity is critical in rocketry (e.g., determining the speed a rocket needs to leave Earth, aligning with your interest, April 19, 2025), space exploration (e.g., lunar missions), and understanding planetary atmospheres (e.g., gas retention).</p>
+<h2 id="summary-and-quick-revision">Summary and Quick Revision</h2>
+<ul>
+<li><strong>Newton’s Law</strong>: $F = G \frac{m_1 m_2}{r^2}$ ($G \approx 6.674 \times 10^{-11}$). Attractive, inverse-square. For spheres, acts as if mass is at the center.</li>
+<li><strong>Gravitational Field and Potential</strong>: Field: $g = \frac{G M}{r^2}$ ($\text{m/s}^2$). Potential: $V = -\frac{G M}{r}$ ($\text{J/kg}$). Potential energy: $U = -\frac{G M m}{r}$ ($\text{J}$).</li>
+<li><strong>Kepler’s Laws and Orbits</strong>: 1st: Elliptical orbits. 2nd: Equal areas in equal times. 3rd: $T^2 \propto r^3$, $T^2 = \frac{4 \pi^2 r^3}{G M}$. Orbital velocity: $v = \sqrt{\frac{G M}{r}}$. Energy: $E = -\frac{G M m}{2 r}$ (circular).</li>
+<li><strong>Escape Velocity</strong>: $v_{\text{esc}} = \sqrt{\frac{2 G M}{r}}$. Earth: ~11.2 km/s. Energy to escape: $\frac{G M m}{r}$.</li>
+<li><strong>Applications</strong>: Satellite orbits, rocketry (orbital insertion, escape), planetary motion.</li>
+<li><strong>JEE/NEET Tips</strong>: Use $r$ from the center of mass, convert units to SI, apply Kepler’s third law for orbits around the same body, use energy conservation for escape problems, verify significant figures (April 14, 2025), distinguish field (force/mass) from potential (energy/mass).</li>
+<li><strong>SI Units</strong>: Force ($N$), field ($\text{m/s}^2$), potential ($\text{J/kg}$), energy ($\text{J}$), velocity ($\text{m/s}$).</li>
+</ul>
+<h2 id="practice-problems">Practice Problems</h2>
+<p>Explore our problem set with <strong>100 problems</strong> inspired by JEE Main, JEE Advanced, and NEET patterns to test your understanding.</p>
+<p><a href="https://vidyamarg.com/books/physics/v1/gravitation/./problems">View Problems</a></p>
+<h2 id="watch-on-youtube">Watch on YouTube</h2>
+<p>Our Hinglish video lessons make gravitation engaging! Subscribe for updates.</p>
+<p><a href="https://www.youtube.com/@VidyaMargbyRaviShankar-w9u">Watch Now</a></p>
+<p><em>Animation for visualizing orbits, fields, and escape trajectories coming soon!</em></p>
+<p><em>Note: Content regularly updated to align with current JEE/NEET syllabi.</em></p>
+
+        </article>
+    </div>
+
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container text-center py-5">
+            <ul class="social-list list-unstyled pt-4 mb-0">
+                
+                    <li class="list-inline-item">
+                        <a href="https:&#x2F;&#x2F;www.youtube.com&#x2F;@VidyaMargbyRaviShankar-w9u" target="_blank" title="YouTube"><i class="fab fa-youtube fa-fw"></i></a>
+                    </li>
+                
+                    <li class="list-inline-item">
+                        <a href="https:&#x2F;&#x2F;t.me&#x2F;vidyamarg1" target="_blank" title="Telegram"><i class="fab fa-telegram fa-fw"></i></a>
+                    </li>
+                
+            </ul>
+            <small class="copyright">
+                © 2025 Vidya Marg. Designed with <span class="sr-only">love</span><i class="fas fa-heart" style="color: #fb866a;"></i> by <a class="theme-link" href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers. <a class="theme-link" href="/app/privacy-policy/">Privacy Policy</a>
+            </small>
+        </div>
+    </footer>
+
+    <!-- Javascript -->          
+    <script src="https://vidyamarg.com/plugins/popper.min.js"></script>
+    <script src="https://vidyamarg.com/plugins/bootstrap/js/bootstrap.min.js"></script>  
+    
+    <!-- Page Specific JS -->
+    <script src="https://vidyamarg.com/plugins/smoothscroll.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
+    <script src="https://vidyamarg.com/js/highlight-custom.js"></script> 
+    <script src="https://vidyamarg.com/plugins/simplelightbox/simple-lightbox.min.js"></script>      
+    <script src="https://vidyamarg.com/plugins/gumshoe/gumshoe.polyfills.min.js"></script> 
+    <script src="https://vidyamarg.com/js/docs.js"></script> 
+
+    <script>
+        function renderLatex() {
+            if (typeof renderMathInElement === "undefined") {
+                setTimeout(renderLatex, 100);
+                return;
+            }
+            renderMathInElement(document.body, {
+                delimiters: [
+                    { left: "$$", right: "$$", display: true },
+                    { left: "$", right: "$", display: false },
+                    { left: "\\(", right: "\\)", display: false },
+                    { left: "\\[", right: "\\]", display: true }
+                ],
+                throwOnError: false
+            });
+        }
+
+        window.addEventListener("load", function() {
+            renderLatex();
+        });
+    </script>
+</body>
+</html>

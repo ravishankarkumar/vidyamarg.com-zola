@@ -1,7 +1,7 @@
 ---
 title: Physics Book - Equilibrium and Elasticity Solutions for JEE & NEET
 description: Sample solutions for equilibrium and elasticity problems, covering static and dynamic equilibrium, center of gravity, stress, strain, elastic moduli, and beam applications, tailored for JEE and NEET preparation.
-slug: books/physics/equilibrium-elasticity/solutions
+slug: solutions
 keywords: physics equilibrium elasticity solutions, JEE physics equilibrium solutions, NEET physics stress strain solutions, elastic moduli
 og:image: https://vidyamarg.com/og-physics-equilibrium-elasticity.jpg
 ---
@@ -174,6 +174,6 @@ The answer is (b) $1.27 \, \text{mm}$.
 - **JEE/NEET Tip**: Double-check area calculations ($A = \pi r^2$); small errors in $r$ amplify due to squaring. Common error: Using diameter instead of radius in the area formula.
 
 ## Back to Chapter
-[Return to Equilibrium and Elasticity Chapter](./index.md)
+[Return to Equilibrium and Elasticity Chapter](../../equilibrium-elasticity)
 
-[Return to Equilibrium and Elasticity Problems](./problems.md)
+[Return to Equilibrium and Elasticity Problems](../../equilibrium-elasticity/problems)

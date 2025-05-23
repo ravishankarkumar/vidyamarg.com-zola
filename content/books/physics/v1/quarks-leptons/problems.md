@@ -1,7 +1,7 @@
 ---
 title: Physics Book - Quarks, Leptons, and the Big Bang Problems for JEE & NEET
 description: Practice 100 problems on particle physics and cosmology for JEE and NEET, inspired by exam patterns, covering quarks, leptons, the Standard Model, and the Big Bang.
-slug: books/physics/quarks-leptons/problems
+slug: problems
 keywords: physics quarks leptons problems, JEE physics standard model problems, NEET physics big bang problems, particle physics cosmology
 og:image: https://vidyamarg.com/og-physics-quarks-leptons.jpg
 ---
@@ -569,4 +569,4 @@ This section provides **100 problems** to test your understanding of particle ph
     - (d) -1.02
 
 ## Back to Chapter
-[Return to Quarks, Leptons, and the Big Bang Chapter](./index.md)
+[Return to Quarks, Leptons, and the Big Bang Chapter](../../quarks-leptons)

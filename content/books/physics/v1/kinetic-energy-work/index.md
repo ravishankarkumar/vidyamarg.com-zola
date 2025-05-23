@@ -1,14 +1,26 @@
 ---
 title: Physics Book - Kinetic Energy and Work for JEE & NEET
 description: Comprehensive guide to kinetic energy and work for JEE and NEET, covering work, kinetic energy, work-energy theorem, variable forces, and power, with extensive examples.
-slug: books/physics/kinetic-energy-work
+slug: kinetic-energy-work
 keywords: physics kinetic energy work, JEE physics work-energy theorem, NEET physics power, variable forces
 og:image: https://vidyamarg.com/og-physics-kinetic-energy-work.jpg
 ---
 
 # Chapter 7: Kinetic Energy and Work
 
-**Beta Version**: Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!
+
+
+<div class="callout-block callout-warning">
+    <div class="content">
+        <h4 class="callout-title">
+            <span class="callout-icon-holder me-1">
+                <i class="fas fa-exclamation-triangle"></i>
+            </span>
+            Beta Version
+        </h4>
+        <p>Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!</p>
+    </div>
+</div>
 
 Kinetic energy and work are fundamental concepts in physics, bridging the dynamics of Chapters 5 and 6 to the broader framework of energy. Work quantifies the transfer of energy due to a force, while kinetic energy represents the energy of motion. Together, they form the basis of the work-energy theorem, a powerful tool for solving problems without directly using Newton’s laws. For JEE Main, JEE Advanced, and NEET students, mastering these concepts is essential, as they appear in questions involving forces on inclines, spring systems, and power calculations in mechanical systems. This chapter covers **the definition of work**, **kinetic energy and the work-energy theorem**, **work done by variable forces**, and **power**, providing detailed explanations, derivations, numerous solved examples, and exam-focused strategies to ensure conceptual clarity and problem-solving proficiency.
 
@@ -274,7 +286,7 @@ A block moves at constant speed $v$ under force $F$, with friction $f_k$. Net fo
 ## Practice Problems
 Explore our extensive problem set with **100 problems** inspired by JEE Main, JEE Advanced, and NEET patterns to test your understanding of kinetic energy and work.
 
-[View Problems](./problems.md)
+[View Problems](./problems)
 
 ## Watch on YouTube
 Our Hinglish video lessons make kinetic energy and work engaging for JEE and NEET! Subscribe for updates.

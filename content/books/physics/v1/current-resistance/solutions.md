@@ -1,7 +1,7 @@
 ---
 title: Physics Book - Current and Resistance Solutions for JEE & NEET
 description: Sample solutions for problems on current and resistance, covering electric current, Ohm's law, resistivity, temperature effects, and electrical power in circuits, tailored for JEE and NEET preparation.
-slug: books/physics/current-resistance/solutions
+slug: solutions
 keywords: physics current resistance solutions, JEE physics Ohm's law solutions, NEET physics electrical power solutions, circuits
 og:image: https://vidyamarg.com/og-physics-current-resistance.jpg
 ---
@@ -163,6 +163,6 @@ The answer is (b) $10.90 \, \Omega$.
 - **JEE/NEET Tip**: Temperature difference can be in °C or K (same for $\Delta T$); resistance increases with temperature in metals. Common error: Forgetting to multiply by $R_0$, or incorrect $\Delta T$.
 
 ## Back to Chapter
-[Return to Current and Resistance Chapter](./index.md)
+[Return to Current and Resistance Chapter](../../current-resistance)
 
-[Return to Current and Resistance Problems](./problems.md)
+[Return to Current and Resistance Problems](../../current-resistance/problems)

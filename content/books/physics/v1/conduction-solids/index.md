@@ -1,14 +1,26 @@
 ---
 title: Physics Book - Conduction of Electricity in Solids for JEE & NEET
 description: Comprehensive guide on conduction in solids for JEE and NEET, covering band theory, conductors, semiconductors, insulators, and applications like diodes and transistors, with extensive examples.
-slug: books/physics/conduction-solids
+slug: conduction-solids
 keywords: physics conduction solids, JEE physics band theory, NEET physics semiconductors, diodes and transistors
 og:image: https://vidyamarg.com/og-physics-conduction-solids.jpg
 ---
 
 # Chapter 41: Conduction of Electricity in Solids
 
-**Beta Version**: Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!
+
+
+<div class="callout-block callout-warning">
+    <div class="content">
+        <h4 class="callout-title">
+            <span class="callout-icon-holder me-1">
+                <i class="fas fa-exclamation-triangle"></i>
+            </span>
+            Beta Version
+        </h4>
+        <p>Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!</p>
+    </div>
+</div>
 
 Conduction of electricity in solids, essential for spacecraft electronics like semiconductor devices, underpins modern technology. Building on atomic physics (Chapter 40) and matter waves (Chapters 38–39), this chapter explores how solids conduct electricity. For JEE Main, JEE Advanced, and NEET students, mastering this topic is crucial, as it frequently appears in problems involving band theory, semiconductors, and device applications. This chapter, **Conduction of Electricity in Solids**, covers **band theory of solids**, **conductors, semiconductors, and insulators**, **semiconductor physics and doping**, and **applications: diodes and transistors**, providing detailed explanations, derivations, solved examples, and practical applications to ensure conceptual clarity and problem-solving proficiency.
 
@@ -229,7 +241,7 @@ A spacecraft control system uses an npn transistor with $\beta = 100$, $I_B = 10
 ## Practice Problems
 Explore our problem set with **100 problems** inspired by JEE Main, JEE Advanced, and NEET patterns to test your understanding.
 
-[View Problems](./problems.md)
+[View Problems](./problems)
 
 ## Watch on YouTube
 Our Hinglish video lessons make solid-state physics engaging! Subscribe for updates.

@@ -1,7 +1,7 @@
 ---
 title: Physics Book - More About Matter Waves Problems for JEE & NEET
 description: Practice 100 problems on advanced matter waves for JEE and NEET, inspired by exam patterns, covering wave functions, particle in a box, quantum tunneling, and uncertainty principle.
-slug: books/physics/matter-waves-advanced/problems
+slug: problems
 keywords: physics matter waves advanced problems, JEE physics wave function problems, NEET physics quantum tunneling problems, uncertainty principle
 og:image: https://vidyamarg.com/og-physics-matter-waves-advanced.jpg
 ---
@@ -569,4 +569,4 @@ This section provides **100 problems** to test your understanding of advanced ma
     - (d) 1.4 eV
 
 ## Back to Chapter
-[Return to More About Matter Waves Chapter](./index.md)
+[Return to More About Matter Waves Chapter](../../matter-waves-advanced)

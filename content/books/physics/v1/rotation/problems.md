@@ -1,7 +1,7 @@
 ---
 title: Physics Book - Rotation Problems for JEE & NEET
 description: Practice 100 rotational motion problems for JEE and NEET, inspired by exam patterns, covering kinematics, dynamics, rotational energy, angular momentum, rolling motion, and gyroscopic effects.
-slug: books/physics/rotation/problems
+slug: problems
 keywords: physics rotation problems, JEE physics rotational motion problems, NEET physics angular momentum problems, rolling motion
 og:image: https://vidyamarg.com/og-physics-rotation.jpg
 ---
@@ -569,4 +569,4 @@ This section provides **100 problems** to test your understanding of rotational 
     - (d) $18 \, J$
 
 ## Back to Chapter
-[Return to Rotation Chapter](./index.md)
+[Return to Rotation Chapter](../../rotation)

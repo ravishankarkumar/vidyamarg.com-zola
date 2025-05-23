@@ -1,7 +1,7 @@
 ---
 title: Physics Book - Gauss’s Law Problems for JEE & NEET
 description: Practice 100 electrostatics problems for JEE and NEET, inspired by exam patterns, covering electric flux, Gauss’s law applications, field calculations for symmetric charge distributions, and conductors.
-slug: books/physics/gauss-law/problems
+slug: problems
 keywords: physics Gauss’s law problems, JEE physics electric flux problems, NEET physics field calculations problems, electrostatics
 og:image: https://vidyamarg.com/og-physics-gauss-law.jpg
 ---
@@ -569,4 +569,4 @@ This section provides **100 problems** to test your understanding of Gauss’s l
     - (d) $3.79 \times 10^5 \, \text{N/C}$
 
 ## Back to Chapter
-[Return to Gauss’s Law Chapter](./index.md)
+[Return to Gauss’s Law Chapter](../../gauss-law)

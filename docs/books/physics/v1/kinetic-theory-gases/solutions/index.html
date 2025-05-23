@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <title>Vidya Marg | Physics Book - The Kinetic Theory of Gases Solutions for JEE &amp; NEET</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sample solutions for kinetic theory problems, covering ideal gas law, molecular motion, Maxwell-Boltzmann distribution, degrees of freedom, and specific heats, tailored for JEE and NEET preparation.">
+    <meta name="keywords" content="JEE physics book, NEET physics book, physics book, physics for JEE and NEET">
+    <meta property="og:image" content="https://vidyamarg.com/og-physics-book.jpg">
+    <link rel="canonical" href="https:&#x2F;&#x2F;vidyamarg.com&#x2F;books&#x2F;physics&#x2F;v1&#x2F;kinetic-theory-gases&#x2F;solutions&#x2F;">
+    <link rel="shortcut icon" href="https://vidyamarg.com/logos/maroon-bg-logo-128.ico">
+    
+    <!-- Preload Google Font -->
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" as="style">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript>
+        <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
+    </noscript>
+    
+    <!-- FontAwesome JS -->
+    <script defer src="https://vidyamarg.com/fontawesome/js/all.min.js"></script>
+
+    <!-- KaTeX for LaTeX rendering -->
+    <link rel="stylesheet" href="https://vidyamarg.com/katex/katex.min.css">
+    <script src="https://vidyamarg.com/katex/katex.min.js"></script>
+    <script src="https://vidyamarg.com/katex/auto-render.min.js"></script>
+
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.2/styles/atom-one-dark.min.css">
+    <link rel="stylesheet" href="https://vidyamarg.com/plugins/simplelightbox/simple-lightbox.min.css">
+
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="https://vidyamarg.com/css/theme.css">
+    <link rel="stylesheet" href="https://vidyamarg.com/css/custom.css" />
+</head> 
+
+<body>    
+    <header class="header fixed-top">
+        <div class="branding docs-branding">
+            <div class="container-fluid position-relative py-2">
+                <div class="docs-logo-wrapper">
+                    
+                    
+                    
+                    <button id="docs-sidebar-toggler" class="docs-sidebar-toggler docs-sidebar-visible me-2 d-xl-none" type="button">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    
+                    <div class="site-logo">
+                        <a class="navbar-brand" href="https://vidyamarg.com">
+                            <img class="logo-icon me-2" src="https://vidyamarg.com/logos/maroon-bg-logo-1024.png" alt="logo">
+                            <span class="logo-text">Vidya Marg</span>
+                        </a>
+                    </div>    
+                </div>
+                <div class="docs-top-utilities d-flex justify-content-end align-items-center">
+                    <ul class="nav-list list-inline mb-0 d-none d-lg-flex">
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;">Home</a>
+                            </li>
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics (Youtube series)</a>
+                            </li>
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;">Books</a>
+                            </li>
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;app&#x2F;">App</a>
+                            </li>
+                        
+                        
+                            
+                                <li class="list-inline-item">
+                                    <a href="https:&#x2F;&#x2F;www.youtube.com&#x2F;@VidyaMargbyRaviShankar-w9u" title="YouTube"><i class="fab fa-youtube fa-fw"></i></a>
+                                </li>
+                            
+                                <li class="list-inline-item">
+                                    <a href="https:&#x2F;&#x2F;t.me&#x2F;vidyamarg1" title="Telegram"><i class="fab fa-telegram fa-fw"></i></a>
+                                </li>
+                            
+                        
+                    </ul>
+                    <!-- Mobile Menu Button -->
+                    <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#mobileNav" aria-controls="mobileNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </div>
+            <!-- Mobile Menu -->
+            <div class="collapse navbar-collapse d-lg-none" id="mobileNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;">Home</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics (Youtube series)</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;books&#x2F;">Books</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;app&#x2F;">App</a>
+                        </li>
+                    
+                    
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="https:&#x2F;&#x2F;www.youtube.com&#x2F;@VidyaMargbyRaviShankar-w9u"><i class="fab fa-youtube fa-fw"></i> YouTube</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="https:&#x2F;&#x2F;t.me&#x2F;vidyamarg1"><i class="fab fa-telegram fa-fw"></i> Telegram</a>
+                            </li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="docs-wrapper">
+        
+        
+        
+        <div id="docs-sidebar" class="docs-sidebar">
+            <nav id="docs-nav" class="docs-nav navbar">
+                
+                    
+                        
+
+<ul class="nav flex-column">
+    <!-- Navigation Menu (visible only in mobile view) -->
+    <li class="nav-item d-lg-none">
+        <span class="nav-link">Navigation</span>
+        <ul class="nav flex-column">
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;">Home</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics (Youtube series)</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;books&#x2F;">Books</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;app&#x2F;">App</a>
+                </li>
+            
+        </ul>
+    </li>
+
+    <!-- JEE/NEET Physics Section -->
+    
+    <li class="nav-item">
+        <span class="nav-link">Physics for JEE&#x2F;NEET</span>
+        <ul class="nav flex-column">
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics for JEE&#x2F;NEET</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;maths-basics-for-physics&#x2F;">Maths Basics for Physics</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;units-and-dimensions&#x2F;">Units and Dimensions</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;physical-quantities-and-si-units&#x2F;">Physical Quantities and SI Units</a>
+                </li>
+            
+        </ul>
+    </li>
+
+    <!-- Books Section -->
+    
+    <li class="nav-item">
+        <span class="nav-link">Books</span>
+        <ul class="nav flex-column">
+            <!-- JEE/NEET Physics Book (Version 1) -->
+            
+            <li class="nav-item">
+                <a class="nav-link" href="/books/physics/v1/">Physics Book</a>
+                
+                    <ul class="nav flex-column">
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;measurement&#x2F;">Measurement</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;motion-straight-line&#x2F;">Motion Along a Straight Line</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;vectors&#x2F;">Vectors</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;motion-2d-3d&#x2F;">Motion in Two and Three Dimensions</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;force-motion-1&#x2F;">Force and Motion—I</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;force-motion-2&#x2F;">Force and Motion—II</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;kinetic-energy-work&#x2F;">Kinetic Energy and Work</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;potential-energy-conservation&#x2F;">Potential Energy and Conservation of Energy</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;center-mass-momentum&#x2F;">Center of Mass and Linear Momentum</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;rotation&#x2F;">Rotation</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;rolling-torque-angular-momentum&#x2F;">Rolling, Torque, and Angular Momentum</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;equilibrium-elasticity&#x2F;">Equilibrium and Elasticity</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;gravitation&#x2F;">Gravitation</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;fluids&#x2F;">Fluids</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;oscillations&#x2F;">Oscillations</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;waves-1&#x2F;">Waves—I</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;waves-2&#x2F;">Waves—II</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;kinetic-theory-gases&#x2F;">The Kinetic Theory of Gases</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;thermodynamics-temperature-heat&#x2F;">Temperature, Heat, and the First Law of Thermodynamics</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;entropy-thermodynamics&#x2F;">Entropy and the Second Law of Thermodynamics</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electric-fields&#x2F;">Electric Fields</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;gauss-law&#x2F;">Gauss’s Law</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electric-potential&#x2F;">Electric Potential</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;capacitance&#x2F;">Capacitance</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;current-resistance&#x2F;">Current and Resistance</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;circuits&#x2F;">Circuits</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;magnetic-fields&#x2F;">Magnetic Fields</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;magnetic-fields-currents&#x2F;">Magnetic Fields Due to Currents</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;induction-inductance&#x2F;">Induction and Inductance</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electromagnetic-oscillations-ac&#x2F;">Electromagnetic Oscillations and Alternating Current</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electromagnetic-waves&#x2F;">Electromagnetic Waves</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;images&#x2F;">Images</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;interference&#x2F;">Interference</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;diffraction&#x2F;">Diffraction</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;photons-matter-waves&#x2F;">Photons and Matter Waves</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;matter-waves-advanced&#x2F;">More About Matter Waves</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;atoms&#x2F;">All About Atoms</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;nuclear-physics&#x2F;">Nuclear Physics</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;nuclear-energy&#x2F;">Energy from the Nucleus</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;quarks-leptons&#x2F;">Quarks, Leptons, and the Big Bang</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;relativity&#x2F;">Relativity</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;conduction-solids&#x2F;">Conduction of Electricity in Solids</a>
+                            </li>
+                        
+                    </ul>
+                
+            </li>
+        </ul>
+    </li>
+</ul>
+                    
+                
+            </nav>
+        </div>
+        
+
+        <div class="docs-content">
+            
+    <div class="docs-main">
+        <article class="docs-article">
+            <h1 id="the-kinetic-theory-of-gases-solutions">The Kinetic Theory of Gases Solutions</h1>
+<p>This section provides <strong>sample solutions</strong> for selected problems from the Kinetic Theory of Gases chapter, focusing on the ideal gas model, molecular motion, pressure, temperature, Maxwell-Boltzmann distribution, degrees of freedom, and specific heats. These solutions are designed to help JEE Main, JEE Advanced, and NEET students understand key concepts and problem-solving techniques. Each solution includes detailed steps, exam-focused tips to avoid common mistakes, and alignment with JEE/NEET exam patterns. Full solutions for all 100 problems will be available in June 2025.</p>
+<h2 id="numerical-solutions">Numerical Solutions</h2>
+<h3 id="solution-1">Solution 1</h3>
+<p><strong>Problem</strong>: Calculate the number of molecules in 0.5 moles of gas ($N_A = 6.022 \times 10^{23} , \text{mol}^{-1}$).</p>
+<ul>
+<li>(a) $3.010 \times 10^{23}$</li>
+<li>(b) $3.011 \times 10^{23}$</li>
+<li>(c) $3.012 \times 10^{23}$</li>
+<li>(d) $3.013 \times 10^{23}$</li>
+</ul>
+<p><strong>Solution</strong>:<br />
+The number of molecules in a gas sample is given by $N = n N_A$, where $n$ is the number of moles and $N_A$ is Avogadro’s number, the number of molecules per mole. Given $n = 0.5 , \text{moles}$ and $N_A = 6.022 \times 10^{23} , \text{mol}^{-1}$:<br />
+$$
+N = n N_A = 0.5 \times 6.022 \times 10^{23}
+$$
+Compute: $0.5 \times 6.022 = 3.011$, so $N = 3.011 \times 10^{23}$.<br />
+The answer is (b) $3.011 \times 10^{23}$.</p>
+<ul>
+<li><strong>JEE/NEET Tip</strong>: Avogadro’s number is a constant ($6.022 \times 10^{23}$); multiply by the number of moles to find total molecules. Common error: Forgetting to multiply by $n$, resulting in just $N_A$.</li>
+</ul>
+<h3 id="solution-5">Solution 5</h3>
+<p><strong>Problem</strong>: Calculate $v_{\text{rms}}$ for nitrogen ($M = 0.028 , \text{kg/mol}$) at $T = 400 , \text{K}$ ($R = 8.314 , \text{J/mol·K}$).</p>
+<ul>
+<li>(a) $595 , \text{m/s}$</li>
+<li>(b) $596 , \text{m/s}$</li>
+<li>(c) $597 , \text{m/s}$</li>
+<li>(d) $598 , \text{m/s}$</li>
+</ul>
+<p><strong>Solution</strong>:<br />
+The root mean square speed $v_{\text{rms}}$ of gas molecules is derived from kinetic theory as $v_{\text{rms}} = \sqrt{\frac{3 R T}{M}}$, where $R$ is the gas constant, $T$ is the absolute temperature, and $M$ is the molar mass. Given $M = 0.028 , \text{kg/mol}$ (nitrogen, N₂), $T = 400 , \text{K}$, and $R = 8.314 , \text{J/mol·K}$:<br />
+$$
+v_{\text{rms}} = \sqrt{\frac{3 \times 8.314 \times 400}{0.028}}
+$$
+First, compute the numerator: $3 \times 8.314 \times 400 = 9976.8$. Divide by $M$: $\frac{9976.8}{0.028} \approx 356314.29$. Take the square root:<br />
+$$
+v_{\text{rms}} = \sqrt{356314.29} \approx 596.92 , \text{m/s}
+$$
+Round to the nearest whole number (April 14, 2025): $v_{\text{rms}} \approx 597 , \text{m/s}$.<br />
+The answer is (c) $597 , \text{m/s}$.</p>
+<ul>
+<li><strong>JEE/NEET Tip</strong>: Use SI units: $R$ in J/mol·K, $M$ in kg/mol, $T$ in K; $v_{\text{rms}}$ increases with temperature, decreases with molar mass. Common error: Using molecular mass $m$ instead of molar mass $M$, leading to incorrect units.</li>
+</ul>
+<hr />
+<h2 id="conceptual-solutions">Conceptual Solutions</h2>
+<h3 id="solution-36">Solution 36</h3>
+<p><strong>Problem</strong>: What does the ideal gas model assume about intermolecular forces?</p>
+<ul>
+<li>(a) Strong attractive forces</li>
+<li>(b) No forces except during collisions</li>
+<li>(c) Repulsive forces only</li>
+<li>(d) Constant forces</li>
+</ul>
+<p><strong>Solution</strong>:<br />
+The ideal gas model makes simplifying assumptions to describe gas behavior. One key assumption is about intermolecular forces: in an ideal gas, molecules are treated as point masses with no intermolecular forces acting between them except during collisions, which are assumed to be perfectly elastic (no energy loss). This means there are no attractive or repulsive forces between molecules as they move, allowing them to travel in straight lines between collisions. Real gases deviate from this model due to intermolecular forces, but the ideal gas assumption simplifies calculations and holds well at low pressures and high temperatures.</p>
+<ul>
+<li>(a) Incorrect: Strong attractive forces would lead to deviations from ideal behavior, as in real gases.</li>
+<li>(b) Correct: The ideal gas model assumes no forces except during elastic collisions.</li>
+<li>(c) Incorrect: Repulsive forces would also cause deviations; the ideal gas assumes no forces between molecules.</li>
+<li>(d) Incorrect: Constant forces imply continuous interaction, which contradicts the ideal gas model.<br />
+The answer is (b) No forces except during collisions.</li>
+<li><strong>JEE/NEET Tip</strong>: The ideal gas model assumes negligible intermolecular forces, making $P V = n R T$ valid; real gas behavior (e.g., van der Waals) includes forces. Common error: Assuming ideal gases have no collisions—collisions are present but elastic.</li>
+</ul>
+<h3 id="solution-38">Solution 38</h3>
+<p><strong>Problem</strong>: What does the Maxwell-Boltzmann distribution describe?</p>
+<ul>
+<li>(a) Pressure of a gas</li>
+<li>(b) Distribution of molecular speeds</li>
+<li>(c) Internal energy of a gas</li>
+<li>(d) Volume of a gas</li>
+</ul>
+<p><strong>Solution</strong>:<br />
+The Maxwell-Boltzmann distribution describes the statistical distribution of speeds of molecules in an ideal gas at a given temperature. It provides the probability density of finding a molecule with a speed between $v$ and $v + dv$, given by $f(v) dv = 4 \pi \left( \frac{m}{2 \pi k T} \right)^{3/2} v^2 e^{-\frac{m v^2}{2 k T}} dv$. This distribution arises from the random motion of molecules and depends on temperature $T$ and molecular mass $m$. It is used to calculate characteristic speeds like the most probable speed ($v_{\text{mp}}$), average speed ($v_{\text{avg}}$), and root mean square speed ($v_{\text{rms}}$). It does not directly describe pressure, internal energy, or volume, though these can be derived from molecular speeds.</p>
+<ul>
+<li>(a) Incorrect: Pressure is related to molecular speeds but is not the distribution itself.</li>
+<li>(b) Correct: The Maxwell-Boltzmann distribution describes the distribution of molecular speeds.</li>
+<li>(c) Incorrect: Internal energy is related to average kinetic energy, not the distribution of speeds.</li>
+<li>(d) Incorrect: Volume is a macroscopic property, not described by the speed distribution.<br />
+The answer is (b) Distribution of molecular speeds.</li>
+<li><strong>JEE/NEET Tip</strong>: The Maxwell-Boltzmann distribution is key for speed-related problems; it’s a probability density, not a direct measure of other properties. Common error: Confusing the distribution with energy or pressure directly.</li>
+</ul>
+<hr />
+<h2 id="derivation-solutions">Derivation Solutions</h2>
+<h3 id="solution-51">Solution 51</h3>
+<p><strong>Problem</strong>: Derive the ideal gas law from the kinetic theory $P V = \frac{1}{3} N m v_{\text{rms}}^2$.</p>
+<p><strong>Solution</strong>:<br />
+The kinetic theory of gases derives the ideal gas law by considering the motion of molecules. Consider a cubic container with side length $L$, volume $V = L^3$, containing $N$ molecules of mass $m$, moving randomly. Assume the molecules obey Newton’s laws, with no intermolecular forces except during elastic collisions with the walls.</p>
+<p>Focus on molecules moving along the x-axis (one-third of the total, $\frac{N}{3}$, due to symmetry in 3D). A molecule with speed $v_x$ travels from $x = 0$ to $x = L$, collides with the wall at $x = L$, and rebounds with speed $-v_x$ (elastic collision). The round trip takes time $\frac{2L}{v_x}$, so it collides with the wall $\frac{v_x}{2L}$ times per second. Momentum change per collision: $m v_x - (-m v_x) = 2 m v_x$. Force exerted by one molecule: $F = \frac{\text{momentum change}}{\text{time}} = \frac{2 m v_x}{\frac{2L}{v_x}} = \frac{m v_x^2}{L}$. Total force from $\frac{N}{3}$ molecules: $F_{\text{total}} = \frac{N}{3} \frac{m v_x^2}{L}$. Pressure on the wall (area $A = L^2$):<br />
+$$
+P = \frac{F_{\text{total}}}{A} = \frac{\frac{N}{3} \frac{m v_x^2}{L}}{L^2} = \frac{N m v_x^2}{3 L^3} = \frac{N m v_x^2}{3 V}
+$$
+Since molecules move in all directions, use the mean square speed: $v^2 = v_x^2 + v_y^2 + v_z^2$, and $v_x^2 = v_y^2 = v_z^2$, so $v_x^2 = \frac{v^2}{3}$. Define $v_{\text{rms}} = \sqrt{v^2}$, so $v_x^2 = \frac{v_{\text{rms}}^2}{3}$. Substitute:<br />
+$$
+P = \frac{N m}{3 V} \left( \frac{v_{\text{rms}}^2}{3} \right) = \frac{N m v_{\text{rms}}^2}{3 V}
+$$
+Thus:<br />
+$$
+P V = \frac{1}{3} N m v_{\text{rms}}^2
+$$
+This matches the problem statement. To connect to the ideal gas law, equate to $P V = N k T$ (Section 19.2 derives $v_{\text{rms}}^2 = \frac{3 k T}{m}$), confirming the kinetic theory yields the ideal gas law.</p>
+<ul>
+<li><strong>JEE/NEET Tip</strong>: The factor $\frac{1}{3}$ arises from 3D symmetry; $v_{\text{rms}}$ is the root mean square speed. Common error: Forgetting to average over directions, omitting the $\frac{1}{3}$ factor.</li>
+</ul>
+<h3 id="solution-53">Solution 53</h3>
+<p><strong>Problem</strong>: Derive the Maxwell-Boltzmann speed distribution $f(v)$.</p>
+<p><strong>Solution</strong>:<br />
+The Maxwell-Boltzmann speed distribution describes the probability of finding a molecule with speed between $v$ and $v + dv$ in an ideal gas at temperature $T$. Consider $N$ molecules in thermal equilibrium, each with mass $m$. The velocity components $(v_x, v_y, v_z)$ of a molecule follow a Maxwell-Boltzmann distribution due to the Boltzmann factor, which gives the probability of a state proportional to $e^{-\frac{E}{k T}}$, where $E$ is the energy, $k$ is the Boltzmann constant, and $T$ is the temperature.</p>
+<p>The kinetic energy of a molecule is $E = \frac{1}{2} m (v_x^2 + v_y^2 + v_z^2)$. The probability density for velocity components is:<br />
+$$
+P(v_x, v_y, v_z) \propto e^{-\frac{m (v_x^2 + v_y^2 + v_z^2)}{2 k T}}
+$$
+Factorize: $P(v_x, v_y, v_z) = P(v_x) P(v_y) P(v_z)$, where $P(v_x) \propto e^{-\frac{m v_x^2}{2 k T}}$, and similarly for $v_y$, $v_z$. Each component follows a Gaussian distribution: $P(v_x) = \left( \frac{m}{2 \pi k T} \right)^{1/2} e^{-\frac{m v_x^2}{2 k T}}$ (normalized so $\int_{-\infty}^{\infty} P(v_x) dv_x = 1$). Thus:<br />
+$$
+P(v_x, v_y, v_z) = \left( \frac{m}{2 \pi k T} \right)^{3/2} e^{-\frac{m (v_x^2 + v_y^2 + v_z^2)}{2 k T}}
+$$
+Convert to speed $v = \sqrt{v_x^2 + v_y^2 + v_z^2}$. In velocity space, the number of molecules with velocities between $(v_x, v_y, v_z)$ and $(v_x + dv_x, v_y + dv_y, v_z + dv_z)$ is $P(v_x, v_y, v_z) dv_x dv_y dv_z$. Transform to spherical coordinates: the volume element for speeds between $v$ and $v + dv$ is a spherical shell, $4 \pi v^2 dv$. The speed distribution $f(v)$ is:<br />
+$$
+f(v) dv = 4 \pi v^2 P(v_x, v_y, v_z) dv = 4 \pi v^2 \left( \frac{m}{2 \pi k T} \right)^{3/2} e^{-\frac{m v^2}{2 k T}} dv
+$$
+This is the Maxwell-Boltzmann speed distribution, normalized such that $\int_0^\infty f(v) dv = 1$. It’s used to derive speeds like $v_{\text{mp}}$, $v_{\text{avg}}$, and $v_{\text{rms}}$ (e.g., in Problems 9, 10, 22, 23).</p>
+<ul>
+<li><strong>JEE/NEET Tip</strong>: The $v^2$ term comes from the spherical shell volume element; the exponential reflects the Boltzmann energy distribution. Common error: Forgetting the $4 \pi v^2$ factor when converting from velocity to speed.</li>
+</ul>
+<hr />
+<h2 id="neet-style-solutions">NEET-style Solutions</h2>
+<h3 id="solution-96">Solution 96</h3>
+<p><strong>Problem</strong>: Find the number of molecules in 0.1 moles of gas ($N_A = 6.022 \times 10^{23} , \text{mol}^{-1}$).</p>
+<ul>
+<li>(a) $6.021 \times 10^{22}$</li>
+<li>(b) $6.022 \times 10^{22}$</li>
+<li>(c) $6.023 \times 10^{22}$</li>
+<li>(d) $6.024 \times 10^{22}$</li>
+</ul>
+<p><strong>Solution</strong>:<br />
+The number of molecules is $N = n N_A$, where $n$ is the number of moles and $N_A$ is Avogadro’s number. Given $n = 0.1 , \text{moles}$ and $N_A = 6.022 \times 10^{23} , \text{mol}^{-1}$:<br />
+$$
+N = 0.1 \times 6.022 \times 10^{23} = 6.022 \times 10^{22}
+$$
+The answer is (b) $6.022 \times 10^{22}$.</p>
+<ul>
+<li><strong>JEE/NEET Tip</strong>: Avogadro’s number converts moles to molecules; the calculation is straightforward multiplication. Common error: Misinterpreting $n$ as the total number of molecules, leading to division instead.</li>
+</ul>
+<h3 id="solution-98">Solution 98</h3>
+<p><strong>Problem</strong>: Find the total kinetic energy of  Ascending Order 1 mole of a gas at $T = 300 , \text{K}$ ($R = 8.314 , \text{J/mol·K}$).</p>
+<ul>
+<li>(a) $3740 , \text{J}$</li>
+<li>(b) $3741 , \text{J}$</li>
+<li>(c) $3742 , \text{J}$</li>
+<li>(d) $3743 , \text{J}$</li>
+</ul>
+<p><strong>Solution</strong>:<br />
+For an ideal gas, the total kinetic energy of the molecules is equal to the internal energy $U$ for a monatomic gas (since there’s no potential energy). The internal energy is related to the number of degrees of freedom $f$. For a monatomic gas, $f = 3$ (translational degrees of freedom), and the internal energy is $U = \frac{f}{2} n R T$. Given $n = 1 , \text{mole}$, $T = 300 , \text{K}$, $R = 8.314 , \text{J/mol·K}$, and assuming a monatomic gas (as implied by the options matching $f = 3$):<br />
+$$
+U = \frac{3}{2} n R T = \frac{3}{2} \times 1 \times 8.314 \times 300
+$$
+Compute: $8.314 \times 300 = 2494.2$, $\frac{3}{2} \times 2494.2 = 3741.3 , \text{J}$. Round to the nearest whole number: $3741 , \text{J}$.<br />
+The answer is (b) $3741 , \text{J}$.</p>
+<ul>
+<li><strong>JEE/NEET Tip</strong>: For a monatomic gas, $U = \frac{3}{2} n R T$; ensure $T$ is in Kelvin, and round appropriately (April 14, 2025). Common error: Using $f = 5$ (diatomic), which would yield a higher $U$.</li>
+</ul>
+<h2 id="back-to-chapter">Back to Chapter</h2>
+<p><a href="../../kinetic-theory-gases">Return to The Kinetic Theory of Gases Chapter</a></p>
+<p><a href="../../kinetic-theory-gases/problems">Return to The Kinetic Theory of Gases Problems</a></p>
+
+        </article>
+    </div>
+
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container text-center py-5">
+            <ul class="social-list list-unstyled pt-4 mb-0">
+                
+                    <li class="list-inline-item">
+                        <a href="https:&#x2F;&#x2F;www.youtube.com&#x2F;@VidyaMargbyRaviShankar-w9u" target="_blank" title="YouTube"><i class="fab fa-youtube fa-fw"></i></a>
+                    </li>
+                
+                    <li class="list-inline-item">
+                        <a href="https:&#x2F;&#x2F;t.me&#x2F;vidyamarg1" target="_blank" title="Telegram"><i class="fab fa-telegram fa-fw"></i></a>
+                    </li>
+                
+            </ul>
+            <small class="copyright">
+                © 2025 Vidya Marg. Designed with <span class="sr-only">love</span><i class="fas fa-heart" style="color: #fb866a;"></i> by <a class="theme-link" href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers. <a class="theme-link" href="/app/privacy-policy/">Privacy Policy</a>
+            </small>
+        </div>
+    </footer>
+
+    <!-- Javascript -->          
+    <script src="https://vidyamarg.com/plugins/popper.min.js"></script>
+    <script src="https://vidyamarg.com/plugins/bootstrap/js/bootstrap.min.js"></script>  
+    
+    <!-- Page Specific JS -->
+    <script src="https://vidyamarg.com/plugins/smoothscroll.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
+    <script src="https://vidyamarg.com/js/highlight-custom.js"></script> 
+    <script src="https://vidyamarg.com/plugins/simplelightbox/simple-lightbox.min.js"></script>      
+    <script src="https://vidyamarg.com/plugins/gumshoe/gumshoe.polyfills.min.js"></script> 
+    <script src="https://vidyamarg.com/js/docs.js"></script> 
+
+    <script>
+        function renderLatex() {
+            if (typeof renderMathInElement === "undefined") {
+                setTimeout(renderLatex, 100);
+                return;
+            }
+            renderMathInElement(document.body, {
+                delimiters: [
+                    { left: "$$", right: "$$", display: true },
+                    { left: "$", right: "$", display: false },
+                    { left: "\\(", right: "\\)", display: false },
+                    { left: "\\[", right: "\\]", display: true }
+                ],
+                throwOnError: false
+            });
+        }
+
+        window.addEventListener("load", function() {
+            renderLatex();
+        });
+    </script>
+</body>
+</html>

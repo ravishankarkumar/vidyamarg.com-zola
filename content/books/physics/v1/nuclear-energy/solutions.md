@@ -1,7 +1,7 @@
 ---
 title: Physics Book - Energy from the Nucleus Solutions for JEE & NEET
 description: Sample solutions for nuclear energy problems, covering fission, fusion, nuclear reactors, applications like nuclear power, and challenges, tailored for JEE and NEET preparation.
-slug: books/physics/nuclear-energy/solutions
+slug: solutions
 keywords: physics nuclear energy solutions, JEE physics nuclear fission solutions, NEET physics nuclear reactors solutions, nuclear power applications
 og:image: https://vidyamarg.com/og-physics-nuclear-energy.jpg
 ---
@@ -170,6 +170,6 @@ Round to two decimal places for the coefficient: $3.13 \times 10^{19}$. The answ
 - **JEE/NEET Tip**: Fission rate scales with power; double-check unit conversions. Common error: Forgetting to convert MW to W or MeV to J.
 
 ## Back to Chapter
-[Return to Energy from the Nucleus Chapter](./index.md)
+[Return to Energy from the Nucleus Chapter](../../nuclear-energy)
 
-[Return to Energy from the Nucleus Problems](./problems.md)
+[Return to Energy from the Nucleus Problems](../../nuclear-energy/problems)

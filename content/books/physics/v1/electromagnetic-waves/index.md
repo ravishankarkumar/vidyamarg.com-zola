@@ -1,14 +1,26 @@
 ---
 title: Physics Book - Electromagnetic Waves for JEE & NEET
 description: Comprehensive guide on electromagnetic waves for JEE and NEET, covering wave generation, propagation, electromagnetic spectrum, and energy transport, with extensive examples.
-slug: books/physics/electromagnetic-waves
+slug: electromagnetic-waves
 keywords: physics electromagnetic waves, JEE physics wave propagation, NEET physics electromagnetic spectrum, electromagnetism
 og:image: https://vidyamarg.com/og-physics-electromagnetic-waves.jpg
 ---
 
 # Chapter 33: Electromagnetic Waves
 
-**Beta Version**: Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!
+
+
+<div class="callout-block callout-warning">
+    <div class="content">
+        <h4 class="callout-title">
+            <span class="callout-icon-holder me-1">
+                <i class="fas fa-exclamation-triangle"></i>
+            </span>
+            Beta Version
+        </h4>
+        <p>Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!</p>
+    </div>
+</div>
 
 Electromagnetic waves, such as radio waves used in spacecraft communication, are a direct consequence of Maxwell’s equations. Building on the concepts from Chapters 31–32, this chapter explores the nature and applications of electromagnetic waves. For JEE Main, JEE Advanced, and NEET students, mastering electromagnetic waves is essential, as they frequently appear in problems involving wave properties, energy transport, and the electromagnetic spectrum. This chapter, **Electromagnetic Waves**, covers **generation of electromagnetic waves**, **wave propagation and properties**, **electromagnetic spectrum**, and **energy transport and Poynting vector**, providing detailed explanations, derivations, solved examples, and practical applications to ensure conceptual clarity and problem-solving proficiency.
 
@@ -254,7 +266,7 @@ A spacecraft signal ($E_0 = 200 \, \text{V/m}$) has $I = \frac{1}{2} \epsilon_0 
 ## Practice Problems
 Explore our problem set with **100 problems** inspired by JEE Main, JEE Advanced, and NEET patterns to test your understanding.
 
-[View Problems](./problems.md)
+[View Problems](./problems)
 
 ## Watch on YouTube
 Our Hinglish video lessons make electromagnetism engaging! Subscribe for updates.

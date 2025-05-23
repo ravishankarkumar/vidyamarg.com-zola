@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <title>Vidya Marg | Physics Book - Entropy and the Second Law of Thermodynamics Solutions for JEE &amp; NEET</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sample solutions for thermodynamics problems, covering entropy changes, the second law, heat engines, refrigerators, and the Carnot cycle, tailored for JEE and NEET preparation.">
+    <meta name="keywords" content="JEE physics book, NEET physics book, physics book, physics for JEE and NEET">
+    <meta property="og:image" content="https://vidyamarg.com/og-physics-book.jpg">
+    <link rel="canonical" href="https:&#x2F;&#x2F;vidyamarg.com&#x2F;books&#x2F;physics&#x2F;v1&#x2F;entropy-thermodynamics&#x2F;solutions&#x2F;">
+    <link rel="shortcut icon" href="https://vidyamarg.com/logos/maroon-bg-logo-128.ico">
+    
+    <!-- Preload Google Font -->
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" as="style">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript>
+        <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
+    </noscript>
+    
+    <!-- FontAwesome JS -->
+    <script defer src="https://vidyamarg.com/fontawesome/js/all.min.js"></script>
+
+    <!-- KaTeX for LaTeX rendering -->
+    <link rel="stylesheet" href="https://vidyamarg.com/katex/katex.min.css">
+    <script src="https://vidyamarg.com/katex/katex.min.js"></script>
+    <script src="https://vidyamarg.com/katex/auto-render.min.js"></script>
+
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.2/styles/atom-one-dark.min.css">
+    <link rel="stylesheet" href="https://vidyamarg.com/plugins/simplelightbox/simple-lightbox.min.css">
+
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="https://vidyamarg.com/css/theme.css">
+    <link rel="stylesheet" href="https://vidyamarg.com/css/custom.css" />
+</head> 
+
+<body>    
+    <header class="header fixed-top">
+        <div class="branding docs-branding">
+            <div class="container-fluid position-relative py-2">
+                <div class="docs-logo-wrapper">
+                    
+                    
+                    
+                    <button id="docs-sidebar-toggler" class="docs-sidebar-toggler docs-sidebar-visible me-2 d-xl-none" type="button">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    
+                    <div class="site-logo">
+                        <a class="navbar-brand" href="https://vidyamarg.com">
+                            <img class="logo-icon me-2" src="https://vidyamarg.com/logos/maroon-bg-logo-1024.png" alt="logo">
+                            <span class="logo-text">Vidya Marg</span>
+                        </a>
+                    </div>    
+                </div>
+                <div class="docs-top-utilities d-flex justify-content-end align-items-center">
+                    <ul class="nav-list list-inline mb-0 d-none d-lg-flex">
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;">Home</a>
+                            </li>
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics (Youtube series)</a>
+                            </li>
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;">Books</a>
+                            </li>
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;app&#x2F;">App</a>
+                            </li>
+                        
+                        
+                            
+                                <li class="list-inline-item">
+                                    <a href="https:&#x2F;&#x2F;www.youtube.com&#x2F;@VidyaMargbyRaviShankar-w9u" title="YouTube"><i class="fab fa-youtube fa-fw"></i></a>
+                                </li>
+                            
+                                <li class="list-inline-item">
+                                    <a href="https:&#x2F;&#x2F;t.me&#x2F;vidyamarg1" title="Telegram"><i class="fab fa-telegram fa-fw"></i></a>
+                                </li>
+                            
+                        
+                    </ul>
+                    <!-- Mobile Menu Button -->
+                    <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#mobileNav" aria-controls="mobileNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </div>
+            <!-- Mobile Menu -->
+            <div class="collapse navbar-collapse d-lg-none" id="mobileNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;">Home</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics (Youtube series)</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;books&#x2F;">Books</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;app&#x2F;">App</a>
+                        </li>
+                    
+                    
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="https:&#x2F;&#x2F;www.youtube.com&#x2F;@VidyaMargbyRaviShankar-w9u"><i class="fab fa-youtube fa-fw"></i> YouTube</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="https:&#x2F;&#x2F;t.me&#x2F;vidyamarg1"><i class="fab fa-telegram fa-fw"></i> Telegram</a>
+                            </li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="docs-wrapper">
+        
+        
+        
+        <div id="docs-sidebar" class="docs-sidebar">
+            <nav id="docs-nav" class="docs-nav navbar">
+                
+                    
+                        
+
+<ul class="nav flex-column">
+    <!-- Navigation Menu (visible only in mobile view) -->
+    <li class="nav-item d-lg-none">
+        <span class="nav-link">Navigation</span>
+        <ul class="nav flex-column">
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;">Home</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics (Youtube series)</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;books&#x2F;">Books</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;app&#x2F;">App</a>
+                </li>
+            
+        </ul>
+    </li>
+
+    <!-- JEE/NEET Physics Section -->
+    
+    <li class="nav-item">
+        <span class="nav-link">Physics for JEE&#x2F;NEET</span>
+        <ul class="nav flex-column">
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics for JEE&#x2F;NEET</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;maths-basics-for-physics&#x2F;">Maths Basics for Physics</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;units-and-dimensions&#x2F;">Units and Dimensions</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;physical-quantities-and-si-units&#x2F;">Physical Quantities and SI Units</a>
+                </li>
+            
+        </ul>
+    </li>
+
+    <!-- Books Section -->
+    
+    <li class="nav-item">
+        <span class="nav-link">Books</span>
+        <ul class="nav flex-column">
+            <!-- JEE/NEET Physics Book (Version 1) -->
+            
+            <li class="nav-item">
+                <a class="nav-link" href="/books/physics/v1/">Physics Book</a>
+                
+                    <ul class="nav flex-column">
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;measurement&#x2F;">Measurement</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;motion-straight-line&#x2F;">Motion Along a Straight Line</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;vectors&#x2F;">Vectors</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;motion-2d-3d&#x2F;">Motion in Two and Three Dimensions</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;force-motion-1&#x2F;">Force and Motion—I</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;force-motion-2&#x2F;">Force and Motion—II</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;kinetic-energy-work&#x2F;">Kinetic Energy and Work</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;potential-energy-conservation&#x2F;">Potential Energy and Conservation of Energy</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;center-mass-momentum&#x2F;">Center of Mass and Linear Momentum</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;rotation&#x2F;">Rotation</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;rolling-torque-angular-momentum&#x2F;">Rolling, Torque, and Angular Momentum</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;equilibrium-elasticity&#x2F;">Equilibrium and Elasticity</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;gravitation&#x2F;">Gravitation</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;fluids&#x2F;">Fluids</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;oscillations&#x2F;">Oscillations</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;waves-1&#x2F;">Waves—I</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;waves-2&#x2F;">Waves—II</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;kinetic-theory-gases&#x2F;">The Kinetic Theory of Gases</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;thermodynamics-temperature-heat&#x2F;">Temperature, Heat, and the First Law of Thermodynamics</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;entropy-thermodynamics&#x2F;">Entropy and the Second Law of Thermodynamics</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electric-fields&#x2F;">Electric Fields</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;gauss-law&#x2F;">Gauss’s Law</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electric-potential&#x2F;">Electric Potential</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;capacitance&#x2F;">Capacitance</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;current-resistance&#x2F;">Current and Resistance</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;circuits&#x2F;">Circuits</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;magnetic-fields&#x2F;">Magnetic Fields</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;magnetic-fields-currents&#x2F;">Magnetic Fields Due to Currents</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;induction-inductance&#x2F;">Induction and Inductance</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electromagnetic-oscillations-ac&#x2F;">Electromagnetic Oscillations and Alternating Current</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electromagnetic-waves&#x2F;">Electromagnetic Waves</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;images&#x2F;">Images</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;interference&#x2F;">Interference</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;diffraction&#x2F;">Diffraction</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;photons-matter-waves&#x2F;">Photons and Matter Waves</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;matter-waves-advanced&#x2F;">More About Matter Waves</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;atoms&#x2F;">All About Atoms</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;nuclear-physics&#x2F;">Nuclear Physics</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;nuclear-energy&#x2F;">Energy from the Nucleus</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;quarks-leptons&#x2F;">Quarks, Leptons, and the Big Bang</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;relativity&#x2F;">Relativity</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;conduction-solids&#x2F;">Conduction of Electricity in Solids</a>
+                            </li>
+                        
+                    </ul>
+                
+            </li>
+        </ul>
+    </li>
+</ul>
+                    
+                
+            </nav>
+        </div>
+        
+
+        <div class="docs-content">
+            
+    <div class="docs-main">
+        <article class="docs-article">
+            <h1 id="entropy-and-the-second-law-of-thermodynamics-solutions">Entropy and the Second Law of Thermodynamics Solutions</h1>
+<p>This section provides <strong>sample solutions</strong> for selected problems from the Entropy and the Second Law of Thermodynamics chapter, focusing on entropy changes, the second law, heat engines, refrigerators, and the Carnot cycle. These solutions are designed to help JEE Main, JEE Advanced, and NEET students understand key concepts and problem-solving techniques. Each solution includes detailed steps, exam-focused tips to avoid common mistakes, and alignment with JEE/NEET exam patterns. Full solutions for all 100 problems will be available in June 2025.</p>
+<h2 id="numerical-solutions">Numerical Solutions</h2>
+<h3 id="solution-1">Solution 1</h3>
+<p><strong>Problem</strong>: Calculate the entropy change for 1 mole of an ideal gas expanding isothermally and reversibly at 300 K from $V_1 = 0.02 , \text{m}^3$ to $V_2 = 0.04 , \text{m}^3$ ($R = 8.314 , \text{J/mol·K}$).</p>
+<ul>
+<li>(a) $5.76 , \text{J/K}$</li>
+<li>(b) $5.77 , \text{J/K}$</li>
+<li>(c) $5.78 , \text{J/K}$</li>
+<li>(d) $5.79 , \text{J/K}$</li>
+</ul>
+<p><strong>Solution</strong>:<br />
+For a reversible isothermal process involving an ideal gas, the entropy change $\Delta S$ of the system is given by $\Delta S = n R \ln \left( \frac{V_2}{V_1} \right)$, where $n$ is the number of moles, $R$ is the gas constant, and $V_2$ and $V_1$ are the final and initial volumes. Given $n = 1 , \text{mol}$, $R = 8.314 , \text{J/mol·K}$, $V_1 = 0.02 , \text{m}^3$, and $V_2 = 0.04 , \text{m}^3$:<br />
+$$
+\Delta S = 1 \times 8.314 \times \ln \left( \frac{0.04}{0.02} \right) = 8.314 \times \ln 2
+$$
+Using $\ln 2 \approx 0.693$:<br />
+$$
+\Delta S = 8.314 \times 0.693 \approx 5.7616 , \text{J/K}
+$$
+Round to two decimal places (April 14, 2025): $5.76 , \text{J/K}$.<br />
+The answer is (a) $5.76 , \text{J/K}$.</p>
+<ul>
+<li><strong>JEE/NEET Tip</strong>: For isothermal processes, $\Delta S$ depends only on volume change, not temperature; use $\ln 2 \approx 0.693$ for quick calculations. Common error: Including $T$ in the entropy change formula, which cancels out in isothermal processes.</li>
+</ul>
+<h3 id="solution-5">Solution 5</h3>
+<p><strong>Problem</strong>: A heat engine absorbs $Q_H = 1000 , \text{J}$ and rejects $Q_C = 600 , \text{J}$. Calculate the efficiency.</p>
+<ul>
+<li>(a) $0.39$</li>
+<li>(b) $0.40$</li>
+<li>(c) $0.41$</li>
+<li>(d) $0.42$</li>
+</ul>
+<p><strong>Solution</strong>:<br />
+The efficiency $e$ of a heat engine is defined as the ratio of work output $W$ to heat input $Q_H$: $e = \frac{W}{Q_H}$. From the first law for a cyclic process ($\Delta U = 0$), $W = Q_H - Q_C$, where $Q_C$ is the heat rejected. Given $Q_H = 1000 , \text{J}$ and $Q_C = 600 , \text{J}$:<br />
+$$
+W = Q_H - Q_C = 1000 - 600 = 400 , \text{J}
+$$
+Thus:<br />
+$$
+e = \frac{W}{Q_H} = \frac{400}{1000} = 0.4
+$$
+Alternatively, $e = 1 - \frac{Q_C}{Q_H} = 1 - \frac{600}{1000} = 0.4$.<br />
+The answer is (b) $0.40$.</p>
+<ul>
+<li><strong>JEE/NEET Tip</strong>: Efficiency can be calculated using either $W/Q_H$ or $1 - Q_C/Q_H$; ensure consistency in units (J here). Common error: Using $Q_C/Q_H$ directly, which gives $1 - e$.</li>
+</ul>
+<hr />
+<h2 id="conceptual-solutions">Conceptual Solutions</h2>
+<h3 id="solution-36">Solution 36</h3>
+<p><strong>Problem</strong>: What does the Kelvin-Planck statement of the second law imply?</p>
+<ul>
+<li>(a) Heat can flow from cold to hot spontaneously</li>
+<li>(b) No heat engine can be 100% efficient</li>
+<li>(c) Entropy decreases in natural processes</li>
+<li>(d) Work cannot be converted to heat</li>
+</ul>
+<p><strong>Solution</strong>:<br />
+The Kelvin-Planck statement of the second law of thermodynamics states that it is impossible to construct a device that operates in a cycle and converts all the heat absorbed from a single reservoir into work. In other words, a heat engine cannot be 100% efficient because some heat must always be rejected to a colder reservoir. This reflects the second law’s principle that not all heat energy can be converted into work due to the natural tendency of processes to increase entropy, requiring a temperature gradient to perform work in a cyclic process.</p>
+<ul>
+<li>(a) Incorrect: Heat flowing from cold to hot spontaneously violates the Clausius statement, not Kelvin-Planck.</li>
+<li>(b) Correct: The Kelvin-Planck statement directly implies no heat engine can be 100% efficient.</li>
+<li>(c) Incorrect: The second law states entropy increases or remains constant in natural processes, not decreases.</li>
+<li>(d) Incorrect: Work can be converted to heat (e.g., friction), but the reverse (all heat to work) is limited by the second law.<br />
+The answer is (b) No heat engine can be 100% efficient.</li>
+<li><strong>JEE/NEET Tip</strong>: The Kelvin-Planck statement focuses on heat engines and efficiency limits; it’s equivalent to the Clausius statement but stated differently. Common error: Confusing it with the Clausius statement, which deals with heat flow direction.</li>
+</ul>
+<h3 id="solution-38">Solution 38</h3>
+<p><strong>Problem</strong>: What is entropy a measure of?</p>
+<ul>
+<li>(a) Temperature</li>
+<li>(b) Disorder of a system</li>
+<li>(c) Pressure</li>
+<li>(d) Volume</li>
+</ul>
+<p><strong>Solution</strong>:<br />
+Entropy $S$ is a thermodynamic state function that quantifies the disorder or randomness of a system at the molecular level. In statistical mechanics, entropy is related to the number of possible microstates of a system: $S = k \ln \Omega$, where $k$ is the Boltzmann constant and $\Omega$ is the number of microstates. In classical thermodynamics, entropy change is defined as $\Delta S = \int \frac{dQ_{\text{rev}}}{T}$ for a reversible process. A higher entropy corresponds to greater disorder, such as in a gas compared to a solid, or after an irreversible process like mixing. It is not a direct measure of temperature, pressure, or volume, though these properties influence entropy changes.</p>
+<ul>
+<li>(a) Incorrect: Temperature affects entropy but isn’t a measure of disorder.</li>
+<li>(b) Correct: Entropy measures the disorder of a system.</li>
+<li>(c) Incorrect: Pressure is a macroscopic property, not a measure of disorder.</li>
+<li>(d) Incorrect: Volume affects entropy (e.g., expansion increases $S$), but entropy measures disorder, not volume itself.<br />
+The answer is (b) Disorder of a system.</li>
+<li><strong>JEE/NEET Tip</strong>: Entropy is a measure of disorder; processes increasing randomness (e.g., expansion, mixing) increase entropy. Common error: Confusing entropy with energy or temperature, which are related but distinct.</li>
+</ul>
+<hr />
+<h2 id="derivation-solutions">Derivation Solutions</h2>
+<h3 id="solution-51">Solution 51</h3>
+<p><strong>Problem</strong>: Derive the equivalence of the Kelvin-Planck and Clausius statements of the second law.</p>
+<p><strong>Solution</strong>:<br />
+The Kelvin-Planck and Clausius statements are two formulations of the second law of thermodynamics, and we need to show they are equivalent by proving that violating one leads to a violation of the other.</p>
+<p><strong>Kelvin-Planck Statement</strong>: It is impossible to construct a device that operates in a cycle and converts all the heat absorbed from a single reservoir into work (i.e., a heat engine cannot be 100% efficient; some heat must be rejected).</p>
+<p><strong>Clausius Statement</strong>: It is impossible to construct a device that operates in a cycle and transfers heat from a colder body to a hotter body without external work (i.e., heat cannot flow spontaneously from cold to hot).</p>
+<p><strong>Proof (Clausius Violation Implies Kelvin-Planck Violation)</strong>: Assume a device violates the Clausius statement: it transfers heat $Q_C$ from a cold reservoir at temperature $T_C$ to a hot reservoir at $T_H$ without any external work. Now, couple this device with a heat engine that extracts heat $Q_H = Q_C$ from the hot reservoir at $T_H$, does work $W = Q_H - Q_C$, and rejects heat $Q_C$ to the cold reservoir at $T_C$ (a standard heat engine cycle). The net effect of the combined system is: the cold reservoir has no net heat change (receives $Q_C$ from the engine, loses $Q_C$ to the device), the hot reservoir loses $Q_H$, and the system produces work $W$. This means the combined system takes heat $Q_H$ from a single reservoir (hot) and converts it entirely into work $W$, with no other effect, violating the Kelvin-Planck statement.</p>
+<p><strong>Proof (Kelvin-Planck Violation Implies Clausius Violation)</strong>: Assume a device violates the Kelvin-Planck statement: a heat engine takes heat $Q_H$ from a hot reservoir at $T_H$ and converts it entirely into work $W = Q_H$, rejecting no heat to a cold reservoir. Use this work $W$ to power a refrigerator that transfers heat $Q_C = W = Q_H$ from a cold reservoir at $T_C$ to the hot reservoir at $T_H$. The net effect is: the hot reservoir gains $Q_C = Q_H$ and loses $Q_H$, so no net change; the cold reservoir loses $Q_C$; and no external work is done. This means heat $Q_C$ has been transferred from the cold reservoir to the hot reservoir without external work, violating the Clausius statement.</p>
+<p>Since violating one statement leads to a violation of the other, they are equivalent.</p>
+<ul>
+<li><strong>JEE/NEET Tip</strong>: The equivalence shows the second law’s consistency; both statements reflect the same principle of entropy increase. Common error: Misinterpreting the cyclic nature of the devices, which is key to the statements.</li>
+</ul>
+<h3 id="solution-53">Solution 53</h3>
+<p><strong>Problem</strong>: Derive the entropy change for a constant volume process $\Delta S = n C_V \ln \left( \frac{T_2}{T_1} \right)$.</p>
+<p><strong>Solution</strong>:<br />
+For an ideal gas undergoing a constant volume process, we need to calculate the entropy change $\Delta S$ from an initial temperature $T_1$ to a final temperature $T_2$. Entropy is a state function, so $\Delta S$ depends only on the initial and final states, not the path. However, to compute $\Delta S$, we use a reversible path between the same states.</p>
+<p>In a constant volume process, the heat transfer $dQ$ is related to the internal energy change: $dQ = dU$ (since $W = 0$ at constant volume). For an ideal gas, $dU = n C_V dT$, where $n$ is the number of moles, $C_V$ is the molar heat capacity at constant volume, and $dT$ is the temperature change. If the process is reversible, the heat added $dQ_{\text{rev}} = n C_V dT$. The entropy change is defined as:<br />
+$$
+\Delta S = \int \frac{dQ_{\text{rev}}}{T}
+$$
+Substitute $dQ_{\text{rev}} = n C_V dT$:<br />
+$$
+\Delta S = \int_{T_1}^{T_2} \frac{n C_V dT}{T}
+$$
+Since $n$ and $C_V$ are constant (assuming $C_V$ is independent of temperature for an ideal gas), factor them out:<br />
+$$
+\Delta S = n C_V \int_{T_1}^{T_2} \frac{dT}{T} = n C_V \left[ \ln T \right]_{T_1}^{T_2} = n C_V \ln \left( \frac{T_2}{T_1} \right)
+$$
+This matches the given expression. For example, in Problem 2, for 2 moles from 300 K to 450 K, $\Delta S = 2 \times \frac{3}{2} \times 8.314 \times \ln \left( \frac{450}{300} \right) \approx 8.60 , \text{J/K}$.</p>
+<ul>
+<li><strong>JEE/NEET Tip</strong>: Use a reversible path to compute $\Delta S$; at constant volume, $dQ = n C_V dT$. Common error: Using $C_P$ instead of $C_V$, which applies to constant pressure processes.</li>
+</ul>
+<hr />
+<h2 id="neet-style-solutions">NEET-style Solutions</h2>
+<h3 id="solution-96">Solution 96</h3>
+<p><strong>Problem</strong>: Calculate $\Delta S$ for 1 mole of an ideal gas expanding isothermally and reversibly at 350 K from $V_1 = 0.01 , \text{m}^3$ to $V_2 = 0.02 , \text{m}^3$ ($R = 8.314 , \text{J/mol·K}$).</p>
+<ul>
+<li>(a) $5.76 , \text{J/K}$</li>
+<li>(b) $5.77 , \text{J/K}$</li>
+<li>(c) $5.78 , \text{J/K}$</li>
+<li>(d) $5.79 , \text{J/K}$</li>
+</ul>
+<p><strong>Solution</strong>:<br />
+For a reversible isothermal expansion of an ideal gas, $\Delta S = n R \ln \left( \frac{V_2}{V_1} \right)$. Given $n = 1 , \text{mol}$, $R = 8.314 , \text{J/mol·K}$, $V_1 = 0.01 , \text{m}^3$, $V_2 = 0.02 , \text{m}^3$:<br />
+$$
+\Delta S = 1 \times 8.314 \times \ln \left( \frac{0.02}{0.01} \right) = 8.314 \times \ln 2 \approx 8.314 \times 0.693 \approx 5.7616 , \text{J/K}
+$$
+Round to two decimal places: $5.76 , \text{J/K}$.<br />
+The answer is (a) $5.76 , \text{J/K}$.</p>
+<ul>
+<li><strong>JEE/NEET Tip</strong>: The entropy change in an isothermal process depends on volume ratio; temperature is not needed in the final expression. Common error: Forgetting to use $\ln 2$ for a doubling of volume.</li>
+</ul>
+<h3 id="solution-98">Solution 98</h3>
+<p><strong>Problem</strong>: A Carnot engine operates between $T_H = 600 , \text{K}$ and $T_C = 300 , \text{K}$. What is the efficiency?</p>
+<ul>
+<li>(a) $0.49$</li>
+<li>(b) $0.50$</li>
+<li>(c) $0.51$</li>
+<li>(d) $0.52$</li>
+</ul>
+<p><strong>Solution</strong>:<br />
+The efficiency of a Carnot engine is given by $e_{\text{Carnot}} = 1 - \frac{T_C}{T_H}$, where $T_H$ and $T_C$ are the temperatures of the hot and cold reservoirs in Kelvin. Given $T_H = 600 , \text{K}$ and $T_C = 300 , \text{K}$:<br />
+$$
+e_{\text{Carnot}} = 1 - \frac{300}{600} = 1 - 0.5 = 0.5
+$$
+The answer is (b) $0.50$.</p>
+<ul>
+<li><strong>JEE/NEET Tip</strong>: Carnot efficiency requires temperatures in Kelvin; it’s the theoretical maximum efficiency. Common error: Using Celsius, which leads to incorrect ratios (e.g., $327/27 \neq 0.5$).</li>
+</ul>
+<h2 id="back-to-chapter">Back to Chapter</h2>
+<p><a href="../../entropy-thermodynamics">Return to Entropy and the Second Law of Thermodynamics Chapter</a></p>
+<p><a href="../../entropy-thermodynamics/problems">Return to Entropy and the Second Law of Thermodynamics Problems</a></p>
+
+        </article>
+    </div>
+
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container text-center py-5">
+            <ul class="social-list list-unstyled pt-4 mb-0">
+                
+                    <li class="list-inline-item">
+                        <a href="https:&#x2F;&#x2F;www.youtube.com&#x2F;@VidyaMargbyRaviShankar-w9u" target="_blank" title="YouTube"><i class="fab fa-youtube fa-fw"></i></a>
+                    </li>
+                
+                    <li class="list-inline-item">
+                        <a href="https:&#x2F;&#x2F;t.me&#x2F;vidyamarg1" target="_blank" title="Telegram"><i class="fab fa-telegram fa-fw"></i></a>
+                    </li>
+                
+            </ul>
+            <small class="copyright">
+                © 2025 Vidya Marg. Designed with <span class="sr-only">love</span><i class="fas fa-heart" style="color: #fb866a;"></i> by <a class="theme-link" href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers. <a class="theme-link" href="/app/privacy-policy/">Privacy Policy</a>
+            </small>
+        </div>
+    </footer>
+
+    <!-- Javascript -->          
+    <script src="https://vidyamarg.com/plugins/popper.min.js"></script>
+    <script src="https://vidyamarg.com/plugins/bootstrap/js/bootstrap.min.js"></script>  
+    
+    <!-- Page Specific JS -->
+    <script src="https://vidyamarg.com/plugins/smoothscroll.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
+    <script src="https://vidyamarg.com/js/highlight-custom.js"></script> 
+    <script src="https://vidyamarg.com/plugins/simplelightbox/simple-lightbox.min.js"></script>      
+    <script src="https://vidyamarg.com/plugins/gumshoe/gumshoe.polyfills.min.js"></script> 
+    <script src="https://vidyamarg.com/js/docs.js"></script> 
+
+    <script>
+        function renderLatex() {
+            if (typeof renderMathInElement === "undefined") {
+                setTimeout(renderLatex, 100);
+                return;
+            }
+            renderMathInElement(document.body, {
+                delimiters: [
+                    { left: "$$", right: "$$", display: true },
+                    { left: "$", right: "$", display: false },
+                    { left: "\\(", right: "\\)", display: false },
+                    { left: "\\[", right: "\\]", display: true }
+                ],
+                throwOnError: false
+            });
+        }
+
+        window.addEventListener("load", function() {
+            renderLatex();
+        });
+    </script>
+</body>
+</html>

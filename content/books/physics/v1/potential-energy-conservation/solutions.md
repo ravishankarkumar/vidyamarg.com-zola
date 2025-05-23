@@ -1,7 +1,7 @@
 ---
 title: Physics Book - Potential Energy and Conservation of Energy Solutions for JEE & NEET
 description: Sample solutions for potential energy and conservation of energy problems, covering gravitational and elastic potential energy, conservative forces, and energy conservation, tailored for JEE and NEET preparation.
-slug: books/physics/potential-energy-conservation/solutions
+slug: solutions
 keywords: physics potential energy conservation solutions, JEE physics energy conservation solutions, NEET physics conservative forces solutions, elastic potential energy
 og:image: https://vidyamarg.com/og-physics-potential-energy-conservation.jpg
 ---
@@ -161,6 +161,6 @@ The answer is (d) $0.7 \, m$.
 - **JEE/NEET Tip**: At maximum compression, all mechanical energy converts to spring potential energy; solve for $x$. Common error: Forgetting to square $x$ in the spring energy term.
 
 ## Back to Chapter
-[Return to Potential Energy and Conservation of Energy Chapter](./index.md)
+[Return to Potential Energy and Conservation of Energy Chapter](../../potential-energy-conservation)
 
-[Return to Potential Energy and Conservation of Energy Problems](./problems.md)
+[Return to Potential Energy and Conservation of Energy Problems](../../potential-energy-conservation/problems)

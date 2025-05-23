@@ -1,7 +1,7 @@
 ---
 title: Physics Book - Center of Mass and Linear Momentum Solutions for JEE & NEET
 description: Sample solutions for center of mass and linear momentum problems, covering center of mass, momentum conservation, impulse, and collisions, tailored for JEE and NEET preparation.
-slug: books/physics/center-mass-momentum/solutions
+slug: solutions
 keywords: physics center of mass momentum solutions, JEE physics momentum conservation solutions, NEET physics collisions solutions, impulse
 og:image: https://vidyamarg.com/og-physics-center-mass-momentum.jpg
 ---
@@ -153,6 +153,6 @@ The answer is (b) $2.0 \, m/s$.
 - **JEE/NEET Tip**: Impulse directly gives momentum change; for an object at rest, $J = m v_f$. Common error: Forgetting to account for initial momentum, though here it’s zero.
 
 ## Back to Chapter
-[Return to Center of Mass and Linear Momentum Chapter](./index.md)
+[Return to Center of Mass and Linear Momentum Chapter](../../center-mass-momentum)
 
-[Return to Center of Mass and Linear Momentum Problems](./problems.md)
+[Return to Center of Mass and Linear Momentum Problems](../../center-mass-momentum/problems)

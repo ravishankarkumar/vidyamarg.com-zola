@@ -1,7 +1,7 @@
 ---
 title: Physics Book - Kinetic Energy and Work Problems for JEE & NEET
 description: Practice 100 kinetic energy and work problems for JEE and NEET, inspired by exam patterns, covering work, kinetic energy, work-energy theorem, variable forces, and power.
-slug: books/physics/kinetic-energy-work/problems
+slug: problems
 keywords: physics kinetic energy work problems, JEE physics work-energy theorem problems, NEET physics power problems, variable forces
 og:image: https://vidyamarg.com/og-physics-kinetic-energy-work.jpg
 ---
@@ -569,4 +569,4 @@ This section provides **100 problems** to test your understanding of kinetic ene
     - (d) $3.5 \, m/s$
 
 ## Back to Chapter
-[Return to Kinetic Energy and Work Chapter](./index.md)
+[Return to Kinetic Energy and Work Chapter](../../kinetic-energy-work)

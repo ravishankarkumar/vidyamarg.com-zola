@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <title>Vidya Marg | Physics Book - Magnetic Fields for JEE &amp; NEET</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Comprehensive guide on magnetic fields for JEE and NEET, covering Biot-Savart law, Ampere’s law, magnetic fields due to current configurations, and applications in electromagnetism, with extensive examples.">
+    <meta name="keywords" content="JEE physics book, NEET physics book, physics book, physics for JEE and NEET">
+    <meta property="og:image" content="https://vidyamarg.com/og-physics-book.jpg">
+    <link rel="canonical" href="https:&#x2F;&#x2F;vidyamarg.com&#x2F;books&#x2F;physics&#x2F;v1&#x2F;magnetic-fields&#x2F;">
+    <link rel="shortcut icon" href="https://vidyamarg.com/logos/maroon-bg-logo-128.ico">
+    
+    <!-- Preload Google Font -->
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" as="style">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript>
+        <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
+    </noscript>
+    
+    <!-- FontAwesome JS -->
+    <script defer src="https://vidyamarg.com/fontawesome/js/all.min.js"></script>
+
+    <!-- KaTeX for LaTeX rendering -->
+    <link rel="stylesheet" href="https://vidyamarg.com/katex/katex.min.css">
+    <script src="https://vidyamarg.com/katex/katex.min.js"></script>
+    <script src="https://vidyamarg.com/katex/auto-render.min.js"></script>
+
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.2/styles/atom-one-dark.min.css">
+    <link rel="stylesheet" href="https://vidyamarg.com/plugins/simplelightbox/simple-lightbox.min.css">
+
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="https://vidyamarg.com/css/theme.css">
+    <link rel="stylesheet" href="https://vidyamarg.com/css/custom.css" />
+</head> 
+
+<body>    
+    <header class="header fixed-top">
+        <div class="branding docs-branding">
+            <div class="container-fluid position-relative py-2">
+                <div class="docs-logo-wrapper">
+                    
+                    
+                    
+                    <button id="docs-sidebar-toggler" class="docs-sidebar-toggler docs-sidebar-visible me-2 d-xl-none" type="button">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    
+                    <div class="site-logo">
+                        <a class="navbar-brand" href="https://vidyamarg.com">
+                            <img class="logo-icon me-2" src="https://vidyamarg.com/logos/maroon-bg-logo-1024.png" alt="logo">
+                            <span class="logo-text">Vidya Marg</span>
+                        </a>
+                    </div>    
+                </div>
+                <div class="docs-top-utilities d-flex justify-content-end align-items-center">
+                    <ul class="nav-list list-inline mb-0 d-none d-lg-flex">
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;">Home</a>
+                            </li>
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics (Youtube series)</a>
+                            </li>
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;">Books</a>
+                            </li>
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;app&#x2F;">App</a>
+                            </li>
+                        
+                        
+                            
+                                <li class="list-inline-item">
+                                    <a href="https:&#x2F;&#x2F;www.youtube.com&#x2F;@VidyaMargbyRaviShankar-w9u" title="YouTube"><i class="fab fa-youtube fa-fw"></i></a>
+                                </li>
+                            
+                                <li class="list-inline-item">
+                                    <a href="https:&#x2F;&#x2F;t.me&#x2F;vidyamarg1" title="Telegram"><i class="fab fa-telegram fa-fw"></i></a>
+                                </li>
+                            
+                        
+                    </ul>
+                    <!-- Mobile Menu Button -->
+                    <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#mobileNav" aria-controls="mobileNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </div>
+            <!-- Mobile Menu -->
+            <div class="collapse navbar-collapse d-lg-none" id="mobileNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;">Home</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics (Youtube series)</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;books&#x2F;">Books</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;app&#x2F;">App</a>
+                        </li>
+                    
+                    
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="https:&#x2F;&#x2F;www.youtube.com&#x2F;@VidyaMargbyRaviShankar-w9u"><i class="fab fa-youtube fa-fw"></i> YouTube</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="https:&#x2F;&#x2F;t.me&#x2F;vidyamarg1"><i class="fab fa-telegram fa-fw"></i> Telegram</a>
+                            </li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="docs-wrapper">
+        
+        
+        
+        <div id="docs-sidebar" class="docs-sidebar">
+            <nav id="docs-nav" class="docs-nav navbar">
+                
+                    
+                        
+
+<ul class="nav flex-column">
+    <!-- Navigation Menu (visible only in mobile view) -->
+    <li class="nav-item d-lg-none">
+        <span class="nav-link">Navigation</span>
+        <ul class="nav flex-column">
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;">Home</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics (Youtube series)</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;books&#x2F;">Books</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;app&#x2F;">App</a>
+                </li>
+            
+        </ul>
+    </li>
+
+    <!-- JEE/NEET Physics Section -->
+    
+    <li class="nav-item">
+        <span class="nav-link">Physics for JEE&#x2F;NEET</span>
+        <ul class="nav flex-column">
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics for JEE&#x2F;NEET</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;maths-basics-for-physics&#x2F;">Maths Basics for Physics</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;units-and-dimensions&#x2F;">Units and Dimensions</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;physical-quantities-and-si-units&#x2F;">Physical Quantities and SI Units</a>
+                </li>
+            
+        </ul>
+    </li>
+
+    <!-- Books Section -->
+    
+    <li class="nav-item">
+        <span class="nav-link">Books</span>
+        <ul class="nav flex-column">
+            <!-- JEE/NEET Physics Book (Version 1) -->
+            
+            <li class="nav-item">
+                <a class="nav-link" href="/books/physics/v1/">Physics Book</a>
+                
+                    <ul class="nav flex-column">
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;measurement&#x2F;">Measurement</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;motion-straight-line&#x2F;">Motion Along a Straight Line</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;vectors&#x2F;">Vectors</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;motion-2d-3d&#x2F;">Motion in Two and Three Dimensions</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;force-motion-1&#x2F;">Force and Motion—I</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;force-motion-2&#x2F;">Force and Motion—II</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;kinetic-energy-work&#x2F;">Kinetic Energy and Work</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;potential-energy-conservation&#x2F;">Potential Energy and Conservation of Energy</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;center-mass-momentum&#x2F;">Center of Mass and Linear Momentum</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;rotation&#x2F;">Rotation</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;rolling-torque-angular-momentum&#x2F;">Rolling, Torque, and Angular Momentum</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;equilibrium-elasticity&#x2F;">Equilibrium and Elasticity</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;gravitation&#x2F;">Gravitation</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;fluids&#x2F;">Fluids</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;oscillations&#x2F;">Oscillations</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;waves-1&#x2F;">Waves—I</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;waves-2&#x2F;">Waves—II</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;kinetic-theory-gases&#x2F;">The Kinetic Theory of Gases</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;thermodynamics-temperature-heat&#x2F;">Temperature, Heat, and the First Law of Thermodynamics</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;entropy-thermodynamics&#x2F;">Entropy and the Second Law of Thermodynamics</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electric-fields&#x2F;">Electric Fields</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;gauss-law&#x2F;">Gauss’s Law</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electric-potential&#x2F;">Electric Potential</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;capacitance&#x2F;">Capacitance</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;current-resistance&#x2F;">Current and Resistance</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;circuits&#x2F;">Circuits</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;magnetic-fields&#x2F;">Magnetic Fields</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;magnetic-fields-currents&#x2F;">Magnetic Fields Due to Currents</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;induction-inductance&#x2F;">Induction and Inductance</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electromagnetic-oscillations-ac&#x2F;">Electromagnetic Oscillations and Alternating Current</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electromagnetic-waves&#x2F;">Electromagnetic Waves</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;images&#x2F;">Images</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;interference&#x2F;">Interference</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;diffraction&#x2F;">Diffraction</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;photons-matter-waves&#x2F;">Photons and Matter Waves</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;matter-waves-advanced&#x2F;">More About Matter Waves</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;atoms&#x2F;">All About Atoms</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;nuclear-physics&#x2F;">Nuclear Physics</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;nuclear-energy&#x2F;">Energy from the Nucleus</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;quarks-leptons&#x2F;">Quarks, Leptons, and the Big Bang</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;relativity&#x2F;">Relativity</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;conduction-solids&#x2F;">Conduction of Electricity in Solids</a>
+                            </li>
+                        
+                    </ul>
+                
+            </li>
+        </ul>
+    </li>
+</ul>
+                    
+                
+            </nav>
+        </div>
+        
+
+        <div class="docs-content">
+            
+    <div class="docs-main">
+        <article class="docs-article">
+            <h1 id="chapter-28-magnetic-fields">Chapter 28: Magnetic Fields</h1>
+<div class="callout-block callout-warning">
+    <div class="content">
+        <h4 class="callout-title">
+            <span class="callout-icon-holder me-1">
+                <i class="fas fa-exclamation-triangle"></i>
+            </span>
+            Beta Version
+        </h4>
+        <p>Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!</p>
+    </div>
+</div>
+<p>Magnetic fields are crucial for understanding electromagnetic interactions, with applications like spacecraft navigation using magnetic sensors. Building on the concepts of current and circuits from Chapters 26–27, this chapter explores magnetic fields in depth. For JEE Main, JEE Advanced, and NEET students, mastering magnetic fields is essential, as these topics frequently appear in problems involving forces, fields, and electromagnetic devices. This chapter, <strong>Magnetic Fields</strong>, covers <strong>introduction to magnetic fields</strong>, <strong>Biot-Savart law and applications</strong>, <strong>Ampere’s law and its applications</strong>, and <strong>magnetic fields of current distributions</strong>, providing detailed explanations, derivations, solved examples, and practical applications to ensure conceptual clarity and problem-solving proficiency.</p>
+<h2 id="28-1-introduction-to-magnetic-fields">28.1 Introduction to Magnetic Fields</h2>
+<p>Magnetic fields describe the influence of magnets and currents, a key concept for JEE/NEET problems in electromagnetism.</p>
+<h3 id="magnetic-field-definition">Magnetic Field Definition</h3>
+<p>A magnetic field $\vec{B}$ is a vector field that exerts a force on moving charges and magnetic materials. The force on a charge $q$ moving with velocity $\vec{v}$ in a magnetic field $\vec{B}$ is given by the Lorentz force (magnetic component):<br />
+$$
+\vec{F} = q (\vec{v} \times \vec{B})
+$$</p>
+<ul>
+<li>Units: Tesla (T), where $1 , \text{T} = 1 , \text{N/(A·m)}$.</li>
+<li>Direction: Determined by the right-hand rule for the cross product.</li>
+</ul>
+<h3 id="magnetic-field-lines">Magnetic Field Lines</h3>
+<ul>
+<li>Field lines represent $\vec{B}$, pointing from north to south poles of a magnet.</li>
+<li>Lines never cross, and their density indicates field strength.</li>
+<li>For a current-carrying wire, lines form concentric circles around the wire.</li>
+</ul>
+<h3 id="sources-of-magnetic-fields">Sources of Magnetic Fields</h3>
+<ul>
+<li>Moving charges (currents) and changing electric fields (Faraday’s law, covered later).</li>
+<li>Permanent magnets (due to aligned magnetic moments of electrons).</li>
+<li>Earth’s magnetic field (geomagnetic field, ~$25$ to $65 , \mu\text{T}$).</li>
+</ul>
+<h3 id="magnetic-field-vs-electric-field">Magnetic Field vs. Electric Field</h3>
+<ul>
+<li>Electric field $\vec{E}$ acts on stationary charges; magnetic field $\vec{B}$ acts on moving charges.</li>
+<li>$\vec{E}$ lines start/end on charges; $\vec{B}$ lines form closed loops (no magnetic monopoles).</li>
+</ul>
+<p><strong>Derivation</strong>: <strong>Force on a Current-Carrying Wire</strong><br />
+A straight wire of length $L$ carrying current $I$ in a uniform magnetic field $\vec{B}$ experiences a force. Current $I$ is due to charges $q$ moving with drift velocity $\vec{v}$. In time $\Delta t$, charge $q = I \Delta t$ moves a distance $L = v \Delta t$. The force on the charge is $\vec{F} = q (\vec{v} \times \vec{B})$. Substitute $q = I \Delta t$, $v \Delta t = L$:<br />
+$$
+\vec{F} = (I \Delta t) \left( \frac{\vec{L}}{\Delta t} \times \vec{B} \right) = I (\vec{L} \times \vec{B})
+$$
+For a straight wire, if $\vec{L}$ is the length vector in the direction of current and $\theta$ is the angle between $\vec{L}$ and $\vec{B}$, $F = I L B \sin \theta$.</p>
+<p><strong>Derivation</strong>: <strong>Magnetic Field in Rocket Navigation</strong><br />
+A spacecraft wire ($I = 10 , \text{A}$, $L = 0.1 , \text{m}$) in a magnetic field $B = 0.05 , \text{T}$ (perpendicular) experiences $F = I L B = 10 \times 0.1 \times 0.05 = 0.05 , \text{N}$, used in magnetic navigation (your interest, April 19, 2025).</p>
+<p><strong>Solved Example</strong>: A JEE Main problem involves a charge $q = 2 , \mu\text{C}$ moving at $v = 5 \times 10^5 , \text{m/s}$ in $\vec{B} = 0.3 , \text{T}$ (perpendicular). Find the magnetic force.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$F = q v B \sin \theta = (2 \times 10^{-6}) \times (5 \times 10^5) \times 0.3 \times \sin 90^\circ = 3 \times 10^{-1} = 0.3 , \text{N}$.
+<ul>
+<li><strong>JEE Tip</strong>: Use $\sin \theta$ for the angle between $\vec{v}$ and $\vec{B}$; force is maximum when perpendicular. Common error: Forgetting $\sin \theta$.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A NEET problem involves a wire with $I = 4 , \text{A}$, $L = 0.2 , \text{m}$ in $\vec{B} = 0.5 , \text{T}$ (perpendicular). Find the force.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$F = I L B \sin \theta = 4 \times 0.2 \times 0.5 \times 1 = 0.4 , \text{N}$.
+<ul>
+<li><strong>NEET Tip</strong>: Force is zero if $I$ is parallel to $\vec{B}$; use the right-hand rule for direction. Common error: Incorrect angle.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Advanced problem involves a proton ($q = 1.6 \times 10^{-19} , \text{C}$, $v = 2 \times 10^6 , \text{m/s}$) in $\vec{B} = 0.1 , \text{T}$ at $30^\circ$. Find $F$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$F = q v B \sin \theta = (1.6 \times 10^{-19}) \times (2 \times 10^6) \times 0.1 \times \sin 30^\circ = 1.6 \times 10^{-14} , \text{N}$.
+<ul>
+<li><strong>JEE Tip</strong>: $\sin 30^\circ = 0.5$; ensure $q$ is in coulombs, $v$ in m/s. Common error: Using incorrect $\theta$.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Main problem involves a wire with $I = 6 , \text{A}$, $L = 0.3 , \text{m}$, $\vec{B} = 0.2 , \text{T}$ at $45^\circ$. Find $F$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$F = I L B \sin \theta = 6 \times 0.3 \times 0.2 \times \sin 45^\circ = 6 \times 0.3 \times 0.2 \times \frac{\sqrt{2}}{2} \approx 0.2546 , \text{N}$.
+<ul>
+<li><strong>JEE Tip</strong>: $\sin 45^\circ = \frac{\sqrt{2}}{2} \approx 0.707$; round appropriately. Common error: Using degrees instead of radians in calculators.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Application</strong>: Magnetic fields apply to motors, MRI machines, and rocketry (e.g., magnetic navigation in spacecraft, aligning with your interest, April 19, 2025).</p>
+<h2 id="28-2-biot-savart-law-and-applications">28.2 Biot-Savart Law and Applications</h2>
+<p>The Biot-Savart law describes the magnetic field produced by a current element, a key tool for JEE/NEET problems.</p>
+<h3 id="biot-savart-law">Biot-Savart Law</h3>
+<p>The magnetic field $d\vec{B}$ at a point due to a current element $I d\vec{l}$ is:<br />
+$$
+d\vec{B} = \frac{\mu_0}{4 \pi} \frac{I (d\vec{l} \times \hat{r})}{r^2}
+$$</p>
+<ul>
+<li>$\mu_0 = 4 \pi \times 10^{-7} , \text{T·m/A}$: Permeability of free space.</li>
+<li>$I$: Current (A).</li>
+<li>$d\vec{l}$: Infinitesimal length element in the direction of current (m).</li>
+<li>$\vec{r}$: Vector from the current element to the field point (m), $\hat{r}$ is the unit vector, $r = |\vec{r}|$.</li>
+<li>Units of $d\vec{B}$: Tesla (T).</li>
+</ul>
+<h3 id="applications-of-biot-savart-law">Applications of Biot-Savart Law</h3>
+<ul>
+<li><strong>Straight Wire</strong>: For an infinite straight wire along the x-axis with current $I$, at a point $(0, a, 0)$, integrate along the wire. The field is:<br />
+$$
+B = \frac{\mu_0 I}{2 \pi a}
+$$</li>
+<li>Direction: Circular field lines around the wire (right-hand rule).</li>
+<li><strong>Circular Loop</strong>: At the center of a circular loop of radius $R$ with current $I$:<br />
+$$
+B = \frac{\mu_0 I}{2 R}
+$$</li>
+<li>Direction: Along the axis, perpendicular to the loop plane.</li>
+</ul>
+<p><strong>Derivation</strong>: <strong>Magnetic Field Due to an Infinite Straight Wire</strong><br />
+Consider an infinite wire along the x-axis with current $I$ in the positive x-direction. Find the field at point $(0, a, 0)$. The current element at position $(x, 0, 0)$ is $I d\vec{l} = I dx \hat{i}$. The vector from the element to the point is $\vec{r} = (0, a, 0) - (x, 0, 0) = (-x, a, 0)$, so $r = \sqrt{x^2 + a^2}$, $\hat{r} = \frac{(-x, a, 0)}{\sqrt{x^2 + a^2}}$. Compute the cross product: $d\vec{l} \times \hat{r} = (dx \hat{i}) \times \frac{(-x \hat{i} + a \hat{j})}{\sqrt{x^2 + a^2}} = \frac{dx a}{\sqrt{x^2 + a^2}} \hat{k}$. Using the Biot-Savart law:<br />
+$$
+d\vec{B} = \frac{\mu_0}{4 \pi} \frac{I \left( \frac{dx a}{\sqrt{x^2 + a^2}} \hat{k} \right)}{(x^2 + a^2)} = \frac{\mu_0 I a}{4 \pi (x^2 + a^2)^{3/2}} dx \hat{k}
+$$
+Integrate from $x = -\infty$ to $\infty$:<br />
+$$
+B = \int_{-\infty}^{\infty} \frac{\mu_0 I a}{4 \pi (x^2 + a^2)^{3/2}} dx \hat{k}
+$$
+The integral $\int_{-\infty}^{\infty} \frac{dx}{(x^2 + a^2)^{3/2}} = \frac{2}{a^2}$, so:<br />
+$$
+B = \frac{\mu_0 I a}{4 \pi} \cdot \frac{2}{a^2} = \frac{\mu_0 I}{2 \pi a} \hat{k}
+$$
+The field is in the $\hat{k}$ direction, magnitude $B = \frac{\mu_0 I}{2 \pi a}$.</p>
+<p><strong>Derivation</strong>: <strong>Magnetic Field in Rocket Sensor</strong><br />
+A spacecraft wire ($I = 5 , \text{A}$, at distance $a = 0.02 , \text{m}$) produces $B = \frac{(4 \pi \times 10^{-7}) \times 5}{2 \pi \times 0.02} = 5 \times 10^{-5} , \text{T}$, detected by a magnetic sensor for navigation (your interest, April 19, 2025).</p>
+<p><strong>Solved Example</strong>: A JEE Main problem involves an infinite wire with $I = 10 , \text{A}$ at a distance $a = 0.1 , \text{m}$. Find $B$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$B = \frac{\mu_0 I}{2 \pi a} = \frac{(4 \pi \times 10^{-7}) \times 10}{2 \pi \times 0.1} = 2 \times 10^{-5} , \text{T}$.
+<ul>
+<li><strong>JEE Tip</strong>: Use $\mu_0 = 4 \pi \times 10^{-7} , \text{T·m/A}$; field decreases as $1/r$. Common error: Forgetting the factor of 2 in the denominator.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A NEET problem involves a circular loop with $R = 0.05 , \text{m}$, $I = 2 , \text{A}$. Find $B$ at the center.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$B = \frac{\mu_0 I}{2 R} = \frac{(4 \pi \times 10^{-7}) \times 2}{2 \times 0.05} = 2.513 \times 10^{-5} , \text{T}$.
+<ul>
+<li><strong>NEET Tip</strong>: Field at the center of a loop is stronger for smaller $R$; use the right-hand rule for direction. Common error: Using the straight wire formula.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Advanced problem involves a wire segment $I = 3 , \text{A}$, $dl = 0.01 , \text{m}$, at $r = 0.2 , \text{m}$ (perpendicular). Find $dB$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$dB = \frac{\mu_0}{4 \pi} \frac{I dl \sin \theta}{r^2} = \frac{10^{-7} \times 3 \times 0.01 \times 1}{(0.2)^2} = 7.5 \times 10^{-9} , \text{T}$.
+<ul>
+<li><strong>JEE Tip</strong>: $\sin \theta = 1$ when perpendicular; $dB$ is small for a short segment. Common error: Incorrect angle.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Main problem involves a semi-infinite wire with $I = 4 , \text{A}$ at $a = 0.05 , \text{m}$. Find $B$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+A semi-infinite wire produces half the field of an infinite wire: $B = \frac{1}{2} \left( \frac{\mu_0 I}{2 \pi a} \right) = \frac{10^{-7} \times 4}{0.05} = 4 \times 10^{-6} , \text{T}$.
+<ul>
+<li><strong>JEE Tip</strong>: Semi-infinite wire field is half of infinite; direction depends on the segment. Common error: Using the full infinite wire formula.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Application</strong>: The Biot-Savart law applies to magnetic sensors, particle accelerators, and rocketry (e.g., magnetic field sensors in spacecraft, aligning with your interest, April 19, 2025).</p>
+<h2 id="28-3-ampere-s-law-and-its-applications">28.3 Ampere’s Law and Its Applications</h2>
+<p>Ampere’s law relates magnetic fields to currents, a powerful tool for JEE/NEET problems with symmetry.</p>
+<h3 id="ampere-s-law">Ampere’s Law</h3>
+<p>Ampere’s law states that the line integral of the magnetic field $\vec{B}$ around a closed loop equals $\mu_0$ times the current enclosed by the loop:<br />
+$$
+\oint \vec{B} \cdot d\vec{l} = \mu_0 I_{\text{enc}}
+$$</p>
+<ul>
+<li>$I_{\text{enc}}$: Total current passing through the loop (A).</li>
+<li>$d\vec{l}$: Infinitesimal path element along the loop (m).</li>
+<li>Symmetry is required to simplify the integral (e.g., circular paths for wires, solenoids).</li>
+</ul>
+<h3 id="applications-of-ampere-s-law">Applications of Ampere’s Law</h3>
+<ul>
+<li><strong>Infinite Straight Wire</strong>: Using a circular Amperian loop of radius $r$, $B (2 \pi r) = \mu_0 I$, so $B = \frac{\mu_0 I}{2 \pi r}$ (same as Biot-Savart).</li>
+<li><strong>Solenoid</strong>: For an ideal solenoid (infinite length, tightly wound) with $n$ turns per unit length, inside:<br />
+$$
+B = \mu_0 n I
+$$</li>
+<li>Outside an ideal solenoid, $B \approx 0$.</li>
+<li><strong>Toroid</strong>: Inside a toroid with $N$ total turns, radius $r$:<br />
+$$
+B = \frac{\mu_0 N I}{2 \pi r}
+$$</li>
+</ul>
+<p><strong>Derivation</strong>: <strong>Magnetic Field of an Infinite Straight Wire Using Ampere’s Law</strong><br />
+Consider an infinite straight wire along the z-axis with current $I$ in the positive z-direction. Choose an Amperian loop as a circle of radius $r$ centered on the wire, in the xy-plane. Due to symmetry, $\vec{B}$ is azimuthal (in the $\hat{\phi}$ direction), and $B$ is constant on the loop. The line element $d\vec{l} = r d\phi \hat{\phi}$, so $\vec{B} \cdot d\vec{l} = B (r d\phi)$. Integrate:<br />
+$$
+\oint \vec{B} \cdot d\vec{l} = \int_0^{2\pi} B (r d\phi) = B (2 \pi r)
+$$
+The enclosed current is $I_{\text{enc}} = I$. By Ampere’s law:<br />
+$$
+B (2 \pi r) = \mu_0 I \implies B = \frac{\mu_0 I}{2 \pi r}
+$$
+This matches the Biot-Savart result, confirming the field’s magnitude and direction (circular around the wire).</p>
+<p><strong>Derivation</strong>: <strong>Magnetic Field in Rocket Solenoid</strong><br />
+A spacecraft solenoid ($n = 1000 , \text{turns/m}$, $I = 0.2 , \text{A}$) has $B = \mu_0 n I = (4 \pi \times 10^{-7}) \times 1000 \times 0.2 = 2.513 \times 10^{-4} , \text{T}$, used for magnetic shielding (your interest, April 19, 2025).</p>
+<p><strong>Solved Example</strong>: A JEE Main problem involves an infinite wire with $I = 8 , \text{A}$ at $r = 0.04 , \text{m}$. Use Ampere’s law to find $B$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$B = \frac{\mu_0 I}{2 \pi r} = \frac{(4 \pi \times 10^{-7}) \times 8}{2 \pi \times 0.04} = 4 \times 10^{-5} , \text{T}$.
+<ul>
+<li><strong>JEE Tip</strong>: Ampere’s law requires symmetry; circular loops work for straight wires. Common error: Incorrect Amperian loop.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A NEET problem involves a solenoid with $n = 500 , \text{turns/m}$, $I = 3 , \text{A}$. Find $B$ inside.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$B = \mu_0 n I = (4 \pi \times 10^{-7}) \times 500 \times 3 = 1.885 \times 10^{-3} , \text{T}$.
+<ul>
+<li><strong>NEET Tip</strong>: Inside an ideal solenoid, $B$ is uniform; outside, $B \approx 0$. Common error: Using the wire formula.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Advanced problem involves a toroid with $N = 1000$ turns, $r = 0.1 , \text{m}$, $I = 1 , \text{A}$. Find $B$ inside.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$B = \frac{\mu_0 N I}{2 \pi r} = \frac{(4 \pi \times 10^{-7}) \times 1000 \times 1}{2 \pi \times 0.1} = 2 \times 10^{-3} , \text{T}$.
+<ul>
+<li><strong>JEE Tip</strong>: $B$ in a toroid varies with radius; use the mean radius. Common error: Assuming uniform $B$.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Main problem involves a solenoid with $n = 2000 , \text{turns/m}$, $I = 0.5 , \text{A}$. Find $B$ inside.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$B = \mu_0 n I = (4 \pi \times 10^{-7}) \times 2000 \times 0.5 = 1.257 \times 10^{-3} , \text{T}$.
+<ul>
+<li><strong>JEE Tip</strong>: $B$ is proportional to $n$ and $I$; ensure $n$ is in turns/m. Common error: Forgetting $\mu_0$.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Application</strong>: Ampere’s law applies to solenoids in MRI machines, transformers, and rocketry (e.g., magnetic shielding in spacecraft, aligning with your interest, April 19, 2025).</p>
+<h2 id="28-4-magnetic-fields-of-current-distributions">28.4 Magnetic Fields of Current Distributions</h2>
+<p>Magnetic fields due to specific current distributions are common in JEE/NEET problems, requiring both Biot-Savart and Ampere’s laws.</p>
+<h3 id="magnetic-field-due-to-a-finite-straight-wire">Magnetic Field Due to a Finite Straight Wire</h3>
+<p>For a finite wire of length $L$ along the x-axis from $-L/2$ to $L/2$ with current $I$, at a point $(0, a, 0)$, the field (via Biot-Savart) is:<br />
+$$
+B = \frac{\mu_0 I}{4 \pi a} \left( \sin \theta_2 - \sin \theta_1 \right)
+$$</p>
+<ul>
+<li>$\theta_1, \theta_2$: Angles subtended by the ends of the wire at the point.</li>
+</ul>
+<h3 id="magnetic-field-on-the-axis-of-a-circular-loop">Magnetic Field on the Axis of a Circular Loop</h3>
+<p>For a circular loop of radius $R$ with current $I$, at a point on the axis at distance $x$ from the center:<br />
+$$
+B = \frac{\mu_0 I R^2}{2 (R^2 + x^2)^{3/2}}
+$$</p>
+<ul>
+<li>At the center ($x = 0$), $B = \frac{\mu_0 I}{2 R}$.</li>
+</ul>
+<h3 id="magnetic-field-inside-a-long-cylindrical-conductor">Magnetic Field Inside a Long Cylindrical Conductor</h3>
+<p>For a solid cylindrical conductor of radius $a$ with uniform current $I$:</p>
+<ul>
+<li>Inside ($r &lt; a$): $B = \frac{\mu_0 I r}{2 \pi a^2}$.</li>
+<li>Outside ($r &gt; a$): $B = \frac{\mu_0 I}{2 \pi r}$.</li>
+</ul>
+<h3 id="magnetic-field-of-a-current-sheet">Magnetic Field of a Current Sheet</h3>
+<p>For an infinite current sheet with surface current density $K$ (A/m), the field is uniform on either side:<br />
+$$
+B = \frac{\mu_0 K}{2}
+$$</p>
+<p><strong>Derivation</strong>: <strong>Magnetic Field on the Axis of a Circular Loop</strong><br />
+Consider a loop of radius $R$ in the xy-plane with current $I$ in the $\hat{\phi}$ direction. Find $B$ at point $(0, 0, x)$. A current element $I d\vec{l} = I (R d\phi \hat{\phi})$ at $(R \cos \phi, R \sin \phi, 0)$. Vector to the point: $\vec{r} = (0, 0, x) - (R \cos \phi, R \sin \phi, 0) = (-R \cos \phi, -R \sin \phi, x)$, $r = \sqrt{R^2 + x^2}$. The field $d\vec{B}$ has components; only the z-component survives due to symmetry. After integration:<br />
+$$
+B_z = \frac{\mu_0 I R^2}{2 (R^2 + x^2)^{3/2}}
+$$</p>
+<p><strong>Derivation</strong>: <strong>Magnetic Field in Rocket Current Loop</strong><br />
+A spacecraft loop ($R = 0.03 , \text{m}$, $I = 1 , \text{A}$, $x = 0.04 , \text{m}$) has $B = \frac{(4 \pi \times 10^{-7}) \times 1 \times (0.03)^2}{2 ((0.03)^2 + (0.04)^2)^{3/2}} \approx 8.65 \times 10^{-6} , \text{T}$, used for magnetic sensing (your interest, April 19, 2025).</p>
+<p><strong>Solved Example</strong>: A JEE Main problem involves a loop with $R = 0.1 , \text{m}$, $I = 2 , \text{A}$, at $x = 0.1 , \text{m}$. Find $B$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$B = \frac{\mu_0 I R^2}{2 (R^2 + x^2)^{3/2}} = \frac{(4 \pi \times 10^{-7}) \times 2 \times (0.1)^2}{2 ((0.1)^2 + (0.1)^2)^{3/2}} = 1.77 \times 10^{-5} , \text{T}$.
+<ul>
+<li><strong>JEE Tip</strong>: At $x = R$, $B$ decreases; use symmetry for direction. Common error: Incorrect denominator.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A NEET problem involves a finite wire from $x = -0.1 , \text{m}$ to $0.1 , \text{m}$, $I = 5 , \text{A}$, at $y = 0.1 , \text{m}$. Find $B$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$\theta_1 = -45^\circ$, $\theta_2 = 45^\circ$, $B = \frac{\mu_0 I}{4 \pi a} (\sin 45^\circ - \sin (-45^\circ)) = \frac{10^{-7} \times 5}{0.1} \times \sqrt{2} \approx 7.07 \times 10^{-6} , \text{T}$.
+<ul>
+<li><strong>NEET Tip</strong>: Use geometry to find angles; field is less than infinite wire. Common error: Incorrect angles.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Advanced problem involves a cylinder of radius $a = 0.02 , \text{m}$, $I = 10 , \text{A}$, at $r = 0.01 , \text{m}$. Find $B$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$B = \frac{\mu_0 I r}{2 \pi a^2} = \frac{(4 \pi \times 10^{-7}) \times 10 \times 0.01}{2 \pi \times (0.02)^2} = 5 \times 10^{-5} , \text{T}$.
+<ul>
+<li><strong>JEE Tip</strong>: Inside a cylinder, $B \propto r$; outside, $B \propto 1/r$. Common error: Using the outside formula.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Main problem involves a current sheet with $K = 1000 , \text{A/m}$. Find $B$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$B = \frac{\mu_0 K}{2} = \frac{(4 \pi \times 10^{-7}) \times 1000}{2} = 6.283 \times 10^{-4} , \text{T}$.
+<ul>
+<li><strong>JEE Tip</strong>: Field is uniform for an infinite sheet; direction depends on the right-hand rule. Common error: Forgetting the factor of 2.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Application</strong>: Current distributions apply to solenoids, toroids, and rocketry (e.g., magnetic sensors in spacecraft, aligning with your interest, April 19, 2025).</p>
+<h2 id="summary-and-quick-revision">Summary and Quick Revision</h2>
+<ul>
+<li><strong>Magnetic Field</strong>: $\vec{F} = q (\vec{v} \times \vec{B})$, units: T. Field lines form closed loops.</li>
+<li><strong>Biot-Savart Law</strong>: $d\vec{B} = \frac{\mu_0}{4 \pi} \frac{I (d\vec{l} \times \hat{r})}{r^2}$, straight wire: $B = \frac{\mu_0 I}{2 \pi r}$, loop center: $B = \frac{\mu_0 I}{2 R}$.</li>
+<li><strong>Ampere’s Law</strong>: $\oint \vec{B} \cdot d\vec{l} = \mu_0 I_{\text{enc}}$, solenoid: $B = \mu_0 n I$, toroid: $B = \frac{\mu_0 N I}{2 \pi r}$.</li>
+<li><strong>Current Distributions</strong>: Finite wire: $B = \frac{\mu_0 I}{4 \pi a} (\sin \theta_2 - \sin \theta_1)$, loop axis: $B = \frac{\mu_0 I R^2}{2 (R^2 + x^2)^{3/2}}$, cylinder inside: $B = \frac{\mu_0 I r}{2 \pi a^2}$.</li>
+<li><strong>Applications</strong>: Sensors, solenoids, spacecraft navigation.</li>
+<li><strong>JEE/NEET Tips</strong>: Use right-hand rule for directions, apply symmetry with Ampere’s law, integrate carefully with Biot-Savart, verify significant figures (April 14, 2025).</li>
+<li><strong>SI Units</strong>: Magnetic field (T), current (A), length (m), permeability ($\text{T·m/A}$).</li>
+</ul>
+<h2 id="practice-problems">Practice Problems</h2>
+<p>Explore our problem set with <strong>100 problems</strong> inspired by JEE Main, JEE Advanced, and NEET patterns to test your understanding.</p>
+<p><a href="https://vidyamarg.com/books/physics/v1/magnetic-fields/./problems">View Problems</a></p>
+<h2 id="watch-on-youtube">Watch on YouTube</h2>
+<p>Our Hinglish video lessons make electromagnetism engaging! Subscribe for updates.</p>
+<p><a href="https://www.youtube.com/@VidyaMargbyRaviShankar-w9u">Watch Now</a></p>
+<p><em>Animation for visualizing magnetic field lines, solenoid fields, and toroid fields coming soon!</em></p>
+<p><em>Note: Content regularly updated to align with current JEE/NEET syllabi.</em></p>
+
+        </article>
+    </div>
+
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container text-center py-5">
+            <ul class="social-list list-unstyled pt-4 mb-0">
+                
+                    <li class="list-inline-item">
+                        <a href="https:&#x2F;&#x2F;www.youtube.com&#x2F;@VidyaMargbyRaviShankar-w9u" target="_blank" title="YouTube"><i class="fab fa-youtube fa-fw"></i></a>
+                    </li>
+                
+                    <li class="list-inline-item">
+                        <a href="https:&#x2F;&#x2F;t.me&#x2F;vidyamarg1" target="_blank" title="Telegram"><i class="fab fa-telegram fa-fw"></i></a>
+                    </li>
+                
+            </ul>
+            <small class="copyright">
+                © 2025 Vidya Marg. Designed with <span class="sr-only">love</span><i class="fas fa-heart" style="color: #fb866a;"></i> by <a class="theme-link" href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers. <a class="theme-link" href="/app/privacy-policy/">Privacy Policy</a>
+            </small>
+        </div>
+    </footer>
+
+    <!-- Javascript -->          
+    <script src="https://vidyamarg.com/plugins/popper.min.js"></script>
+    <script src="https://vidyamarg.com/plugins/bootstrap/js/bootstrap.min.js"></script>  
+    
+    <!-- Page Specific JS -->
+    <script src="https://vidyamarg.com/plugins/smoothscroll.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
+    <script src="https://vidyamarg.com/js/highlight-custom.js"></script> 
+    <script src="https://vidyamarg.com/plugins/simplelightbox/simple-lightbox.min.js"></script>      
+    <script src="https://vidyamarg.com/plugins/gumshoe/gumshoe.polyfills.min.js"></script> 
+    <script src="https://vidyamarg.com/js/docs.js"></script> 
+
+    <script>
+        function renderLatex() {
+            if (typeof renderMathInElement === "undefined") {
+                setTimeout(renderLatex, 100);
+                return;
+            }
+            renderMathInElement(document.body, {
+                delimiters: [
+                    { left: "$$", right: "$$", display: true },
+                    { left: "$", right: "$", display: false },
+                    { left: "\\(", right: "\\)", display: false },
+                    { left: "\\[", right: "\\]", display: true }
+                ],
+                throwOnError: false
+            });
+        }
+
+        window.addEventListener("load", function() {
+            renderLatex();
+        });
+    </script>
+</body>
+</html>

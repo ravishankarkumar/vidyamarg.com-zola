@@ -1,7 +1,7 @@
 ---
 title: Physics Book - Induction and Inductance Solutions for JEE & NEET
 description: Sample solutions for induction and inductance problems, covering Faraday’s law, Lenz’s law, self and mutual inductance, and circuit applications, tailored for JEE and NEET preparation.
-slug: books/physics/induction-inductance/solutions
+slug: solutions
 keywords: physics induction inductance solutions, JEE physics Faraday’s law solutions, NEET physics inductance solutions, electromagnetism
 og:image: https://vidyamarg.com/og-physics-induction-inductance.jpg
 ---
@@ -187,6 +187,6 @@ Round to two decimal places: $6.28 \times 10^{-4} \, \text{H}$. The answer is (a
 - **JEE/NEET Tip**: Ensure units are consistent ($A$ in $\text{m}^2$, $l$ in m); $L$ in henry. Common error: Forgetting to square $N$.
 
 ## Back to Chapter
-[Return to Induction and Inductance Chapter](./index.md)
+[Return to Induction and Inductance Chapter](../../induction-inductance)
 
-[Return to Induction and Inductance Problems](./problems.md)
+[Return to Induction and Inductance Problems](../../induction-inductance/problems)

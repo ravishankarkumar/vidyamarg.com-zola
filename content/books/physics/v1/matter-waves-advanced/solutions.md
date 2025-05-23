@@ -1,7 +1,7 @@
 ---
 title: Physics Book - More About Matter Waves Solutions for JEE & NEET
 description: Sample solutions for advanced matter waves problems, covering wave functions, particle in a box, quantum tunneling, and uncertainty principle, tailored for JEE and NEET preparation.
-slug: books/physics/matter-waves-advanced/solutions
+slug: solutions
 keywords: physics matter waves advanced solutions, JEE physics wave function solutions, NEET physics quantum tunneling solutions, uncertainty principle
 og:image: https://vidyamarg.com/og-physics-matter-waves-advanced.jpg
 ---
@@ -241,6 +241,6 @@ The answer is (b) 0.365.
 - **JEE/NEET Tip**: Reuse $\kappa$ calculations when possible; tunneling probability is sensitive to small changes in $a$. Common error: Incorrect exponent calculation or rounding errors.
 
 ## Back to Chapter
-[Return to More About Matter Waves Chapter](./index.md)
+[Return to More About Matter Waves Chapter](../../matter-waves-advanced)
 
-[Return to More About Matter Waves Problems](./problems.md)
+[Return to More About Matter Waves Problems](../../matter-waves-advanced/problems)

@@ -1,7 +1,7 @@
 ---
 title: Physics Book - Photons and Matter Waves Solutions for JEE & NEET
 description: Sample solutions for photons and matter waves problems, covering photon properties, photoelectric effect, de Broglie waves, and wave-particle duality, tailored for JEE and NEET preparation.
-slug: books/physics/photons-matter-waves/solutions
+slug: solutions
 keywords: physics photons matter waves solutions, JEE physics photoelectric effect solutions, NEET physics de Broglie waves solutions, wave-particle duality
 og:image: https://vidyamarg.com/og-physics-photons-matter-waves.jpg
 ---
@@ -191,6 +191,6 @@ Round to three decimal places: 0.364 nm. The answer is (b) 0.364 nm.
 - **JEE/NEET Tip**: Compute $p$ first, then $\lambda$; convert to nm ($1 \, \text{nm} = 10^{-9} \, \text{m}$). Common error: Using incorrect mass or velocity units.
 
 ## Back to Chapter
-[Return to Photons and Matter Waves Chapter](./index.md)
+[Return to Photons and Matter Waves Chapter](../../photons-matter-waves)
 
-[Return to Photons and Matter Waves Problems](./problems.md)
+[Return to Photons and Matter Waves Problems](../../photons-matter-waves/problems)

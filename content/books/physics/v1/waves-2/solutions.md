@@ -1,7 +1,7 @@
 ---
 title: Physics Book - Waves—II Solutions for JEE & NEET
 description: Sample solutions for advanced wave problems, covering sound waves, Doppler effect, wave intensity, shock waves, and applications, tailored for JEE and NEET preparation.
-slug: books/physics/waves-2/solutions
+slug: solutions
 keywords: physics waves solutions, JEE physics sound waves solutions, NEET physics Doppler effect solutions, shock waves
 og:image: https://vidyamarg.com/og-physics-waves-2.jpg
 ---
@@ -170,6 +170,6 @@ The answer is (c) $4.90 \times 10^{-5} \, \text{W/m}^2$.
 - **JEE/NEET Tip**: Intensity scales with $p_0^2$; units work out to W/m² (Pa² over kg/m³·m/s). Common error: Forgetting the factor of 2, doubling the intensity.
 
 ## Back to Chapter
-[Return to Waves—II Chapter](./index.md)
+[Return to Waves—II Chapter](../../waves-2)
 
-[Return to Waves—II Problems](./problems.md)
+[Return to Waves—II Problems](../../waves-2/problems)

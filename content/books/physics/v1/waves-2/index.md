@@ -1,14 +1,26 @@
 ---
 title: Physics Book - Waves—II for JEE & NEET
 description: Comprehensive guide on advanced wave phenomena for JEE and NEET, covering sound waves, Doppler effect, wave intensity, shock waves, and applications, with extensive examples.
-slug: books/physics/waves-2
+slug: waves-2
 keywords: physics waves, JEE physics sound waves, NEET physics Doppler effect, shock waves
 og:image: https://vidyamarg.com/og-physics-waves-2.jpg
 ---
 
 # Chapter 17: Waves—II
 
-**Beta Version**: Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!
+
+
+<div class="callout-block callout-warning">
+    <div class="content">
+        <h4 class="callout-title">
+            <span class="callout-icon-holder me-1">
+                <i class="fas fa-exclamation-triangle"></i>
+            </span>
+            Beta Version
+        </h4>
+        <p>Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!</p>
+    </div>
+</div>
 
 Waves play a crucial role in understanding phenomena from the sound of a rocket launch to the tracking of its speed using radar. Building on the foundational wave concepts from Chapter 16 (Waves—I), this chapter explores advanced topics in wave mechanics. For JEE Main, JEE Advanced, and NEET students, mastering these concepts is essential, as they frequently appear in problems involving sound, motion, and high-speed phenomena. This chapter, **Waves—II**, covers **sound waves and their properties**, **the Doppler effect**, **wave intensity and the inverse square law**, and **shock waves and applications**, providing detailed explanations, derivations, solved examples, and practical applications to ensure conceptual clarity and problem-solving proficiency.
 
@@ -265,7 +277,7 @@ Shock waves dissipate energy via compression and heat. The entropy increase acro
 ## Practice Problems
 Explore our problem set with **100 problems** inspired by JEE Main, JEE Advanced, and NEET patterns to test your understanding.
 
-[View Problems](./problems.md)
+[View Problems](./problems)
 
 ## Watch on YouTube
 Our Hinglish video lessons make waves engaging! Subscribe for updates.

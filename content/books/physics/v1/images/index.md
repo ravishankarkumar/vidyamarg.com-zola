@@ -1,14 +1,26 @@
 ---
 title: Physics Book - Images for JEE & NEET
 description: Comprehensive guide on image formation for JEE and NEET, covering reflection, refraction, mirrors, lenses, and optical instruments, with extensive examples.
-slug: books/physics/images
+slug: images
 keywords: physics images, JEE physics geometric optics, NEET physics lenses, ray optics
 og:image: https://vidyamarg.com/og-physics-images.jpg
 ---
 
 # Chapter 34: Images
 
-**Beta Version**: Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!
+
+
+<div class="callout-block callout-warning">
+    <div class="content">
+        <h4 class="callout-title">
+            <span class="callout-icon-holder me-1">
+                <i class="fas fa-exclamation-triangle"></i>
+            </span>
+            Beta Version
+        </h4>
+        <p>Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!</p>
+    </div>
+</div>
 
 Image formation through mirrors and lenses is fundamental to understanding optical systems, like those used in spacecraft navigation. Building on the concepts of electromagnetic waves from Chapter 33, this chapter explores geometric optics and image formation. For JEE Main, JEE Advanced, and NEET students, mastering image formation is essential, as it frequently appears in problems involving mirrors, lenses, and optical instruments. This chapter, **Images**, covers **reflection and mirrors**, **refraction and lenses**, **optical instruments**, and **sign convention and magnification**, providing detailed explanations, derivations, solved examples, and practical applications to ensure conceptual clarity and problem-solving proficiency.
 
@@ -306,7 +318,7 @@ A spacecraft lens ($f = 0.3 \, \text{m}$, $u = 0.6 \, \text{m}$) forms an image:
 ## Practice Problems
 Explore our problem set with **100 problems** inspired by JEE Main, JEE Advanced, and NEET patterns to test your understanding.
 
-[View Problems](./problems.md)
+[View Problems](./problems)
 
 ## Watch on YouTube
 Our Hinglish video lessons make optics engaging! Subscribe for updates.

@@ -1,14 +1,26 @@
 ---
 title: Physics Book - Energy from the Nucleus for JEE & NEET
 description: Comprehensive guide on nuclear energy for JEE and NEET, covering fission, fusion, nuclear reactors, applications like nuclear power, and challenges, with extensive examples.
-slug: books/physics/nuclear-energy
+slug: nuclear-energy
 keywords: physics nuclear energy, JEE physics nuclear fission, NEET physics nuclear reactors, nuclear power applications
 og:image: https://vidyamarg.com/og-physics-nuclear-energy.jpg
 ---
 
 # Chapter 43: Energy from the Nucleus
 
-**Beta Version**: Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!
+
+
+<div class="callout-block callout-warning">
+    <div class="content">
+        <h4 class="callout-title">
+            <span class="callout-icon-holder me-1">
+                <i class="fas fa-exclamation-triangle"></i>
+            </span>
+            Beta Version
+        </h4>
+        <p>Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!</p>
+    </div>
+</div>
 
 Nuclear energy, pivotal for applications like nuclear propulsion in spacecraft, offers immense potential as a power source. Building on nuclear physics (Chapter 42), this chapter explores how energy is harnessed from the nucleus. For JEE Main, JEE Advanced, and NEET students, mastering nuclear energy is essential, as it frequently appears in problems involving fission, fusion, and reactor physics. This chapter, **Energy from the Nucleus**, covers **energy release in fission and fusion**, **nuclear reactors**, **applications of nuclear energy**, and **challenges and future prospects**, providing detailed explanations, derivations, solved examples, and practical applications to ensure conceptual clarity and problem-solving proficiency.
 
@@ -242,7 +254,7 @@ A spacecraft fusion engine produces 1 GW, $Q = 17.6 \, \text{MeV}$, fusion rate:
 ## Practice Problems
 Explore our problem set with **100 problems** inspired by JEE Main, JEE Advanced, and NEET patterns to test your understanding.
 
-[View Problems](./problems.md)
+[View Problems](./problems)
 
 ## Watch on YouTube
 Our Hinglish video lessons make nuclear energy engaging! Subscribe for updates.

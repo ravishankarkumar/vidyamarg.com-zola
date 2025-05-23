@@ -1,14 +1,26 @@
 ---
 title: Physics Book - Quarks, Leptons, and the Big Bang for JEE & NEET
 description: Comprehensive guide on particle physics and cosmology for JEE and NEET, covering quarks, leptons, the Standard Model, and the Big Bang, with extensive examples.
-slug: books/physics/quarks-leptons
+slug: quarks-leptons
 keywords: physics quarks leptons, JEE physics standard model, NEET physics big bang, particle physics cosmology
 og:image: https://vidyamarg.com/og-physics-quarks-leptons.jpg
 ---
 
 # Chapter 44: Quarks, Leptons, and the Big Bang
 
-**Beta Version**: Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!
+
+
+<div class="callout-block callout-warning">
+    <div class="content">
+        <h4 class="callout-title">
+            <span class="callout-icon-holder me-1">
+                <i class="fas fa-exclamation-triangle"></i>
+            </span>
+            Beta Version
+        </h4>
+        <p>Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!</p>
+    </div>
+</div>
 
 Particle physics and cosmology, essential for understanding cosmic rays affecting spacecraft electronics, reveal the universe's fundamental building blocks and origins. Building on nuclear physics (Chapter 42) and nuclear energy (Chapter 43), this chapter explores the subatomic world and the universe's earliest moments. For JEE Main, JEE Advanced, and NEET students, mastering these topics is crucial, as they frequently appear in problems involving particle interactions, conservation laws, and cosmological events. This chapter, **Quarks, Leptons, and the Big Bang**, covers **fundamental particles: quarks and leptons**, **particle interactions and forces**, **the Standard Model**, and **the Big Bang and early universe**, providing detailed explanations, derivations, solved examples, and practical applications to ensure conceptual clarity and problem-solving proficiency.
 
@@ -236,7 +248,7 @@ A spacecraft measures CMB temperature (2.7 K), with Doppler shifts due to motion
 ## Practice Problems
 Explore our problem set with **100 problems** inspired by JEE Main, JEE Advanced, and NEET patterns to test your understanding.
 
-[View Problems](./problems.md)
+[View Problems](./problems)
 
 ## Watch on YouTube
 Our Hinglish video lessons make particle physics and cosmology engaging! Subscribe for updates.

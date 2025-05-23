@@ -1,7 +1,7 @@
 ---
 title: Physics Book - Motion Along a Straight Line Solutions for JEE & NEET
 description: Sample solutions for motion along a straight line problems, covering displacement, velocity, acceleration, kinematic equations, and free fall, tailored for JEE and NEET preparation.
-slug: books/physics/motion-straight-line/solutions
+slug: solutions
 keywords: physics motion solutions, JEE physics kinematics solutions, NEET physics motion solutions, kinematic equations
 og:image: https://vidyamarg.com/og-physics-motion-straight-line.jpg
 ---
@@ -148,6 +148,6 @@ The answer is (b) $11 \, m$.
 - **JEE/NEET Tip**: Set final velocity to zero at maximum height; use $g$ as negative for upward motion. Common error: Using positive $g$ (April 14, 2025).
 
 ## Back to Chapter
-[Return to Motion Along a Straight Line Chapter](./index.md)
+[Return to Motion Along a Straight Line Chapter](../../motion-straight-line)
 
-[Return to Motion Along a Straight Line Problems](./problems.md)
+[Return to Motion Along a Straight Line Problems](../../motion-straight-line/problems)

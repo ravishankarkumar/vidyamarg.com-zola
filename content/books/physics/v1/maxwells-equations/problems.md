@@ -1,7 +1,7 @@
 ---
 title: Physics Book - Maxwell’s Equations; Magnetism of Matter Problems for JEE & NEET
 description: Practice 100 problems on Maxwell’s equations and magnetism of matter for JEE and NEET, inspired by exam patterns, covering Gauss’s laws, Faraday’s law, Ampere-Maxwell law, and magnetic properties of materials.
-slug: books/physics/maxwells-equations/problems
+slug: problems
 keywords: physics Maxwell’s equations problems, JEE physics magnetism of matter problems, NEET physics electromagnetic theory problems, electromagnetism
 og:image: https://vidyamarg.com/og-physics-maxwells-equations.jpg
 ---
@@ -569,4 +569,4 @@ This section provides **100 problems** to test your understanding of Maxwell’s
     - (d) $2.54 \times 10^{-2} \, \text{T}$
 
 ## Back to Chapter
-[Return to Maxwell’s Equations; Magnetism of Matter Chapter](./index.md)
+[Return to Maxwell’s Equations; Magnetism of Matter Chapter](../../maxwells-equations)

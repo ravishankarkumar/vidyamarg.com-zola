@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <title>Vidya Marg | Physics Book - Circuits for JEE &amp; NEET</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Comprehensive guide on circuits for JEE and NEET, covering Kirchhoff&#x27;s laws, series and parallel resistors, capacitors in circuits, RC circuits, and applications in DC circuits, with extensive examples.">
+    <meta name="keywords" content="JEE physics book, NEET physics book, physics book, physics for JEE and NEET">
+    <meta property="og:image" content="https://vidyamarg.com/og-physics-book.jpg">
+    <link rel="canonical" href="https:&#x2F;&#x2F;vidyamarg.com&#x2F;books&#x2F;physics&#x2F;v1&#x2F;circuits&#x2F;">
+    <link rel="shortcut icon" href="https://vidyamarg.com/logos/maroon-bg-logo-128.ico">
+    
+    <!-- Preload Google Font -->
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" as="style">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript>
+        <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
+    </noscript>
+    
+    <!-- FontAwesome JS -->
+    <script defer src="https://vidyamarg.com/fontawesome/js/all.min.js"></script>
+
+    <!-- KaTeX for LaTeX rendering -->
+    <link rel="stylesheet" href="https://vidyamarg.com/katex/katex.min.css">
+    <script src="https://vidyamarg.com/katex/katex.min.js"></script>
+    <script src="https://vidyamarg.com/katex/auto-render.min.js"></script>
+
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.2/styles/atom-one-dark.min.css">
+    <link rel="stylesheet" href="https://vidyamarg.com/plugins/simplelightbox/simple-lightbox.min.css">
+
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="https://vidyamarg.com/css/theme.css">
+    <link rel="stylesheet" href="https://vidyamarg.com/css/custom.css" />
+</head> 
+
+<body>    
+    <header class="header fixed-top">
+        <div class="branding docs-branding">
+            <div class="container-fluid position-relative py-2">
+                <div class="docs-logo-wrapper">
+                    
+                    
+                    
+                    <button id="docs-sidebar-toggler" class="docs-sidebar-toggler docs-sidebar-visible me-2 d-xl-none" type="button">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    
+                    <div class="site-logo">
+                        <a class="navbar-brand" href="https://vidyamarg.com">
+                            <img class="logo-icon me-2" src="https://vidyamarg.com/logos/maroon-bg-logo-1024.png" alt="logo">
+                            <span class="logo-text">Vidya Marg</span>
+                        </a>
+                    </div>    
+                </div>
+                <div class="docs-top-utilities d-flex justify-content-end align-items-center">
+                    <ul class="nav-list list-inline mb-0 d-none d-lg-flex">
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;">Home</a>
+                            </li>
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics (Youtube series)</a>
+                            </li>
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;">Books</a>
+                            </li>
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;app&#x2F;">App</a>
+                            </li>
+                        
+                        
+                            
+                                <li class="list-inline-item">
+                                    <a href="https:&#x2F;&#x2F;www.youtube.com&#x2F;@VidyaMargbyRaviShankar-w9u" title="YouTube"><i class="fab fa-youtube fa-fw"></i></a>
+                                </li>
+                            
+                                <li class="list-inline-item">
+                                    <a href="https:&#x2F;&#x2F;t.me&#x2F;vidyamarg1" title="Telegram"><i class="fab fa-telegram fa-fw"></i></a>
+                                </li>
+                            
+                        
+                    </ul>
+                    <!-- Mobile Menu Button -->
+                    <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#mobileNav" aria-controls="mobileNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </div>
+            <!-- Mobile Menu -->
+            <div class="collapse navbar-collapse d-lg-none" id="mobileNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;">Home</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics (Youtube series)</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;books&#x2F;">Books</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;app&#x2F;">App</a>
+                        </li>
+                    
+                    
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="https:&#x2F;&#x2F;www.youtube.com&#x2F;@VidyaMargbyRaviShankar-w9u"><i class="fab fa-youtube fa-fw"></i> YouTube</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="https:&#x2F;&#x2F;t.me&#x2F;vidyamarg1"><i class="fab fa-telegram fa-fw"></i> Telegram</a>
+                            </li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="docs-wrapper">
+        
+        
+        
+        <div id="docs-sidebar" class="docs-sidebar">
+            <nav id="docs-nav" class="docs-nav navbar">
+                
+                    
+                        
+
+<ul class="nav flex-column">
+    <!-- Navigation Menu (visible only in mobile view) -->
+    <li class="nav-item d-lg-none">
+        <span class="nav-link">Navigation</span>
+        <ul class="nav flex-column">
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;">Home</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics (Youtube series)</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;books&#x2F;">Books</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;app&#x2F;">App</a>
+                </li>
+            
+        </ul>
+    </li>
+
+    <!-- JEE/NEET Physics Section -->
+    
+    <li class="nav-item">
+        <span class="nav-link">Physics for JEE&#x2F;NEET</span>
+        <ul class="nav flex-column">
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics for JEE&#x2F;NEET</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;maths-basics-for-physics&#x2F;">Maths Basics for Physics</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;units-and-dimensions&#x2F;">Units and Dimensions</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;physical-quantities-and-si-units&#x2F;">Physical Quantities and SI Units</a>
+                </li>
+            
+        </ul>
+    </li>
+
+    <!-- Books Section -->
+    
+    <li class="nav-item">
+        <span class="nav-link">Books</span>
+        <ul class="nav flex-column">
+            <!-- JEE/NEET Physics Book (Version 1) -->
+            
+            <li class="nav-item">
+                <a class="nav-link" href="/books/physics/v1/">Physics Book</a>
+                
+                    <ul class="nav flex-column">
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;measurement&#x2F;">Measurement</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;motion-straight-line&#x2F;">Motion Along a Straight Line</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;vectors&#x2F;">Vectors</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;motion-2d-3d&#x2F;">Motion in Two and Three Dimensions</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;force-motion-1&#x2F;">Force and Motion—I</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;force-motion-2&#x2F;">Force and Motion—II</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;kinetic-energy-work&#x2F;">Kinetic Energy and Work</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;potential-energy-conservation&#x2F;">Potential Energy and Conservation of Energy</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;center-mass-momentum&#x2F;">Center of Mass and Linear Momentum</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;rotation&#x2F;">Rotation</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;rolling-torque-angular-momentum&#x2F;">Rolling, Torque, and Angular Momentum</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;equilibrium-elasticity&#x2F;">Equilibrium and Elasticity</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;gravitation&#x2F;">Gravitation</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;fluids&#x2F;">Fluids</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;oscillations&#x2F;">Oscillations</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;waves-1&#x2F;">Waves—I</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;waves-2&#x2F;">Waves—II</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;kinetic-theory-gases&#x2F;">The Kinetic Theory of Gases</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;thermodynamics-temperature-heat&#x2F;">Temperature, Heat, and the First Law of Thermodynamics</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;entropy-thermodynamics&#x2F;">Entropy and the Second Law of Thermodynamics</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electric-fields&#x2F;">Electric Fields</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;gauss-law&#x2F;">Gauss’s Law</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electric-potential&#x2F;">Electric Potential</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;capacitance&#x2F;">Capacitance</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;current-resistance&#x2F;">Current and Resistance</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;circuits&#x2F;">Circuits</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;magnetic-fields&#x2F;">Magnetic Fields</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;magnetic-fields-currents&#x2F;">Magnetic Fields Due to Currents</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;induction-inductance&#x2F;">Induction and Inductance</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electromagnetic-oscillations-ac&#x2F;">Electromagnetic Oscillations and Alternating Current</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electromagnetic-waves&#x2F;">Electromagnetic Waves</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;images&#x2F;">Images</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;interference&#x2F;">Interference</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;diffraction&#x2F;">Diffraction</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;photons-matter-waves&#x2F;">Photons and Matter Waves</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;matter-waves-advanced&#x2F;">More About Matter Waves</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;atoms&#x2F;">All About Atoms</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;nuclear-physics&#x2F;">Nuclear Physics</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;nuclear-energy&#x2F;">Energy from the Nucleus</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;quarks-leptons&#x2F;">Quarks, Leptons, and the Big Bang</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;relativity&#x2F;">Relativity</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;conduction-solids&#x2F;">Conduction of Electricity in Solids</a>
+                            </li>
+                        
+                    </ul>
+                
+            </li>
+        </ul>
+    </li>
+</ul>
+                    
+                
+            </nav>
+        </div>
+        
+
+        <div class="docs-content">
+            
+    <div class="docs-main">
+        <article class="docs-article">
+            <h1 id="chapter-27-circuits">Chapter 27: Circuits</h1>
+<div class="callout-block callout-warning">
+    <div class="content">
+        <h4 class="callout-title">
+            <span class="callout-icon-holder me-1">
+                <i class="fas fa-exclamation-triangle"></i>
+            </span>
+            Beta Version
+        </h4>
+        <p>Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!</p>
+    </div>
+</div>
+<p>Circuits are the backbone of electrical systems, enabling applications like spacecraft power distribution for ion propulsion. Building on the concepts of current, resistance, and capacitance from Chapters 25–26, this chapter explores DC circuits in depth. For JEE Main, JEE Advanced, and NEET students, mastering circuit analysis is essential, as these topics frequently appear in problems involving voltage, current, and time-dependent behavior. This chapter, <strong>Circuits</strong>, covers <strong>Kirchhoff's laws and electromotive force</strong>, <strong>series and parallel resistors</strong>, <strong>capacitors in DC circuits</strong>, and <strong>RC circuits and time constants</strong>, providing detailed explanations, derivations, solved examples, and practical applications to ensure conceptual clarity and problem-solving proficiency.</p>
+<h2 id="27-1-kirchhoff-s-laws-and-electromotive-force">27.1 Kirchhoff's Laws and Electromotive Force</h2>
+<p>Kirchhoff's laws provide the foundation for analyzing circuits, a key skill for JEE/NEET problems involving complex networks.</p>
+<h3 id="electromotive-force-emf">Electromotive Force (EMF)</h3>
+<p>Electromotive force (emf, $\mathcal{E}$) is the energy provided per unit charge by a source (e.g., battery) to drive current through a circuit:<br />
+$$
+\mathcal{E} = \frac{W}{q}
+$$</p>
+<ul>
+<li>Units: Volts (V), $1 , \text{V} = 1 , \text{J/C}$.</li>
+<li>A real source has internal resistance $r$, so terminal voltage $V$ is:<br />
+$$
+V = \mathcal{E} - I r
+$$</li>
+<li>$I$: Current (A).</li>
+<li>$r$: Internal resistance ($\Omega$).</li>
+</ul>
+<h3 id="kirchhoff-s-first-law-junction-rule">Kirchhoff's First Law (Junction Rule)</h3>
+<p>At any junction, the sum of currents entering equals the sum of currents leaving (conservation of charge):<br />
+$$
+\sum I_{\text{in}} = \sum I_{\text{out}}
+$$</p>
+<h3 id="kirchhoff-s-second-law-loop-rule">Kirchhoff's Second Law (Loop Rule)</h3>
+<p>The sum of potential differences around a closed loop is zero (conservation of energy):<br />
+$$
+\sum V = 0
+$$</p>
+<ul>
+<li>Potential drops across resistors: $V = I R$ (in the direction of current, a drop; opposite, a rise).</li>
+<li>Potential across an emf source: $V = \mathcal{E}$ (rise from negative to positive terminal; drop if opposite).</li>
+</ul>
+<h3 id="applications">Applications</h3>
+<ul>
+<li>Solve for unknown currents and voltages in multi-loop circuits.</li>
+<li>Analyze circuits with multiple sources and resistors.</li>
+</ul>
+<p><strong>Derivation</strong>: <strong>Kirchhoff's First Law</strong><br />
+Charge conservation implies that charge cannot accumulate at a junction in a steady-state circuit. If $I_1$ and $I_2$ enter a junction, and $I_3$ and $I_4$ leave, the rate of charge entering ($I_1 + I_2$) equals the rate leaving ($I_3 + I_4$): $I_1 + I_2 = I_3 + I_4$.</p>
+<p><strong>Derivation</strong>: <strong>Kirchhoff's Second Law</strong><br />
+Energy conservation in a conservative field (electric field here) means the total work done around a closed loop is zero. In a loop, sum potential rises (e.g., across emf sources) and drops (e.g., across resistors): $\sum V = 0$. For a battery with emf $\mathcal{E}$ and resistor $R$, loop rule gives $\mathcal{E} - I R = 0$.</p>
+<p><strong>Derivation</strong>: <strong>Terminal Voltage with Internal Resistance</strong><br />
+A battery with emf $\mathcal{E}$ and internal resistance $r$ drives current $I$. The potential drop across $r$ is $I r$. The terminal voltage is the emf minus this drop: $V = \mathcal{E} - I r$.</p>
+<p><strong>Derivation</strong>: <strong>Circuit in Rocket System</strong><br />
+In a spacecraft circuit, a battery ($\mathcal{E} = 12 , \text{V}$, $r = 0.5 , \Omega$) drives $I = 2 , \text{A}$ through an external resistor. Terminal voltage: $V = 12 - 2 \times 0.5 = 11 , \text{V}$, powering ion propulsion systems (your interest, April 19, 2025).</p>
+<p><strong>Solved Example</strong>: A JEE Main problem involves a junction with $I_1 = 3 , \text{A}$ and $I_2 = 2 , \text{A}$ entering, $I_3 = 4 , \text{A}$ leaving. Find $I_4$ (leaving).</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+Kirchhoff's first law: $I_1 + I_2 = I_3 + I_4$, so $3 + 2 = 4 + I_4$, $I_4 = 5 - 4 = 1 , \text{A}$.
+<ul>
+<li><strong>JEE Tip</strong>: Define current directions; sum entering = sum leaving. Common error: Ignoring direction of currents.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A NEET problem involves a loop with a battery $\mathcal{E} = 10 , \text{V}$, resistor $R = 5 , \Omega$, and current $I = 2 , \text{A}$. Apply the loop rule.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+Loop rule: $\mathcal{E} - I R = 0$, $10 - (2 \times 5) = 0$, which holds true.
+<ul>
+<li><strong>NEET Tip</strong>: Sum potential changes around the loop; drops are positive in the direction of current. Common error: Incorrect sign convention.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Advanced problem involves a battery with $\mathcal{E} = 9 , \text{V}$, $r = 1 , \Omega$, driving $I = 3 , \text{A}$. Find the terminal voltage.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$V = \mathcal{E} - I r = 9 - (3 \times 1) = 6 , \text{V}$.
+<ul>
+<li><strong>JEE Tip</strong>: Terminal voltage decreases with current due to internal resistance. Common error: Ignoring $r$.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Main problem involves a circuit with two branches: $I_1 = 4 , \text{A}$ enters a junction, $I_2 = 1 , \text{A}$ and $I_3$ leave. Find $I_3$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$I_1 = I_2 + I_3$, $4 = 1 + I_3$, $I_3 = 3 , \text{A}$.
+<ul>
+<li><strong>JEE Tip</strong>: Kirchhoff's first law ensures charge conservation; check directions. Common error: Forgetting to account for all currents.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Application</strong>: Kirchhoff's laws apply to circuit analysis, battery systems, and rocketry (e.g., spacecraft power distribution, aligning with your interest, April 19, 2025).</p>
+<h2 id="27-2-series-and-parallel-resistors">27.2 Series and Parallel Resistors</h2>
+<p>Series and parallel combinations of resistors simplify circuit analysis, a key concept for JEE/NEET problems involving equivalent resistance.</p>
+<h3 id="resistors-in-series">Resistors in Series</h3>
+<p>For resistors $R_1, R_2, \ldots, R_n$ in series:</p>
+<ul>
+<li>Same current $I$ through each resistor.</li>
+<li>Total potential difference: $V = V_1 + V_2 + \cdots + V_n$.</li>
+<li>Equivalent resistance $R_{\text{eq}}$:<br />
+$$
+R_{\text{eq}} = R_1 + R_2 + \cdots + R_n
+$$</li>
+<li>$V_i = I R_i$, so voltage divides proportionally to resistance.</li>
+</ul>
+<h3 id="resistors-in-parallel">Resistors in Parallel</h3>
+<p>For resistors $R_1, R_2, \ldots, R_n$ in parallel:</p>
+<ul>
+<li>Same potential difference $V$ across each resistor.</li>
+<li>Total current: $I = I_1 + I_2 + \cdots + I_n$.</li>
+<li>Equivalent resistance $R_{\text{eq}}$:<br />
+$$
+\frac{1}{R_{\text{eq}}} = \frac{1}{R_1} + \frac{1}{R_2} + \cdots + \frac{1}{R_n}
+$$</li>
+<li>$I_i = \frac{V}{R_i}$, so current divides inversely proportional to resistance.</li>
+</ul>
+<h3 id="mixed-combinations">Mixed Combinations</h3>
+<p>Solve by breaking down into series and parallel sections, calculating equivalent resistances step-by-step.</p>
+<p><strong>Derivation</strong>: <strong>Resistors in Series</strong><br />
+For two resistors $R_1$ and $R_2$ in series, the same current $I$ flows through both. Voltages: $V_1 = I R_1$, $V_2 = I R_2$. Total voltage: $V = V_1 + V_2 = I (R_1 + R_2)$. Equivalent resistance: $R_{\text{eq}} = \frac{V}{I} = R_1 + R_2$.</p>
+<p><strong>Derivation</strong>: <strong>Resistors in Parallel</strong><br />
+For two resistors $R_1$ and $R_2$ in parallel, the voltage $V$ is the same across both. Currents: $I_1 = \frac{V}{R_1}$, $I_2 = \frac{V}{R_2}$. Total current: $I = I_1 + I_2 = V \left( \frac{1}{R_1} + \frac{1}{R_2} \right)$. Equivalent resistance: $R_{\text{eq}} = \frac{V}{I}$, so $\frac{1}{R_{\text{eq}}} = \frac{1}{R_1} + \frac{1}{R_2}$.</p>
+<p><strong>Derivation</strong>: <strong>Resistor Network in Rocket Circuit</strong><br />
+In a spacecraft circuit, two resistors $R_1 = 5 , \Omega$ and $R_2 = 10 , \Omega$ in parallel, then in series with $R_3 = 15 , \Omega$, have $R_{\text{eq}} = 18.33 , \Omega$, affecting power distribution for propulsion (your interest, April 19, 2025).</p>
+<p><strong>Solved Example</strong>: A JEE Main problem involves two resistors $R_1 = 4 , \Omega$ and $R_2 = 6 , \Omega$ in series. Find $R_{\text{eq}}$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$R_{\text{eq}} = R_1 + R_2 = 4 + 6 = 10 , \Omega$.
+<ul>
+<li><strong>JEE Tip</strong>: In series, resistances add directly; current is the same. Common error: Using parallel formula.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A NEET problem involves three resistors $R_1 = 2 , \Omega$, $R_2 = 4 , \Omega$, $R_3 = 8 , \Omega$ in parallel. Find $R_{\text{eq}}$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$\frac{1}{R_{\text{eq}}} = \frac{1}{2} + \frac{1}{4} + \frac{1}{8} = \frac{4 + 2 + 1}{8} = \frac{7}{8}$, $R_{\text{eq}} = \frac{8}{7} \approx 1.14 , \Omega$.
+<ul>
+<li><strong>NEET Tip</strong>: In parallel, reciprocals add; $R_{\text{eq}}$ is less than the smallest resistance. Common error: Adding resistances directly.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Advanced problem involves $R_1 = 3 , \Omega$ and $R_2 = 6 , \Omega$ in series, then in parallel with $R_3 = 9 , \Omega$. Find $R_{\text{eq}}$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+Series: $R_{12} = 3 + 6 = 9 , \Omega$. Parallel: $\frac{1}{R_{\text{eq}}} = \frac{1}{9} + \frac{1}{9} = \frac{2}{9}$, $R_{\text{eq}} = \frac{9}{2} = 4.5 , \Omega$.
+<ul>
+<li><strong>JEE Tip</strong>: Solve step-by-step; series first, then parallel. Common error: Incorrect order of operations.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Main problem involves two resistors in parallel, $R_1 = 10 , \Omega$, $R_2 = 20 , \Omega$, with total $I = 3 , \text{A}$. Find $I_1$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$R_{\text{eq}} = \frac{10 \times 20}{10 + 20} = \frac{20}{3} , \Omega$, $V = I R_{\text{eq}} = 3 \times \frac{20}{3} = 20 , \text{V}$, $I_1 = \frac{V}{R_1} = \frac{20}{10} = 2 , \text{A}$.
+<ul>
+<li><strong>JEE Tip</strong>: In parallel, current divides inversely as resistance; find $V$ first. Common error: Incorrect $R_{\text{eq}}$.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Application</strong>: Series and parallel resistors apply to circuit design, voltage division, and rocketry (e.g., spacecraft electrical systems, aligning with your interest, April 19, 2025).</p>
+<h2 id="27-3-capacitors-in-dc-circuits">27.3 Capacitors in DC Circuits</h2>
+<p>Capacitors in DC circuits introduce time-dependent behavior, a key concept for JEE/NEET problems involving charging and discharging.</p>
+<h3 id="capacitors-in-series-and-parallel-review-from-chapter-25">Capacitors in Series and Parallel (Review from Chapter 25)</h3>
+<ul>
+<li><strong>Series</strong>: $\frac{1}{C_{\text{eq}}} = \sum \frac{1}{C_i}$, same charge $Q$, voltages add.</li>
+<li><strong>Parallel</strong>: $C_{\text{eq}} = \sum C_i$, same voltage $V$, charges add.</li>
+</ul>
+<h3 id="capacitors-with-resistors">Capacitors with Resistors</h3>
+<p>In a DC circuit, capacitors initially act as short circuits (uncharged) and eventually as open circuits (fully charged). A resistor-capacitor (RC) combination introduces time-dependent behavior.</p>
+<h3 id="charging-a-capacitor">Charging a Capacitor</h3>
+<p>For a capacitor $C$ in series with a resistor $R$ and battery $\mathcal{E}$, the charge $Q$ on the capacitor during charging is:<br />
+$$
+Q = C \mathcal{E} \left( 1 - e^{-t / RC} \right)
+$$</p>
+<ul>
+<li>$t$: Time (s).</li>
+<li>$RC$: Time constant $\tau$ (s).</li>
+<li>Current: $I = \frac{dQ}{dt} = \frac{\mathcal{E}}{R} e^{-t / RC}$.</li>
+</ul>
+<h3 id="discharging-a-capacitor">Discharging a Capacitor</h3>
+<p>If a charged capacitor ($Q_0 = C V_0$) discharges through a resistor $R$:<br />
+$$
+Q = Q_0 e^{-t / RC}
+$$</p>
+<ul>
+<li>Current: $I = -\frac{Q_0}{RC} e^{-t / RC}$ (negative due to discharge direction).</li>
+</ul>
+<h3 id="applications-1">Applications</h3>
+<ul>
+<li>Timing circuits (e.g., oscillators).</li>
+<li>Filtering in power supplies.</li>
+</ul>
+<p><strong>Derivation</strong>: <strong>Charging a Capacitor</strong><br />
+For a circuit with battery $\mathcal{E}$, resistor $R$, and capacitor $C$, apply Kirchhoff's loop rule: $\mathcal{E} - I R - \frac{Q}{C} = 0$. Since $I = \frac{dQ}{dt}$, $\mathcal{E} - R \frac{dQ}{dt} - \frac{Q}{C} = 0$. Rearrange: $\frac{dQ}{dt} = \frac{\mathcal{E} - \frac{Q}{C}}{R}$. Solve the differential equation with $Q(0) = 0$: $Q = C \mathcal{E} \left( 1 - e^{-t / RC} \right)$.</p>
+<p><strong>Derivation</strong>: <strong>Discharging a Capacitor</strong><br />
+For a charged capacitor $Q_0$ discharging through $R$, loop rule: $-I R - \frac{Q}{C} = 0$, $I = \frac{dQ}{dt}$ (negative as $Q$ decreases), so $R \frac{dQ}{dt} + \frac{Q}{C} = 0$. Solve: $Q = Q_0 e^{-t / RC}$.</p>
+<p><strong>Derivation</strong>: <strong>Capacitor in Rocket Circuit</strong><br />
+In a spacecraft RC circuit ($R = 1000 , \Omega$, $C = 10 , \mu\text{F}$, $\mathcal{E} = 12 , \text{V}$), $\tau = RC = 0.01 , \text{s}$, $Q$ at $t = 0.01 , \text{s}$ is $Q \approx 7.58 \times 10^{-5} , \text{C}$, timing pulses for propulsion (your interest, April 19, 2025).</p>
+<p><strong>Solved Example</strong>: A JEE Main problem involves two capacitors $C_1 = 2 , \mu\text{F}$, $C_2 = 4 , \mu\text{F}$ in series. Find $C_{\text{eq}}$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$\frac{1}{C_{\text{eq}}} = \frac{1}{2} + \frac{1}{4} = \frac{3}{4}$, $C_{\text{eq}} = \frac{4}{3} \approx 1.33 , \mu\text{F}$.
+<ul>
+<li><strong>JEE Tip</strong>: In series, $C_{\text{eq}}$ is less than the smallest; charge is the same. Common error: Adding capacitances.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A NEET problem involves a capacitor $C = 5 , \mu\text{F}$, $R = 2000 , \Omega$, $\mathcal{E} = 10 , \text{V}$. Find $\tau$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$\tau = RC = (2000) \times (5 \times 10^{-6}) = 0.01 , \text{s}$.
+<ul>
+<li><strong>NEET Tip</strong>: Time constant $\tau$ has units of seconds; convert $C$ to farads. Common error: Incorrect units for $R$ or $C$.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Advanced problem involves a capacitor $C = 10 , \mu\text{F}$, $R = 1000 , \Omega$, $\mathcal{E} = 20 , \text{V}$, at $t = 0.01 , \text{s}$. Find $Q$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$\tau = RC = 0.01 , \text{s}$, $Q = C \mathcal{E} \left( 1 - e^{-t / RC} \right) = (10 \times 10^{-6}) \times 20 \times (1 - e^{-0.01 / 0.01}) = 200 \times 10^{-6} \times (1 - e^{-1}) \approx 1.264 \times 10^{-4} , \text{C}$.
+<ul>
+<li><strong>JEE Tip</strong>: Use the exponential charging formula; $e^{-1} \approx 0.368$. Common error: Incorrect $\tau$.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Main problem involves a capacitor $Q_0 = 50 , \mu\text{C}$, $C = 5 , \mu\text{F}$, $R = 5000 , \Omega$, discharging at $t = 0.025 , \text{s}$. Find $Q$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$\tau = RC = 0.025 , \text{s}$, $Q = Q_0 e^{-t / RC} = 50 \times 10^{-6} \times e^{-0.025 / 0.025} = 50 \times 10^{-6} \times e^{-1} \approx 18.4 , \mu\text{C}$.
+<ul>
+<li><strong>JEE Tip</strong>: Discharging is exponential; compute $\tau$ first. Common error: Forgetting the exponential decay.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Application</strong>: Capacitors in DC circuits apply to timing circuits, filters, and rocketry (e.g., timing in spacecraft systems, aligning with your interest, April 19, 2025).</p>
+<h2 id="27-4-rc-circuits-and-time-constants">27.4 RC Circuits and Time Constants</h2>
+<p>RC circuits exhibit time-dependent behavior, a key concept for JEE/NEET problems involving transients and time constants.</p>
+<h3 id="time-constant-in-rc-circuits">Time Constant in RC Circuits</h3>
+<p>The time constant $\tau$ of an RC circuit is:<br />
+$$
+\tau = RC
+$$</p>
+<ul>
+<li>$R$: Resistance ($\Omega$).</li>
+<li>$C$: Capacitance (F).</li>
+<li>Units: Seconds (s).</li>
+<li>$\tau$ represents the time for the charge to reach ~63% of its final value (charging) or decay to ~37% (discharging).</li>
+</ul>
+<h3 id="charging-behavior">Charging Behavior</h3>
+<ul>
+<li>Charge: $Q = C \mathcal{E} \left( 1 - e^{-t / RC} \right)$.</li>
+<li>Current: $I = \frac{\mathcal{E}}{R} e^{-t / RC}$.</li>
+<li>Voltage across capacitor: $V_C = \mathcal{E} \left( 1 - e^{-t / RC} \right)$.</li>
+<li>Voltage across resistor: $V_R = \mathcal{E} e^{-t / RC}$.</li>
+</ul>
+<h3 id="discharging-behavior">Discharging Behavior</h3>
+<ul>
+<li>Charge: $Q = Q_0 e^{-t / RC}$.</li>
+<li>Current: $I = -\frac{Q_0}{RC} e^{-t / RC}$.</li>
+<li>Voltage across capacitor: $V_C = \frac{Q_0}{C} e^{-t / RC}$.</li>
+<li>Voltage across resistor: $V_R = -V_C$.</li>
+</ul>
+<h3 id="applications-2">Applications</h3>
+<ul>
+<li><strong>Time Delays</strong>: RC circuits create delays in electronic circuits.</li>
+<li><strong>Filtering</strong>: Used in signal processing to filter frequencies.</li>
+<li><strong>Measurement</strong>: Time constants help measure unknown $R$ or $C$.</li>
+</ul>
+<p><strong>Derivation</strong>: <strong>Time Constant in Charging</strong><br />
+From the charging equation $Q = C \mathcal{E} \left( 1 - e^{-t / RC} \right)$, at $t = RC$, $Q = C \mathcal{E} (1 - e^{-1}) \approx 0.632 C \mathcal{E}$, showing $\tau = RC$ is the time to reach ~63% of the final charge. The exponent $-t / RC$ indicates $\tau$ governs the rate of charging.</p>
+<p><strong>Derivation</strong>: <strong>Time Constant in Discharging</strong><br />
+From $Q = Q_0 e^{-t / RC}$, at $t = RC$, $Q = Q_0 e^{-1} \approx 0.368 Q_0$, showing $\tau = RC$ is the time for the charge to decay to ~37% of its initial value.</p>
+<p><strong>Derivation</strong>: <strong>RC Circuit in Rocket System</strong><br />
+In a spacecraft RC circuit ($R = 500 , \Omega$, $C = 20 , \mu\text{F}$), $\tau = 0.01 , \text{s}$, controlling discharge timing for propulsion pulses (your interest, April 19, 2025).</p>
+<p><strong>Solved Example</strong>: A JEE Main problem involves an RC circuit with $R = 1000 , \Omega$, $C = 2 , \mu\text{F}$, $\mathcal{E} = 15 , \text{V}$, at $t = 0.002 , \text{s}$. Find $I$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$\tau = RC = 0.002 , \text{s}$, $I = \frac{\mathcal{E}}{R} e^{-t / RC} = \frac{15}{1000} e^{-0.002 / 0.002} = 0.015 \times e^{-1} \approx 0.00552 , \text{A}$.
+<ul>
+<li><strong>JEE Tip</strong>: Current decreases exponentially during charging; compute $\tau$ first. Common error: Forgetting the exponential term.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A NEET problem involves a discharging RC circuit with $Q_0 = 100 , \mu\text{C}$, $R = 2000 , \Omega$, $C = 10 , \mu\text{F}$, at $t = 0.02 , \text{s}$. Find $V_C$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$\tau = RC = 0.02 , \text{s}$, $V_C = \frac{Q_0}{C} e^{-t / RC} = \frac{100 \times 10^{-6}}{10 \times 10^{-6}} \times e^{-0.02 / 0.02} = 10 \times e^{-1} \approx 3.68 , \text{V}$.
+<ul>
+<li><strong>NEET Tip</strong>: Voltage decays exponentially; $V_C = \frac{Q}{C}$. Common error: Incorrect $\tau$.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Advanced problem involves an RC circuit charging with $C = 4 , \mu\text{F}$, $R = 5000 , \Omega$, $\mathcal{E} = 12 , \text{V}$, at $t = 0.01 , \text{s}$. Find $V_R$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$\tau = RC = 0.02 , \text{s}$, $V_R = \mathcal{E} e^{-t / RC} = 12 \times e^{-0.01 / 0.02} = 12 \times e^{-0.5} \approx 7.27 , \text{V}$.
+<ul>
+<li><strong>JEE Tip</strong>: $V_R$ decreases as the capacitor charges; use the exponential form. Common error: Confusing $V_R$ and $V_C$.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Main problem involves an RC circuit with $R = 100 , \Omega$, $C = 1 , \mu\text{F}$. Find the time for $Q$ to reach 50% of its final value during charging.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$\tau = RC = 10^{-4} , \text{s}$, $Q = C \mathcal{E} \left( 1 - e^{-t / RC} \right)$, at 50%, $0.5 C \mathcal{E} = C \mathcal{E} (1 - e^{-t / RC})$, $0.5 = 1 - e^{-t / RC}$, $e^{-t / RC} = 0.5$, $-\frac{t}{RC} = \ln 0.5 \approx -0.693$, $t \approx 0.693 \times 10^{-4} \approx 6.93 \times 10^{-5} , \text{s}$.
+<ul>
+<li><strong>JEE Tip</strong>: Solve for $t$ using the exponential equation; $\ln 0.5 \approx -0.693$. Common error: Incorrect logarithmic value.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Application</strong>: RC circuits apply to timing devices, signal processing, and rocketry (e.g., timing in spacecraft control systems, aligning with your interest, April 19, 2025).</p>
+<h2 id="summary-and-quick-revision">Summary and Quick Revision</h2>
+<ul>
+<li><strong>EMF and Kirchhoff's Laws</strong>: $\mathcal{E} = \frac{W}{q}$, terminal $V = \mathcal{E} - I r$. Junction rule: $\sum I_{\text{in}} = \sum I_{\text{out}}$. Loop rule: $\sum V = 0$.</li>
+<li><strong>Series Resistors</strong>: $R_{\text{eq}} = \sum R_i$, same $I$, voltages add.</li>
+<li><strong>Parallel Resistors</strong>: $\frac{1}{R_{\text{eq}}} = \sum \frac{1}{R_i}$, same $V$, currents add.</li>
+<li><strong>Capacitors in DC</strong>: Charging: $Q = C \mathcal{E} \left( 1 - e^{-t / RC} \right)$, discharging: $Q = Q_0 e^{-t / RC}$.</li>
+<li><strong>RC Time Constant</strong>: $\tau = RC$, governs charging/discharging rates.</li>
+<li><strong>Applications</strong>: Circuit analysis, timing, spacecraft systems.</li>
+<li><strong>JEE/NEET Tips</strong>: Apply Kirchhoff's laws systematically, simplify resistor networks, use exponential formulas for RC circuits, verify significant figures (April 14, 2025).</li>
+<li><strong>SI Units</strong>: EMF (V), resistance ($\Omega$), capacitance (F), current (A), time constant (s).</li>
+</ul>
+<h2 id="practice-problems">Practice Problems</h2>
+<p>Explore our problem set with <strong>100 problems</strong> inspired by JEE Main, JEE Advanced, and NEET patterns to test your understanding.</p>
+<p><a href="https://vidyamarg.com/books/physics/v1/circuits/./problems">View Problems</a></p>
+<h2 id="watch-on-youtube">Watch on YouTube</h2>
+<p>Our Hinglish video lessons make circuit analysis engaging! Subscribe for updates.</p>
+<p><a href="https://www.youtube.com/@VidyaMargbyRaviShankar-w9u">Watch Now</a></p>
+<p><em>Animation for visualizing Kirchhoff's laws, resistor networks, and RC transients coming soon!</em></p>
+<p><em>Note: Content regularly updated to align with current JEE/NEET syllabi.</em></p>
+
+        </article>
+    </div>
+
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container text-center py-5">
+            <ul class="social-list list-unstyled pt-4 mb-0">
+                
+                    <li class="list-inline-item">
+                        <a href="https:&#x2F;&#x2F;www.youtube.com&#x2F;@VidyaMargbyRaviShankar-w9u" target="_blank" title="YouTube"><i class="fab fa-youtube fa-fw"></i></a>
+                    </li>
+                
+                    <li class="list-inline-item">
+                        <a href="https:&#x2F;&#x2F;t.me&#x2F;vidyamarg1" target="_blank" title="Telegram"><i class="fab fa-telegram fa-fw"></i></a>
+                    </li>
+                
+            </ul>
+            <small class="copyright">
+                © 2025 Vidya Marg. Designed with <span class="sr-only">love</span><i class="fas fa-heart" style="color: #fb866a;"></i> by <a class="theme-link" href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers. <a class="theme-link" href="/app/privacy-policy/">Privacy Policy</a>
+            </small>
+        </div>
+    </footer>
+
+    <!-- Javascript -->          
+    <script src="https://vidyamarg.com/plugins/popper.min.js"></script>
+    <script src="https://vidyamarg.com/plugins/bootstrap/js/bootstrap.min.js"></script>  
+    
+    <!-- Page Specific JS -->
+    <script src="https://vidyamarg.com/plugins/smoothscroll.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
+    <script src="https://vidyamarg.com/js/highlight-custom.js"></script> 
+    <script src="https://vidyamarg.com/plugins/simplelightbox/simple-lightbox.min.js"></script>      
+    <script src="https://vidyamarg.com/plugins/gumshoe/gumshoe.polyfills.min.js"></script> 
+    <script src="https://vidyamarg.com/js/docs.js"></script> 
+
+    <script>
+        function renderLatex() {
+            if (typeof renderMathInElement === "undefined") {
+                setTimeout(renderLatex, 100);
+                return;
+            }
+            renderMathInElement(document.body, {
+                delimiters: [
+                    { left: "$$", right: "$$", display: true },
+                    { left: "$", right: "$", display: false },
+                    { left: "\\(", right: "\\)", display: false },
+                    { left: "\\[", right: "\\]", display: true }
+                ],
+                throwOnError: false
+            });
+        }
+
+        window.addEventListener("load", function() {
+            renderLatex();
+        });
+    </script>
+</body>
+</html>

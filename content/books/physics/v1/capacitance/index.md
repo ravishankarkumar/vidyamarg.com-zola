@@ -1,14 +1,26 @@
 ---
 title: Physics Book - Capacitance for JEE & NEET
 description: Comprehensive guide on capacitance for JEE and NEET, covering capacitor definitions, series and parallel combinations, energy storage, dielectrics, and applications in electrostatics, with extensive examples.
-slug: books/physics/capacitance
+slug: capacitance
 keywords: physics capacitance, JEE physics capacitors, NEET physics energy storage, electrostatics
 og:image: https://vidyamarg.com/og-physics-capacitance.jpg
 ---
 
 # Chapter 25: Capacitance
 
-**Beta Version**: Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!
+
+
+<div class="callout-block callout-warning">
+    <div class="content">
+        <h4 class="callout-title">
+            <span class="callout-icon-holder me-1">
+                <i class="fas fa-exclamation-triangle"></i>
+            </span>
+            Beta Version
+        </h4>
+        <p>Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!</p>
+    </div>
+</div>
 
 Capacitance is a fundamental concept in electrostatics, enabling energy storage in devices like capacitors, with applications ranging from spacecraft power systems to everyday electronics. Building on the concepts of electric potential from Chapter 24, this chapter explores capacitance in depth. For JEE Main, JEE Advanced, and NEET students, mastering capacitance is essential, as it frequently appears in problems involving circuits, energy storage, and electric fields. This chapter, **Capacitance**, covers **capacitance and capacitors**, **series and parallel combinations**, **energy stored in capacitors**, and **dielectrics and their effects**, providing detailed explanations, derivations, solved examples, and practical applications to ensure conceptual clarity and problem-solving proficiency.
 
@@ -268,7 +280,7 @@ A capacitor in a spacecraft ($C_0 = 5 \, \mu\text{F}$) with dielectric $\kappa =
 ## Practice Problems
 Explore our problem set with **100 problems** inspired by JEE Main, JEE Advanced, and NEET patterns to test your understanding.
 
-[View Problems](./problems.md)
+[View Problems](./problems)
 
 ## Watch on YouTube
 Our Hinglish video lessons make electrostatics engaging! Subscribe for updates.

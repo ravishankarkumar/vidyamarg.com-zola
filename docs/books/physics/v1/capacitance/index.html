@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <title>Vidya Marg | Physics Book - Capacitance for JEE &amp; NEET</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Comprehensive guide on capacitance for JEE and NEET, covering capacitor definitions, series and parallel combinations, energy storage, dielectrics, and applications in electrostatics, with extensive examples.">
+    <meta name="keywords" content="JEE physics book, NEET physics book, physics book, physics for JEE and NEET">
+    <meta property="og:image" content="https://vidyamarg.com/og-physics-book.jpg">
+    <link rel="canonical" href="https:&#x2F;&#x2F;vidyamarg.com&#x2F;books&#x2F;physics&#x2F;v1&#x2F;capacitance&#x2F;">
+    <link rel="shortcut icon" href="https://vidyamarg.com/logos/maroon-bg-logo-128.ico">
+    
+    <!-- Preload Google Font -->
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" as="style">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript>
+        <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
+    </noscript>
+    
+    <!-- FontAwesome JS -->
+    <script defer src="https://vidyamarg.com/fontawesome/js/all.min.js"></script>
+
+    <!-- KaTeX for LaTeX rendering -->
+    <link rel="stylesheet" href="https://vidyamarg.com/katex/katex.min.css">
+    <script src="https://vidyamarg.com/katex/katex.min.js"></script>
+    <script src="https://vidyamarg.com/katex/auto-render.min.js"></script>
+
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.2/styles/atom-one-dark.min.css">
+    <link rel="stylesheet" href="https://vidyamarg.com/plugins/simplelightbox/simple-lightbox.min.css">
+
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="https://vidyamarg.com/css/theme.css">
+    <link rel="stylesheet" href="https://vidyamarg.com/css/custom.css" />
+</head> 
+
+<body>    
+    <header class="header fixed-top">
+        <div class="branding docs-branding">
+            <div class="container-fluid position-relative py-2">
+                <div class="docs-logo-wrapper">
+                    
+                    
+                    
+                    <button id="docs-sidebar-toggler" class="docs-sidebar-toggler docs-sidebar-visible me-2 d-xl-none" type="button">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    
+                    <div class="site-logo">
+                        <a class="navbar-brand" href="https://vidyamarg.com">
+                            <img class="logo-icon me-2" src="https://vidyamarg.com/logos/maroon-bg-logo-1024.png" alt="logo">
+                            <span class="logo-text">Vidya Marg</span>
+                        </a>
+                    </div>    
+                </div>
+                <div class="docs-top-utilities d-flex justify-content-end align-items-center">
+                    <ul class="nav-list list-inline mb-0 d-none d-lg-flex">
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;">Home</a>
+                            </li>
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics (Youtube series)</a>
+                            </li>
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;">Books</a>
+                            </li>
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;app&#x2F;">App</a>
+                            </li>
+                        
+                        
+                            
+                                <li class="list-inline-item">
+                                    <a href="https:&#x2F;&#x2F;www.youtube.com&#x2F;@VidyaMargbyRaviShankar-w9u" title="YouTube"><i class="fab fa-youtube fa-fw"></i></a>
+                                </li>
+                            
+                                <li class="list-inline-item">
+                                    <a href="https:&#x2F;&#x2F;t.me&#x2F;vidyamarg1" title="Telegram"><i class="fab fa-telegram fa-fw"></i></a>
+                                </li>
+                            
+                        
+                    </ul>
+                    <!-- Mobile Menu Button -->
+                    <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#mobileNav" aria-controls="mobileNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </div>
+            <!-- Mobile Menu -->
+            <div class="collapse navbar-collapse d-lg-none" id="mobileNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;">Home</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics (Youtube series)</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;books&#x2F;">Books</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;app&#x2F;">App</a>
+                        </li>
+                    
+                    
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="https:&#x2F;&#x2F;www.youtube.com&#x2F;@VidyaMargbyRaviShankar-w9u"><i class="fab fa-youtube fa-fw"></i> YouTube</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="https:&#x2F;&#x2F;t.me&#x2F;vidyamarg1"><i class="fab fa-telegram fa-fw"></i> Telegram</a>
+                            </li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="docs-wrapper">
+        
+        
+        
+        <div id="docs-sidebar" class="docs-sidebar">
+            <nav id="docs-nav" class="docs-nav navbar">
+                
+                    
+                        
+
+<ul class="nav flex-column">
+    <!-- Navigation Menu (visible only in mobile view) -->
+    <li class="nav-item d-lg-none">
+        <span class="nav-link">Navigation</span>
+        <ul class="nav flex-column">
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;">Home</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics (Youtube series)</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;books&#x2F;">Books</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;app&#x2F;">App</a>
+                </li>
+            
+        </ul>
+    </li>
+
+    <!-- JEE/NEET Physics Section -->
+    
+    <li class="nav-item">
+        <span class="nav-link">Physics for JEE&#x2F;NEET</span>
+        <ul class="nav flex-column">
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics for JEE&#x2F;NEET</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;maths-basics-for-physics&#x2F;">Maths Basics for Physics</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;units-and-dimensions&#x2F;">Units and Dimensions</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;physical-quantities-and-si-units&#x2F;">Physical Quantities and SI Units</a>
+                </li>
+            
+        </ul>
+    </li>
+
+    <!-- Books Section -->
+    
+    <li class="nav-item">
+        <span class="nav-link">Books</span>
+        <ul class="nav flex-column">
+            <!-- JEE/NEET Physics Book (Version 1) -->
+            
+            <li class="nav-item">
+                <a class="nav-link" href="/books/physics/v1/">Physics Book</a>
+                
+                    <ul class="nav flex-column">
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;measurement&#x2F;">Measurement</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;motion-straight-line&#x2F;">Motion Along a Straight Line</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;vectors&#x2F;">Vectors</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;motion-2d-3d&#x2F;">Motion in Two and Three Dimensions</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;force-motion-1&#x2F;">Force and Motion—I</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;force-motion-2&#x2F;">Force and Motion—II</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;kinetic-energy-work&#x2F;">Kinetic Energy and Work</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;potential-energy-conservation&#x2F;">Potential Energy and Conservation of Energy</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;center-mass-momentum&#x2F;">Center of Mass and Linear Momentum</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;rotation&#x2F;">Rotation</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;rolling-torque-angular-momentum&#x2F;">Rolling, Torque, and Angular Momentum</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;equilibrium-elasticity&#x2F;">Equilibrium and Elasticity</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;gravitation&#x2F;">Gravitation</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;fluids&#x2F;">Fluids</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;oscillations&#x2F;">Oscillations</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;waves-1&#x2F;">Waves—I</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;waves-2&#x2F;">Waves—II</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;kinetic-theory-gases&#x2F;">The Kinetic Theory of Gases</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;thermodynamics-temperature-heat&#x2F;">Temperature, Heat, and the First Law of Thermodynamics</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;entropy-thermodynamics&#x2F;">Entropy and the Second Law of Thermodynamics</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electric-fields&#x2F;">Electric Fields</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;gauss-law&#x2F;">Gauss’s Law</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electric-potential&#x2F;">Electric Potential</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;capacitance&#x2F;">Capacitance</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;current-resistance&#x2F;">Current and Resistance</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;circuits&#x2F;">Circuits</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;magnetic-fields&#x2F;">Magnetic Fields</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;magnetic-fields-currents&#x2F;">Magnetic Fields Due to Currents</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;induction-inductance&#x2F;">Induction and Inductance</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electromagnetic-oscillations-ac&#x2F;">Electromagnetic Oscillations and Alternating Current</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electromagnetic-waves&#x2F;">Electromagnetic Waves</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;images&#x2F;">Images</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;interference&#x2F;">Interference</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;diffraction&#x2F;">Diffraction</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;photons-matter-waves&#x2F;">Photons and Matter Waves</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;matter-waves-advanced&#x2F;">More About Matter Waves</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;atoms&#x2F;">All About Atoms</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;nuclear-physics&#x2F;">Nuclear Physics</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;nuclear-energy&#x2F;">Energy from the Nucleus</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;quarks-leptons&#x2F;">Quarks, Leptons, and the Big Bang</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;relativity&#x2F;">Relativity</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;conduction-solids&#x2F;">Conduction of Electricity in Solids</a>
+                            </li>
+                        
+                    </ul>
+                
+            </li>
+        </ul>
+    </li>
+</ul>
+                    
+                
+            </nav>
+        </div>
+        
+
+        <div class="docs-content">
+            
+    <div class="docs-main">
+        <article class="docs-article">
+            <h1 id="chapter-25-capacitance">Chapter 25: Capacitance</h1>
+<div class="callout-block callout-warning">
+    <div class="content">
+        <h4 class="callout-title">
+            <span class="callout-icon-holder me-1">
+                <i class="fas fa-exclamation-triangle"></i>
+            </span>
+            Beta Version
+        </h4>
+        <p>Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!</p>
+    </div>
+</div>
+<p>Capacitance is a fundamental concept in electrostatics, enabling energy storage in devices like capacitors, with applications ranging from spacecraft power systems to everyday electronics. Building on the concepts of electric potential from Chapter 24, this chapter explores capacitance in depth. For JEE Main, JEE Advanced, and NEET students, mastering capacitance is essential, as it frequently appears in problems involving circuits, energy storage, and electric fields. This chapter, <strong>Capacitance</strong>, covers <strong>capacitance and capacitors</strong>, <strong>series and parallel combinations</strong>, <strong>energy stored in capacitors</strong>, and <strong>dielectrics and their effects</strong>, providing detailed explanations, derivations, solved examples, and practical applications to ensure conceptual clarity and problem-solving proficiency.</p>
+<h2 id="25-1-capacitance-and-capacitors">25.1 Capacitance and Capacitors</h2>
+<p>Capacitance measures a system's ability to store charge, a key concept for JEE/NEET problems involving electric fields and energy.</p>
+<h3 id="definition-of-capacitance">Definition of Capacitance</h3>
+<p>Capacitance $C$ of a system is defined as the ratio of the charge $Q$ stored on one conductor to the potential difference $V$ between the conductors:<br />
+$$
+C = \frac{Q}{V}
+$$</p>
+<ul>
+<li>Units: Farad (F), where $1 , \text{F} = 1 , \text{C/V}$.</li>
+<li>$Q$: Charge on the positive conductor (C).</li>
+<li>$V$: Potential difference (V).</li>
+</ul>
+<h3 id="parallel-plate-capacitor">Parallel Plate Capacitor</h3>
+<p>For a parallel plate capacitor with plates of area $A$, separation $d$, in vacuum:<br />
+$$
+C = \frac{\epsilon_0 A}{d}
+$$</p>
+<ul>
+<li>$\epsilon_0 = 8.85 \times 10^{-12} , \text{C}^2/\text{N·m}^2$: Permittivity of free space.</li>
+<li>$A$: Area of each plate (m²).</li>
+<li>$d$: Separation between plates (m).</li>
+</ul>
+<h3 id="capacitors-in-general">Capacitors in General</h3>
+<ul>
+<li><strong>Spherical Capacitor</strong>: Two concentric spheres, radii $a$ and $b$ ($b &gt; a$): $C = 4 \pi \epsilon_0 \frac{ab}{b-a}$.</li>
+<li><strong>Cylindrical Capacitor</strong>: Coaxial cylinders, radii $a$ and $b$, length $L$: $C = \frac{2 \pi \epsilon_0 L}{\ln(b/a)}$.</li>
+</ul>
+<h3 id="properties">Properties</h3>
+<ul>
+<li>Capacitance depends on geometry and medium, not on $Q$ or $V$.</li>
+<li>Larger $A$ or smaller $d$ increases $C$.</li>
+<li>$C$ is always positive.</li>
+</ul>
+<p><strong>Derivation</strong>: <strong>Capacitance of a Parallel Plate Capacitor</strong><br />
+Consider two parallel plates, area $A$, separation $d$. The electric field between the plates (from Gauss’s law, Chapter 23) is $E = \frac{\sigma}{\epsilon_0} = \frac{Q}{\epsilon_0 A}$, assuming uniform field (valid for $d \ll \sqrt{A}$). Potential difference: $V = E d = \frac{Q d}{\epsilon_0 A}$. Thus:<br />
+$$
+C = \frac{Q}{V} = \frac{Q}{\frac{Q d}{\epsilon_0 A}} = \frac{\epsilon_0 A}{d}
+$$</p>
+<p><strong>Derivation</strong>: <strong>Capacitance of a Spherical Capacitor</strong><br />
+Inner sphere (radius $a$, charge $+Q$), outer sphere (radius $b$, charge $-Q$). Field between spheres (from Gauss’s law): $E = k \frac{Q}{r^2}$ ($a &lt; r &lt; b$). Potential difference: $V = -\int_a^b E , dr = k Q \left( \frac{1}{a} - \frac{1}{b} \right) = k Q \frac{b-a}{ab}$. So: $C = \frac{Q}{V} = 4 \pi \epsilon_0 \frac{ab}{b-a}$.</p>
+<p><strong>Derivation</strong>: <strong>Capacitance in Rocket System</strong><br />
+A parallel plate capacitor in a spacecraft power system ($A = 0.02 , \text{m}^2$, $d = 0.002 , \text{m}$) has $C = \frac{\epsilon_0 A}{d} = \frac{(8.85 \times 10^{-12}) \times 0.02}{0.002} \approx 8.85 \times 10^{-11} , \text{F}$, storing charge for ion propulsion (your interest, April 19, 2025).</p>
+<p><strong>Solved Example</strong>: A JEE Main problem involves a parallel plate capacitor with $A = 0.01 , \text{m}^2$, $d = 0.001 , \text{m}$. Find $C$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$C = \frac{\epsilon_0 A}{d} = \frac{(8.85 \times 10^{-12}) \times 0.01}{0.001} = 8.85 \times 10^{-11} , \text{F}$.
+<ul>
+<li><strong>JEE Tip</strong>: Ensure units are consistent; $C \propto A/d$. Common error: Forgetting $\epsilon_0$ or incorrect unit conversion.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A NEET problem involves a capacitor with $C = 10 , \mu\text{F}$, charged to $V = 100 , \text{V}$. Find $Q$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$Q = C V = (10 \times 10^{-6}) \times 100 = 1 \times 10^{-3} , \text{C}$.
+<ul>
+<li><strong>NEET Tip</strong>: Use $Q = C V$; convert $C$ to farads. Common error: Using incorrect units for $C$.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Advanced problem involves a spherical capacitor, $a = 0.1 , \text{m}$, $b = 0.2 , \text{m}$. Find $C$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$C = 4 \pi \epsilon_0 \frac{ab}{b-a} = 4 \pi \times (8.85 \times 10^{-12}) \times \frac{(0.1) \times (0.2)}{0.2-0.1} \approx 2.22 \times 10^{-11} , \text{F}$.
+<ul>
+<li><strong>JEE Tip</strong>: Use the formula for spherical capacitors; $\epsilon_0$ ensures correct units. Common error: Mixing up $a$ and $b$.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Main problem involves a cylindrical capacitor, $a = 0.01 , \text{m}$, $b = 0.02 , \text{m}$, $L = 1 , \text{m}$. Find $C$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$C = \frac{2 \pi \epsilon_0 L}{\ln(b/a)} = \frac{2 \pi \times (8.85 \times 10^{-12}) \times 1}{\ln(0.02/0.01)} \approx 8.03 \times 10^{-11} , \text{F}$.
+<ul>
+<li><strong>JEE Tip</strong>: Use $\ln(b/a)$ for cylindrical geometry; compute the logarithm carefully. Common error: Incorrect logarithm base.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Application</strong>: Capacitors are used in circuits, energy storage, and rocketry (e.g., power systems in spacecraft, aligning with your interest, April 19, 2025).</p>
+<h2 id="25-2-series-and-parallel-combinations-of-capacitors">25.2 Series and Parallel Combinations of Capacitors</h2>
+<p>Capacitors in circuits are often combined in series or parallel, a common topic in JEE/NEET problems involving equivalent capacitance.</p>
+<h3 id="capacitors-in-series">Capacitors in Series</h3>
+<p>For capacitors $C_1, C_2, \ldots, C_n$ in series:</p>
+<ul>
+<li>Same charge $Q$ on each capacitor.</li>
+<li>Total potential difference: $V = V_1 + V_2 + \cdots + V_n$.</li>
+<li>Equivalent capacitance $C_{\text{eq}}$:<br />
+$$
+\frac{1}{C_{\text{eq}}} = \frac{1}{C_1} + \frac{1}{C_2} + \cdots + \frac{1}{C_n}
+$$</li>
+<li>$V_i = \frac{Q}{C_i}$, so larger capacitors have smaller voltage drops.</li>
+</ul>
+<h3 id="capacitors-in-parallel">Capacitors in Parallel</h3>
+<p>For capacitors $C_1, C_2, \ldots, C_n$ in parallel:</p>
+<ul>
+<li>Same potential difference $V$ across each capacitor.</li>
+<li>Total charge: $Q = Q_1 + Q_2 + \cdots + Q_n$.</li>
+<li>Equivalent capacitance:<br />
+$$
+C_{\text{eq}} = C_1 + C_2 + \cdots + C_n
+$$</li>
+<li>$Q_i = C_i V$, so larger capacitors store more charge.</li>
+</ul>
+<h3 id="mixed-combinations">Mixed Combinations</h3>
+<p>Solve by breaking down into series and parallel sections, calculating equivalent capacitances step-by-step.</p>
+<p><strong>Derivation</strong>: <strong>Capacitors in Series</strong><br />
+For two capacitors $C_1$ and $C_2$ in series, charge $Q$ is the same on both. Voltages: $V_1 = \frac{Q}{C_1}$, $V_2 = \frac{Q}{C_2}$. Total voltage: $V = V_1 + V_2 = Q \left( \frac{1}{C_1} + \frac{1}{C_2} \right)$. Equivalent capacitance: $C_{\text{eq}} = \frac{Q}{V}$, so $\frac{1}{C_{\text{eq}}} = \frac{1}{C_1} + \frac{1}{C_2}$.</p>
+<p><strong>Derivation</strong>: <strong>Capacitors in Parallel</strong><br />
+For two capacitors $C_1$ and $C_2$ in parallel, voltage $V$ is the same. Charges: $Q_1 = C_1 V$, $Q_2 = C_2 V$. Total charge: $Q = Q_1 + Q_2 = (C_1 + C_2) V$. Equivalent capacitance: $C_{\text{eq}} = \frac{Q}{V} = C_1 + C_2$.</p>
+<p><strong>Derivation</strong>: <strong>Mixed Combination in Rocket Circuit</strong><br />
+In a spacecraft circuit, two capacitors $C_1 = 10 , \mu\text{F}$ and $C_2 = 20 , \mu\text{F}$ in parallel, then in series with $C_3 = 30 , \mu\text{F}$, have $C_{\text{eq}} = 10 , \mu\text{F}$, storing charge for propulsion (your interest, April 19, 2025).</p>
+<p><strong>Solved Example</strong>: A JEE Main problem involves two capacitors $C_1 = 2 , \mu\text{F}$ and $C_2 = 4 , \mu\text{F}$ in series. Find $C_{\text{eq}}$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$\frac{1}{C_{\text{eq}}} = \frac{1}{C_1} + \frac{1}{C_2} = \frac{1}{2 \times 10^{-6}} + \frac{1}{4 \times 10^{-6}} = \frac{2 + 1}{4 \times 10^{-6}} = \frac{3}{4 \times 10^{-6}}$, $C_{\text{eq}} = \frac{4}{3} \times 10^{-6} \approx 1.33 , \mu\text{F}$.
+<ul>
+<li><strong>JEE Tip</strong>: In series, $C_{\text{eq}}$ is less than the smallest capacitor; use reciprocal sum. Common error: Adding capacitances directly.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A NEET problem involves three capacitors $C_1 = 3 , \mu\text{F}$, $C_2 = 6 , \mu\text{F}$, $C_3 = 9 , \mu\text{F}$ in parallel, $V = 50 , \text{V}$. Find total $Q$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$C_{\text{eq}} = 3 + 6 + 9 = 18 , \mu\text{F}$, $Q = C_{\text{eq}} V = (18 \times 10^{-6}) \times 50 = 9 \times 10^{-4} , \text{C}$.
+<ul>
+<li><strong>NEET Tip</strong>: In parallel, capacitances add directly; total $Q$ is the sum of individual charges. Common error: Using series formula.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Advanced problem involves $C_1 = 2 , \mu\text{F}$ and $C_2 = 4 , \mu\text{F}$ in series, then in parallel with $C_3 = 6 , \mu\text{F}$. Find $C_{\text{eq}}$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+Series: $\frac{1}{C_{12}} = \frac{1}{2} + \frac{1}{4} = \frac{3}{4}$, $C_{12} = \frac{4}{3} \mu\text{F}$. Parallel: $C_{\text{eq}} = \frac{4}{3} + 6 = \frac{22}{3} \approx 7.33 , \mu\text{F}$.
+<ul>
+<li><strong>JEE Tip</strong>: Break down mixed combinations step-by-step; series first, then parallel. Common error: Incorrect order of operations.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Main problem involves two capacitors in series, $C_1 = 5 , \mu\text{F}$, $C_2 = 10 , \mu\text{F}$, charged to $V = 100 , \text{V}$. Find $V_1$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$C_{\text{eq}} = \frac{5 \times 10}{5 + 10} = \frac{10}{3} \mu\text{F}$, $Q = C_{\text{eq}} V = \frac{10}{3} \times 10^{-6} \times 100 = \frac{1}{3} \times 10^{-2} , \text{C}$, $V_1 = \frac{Q}{C_1} = \frac{\frac{1}{3} \times 10^{-2}}{5 \times 10^{-6}} \approx 66.67 , \text{V}$.
+<ul>
+<li><strong>JEE Tip</strong>: In series, $V \propto \frac{1}{C}$; larger $C$ has smaller $V$. Common error: Incorrect $Q$ calculation.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Application</strong>: Series and parallel combinations apply to circuit design, filters, and rocketry (e.g., spacecraft power circuits, aligning with your interest, April 19, 2025).</p>
+<h2 id="25-3-energy-stored-in-capacitors">25.3 Energy Stored in Capacitors</h2>
+<p>Capacitors store energy in their electric fields, a key concept for JEE/NEET problems involving energy conservation and circuits.</p>
+<h3 id="energy-stored">Energy Stored</h3>
+<p>The energy $U$ stored in a capacitor with capacitance $C$, charge $Q$, and potential difference $V$ is:<br />
+$$
+U = \frac{1}{2} C V^2 = \frac{1}{2} \frac{Q^2}{C} = \frac{1}{2} Q V
+$$</p>
+<ul>
+<li>Units: Joules (J).</li>
+<li>Since $Q = C V$, all forms are equivalent.</li>
+</ul>
+<h3 id="energy-density">Energy Density</h3>
+<p>The energy stored in the electric field of a parallel plate capacitor can be expressed as energy per unit volume (energy density $u$):<br />
+$$
+u = \frac{1}{2} \epsilon_0 E^2
+$$</p>
+<ul>
+<li>$E$: Electric field between the plates ($E = \frac{V}{d}$).</li>
+<li>Volume between plates: $A d$, so total energy $U = u \times (A d) = \frac{1}{2} \epsilon_0 E^2 (A d) = \frac{1}{2} C V^2$.</li>
+</ul>
+<h3 id="energy-in-combinations">Energy in Combinations</h3>
+<ul>
+<li><strong>Series</strong>: Total energy is the sum of energies in each capacitor, using $Q$ and individual $C_i$.</li>
+<li><strong>Parallel</strong>: Total energy is the sum, using $V$ and individual $C_i$.</li>
+</ul>
+<p><strong>Derivation</strong>: <strong>Energy Stored in a Capacitor</strong><br />
+To charge a capacitor, work is done against the increasing potential difference. For charge $q$ on the capacitor, potential is $V' = \frac{q}{C}$. Incremental work to add charge $dq$: $dW = V' dq = \frac{q}{C} dq$. Total work:<br />
+$$
+W = \int_0^Q \frac{q}{C} dq = \frac{1}{C} \left[ \frac{q^2}{2} \right]_0^Q = \frac{Q^2}{2C}
+$$
+This work is stored as energy: $U = \frac{1}{2} \frac{Q^2}{C}$. Since $Q = C V$, $U = \frac{1}{2} C V^2 = \frac{1}{2} Q V$.</p>
+<p><strong>Derivation</strong>: <strong>Energy Density</strong><br />
+For a parallel plate capacitor, $U = \frac{1}{2} C V^2$, $C = \frac{\epsilon_0 A}{d}$, $V = E d$, so $U = \frac{1}{2} \left( \frac{\epsilon_0 A}{d} \right) (E d)^2 = \frac{1}{2} \epsilon_0 E^2 (A d)$. Volume $A d$, so energy density $u = \frac{U}{A d} = \frac{1}{2} \epsilon_0 E^2$.</p>
+<p><strong>Derivation</strong>: <strong>Energy in Rocket Capacitor</strong><br />
+A capacitor in a spacecraft ($C = 10 , \mu\text{F}$, $V = 200 , \text{V}$) stores $U = \frac{1}{2} \times (10 \times 10^{-6}) \times (200)^2 = 0.2 , \text{J}$, powering ion propulsion (your interest, April 19, 2025).</p>
+<p><strong>Solved Example</strong>: A JEE Main problem involves a capacitor $C = 20 , \mu\text{F}$, $V = 50 , \text{V}$. Find $U$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$U = \frac{1}{2} C V^2 = \frac{1}{2} \times (20 \times 10^{-6}) \times (50)^2 = \frac{1}{2} \times 20 \times 2500 \times 10^{-6} = 0.025 , \text{J}$.
+<ul>
+<li><strong>JEE Tip</strong>: Use any form of the energy equation; ensure $C$ is in farads. Common error: Forgetting the $\frac{1}{2}$ factor.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A NEET problem involves a parallel plate capacitor, $A = 0.01 , \text{m}^2$, $d = 0.002 , \text{m}$, $E = 5000 , \text{N/C}$. Find energy density.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$u = \frac{1}{2} \epsilon_0 E^2 = \frac{1}{2} \times (8.85 \times 10^{-12}) \times (5000)^2 \approx 1.11 \times 10^{-1} , \text{J/m}^3$.
+<ul>
+<li><strong>NEET Tip</strong>: Energy density depends on $E$, not capacitor geometry directly. Common error: Using $V$ instead of $E$.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Advanced problem involves two capacitors in series, $C_1 = 4 , \mu\text{F}$, $C_2 = 8 , \mu\text{F}$, total $V = 120 , \text{V}$. Find total $U$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$C_{\text{eq}} = \frac{4 \times 8}{4 + 8} = \frac{8}{3} \mu\text{F}$, $U = \frac{1}{2} C_{\text{eq}} V^2 = \frac{1}{2} \times \left( \frac{8}{3} \times 10^{-6} \right) \times (120)^2 \approx 0.0192 , \text{J}$.
+<ul>
+<li><strong>JEE Tip</strong>: Use equivalent capacitance for total energy in series; compute $Q$ or $V$ for individual energies if needed. Common error: Incorrect $C_{\text{eq}}$.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Main problem involves two capacitors in parallel, $C_1 = 3 , \mu\text{F}$, $C_2 = 6 , \mu\text{F}$, $V = 100 , \text{V}$. Find total $U$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$C_{\text{eq}} = 3 + 6 = 9 , \mu\text{F}$, $U = \frac{1}{2} \times (9 \times 10^{-6}) \times (100)^2 = 0.045 , \text{J}$.
+<ul>
+<li><strong>JEE Tip</strong>: In parallel, total energy uses $C_{\text{eq}}$; individual energies sum to the same. Common error: Using series formula.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Application</strong>: Energy storage applies to circuits, power systems, and rocketry (e.g., capacitor banks in spacecraft, aligning with your interest, April 19, 2025).</p>
+<h2 id="25-4-dielectrics-and-their-effects-on-capacitance">25.4 Dielectrics and Their Effects on Capacitance</h2>
+<p>Dielectrics modify the behavior of capacitors, a practical topic for JEE/NEET problems involving real-world applications.</p>
+<h3 id="dielectrics">Dielectrics</h3>
+<p>A dielectric is an insulating material inserted between capacitor plates, reducing the electric field and increasing capacitance. The dielectric constant $\kappa$ (or relative permittivity $\epsilon_r$) measures this effect: $\epsilon = \kappa \epsilon_0$.</p>
+<h3 id="effect-on-capacitance">Effect on Capacitance</h3>
+<p>For a parallel plate capacitor with a dielectric:<br />
+$$
+C = \frac{\kappa \epsilon_0 A}{d}
+$$</p>
+<ul>
+<li>$\kappa &gt; 1$, so capacitance increases by a factor of $\kappa$.</li>
+<li>Common dielectrics: Air ($\kappa \approx 1$), paper ($\kappa \approx 3$), mica ($\kappa \approx 5-7$).</li>
+</ul>
+<h3 id="effect-on-electric-field">Effect on Electric Field</h3>
+<p>The electric field inside the capacitor decreases:<br />
+$$
+E = \frac{E_0}{\kappa}
+$$</p>
+<ul>
+<li>$E_0 = \frac{\sigma}{\epsilon_0}$: Field without dielectric.</li>
+<li>$\sigma$: Surface charge density on plates.</li>
+</ul>
+<h3 id="effect-on-potential-difference">Effect on Potential Difference</h3>
+<p>Potential difference decreases: $V = E d = \frac{V_0}{\kappa}$, where $V_0$ is the potential without the dielectric.</p>
+<h3 id="energy-with-dielectrics">Energy with Dielectrics</h3>
+<ul>
+<li>If the capacitor is isolated (constant $Q$): $U = \frac{1}{2} \frac{Q^2}{C}$, $C$ increases, so $U$ decreases.</li>
+<li>If connected to a battery (constant $V$): $U = \frac{1}{2} C V^2$, $C$ increases, so $U$ increases.</li>
+</ul>
+<p><strong>Derivation</strong>: <strong>Capacitance with Dielectric</strong><br />
+For a parallel plate capacitor, without dielectric: $C_0 = \frac{\epsilon_0 A}{d}$. With dielectric, the field is reduced: $E = \frac{\sigma}{\epsilon} = \frac{\sigma}{\kappa \epsilon_0}$, where $\sigma = \frac{Q}{A}$. Potential: $V = E d = \frac{\sigma d}{\kappa \epsilon_0} = \frac{Q d}{\kappa \epsilon_0 A}$. Capacitance: $C = \frac{Q}{V} = \frac{\kappa \epsilon_0 A}{d}$.</p>
+<p><strong>Derivation</strong>: <strong>Energy with Dielectric (Constant $Q$)</strong><br />
+Energy $U = \frac{1}{2} \frac{Q^2}{C}$. With dielectric, $C = \kappa C_0$, so $U = \frac{1}{2} \frac{Q^2}{\kappa C_0} = \frac{U_0}{\kappa}$, where $U_0$ is the energy without dielectric. Energy decreases.</p>
+<p><strong>Derivation</strong>: <strong>Dielectric in Rocket Capacitor</strong><br />
+A capacitor in a spacecraft ($C_0 = 5 , \mu\text{F}$) with dielectric $\kappa = 3$ has $C = 15 , \mu\text{F}$, storing more energy for propulsion systems (your interest, April 19, 2025).</p>
+<p><strong>Solved Example</strong>: A JEE Main problem involves a capacitor $C = 10 , \mu\text{F}$, with dielectric $\kappa = 2$. Find new $C$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$C' = \kappa C = 2 \times 10 = 20 , \mu\text{F}$.
+<ul>
+<li><strong>JEE Tip</strong>: Dielectric increases $C$ by $\kappa$; no other parameters needed. Common error: Forgetting to multiply by $\kappa$.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A NEET problem involves a capacitor $C = 5 , \mu\text{F}$, $Q = 10 , \mu\text{C}$, with dielectric $\kappa = 3$ inserted (constant $Q$). Find new $V$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$C' = 3 \times 5 = 15 , \mu\text{F}$, $V = \frac{Q}{C'} = \frac{10 \times 10^{-6}}{15 \times 10^{-6}} \approx 0.667 , \text{V}$.
+<ul>
+<li><strong>NEET Tip</strong>: For constant $Q$, $V$ decreases by $\kappa$; use new $C$. Common error: Assuming $V$ remains constant.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Advanced problem involves a capacitor $C = 2 , \mu\text{F}$, $V = 100 , \text{V}$, dielectric $\kappa = 4$ inserted (constant $V$). Find new $U$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$C' = 4 \times 2 = 8 , \mu\text{F}$, $U = \frac{1}{2} C' V^2 = \frac{1}{2} \times (8 \times 10^{-6}) \times (100)^2 = 0.04 , \text{J}$.
+<ul>
+<li><strong>JEE Tip</strong>: For constant $V$, $U$ increases by $\kappa$; compute with new $C$. Common error: Using constant $Q$ formula.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Main problem involves a capacitor with $E = 10^4 , \text{N/C}$ without dielectric, $\kappa = 2$. Find new $E$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$E' = \frac{E}{\kappa} = \frac{10^4}{2} = 5000 , \text{N/C}$.
+<ul>
+<li><strong>JEE Tip</strong>: Dielectric reduces $E$ by $\kappa$; field is between plates. Common error: Assuming $E$ increases.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Application</strong>: Dielectrics apply to high-capacitance devices, electronics, and rocketry (e.g., capacitors in spacecraft with dielectrics, aligning with your interest, April 19, 2025).</p>
+<h2 id="summary-and-quick-revision">Summary and Quick Revision</h2>
+<ul>
+<li><strong>Capacitance</strong>: $C = \frac{Q}{V}$, units: F. Parallel plate: $C = \frac{\epsilon_0 A}{d}$. Spherical: $C = 4 \pi \epsilon_0 \frac{ab}{b-a}$.</li>
+<li><strong>Series Combination</strong>: $\frac{1}{C_{\text{eq}}} = \sum \frac{1}{C_i}$, same $Q$, voltages add.</li>
+<li><strong>Parallel Combination</strong>: $C_{\text{eq}} = \sum C_i$, same $V$, charges add.</li>
+<li><strong>Energy Stored</strong>: $U = \frac{1}{2} C V^2 = \frac{1}{2} \frac{Q^2}{C}$, energy density $u = \frac{1}{2} \epsilon_0 E^2$.</li>
+<li><strong>Dielectrics</strong>: $C = \kappa C_0$, $E = \frac{E_0}{\kappa}$, $V = \frac{V_0}{\kappa}$. Energy: decreases (constant $Q$), increases (constant $V$).</li>
+<li><strong>Applications</strong>: Energy storage, circuits, spacecraft power systems.</li>
+<li><strong>JEE/NEET Tips</strong>: Use correct combination formulas, compute energy with appropriate variables, account for dielectric effects, verify significant figures (April 14, 2025).</li>
+<li><strong>SI Units</strong>: Capacitance (F), energy (J), energy density (J/m³), electric field (N/C), potential (V).</li>
+</ul>
+<h2 id="practice-problems">Practice Problems</h2>
+<p>Explore our problem set with <strong>100 problems</strong> inspired by JEE Main, JEE Advanced, and NEET patterns to test your understanding.</p>
+<p><a href="https://vidyamarg.com/books/physics/v1/capacitance/./problems">View Problems</a></p>
+<h2 id="watch-on-youtube">Watch on YouTube</h2>
+<p>Our Hinglish video lessons make electrostatics engaging! Subscribe for updates.</p>
+<p><a href="https://www.youtube.com/@VidyaMargbyRaviShankar-w9u">Watch Now</a></p>
+<p><em>Animation for visualizing capacitor fields, series-parallel circuits, and dielectric effects coming soon!</em></p>
+<p><em>Note: Content regularly updated to align with current JEE/NEET syllabi.</em></p>
+
+        </article>
+    </div>
+
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container text-center py-5">
+            <ul class="social-list list-unstyled pt-4 mb-0">
+                
+                    <li class="list-inline-item">
+                        <a href="https:&#x2F;&#x2F;www.youtube.com&#x2F;@VidyaMargbyRaviShankar-w9u" target="_blank" title="YouTube"><i class="fab fa-youtube fa-fw"></i></a>
+                    </li>
+                
+                    <li class="list-inline-item">
+                        <a href="https:&#x2F;&#x2F;t.me&#x2F;vidyamarg1" target="_blank" title="Telegram"><i class="fab fa-telegram fa-fw"></i></a>
+                    </li>
+                
+            </ul>
+            <small class="copyright">
+                © 2025 Vidya Marg. Designed with <span class="sr-only">love</span><i class="fas fa-heart" style="color: #fb866a;"></i> by <a class="theme-link" href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers. <a class="theme-link" href="/app/privacy-policy/">Privacy Policy</a>
+            </small>
+        </div>
+    </footer>
+
+    <!-- Javascript -->          
+    <script src="https://vidyamarg.com/plugins/popper.min.js"></script>
+    <script src="https://vidyamarg.com/plugins/bootstrap/js/bootstrap.min.js"></script>  
+    
+    <!-- Page Specific JS -->
+    <script src="https://vidyamarg.com/plugins/smoothscroll.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
+    <script src="https://vidyamarg.com/js/highlight-custom.js"></script> 
+    <script src="https://vidyamarg.com/plugins/simplelightbox/simple-lightbox.min.js"></script>      
+    <script src="https://vidyamarg.com/plugins/gumshoe/gumshoe.polyfills.min.js"></script> 
+    <script src="https://vidyamarg.com/js/docs.js"></script> 
+
+    <script>
+        function renderLatex() {
+            if (typeof renderMathInElement === "undefined") {
+                setTimeout(renderLatex, 100);
+                return;
+            }
+            renderMathInElement(document.body, {
+                delimiters: [
+                    { left: "$$", right: "$$", display: true },
+                    { left: "$", right: "$", display: false },
+                    { left: "\\(", right: "\\)", display: false },
+                    { left: "\\[", right: "\\]", display: true }
+                ],
+                throwOnError: false
+            });
+        }
+
+        window.addEventListener("load", function() {
+            renderLatex();
+        });
+    </script>
+</body>
+</html>

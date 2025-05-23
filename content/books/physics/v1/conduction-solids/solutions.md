@@ -1,7 +1,7 @@
 ---
 title: Physics Book - Conduction of Electricity in Solids Solutions for JEE & NEET
 description: Sample solutions for conduction in solids problems, covering band theory, conductors, semiconductors, insulators, and applications like diodes and transistors, tailored for JEE and NEET preparation.
-slug: books/physics/conduction-solids/solutions
+slug: solutions
 keywords: physics conduction solids solutions, JEE physics band theory solutions, NEET physics semiconductors solutions, diodes and transistors
 og:image: https://vidyamarg.com/og-physics-conduction-solids.jpg
 ---
@@ -196,6 +196,6 @@ The answer is (b) 1.00 mA.
 - **JEE/NEET Tip**: Convert $I_B$ to amperes before calculating; $I_C$ in mA requires a factor of $10^{-3}$. Common error: Forgetting unit conversion or misinterpreting $\beta$.
 
 ## Back to Chapter
-[Return to Conduction of Electricity in Solids Chapter](./index.md)
+[Return to Conduction of Electricity in Solids Chapter](../../conduction-solids)
 
-[Return to Conduction of Electricity in Solids Problems](./problems.md)
+[Return to Conduction of Electricity in Solids Problems](../../conduction-solids/problems)

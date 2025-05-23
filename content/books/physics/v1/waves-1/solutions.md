@@ -1,7 +1,7 @@
 ---
 title: Physics Book - Waves—I Solutions for JEE & NEET
 description: Sample solutions for wave motion problems, covering wave characteristics, wave equations, superposition, interference, standing waves, and applications, tailored for JEE and NEET preparation.
-slug: books/physics/waves-1/solutions
+slug: solutions
 keywords: physics waves solutions, JEE physics wave motion solutions, NEET physics interference solutions, standing waves
 og:image: https://vidyamarg.com/og-physics-waves-1.jpg
 ---
@@ -199,6 +199,6 @@ The answer is (a) $-16 \, \text{m/s}$.
 - **JEE/NEET Tip**: Particle velocity is $\frac{\partial y}{\partial t}$, not the wave speed $v = \frac{\omega}{k}$. Evaluate the cosine term carefully at the given point. Common error: Confusing particle velocity with wave speed, which would be $\frac{800}{4} = 200 \, \text{m/s}$.
 
 ## Back to Chapter
-[Return to Waves—I Chapter](./index.md)
+[Return to Waves—I Chapter](../../waves-1)
 
-[Return to Waves—I Problems](./problems.md)
+[Return to Waves—I Problems](../../waves-1/problems)

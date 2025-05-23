@@ -3,6 +3,6 @@ title = "Physics for JEE/NEET"
 description = "Comprehensive physics resources for JEE/NEET preparation."
 +++
 
-# Physics for JEE/NEET
+# Physics for JEE/NEET youtube videos
 
-Explore fundamental physics concepts with detailed chapters and practice problems.
+This page contains our youtube vodeos for physics lectures and associated materials.

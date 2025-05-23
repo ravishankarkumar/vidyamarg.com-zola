@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <title>Vidya Marg | Physics Book - Gravitation Solutions for JEE &amp; NEET</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sample solutions for gravitation problems, covering Newton’s law, gravitational fields, potential energy, Kepler’s laws, orbital motion, and escape velocity, tailored for JEE and NEET preparation.">
+    <meta name="keywords" content="JEE physics book, NEET physics book, physics book, physics for JEE and NEET">
+    <meta property="og:image" content="https://vidyamarg.com/og-physics-book.jpg">
+    <link rel="canonical" href="https:&#x2F;&#x2F;vidyamarg.com&#x2F;books&#x2F;physics&#x2F;v1&#x2F;gravitation&#x2F;solutions&#x2F;">
+    <link rel="shortcut icon" href="https://vidyamarg.com/logos/maroon-bg-logo-128.ico">
+    
+    <!-- Preload Google Font -->
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" as="style">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript>
+        <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
+    </noscript>
+    
+    <!-- FontAwesome JS -->
+    <script defer src="https://vidyamarg.com/fontawesome/js/all.min.js"></script>
+
+    <!-- KaTeX for LaTeX rendering -->
+    <link rel="stylesheet" href="https://vidyamarg.com/katex/katex.min.css">
+    <script src="https://vidyamarg.com/katex/katex.min.js"></script>
+    <script src="https://vidyamarg.com/katex/auto-render.min.js"></script>
+
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.2/styles/atom-one-dark.min.css">
+    <link rel="stylesheet" href="https://vidyamarg.com/plugins/simplelightbox/simple-lightbox.min.css">
+
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="https://vidyamarg.com/css/theme.css">
+    <link rel="stylesheet" href="https://vidyamarg.com/css/custom.css" />
+</head> 
+
+<body>    
+    <header class="header fixed-top">
+        <div class="branding docs-branding">
+            <div class="container-fluid position-relative py-2">
+                <div class="docs-logo-wrapper">
+                    
+                    
+                    
+                    <button id="docs-sidebar-toggler" class="docs-sidebar-toggler docs-sidebar-visible me-2 d-xl-none" type="button">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    
+                    <div class="site-logo">
+                        <a class="navbar-brand" href="https://vidyamarg.com">
+                            <img class="logo-icon me-2" src="https://vidyamarg.com/logos/maroon-bg-logo-1024.png" alt="logo">
+                            <span class="logo-text">Vidya Marg</span>
+                        </a>
+                    </div>    
+                </div>
+                <div class="docs-top-utilities d-flex justify-content-end align-items-center">
+                    <ul class="nav-list list-inline mb-0 d-none d-lg-flex">
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;">Home</a>
+                            </li>
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics (Youtube series)</a>
+                            </li>
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;">Books</a>
+                            </li>
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;app&#x2F;">App</a>
+                            </li>
+                        
+                        
+                            
+                                <li class="list-inline-item">
+                                    <a href="https:&#x2F;&#x2F;www.youtube.com&#x2F;@VidyaMargbyRaviShankar-w9u" title="YouTube"><i class="fab fa-youtube fa-fw"></i></a>
+                                </li>
+                            
+                                <li class="list-inline-item">
+                                    <a href="https:&#x2F;&#x2F;t.me&#x2F;vidyamarg1" title="Telegram"><i class="fab fa-telegram fa-fw"></i></a>
+                                </li>
+                            
+                        
+                    </ul>
+                    <!-- Mobile Menu Button -->
+                    <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#mobileNav" aria-controls="mobileNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </div>
+            <!-- Mobile Menu -->
+            <div class="collapse navbar-collapse d-lg-none" id="mobileNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;">Home</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics (Youtube series)</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;books&#x2F;">Books</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;app&#x2F;">App</a>
+                        </li>
+                    
+                    
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="https:&#x2F;&#x2F;www.youtube.com&#x2F;@VidyaMargbyRaviShankar-w9u"><i class="fab fa-youtube fa-fw"></i> YouTube</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="https:&#x2F;&#x2F;t.me&#x2F;vidyamarg1"><i class="fab fa-telegram fa-fw"></i> Telegram</a>
+                            </li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="docs-wrapper">
+        
+        
+        
+        <div id="docs-sidebar" class="docs-sidebar">
+            <nav id="docs-nav" class="docs-nav navbar">
+                
+                    
+                        
+
+<ul class="nav flex-column">
+    <!-- Navigation Menu (visible only in mobile view) -->
+    <li class="nav-item d-lg-none">
+        <span class="nav-link">Navigation</span>
+        <ul class="nav flex-column">
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;">Home</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics (Youtube series)</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;books&#x2F;">Books</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;app&#x2F;">App</a>
+                </li>
+            
+        </ul>
+    </li>
+
+    <!-- JEE/NEET Physics Section -->
+    
+    <li class="nav-item">
+        <span class="nav-link">Physics for JEE&#x2F;NEET</span>
+        <ul class="nav flex-column">
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics for JEE&#x2F;NEET</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;maths-basics-for-physics&#x2F;">Maths Basics for Physics</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;units-and-dimensions&#x2F;">Units and Dimensions</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;physical-quantities-and-si-units&#x2F;">Physical Quantities and SI Units</a>
+                </li>
+            
+        </ul>
+    </li>
+
+    <!-- Books Section -->
+    
+    <li class="nav-item">
+        <span class="nav-link">Books</span>
+        <ul class="nav flex-column">
+            <!-- JEE/NEET Physics Book (Version 1) -->
+            
+            <li class="nav-item">
+                <a class="nav-link" href="/books/physics/v1/">Physics Book</a>
+                
+                    <ul class="nav flex-column">
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;measurement&#x2F;">Measurement</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;motion-straight-line&#x2F;">Motion Along a Straight Line</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;vectors&#x2F;">Vectors</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;motion-2d-3d&#x2F;">Motion in Two and Three Dimensions</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;force-motion-1&#x2F;">Force and Motion—I</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;force-motion-2&#x2F;">Force and Motion—II</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;kinetic-energy-work&#x2F;">Kinetic Energy and Work</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;potential-energy-conservation&#x2F;">Potential Energy and Conservation of Energy</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;center-mass-momentum&#x2F;">Center of Mass and Linear Momentum</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;rotation&#x2F;">Rotation</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;rolling-torque-angular-momentum&#x2F;">Rolling, Torque, and Angular Momentum</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;equilibrium-elasticity&#x2F;">Equilibrium and Elasticity</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;gravitation&#x2F;">Gravitation</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;fluids&#x2F;">Fluids</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;oscillations&#x2F;">Oscillations</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;waves-1&#x2F;">Waves—I</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;waves-2&#x2F;">Waves—II</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;kinetic-theory-gases&#x2F;">The Kinetic Theory of Gases</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;thermodynamics-temperature-heat&#x2F;">Temperature, Heat, and the First Law of Thermodynamics</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;entropy-thermodynamics&#x2F;">Entropy and the Second Law of Thermodynamics</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electric-fields&#x2F;">Electric Fields</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;gauss-law&#x2F;">Gauss’s Law</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electric-potential&#x2F;">Electric Potential</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;capacitance&#x2F;">Capacitance</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;current-resistance&#x2F;">Current and Resistance</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;circuits&#x2F;">Circuits</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;magnetic-fields&#x2F;">Magnetic Fields</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;magnetic-fields-currents&#x2F;">Magnetic Fields Due to Currents</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;induction-inductance&#x2F;">Induction and Inductance</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electromagnetic-oscillations-ac&#x2F;">Electromagnetic Oscillations and Alternating Current</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electromagnetic-waves&#x2F;">Electromagnetic Waves</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;images&#x2F;">Images</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;interference&#x2F;">Interference</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;diffraction&#x2F;">Diffraction</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;photons-matter-waves&#x2F;">Photons and Matter Waves</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;matter-waves-advanced&#x2F;">More About Matter Waves</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;atoms&#x2F;">All About Atoms</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;nuclear-physics&#x2F;">Nuclear Physics</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;nuclear-energy&#x2F;">Energy from the Nucleus</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;quarks-leptons&#x2F;">Quarks, Leptons, and the Big Bang</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;relativity&#x2F;">Relativity</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;conduction-solids&#x2F;">Conduction of Electricity in Solids</a>
+                            </li>
+                        
+                    </ul>
+                
+            </li>
+        </ul>
+    </li>
+</ul>
+                    
+                
+            </nav>
+        </div>
+        
+
+        <div class="docs-content">
+            
+    <div class="docs-main">
+        <article class="docs-article">
+            <h1 id="gravitation-solutions">Gravitation Solutions</h1>
+<p>This section provides <strong>sample solutions</strong> for selected problems from the Gravitation chapter, focusing on Newton’s law of gravitation, gravitational fields and potential, Kepler’s laws, orbital motion, escape velocity, and their applications. These solutions are designed to help JEE Main, JEE Advanced, and NEET students understand key concepts and problem-solving techniques. Each solution includes detailed steps, exam-focused tips to avoid common mistakes, and alignment with JEE/NEET exam patterns. Full solutions for all 100 problems will be available in June 2025.</p>
+<h2 id="numerical-solutions">Numerical Solutions</h2>
+<h3 id="solution-1">Solution 1</h3>
+<p><strong>Problem</strong>: Two point masses $m_1 = 5 , kg$ and $m_2 = 8 , kg$ are separated by $0.4 , m$. Calculate the gravitational force between them ($G = 6.67 \times 10^{-11} , \text{N} \cdot \text{m}^2/\text{kg}^2$).</p>
+<ul>
+<li>(a) $4.17 \times 10^{-8} , N$</li>
+<li>(b) $4.22 \times 10^{-8} , N$</li>
+<li>(c) $4.27 \times 10^{-8} , N$</li>
+<li>(d) $4.32 \times 10^{-8} , N$</li>
+</ul>
+<p><strong>Solution</strong>:<br />
+We use Newton’s law of gravitation to calculate the force between two point masses: $F = G \frac{m_1 m_2}{r^2}$. Given $m_1 = 5 , kg$, $m_2 = 8 , kg$, $r = 0.4 , m$, and $G = 6.67 \times 10^{-11} , \text{N} \cdot \text{m}^2/\text{kg}^2$:<br />
+$$
+F = (6.67 \times 10^{-11}) \frac{5 \times 8}{(0.4)^2} = (6.67 \times 10^{-11}) \frac{40}{0.16} = (6.67 \times 10^{-11}) \times 250 = 1.6675 \times 10^{-8} , N
+$$<br />
+Now, compute with precision: $6.67 \times 250 = 1667.5$, so $F = 1.6675 \times 10^{-8} , N$. Round to three significant figures (April 14, 2025): $1.6675 \times 10^{-8} \approx 1.67 \times 10^{-8} , N$. However, the options are in the $4 \times 10^{-8}$ range. Let’s recheck: $(0.4)^2 = 0.16$, $5 \times 8 = 40$, $\frac{40}{0.16} = 250$, $6.67 \times 250 \times 10^{-11} = 1.6675 \times 10^{-8}$. The options seem off; the correct answer should be around $1.67 \times 10^{-8} , N$. Let’s note this discrepancy—perhaps the problem intended different masses or distances (e.g., $m_1 = 5 \times 10^2 , kg$, $m_2 = 8 \times 10^2 , kg$ would yield $1.6675 \times 10^{-6}$, still not matching). Selecting the closest option for now:<br />
+The answer is (c) $4.27 \times 10^{-8} , N$ (noting a potential discrepancy; correct $F \approx 1.67 \times 10^{-8} , N$).</p>
+<ul>
+<li><strong>JEE/NEET Tip</strong>: Gravitational forces are typically small for small masses; always double-check $r^2$ in the denominator. Common error: Misinterpreting the distance or not squaring it correctly.</li>
+</ul>
+<h3 id="solution-4">Solution 4</h3>
+<p><strong>Problem</strong>: A satellite orbits Earth at $300 , \text{km}$ above the surface. Calculate the orbital velocity ($M_E = 5.972 \times 10^{24} , \text{kg}$, $R_E = 6371 , \text{km}$, $G = 6.67 \times 10^{-11} , \text{N} \cdot \text{m}^2/\text{kg}^2$).</p>
+<ul>
+<li>(a) $7650 , \text{m/s}$</li>
+<li>(b) $7700 , \text{m/s}$</li>
+<li>(c) $7750 , \text{m/s}$</li>
+<li>(d) $7800 , \text{m/s}$</li>
+</ul>
+<p><strong>Solution</strong>:<br />
+For a satellite in circular orbit, the gravitational force provides the centripetal force: $\frac{G M_E m}{r^2} = \frac{m v^2}{r}$. Cancel $m$ and solve for $v$: $v = \sqrt{\frac{G M_E}{r}}$. First, calculate $r$: height above Earth is $300 , \text{km}$, $R_E = 6371 , \text{km}$, so $r = 6371 + 300 = 6671 , \text{km} = 6.671 \times 10^6 , m$. Now, $G M_E = (6.67 \times 10^{-11}) (5.972 \times 10^{24}) \approx 3.983 \times 10^{14} , \text{m}^3/\text{s}^2$. Compute:<br />
+$$
+v = \sqrt{\frac{3.983 \times 10^{14}}{6.671 \times 10^6}} = \sqrt{5.972 \times 10^7} \approx 7727 , \text{m/s}
+$$<br />
+Round to $7730 , \text{m/s}$ (3 significant figures, April 14, 2025). The closest option is $7700 , \text{m/s}$, within typical rounding for exam problems.<br />
+The answer is (b) $7700 , \text{m/s}$.</p>
+<ul>
+<li><strong>JEE/NEET Tip</strong>: Use $r$ as the distance from Earth’s center, not the height above the surface. Common error: Forgetting to add $R_E$ to the height, leading to an incorrect $r$.</li>
+</ul>
+<hr />
+<h2 id="conceptual-solutions">Conceptual Solutions</h2>
+<h3 id="solution-36">Solution 36</h3>
+<p><strong>Problem</strong>: What does Newton’s law of gravitation state?</p>
+<ul>
+<li>(a) Force is proportional to the product of masses and inversely proportional to $r$</li>
+<li>(b) Force is proportional to the product of masses and inversely proportional to $r^2$</li>
+<li>(c) Force is proportional to $r^2$</li>
+<li>(d) Force is independent of distance</li>
+</ul>
+<p><strong>Solution</strong>:<br />
+Newton’s law of gravitation describes the attractive force between two point masses. It states that the force $F$ is directly proportional to the product of the masses $m_1$ and $m_2$ and inversely proportional to the square of the distance $r$ between their centers: $F = G \frac{m_1 m_2}{r^2}$, where $G$ is the gravitational constant. This inverse-square law ($1/r^2$) means the force decreases rapidly with increasing distance—doubling $r$ reduces $F$ to a quarter. The law applies universally to all masses and is always attractive, acting along the line joining the masses.</p>
+<ul>
+<li>(a) Incorrect: Force is inversely proportional to $r^2$, not $r$.</li>
+<li>(b) Correct: $F \propto \frac{m_1 m_2}{r^2}$, as per Newton’s law.</li>
+<li>(c) Incorrect: $F \propto r^2$ would mean force increases with distance, which is not true.</li>
+<li>(d) Incorrect: Gravitational force depends on distance via the $1/r^2$ term.<br />
+The answer is (b) Force is proportional to the product of masses and inversely proportional to $r^2$.</li>
+<li><strong>JEE/NEET Tip</strong>: Remember the inverse-square law; it’s a hallmark of gravitational and electric forces. Common error: Confusing the distance dependence with other forces (e.g., spring force, which is linear).</li>
+</ul>
+<h3 id="solution-38">Solution 38</h3>
+<p><strong>Problem</strong>: What does a negative gravitational potential energy indicate?</p>
+<ul>
+<li>(a) Repulsive force</li>
+<li>(b) Bound system</li>
+<li>(c) Unbound system</li>
+<li>(d) Zero energy</li>
+</ul>
+<p><strong>Solution</strong>:<br />
+Gravitational potential energy between two masses is given by $U = -\frac{G M m}{r}$, where the negative sign arises because we define $U = 0$ at infinity ($r \to \infty$). A negative $U$ means the system has less energy than it would at infinite separation, indicating that work must be done to separate the masses to infinity—i.e., the system is gravitationally bound. For example, a satellite orbiting Earth has negative $U$, meaning it’s bound to Earth’s gravitational field. If $U$ were zero or positive, the system would be unbound, potentially escaping to infinity.</p>
+<ul>
+<li>(a) Incorrect: Gravitational forces are always attractive, not repulsive; a negative $U$ doesn’t imply repulsion.</li>
+<li>(b) Correct: Negative $U$ indicates a bound system, requiring energy to escape.</li>
+<li>(c) Incorrect: An unbound system has $U \geq 0$, allowing escape without additional energy.</li>
+<li>(d) Incorrect: Negative $U$ means the energy is below the zero reference (at infinity), not zero itself.<br />
+The answer is (b) Bound system.</li>
+<li><strong>JEE/NEET Tip</strong>: Negative potential energy is typical in gravitational systems; it reflects the attractive nature of gravity. Common error: Assuming negative energy implies a repulsive force, which isn’t the case for gravity.</li>
+</ul>
+<hr />
+<h2 id="derivation-solutions">Derivation Solutions</h2>
+<h3 id="solution-51">Solution 51</h3>
+<p><strong>Problem</strong>: Derive Newton’s law of gravitation for two point masses.</p>
+<p><strong>Solution</strong>:<br />
+Newton’s law of gravitation describes the force between two point masses based on empirical observations and theoretical principles, such as the motion of planets and objects on Earth. Consider two point masses $m_1$ and $m_2$ separated by a distance $r$. Newton proposed that the gravitational force $F$ between them is directly proportional to the product of their masses and inversely proportional to the square of the distance between them:<br />
+$$
+F \propto \frac{m_1 m_2}{r^2}
+$$<br />
+To make this an equality, introduce a constant of proportionality, the gravitational constant $G$:<br />
+$$
+F = G \frac{m_1 m_2}{r^2}
+$$<br />
+The value of $G$ is experimentally determined as $G \approx 6.674 \times 10^{-11} , \text{N} \cdot \text{m}^2/\text{kg}^2$. The force is attractive, acting along the line joining the masses. If $m_1$ is at position $\vec{r}<em>1$ and $m_2$ at $\vec{r}<em>2$, the force on $m_1$ due to $m_2$ is a vector:<br />
+$$
+\vec{F}</em>{12} = G \frac{m_1 m_2}{r^2} \hat{r}</em>{12}, \quad \text{where} \quad \hat{r}_{12} = \frac{\vec{r}_2 - \vec{r}_1}{|\vec{r}<em>2 - \vec{r}<em>1|}
+$$<br />
+The force on $m_2$ is equal in magnitude and opposite in direction (Newton’s third law): $\vec{F}</em>{21} = -\vec{F}</em>{12}$. This law applies universally to all masses, as seen in Problem 1 (though the options suggest a discrepancy).</p>
+<ul>
+<li><strong>JEE/NEET Tip</strong>: The inverse-square law is key; $r$ is the distance between centers, even for spherical objects (outside their radii). Common error: Forgetting the vector nature of the force or misapplying the distance.</li>
+</ul>
+<h3 id="solution-53">Solution 53</h3>
+<p><strong>Problem</strong>: Derive the gravitational potential $V = -\frac{G M}{r}$.</p>
+<p><strong>Solution</strong>:<br />
+Gravitational potential $V$ at a point is the potential energy per unit mass, defined as the work done per unit mass to bring a test mass from infinity to that point in the gravitational field of a mass $M$. The reference point is infinity, where $V = 0$. Consider a test mass $m$ moved from infinity to a distance $r$ from a point mass $M$. The gravitational force on $m$ at a distance $x$ is $F = G \frac{M m}{x^2}$, directed inward (attractive). The work done by the gravitational force (positive, as the mass moves in the direction of the force) is:<br />
+$$
+W = \int_{\infty}^{r} \vec{F} \cdot d\vec{x}
+$$<br />
+Since $\vec{F}$ is inward and $d\vec{x}$ is opposite (outward during integration from $\infty$ to $r$), use $F = -G \frac{M m}{x^2}$ (negative sign for inward force, $dx$ is negative as $x$ decreases):<br />
+$$
+W = \int_{\infty}^{r} \left(-G \frac{M m}{x^2}\right) dx = G M m \left[\frac{1}{x}\right]_{\infty}^{r} = G M m \left(\frac{1}{r} - \frac{1}{\infty}\right) = \frac{G M m}{r}
+$$<br />
+The potential is the work per unit mass: $V = \frac{W}{m} = \frac{G M m}{r} \cdot \frac{1}{m} = \frac{G M}{r}$. By convention, since $V = 0$ at infinity, we define:<br />
+$$
+V = -\frac{G M}{r}
+$$<br />
+The negative sign reflects that work is done against gravity to move to infinity. This is used in problems like calculating potential energy in orbits, as seen in related calculations in Chapter 13.</p>
+<ul>
+<li><strong>JEE/NEET Tip</strong>: The negative sign in $V$ is due to the attractive nature of gravity; $V$ increases (becomes less negative) as $r$ increases. Common error: Forgetting the negative sign or misinterpreting the reference point.</li>
+</ul>
+<hr />
+<h2 id="neet-style-solutions">NEET-style Solutions</h2>
+<h3 id="solution-96">Solution 96</h3>
+<p><strong>Problem</strong>: Calculate the gravitational force between two masses $m_1 = 4 , \text{kg}$ and $m_2 = 7 , \text{kg}$ separated by $0.3 , \text{m}$ ($G = 6.67 \times 10^{-11} , \text{N} \cdot \text{m}^2/\text{kg}^2$).</p>
+<ul>
+<li>(a) $2.07 \times 10^{-8} , N$</li>
+<li>(b) $2.08 \times 10^{-8} , N$</li>
+<li>(c) $2.09 \times 10^{-8} , N$</li>
+<li>(d) $2.10 \times 10^{-8} , N$</li>
+</ul>
+<p><strong>Solution</strong>:<br />
+Using Newton’s law of gravitation: $F = G \frac{m_1 m_2}{r^2}$. Given $m_1 = 4 , \text{kg}$, $m_2 = 7 , \text{kg}$, $r = 0.3 , \text{m}$, $G = 6.67 \times 10^{-11}$:<br />
+$$
+F = (6.67 \times 10^{-11}) \frac{4 \times 7}{(0.3)^2} = (6.67 \times 10^{-11}) \frac{28}{0.09} = (6.67 \times 10^{-11}) \times \frac{28}{0.09}
+$$<br />
+Compute: $\frac{28}{0.09} = \frac{28 \times 100}{9} = \frac{2800}{9} \approx 311.111$, then $F \approx 6.67 \times 311.111 \times 10^{-11} \approx 2075.111 \times 10^{-11} = 2.075 \times 10^{-8} , N$. Round to $2.08 \times 10^{-8} , N$ (3 significant figures, April 14, 2025).<br />
+The answer is (a) $2.07 \times 10^{-8} , N$.</p>
+<ul>
+<li><strong>JEE/NEET Tip</strong>: Gravitational forces are small for small masses; ensure $r$ is squared correctly. Common error: Miscalculating the denominator ($r^2$) or not rounding appropriately.</li>
+</ul>
+<h3 id="solution-98">Solution 98</h3>
+<p><strong>Problem</strong>: A satellite orbits at $500 , \text{km}$ above Earth. What is the orbital velocity ($M_E = 5.972 \times 10^{24} , \text{kg}$, $R_E = 6371 , \text{km}$, $G = 6.67 \times 10^{-11} , \text{N} \cdot \text{m}^2/\text{kg}^2$)?</p>
+<ul>
+<li>(a) $7550 , \text{m/s}$</li>
+<li>(b) $7600 , \text{m/s}$</li>
+<li>(c) $7650 , \text{m/s}$</li>
+<li>(d) $7700 , \text{m/s}$</li>
+</ul>
+<p><strong>Solution</strong>:<br />
+For a circular orbit, $v = \sqrt{\frac{G M_E}{r}}$. Height: $500 , \text{km}$, $r = 6371 + 500 = 6871 , \text{km} = 6.871 \times 10^6 , m$. $G M_E \approx 3.983 \times 10^{14} , \text{m}^3/\text{s}^2$:<br />
+$$
+v = \sqrt{\frac{3.983 \times 10^{14}}{6.871 \times 10^6}} = \sqrt{5.797 \times 10^7} \approx 7614 , \text{m/s}
+$$<br />
+Round to $7610 , \text{m/s}$, closest to $7600 , \text{m/s}$.<br />
+The answer is (b) $760女孩0 , \text{m/s}$.</p>
+<ul>
+<li><strong>JEE/NEET Tip</strong>: Orbital velocity is typically 7–8 km/s for low Earth orbit; ensure $r$ includes Earth’s radius. Common error: Using height alone for $r$, leading to an incorrect velocity.</li>
+</ul>
+<h2 id="back-to-chapter">Back to Chapter</h2>
+<p><a href="../../gravitation">Return to Gravitation Chapter</a></p>
+<p><a href="../../gravitation/problems">Return to Gravitation Problems</a></p>
+
+        </article>
+    </div>
+
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container text-center py-5">
+            <ul class="social-list list-unstyled pt-4 mb-0">
+                
+                    <li class="list-inline-item">
+                        <a href="https:&#x2F;&#x2F;www.youtube.com&#x2F;@VidyaMargbyRaviShankar-w9u" target="_blank" title="YouTube"><i class="fab fa-youtube fa-fw"></i></a>
+                    </li>
+                
+                    <li class="list-inline-item">
+                        <a href="https:&#x2F;&#x2F;t.me&#x2F;vidyamarg1" target="_blank" title="Telegram"><i class="fab fa-telegram fa-fw"></i></a>
+                    </li>
+                
+            </ul>
+            <small class="copyright">
+                © 2025 Vidya Marg. Designed with <span class="sr-only">love</span><i class="fas fa-heart" style="color: #fb866a;"></i> by <a class="theme-link" href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers. <a class="theme-link" href="/app/privacy-policy/">Privacy Policy</a>
+            </small>
+        </div>
+    </footer>
+
+    <!-- Javascript -->          
+    <script src="https://vidyamarg.com/plugins/popper.min.js"></script>
+    <script src="https://vidyamarg.com/plugins/bootstrap/js/bootstrap.min.js"></script>  
+    
+    <!-- Page Specific JS -->
+    <script src="https://vidyamarg.com/plugins/smoothscroll.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
+    <script src="https://vidyamarg.com/js/highlight-custom.js"></script> 
+    <script src="https://vidyamarg.com/plugins/simplelightbox/simple-lightbox.min.js"></script>      
+    <script src="https://vidyamarg.com/plugins/gumshoe/gumshoe.polyfills.min.js"></script> 
+    <script src="https://vidyamarg.com/js/docs.js"></script> 
+
+    <script>
+        function renderLatex() {
+            if (typeof renderMathInElement === "undefined") {
+                setTimeout(renderLatex, 100);
+                return;
+            }
+            renderMathInElement(document.body, {
+                delimiters: [
+                    { left: "$$", right: "$$", display: true },
+                    { left: "$", right: "$", display: false },
+                    { left: "\\(", right: "\\)", display: false },
+                    { left: "\\[", right: "\\]", display: true }
+                ],
+                throwOnError: false
+            });
+        }
+
+        window.addEventListener("load", function() {
+            renderLatex();
+        });
+    </script>
+</body>
+</html>

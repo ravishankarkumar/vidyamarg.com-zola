@@ -1,7 +1,7 @@
 ---
 title: Physics Book - Nuclear Physics Problems for JEE & NEET
 description: Practice 100 problems on nuclear physics for JEE and NEET, inspired by exam patterns, covering nuclear structure, radioactivity, nuclear reactions, and applications like nuclear power and medical imaging.
-slug: books/physics/nuclear-physics/problems
+slug: problems
 keywords: physics nuclear physics problems, JEE physics radioactivity problems, NEET physics nuclear reactions problems, nuclear power applications
 og:image: https://vidyamarg.com/og-physics-nuclear-physics.jpg
 ---
@@ -569,4 +569,4 @@ This section provides **100 problems** to test your understanding of nuclear phy
     - (d) $1.59 \times 10^{17}$
 
 ## Back to Chapter
-[Return to Nuclear Physics Chapter](./index.md)
+[Return to Nuclear Physics Chapter](../../nuclear-physics)

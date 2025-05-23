@@ -3,11 +3,44 @@
 {% block content %}
     <header class="intro-header text-center bg-gradient text-white py-5">
         <h1 class="intro-title mb-4">{{ section.title }}</h1>
+        <p class="intro-subtitle mb-0">The goal is not to teach, but to fall in love with Science together. All over again, again and again.</p>
+        <br />
         <p class="intro-subtitle mb-0">{{ section.description }}</p>
     </header>
     <div class="container">
         <div class="docs-section">
-            {{ section.content | safe }}
+            <div class="row">
+                <!-- Card 1: YouTube Video Info -->
+                <div class="col-md-4 mb-5">
+                    <div class="card border-0 shadow h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">YouTube Video Lessons</h5>
+                            <p class="card-text">Explore our engaging Hinglish video lessons on YouTube, covering JEE/NEET physics topics with practical examples.</p>
+                        </div>
+                        <a class="card-link-mask" href="https://www.youtube.com/@VidyaMargbyRaviShankar-w9u"></a>
+                    </div>
+                </div>
+                <!-- Card 2: Physics Online Book -->
+                <div class="col-md-4 mb-5">
+                    <div class="card border-0 shadow h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Physics Online Book</h5>
+                            <p class="card-text">Access our comprehensive Physics book for JEE/NEET, with detailed chapters, examples, and practice problems.</p>
+                        </div>
+                        <a class="card-link-mask" href="/books/physics/v1"></a>
+                    </div>
+                </div>
+                <!-- Card 3: Upcoming App -->
+                <div class="col-md-4 mb-5">
+                    <div class="card border-0 shadow h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Upcoming App</h5>
+                            <p class="card-text">Stay tuned for our upcoming app, designed to make JEE/NEET preparation interactive and accessible on the go.</p>
+                        </div>
+                        <a class="card-link-mask" href="/app/"></a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 {% endblock %}

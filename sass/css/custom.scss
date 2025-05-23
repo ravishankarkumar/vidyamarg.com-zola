@@ -27,12 +27,6 @@
   vertical-align: middle;
 }
 
-// Navbar container to prevent shifts
-.docs-branding {
-  width: 100%;
-  box-sizing: border-box;
-}
-
 // Override default link styles
 a {
   color: #800000 !important; // Replace green with maroon for all links
@@ -42,6 +36,18 @@ a {
 a:hover {
   color: #a52a2a !important; // Lighter maroon for hover
   text-decoration: underline;
+}
+
+// Exclude navbar title from underline on hover
+.navbar-brand:hover {
+  text-decoration: none !important; // Remove underline for Vidya Marg title
+  color: #333 !important; // Keep the default color on hover
+}
+
+// Navbar container to prevent shifts
+.docs-branding {
+  width: 100%;
+  box-sizing: border-box;
 }
 
 // Navbar styling
@@ -99,9 +105,28 @@ a:hover {
   color: #800000; // Replace green with maroon for mobile menu hover
 }
 
+// Sidebar links
+.nav-link {
+  color: #800000 !important; // Default color for sidebar links
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: #a52a2a !important; // Lighter maroon for hover
+}
+
 // Hero strip and thematic color overrides
 .bg-gradient {
   background: linear-gradient(to right, #800000, #a52a2a) !important; // Replace green gradient with maroon
+}
+
+.intro-header {
+  margin-bottom: 3rem; // Add spacing below the hero strip
+}
+
+.docs-section {
+  margin-top: 2rem; // Add spacing above the cards
 }
 
 a.theme-link {
@@ -142,6 +167,36 @@ a.theme-link:hover {
 
 .badge-success {
   background-color: #800000 !important; // Replace green badges with maroon
+}
+
+// Card styling for clickable cards
+.card {
+  position: relative; // Ensure card-link-mask positions correctly
+  cursor: pointer; // Indicate the card is clickable
+  transition: box-shadow 0.3s ease; // Smooth transition for shadow
+}
+
+.card:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3) !important; // Increase shadow on hover
+}
+
+.card:active {
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.2) !important; // Slightly reduce shadow on click
+}
+
+.card-body {
+  position: relative;
+  z-index: 0; // Ensure card-body is below card-link-mask
+}
+
+.card-link-mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2 !important; // Increase z-index to ensure it's on top
+  display: block; // Ensure the link is a block element
 }
 
 // Dark mode (kept for future use, currently disabled)

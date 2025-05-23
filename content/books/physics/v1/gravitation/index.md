@@ -1,14 +1,26 @@
 ---
 title: Physics Book - Gravitation for JEE & NEET
 description: Comprehensive guide on gravitation for JEE and NEET, covering Newton’s law of gravitation, gravitational fields, potential energy, Kepler’s laws, orbital motion, and escape velocity, with extensive examples.
-slug: books/physics/gravitation
+slug: gravitation
 keywords: physics gravitation, JEE physics gravitation, NEET physics orbital motion, escape velocity
 og:image: https://vidyamarg.com/og-physics-gravitation.jpg
 ---
 
 # Chapter 13: Gravitation
 
-**Beta Version**: Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!
+
+
+<div class="callout-block callout-warning">
+    <div class="content">
+        <h4 class="callout-title">
+            <span class="callout-icon-holder me-1">
+                <i class="fas fa-exclamation-triangle"></i>
+            </span>
+            Beta Version
+        </h4>
+        <p>Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!</p>
+    </div>
+</div>
 
 Gravitation is the universal force that governs the motion of celestial bodies, from planets orbiting the Sun to rockets escaping Earth’s atmosphere. Building on the mechanics and energy concepts from Chapters 1–12, this chapter explores the fundamental principles of gravitation, a cornerstone of classical physics. For JEE Main, JEE Advanced, and NEET students, understanding gravitation is essential, as it appears in problems involving planetary motion, satellite orbits, and gravitational potential energy. This chapter covers **Newton’s law of gravitation**, **gravitational fields and potential**, **Kepler’s laws and orbital motion**, and **escape velocity and applications**, providing detailed explanations, derivations, solved examples, and practical applications to ensure conceptual clarity and problem-solving proficiency.
 
@@ -331,7 +343,7 @@ For $v_{\text{esc}} = \sqrt{\frac{2 G M}{r}}$, solve for $r$: $r = \frac{2 G M}{
 ## Practice Problems
 Explore our problem set with **100 problems** inspired by JEE Main, JEE Advanced, and NEET patterns to test your understanding.
 
-[View Problems](./problems.md)
+[View Problems](./problems)
 
 ## Watch on YouTube
 Our Hinglish video lessons make gravitation engaging! Subscribe for updates.

@@ -1,7 +1,7 @@
 ---
 title: Physics Book - Circuits Solutions for JEE & NEET
 description: Sample solutions for circuit problems, covering Kirchhoff's laws, series and parallel resistors, capacitors in circuits, RC circuits, and DC circuit applications, tailored for JEE and NEET preparation.
-slug: books/physics/circuits/solutions
+slug: solutions
 keywords: physics circuits solutions, JEE physics Kirchhoff's laws solutions, NEET physics RC circuits solutions, DC circuits
 og:image: https://vidyamarg.com/og-physics-circuits.jpg
 ---
@@ -184,6 +184,6 @@ Round to two decimal places: $3.16 \times 10^{-5} \, \text{C}$. The answer is (a
 - **JEE/NEET Tip**: Use $e^{-1} \approx 0.367879$ for calculations; charge approaches $C \mathcal{E}$ as $t$ increases. Common error: Incorrect $\tau$ or forgetting to subtract $e^{-t / RC}$ from 1.
 
 ## Back to Chapter
-[Return to Circuits Chapter](./index.md)
+[Return to Circuits Chapter](../../circuits)
 
-[Return to Circuits Problems](./problems.md)
+[Return to Circuits Problems](../../circuits/problems)

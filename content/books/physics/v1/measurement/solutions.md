@@ -1,7 +1,7 @@
 ---
 title: Physics Book - Measurement Solutions for JEE & NEET
 description: Sample solutions for measurement problems, covering SI units, dimensional analysis, significant figures, and error analysis, tailored for JEE and NEET preparation.
-slug: books/physics/measurement/solutions
+slug: solutions
 keywords: physics measurement solutions, JEE physics SI units solutions, NEET physics dimensional analysis solutions, significant figures
 og:image: https://vidyamarg.com/og-physics-measurement.jpg
 ---
@@ -149,6 +149,6 @@ The answer is (b) $0.71\%$.
 - **JEE/NEET Tip**: Use the measured value for the denominator. Common error: Rounding too early.
 
 ## Back to Chapter
-[Return to Measurement Chapter](./index.md)
+[Return to Measurement Chapter](../../measurement/)
 
-[Return to Measurement Problems](./problems.md)
+[Return to Measurement Problems](../../measurement/problems)

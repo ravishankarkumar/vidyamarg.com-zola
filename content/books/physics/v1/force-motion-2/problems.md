@@ -1,7 +1,7 @@
 ---
 title: Physics Book - Force and Motion—II Problems for JEE & NEET
 description: Practice 100 advanced force and motion problems for JEE and NEET, inspired by exam patterns, covering friction, circular motion dynamics, drag forces, and complex systems.
-slug: books/physics/force-motion-2/problems
+slug: problems
 keywords: physics force motion problems, JEE physics friction problems, NEET physics circular motion problems, drag forces
 og:image: https://vidyamarg.com/og-physics-force-motion-2.jpg
 ---
@@ -569,4 +569,4 @@ This section provides **100 problems** to test your understanding of advanced fo
     - (d) $11.0 \, m/s^2$
 
 ## Back to Chapter
-[Return to Force and Motion—II Chapter](./index.md)
+[Return to Force and Motion—II Chapter](../../force-motion-2)

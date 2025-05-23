@@ -1,7 +1,7 @@
 ---
 title: Physics Book - Interference Solutions for JEE & NEET
 description: Sample solutions for interference of light problems, covering the principle of superposition, Young's double-slit experiment, thin film interference, and applications, tailored for JEE and NEET preparation.
-slug: books/physics/interference/solutions
+slug: solutions
 keywords: physics interference solutions, JEE physics wave optics solutions, NEET physics Young's double-slit solutions, interference patterns
 og:image: https://vidyamarg.com/og-physics-interference.jpg
 ---
@@ -197,6 +197,6 @@ The answer is (a) 0.
 - **JEE/NEET Tip**: Normal incidence simplifies $\cos \theta = 1$; the $\pi$ phase shift adjusts the condition. Common error: Forgetting the phase shift or using the destructive condition.
 
 ## Back to Chapter
-[Return to Interference Chapter](./index.md)
+[Return to Interference Chapter](../../interference)
 
-[Return to Interference Problems](./problems.md)
+[Return to Interference Problems](../../interference/problems)

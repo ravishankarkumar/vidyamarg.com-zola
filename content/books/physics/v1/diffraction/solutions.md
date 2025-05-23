@@ -1,7 +1,7 @@
 ---
 title: Physics Book - Diffraction Solutions for JEE & NEET
 description: Sample solutions for diffraction of light problems, covering Huygens' principle, single-slit diffraction, diffraction gratings, and applications, tailored for JEE and NEET preparation.
-slug: books/physics/diffraction/solutions
+slug: solutions
 keywords: physics diffraction solutions, JEE physics wave optics solutions, NEET physics single-slit diffraction solutions, diffraction patterns
 og:image: https://vidyamarg.com/og-physics-diffraction.jpg
 ---
@@ -182,6 +182,6 @@ The answer is (c) $1.54 \times 10^{-5} \, \text{rad}$ (rounded to two decimal pl
 - **JEE/NEET Tip**: Use the Rayleigh criterion for circular apertures; result in radians. Common error: Forgetting the 1.22 factor or incorrect units.
 
 ## Back to Chapter
-[Return to Diffraction Chapter](./index.md)
+[Return to Diffraction Chapter](../../diffraction)
 
-[Return to Diffraction Problems](./problems.md)
+[Return to Diffraction Problems](../../diffraction/problems)

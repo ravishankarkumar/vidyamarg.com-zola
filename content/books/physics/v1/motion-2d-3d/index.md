@@ -1,14 +1,26 @@
 ---
 title: Physics Book - Motion in Two and Three Dimensions for JEE & NEET
 description: Comprehensive guide to motion in two and three dimensions for JEE and NEET, covering position, displacement, velocity, acceleration, projectile motion, circular motion, and relative motion, with extensive examples.
-slug: books/physics/motion-2d-3d
+slug: motion-2d-3d
 keywords: physics motion 2d 3d, JEE physics projectile motion, NEET physics circular motion, relative motion
 og:image: https://vidyamarg.com/og-physics-motion-2d-3d.jpg
 ---
 
 # Chapter 4: Motion in Two and Three Dimensions
 
-**Beta Version**: Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!
+
+
+<div class="callout-block callout-warning">
+    <div class="content">
+        <h4 class="callout-title">
+            <span class="callout-icon-holder me-1">
+                <i class="fas fa-exclamation-triangle"></i>
+            </span>
+            Beta Version
+        </h4>
+        <p>Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!</p>
+    </div>
+</div>
 
 Motion in two and three dimensions builds on the concepts of one-dimensional motion (Chapter 2) and vectors (Chapter 3), extending kinematics to describe real-world scenarios like the trajectory of a projectile, the circular motion of a car around a curve, or the relative velocity of a boat crossing a river. This chapter is crucial for JEE Main, JEE Advanced, and NEET, as multi-dimensional motion problems frequently appear in questions on projectile motion (e.g., range, maximum height), circular motion (e.g., centripetal acceleration), and relative velocity (e.g., airplane navigation). A deep understanding of these topics is essential for mastering later chapters like force and motion, as well as applications in electromagnetism and orbital mechanics. This chapter covers **position, displacement, velocity, and acceleration in 2D/3D**, **projectile motion**, **uniform circular motion**, **relative motion**, and **applications in physics**, providing detailed explanations, derivations, numerous solved examples, and exam-focused strategies to ensure conceptual clarity and problem-solving proficiency.
 
@@ -336,7 +348,7 @@ $$
 ## Practice Problems
 Explore our extensive problem set with **100 problems** inspired by JEE Main, JEE Advanced, and NEET patterns to test your understanding of motion in two and three dimensions.
 
-[View Problems](./problems.md)
+[View Problems](./problems)
 
 ## Watch on YouTube
 Our Hinglish video lessons make motion in two and three dimensions engaging for JEE and NEET! Subscribe for updates.

@@ -1,14 +1,26 @@
 ---
 title: Physics Book - Induction and Inductance for JEE & NEET
 description: Comprehensive guide on induction and inductance for JEE and NEET, covering Faraday’s law, Lenz’s law, self and mutual inductance, and applications in circuits, with extensive examples.
-slug: books/physics/induction-inductance
+slug: induction-inductance
 keywords: physics induction inductance, JEE physics Faraday’s law, NEET physics inductance, electromagnetism
 og:image: https://vidyamarg.com/og-physics-induction-inductance.jpg
 ---
 
 # Chapter 30: Induction and Inductance
 
-**Beta Version**: Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!
+
+
+<div class="callout-block callout-warning">
+    <div class="content">
+        <h4 class="callout-title">
+            <span class="callout-icon-holder me-1">
+                <i class="fas fa-exclamation-triangle"></i>
+            </span>
+            Beta Version
+        </h4>
+        <p>Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!</p>
+    </div>
+</div>
 
 Electromagnetic induction is a cornerstone of electromagnetism, enabling applications like inductors in spacecraft power systems. Building on the concepts of magnetic fields from Chapters 28–29, this chapter explores how changing magnetic fields induce currents. For JEE Main, JEE Advanced, and NEET students, mastering induction and inductance is essential, as these topics frequently appear in problems involving circuits, transformers, and electromagnetic devices. This chapter, **Induction and Inductance**, covers **Faraday’s law and induced emf**, **Lenz’s law and energy conservation**, **self-inductance and mutual inductance**, and **applications in circuits**, providing detailed explanations, derivations, solved examples, and practical applications to ensure conceptual clarity and problem-solving proficiency.
 
@@ -251,7 +263,7 @@ A spacecraft RL circuit ($L = 0.1 \, \text{H}$, $R = 2 \, \Omega$, $\mathcal{E} 
 ## Practice Problems
 Explore our problem set with **100 problems** inspired by JEE Main, JEE Advanced, and NEET patterns to test your understanding.
 
-[View Problems](./problems.md)
+[View Problems](./problems)
 
 ## Watch on YouTube
 Our Hinglish video lessons make electromagnetism engaging! Subscribe for updates.

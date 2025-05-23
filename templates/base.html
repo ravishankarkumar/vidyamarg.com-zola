@@ -1,174 +1,172 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en"> 
 <head>
-  <title>{{ config.title }}{% if page.title %} | {{ page.title }}{% endif %}{% if section.title and (section.permalink
-    is defined and section.permalink != config.base_url and section.permalink != config.base_url ~ "/") %} | {{
-    section.title }}{% endif %}</title>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description"
-    content="{% if page.description %}{{ page.description }}{% elif section.description %}{{ section.description }}{% else %}{{ config.description }}{% endif %}">
-  <meta name="keywords" content="JEE physics book, NEET physics book, physics book, physics for JEE and NEET">
-  <meta property="og:image" content="https://vidyamarg.com/og-physics-book.jpg">
-  <link rel="shortcut icon" href="{{ get_url(path='/logos/maroon-bg-logo-128.ico') }}">
+    <title>{{ config.title }}{% if page.title %} | {{ page.title }}{% endif %}{% if section.title and (section.permalink is defined and section.permalink != config.base_url and section.permalink != config.base_url ~ "/") %} | {{ section.title }}{% endif %}</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% elif section.description %}{{ section.description }}{% else %}{{ config.description }}{% endif %}">
+    <meta name="keywords" content="JEE physics book, NEET physics book, physics book, physics for JEE and NEET">
+    <meta property="og:image" content="https://vidyamarg.com/og-physics-book.jpg">
+    <link rel="canonical" href="{% if page.permalink %}{{ page.permalink }}{% elif section.permalink %}{{ section.permalink }}{% else %}{{ config.base_url }}{% endif %}">
+    <link rel="shortcut icon" href="{{ get_url(path='/logos/maroon-bg-logo-128.ico') }}">
+    
+    <!-- Preload Google Font -->
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" as="style">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript>
+        <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
+    </noscript>
+    
+    <!-- FontAwesome JS -->
+    <script defer src="{{ get_url(path='fontawesome/js/all.min.js') }}"></script>
 
-  <!-- Preload Google Font -->
-  <link rel="preload" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap"
-    as="style">
-  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet"
-    media="print" onload="this.media='all'">
-  <noscript>
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
-  </noscript>
+    <!-- KaTeX for LaTeX rendering -->
+    <link rel="stylesheet" href="{{ get_url(path='katex/katex.min.css') }}">
+    <script src="{{ get_url(path='katex/katex.min.js') }}"></script>
+    <script src="{{ get_url(path='katex/auto-render.min.js') }}"></script>
 
-  <!-- FontAwesome JS -->
-  <script defer src="{{ get_url(path='fontawesome/js/all.min.js') }}"></script>
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.2/styles/atom-one-dark.min.css">
+    <link rel="stylesheet" href="{{ get_url(path='plugins/simplelightbox/simple-lightbox.min.css') }}">
 
-  <!-- KaTeX for LaTeX rendering -->
-  <link rel="stylesheet" href="{{ get_url(path='katex/katex.min.css') }}">
-  <script src="{{ get_url(path='katex/katex.min.js') }}"></script>
-  <script src="{{ get_url(path='katex/auto-render.min.js') }}"></script>
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="{{ get_url(path='css/theme.css') }}">
+    <link rel="stylesheet" href="{{ get_url(path='css/custom.css') }}" />
+</head> 
 
-  <!-- Plugins CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.2/styles/atom-one-dark.min.css">
-  <link rel="stylesheet" href="{{ get_url(path='plugins/simplelightbox/simple-lightbox.min.css') }}">
-
-  <!-- Theme CSS -->
-  <link id="theme-style" rel="stylesheet" href="{{ get_url(path='css/theme.css') }}">
-  <link rel="stylesheet" href="{{ get_url(path='css/custom.css') }}" />
-</head>
-
-<body>
-  <header class="header fixed-top">
-    <div class="branding docs-branding">
-      <div class="container-fluid position-relative py-2">
-        <div class="docs-logo-wrapper">
-          {% set current_path = page.permalink | default(value=section.permalink) %}
-          {% set is_homepage = current_path == config.base_url or current_path == config.base_url ~ "/" %}
-          {% if not is_homepage %}
-          <button id="docs-sidebar-toggler" class="docs-sidebar-toggler docs-sidebar-visible me-2 d-xl-none"
-            type="button">
-            <span></span>
-            <span></span>
-            <span></span>
-          </button>
-          {% endif %}
-          <div class="site-logo">
-            <a class="navbar-brand" href="{{ get_url(path='/') }}">
-              <img class="logo-icon me-2" src="{{ get_url(path='logos/maroon-bg-logo-1024.png') }}" alt="logo">
-              <span class="logo-text">{{ config.title }}</span>
-            </a>
-          </div>
+<body>    
+    <header class="header fixed-top">
+        <div class="branding docs-branding">
+            <div class="container-fluid position-relative py-2">
+                <div class="docs-logo-wrapper">
+                    {% set current_path = page.permalink | default(value=section.permalink) %}
+                    {% set is_homepage = current_path == config.base_url or current_path == config.base_url ~ "/" %}
+                    {% if not is_homepage %}
+                    <button id="docs-sidebar-toggler" class="docs-sidebar-toggler docs-sidebar-visible me-2 d-xl-none" type="button">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    {% endif %}
+                    <div class="site-logo">
+                        <a class="navbar-brand" href="{{ get_url(path='/') }}">
+                            <img class="logo-icon me-2" src="{{ get_url(path='logos/maroon-bg-logo-1024.png') }}" alt="logo">
+                            <span class="logo-text">{{ config.title }}</span>
+                        </a>
+                    </div>    
+                </div>
+                <div class="docs-top-utilities d-flex justify-content-end align-items-center">
+                    <ul class="nav-list list-inline mb-0 d-none d-lg-flex">
+                        {% for nav_item in config.extra.nav %}
+                            <li class="list-inline-item">
+                                <a class="nav-link{% if current_path == nav_item.url %} active{% endif %}" href="{{ nav_item.url }}">{{ nav_item.name }}</a>
+                            </li>
+                        {% endfor %}
+                        {% if config.extra.social_links %}
+                            {% for link in config.extra.social_links %}
+                                <li class="list-inline-item">
+                                    <a href="{{ link.url }}" title="{{ link.name }}"><i class="fab {{ link.icon }} fa-fw"></i></a>
+                                </li>
+                            {% endfor %}
+                        {% endif %}
+                    </ul>
+                    <!-- Mobile Menu Button -->
+                    <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#mobileNav" aria-controls="mobileNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </div>
+            <!-- Mobile Menu -->
+            <div class="collapse navbar-collapse d-lg-none" id="mobileNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    {% for nav_item in config.extra.nav %}
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ nav_item.url }}">{{ nav_item.name }}</a>
+                        </li>
+                    {% endfor %}
+                    {% if config.extra.social_links %}
+                        {% for link in config.extra.social_links %}
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ link.url }}"><i class="fab {{ link.icon }} fa-fw"></i> {{ link.name }}</a>
+                            </li>
+                        {% endfor %}
+                    {% endif %}
+                </ul>
+            </div>
         </div>
-        <div class="docs-top-utilities d-flex justify-content-end align-items-center">
-          <ul class="nav-list list-inline mb-0 d-none d-lg-flex">
-            {% for nav_item in config.extra.nav %}
-            <li class="list-inline-item">
-              <a class="nav-link" href="{{ nav_item.url }}">{{ nav_item.name }}</a>
-            </li>
-            {% endfor %}
-            {% if config.extra.social_links %}
-            {% for link in config.extra.social_links %}
-            <li class="list-inline-item">
-              <a href="{{ link.url }}" title="{{ link.name }}"><i class="fab {{ link.icon }} fa-fw"></i></a>
-            </li>
-            {% endfor %}
-            {% endif %}
-          </ul>
-          <!-- Mobile Menu Button -->
-          <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#mobileNav"
-            aria-controls="mobileNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        </div>
-      </div>
-      <!-- Mobile Menu -->
-      <div class="collapse navbar-collapse d-lg-none" id="mobileNav">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          {% for nav_item in config.extra.nav %}
-          <li class="nav-item">
-            <a class="nav-link" href="{{ nav_item.url }}">{{ nav_item.name }}</a>
-          </li>
-          {% endfor %}
-          {% if config.extra.social_links %}
-          {% for link in config.extra.social_links %}
-          <li class="nav-item">
-            <a class="nav-link" href="{{ link.url }}"><i class="fab {{ link.icon }} fa-fw"></i> {{ link.name }}</a>
-          </li>
-          {% endfor %}
-          {% endif %}
-        </ul>
-      </div>
-    </div>
-  </header>
+    </header>
 
-  <div class="docs-wrapper">
-    {% set current_path = page.permalink | default(value=section.permalink) %}
-    {% set is_homepage = current_path == config.base_url or current_path == config.base_url ~ "/" %}
-    {% if not is_homepage %}
-    <div id="docs-sidebar" class="docs-sidebar">
-      <nav id="docs-nav" class="docs-nav navbar">
-        {% block sidebar %}
-        {% if page and page.path is starting_with("books/physics/") or section and section.path is
-        starting_with("books/physics/") %}
-        {% include "physics_sidebar.html" %}
-        {% else %}
-        {% include "sidebar.html" %}
+    <div class="docs-wrapper">
+        {% set current_path = page.permalink | default(value=section.permalink) %}
+        {% set is_homepage = current_path == config.base_url or current_path == config.base_url ~ "/" %}
+        {% if not is_homepage %}
+        <div id="docs-sidebar" class="docs-sidebar">
+            <nav id="docs-nav" class="docs-nav navbar">
+                {% block sidebar %}
+                    {% if page and page.path is starting_with("books/physics/") or section and section.path is starting_with("books/physics/") %}
+                        {% include "physics_sidebar.html" %}
+                    {% else %}
+                        {% include "sidebar.html" %}
+                    {% endif %}
+                {% endblock %}
+            </nav>
+        </div>
         {% endif %}
-        {% endblock %}
-      </nav>
+
+        <div class="docs-content{% if is_homepage %} no-sidebar{% endif %}">
+            {% block content %}
+            {% endblock %}
+        </div>
     </div>
-    {% endif %}
 
-    <div class="docs-content{% if is_homepage %} no-sidebar{% endif %}">
-      {% block content %}
-      {% endblock %}
-    </div>
-  </div>
+    <footer class="footer">
+        <div class="container text-center py-5">
+            <ul class="social-list list-unstyled pt-4 mb-0">
+                {% for link in config.extra.social_links %}
+                    <li class="list-inline-item">
+                        <a href="{{ link.url }}" target="_blank" title="{{ link.name }}"><i class="fab {{ link.icon }} fa-fw"></i></a>
+                    </li>
+                {% endfor %}
+            </ul>
+            <small class="copyright">
+                © {{ now() | date(format="%Y") }} Vidya Marg. Designed with <span class="sr-only">love</span><i class="fas fa-heart" style="color: #fb866a;"></i> by <a class="theme-link" href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers. <a class="theme-link" href="/app/privacy-policy/">Privacy Policy</a>
+            </small>
+        </div>
+    </footer>
 
-  <footer class="footer">
-    <div class="container text-center py-5">
-      <small class="copyright">© {{ now() | date(format="%Y") }} Vidya Marg. Designed with <span
-          class="sr-only">love</span><i class="fas fa-heart" style="color: #fb866a;"></i> by <a class="theme-link"
-          href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
-    </div>
-  </footer>
+    <!-- Javascript -->          
+    <script src="{{ get_url(path='plugins/popper.min.js') }}"></script>
+    <script src="{{ get_url(path='plugins/bootstrap/js/bootstrap.min.js') }}"></script>  
+    
+    <!-- Page Specific JS -->
+    <script src="{{ get_url(path='plugins/smoothscroll.min.js') }}"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
+    <script src="{{ get_url(path='js/highlight-custom.js') }}"></script> 
+    <script src="{{ get_url(path='plugins/simplelightbox/simple-lightbox.min.js') }}"></script>      
+    <script src="{{ get_url(path='plugins/gumshoe/gumshoe.polyfills.min.js') }}"></script> 
+    <script src="{{ get_url(path='js/docs.js') }}"></script> 
 
-  <!-- Javascript -->
-  <script src="{{ get_url(path='plugins/popper.min.js') }}"></script>
-  <script src="{{ get_url(path='plugins/bootstrap/js/bootstrap.min.js') }}"></script>
+    <script>
+        function renderLatex() {
+            if (typeof renderMathInElement === "undefined") {
+                setTimeout(renderLatex, 100);
+                return;
+            }
+            renderMathInElement(document.body, {
+                delimiters: [
+                    { left: "$$", right: "$$", display: true },
+                    { left: "$", right: "$", display: false },
+                    { left: "\\(", right: "\\)", display: false },
+                    { left: "\\[", right: "\\]", display: true }
+                ],
+                throwOnError: false
+            });
+        }
 
-  <!-- Page Specific JS -->
-  <script src="{{ get_url(path='plugins/smoothscroll.min.js') }}"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
-  <script src="{{ get_url(path='js/highlight-custom.js') }}"></script>
-  <script src="{{ get_url(path='plugins/simplelightbox/simple-lightbox.min.js') }}"></script>
-  <script src="{{ get_url(path='plugins/gumshoe/gumshoe.polyfills.min.js') }}"></script>
-  <script src="{{ get_url(path='js/docs.js') }}"></script>
-
-  <script>
-    function renderLatex() {
-      if (typeof renderMathInElement === "undefined") {
-        setTimeout(renderLatex, 100);
-        return;
-      }
-      renderMathInElement(document.body, {
-        delimiters: [
-          { left: "$$", right: "$$", display: true },
-          { left: "$", right: "$", display: false },
-          { left: "\\(", right: "\\)", display: false },
-          { left: "\\[", right: "\\]", display: true }
-        ],
-        throwOnError: false
-      });
-    }
-
-    window.addEventListener("load", function () {
-      renderLatex();
-    });
-  </script>
+        window.addEventListener("load", function() {
+            renderLatex();
+        });
+    </script>
 </body>
-
 </html>

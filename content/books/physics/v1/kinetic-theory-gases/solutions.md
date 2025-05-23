@@ -1,7 +1,7 @@
 ---
 title: Physics Book - The Kinetic Theory of Gases Solutions for JEE & NEET
 description: Sample solutions for kinetic theory problems, covering ideal gas law, molecular motion, Maxwell-Boltzmann distribution, degrees of freedom, and specific heats, tailored for JEE and NEET preparation.
-slug: books/physics/kinetic-theory-gases/solutions
+slug: solutions
 keywords: physics kinetic theory solutions, JEE physics ideal gas solutions, NEET physics Maxwell-Boltzmann distribution solutions, degrees of freedom
 og:image: https://vidyamarg.com/og-physics-kinetic-theory-gases.jpg
 ---
@@ -166,6 +166,6 @@ The answer is (b) $3741 \, \text{J}$.
 - **JEE/NEET Tip**: For a monatomic gas, $U = \frac{3}{2} n R T$; ensure $T$ is in Kelvin, and round appropriately (April 14, 2025). Common error: Using $f = 5$ (diatomic), which would yield a higher $U$.
 
 ## Back to Chapter
-[Return to The Kinetic Theory of Gases Chapter](./index.md)
+[Return to The Kinetic Theory of Gases Chapter](../../kinetic-theory-gases)
 
-[Return to The Kinetic Theory of Gases Problems](./problems.md)
+[Return to The Kinetic Theory of Gases Problems](../../kinetic-theory-gases/problems)

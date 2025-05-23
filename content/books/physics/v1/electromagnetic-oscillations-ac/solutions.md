@@ -1,7 +1,7 @@
 ---
 title: Physics Book - Electromagnetic Oscillations and Alternating Current Solutions for JEE & NEET
 description: Sample solutions for electromagnetic oscillations and AC circuit problems, covering LC oscillations, phasors, impedance, resonance, and power in AC circuits, tailored for JEE and NEET preparation.
-slug: books/physics/electromagnetic-oscillations-ac/solutions
+slug: solutions
 keywords: physics electromagnetic oscillations solutions, JEE physics AC circuits solutions, NEET physics resonance solutions, electromagnetism
 og:image: https://vidyamarg.com/og-physics-electromagnetic-oscillations-ac.jpg
 ---
@@ -177,6 +177,6 @@ The closest reasonable option isn’t correct based on the given data; I recomme
 - **JEE/NEET Tip**: Compute $X_L$ and $X_C$ carefully; $Z$ depends on the net reactance. Common error: Misinterpreting $\omega$ or $C$; verify problem parameters if options don’t align.
 
 ## Back to Chapter
-[Return to Electromagnetic Oscillations and Alternating Current Chapter](./index.md)
+[Return to Electromagnetic Oscillations and Alternating Current Chapter](../../electromagnetic-oscillations-ac)
 
-[Return to Electromagnetic Oscillations and Alternating Current Problems](./problems.md)
+[Return to Electromagnetic Oscillations and Alternating Current Problems](../../electromagnetic-oscillations-ac/problems)

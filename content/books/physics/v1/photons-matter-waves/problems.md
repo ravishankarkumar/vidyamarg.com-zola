@@ -1,7 +1,7 @@
 ---
 title: Physics Book - Photons and Matter Waves Problems for JEE & NEET
 description: Practice 100 problems on photons and matter waves for JEE and NEET, inspired by exam patterns, covering photon properties, photoelectric effect, de Broglie waves, and wave-particle duality.
-slug: books/physics/photons-matter-waves/problems
+slug: problems
 keywords: physics photons matter waves problems, JEE physics photoelectric effect problems, NEET physics de Broglie waves problems, wave-particle duality
 og:image: https://vidyamarg.com/og-physics-photons-matter-waves.jpg
 ---
@@ -569,4 +569,4 @@ This section provides **100 problems** to test your understanding of the quantum
     - (d) 622 nm
 
 ## Back to Chapter
-[Return to Photons and Matter Waves Chapter](./index.md)
+[Return to Photons and Matter Waves Chapter](../../photons-matter-waves)

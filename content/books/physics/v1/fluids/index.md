@@ -1,14 +1,26 @@
 ---
 title: Physics Book - Fluids for JEE & NEET
 description: Comprehensive guide on fluids for JEE and NEET, covering fluid statics, dynamics, pressure, buoyancy, Bernoulli’s principle, viscosity, and surface tension, with extensive examples.
-slug: books/physics/fluids
+slug: fluids
 keywords: physics fluids, JEE physics fluid mechanics, NEET physics Bernoulli’s principle, viscosity
 og:image: https://vidyamarg.com/og-physics-fluids.jpg
 ---
 
 # Chapter 14: Fluids
 
-**Beta Version**: Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!
+
+
+<div class="callout-block callout-warning">
+    <div class="content">
+        <h4 class="callout-title">
+            <span class="callout-icon-holder me-1">
+                <i class="fas fa-exclamation-triangle"></i>
+            </span>
+            Beta Version
+        </h4>
+        <p>Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!</p>
+    </div>
+</div>
 
 Fluids—liquids and gases—play a crucial role in physics, governing phenomena from the buoyancy of ships to the aerodynamics of rockets. Building on the mechanics, energy, and gravitation concepts from Chapters 1–13, this chapter delves into fluid statics and dynamics, essential for understanding how fluids behave at rest and in motion. For JEE Main, JEE Advanced, and NEET students, mastering fluid mechanics is vital, as it appears in problems involving pressure, flow, and viscosity in various applications. This chapter covers **fluid statics (density, pressure, buoyancy)**, **fluid dynamics (continuity, Bernoulli’s principle)**, **viscosity and Poiseuille’s law**, and **surface tension and applications**, providing detailed explanations, derivations, solved examples, and practical applications to ensure conceptual clarity and problem-solving proficiency.
 
@@ -271,7 +283,7 @@ A rocket fuel droplet (radius $r$, $\gamma \approx 0.03 \, \text{N/m}$) experien
 ## Practice Problems
 Explore our problem set with **100 problems** inspired by JEE Main, JEE Advanced, and NEET patterns to test your understanding.
 
-[View Problems](./problems.md)
+[View Problems](./problems)
 
 ## Watch on YouTube
 Our Hinglish video lessons make fluids engaging! Subscribe for updates.

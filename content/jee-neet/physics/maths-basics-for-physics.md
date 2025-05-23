@@ -1,8 +1,6 @@
 +++
-title = "Physics for JEE/NEET"
-description = "Comprehensive physics resources for JEE/NEET preparation."
+title = "Maths required for physics"
+description = "Basic mathematics required to study physics "
 +++
 
-# Physics for JEE/NEET
-
-Explore fundamental physics concepts with detailed chapters and practice problems.
+# Maths required for physics

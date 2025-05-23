@@ -1,7 +1,7 @@
 ---
 title: Physics Book - Conduction of Electricity in Solids Problems for JEE & NEET
 description: Practice 100 problems on conduction in solids for JEE and NEET, inspired by exam patterns, covering band theory, conductors, semiconductors, insulators, and applications like diodes and transistors.
-slug: books/physics/conduction-solids/problems
+slug: problems
 keywords: physics conduction solids problems, JEE physics band theory problems, NEET physics semiconductors problems, diodes and transistors
 og:image: https://vidyamarg.com/og-physics-conduction-solids.jpg
 ---
@@ -569,4 +569,4 @@ This section provides **100 problems** to test your understanding of conduction 
     - (d) $4.05 \times 10^7$
 
 ## Back to Chapter
-[Return to Conduction of Electricity in Solids Chapter](./index.md)
+[Return to Conduction of Electricity in Solids Chapter](../../conduction-solids)

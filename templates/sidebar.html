@@ -1,52 +1,50 @@
+{% set sidebar_data = load_data(path="data/sidebar.toml") %}
+
 <ul class="nav flex-column">
-  <!-- Navigation Menu (visible only in mobile view) -->
-  <li class="nav-item d-lg-none">
-      <span class="nav-link">Navigation</span>
-      <ul class="nav flex-column">
-          {% for nav_item in config.extra.nav %}
-              <li class="nav-item">
-                  <a class="nav-link" href="{{ nav_item.url }}">{{ nav_item.name }}</a>
-              </li>
-          {% endfor %}
-      </ul>
-  </li>
+    <!-- Navigation Menu (visible only in mobile view) -->
+    <li class="nav-item d-lg-none">
+        <span class="nav-link">Navigation</span>
+        <ul class="nav flex-column">
+            {% for nav_item in config.extra.nav %}
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ nav_item.url }}">{{ nav_item.name }}</a>
+                </li>
+            {% endfor %}
+        </ul>
+    </li>
 
-  {% set books_section = get_section(path="books/_index.md") %}
-  {% set physics_section = get_section(path="books/physics/_index.md") %}
-  {% set jee_neet_section = get_section(path="jee-neet/physics/_index.md") %}
+    <!-- JEE/NEET Physics Section -->
+    {% set jee_neet_physics = sidebar_data.default.sections.jee_neet_physics %}
+    <li class="nav-item">
+        <span class="nav-link">{{ jee_neet_physics.title }}</span>
+        <ul class="nav flex-column">
+            {% for page in jee_neet_physics.pages %}
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ page.url }}">{{ page.title }}</a>
+                </li>
+            {% endfor %}
+        </ul>
+    </li>
 
-  <!-- JEE/NEET Physics Section -->
-  <li class="nav-item">
-      <span class="nav-link">{{ jee_neet_section.title }}</span>
-      <ul class="nav flex-column">
-          {% for page in jee_neet_section.pages %}
-              <li class="nav-item">
-                  <a class="nav-link" href="{{ page.permalink }}">{{ page.title }}</a>
-              </li>
-          {% endfor %}
-      </ul>
-  </li>
-
-  <!-- Books Section -->
-  <li class="nav-item">
-      <span class="nav-link">{{ books_section.title }}</span>
-      <ul class="nav flex-column">
-          <li class="nav-item">
-              <a class="nav-link" href="{{ books_section.permalink }}">{{ books_section.title }}</a>
-          </li>
-          {% for subsection in physics_section.subsections %}
-              {% set subsection = get_section(path=subsection) %}
-              <li class="nav-item">
-                  <span class="nav-link">{{ subsection.title }}</span>
-                  <ul class="nav flex-column">
-                      {% for page in subsection.pages %}
-                          <li class="nav-item">
-                              <a class="nav-link" href="{{ page.permalink }}">{{ page.title }}</a>
-                          </li>
-                      {% endfor %}
-                  </ul>
-              </li>
-          {% endfor %}
-      </ul>
-  </li>
+    <!-- Books Section -->
+    {% set books = sidebar_data.default.sections.books %}
+    <li class="nav-item">
+        <span class="nav-link">{{ books.title }}</span>
+        <ul class="nav flex-column">
+            <!-- JEE/NEET Physics Book (Version 1) -->
+            {% set physics_book_v1 = books.jee_neet_physics_book_v1 %}
+            <li class="nav-item">
+                <a class="nav-link" href="/books/physics/v1/">{{ physics_book_v1.title }}</a>
+                {% if physics_book_v1.pages %}
+                    <ul class="nav flex-column">
+                        {% for page in physics_book_v1.pages %}
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ page.url }}">{{ page.title }}</a>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                {% endif %}
+            </li>
+        </ul>
+    </li>
 </ul>

@@ -1,14 +1,26 @@
 ---
 title: Physics Book - Entropy and the Second Law of Thermodynamics for JEE & NEET
 description: Comprehensive guide on entropy and the second law of thermodynamics for JEE and NEET, covering entropy changes, heat engines, refrigerators, Carnot cycle, and irreversibility, with extensive examples.
-slug: books/physics/entropy-thermodynamics
+slug: entropy-thermodynamics
 keywords: physics entropy, JEE physics second law of thermodynamics, NEET physics Carnot cycle, heat engines
 og:image: https://vidyamarg.com/og-physics-entropy-thermodynamics.jpg
 ---
 
 # Chapter 20: Entropy and the Second Law of Thermodynamics
 
-**Beta Version**: Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!
+
+
+<div class="callout-block callout-warning">
+    <div class="content">
+        <h4 class="callout-title">
+            <span class="callout-icon-holder me-1">
+                <i class="fas fa-exclamation-triangle"></i>
+            </span>
+            Beta Version
+        </h4>
+        <p>Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!</p>
+    </div>
+</div>
 
 The second law of thermodynamics and the concept of entropy govern the direction of natural processes, from the efficiency of rocket engines to the inevitable increase of disorder in the universe. Building on the thermodynamic principles from Chapters 18 and 19, this chapter explores the fundamental laws that dictate energy transformations and irreversibility. For JEE Main, JEE Advanced, and NEET students, mastering these concepts is essential, as they appear in problems involving heat engines, refrigerators, and entropy changes. This chapter, **Entropy and the Second Law of Thermodynamics**, covers **the second law and irreversibility**, **entropy and its calculation**, **heat engines and refrigerators**, and **the Carnot cycle and efficiency**, providing detailed explanations, derivations, solved examples, and practical applications to ensure conceptual clarity and problem-solving proficiency.
 
@@ -255,7 +267,7 @@ Work: $W = Q_H - Q_C$. For 1 mole, $Q_H = n R T_H \ln \left( \frac{V_2}{V_1} \ri
 ## Practice Problems
 Explore our problem set with **100 problems** inspired by JEE Main, JEE Advanced, and NEET patterns to test your understanding.
 
-[View Problems](./problems.md)
+[View Problems](./problems)
 
 ## Watch on YouTube
 Our Hinglish video lessons make thermodynamics engaging! Subscribe for updates.

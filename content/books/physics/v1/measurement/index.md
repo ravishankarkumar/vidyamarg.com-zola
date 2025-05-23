@@ -1,14 +1,24 @@
 ---
-title: Physics Book - Measurement for JEE & NEET
+title: Measurement
 description: Learn measurement for JEE and NEET, covering SI units, dimensional analysis, significant figures, and error analysis, with practice MCQs.
-slug: books/physics/measurement
+slug: measurement
 keywords: physics measurement, JEE physics SI units, NEET physics dimensional analysis, significant figures
 og:image: https://vidyamarg.com/og-physics-measurement.jpg
 ---
 
 # Chapter 1: Measurement
 
-**Beta Version**: Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!
+<div class="callout-block callout-warning">
+    <div class="content">
+        <h4 class="callout-title">
+            <span class="callout-icon-holder me-1">
+                <i class="fas fa-exclamation-triangle"></i>
+            </span>
+            Beta Version
+        </h4>
+        <p>Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!</p>
+    </div>
+</div>
 
 Measurement is the cornerstone of physics, enabling precise quantification of physical phenomena. This chapter covers **SI units and standards**, **dimensional analysis**, **significant figures**, and **error analysis**, essential for JEE Main, JEE Advanced, and NEET. These topics appear in problems on unit conversions, dimensional consistency, and error calculations. With clear explanations, extensive derivations, exam-focused examples, and robust problem-solving strategies, this chapter equips students to master measurement for competitive exams, ensuring precision and conceptual clarity.
 
@@ -183,7 +193,7 @@ $$
 ## Practice Problems
 Explore our extensive problem set with **100 problems** inspired by JEE Main, JEE Advanced, and NEET patterns to test your understanding of measurement.
 
-[View Problems](./problems.md)
+[View Problems](./problems)
 
 ## Watch on YouTube
 Our Hinglish video lessons make measurement engaging for JEE and NEET! Subscribe for updates.

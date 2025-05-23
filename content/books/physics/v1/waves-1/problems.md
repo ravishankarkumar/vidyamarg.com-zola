@@ -1,7 +1,7 @@
 ---
 title: Physics Book - Waves—I Problems for JEE & NEET
 description: Practice 100 wave motion problems for JEE and NEET, inspired by exam patterns, covering wave characteristics, wave equations, superposition, interference, standing waves, and applications in strings and pipes.
-slug: books/physics/waves-1/problems
+slug: problems
 keywords: physics waves problems, JEE physics wave motion problems, NEET physics interference problems, standing waves
 og:image: https://vidyamarg.com/og-physics-waves-1.jpg
 ---
@@ -569,4 +569,4 @@ This section provides **100 problems** to test your understanding of wave motion
     - (d) $102 \, \text{Hz}$
 
 ## Back to Chapter
-[Return to Waves—I Chapter](./index.md)
+[Return to Waves—I Chapter](../../waves-1)

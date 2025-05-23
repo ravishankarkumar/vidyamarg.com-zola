@@ -1,7 +1,7 @@
 ---
 title: Physics Book - Magnetic Fields Due to Currents Solutions for JEE & NEET
 description: Sample solutions for magnetic fields due to currents problems, covering Biot-Savart law, Ampere’s law, specific current configurations, superposition, and electromagnetism applications, tailored for JEE and NEET preparation.
-slug: books/physics/magnetic-fields-currents/solutions
+slug: solutions
 keywords: physics magnetic fields currents solutions, JEE physics Biot-Savart law solutions, NEET physics Ampere’s law solutions, electromagnetism
 og:image: https://vidyamarg.com/og-physics-magnetic-fields-currents.jpg
 ---
@@ -161,6 +161,6 @@ Round to two decimal places: $4.19 \times 10^{-5} \, \text{T}$. The answer is (b
 - **JEE/NEET Tip**: Field at the center is stronger for smaller $R$; use the right-hand rule for direction. Common error: Using the straight wire formula or incorrect $\mu_0$.
 
 ## Back to Chapter
-[Return to Magnetic Fields Due to Currents Chapter](./index.md)
+[Return to Magnetic Fields Due to Currents Chapter](../../magnetic-fields-currents)
 
-[Return to Magnetic Fields Due to Currents Problems](./problems.md)
+[Return to Magnetic Fields Due to Currents Problems](../../magnetic-fields-currents/problems)

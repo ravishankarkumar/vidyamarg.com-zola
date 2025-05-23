@@ -1,14 +1,26 @@
 ---
 title: Physics Book - Equilibrium and Elasticity for JEE & NEET
 description: Comprehensive guide on equilibrium and elasticity for JEE and NEET, covering static and dynamic equilibrium, center of gravity, stress, strain, elastic moduli, and applications, with extensive examples.
-slug: books/physics/equilibrium-elasticity
+slug: equilibrium-elasticity
 keywords: physics equilibrium elasticity, JEE physics equilibrium, NEET physics stress strain, elastic moduli
 og:image: https://vidyamarg.com/og-physics-equilibrium-elasticity.jpg
 ---
 
 # Chapter 12: Equilibrium and Elasticity
 
-**Beta Version**: Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!
+
+
+<div class="callout-block callout-warning">
+    <div class="content">
+        <h4 class="callout-title">
+            <span class="callout-icon-holder me-1">
+                <i class="fas fa-exclamation-triangle"></i>
+            </span>
+            Beta Version
+        </h4>
+        <p>Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!</p>
+    </div>
+</div>
 
 Equilibrium and elasticity are fundamental concepts in mechanics, bridging the dynamics and rotational principles from Chapters 1–11 to the behavior of objects at rest and the deformation of materials under forces. Equilibrium describes the conditions under which an object remains at rest or moves with constant velocity, while elasticity explores how materials respond to stress and strain, returning to their original shape after deformation. These topics are crucial for JEE Main, JEE Advanced, and NEET students, appearing in problems involving balanced structures, beams, and material properties—such as the structural integrity of a rocket or the stability of a bridge. This chapter covers **static and dynamic equilibrium**, **center of gravity and stability**, **stress, strain, and elastic moduli**, and **applications in beams and structures**, providing detailed explanations, derivations, solved examples, and exam-focused strategies to ensure conceptual clarity and problem-solving proficiency.
 
@@ -316,7 +328,7 @@ A rocket strut (length $L$, area $A$, $Y = 2 \times 10^{11} \, \text{Pa}$) under
 ## Practice Problems
 Explore our problem set with **100 problems** inspired by JEE Main, JEE Advanced, and NEET patterns to test your understanding.
 
-[View Problems](./problems.md)
+[View Problems](./problems)
 
 ## Watch on YouTube
 Our Hinglish video lessons make equilibrium and elasticity engaging! Subscribe for updates.

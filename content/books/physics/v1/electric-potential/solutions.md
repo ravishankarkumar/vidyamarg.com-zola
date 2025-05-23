@@ -1,7 +1,7 @@
 ---
 title: Physics Book - Electric Potential Solutions for JEE & NEET
 description: Sample solutions for electrostatics problems, covering electric potential, potential energy, field-potential relations, conductors, and capacitors, tailored for JEE and NEET preparation.
-slug: books/physics/electric-potential/solutions
+slug: solutions
 keywords: physics electric potential solutions, JEE physics potential energy solutions, NEET physics potential calculations solutions, electrostatics
 og:image: https://vidyamarg.com/og-physics-electric-potential.jpg
 ---
@@ -147,6 +147,6 @@ The answer is (b) $2.70 \times 10^{-2} \, \text{J}$.
 - **JEE/NEET Tip**: Use $U = \frac{1}{2} C V^2$ for energy; convert $C$ to farads and compute carefully. Common error: Forgetting the factor of $\frac{1}{2}$, or incorrect unit conversion for $C$.
 
 ## Back to Chapter
-[Return to Electric Potential Chapter](./index.md)
+[Return to Electric Potential Chapter](../../electric-potential)
 
-[Return to Electric Potential Problems](./problems.md)
+[Return to Electric Potential Problems](../../electric-potential/problems)

@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <title>Vidya Marg | Physics Book - More About Matter Waves Solutions for JEE &amp; NEET</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sample solutions for advanced matter waves problems, covering wave functions, particle in a box, quantum tunneling, and uncertainty principle, tailored for JEE and NEET preparation.">
+    <meta name="keywords" content="JEE physics book, NEET physics book, physics book, physics for JEE and NEET">
+    <meta property="og:image" content="https://vidyamarg.com/og-physics-book.jpg">
+    <link rel="canonical" href="https:&#x2F;&#x2F;vidyamarg.com&#x2F;books&#x2F;physics&#x2F;v1&#x2F;matter-waves-advanced&#x2F;solutions&#x2F;">
+    <link rel="shortcut icon" href="https://vidyamarg.com/logos/maroon-bg-logo-128.ico">
+    
+    <!-- Preload Google Font -->
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" as="style">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript>
+        <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
+    </noscript>
+    
+    <!-- FontAwesome JS -->
+    <script defer src="https://vidyamarg.com/fontawesome/js/all.min.js"></script>
+
+    <!-- KaTeX for LaTeX rendering -->
+    <link rel="stylesheet" href="https://vidyamarg.com/katex/katex.min.css">
+    <script src="https://vidyamarg.com/katex/katex.min.js"></script>
+    <script src="https://vidyamarg.com/katex/auto-render.min.js"></script>
+
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.2/styles/atom-one-dark.min.css">
+    <link rel="stylesheet" href="https://vidyamarg.com/plugins/simplelightbox/simple-lightbox.min.css">
+
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="https://vidyamarg.com/css/theme.css">
+    <link rel="stylesheet" href="https://vidyamarg.com/css/custom.css" />
+</head> 
+
+<body>    
+    <header class="header fixed-top">
+        <div class="branding docs-branding">
+            <div class="container-fluid position-relative py-2">
+                <div class="docs-logo-wrapper">
+                    
+                    
+                    
+                    <button id="docs-sidebar-toggler" class="docs-sidebar-toggler docs-sidebar-visible me-2 d-xl-none" type="button">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    
+                    <div class="site-logo">
+                        <a class="navbar-brand" href="https://vidyamarg.com">
+                            <img class="logo-icon me-2" src="https://vidyamarg.com/logos/maroon-bg-logo-1024.png" alt="logo">
+                            <span class="logo-text">Vidya Marg</span>
+                        </a>
+                    </div>    
+                </div>
+                <div class="docs-top-utilities d-flex justify-content-end align-items-center">
+                    <ul class="nav-list list-inline mb-0 d-none d-lg-flex">
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;">Home</a>
+                            </li>
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics (Youtube series)</a>
+                            </li>
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;">Books</a>
+                            </li>
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;app&#x2F;">App</a>
+                            </li>
+                        
+                        
+                            
+                                <li class="list-inline-item">
+                                    <a href="https:&#x2F;&#x2F;www.youtube.com&#x2F;@VidyaMargbyRaviShankar-w9u" title="YouTube"><i class="fab fa-youtube fa-fw"></i></a>
+                                </li>
+                            
+                                <li class="list-inline-item">
+                                    <a href="https:&#x2F;&#x2F;t.me&#x2F;vidyamarg1" title="Telegram"><i class="fab fa-telegram fa-fw"></i></a>
+                                </li>
+                            
+                        
+                    </ul>
+                    <!-- Mobile Menu Button -->
+                    <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#mobileNav" aria-controls="mobileNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </div>
+            <!-- Mobile Menu -->
+            <div class="collapse navbar-collapse d-lg-none" id="mobileNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;">Home</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics (Youtube series)</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;books&#x2F;">Books</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;app&#x2F;">App</a>
+                        </li>
+                    
+                    
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="https:&#x2F;&#x2F;www.youtube.com&#x2F;@VidyaMargbyRaviShankar-w9u"><i class="fab fa-youtube fa-fw"></i> YouTube</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="https:&#x2F;&#x2F;t.me&#x2F;vidyamarg1"><i class="fab fa-telegram fa-fw"></i> Telegram</a>
+                            </li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="docs-wrapper">
+        
+        
+        
+        <div id="docs-sidebar" class="docs-sidebar">
+            <nav id="docs-nav" class="docs-nav navbar">
+                
+                    
+                        
+
+<ul class="nav flex-column">
+    <!-- Navigation Menu (visible only in mobile view) -->
+    <li class="nav-item d-lg-none">
+        <span class="nav-link">Navigation</span>
+        <ul class="nav flex-column">
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;">Home</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics (Youtube series)</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;books&#x2F;">Books</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;app&#x2F;">App</a>
+                </li>
+            
+        </ul>
+    </li>
+
+    <!-- JEE/NEET Physics Section -->
+    
+    <li class="nav-item">
+        <span class="nav-link">Physics for JEE&#x2F;NEET</span>
+        <ul class="nav flex-column">
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics for JEE&#x2F;NEET</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;maths-basics-for-physics&#x2F;">Maths Basics for Physics</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;units-and-dimensions&#x2F;">Units and Dimensions</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;physical-quantities-and-si-units&#x2F;">Physical Quantities and SI Units</a>
+                </li>
+            
+        </ul>
+    </li>
+
+    <!-- Books Section -->
+    
+    <li class="nav-item">
+        <span class="nav-link">Books</span>
+        <ul class="nav flex-column">
+            <!-- JEE/NEET Physics Book (Version 1) -->
+            
+            <li class="nav-item">
+                <a class="nav-link" href="/books/physics/v1/">Physics Book</a>
+                
+                    <ul class="nav flex-column">
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;measurement&#x2F;">Measurement</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;motion-straight-line&#x2F;">Motion Along a Straight Line</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;vectors&#x2F;">Vectors</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;motion-2d-3d&#x2F;">Motion in Two and Three Dimensions</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;force-motion-1&#x2F;">Force and Motion—I</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;force-motion-2&#x2F;">Force and Motion—II</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;kinetic-energy-work&#x2F;">Kinetic Energy and Work</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;potential-energy-conservation&#x2F;">Potential Energy and Conservation of Energy</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;center-mass-momentum&#x2F;">Center of Mass and Linear Momentum</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;rotation&#x2F;">Rotation</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;rolling-torque-angular-momentum&#x2F;">Rolling, Torque, and Angular Momentum</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;equilibrium-elasticity&#x2F;">Equilibrium and Elasticity</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;gravitation&#x2F;">Gravitation</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;fluids&#x2F;">Fluids</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;oscillations&#x2F;">Oscillations</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;waves-1&#x2F;">Waves—I</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;waves-2&#x2F;">Waves—II</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;kinetic-theory-gases&#x2F;">The Kinetic Theory of Gases</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;thermodynamics-temperature-heat&#x2F;">Temperature, Heat, and the First Law of Thermodynamics</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;entropy-thermodynamics&#x2F;">Entropy and the Second Law of Thermodynamics</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electric-fields&#x2F;">Electric Fields</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;gauss-law&#x2F;">Gauss’s Law</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electric-potential&#x2F;">Electric Potential</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;capacitance&#x2F;">Capacitance</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;current-resistance&#x2F;">Current and Resistance</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;circuits&#x2F;">Circuits</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;magnetic-fields&#x2F;">Magnetic Fields</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;magnetic-fields-currents&#x2F;">Magnetic Fields Due to Currents</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;induction-inductance&#x2F;">Induction and Inductance</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electromagnetic-oscillations-ac&#x2F;">Electromagnetic Oscillations and Alternating Current</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electromagnetic-waves&#x2F;">Electromagnetic Waves</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;images&#x2F;">Images</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;interference&#x2F;">Interference</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;diffraction&#x2F;">Diffraction</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;photons-matter-waves&#x2F;">Photons and Matter Waves</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;matter-waves-advanced&#x2F;">More About Matter Waves</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;atoms&#x2F;">All About Atoms</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;nuclear-physics&#x2F;">Nuclear Physics</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;nuclear-energy&#x2F;">Energy from the Nucleus</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;quarks-leptons&#x2F;">Quarks, Leptons, and the Big Bang</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;relativity&#x2F;">Relativity</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;conduction-solids&#x2F;">Conduction of Electricity in Solids</a>
+                            </li>
+                        
+                    </ul>
+                
+            </li>
+        </ul>
+    </li>
+</ul>
+                    
+                
+            </nav>
+        </div>
+        
+
+        <div class="docs-content">
+            
+    <div class="docs-main">
+        <article class="docs-article">
+            <h1 id="more-about-matter-waves-solutions">More About Matter Waves Solutions</h1>
+<p>This section provides <strong>sample solutions</strong> for selected problems from the More About Matter Waves chapter, focusing on wave functions, energy quantization, quantum tunneling, and the uncertainty principle with applications like quantum tunneling in spacecraft nanotechnology. These solutions are designed to help JEE Main, JEE Advanced, and NEET students understand key concepts and problem-solving techniques. Each solution includes detailed steps, exam-focused tips to avoid common mistakes, and alignment with JEE/NEET exam patterns. Full solutions for all 100 problems will be available in June 2025.</p>
+<h2 id="numerical-solutions">Numerical Solutions</h2>
+<h3 id="solution-1">Solution 1</h3>
+<p><strong>Problem</strong>: A particle has a normalized wave function $\psi(x) = \sqrt{\frac{2}{a}} \sin\left(\frac{\pi x}{a}\right)$ for $0 \leq x \leq a$. Calculate the probability of finding the particle between $x = 0$ and $x = \frac{a}{2}$.</p>
+<ul>
+<li>(a) 0.49</li>
+<li>(b) 0.50</li>
+<li>(c) 0.51</li>
+<li>(d) 0.52</li>
+</ul>
+<p><strong>Solution</strong>:<br />
+The probability of finding the particle between $x = 0$ and $x = \frac{a}{2}$ is given by:<br />
+$$
+P = \int_0^{a/2} |\psi(x)|^2 dx
+$$
+Given $\psi(x) = \sqrt{\frac{2}{a}} \sin\left(\frac{\pi x}{a}\right)$, the probability density is:<br />
+$$
+|\psi(x)|^2 = \left(\sqrt{\frac{2}{a}}\right)^2 \sin^2\left(\frac{\pi x}{a}\right) = \frac{2}{a} \sin^2\left(\frac{\pi x}{a}\right)
+$$
+So, the probability is:<br />
+$$
+P = \int_0^{a/2} \frac{2}{a} \sin^2\left(\frac{\pi x}{a}\right) dx
+$$
+Use the identity $\sin^2 \theta = \frac{1 - \cos 2\theta}{2}$, where $\theta = \frac{\pi x}{a}$, so $2\theta = \frac{2\pi x}{a}$, and $dx = \frac{a}{\pi} d\theta$:<br />
+$$
+P = \frac{2}{a} \int_0^{a/2} \frac{1 - \cos\left(\frac{2\pi x}{a}\right)}{2} dx = \frac{1}{a} \int_0^{a/2} \left(1 - \cos\left(\frac{2\pi x}{a}\right)\right) dx
+$$
+Evaluate:<br />
+$$
+\int_0^{a/2} 1 , dx = \left[x\right]_0^{a/2} = \frac{a}{2}, \quad \int_0^{a/2} \cos\left(\frac{2\pi x}{a}\right) dx = \left[\frac{a}{2\pi} \sin\left(\frac{2\pi x}{a}\right)\right]_0^{a/2} = \frac{a}{2\pi} \sin(\pi) = 0
+$$
+Thus:<br />
+$$
+P = \frac{1}{a} \left(\frac{a}{2} - 0\right) = \frac{1}{2} = 0.5
+$$
+The answer is (b) 0.50.</p>
+<ul>
+<li><strong>JEE/NEET Tip</strong>: Use trigonometric identities for $\sin^2$; the symmetry of the $n=1$ wave function often leads to a probability of 0.5 over half the box. Common error: Forgetting to normalize or misapplying the limits.</li>
+</ul>
+<h3 id="solution-3">Solution 3</h3>
+<p><strong>Problem</strong>: An electron tunnels through a barrier with $V_0 - E = 1 , \text{eV}$ and width $a = 0.5 , \text{nm}$. Calculate the tunneling probability $T$.</p>
+<ul>
+<li>(a) 0.076</li>
+<li>(b) 0.077</li>
+<li>(c) 0.078</li>
+<li>(d) 0.079</li>
+</ul>
+<p><strong>Solution</strong>:<br />
+The tunneling probability for a rectangular barrier is approximated as:<br />
+$$
+T \approx e^{-2 \kappa a}, \quad \kappa = \sqrt{\frac{2 m (V_0 - E)}{\hbar^2}}
+$$
+Given $m = 9.11 \times 10^{-31} , \text{kg}$ (electron mass), $V_0 - E = 1 , \text{eV} = 1.6 \times 10^{-19} , \text{J}$, $a = 0.5 , \text{nm} = 0.5 \times 10^{-9} , \text{m}$, $\hbar = 1.055 \times 10^{-34} , \text{J·s}$:<br />
+$$
+\kappa = \sqrt{\frac{2 (9.11 \times 10^{-31}) (1.6 \times 10^{-19})}{(1.055 \times 10^{-34})^2}} \approx \sqrt{\frac{2.9152 \times 10^{-49}}{1.112 \times 10^{-68}}} \approx \sqrt{2.622 \times 10^{19}} \approx 5.116 \times 10^9 , \text{m}^{-1}
+$$
+Now compute the exponent:<br />
+$$
+2 \kappa a = 2 (5.116 \times 10^9) (0.5 \times 10^{-9}) \approx 2.558
+$$
+Thus:<br />
+$$
+T \approx e^{-2.558} \approx 0.0776
+$$
+Round to three decimal places: 0.078. The answer is (c) 0.078.</p>
+<ul>
+<li><strong>JEE/NEET Tip</strong>: Convert all units to SI (eV to Joules, nm to meters); tunneling probability decreases exponentially with $\kappa a$. Common error: Forgetting to convert energy units or miscalculating the exponent.</li>
+</ul>
+<hr />
+<h2 id="conceptual-solutions">Conceptual Solutions</h2>
+<h3 id="solution-36">Solution 36</h3>
+<p><strong>Problem</strong>: What does the wave function $\psi(x)$ represent?</p>
+<ul>
+<li>(a) Probability of finding a particle</li>
+<li>(b) Quantum state of a particle</li>
+<li>(c) Energy of a particle</li>
+<li>(d) Momentum of a particle</li>
+</ul>
+<p><strong>Solution</strong>:<br />
+The wave function $\psi(x)$ in quantum mechanics is a mathematical function that encapsulates the quantum state of a particle. It contains all the information about the particle’s behavior, such as its position, momentum, and energy, which can be extracted using operators (e.g., position, momentum operators). The probability of finding the particle is related to $|\psi(x)|^2$, not $\psi(x)$ itself, which is generally complex. Energy and momentum are derived quantities, not directly what $\psi(x)$ represents.</p>
+<ul>
+<li>(a) Incorrect: $|\psi(x)|^2$ gives the probability density, not $\psi(x)$ itself.</li>
+<li>(b) Correct: $\psi(x)$ describes the quantum state of the particle, encoding all measurable properties.</li>
+<li>(c) Incorrect: Energy is obtained via the Schrödinger equation, not directly from $\psi(x)$.</li>
+<li>(d) Incorrect: Momentum is obtained via the momentum operator, not directly from $\psi(x)$.<br />
+The answer is (b) Quantum state of a particle.</li>
+<li><strong>JEE/NEET Tip</strong>: Distinguish between $\psi(x)$ (state) and $|\psi(x)|^2$ (probability density); $\psi(x)$ is the fundamental descriptor in quantum mechanics. Common error: Confusing the wave function with its squared magnitude.</li>
+</ul>
+<h3 id="solution-38">Solution 38</h3>
+<p><strong>Problem</strong>: What is the unit of the wave function $\psi(x)$ in one dimension?</p>
+<ul>
+<li>(a) m</li>
+<li>(b) m$^{-1/2}$</li>
+<li>(c) kg·m/s</li>
+<li>(d) Joule</li>
+</ul>
+<p><strong>Solution</strong>:<br />
+The wave function $\psi(x)$ in one dimension must be dimensionally consistent with the normalization condition:<br />
+$$
+\int_{-\infty}^{\infty} |\psi(x)|^2 dx = 1
+$$
+The probability $\int |\psi(x)|^2 dx$ is dimensionless (since it’s a probability). In one dimension, $dx$ has units of length [m], so:<br />
+$$
+[|\psi(x)|^2] [dx] = 1 \implies [|\psi(x)|^2] [\text{m}] = 1 \implies [|\psi(x)|^2] = \text{m}^{-1}
+$$
+Since $|\psi(x)|^2 = \psi^*(x) \psi(x)$, the units of $\psi(x)$ are:<br />
+$$
+[\psi(x)]^2 = \text{m}^{-1} \implies [\psi(x)] = \text{m}^{-1/2}
+$$
+Meter (m) would imply a length, kg·m/s is momentum, and Joule is energy—none match the required units.</p>
+<ul>
+<li>(a) Incorrect: m is a unit of length, not consistent with probability normalization.</li>
+<li>(b) Correct: m$^{-1/2}$ ensures the normalization condition is dimensionless.</li>
+<li>(c) Incorrect: kg·m/s is momentum, not the unit of a wave function.</li>
+<li>(d) Incorrect: Joule is energy, not the unit of a wave function.<br />
+The answer is (b) m$^{-1/2}$.</li>
+<li><strong>JEE/NEET Tip</strong>: Use the normalization condition to determine the units of $\psi(x)$; in 1D, it’s always m$^{-1/2}$. Common error: Confusing with units of $|\psi(x)|^2$ (m$^{-1}$).</li>
+</ul>
+<hr />
+<h2 id="derivation-solutions">Derivation Solutions</h2>
+<h3 id="solution-51">Solution 51</h3>
+<p><strong>Problem</strong>: Derive the probability density $|\psi(x)|^2$ for a particle in a box with $\psi(x) = \sqrt{\frac{2}{L}} \sin\left(\frac{n \pi x}{L}\right)$.</p>
+<p><strong>Solution</strong>:<br />
+For a particle in a one-dimensional box of length $L$ with infinite potential walls, the normalized wave function is:<br />
+$$
+\psi(x) = \sqrt{\frac{2}{L}} \sin\left(\frac{n \pi x}{L}\right), \quad 0 \leq x \leq L, \quad n = 1, 2, 3, \ldots
+$$
+The probability density is defined as:<br />
+$$
+|\psi(x)|^2 = \psi^<em>(x) \psi(x)
+$$
+Since $\psi(x)$ is real for the particle in a box (no time dependence in the stationary state):<br />
+$$
+\psi^</em>(x) = \psi(x) = \sqrt{\frac{2}{L}} \sin\left(\frac{n \pi x}{L}\right)
+$$
+Thus:<br />
+$$
+|\psi(x)|^2 = \left(\sqrt{\frac{2}{L}} \sin\left(\frac{n \pi x}{L}\right)\right)^2 = \frac{2}{L} \sin^2\left(\frac{n \pi x}{L}\right)
+$$
+This is the probability density, which gives the likelihood of finding the particle at position $x$. To verify normalization:<br />
+$$
+\int_0^L |\psi(x)|^2 dx = \int_0^L \frac{2}{L} \sin^2\left(\frac{n \pi x}{L}\right) dx = \frac{2}{L} \int_0^L \frac{1 - \cos\left(\frac{2 n \pi x}{L}\right)}{2} dx = \frac{1}{L} \left[ x - \frac{L}{2 n \pi} \sin\left(\frac{2 n \pi x}{L}\right) \right]_0^L = 1
+$$
+For Problem 1, this $|\psi(x)|^2 = \frac{2}{a} \sin^2\left(\frac{\pi x}{a}\right)$ was used to compute the probability.</p>
+<ul>
+<li><strong>JEE/NEET Tip</strong>: The wave function is real in this case, so $\psi^* = \psi$; always verify normalization to ensure correctness. Common error: Forgetting the normalization constant or assuming $\psi$ is complex.</li>
+</ul>
+<h3 id="solution-53">Solution 53</h3>
+<p><strong>Problem</strong>: Derive the tunneling probability $T \approx e^{-2 \kappa a}$ for a rectangular barrier.</p>
+<p><strong>Solution</strong>:<br />
+Consider a particle of mass $m$ and energy $E$ tunneling through a rectangular potential barrier of height $V_0$ (where $E &lt; V_0$) and width $a$. The regions are: Region I ($x &lt; 0$, incident), Region II ($0 \leq x \leq a$, barrier), Region III ($x &gt; a$, transmitted). The potential is: $V(x) = 0$ for $x &lt; 0$ and $x &gt; a$, $V(x) = V_0$ for $0 \leq x \leq a$.</p>
+<p>In Region II, the time-independent Schrödinger equation is:<br />
+$$
+-\frac{\hbar^2}{2m} \frac{d^2 \psi}{dx^2} + V_0 \psi = E \psi \implies \frac{d^2 \psi}{dx^2} - \frac{2 m (V_0 - E)}{\hbar^2} \psi = 0
+$$
+Define:<br />
+$$
+\kappa = \sqrt{\frac{2 m (V_0 - E)}{\hbar^2}}
+$$
+The equation becomes:<br />
+$$
+\frac{d^2 \psi}{dx^2} - \kappa^2 \psi = 0
+$$
+The general solution is:<br />
+$$
+\psi(x) = A e^{-\kappa x} + B e^{\kappa x}
+$$
+Since $e^{\kappa x}$ grows exponentially, and we expect the wave function to decay inside the barrier, we approximate the solution as decaying (simplified approach for JEE/NEET):<br />
+$$
+\psi(x) \approx A e^{-\kappa x}
+$$
+At $x = 0$, $\psi(0) = A$, at $x = a$, $\psi(a) = A e^{-\kappa a}$. The tunneling probability $T$ is proportional to the ratio of the probability densities at the exit and entrance of the barrier:<br />
+$$
+T \approx \frac{|\psi(a)|^2}{|\psi(0)|^2} = \frac{(A e^{-\kappa a})^2}{A^2} = e^{-2 \kappa a}
+$$
+This is the approximate tunneling probability. For Problem 3, $\kappa \approx 5.116 \times 10^9 , \text{m}^{-1}$, $a = 0.5 \times 10^{-9} , \text{m}$, $T \approx e^{-2 (5.116 \times 10^9) (0.5 \times 10^{-9})} \approx 0.078$.</p>
+<ul>
+<li><strong>JEE/NEET Tip</strong>: The exponential decay form is a simplified approximation; for exact $T$, boundary conditions must be matched, but this form is sufficient for exams. Common error: Forgetting the factor of 2 in the exponent or incorrect units for $\kappa$.</li>
+</ul>
+<hr />
+<h2 id="neet-style-solutions">NEET-style Solutions</h2>
+<h3 id="solution-96">Solution 96</h3>
+<p><strong>Problem</strong>: A particle has $\psi(x) = \sqrt{\frac{2}{a}} \sin\left(\frac{\pi x}{a}\right)$ for $0 \leq x \leq a$. Calculate the probability between $x = \frac{a}{4}$ and $x = \frac{3a}{4}$.</p>
+<ul>
+<li>(a) 0.817</li>
+<li>(b) 0.818</li>
+<li>(c) 0.819</li>
+<li>(d) 0.820</li>
+</ul>
+<p><strong>Solution</strong>:<br />
+The probability is:<br />
+$$
+P = \int_{a/4}^{3a/4} |\psi(x)|^2 dx = \int_{a/4}^{3a/4} \frac{2}{a} \sin^2\left(\frac{\pi x}{a}\right) dx
+$$
+Use $\sin^2 \theta = \frac{1 - \cos 2\theta}{2}$, with $\theta = \frac{\pi x}{a}$:<br />
+$$
+P = \frac{2}{a} \int_{a/4}^{3a/4} \frac{1 - \cos\left(\frac{2\pi x}{a}\right)}{2} dx = \frac{1}{a} \left[ x - \frac{a}{2\pi} \sin\left(\frac{2\pi x}{a}\right) \right]_{a/4}^{3a/4}
+$$
+Evaluate at the limits:<br />
+$$
+P = \frac{1}{a} \left( \left(\frac{3a}{4} - \frac{a}{2\pi} \sin\left(\frac{3\pi}{2}\right)\right) - \left(\frac{a}{4} - \frac{a}{2\pi} \sin\left(\frac{\pi}{2}\right)\right) \right) = \frac{1}{a} \left( \frac{a}{2} + \frac{a}{2\pi} - \left(-\frac{a}{2\pi}\right) \right) = \frac{1}{2} + \frac{1}{\pi} \approx 0.818
+$$
+The answer is (b) 0.818.</p>
+<ul>
+<li><strong>JEE/NEET Tip</strong>: Symmetry in the $n=1$ state often simplifies probability calculations; use trigonometric identities to evaluate the integral. Common error: Misapplying the limits or forgetting the normalization constant.</li>
+</ul>
+<h3 id="solution-98">Solution 98</h3>
+<p><strong>Problem</strong>: An electron tunnels with $V_0 - E = 1 , \text{eV}$, $a = 0.2 , \text{nm}$. Calculate $T$.</p>
+<ul>
+<li>(a) 0.364</li>
+<li>(b) 0.365</li>
+<li>(c) 0.366</li>
+<li>(d) 0.367</li>
+</ul>
+<p><strong>Solution</strong>:<br />
+Using the tunneling probability:<br />
+$$
+T \approx e^{-2 \kappa a}, \quad \kappa = \sqrt{\frac{2 m (V_0 - E)}{\hbar^2}}
+$$
+Given $m = 9.11 \times 10^{-31} , \text{kg}$, $V_0 - E = 1 , \text{eV} = 1.6 \times 10^{-19} , \text{J}$, $a = 0.2 \times 10^{-9} , \text{m}$, $\hbar = 1.055 \times 10^{-34} , \text{J·s}$:<br />
+$$
+\kappa \approx 5.116 \times 10^9 , \text{m}^{-1} \quad (\text{from Solution 3})
+$$
+Compute:<br />
+$$
+2 \kappa a = 2 (5.116 \times 10^9) (0.2 \times 10^{-9}) = 2.0464
+$$
+Thus:<br />
+$$
+T \approx e^{-2.0464} \approx 0.365
+$$
+The answer is (b) 0.365.</p>
+<ul>
+<li><strong>JEE/NEET Tip</strong>: Reuse $\kappa$ calculations when possible; tunneling probability is sensitive to small changes in $a$. Common error: Incorrect exponent calculation or rounding errors.</li>
+</ul>
+<h2 id="back-to-chapter">Back to Chapter</h2>
+<p><a href="../../matter-waves-advanced">Return to More About Matter Waves Chapter</a></p>
+<p><a href="../../matter-waves-advanced/problems">Return to More About Matter Waves Problems</a></p>
+
+        </article>
+    </div>
+
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container text-center py-5">
+            <ul class="social-list list-unstyled pt-4 mb-0">
+                
+                    <li class="list-inline-item">
+                        <a href="https:&#x2F;&#x2F;www.youtube.com&#x2F;@VidyaMargbyRaviShankar-w9u" target="_blank" title="YouTube"><i class="fab fa-youtube fa-fw"></i></a>
+                    </li>
+                
+                    <li class="list-inline-item">
+                        <a href="https:&#x2F;&#x2F;t.me&#x2F;vidyamarg1" target="_blank" title="Telegram"><i class="fab fa-telegram fa-fw"></i></a>
+                    </li>
+                
+            </ul>
+            <small class="copyright">
+                © 2025 Vidya Marg. Designed with <span class="sr-only">love</span><i class="fas fa-heart" style="color: #fb866a;"></i> by <a class="theme-link" href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers. <a class="theme-link" href="/app/privacy-policy/">Privacy Policy</a>
+            </small>
+        </div>
+    </footer>
+
+    <!-- Javascript -->          
+    <script src="https://vidyamarg.com/plugins/popper.min.js"></script>
+    <script src="https://vidyamarg.com/plugins/bootstrap/js/bootstrap.min.js"></script>  
+    
+    <!-- Page Specific JS -->
+    <script src="https://vidyamarg.com/plugins/smoothscroll.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
+    <script src="https://vidyamarg.com/js/highlight-custom.js"></script> 
+    <script src="https://vidyamarg.com/plugins/simplelightbox/simple-lightbox.min.js"></script>      
+    <script src="https://vidyamarg.com/plugins/gumshoe/gumshoe.polyfills.min.js"></script> 
+    <script src="https://vidyamarg.com/js/docs.js"></script> 
+
+    <script>
+        function renderLatex() {
+            if (typeof renderMathInElement === "undefined") {
+                setTimeout(renderLatex, 100);
+                return;
+            }
+            renderMathInElement(document.body, {
+                delimiters: [
+                    { left: "$$", right: "$$", display: true },
+                    { left: "$", right: "$", display: false },
+                    { left: "\\(", right: "\\)", display: false },
+                    { left: "\\[", right: "\\]", display: true }
+                ],
+                throwOnError: false
+            });
+        }
+
+        window.addEventListener("load", function() {
+            renderLatex();
+        });
+    </script>
+</body>
+</html>

@@ -1,7 +1,7 @@
 ---
 title: Physics Book - Gauss’s Law Solutions for JEE & NEET
 description: Sample solutions for electrostatics problems, covering electric flux, Gauss’s law applications, field calculations for symmetric charge distributions, and conductors, tailored for JEE and NEET preparation.
-slug: books/physics/gauss-law/solutions
+slug: solutions
 keywords: physics Gauss’s law solutions, JEE physics electric flux solutions, NEET physics field calculations solutions, electrostatics
 og:image: https://vidyamarg.com/og-physics-gauss-law.jpg
 ---
@@ -172,6 +172,6 @@ Alternatively, treat as a surface with $\sigma = \frac{Q}{4 \pi R^2}$, $E = \fra
 - **JEE/NEET Tip**: For conductors, the field just outside is $\frac{\sigma}{\epsilon_0}$; for spheres, it’s equivalent to a point charge at the center. Common error: Forgetting $E = 0$ inside, or miscalculating $\sigma$.
 
 ## Back to Chapter
-[Return to Gauss’s Law Chapter](./index.md)
+[Return to Gauss’s Law Chapter](../../gauss-law)
 
-[Return to Gauss’s Law Problems](./problems.md)
+[Return to Gauss’s Law Problems](../../gauss-law/problems)

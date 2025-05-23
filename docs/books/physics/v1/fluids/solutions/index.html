@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <title>Vidya Marg | Physics Book - Fluids Solutions for JEE &amp; NEET</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sample solutions for fluid mechanics problems, covering fluid statics, dynamics, viscosity, surface tension, and applications, tailored for JEE and NEET preparation.">
+    <meta name="keywords" content="JEE physics book, NEET physics book, physics book, physics for JEE and NEET">
+    <meta property="og:image" content="https://vidyamarg.com/og-physics-book.jpg">
+    <link rel="canonical" href="https:&#x2F;&#x2F;vidyamarg.com&#x2F;books&#x2F;physics&#x2F;v1&#x2F;fluids&#x2F;solutions&#x2F;">
+    <link rel="shortcut icon" href="https://vidyamarg.com/logos/maroon-bg-logo-128.ico">
+    
+    <!-- Preload Google Font -->
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" as="style">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript>
+        <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
+    </noscript>
+    
+    <!-- FontAwesome JS -->
+    <script defer src="https://vidyamarg.com/fontawesome/js/all.min.js"></script>
+
+    <!-- KaTeX for LaTeX rendering -->
+    <link rel="stylesheet" href="https://vidyamarg.com/katex/katex.min.css">
+    <script src="https://vidyamarg.com/katex/katex.min.js"></script>
+    <script src="https://vidyamarg.com/katex/auto-render.min.js"></script>
+
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.2/styles/atom-one-dark.min.css">
+    <link rel="stylesheet" href="https://vidyamarg.com/plugins/simplelightbox/simple-lightbox.min.css">
+
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="https://vidyamarg.com/css/theme.css">
+    <link rel="stylesheet" href="https://vidyamarg.com/css/custom.css" />
+</head> 
+
+<body>    
+    <header class="header fixed-top">
+        <div class="branding docs-branding">
+            <div class="container-fluid position-relative py-2">
+                <div class="docs-logo-wrapper">
+                    
+                    
+                    
+                    <button id="docs-sidebar-toggler" class="docs-sidebar-toggler docs-sidebar-visible me-2 d-xl-none" type="button">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    
+                    <div class="site-logo">
+                        <a class="navbar-brand" href="https://vidyamarg.com">
+                            <img class="logo-icon me-2" src="https://vidyamarg.com/logos/maroon-bg-logo-1024.png" alt="logo">
+                            <span class="logo-text">Vidya Marg</span>
+                        </a>
+                    </div>    
+                </div>
+                <div class="docs-top-utilities d-flex justify-content-end align-items-center">
+                    <ul class="nav-list list-inline mb-0 d-none d-lg-flex">
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;">Home</a>
+                            </li>
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics (Youtube series)</a>
+                            </li>
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;">Books</a>
+                            </li>
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;app&#x2F;">App</a>
+                            </li>
+                        
+                        
+                            
+                                <li class="list-inline-item">
+                                    <a href="https:&#x2F;&#x2F;www.youtube.com&#x2F;@VidyaMargbyRaviShankar-w9u" title="YouTube"><i class="fab fa-youtube fa-fw"></i></a>
+                                </li>
+                            
+                                <li class="list-inline-item">
+                                    <a href="https:&#x2F;&#x2F;t.me&#x2F;vidyamarg1" title="Telegram"><i class="fab fa-telegram fa-fw"></i></a>
+                                </li>
+                            
+                        
+                    </ul>
+                    <!-- Mobile Menu Button -->
+                    <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#mobileNav" aria-controls="mobileNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </div>
+            <!-- Mobile Menu -->
+            <div class="collapse navbar-collapse d-lg-none" id="mobileNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;">Home</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics (Youtube series)</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;books&#x2F;">Books</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;app&#x2F;">App</a>
+                        </li>
+                    
+                    
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="https:&#x2F;&#x2F;www.youtube.com&#x2F;@VidyaMargbyRaviShankar-w9u"><i class="fab fa-youtube fa-fw"></i> YouTube</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="https:&#x2F;&#x2F;t.me&#x2F;vidyamarg1"><i class="fab fa-telegram fa-fw"></i> Telegram</a>
+                            </li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="docs-wrapper">
+        
+        
+        
+        <div id="docs-sidebar" class="docs-sidebar">
+            <nav id="docs-nav" class="docs-nav navbar">
+                
+                    
+                        
+
+<ul class="nav flex-column">
+    <!-- Navigation Menu (visible only in mobile view) -->
+    <li class="nav-item d-lg-none">
+        <span class="nav-link">Navigation</span>
+        <ul class="nav flex-column">
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;">Home</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics (Youtube series)</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;books&#x2F;">Books</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;app&#x2F;">App</a>
+                </li>
+            
+        </ul>
+    </li>
+
+    <!-- JEE/NEET Physics Section -->
+    
+    <li class="nav-item">
+        <span class="nav-link">Physics for JEE&#x2F;NEET</span>
+        <ul class="nav flex-column">
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics for JEE&#x2F;NEET</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;maths-basics-for-physics&#x2F;">Maths Basics for Physics</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;units-and-dimensions&#x2F;">Units and Dimensions</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;physical-quantities-and-si-units&#x2F;">Physical Quantities and SI Units</a>
+                </li>
+            
+        </ul>
+    </li>
+
+    <!-- Books Section -->
+    
+    <li class="nav-item">
+        <span class="nav-link">Books</span>
+        <ul class="nav flex-column">
+            <!-- JEE/NEET Physics Book (Version 1) -->
+            
+            <li class="nav-item">
+                <a class="nav-link" href="/books/physics/v1/">Physics Book</a>
+                
+                    <ul class="nav flex-column">
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;measurement&#x2F;">Measurement</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;motion-straight-line&#x2F;">Motion Along a Straight Line</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;vectors&#x2F;">Vectors</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;motion-2d-3d&#x2F;">Motion in Two and Three Dimensions</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;force-motion-1&#x2F;">Force and Motion—I</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;force-motion-2&#x2F;">Force and Motion—II</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;kinetic-energy-work&#x2F;">Kinetic Energy and Work</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;potential-energy-conservation&#x2F;">Potential Energy and Conservation of Energy</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;center-mass-momentum&#x2F;">Center of Mass and Linear Momentum</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;rotation&#x2F;">Rotation</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;rolling-torque-angular-momentum&#x2F;">Rolling, Torque, and Angular Momentum</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;equilibrium-elasticity&#x2F;">Equilibrium and Elasticity</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;gravitation&#x2F;">Gravitation</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;fluids&#x2F;">Fluids</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;oscillations&#x2F;">Oscillations</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;waves-1&#x2F;">Waves—I</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;waves-2&#x2F;">Waves—II</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;kinetic-theory-gases&#x2F;">The Kinetic Theory of Gases</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;thermodynamics-temperature-heat&#x2F;">Temperature, Heat, and the First Law of Thermodynamics</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;entropy-thermodynamics&#x2F;">Entropy and the Second Law of Thermodynamics</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electric-fields&#x2F;">Electric Fields</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;gauss-law&#x2F;">Gauss’s Law</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electric-potential&#x2F;">Electric Potential</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;capacitance&#x2F;">Capacitance</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;current-resistance&#x2F;">Current and Resistance</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;circuits&#x2F;">Circuits</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;magnetic-fields&#x2F;">Magnetic Fields</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;magnetic-fields-currents&#x2F;">Magnetic Fields Due to Currents</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;induction-inductance&#x2F;">Induction and Inductance</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electromagnetic-oscillations-ac&#x2F;">Electromagnetic Oscillations and Alternating Current</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electromagnetic-waves&#x2F;">Electromagnetic Waves</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;images&#x2F;">Images</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;interference&#x2F;">Interference</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;diffraction&#x2F;">Diffraction</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;photons-matter-waves&#x2F;">Photons and Matter Waves</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;matter-waves-advanced&#x2F;">More About Matter Waves</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;atoms&#x2F;">All About Atoms</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;nuclear-physics&#x2F;">Nuclear Physics</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;nuclear-energy&#x2F;">Energy from the Nucleus</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;quarks-leptons&#x2F;">Quarks, Leptons, and the Big Bang</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;relativity&#x2F;">Relativity</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;conduction-solids&#x2F;">Conduction of Electricity in Solids</a>
+                            </li>
+                        
+                    </ul>
+                
+            </li>
+        </ul>
+    </li>
+</ul>
+                    
+                
+            </nav>
+        </div>
+        
+
+        <div class="docs-content">
+            
+    <div class="docs-main">
+        <article class="docs-article">
+            <h1 id="fluids-solutions">Fluids Solutions</h1>
+<p>This section provides <strong>sample solutions</strong> for selected problems from the Fluids chapter, focusing on fluid statics (density, pressure, buoyancy), fluid dynamics (continuity, Bernoulli’s principle), viscosity (Poiseuille’s law, Stokes’ law), and surface tension (capillary action, droplets). These solutions are designed to help JEE Main, JEE Advanced, and NEET students understand key concepts and problem-solving techniques. Each solution includes detailed steps, exam-focused tips to avoid common mistakes, and alignment with JEE/NEET exam patterns. Full solutions for all 100 problems will be available in June 2025.</p>
+<h2 id="numerical-solutions">Numerical Solutions</h2>
+<h3 id="solution-1">Solution 1</h3>
+<p><strong>Problem</strong>: A tank filled with water ($\rho = 1000 , \text{kg/m}^3$) has a depth of $3 , \text{m}$. Calculate the pressure at the bottom ($P_{\text{atm}} = 1.013 \times 10^5 , \text{Pa}$, $g = 9.8 , \text{m/s}^2$).</p>
+<ul>
+<li>(a) $1.294 \times 10^5 , \text{Pa}$</li>
+<li>(b) $1.307 \times 10^5 , \text{Pa}$</li>
+<li>(c) $1.320 \times 10^5 , \text{Pa}$</li>
+<li>(d) $1.333 \times 10^5 , \text{Pa}$</li>
+</ul>
+<p><strong>Solution</strong>:<br />
+To find the pressure at the bottom of the tank, we use the formula for pressure in a fluid at depth: $P = P_{\text{atm}} + \rho g h$. Here, $\rho = 1000 , \text{kg/m}^3$, $g = 9.8 , \text{m/s}^2$, $h = 3 , \text{m}$, and $P_{\text{atm}} = 1.013 \times 10^5 , \text{Pa}$. First, calculate the hydrostatic pressure due to the water column:<br />
+$$
+\rho g h = 1000 \times 9.8 \times 3 = 29400 , \text{Pa}
+$$<br />
+Now, add the atmospheric pressure:<br />
+$$
+P = 1.013 \times 10^5 + 29400 = 101300 + 29400 = 130700 , \text{Pa} = 1.307 \times 10^5 , \text{Pa}
+$$<br />
+The answer matches option (b).</p>
+<ul>
+<li><strong>JEE/NEET Tip</strong>: Always include atmospheric pressure unless asked for gauge pressure ($P_{\text{gauge}} = \rho g h$). Common error: Forgetting to add $P_{\text{atm}}$, which underestimates the total pressure.</li>
+</ul>
+<h3 id="solution-5">Solution 5</h3>
+<p><strong>Problem</strong>: A pipe has cross-sectional areas $A_1 = 0.04 , \text{m}^2$ and $A_2 = 0.01 , \text{m}^2$. If the flow speed at $A_1$ is $v_1 = 1.5 , \text{m/s}$, calculate $v_2$.</p>
+<ul>
+<li>(a) $5.5 , \text{m/s}$</li>
+<li>(b) $6.0 , \text{m/s}$</li>
+<li>(c) $6.5 , \text{m/s}$</li>
+<li>(d) $7.0 , \text{m/s}$</li>
+</ul>
+<p><strong>Solution</strong>:<br />
+For an incompressible fluid, the continuity equation applies: $A_1 v_1 = A_2 v_2$, ensuring mass flow rate is conserved. Given $A_1 = 0.04 , \text{m}^2$, $A_2 = 0.01 , \text{m}^2$, and $v_1 = 1.5 , \text{m/s}$, solve for $v_2$:<br />
+$$
+A_1 v_1 = A_2 v_2 \quad \Rightarrow \quad v_2 = \frac{A_1 v_1}{A_2} = \frac{0.04 \times 1.5}{0.01} = \frac{0.06}{0.01} = 6.0 , \text{m/s}
+$$<br />
+The answer is (b) $6.0 , \text{m/s}$.</p>
+<ul>
+<li><strong>JEE/NEET Tip</strong>: In narrower sections ($A_2 &lt; A_1$), flow speed increases proportionally; ensure areas are in consistent units. Common error: Mixing up $A_1$ and $A_2$, which inverts the speed ratio.</li>
+</ul>
+<hr />
+<h2 id="conceptual-solutions">Conceptual Solutions</h2>
+<h3 id="solution-36">Solution 36</h3>
+<p><strong>Problem</strong>: What does pressure in a fluid depend on at a given depth?</p>
+<ul>
+<li>(a) Surface area</li>
+<li>(b) Density, gravity, and depth</li>
+<li>(c) Volume of the fluid</li>
+<li>(d) Shape of the container</li>
+</ul>
+<p><strong>Solution</strong>:<br />
+Pressure in a fluid at a given depth is given by $P = P_0 + \rho g h$, where $P_0$ is the pressure at the surface (e.g., atmospheric pressure), $\rho$ is the fluid’s density, $g$ is the acceleration due to gravity, and $h$ is the depth below the surface. This shows that pressure depends on $\rho$, $g$, and $h$. The surface area, volume of the fluid, and shape of the container do not affect pressure at a specific depth in a static fluid, as pressure in a fluid is isotropic (same in all directions) and depends only on depth and fluid properties.</p>
+<ul>
+<li>(a) Incorrect: Pressure is force per unit area, but at a given depth, it’s independent of the surface area of the container.</li>
+<li>(b) Correct: Pressure depends on density ($\rho$), gravity ($g$), and depth ($h$), as per the formula.</li>
+<li>(c) Incorrect: Volume doesn’t directly affect pressure at a depth; it’s the depth and density that matter.</li>
+<li>(d) Incorrect: Shape doesn’t affect pressure at a given depth in a static fluid (e.g., same depth in a wide or narrow container yields the same pressure).<br />
+The answer is (b) Density, gravity, and depth.</li>
+<li><strong>JEE/NEET Tip</strong>: Focus on the variables in $P = P_0 + \rho g h$; pressure at a depth is independent of container shape or area. Common error: Assuming container shape affects pressure, which it doesn’t in static fluids.</li>
+</ul>
+<h3 id="solution-38">Solution 38</h3>
+<p><strong>Problem</strong>: What does the continuity equation imply for an incompressible fluid?</p>
+<ul>
+<li>(a) Pressure is constant</li>
+<li>(b) Flow speed is constant</li>
+<li>(c) Mass flow rate is constant</li>
+<li>(d) Volume decreases with speed</li>
+</ul>
+<p><strong>Solution</strong>:<br />
+The continuity equation for an incompressible fluid states that the mass flow rate is conserved along a streamline: $\rho A v = \text{constant}$. For an incompressible fluid, density $\rho$ is constant, so this simplifies to $A v = \text{constant}$, or $A_1 v_1 = A_2 v_2$, where $A$ is the cross-sectional area and $v$ is the flow speed. Since mass flow rate is $\rho A v$, and $\rho$ is constant, the continuity equation implies that the mass flow rate is constant throughout the flow. This means that if the area decreases, the speed increases proportionally to maintain the same mass flow rate.</p>
+<ul>
+<li>(a) Incorrect: Pressure varies with speed and height (Bernoulli’s principle), not addressed by continuity.</li>
+<li>(b) Incorrect: Flow speed changes with area ($A v = \text{constant}$); it’s not constant unless $A$ is constant.</li>
+<li>(c) Correct: Continuity implies constant mass flow rate, $\rho A v$, which is constant for incompressible fluids.</li>
+<li>(d) Incorrect: Volume flow rate $A v$ is constant, so volume doesn’t decrease; it’s conserved.<br />
+The answer is (c) Mass flow rate is constant.</li>
+<li><strong>JEE/NEET Tip</strong>: Continuity reflects conservation of mass; for incompressible fluids, $A v = \text{constant}$ means speed increases in narrower sections. Common error: Assuming speed or pressure is constant, which requires Bernoulli’s principle, not continuity.</li>
+</ul>
+<hr />
+<h2 id="derivation-solutions">Derivation Solutions</h2>
+<h3 id="solution-51">Solution 51</h3>
+<p><strong>Problem</strong>: Derive the pressure in a fluid at depth $P = P_0 + \rho g h$.</p>
+<p><strong>Solution</strong>:<br />
+Consider a static fluid of density $\rho$ in a container, with the surface exposed to atmospheric pressure $P_0$. We want the pressure at a depth $h$ below the surface. Imagine a cylindrical column of fluid extending from the surface (at $z = 0$) to depth $h$ (at $z = h$), with cross-sectional area $A$. The forces acting on this column are:</p>
+<ul>
+<li>Pressure at the top (at $z = 0$): $P_0$, acting downward, force = $P_0 A$.</li>
+<li>Pressure at the bottom (at $z = h$): $P$, acting upward, force = $P A$.</li>
+<li>Weight of the fluid column: The volume of the column is $V = A h$, mass is $m = \rho V = \rho A h$, so weight = $mg = \rho A h g$, acting downward.</li>
+</ul>
+<p>Since the fluid is in equilibrium (static), the net force on the column must be zero. Sum the forces (upward positive):<br />
+$$
+P A - P_0 A - \rho A h g = 0
+$$<br />
+Simplify by dividing through by $A$ (since $A \neq 0$):<br />
+$$
+P - P_0 - \rho g h = 0 \quad \Rightarrow \quad P = P_0 + \rho g h
+$$<br />
+This equation shows that pressure increases linearly with depth, as used in Problem 1 where $P = 1.013 \times 10^5 + 1000 \times 9.8 \times 3 = 1.307 \times 10^5 , \text{Pa}$.</p>
+<ul>
+<li><strong>JEE/NEET Tip</strong>: The derivation assumes a static, incompressible fluid; $P_0$ is often atmospheric pressure unless specified otherwise. Common error: Forgetting the weight of the fluid column or misapplying forces.</li>
+</ul>
+<h3 id="solution-53">Solution 53</h3>
+<p><strong>Problem</strong>: Derive the continuity equation $A_1 v_1 = A_2 v_2$.</p>
+<p><strong>Solution</strong>:<br />
+The continuity equation arises from the conservation of mass for a fluid in steady flow. Consider a pipe with varying cross-sectional areas, where the fluid is incompressible (constant density $\rho$). At point 1, the cross-sectional area is $A_1$, flow speed is $v_1$; at point 2, the area is $A_2$, speed is $v_2$. In steady flow, the mass entering at point 1 per unit time must equal the mass exiting at point 2 per unit time (no accumulation or loss).</p>
+<p>Mass flow rate is the mass passing a point per unit time: $\dot{m} = \rho \times \text{volume flow rate}$. The volume flow rate at a point is the area times the speed: $A v$. So, mass flow rate at point 1: $\dot{m}_1 = \rho A_1 v_1$, and at point 2: $\dot{m}_2 = \rho A_2 v_2$. Since mass is conserved:<br />
+$$
+\dot{m}_1 = \dot{m}_2 \quad \Rightarrow \quad \rho A_1 v_1 = \rho A_2 v_2
+$$<br />
+For an incompressible fluid, $\rho$ is constant, so $\rho$ cancels out:<br />
+$$
+A_1 v_1 = A_2 v_2
+$$<br />
+This is the continuity equation, used in Problem 5 where $v_2 = \frac{0.04 \times 1.5}{0.01} = 6.0 , \text{m/s}$.</p>
+<ul>
+<li><strong>JEE/NEET Tip</strong>: Continuity applies to incompressible fluids in steady flow; if $A$ decreases, $v$ increases proportionally. Common error: Applying continuity to compressible fluids without adjusting for density changes.</li>
+</ul>
+<hr />
+<h2 id="neet-style-solutions">NEET-style Solutions</h2>
+<h3 id="solution-96">Solution 96</h3>
+<p><strong>Problem</strong>: A tank filled with water ($\rho = 1000 , \text{kg/m}^3$) has a depth of $1 , \text{m}$. What is the pressure at the bottom ($P_{\text{atm}} = 1.013 \times 10^5 , \text{Pa}$, $g = 9.8 , \text{m/s}^2$)?</p>
+<ul>
+<li>(a) $1.111 \times 10^5 , \text{Pa}$</li>
+<li>(b) $1.112 \times 10^5 , \text{Pa}$</li>
+<li>(c) $1.113 \times 10^5 , \text{Pa}$</li>
+<li>(d) $1.114 \times 10^5 , \text{Pa}$</li>
+</ul>
+<p><strong>Solution</strong>:<br />
+Use the formula for pressure at depth: $P = P_{\text{atm}} + \rho g h$. Given $\rho = 1000 , \text{kg/m}^3$, $g = 9.8 , \text{m/s}^2$, $h = 1 , \text{m}$, $P_{\text{atm}} = 1.013 \times 10^5 , \text{Pa}$:<br />
+$$
+\rho g h = 1000 \times 9.8 \times 1 = 9800 , \text{Pa}
+$$<br />
+Total pressure:<br />
+$$
+P = 1.013 \times 10^5 + 9800 = 101300 + 9800 = 111100 , \text{Pa} = 1.111 \times 10^5 , \text{Pa}
+$$<br />
+The answer is (a) $1.111 \times 10^5 , \text{Pa}$.</p>
+<ul>
+<li><strong>JEE/NEET Tip</strong>: Ensure you add atmospheric pressure for absolute pressure; for gauge pressure, omit $P_{\text{atm}}$. Common error: Forgetting $P_{\text{atm}}$ or miscalculating $\rho g h$.</li>
+</ul>
+<h3 id="solution-98">Solution 98</h3>
+<p><strong>Problem</strong>: A steel ball ($r = 0.003 , \text{m}$, $\rho_{\text{steel}} = 7800 , \text{kg/m}^3$) falls in water ($\rho_{\text{water}} = 1000 , \text{kg/m}^3$, $\eta = 0.001 , \text{Pa} \cdot \text{s}$, $g = 9.8 , \text{m/s}^2$). What is the terminal velocity?</p>
+<ul>
+<li>(a) $2.35 , \text{m/s}$</li>
+<li>(b) $2.36 , \text{m/s}$</li>
+<li>(c) $2.37 , \text{m/s}$</li>
+<li>(d) $2.38 , \text{m/s}$</li>
+</ul>
+<p><strong>Solution</strong>:<br />
+At terminal velocity, the viscous drag (Stokes’ law) balances the net force (weight minus buoyancy). Stokes’ law gives drag: $F_{\text{drag}} = 6 \pi \eta r v$. Weight of the ball: $m g = \rho_{\text{steel}} \left(\frac{4}{3} \pi r^3\right) g$. Buoyant force: $F_{\text{buoyant}} = \rho_{\text{water}} \left(\frac{4}{3} \pi r^3\right) g$. Net force: $(\rho_{\text{steel}} - \rho_{\text{water}}) \left(\frac{4}{3} \pi r^3\right) g$. At terminal velocity $v$:<br />
+$$
+6 \pi \eta r v = (\rho_{\text{steel}} - \rho_{\text{water}}) \left(\frac{4}{3} \pi r^3\right) g
+$$<br />
+Simplify: $v = \frac{2 r^2 g (\rho_{\text{steel}} - \rho_{\text{water}})}{9 \eta}$. Given $r = 0.003 , \text{m}$, $\rho_{\text{steel}} = 7800 , \text{kg/m}^3$, $\rho_{\text{water}} = 1000 , \text{kg/m}^3$, $\eta = 0.001 , \text{Pa} \cdot \text{s}$, $g = 9.8 , \text{m/s}^2$:<br />
+$$
+v = \frac{2 (0.003)^2 (9.8) (7800 - 1000)}{9 (0.001)} = \frac{2 \times 0.000009 \times 9.8 \times 6800}{0.009} \approx 2.36 , \text{m/s}
+$$<br />
+The answer is (b) $2.36 , \text{m/s}$.</p>
+<ul>
+<li><strong>JEE/NEET Tip</strong>: Terminal velocity scales with $r^2$; ensure density difference accounts for buoyancy. Common error: Forgetting buoyancy or using incorrect units for $\eta$.</li>
+</ul>
+<h2 id="back-to-chapter">Back to Chapter</h2>
+<p><a href="../../fluids">Return to Fluids Chapter</a></p>
+<p><a href="../../fluids/problems">Return to Fluids Problems</a></p>
+
+        </article>
+    </div>
+
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container text-center py-5">
+            <ul class="social-list list-unstyled pt-4 mb-0">
+                
+                    <li class="list-inline-item">
+                        <a href="https:&#x2F;&#x2F;www.youtube.com&#x2F;@VidyaMargbyRaviShankar-w9u" target="_blank" title="YouTube"><i class="fab fa-youtube fa-fw"></i></a>
+                    </li>
+                
+                    <li class="list-inline-item">
+                        <a href="https:&#x2F;&#x2F;t.me&#x2F;vidyamarg1" target="_blank" title="Telegram"><i class="fab fa-telegram fa-fw"></i></a>
+                    </li>
+                
+            </ul>
+            <small class="copyright">
+                © 2025 Vidya Marg. Designed with <span class="sr-only">love</span><i class="fas fa-heart" style="color: #fb866a;"></i> by <a class="theme-link" href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers. <a class="theme-link" href="/app/privacy-policy/">Privacy Policy</a>
+            </small>
+        </div>
+    </footer>
+
+    <!-- Javascript -->          
+    <script src="https://vidyamarg.com/plugins/popper.min.js"></script>
+    <script src="https://vidyamarg.com/plugins/bootstrap/js/bootstrap.min.js"></script>  
+    
+    <!-- Page Specific JS -->
+    <script src="https://vidyamarg.com/plugins/smoothscroll.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
+    <script src="https://vidyamarg.com/js/highlight-custom.js"></script> 
+    <script src="https://vidyamarg.com/plugins/simplelightbox/simple-lightbox.min.js"></script>      
+    <script src="https://vidyamarg.com/plugins/gumshoe/gumshoe.polyfills.min.js"></script> 
+    <script src="https://vidyamarg.com/js/docs.js"></script> 
+
+    <script>
+        function renderLatex() {
+            if (typeof renderMathInElement === "undefined") {
+                setTimeout(renderLatex, 100);
+                return;
+            }
+            renderMathInElement(document.body, {
+                delimiters: [
+                    { left: "$$", right: "$$", display: true },
+                    { left: "$", right: "$", display: false },
+                    { left: "\\(", right: "\\)", display: false },
+                    { left: "\\[", right: "\\]", display: true }
+                ],
+                throwOnError: false
+            });
+        }
+
+        window.addEventListener("load", function() {
+            renderLatex();
+        });
+    </script>
+</body>
+</html>

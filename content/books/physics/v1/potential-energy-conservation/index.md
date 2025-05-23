@@ -1,14 +1,26 @@
 ---
 title: Physics Book - Potential Energy and Conservation of Energy for JEE & NEET
 description: Comprehensive guide to potential energy and conservation of energy for JEE and NEET, covering gravitational and elastic potential energy, conservative forces, and energy conservation, with extensive examples.
-slug: books/physics/potential-energy-conservation
+slug: potential-energy-conservation
 keywords: physics potential energy conservation, JEE physics energy conservation, NEET physics conservative forces, elastic potential energy
 og:image: https://vidyamarg.com/og-physics-potential-energy-conservation.jpg
 ---
 
 # Chapter 8: Potential Energy and Conservation of Energy
 
-**Beta Version**: Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!
+
+
+<div class="callout-block callout-warning">
+    <div class="content">
+        <h4 class="callout-title">
+            <span class="callout-icon-holder me-1">
+                <i class="fas fa-exclamation-triangle"></i>
+            </span>
+            Beta Version
+        </h4>
+        <p>Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!</p>
+    </div>
+</div>
 
 Potential energy and the conservation of energy are cornerstone concepts in physics, building on the kinetic energy and work principles from Chapter 7. Potential energy represents stored energy due to an object’s position or configuration, while the conservation of mechanical energy provides a powerful method to analyze systems without directly calculating forces. For JEE Main, JEE Advanced, and NEET students, these concepts are essential, appearing in problems involving objects falling under gravity, oscillating springs, and energy transformations in roller coasters or pendulums. This chapter covers **the definition of potential energy**, **conservative and non-conservative forces**, **conservation of mechanical energy**, and **applications in gravitational systems, springs, and energy transformations**, providing detailed explanations, derivations, numerous solved examples, and exam-focused strategies to ensure conceptual clarity and problem-solving proficiency.
 
@@ -301,7 +313,7 @@ $$
 ## Practice Problems
 Explore our extensive problem set with **100 problems** inspired by JEE Main, JEE Advanced, and NEET patterns to test your understanding of potential energy and conservation of energy.
 
-[View Problems](./problems.md)
+[View Problems](./problems)
 
 ## Watch on YouTube
 Our Hinglish video lessons make potential energy and conservation engaging for JEE and NEET! Subscribe for updates.

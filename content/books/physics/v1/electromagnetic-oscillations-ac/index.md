@@ -1,14 +1,26 @@
 ---
 title: Physics Book - Electromagnetic Oscillations and Alternating Current for JEE & NEET
 description: Comprehensive guide on electromagnetic oscillations and AC circuits for JEE and NEET, covering LC oscillations, phasors, impedance, resonance, and power in AC circuits, with extensive examples.
-slug: books/physics/electromagnetic-oscillations-ac
+slug: electromagnetic-oscillations-ac
 keywords: physics electromagnetic oscillations, JEE physics AC circuits, NEET physics resonance, electromagnetism
 og:image: https://vidyamarg.com/og-physics-electromagnetic-oscillations-ac.jpg
 ---
 
 # Chapter 31: Electromagnetic Oscillations and Alternating Current
 
-**Beta Version**: Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!
+
+
+<div class="callout-block callout-warning">
+    <div class="content">
+        <h4 class="callout-title">
+            <span class="callout-icon-holder me-1">
+                <i class="fas fa-exclamation-triangle"></i>
+            </span>
+            Beta Version
+        </h4>
+        <p>Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!</p>
+    </div>
+</div>
 
 Electromagnetic oscillations and alternating current (AC) are foundational to modern electronics, powering applications like spacecraft communication systems. Building on the concepts of induction and inductance from Chapter 30, this chapter explores oscillatory circuits and AC behavior. For JEE Main, JEE Advanced, and NEET students, mastering these topics is essential, as they frequently appear in problems involving circuits, resonance, and power analysis. This chapter, **Electromagnetic Oscillations and Alternating Current**, covers **LC oscillations**, **AC circuits and phasors**, **impedance and resonance**, and **power in AC circuits**, providing detailed explanations, derivations, solved examples, and practical applications to ensure conceptual clarity and problem-solving proficiency.
 
@@ -250,7 +262,7 @@ A spacecraft AC circuit ($V_{\text{rms}} = 120 \, \text{V}$, $I_{\text{rms}} = 2
 ## Practice Problems
 Explore our problem set with **100 problems** inspired by JEE Main, JEE Advanced, and NEET patterns to test your understanding.
 
-[View Problems](./problems.md)
+[View Problems](./problems)
 
 ## Watch on YouTube
 Our Hinglish video lessons make electromagnetism engaging! Subscribe for updates.

@@ -1,8 +1,6 @@
 +++
-title = "Physics for JEE/NEET"
-description = "Comprehensive physics resources for JEE/NEET preparation."
+title = "Getting started"
+description = "Getting started with physics"
 +++
 
-# Physics for JEE/NEET
-
-Explore fundamental physics concepts with detailed chapters and practice problems.
+# Getting started

@@ -1,7 +1,7 @@
 ---
 title: Physics Book - Energy from the Nucleus Problems for JEE & NEET
 description: Practice 100 problems on nuclear energy for JEE and NEET, inspired by exam patterns, covering fission, fusion, nuclear reactors, applications like nuclear power, and challenges.
-slug: books/physics/nuclear-energy/problems
+slug: problems
 keywords: physics nuclear energy problems, JEE physics nuclear fission problems, NEET physics nuclear reactors problems, nuclear power applications
 og:image: https://vidyamarg.com/og-physics-nuclear-energy.jpg
 ---
@@ -569,4 +569,4 @@ This section provides **100 problems** to test your understanding of nuclear ene
     - (d) 8227 m/s
 
 ## Back to Chapter
-[Return to Energy from the Nucleus Chapter](./index.md)
+[Return to Energy from the Nucleus Chapter](../../nuclear-energy)

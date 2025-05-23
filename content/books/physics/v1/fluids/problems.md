@@ -1,7 +1,7 @@
 ---
 title: Physics Book - Fluids Problems for JEE & NEET
 description: Practice 100 fluid mechanics problems for JEE and NEET, inspired by exam patterns, covering fluid statics, dynamics, viscosity, surface tension, and applications in pipes, buoyancy, and flow systems.
-slug: books/physics/fluids/problems
+slug: problems
 keywords: physics fluids problems, JEE physics fluid mechanics problems, NEET physics Bernoulli’s principle problems, viscosity
 og:image: https://vidyamarg.com/og-physics-fluids.jpg
 ---
@@ -569,4 +569,4 @@ This section provides **100 problems** to test your understanding of fluid mecha
     - (d) $50.0 \, \text{mm}$
 
 ## Back to Chapter
-[Return to Fluids Chapter](./index.md)
+[Return to Fluids Chapter](../../fluids)

@@ -1,8 +1,7 @@
 +++
-title = "Physics for JEE/NEET"
-description = "Comprehensive physics resources for JEE/NEET preparation."
+title = "Physical quantities and SI units"
+description = "Physical quantities and SI units."
 +++
 
-# Physics for JEE/NEET
+# Physical quantities and SI units
 
-Explore fundamental physics concepts with detailed chapters and practice problems.

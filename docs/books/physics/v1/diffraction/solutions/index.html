@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <title>Vidya Marg | Physics Book - Diffraction Solutions for JEE &amp; NEET</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sample solutions for diffraction of light problems, covering Huygens&#x27; principle, single-slit diffraction, diffraction gratings, and applications, tailored for JEE and NEET preparation.">
+    <meta name="keywords" content="JEE physics book, NEET physics book, physics book, physics for JEE and NEET">
+    <meta property="og:image" content="https://vidyamarg.com/og-physics-book.jpg">
+    <link rel="canonical" href="https:&#x2F;&#x2F;vidyamarg.com&#x2F;books&#x2F;physics&#x2F;v1&#x2F;diffraction&#x2F;solutions&#x2F;">
+    <link rel="shortcut icon" href="https://vidyamarg.com/logos/maroon-bg-logo-128.ico">
+    
+    <!-- Preload Google Font -->
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" as="style">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript>
+        <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
+    </noscript>
+    
+    <!-- FontAwesome JS -->
+    <script defer src="https://vidyamarg.com/fontawesome/js/all.min.js"></script>
+
+    <!-- KaTeX for LaTeX rendering -->
+    <link rel="stylesheet" href="https://vidyamarg.com/katex/katex.min.css">
+    <script src="https://vidyamarg.com/katex/katex.min.js"></script>
+    <script src="https://vidyamarg.com/katex/auto-render.min.js"></script>
+
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.2/styles/atom-one-dark.min.css">
+    <link rel="stylesheet" href="https://vidyamarg.com/plugins/simplelightbox/simple-lightbox.min.css">
+
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="https://vidyamarg.com/css/theme.css">
+    <link rel="stylesheet" href="https://vidyamarg.com/css/custom.css" />
+</head> 
+
+<body>    
+    <header class="header fixed-top">
+        <div class="branding docs-branding">
+            <div class="container-fluid position-relative py-2">
+                <div class="docs-logo-wrapper">
+                    
+                    
+                    
+                    <button id="docs-sidebar-toggler" class="docs-sidebar-toggler docs-sidebar-visible me-2 d-xl-none" type="button">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    
+                    <div class="site-logo">
+                        <a class="navbar-brand" href="https://vidyamarg.com">
+                            <img class="logo-icon me-2" src="https://vidyamarg.com/logos/maroon-bg-logo-1024.png" alt="logo">
+                            <span class="logo-text">Vidya Marg</span>
+                        </a>
+                    </div>    
+                </div>
+                <div class="docs-top-utilities d-flex justify-content-end align-items-center">
+                    <ul class="nav-list list-inline mb-0 d-none d-lg-flex">
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;">Home</a>
+                            </li>
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics (Youtube series)</a>
+                            </li>
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;">Books</a>
+                            </li>
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;app&#x2F;">App</a>
+                            </li>
+                        
+                        
+                            
+                                <li class="list-inline-item">
+                                    <a href="https:&#x2F;&#x2F;www.youtube.com&#x2F;@VidyaMargbyRaviShankar-w9u" title="YouTube"><i class="fab fa-youtube fa-fw"></i></a>
+                                </li>
+                            
+                                <li class="list-inline-item">
+                                    <a href="https:&#x2F;&#x2F;t.me&#x2F;vidyamarg1" title="Telegram"><i class="fab fa-telegram fa-fw"></i></a>
+                                </li>
+                            
+                        
+                    </ul>
+                    <!-- Mobile Menu Button -->
+                    <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#mobileNav" aria-controls="mobileNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </div>
+            <!-- Mobile Menu -->
+            <div class="collapse navbar-collapse d-lg-none" id="mobileNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;">Home</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics (Youtube series)</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;books&#x2F;">Books</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;app&#x2F;">App</a>
+                        </li>
+                    
+                    
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="https:&#x2F;&#x2F;www.youtube.com&#x2F;@VidyaMargbyRaviShankar-w9u"><i class="fab fa-youtube fa-fw"></i> YouTube</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="https:&#x2F;&#x2F;t.me&#x2F;vidyamarg1"><i class="fab fa-telegram fa-fw"></i> Telegram</a>
+                            </li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="docs-wrapper">
+        
+        
+        
+        <div id="docs-sidebar" class="docs-sidebar">
+            <nav id="docs-nav" class="docs-nav navbar">
+                
+                    
+                        
+
+<ul class="nav flex-column">
+    <!-- Navigation Menu (visible only in mobile view) -->
+    <li class="nav-item d-lg-none">
+        <span class="nav-link">Navigation</span>
+        <ul class="nav flex-column">
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;">Home</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics (Youtube series)</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;books&#x2F;">Books</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;app&#x2F;">App</a>
+                </li>
+            
+        </ul>
+    </li>
+
+    <!-- JEE/NEET Physics Section -->
+    
+    <li class="nav-item">
+        <span class="nav-link">Physics for JEE&#x2F;NEET</span>
+        <ul class="nav flex-column">
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics for JEE&#x2F;NEET</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;maths-basics-for-physics&#x2F;">Maths Basics for Physics</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;units-and-dimensions&#x2F;">Units and Dimensions</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;physical-quantities-and-si-units&#x2F;">Physical Quantities and SI Units</a>
+                </li>
+            
+        </ul>
+    </li>
+
+    <!-- Books Section -->
+    
+    <li class="nav-item">
+        <span class="nav-link">Books</span>
+        <ul class="nav flex-column">
+            <!-- JEE/NEET Physics Book (Version 1) -->
+            
+            <li class="nav-item">
+                <a class="nav-link" href="/books/physics/v1/">Physics Book</a>
+                
+                    <ul class="nav flex-column">
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;measurement&#x2F;">Measurement</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;motion-straight-line&#x2F;">Motion Along a Straight Line</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;vectors&#x2F;">Vectors</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;motion-2d-3d&#x2F;">Motion in Two and Three Dimensions</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;force-motion-1&#x2F;">Force and Motion—I</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;force-motion-2&#x2F;">Force and Motion—II</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;kinetic-energy-work&#x2F;">Kinetic Energy and Work</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;potential-energy-conservation&#x2F;">Potential Energy and Conservation of Energy</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;center-mass-momentum&#x2F;">Center of Mass and Linear Momentum</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;rotation&#x2F;">Rotation</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;rolling-torque-angular-momentum&#x2F;">Rolling, Torque, and Angular Momentum</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;equilibrium-elasticity&#x2F;">Equilibrium and Elasticity</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;gravitation&#x2F;">Gravitation</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;fluids&#x2F;">Fluids</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;oscillations&#x2F;">Oscillations</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;waves-1&#x2F;">Waves—I</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;waves-2&#x2F;">Waves—II</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;kinetic-theory-gases&#x2F;">The Kinetic Theory of Gases</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;thermodynamics-temperature-heat&#x2F;">Temperature, Heat, and the First Law of Thermodynamics</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;entropy-thermodynamics&#x2F;">Entropy and the Second Law of Thermodynamics</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electric-fields&#x2F;">Electric Fields</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;gauss-law&#x2F;">Gauss’s Law</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electric-potential&#x2F;">Electric Potential</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;capacitance&#x2F;">Capacitance</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;current-resistance&#x2F;">Current and Resistance</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;circuits&#x2F;">Circuits</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;magnetic-fields&#x2F;">Magnetic Fields</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;magnetic-fields-currents&#x2F;">Magnetic Fields Due to Currents</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;induction-inductance&#x2F;">Induction and Inductance</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electromagnetic-oscillations-ac&#x2F;">Electromagnetic Oscillations and Alternating Current</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electromagnetic-waves&#x2F;">Electromagnetic Waves</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;images&#x2F;">Images</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;interference&#x2F;">Interference</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;diffraction&#x2F;">Diffraction</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;photons-matter-waves&#x2F;">Photons and Matter Waves</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;matter-waves-advanced&#x2F;">More About Matter Waves</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;atoms&#x2F;">All About Atoms</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;nuclear-physics&#x2F;">Nuclear Physics</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;nuclear-energy&#x2F;">Energy from the Nucleus</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;quarks-leptons&#x2F;">Quarks, Leptons, and the Big Bang</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;relativity&#x2F;">Relativity</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;conduction-solids&#x2F;">Conduction of Electricity in Solids</a>
+                            </li>
+                        
+                    </ul>
+                
+            </li>
+        </ul>
+    </li>
+</ul>
+                    
+                
+            </nav>
+        </div>
+        
+
+        <div class="docs-content">
+            
+    <div class="docs-main">
+        <article class="docs-article">
+            <h1 id="diffraction-solutions">Diffraction Solutions</h1>
+<p>This section provides <strong>sample solutions</strong> for selected problems from the Diffraction chapter, focusing on Huygens' principle, single-slit diffraction, diffraction gratings, and applications like X-ray diffraction. These solutions are designed to help JEE Main, JEE Advanced, and NEET students understand key concepts and problem-solving techniques. Each solution includes detailed steps, exam-focused tips to avoid common mistakes, and alignment with JEE/NEET exam patterns. Full solutions for all 100 problems will be available in June 2025.</p>
+<h2 id="numerical-solutions">Numerical Solutions</h2>
+<h3 id="solution-1">Solution 1</h3>
+<p><strong>Problem</strong>: A single slit of width $a = 2 , \mu\text{m}$ is illuminated by light of wavelength $\lambda = 500 , \text{nm}$. Calculate the angular position of the first minimum.</p>
+<ul>
+<li>(a) $14.4^\circ$</li>
+<li>(b) $14.5^\circ$</li>
+<li>(c) $14.6^\circ$</li>
+<li>(d) $14.7^\circ$</li>
+</ul>
+<p><strong>Solution</strong>:<br />
+In single-slit diffraction, the first minimum occurs when the path difference across the slit leads to destructive interference. The condition for the first minimum is:<br />
+$$
+a \sin \theta_1 = \lambda
+$$
+Given $a = 2 , \mu\text{m} = 2 \times 10^{-6} , \text{m}$ and $\lambda = 500 , \text{nm} = 500 \times 10^{-9} , \text{m} = 5 \times 10^{-7} , \text{m}$:<br />
+$$
+\sin \theta_1 = \frac{\lambda}{a} = \frac{5 \times 10^{-7}}{2 \times 10^{-6}} = 0.25
+$$
+Now, calculate $\theta_1$:<br />
+$$
+\theta_1 = \arcsin(0.25) \approx 14.477^\circ
+$$
+Round to one decimal place: $14.5^\circ$. The answer is (b) $14.5^\circ$.</p>
+<ul>
+<li><strong>JEE/NEET Tip</strong>: Use the first minimum condition $a \sin \theta = \lambda$ (for $m = 1$); compute $\theta$ in degrees. Common error: Forgetting to convert units to meters or miscalculating the arcsine.</li>
+</ul>
+<h3 id="solution-3">Solution 3</h3>
+<p><strong>Problem</strong>: A diffraction grating with $d = 2 , \mu\text{m}$ is illuminated by $\lambda = 500 , \text{nm}$. Calculate the angular position of the first-order maximum.</p>
+<ul>
+<li>(a) $14.4^\circ$</li>
+<li>(b) $14.5^\circ$</li>
+<li>(c) $14.6^\circ$</li>
+<li>(d) $14.7^\circ$</li>
+</ul>
+<p><strong>Solution</strong>:<br />
+For a diffraction grating, the principal maxima occur at angles where the path difference between adjacent slits is an integer multiple of the wavelength. The condition is:<br />
+$$
+d \sin \theta = m \lambda
+$$
+For the first-order maximum, $m = 1$. Given $d = 2 , \mu\text{m} = 2 \times 10^{-6} , \text{m}$ and $\lambda = 500 , \text{nm} = 5 \times 10^{-7} , \text{m}$:<br />
+$$
+d \sin \theta_1 = 1 \cdot \lambda \implies \sin \theta_1 = \frac{\lambda}{d} = \frac{5 \times 10^{-7}}{2 \times 10^{-6}} = 0.25
+$$
+Calculate $\theta_1$:<br />
+$$
+\theta_1 = \arcsin(0.25) \approx 14.477^\circ
+$$
+Round to one decimal place: $14.5^\circ$. The answer is (b) $14.5^\circ$.</p>
+<ul>
+<li><strong>JEE/NEET Tip</strong>: First-order maximum at $m = 1$; ensure $d$ and $\lambda$ are in the same units (meters). Common error: Using $m = 0$ or incorrect units.</li>
+</ul>
+<hr />
+<h2 id="conceptual-solutions">Conceptual Solutions</h2>
+<h3 id="solution-36">Solution 36</h3>
+<p><strong>Problem</strong>: What does Huygens' principle state about wave propagation?</p>
+<ul>
+<li>(a) Waves travel in straight lines only</li>
+<li>(b) Each point on a wavefront acts as a source of secondary wavelets</li>
+<li>(c) Waves cannot bend around obstacles</li>
+<li>(d) Waves must be incoherent</li>
+</ul>
+<p><strong>Solution</strong>:<br />
+Huygens' principle is a fundamental concept in wave optics that explains how waves propagate, including phenomena like diffraction. It states that every point on a wavefront acts as a source of secondary spherical wavelets, and the new wavefront is the tangent (or envelope) to these wavelets. This principle allows waves to bend around obstacles or spread through apertures, as the secondary wavelets interfere to form the new wavefront. Option (a) is incorrect because waves can bend (e.g., diffraction). Option (c) is incorrect as Huygens' principle precisely explains bending around obstacles. Option (d) is unrelated, as coherence is not a requirement for wave propagation.</p>
+<ul>
+<li>(a) Incorrect: Waves can bend (e.g., diffraction); straight-line travel is a ray optics approximation.</li>
+<li>(b) Correct: Huygens' principle states each point on a wavefront acts as a source of secondary wavelets.</li>
+<li>(c) Incorrect: Waves can bend around obstacles, which Huygens' principle explains (e.g., diffraction).</li>
+<li>(d) Incorrect: Coherence is not required for wave propagation; it’s relevant for interference.<br />
+The answer is (b) Each point on a wavefront acts as a source of secondary wavelets.</li>
+<li><strong>JEE/NEET Tip</strong>: Huygens' principle is key for understanding diffraction and wavefront propagation. Common error: Confusing with ray optics (straight-line propagation).</li>
+</ul>
+<h3 id="solution-38">Solution 38</h3>
+<p><strong>Problem</strong>: What is the unit of angular position $\theta$ in SI units?</p>
+<ul>
+<li>(a) Meter</li>
+<li>(b) Radian</li>
+<li>(c) Watt</li>
+<li>(d) Hertz</li>
+</ul>
+<p><strong>Solution</strong>:<br />
+In diffraction problems, the angular position $\theta$ (e.g., angle of minima in single-slit diffraction or maxima in a diffraction grating) is an angle measured between the direction of the diffracted light and the central axis. In the SI system, angles are measured in radians, a dimensionless unit derived from the ratio of arc length to radius (both in meters). In equations like $a \sin \theta = m \lambda$ (single-slit diffraction) or $d \sin \theta = m \lambda$ (diffraction grating), $\theta$ is in radians for consistency with trigonometric functions. Meter is a unit of length, watt is a unit of power, and hertz is a unit of frequency, none of which apply to angles.</p>
+<ul>
+<li>(a) Incorrect: Meter is a unit of length, not angle.</li>
+<li>(b) Correct: Radian is the SI unit for angles, used in diffraction calculations.</li>
+<li>(c) Incorrect: Watt is a unit of power, not angle.</li>
+<li>(d) Incorrect: Hertz is a unit of frequency, not angle.<br />
+The answer is (b) Radian.</li>
+<li><strong>JEE/NEET Tip</strong>: Angles in diffraction equations (e.g., $\sin \theta$) are in radians, but problems may ask for degrees in answers. Common error: Confusing with linear units like meters.</li>
+</ul>
+<hr />
+<h2 id="derivation-solutions">Derivation Solutions</h2>
+<h3 id="solution-51">Solution 51</h3>
+<p><strong>Problem</strong>: Derive the position of minima in single-slit diffraction $a \sin \theta = m \lambda$.</p>
+<p><strong>Solution</strong>:<br />
+Consider a single slit of width $a$ illuminated by monochromatic light of wavelength $\lambda$. The screen is at a large distance, so we use Fraunhofer diffraction (far-field). Each point in the slit acts as a Huygens' source, emitting secondary wavelets. For a point on the screen at angle $\theta$, the path difference between the wavelet from the top of the slit and the bottom is $a \sin \theta$. To find the minima, divide the slit into pairs of points separated by $a/2$. The path difference between each pair is $(a/2) \sin \theta$. For destructive interference, set this to $\lambda/2$ (so the wavelets in each pair cancel):<br />
+$$
+(a/2) \sin \theta = \lambda/2 \implies a \sin \theta = \lambda
+$$
+This is the first minimum ($m = 1$). Generalizing for higher-order minima, the slit can be divided into $m$ pairs, each contributing a path difference of $\lambda/m$ to cancel:<br />
+$$
+a \sin \theta = m \lambda, \quad m = \pm 1, \pm 2, \ldots
+$$
+This matches the given condition for minima. For Problem 1, $a = 2 , \mu\text{m}$, $\lambda = 500 , \text{nm}$, $m = 1$, $\sin \theta_1 = \frac{5 \times 10^{-7}}{2 \times 10^{-6}} = 0.25$, $\theta_1 \approx 14.5^\circ$.</p>
+<ul>
+<li><strong>JEE/NEET Tip</strong>: Minima occur when waves from paired segments destructively interfere; $m = 0$ is not a minimum (it’s the central maximum). Common error: Forgetting to generalize for higher $m$.</li>
+</ul>
+<h3 id="solution-53">Solution 53</h3>
+<p><strong>Problem</strong>: Derive the intensity distribution in single-slit diffraction $I = I_0 \left( \frac{\sin \alpha}{\alpha} \right)^2$.</p>
+<p><strong>Solution</strong>:<br />
+For a single slit of width $a$, illuminated by light of wavelength $\lambda$, consider the Fraunhofer diffraction pattern at angle $\theta$. Each point in the slit acts as a Huygens' source. Divide the slit into infinitesimal segments of width $dx$. The phase difference between wavelets from positions $x$ and $x + dx$ is due to the path difference $x \sin \theta$. The phase difference over distance $x$ is $\phi = \frac{2 \pi}{\lambda} (x \sin \theta)$. Define $\alpha = \frac{\pi a \sin \theta}{\lambda}$, so the phase across the entire slit ranges from $-\alpha$ to $\alpha$. The electric field contribution from a segment at position $x$ is $dE = E_0 \frac{dx}{a} e^{i \frac{2 \pi}{\lambda} x \sin \theta}$. Integrate over the slit:<br />
+$$
+E = \int_{-a/2}^{a/2} E_0 \frac{dx}{a} e^{i \frac{2 \pi}{\lambda} x \sin \theta} = \frac{E_0}{a} \int_{-a/2}^{a/2} e^{i \frac{2 \pi}{\lambda} x \sin \theta} dx
+$$
+Let $k = \frac{2 \pi}{\lambda} \sin \theta$, so the integral becomes:<br />
+$$
+E = \frac{E_0}{a} \int_{-a/2}^{a/2} e^{i k x} dx = \frac{E_0}{a} \left[ \frac{e^{i k x}}{i k} \right]_{-a/2}^{a/2} = \frac{E_0}{a} \frac{e^{i k a/2} - e^{-i k a/2}}{i k} = \frac{E_0}{a} \frac{2 \sin (k a/2)}{k}
+$$
+Since $k a = \frac{2 \pi}{\lambda} a \sin \theta = 2 \alpha$, we have $k a/2 = \alpha$, so:<br />
+$$
+E = \frac{E_0}{a} \frac{2 \sin \alpha}{k} = E_0 \frac{\sin \alpha}{\alpha}
+$$
+Intensity is proportional to the square of the amplitude:<br />
+$$
+I = I_0 \left( \frac{\sin \alpha}{\alpha} \right)^2, \quad \alpha = \frac{\pi a \sin \theta}{\lambda}
+$$
+This matches the given intensity distribution.</p>
+<ul>
+<li><strong>JEE/NEET Tip</strong>: The $\frac{\sin \alpha}{\alpha}$ term arises from integrating over the slit; minima occur when $\sin \alpha = 0$. Common error: Forgetting to square the amplitude or misdefining $\alpha$.</li>
+</ul>
+<hr />
+<h2 id="neet-style-solutions">NEET-style Solutions</h2>
+<h3 id="solution-96">Solution 96</h3>
+<p><strong>Problem</strong>: A single slit with $a = 2 , \mu\text{m}$, $\lambda = 400 , \text{nm}$. Calculate the angular position of the first minimum.</p>
+<ul>
+<li>(a) $11.4^\circ$</li>
+<li>(b) $11.5^\circ$</li>
+<li>(c) $11.6^\circ$</li>
+<li>(d) $11.7^\circ$</li>
+</ul>
+<p><strong>Solution</strong>:<br />
+For the first minimum in single-slit diffraction:<br />
+$$
+a \sin \theta_1 = \lambda
+$$
+Given $a = 2 , \mu\text{m} = 2 \times 10^{-6} , \text{m}$, $\lambda = 400 , \text{nm} = 4 \times 10^{-7} , \text{m}$:<br />
+$$
+\sin \theta_1 = \frac{4 \times 10^{-7}}{2 \times 10^{-6}} = 0.2
+$$
+$$
+\theta_1 = \arcsin(0.2) \approx 11.537^\circ
+$$
+Round to one decimal place: $11.5^\circ$. The answer is (b) $11.5^\circ$.</p>
+<ul>
+<li><strong>JEE/NEET Tip</strong>: First minimum at $m = 1$; compute $\theta$ in degrees after arcsine. Common error: Using $\lambda$ in nm directly without converting.</li>
+</ul>
+<h3 id="solution-98">Solution 98</h3>
+<p><strong>Problem</strong>: A telescope with $a = 0.04 , \text{m}$, $\lambda = 500 , \text{nm}$. Calculate $\theta_{\text{min}}$.</p>
+<ul>
+<li>(a) $1.52 \times 10^{-5} , \text{rad}$</li>
+<li>(b) $1.53 \times 10^{-5} , \text{rad}$</li>
+<li>(c) $1.54 \times 10^{-5} , \text{rad}$</li>
+<li>(d) $1.55 \times 10^{-5} , \text{rad}$</li>
+</ul>
+<p><strong>Solution</strong>:<br />
+The minimum angular separation for a circular aperture (e.g., telescope) is given by the Rayleigh criterion:<br />
+$$
+\theta_{\text{min}} = 1.22 \frac{\lambda}{a}
+$$
+Given $a = 0.04 , \text{m}$, $\lambda = 500 , \text{nm} = 5 \times 10^{-7} , \text{m}$:<br />
+$$
+\theta_{\text{min}} = 1.22 \frac{5 \times 10^{-7}}{0.04} = 1.22 \times 1.25 \times 10^{-5} = 1.525 \times 10^{-5} , \text{rad}
+$$
+The answer is (c) $1.54 \times 10^{-5} , \text{rad}$ (rounded to two decimal places in the coefficient).</p>
+<ul>
+<li><strong>JEE/NEET Tip</strong>: Use the Rayleigh criterion for circular apertures; result in radians. Common error: Forgetting the 1.22 factor or incorrect units.</li>
+</ul>
+<h2 id="back-to-chapter">Back to Chapter</h2>
+<p><a href="../../diffraction">Return to Diffraction Chapter</a></p>
+<p><a href="../../diffraction/problems">Return to Diffraction Problems</a></p>
+
+        </article>
+    </div>
+
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container text-center py-5">
+            <ul class="social-list list-unstyled pt-4 mb-0">
+                
+                    <li class="list-inline-item">
+                        <a href="https:&#x2F;&#x2F;www.youtube.com&#x2F;@VidyaMargbyRaviShankar-w9u" target="_blank" title="YouTube"><i class="fab fa-youtube fa-fw"></i></a>
+                    </li>
+                
+                    <li class="list-inline-item">
+                        <a href="https:&#x2F;&#x2F;t.me&#x2F;vidyamarg1" target="_blank" title="Telegram"><i class="fab fa-telegram fa-fw"></i></a>
+                    </li>
+                
+            </ul>
+            <small class="copyright">
+                © 2025 Vidya Marg. Designed with <span class="sr-only">love</span><i class="fas fa-heart" style="color: #fb866a;"></i> by <a class="theme-link" href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers. <a class="theme-link" href="/app/privacy-policy/">Privacy Policy</a>
+            </small>
+        </div>
+    </footer>
+
+    <!-- Javascript -->          
+    <script src="https://vidyamarg.com/plugins/popper.min.js"></script>
+    <script src="https://vidyamarg.com/plugins/bootstrap/js/bootstrap.min.js"></script>  
+    
+    <!-- Page Specific JS -->
+    <script src="https://vidyamarg.com/plugins/smoothscroll.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
+    <script src="https://vidyamarg.com/js/highlight-custom.js"></script> 
+    <script src="https://vidyamarg.com/plugins/simplelightbox/simple-lightbox.min.js"></script>      
+    <script src="https://vidyamarg.com/plugins/gumshoe/gumshoe.polyfills.min.js"></script> 
+    <script src="https://vidyamarg.com/js/docs.js"></script> 
+
+    <script>
+        function renderLatex() {
+            if (typeof renderMathInElement === "undefined") {
+                setTimeout(renderLatex, 100);
+                return;
+            }
+            renderMathInElement(document.body, {
+                delimiters: [
+                    { left: "$$", right: "$$", display: true },
+                    { left: "$", right: "$", display: false },
+                    { left: "\\(", right: "\\)", display: false },
+                    { left: "\\[", right: "\\]", display: true }
+                ],
+                throwOnError: false
+            });
+        }
+
+        window.addEventListener("load", function() {
+            renderLatex();
+        });
+    </script>
+</body>
+</html>

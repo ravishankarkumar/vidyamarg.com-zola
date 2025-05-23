@@ -1,14 +1,26 @@
 ---
 title: Physics Book - Circuits for JEE & NEET
 description: Comprehensive guide on circuits for JEE and NEET, covering Kirchhoff's laws, series and parallel resistors, capacitors in circuits, RC circuits, and applications in DC circuits, with extensive examples.
-slug: books/physics/circuits
+slug: circuits
 keywords: physics circuits, JEE physics Kirchhoff's laws, NEET physics RC circuits, DC circuits
 og:image: https://vidyamarg.com/og-physics-circuits.jpg
 ---
 
 # Chapter 27: Circuits
 
-**Beta Version**: Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!
+
+
+<div class="callout-block callout-warning">
+    <div class="content">
+        <h4 class="callout-title">
+            <span class="callout-icon-holder me-1">
+                <i class="fas fa-exclamation-triangle"></i>
+            </span>
+            Beta Version
+        </h4>
+        <p>Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!</p>
+    </div>
+</div>
 
 Circuits are the backbone of electrical systems, enabling applications like spacecraft power distribution for ion propulsion. Building on the concepts of current, resistance, and capacitance from Chapters 25–26, this chapter explores DC circuits in depth. For JEE Main, JEE Advanced, and NEET students, mastering circuit analysis is essential, as these topics frequently appear in problems involving voltage, current, and time-dependent behavior. This chapter, **Circuits**, covers **Kirchhoff's laws and electromotive force**, **series and parallel resistors**, **capacitors in DC circuits**, and **RC circuits and time constants**, providing detailed explanations, derivations, solved examples, and practical applications to ensure conceptual clarity and problem-solving proficiency.
 
@@ -276,7 +288,7 @@ In a spacecraft RC circuit ($R = 500 \, \Omega$, $C = 20 \, \mu\text{F}$), $\tau
 ## Practice Problems
 Explore our problem set with **100 problems** inspired by JEE Main, JEE Advanced, and NEET patterns to test your understanding.
 
-[View Problems](./problems.md)
+[View Problems](./problems)
 
 ## Watch on YouTube
 Our Hinglish video lessons make circuit analysis engaging! Subscribe for updates.

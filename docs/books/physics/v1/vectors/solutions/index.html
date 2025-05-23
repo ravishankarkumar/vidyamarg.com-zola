@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <title>Vidya Marg | Physics Book - Vectors Solutions for JEE &amp; NEET</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sample solutions for vectors problems, covering vector representation, addition, subtraction, components, dot and cross products, and applications, tailored for JEE and NEET preparation.">
+    <meta name="keywords" content="JEE physics book, NEET physics book, physics book, physics for JEE and NEET">
+    <meta property="og:image" content="https://vidyamarg.com/og-physics-book.jpg">
+    <link rel="canonical" href="https:&#x2F;&#x2F;vidyamarg.com&#x2F;books&#x2F;physics&#x2F;v1&#x2F;vectors&#x2F;solutions&#x2F;">
+    <link rel="shortcut icon" href="https://vidyamarg.com/logos/maroon-bg-logo-128.ico">
+    
+    <!-- Preload Google Font -->
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" as="style">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript>
+        <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
+    </noscript>
+    
+    <!-- FontAwesome JS -->
+    <script defer src="https://vidyamarg.com/fontawesome/js/all.min.js"></script>
+
+    <!-- KaTeX for LaTeX rendering -->
+    <link rel="stylesheet" href="https://vidyamarg.com/katex/katex.min.css">
+    <script src="https://vidyamarg.com/katex/katex.min.js"></script>
+    <script src="https://vidyamarg.com/katex/auto-render.min.js"></script>
+
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.2/styles/atom-one-dark.min.css">
+    <link rel="stylesheet" href="https://vidyamarg.com/plugins/simplelightbox/simple-lightbox.min.css">
+
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="https://vidyamarg.com/css/theme.css">
+    <link rel="stylesheet" href="https://vidyamarg.com/css/custom.css" />
+</head> 
+
+<body>    
+    <header class="header fixed-top">
+        <div class="branding docs-branding">
+            <div class="container-fluid position-relative py-2">
+                <div class="docs-logo-wrapper">
+                    
+                    
+                    
+                    <button id="docs-sidebar-toggler" class="docs-sidebar-toggler docs-sidebar-visible me-2 d-xl-none" type="button">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    
+                    <div class="site-logo">
+                        <a class="navbar-brand" href="https://vidyamarg.com">
+                            <img class="logo-icon me-2" src="https://vidyamarg.com/logos/maroon-bg-logo-1024.png" alt="logo">
+                            <span class="logo-text">Vidya Marg</span>
+                        </a>
+                    </div>    
+                </div>
+                <div class="docs-top-utilities d-flex justify-content-end align-items-center">
+                    <ul class="nav-list list-inline mb-0 d-none d-lg-flex">
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;">Home</a>
+                            </li>
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics (Youtube series)</a>
+                            </li>
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;">Books</a>
+                            </li>
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;app&#x2F;">App</a>
+                            </li>
+                        
+                        
+                            
+                                <li class="list-inline-item">
+                                    <a href="https:&#x2F;&#x2F;www.youtube.com&#x2F;@VidyaMargbyRaviShankar-w9u" title="YouTube"><i class="fab fa-youtube fa-fw"></i></a>
+                                </li>
+                            
+                                <li class="list-inline-item">
+                                    <a href="https:&#x2F;&#x2F;t.me&#x2F;vidyamarg1" title="Telegram"><i class="fab fa-telegram fa-fw"></i></a>
+                                </li>
+                            
+                        
+                    </ul>
+                    <!-- Mobile Menu Button -->
+                    <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#mobileNav" aria-controls="mobileNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </div>
+            <!-- Mobile Menu -->
+            <div class="collapse navbar-collapse d-lg-none" id="mobileNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;">Home</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics (Youtube series)</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;books&#x2F;">Books</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;app&#x2F;">App</a>
+                        </li>
+                    
+                    
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="https:&#x2F;&#x2F;www.youtube.com&#x2F;@VidyaMargbyRaviShankar-w9u"><i class="fab fa-youtube fa-fw"></i> YouTube</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="https:&#x2F;&#x2F;t.me&#x2F;vidyamarg1"><i class="fab fa-telegram fa-fw"></i> Telegram</a>
+                            </li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="docs-wrapper">
+        
+        
+        
+        <div id="docs-sidebar" class="docs-sidebar">
+            <nav id="docs-nav" class="docs-nav navbar">
+                
+                    
+                        
+
+<ul class="nav flex-column">
+    <!-- Navigation Menu (visible only in mobile view) -->
+    <li class="nav-item d-lg-none">
+        <span class="nav-link">Navigation</span>
+        <ul class="nav flex-column">
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;">Home</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics (Youtube series)</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;books&#x2F;">Books</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;app&#x2F;">App</a>
+                </li>
+            
+        </ul>
+    </li>
+
+    <!-- JEE/NEET Physics Section -->
+    
+    <li class="nav-item">
+        <span class="nav-link">Physics for JEE&#x2F;NEET</span>
+        <ul class="nav flex-column">
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics for JEE&#x2F;NEET</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;maths-basics-for-physics&#x2F;">Maths Basics for Physics</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;units-and-dimensions&#x2F;">Units and Dimensions</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;physical-quantities-and-si-units&#x2F;">Physical Quantities and SI Units</a>
+                </li>
+            
+        </ul>
+    </li>
+
+    <!-- Books Section -->
+    
+    <li class="nav-item">
+        <span class="nav-link">Books</span>
+        <ul class="nav flex-column">
+            <!-- JEE/NEET Physics Book (Version 1) -->
+            
+            <li class="nav-item">
+                <a class="nav-link" href="/books/physics/v1/">Physics Book</a>
+                
+                    <ul class="nav flex-column">
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;measurement&#x2F;">Measurement</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;motion-straight-line&#x2F;">Motion Along a Straight Line</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;vectors&#x2F;">Vectors</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;motion-2d-3d&#x2F;">Motion in Two and Three Dimensions</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;force-motion-1&#x2F;">Force and Motion—I</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;force-motion-2&#x2F;">Force and Motion—II</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;kinetic-energy-work&#x2F;">Kinetic Energy and Work</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;potential-energy-conservation&#x2F;">Potential Energy and Conservation of Energy</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;center-mass-momentum&#x2F;">Center of Mass and Linear Momentum</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;rotation&#x2F;">Rotation</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;rolling-torque-angular-momentum&#x2F;">Rolling, Torque, and Angular Momentum</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;equilibrium-elasticity&#x2F;">Equilibrium and Elasticity</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;gravitation&#x2F;">Gravitation</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;fluids&#x2F;">Fluids</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;oscillations&#x2F;">Oscillations</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;waves-1&#x2F;">Waves—I</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;waves-2&#x2F;">Waves—II</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;kinetic-theory-gases&#x2F;">The Kinetic Theory of Gases</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;thermodynamics-temperature-heat&#x2F;">Temperature, Heat, and the First Law of Thermodynamics</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;entropy-thermodynamics&#x2F;">Entropy and the Second Law of Thermodynamics</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electric-fields&#x2F;">Electric Fields</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;gauss-law&#x2F;">Gauss’s Law</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electric-potential&#x2F;">Electric Potential</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;capacitance&#x2F;">Capacitance</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;current-resistance&#x2F;">Current and Resistance</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;circuits&#x2F;">Circuits</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;magnetic-fields&#x2F;">Magnetic Fields</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;magnetic-fields-currents&#x2F;">Magnetic Fields Due to Currents</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;induction-inductance&#x2F;">Induction and Inductance</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electromagnetic-oscillations-ac&#x2F;">Electromagnetic Oscillations and Alternating Current</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electromagnetic-waves&#x2F;">Electromagnetic Waves</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;images&#x2F;">Images</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;interference&#x2F;">Interference</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;diffraction&#x2F;">Diffraction</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;photons-matter-waves&#x2F;">Photons and Matter Waves</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;matter-waves-advanced&#x2F;">More About Matter Waves</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;atoms&#x2F;">All About Atoms</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;nuclear-physics&#x2F;">Nuclear Physics</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;nuclear-energy&#x2F;">Energy from the Nucleus</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;quarks-leptons&#x2F;">Quarks, Leptons, and the Big Bang</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;relativity&#x2F;">Relativity</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;conduction-solids&#x2F;">Conduction of Electricity in Solids</a>
+                            </li>
+                        
+                    </ul>
+                
+            </li>
+        </ul>
+    </li>
+</ul>
+                    
+                
+            </nav>
+        </div>
+        
+
+        <div class="docs-content">
+            
+    <div class="docs-main">
+        <article class="docs-article">
+            <h1 id="vectors-solutions">Vectors Solutions</h1>
+<p>This section provides <strong>sample solutions</strong> for selected problems from the Vectors chapter, focusing on vector representation, properties, addition, subtraction, components, unit vectors, dot and cross products, and their applications in physics. These solutions are designed to help JEE Main, JEE Advanced, and NEET students understand key concepts and problem-solving techniques. Each solution includes detailed steps, exam-focused tips to avoid common mistakes, and alignment with JEE/NEET exam patterns. Full solutions for all 100 problems will be available in June 2025.</p>
+<h2 id="numerical-solutions">Numerical Solutions</h2>
+<h3 id="solution-1">Solution 1</h3>
+<p><strong>Problem</strong>: A vector $\vec{A}$ has components $A_x = 8$ and $A_y = 6$. Calculate its magnitude.</p>
+<ul>
+<li>(a) $10$</li>
+<li>(b) $12$</li>
+<li>(c) $14$</li>
+<li>(d) $16$</li>
+</ul>
+<p><strong>Solution</strong>:<br />
+The magnitude of a vector $\vec{A}$ with components $A_x$ and $A_y$ is given by:<br />
+$$
+|\vec{A}| = \sqrt{A_x^2 + A_y^2}
+$$<br />
+Given $A_x = 8$, $A_y = 6$:<br />
+$$
+|\vec{A}| = \sqrt{8^2 + 6^2} = \sqrt{64 + 36} = \sqrt{100} = 10
+$$<br />
+The answer is (a) $10$.</p>
+<ul>
+<li><strong>JEE/NEET Tip</strong>: Always square the components before adding; take the square root to find the magnitude. Common error: Adding components directly ($A_x + A_y = 14$, which is incorrect, April 14, 2025).</li>
+</ul>
+<h3 id="solution-3">Solution 3</h3>
+<p><strong>Problem</strong>: Two vectors $\vec{A} = 3 \hat{i} + 4 \hat{j}$ and $\vec{B} = 1 \hat{i} - 2 \hat{j}$ are added. Calculate the magnitude of the resultant.</p>
+<ul>
+<li>(a) $5$</li>
+<li>(b) $6$</li>
+<li>(c) $7$</li>
+<li>(d) $8$</li>
+</ul>
+<p><strong>Solution</strong>:<br />
+The resultant $\vec{R} = \vec{A} + \vec{B}$. Add the components:</p>
+<ul>
+<li>x-component: $R_x = A_x + B_x = 3 + 1 = 4$</li>
+<li>y-component: $R_y = A_y + B_y = 4 + (-2) = 2$<br />
+So, $\vec{R} = 4 \hat{i} + 2 \hat{j}$. Magnitude:<br />
+$$
+|\vec{R}| = \sqrt{R_x^2 + R_y^2} = \sqrt{4^2 + 2^2} = \sqrt{16 + 4} = \sqrt{20} \approx 4.47
+$$<br />
+Among the options, the closest is $5$, rounding to 2 significant figures.<br />
+The answer is (a) $5$.</li>
+<li><strong>JEE/NEET Tip</strong>: Add components separately, then calculate the magnitude. Common error: Adding magnitudes directly ($|\vec{A}| + |\vec{B}| \neq |\vec{R}|$).</li>
+</ul>
+<hr />
+<h2 id="conceptual-solutions">Conceptual Solutions</h2>
+<h3 id="solution-36">Solution 36</h3>
+<p><strong>Problem</strong>: What is the main difference between a vector and a scalar?</p>
+<ul>
+<li>(a) Vector has magnitude only, scalar has direction</li>
+<li>(b) Vector has magnitude and direction, scalar has magnitude only</li>
+<li>(c) Both have magnitude and direction</li>
+<li>(d) Both have magnitude only</li>
+</ul>
+<p><strong>Solution</strong>:<br />
+A vector is a quantity with both magnitude and direction (e.g., displacement: $10 , m$ east), while a scalar has only magnitude (e.g., distance: $10 , m$).</p>
+<ul>
+<li>(a) Incorrect: Vector has both magnitude and direction, scalar has only magnitude.</li>
+<li>(b) Correct: Matches the definition.</li>
+<li>(c) Incorrect: Scalar lacks direction.</li>
+<li>(d) Incorrect: Vector has direction.<br />
+The answer is (b) Vector has magnitude and direction, scalar has magnitude only.</li>
+<li><strong>JEE/NEET Tip</strong>: Identify whether direction matters (e.g., velocity is a vector, speed is a scalar). Common error: Confusing scalar and vector quantities in problems.</li>
+</ul>
+<h3 id="solution-39">Solution 39</h3>
+<p><strong>Problem</strong>: What is the result of the dot product of two perpendicular vectors?</p>
+<ul>
+<li>(a) Zero</li>
+<li>(b) One</li>
+<li>(c) Negative one</li>
+<li>(d) Depends on their magnitudes</li>
+</ul>
+<p><strong>Solution</strong>:<br />
+The dot product is $\vec{A} \cdot \vec{B} = A B \cos \theta$. If $\vec{A}$ and $\vec{B}$ are perpendicular, $\theta = 90^\circ$, and $\cos 90^\circ = 0$. Thus:<br />
+$$
+\vec{A} \cdot \vec{B} = A B \cos 90^\circ = A B \cdot 0 = 0
+$$</p>
+<ul>
+<li>(a) Correct: Dot product is zero.</li>
+<li>(b) Incorrect: $\cos \theta = 1$ for parallel vectors.</li>
+<li>(c) Incorrect: $\cos \theta = -1$ for opposite vectors.</li>
+<li>(d) Incorrect: Result is zero regardless of magnitudes.<br />
+The answer is (a) Zero.</li>
+<li><strong>JEE/NEET Tip</strong>: Use dot product to check perpendicularity; if $\vec{A} \cdot \vec{B} = 0$, vectors are perpendicular. Common error: Assuming dependence on magnitudes.</li>
+</ul>
+<hr />
+<h2 id="derivation-solutions">Derivation Solutions</h2>
+<h3 id="solution-51">Solution 51</h3>
+<p><strong>Problem</strong>: Derive the magnitude of a vector $\vec{A}$ with components $A_x$, $A_y$, $A_z$ in 3D.</p>
+<p><strong>Solution</strong>:<br />
+A 3D vector $\vec{A}$ is expressed as $\vec{A} = A_x \hat{i} + A_y \hat{j} + A_z \hat{k}$. The magnitude $|\vec{A}|$ is the length of the vector, calculated using the Pythagorean theorem in 3D space. Consider the vector as a line from the origin $(0, 0, 0)$ to the point $(A_x, A_y, A_z)$. The distance formula gives:<br />
+$$
+|\vec{A}| = \sqrt{A_x^2 + A_y^2 + A_z^2}
+$$<br />
+This formula extends the 2D case ($|\vec{A}| = \sqrt{A_x^2 + A_y^2}$) by including the z-component. For example, if $\vec{A} = 2 \hat{i} + 3 \hat{j} + 6 \hat{k}$, the magnitude is $\sqrt{2^2 + 3^2 + 6^2} = \sqrt{49} = 7$.</p>
+<ul>
+<li><strong>JEE/NEET Tip</strong>: Include all components in 3D magnitude calculations; square each term before summing. Common error: Omitting the z-component in 3D problems.</li>
+</ul>
+<h3 id="solution-53">Solution 53</h3>
+<p><strong>Problem</strong>: Derive the dot product $\vec{A} \cdot \vec{B}$ in terms of components for 2D vectors.</p>
+<p><strong>Solution</strong>:<br />
+Consider two 2D vectors $\vec{A} = A_x \hat{i} + A_y \hat{j}$ and $\vec{B} = B_x \hat{i} + B_y \hat{j}$. The dot product is defined as $\vec{A} \cdot \vec{B} = A B \cos \theta$, but we can express it using components. Expand the dot product:<br />
+$$
+\vec{A} \cdot \vec{B} = (A_x \hat{i} + A_y \hat{j}) \cdot (B_x \hat{i} + B_y \hat{j}) = A_x B_x (\hat{i} \cdot \hat{i}) + A_x B_y (\hat{i} \cdot \hat{j}) + A_y B_x (\hat{j} \cdot \hat{i}) + A_y B_y (\hat{j} \cdot \hat{j})
+$$<br />
+Unit vectors follow: $\hat{i} \cdot \hat{i} = 1$, $\hat{j} \cdot \hat{j} = 1$, $\hat{i} \cdot \hat{j} = 0$, $\hat{j} \cdot \hat{i} = 0$. Thus:<br />
+$$
+\vec{A} \cdot \vec{B} = A_x B_x \cdot 1 + A_x B_y \cdot 0 + A_y B_x \cdot 0 + A_y B_y \cdot 1 = A_x B_x + A_y B_y
+$$<br />
+In 3D, this extends to $A_x B_x + A_y B_y + A_z B_z$. For example, if $\vec{A} = 2 \hat{i} + 3 \hat{j}$, $\vec{B} = 1 \hat{i} - 1 \hat{j}$, then $\vec{A} \cdot \vec{B} = (2)(1) + (3)(-1) = 2 - 3 = -1$.</p>
+<ul>
+<li><strong>JEE/NEET Tip</strong>: Use component form for dot products; it avoids calculating $\theta$. Common error: Forgetting the zero dot product of perpendicular unit vectors.</li>
+</ul>
+<hr />
+<h2 id="neet-style-solutions">NEET-style Solutions</h2>
+<h3 id="solution-96">Solution 96</h3>
+<p><strong>Problem</strong>: A force $\vec{F} = 3 \hat{i} + 4 \hat{j} , N$ acts over $\vec{d} = 1 \hat{i} + 1 \hat{j} , m$. What is the work done?</p>
+<ul>
+<li>(a) $5 , J$</li>
+<li>(b) $6 , J$</li>
+<li>(c) $7 , J$</li>
+<li>(d) $8 , J$</li>
+</ul>
+<p><strong>Solution</strong>:<br />
+Work done is the dot product $W = \vec{F} \cdot \vec{d}$. Given $\vec{F} = 3 \hat{i} + 4 \hat{j}$, $\vec{d} = 1 \hat{i} + 1 \hat{j}$:<br />
+$$
+W = (3)(1) + (4)(1) = 3 + 4 = 7 , J
+$$<br />
+The answer is (c) $7 , J$.</p>
+<ul>
+<li><strong>JEE/NEET Tip</strong>: Dot product accounts for the component of force along displacement; multiply corresponding components. Common error: Using magnitudes directly ($F d \neq W$ unless parallel).</li>
+</ul>
+<h3 id="solution-99">Solution 99</h3>
+<p><strong>Problem</strong>: A torque is produced by $\vec{F} = 5 \hat{i} + 2 \hat{j} , N$ at $\vec{r} = 1 \hat{i} - 3 \hat{j} , m$. What is the magnitude of the torque?</p>
+<ul>
+<li>(a) $17 , N \cdot m$</li>
+<li>(b) $18 , N \cdot m$</li>
+<li>(c) $19 , N \cdot m$</li>
+<li>(d) $20 , N \cdot m$</li>
+</ul>
+<p><strong>Solution</strong>:<br />
+Torque is the cross product $\vec{\tau} = \vec{r} \times \vec{F}$. For 2D vectors, $\vec{\tau} = (r_x F_y - r_y F_x) \hat{k}$. Given $\vec{r} = 1 \hat{i} - 3 \hat{j}$, $\vec{F} = 5 \hat{i} + 2 \hat{j}$:<br />
+$$
+\vec{\tau} = (1 \cdot 2 - (-3) \cdot 5) \hat{k} = (2 + 15) \hat{k} = 17 \hat{k}
+$$<br />
+Magnitude: $|\vec{\tau}| = 17 , N \cdot m$.<br />
+The answer is (a) $17 , N \cdot m$.</p>
+<ul>
+<li><strong>JEE/NEET Tip</strong>: Cross product gives torque; use the right-hand rule for direction (here, out of the plane). Common error: Reversing the order of components ($r_y F_x - r_x F_y$ gives wrong sign).</li>
+</ul>
+<h2 id="back-to-chapter">Back to Chapter</h2>
+<p><a href="../../vectors">Return to Vectors Chapter</a></p>
+<p><a href="../../vectors/problems">Return to Vectors Problems</a></p>
+
+        </article>
+    </div>
+
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container text-center py-5">
+            <ul class="social-list list-unstyled pt-4 mb-0">
+                
+                    <li class="list-inline-item">
+                        <a href="https:&#x2F;&#x2F;www.youtube.com&#x2F;@VidyaMargbyRaviShankar-w9u" target="_blank" title="YouTube"><i class="fab fa-youtube fa-fw"></i></a>
+                    </li>
+                
+                    <li class="list-inline-item">
+                        <a href="https:&#x2F;&#x2F;t.me&#x2F;vidyamarg1" target="_blank" title="Telegram"><i class="fab fa-telegram fa-fw"></i></a>
+                    </li>
+                
+            </ul>
+            <small class="copyright">
+                © 2025 Vidya Marg. Designed with <span class="sr-only">love</span><i class="fas fa-heart" style="color: #fb866a;"></i> by <a class="theme-link" href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers. <a class="theme-link" href="/app/privacy-policy/">Privacy Policy</a>
+            </small>
+        </div>
+    </footer>
+
+    <!-- Javascript -->          
+    <script src="https://vidyamarg.com/plugins/popper.min.js"></script>
+    <script src="https://vidyamarg.com/plugins/bootstrap/js/bootstrap.min.js"></script>  
+    
+    <!-- Page Specific JS -->
+    <script src="https://vidyamarg.com/plugins/smoothscroll.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
+    <script src="https://vidyamarg.com/js/highlight-custom.js"></script> 
+    <script src="https://vidyamarg.com/plugins/simplelightbox/simple-lightbox.min.js"></script>      
+    <script src="https://vidyamarg.com/plugins/gumshoe/gumshoe.polyfills.min.js"></script> 
+    <script src="https://vidyamarg.com/js/docs.js"></script> 
+
+    <script>
+        function renderLatex() {
+            if (typeof renderMathInElement === "undefined") {
+                setTimeout(renderLatex, 100);
+                return;
+            }
+            renderMathInElement(document.body, {
+                delimiters: [
+                    { left: "$$", right: "$$", display: true },
+                    { left: "$", right: "$", display: false },
+                    { left: "\\(", right: "\\)", display: false },
+                    { left: "\\[", right: "\\]", display: true }
+                ],
+                throwOnError: false
+            });
+        }
+
+        window.addEventListener("load", function() {
+            renderLatex();
+        });
+    </script>
+</body>
+</html>

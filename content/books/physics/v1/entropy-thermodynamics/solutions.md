@@ -1,7 +1,7 @@
 ---
 title: Physics Book - Entropy and the Second Law of Thermodynamics Solutions for JEE & NEET
 description: Sample solutions for thermodynamics problems, covering entropy changes, the second law, heat engines, refrigerators, and the Carnot cycle, tailored for JEE and NEET preparation.
-slug: books/physics/entropy-thermodynamics/solutions
+slug: solutions
 keywords: physics entropy solutions, JEE physics second law of thermodynamics solutions, NEET physics Carnot cycle solutions, heat engines
 og:image: https://vidyamarg.com/og-physics-entropy-thermodynamics.jpg
 ---
@@ -166,6 +166,6 @@ The answer is (b) $0.50$.
 - **JEE/NEET Tip**: Carnot efficiency requires temperatures in Kelvin; it’s the theoretical maximum efficiency. Common error: Using Celsius, which leads to incorrect ratios (e.g., $327/27 \neq 0.5$).
 
 ## Back to Chapter
-[Return to Entropy and the Second Law of Thermodynamics Chapter](./index.md)
+[Return to Entropy and the Second Law of Thermodynamics Chapter](../../entropy-thermodynamics)
 
-[Return to Entropy and the Second Law of Thermodynamics Problems](./problems.md)
+[Return to Entropy and the Second Law of Thermodynamics Problems](../../entropy-thermodynamics/problems)

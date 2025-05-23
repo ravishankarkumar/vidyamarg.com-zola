@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <title>Vidya Marg | Physics Book - Maxwell’s Equations; Magnetism of Matter for JEE &amp; NEET</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Comprehensive guide on Maxwell’s equations and magnetism of matter for JEE and NEET, covering Gauss’s laws, Ampere-Maxwell law, Faraday’s law, magnetic properties of materials, and applications, with extensive examples.">
+    <meta name="keywords" content="JEE physics book, NEET physics book, physics book, physics for JEE and NEET">
+    <meta property="og:image" content="https://vidyamarg.com/og-physics-book.jpg">
+    <link rel="canonical" href="https:&#x2F;&#x2F;vidyamarg.com&#x2F;books&#x2F;physics&#x2F;v1&#x2F;maxwells-equations&#x2F;">
+    <link rel="shortcut icon" href="https://vidyamarg.com/logos/maroon-bg-logo-128.ico">
+    
+    <!-- Preload Google Font -->
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" as="style">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript>
+        <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
+    </noscript>
+    
+    <!-- FontAwesome JS -->
+    <script defer src="https://vidyamarg.com/fontawesome/js/all.min.js"></script>
+
+    <!-- KaTeX for LaTeX rendering -->
+    <link rel="stylesheet" href="https://vidyamarg.com/katex/katex.min.css">
+    <script src="https://vidyamarg.com/katex/katex.min.js"></script>
+    <script src="https://vidyamarg.com/katex/auto-render.min.js"></script>
+
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.2/styles/atom-one-dark.min.css">
+    <link rel="stylesheet" href="https://vidyamarg.com/plugins/simplelightbox/simple-lightbox.min.css">
+
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="https://vidyamarg.com/css/theme.css">
+    <link rel="stylesheet" href="https://vidyamarg.com/css/custom.css" />
+</head> 
+
+<body>    
+    <header class="header fixed-top">
+        <div class="branding docs-branding">
+            <div class="container-fluid position-relative py-2">
+                <div class="docs-logo-wrapper">
+                    
+                    
+                    
+                    <button id="docs-sidebar-toggler" class="docs-sidebar-toggler docs-sidebar-visible me-2 d-xl-none" type="button">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    
+                    <div class="site-logo">
+                        <a class="navbar-brand" href="https://vidyamarg.com">
+                            <img class="logo-icon me-2" src="https://vidyamarg.com/logos/maroon-bg-logo-1024.png" alt="logo">
+                            <span class="logo-text">Vidya Marg</span>
+                        </a>
+                    </div>    
+                </div>
+                <div class="docs-top-utilities d-flex justify-content-end align-items-center">
+                    <ul class="nav-list list-inline mb-0 d-none d-lg-flex">
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;">Home</a>
+                            </li>
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics (Youtube series)</a>
+                            </li>
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;">Books</a>
+                            </li>
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;app&#x2F;">App</a>
+                            </li>
+                        
+                        
+                            
+                                <li class="list-inline-item">
+                                    <a href="https:&#x2F;&#x2F;www.youtube.com&#x2F;@VidyaMargbyRaviShankar-w9u" title="YouTube"><i class="fab fa-youtube fa-fw"></i></a>
+                                </li>
+                            
+                                <li class="list-inline-item">
+                                    <a href="https:&#x2F;&#x2F;t.me&#x2F;vidyamarg1" title="Telegram"><i class="fab fa-telegram fa-fw"></i></a>
+                                </li>
+                            
+                        
+                    </ul>
+                    <!-- Mobile Menu Button -->
+                    <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#mobileNav" aria-controls="mobileNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </div>
+            <!-- Mobile Menu -->
+            <div class="collapse navbar-collapse d-lg-none" id="mobileNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;">Home</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics (Youtube series)</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;books&#x2F;">Books</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;app&#x2F;">App</a>
+                        </li>
+                    
+                    
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="https:&#x2F;&#x2F;www.youtube.com&#x2F;@VidyaMargbyRaviShankar-w9u"><i class="fab fa-youtube fa-fw"></i> YouTube</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="https:&#x2F;&#x2F;t.me&#x2F;vidyamarg1"><i class="fab fa-telegram fa-fw"></i> Telegram</a>
+                            </li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="docs-wrapper">
+        
+        
+        
+        <div id="docs-sidebar" class="docs-sidebar">
+            <nav id="docs-nav" class="docs-nav navbar">
+                
+                    
+                        
+
+<ul class="nav flex-column">
+    <!-- Navigation Menu (visible only in mobile view) -->
+    <li class="nav-item d-lg-none">
+        <span class="nav-link">Navigation</span>
+        <ul class="nav flex-column">
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;">Home</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics (Youtube series)</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;books&#x2F;">Books</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;app&#x2F;">App</a>
+                </li>
+            
+        </ul>
+    </li>
+
+    <!-- JEE/NEET Physics Section -->
+    
+    <li class="nav-item">
+        <span class="nav-link">Physics for JEE&#x2F;NEET</span>
+        <ul class="nav flex-column">
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics for JEE&#x2F;NEET</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;maths-basics-for-physics&#x2F;">Maths Basics for Physics</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;units-and-dimensions&#x2F;">Units and Dimensions</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;physical-quantities-and-si-units&#x2F;">Physical Quantities and SI Units</a>
+                </li>
+            
+        </ul>
+    </li>
+
+    <!-- Books Section -->
+    
+    <li class="nav-item">
+        <span class="nav-link">Books</span>
+        <ul class="nav flex-column">
+            <!-- JEE/NEET Physics Book (Version 1) -->
+            
+            <li class="nav-item">
+                <a class="nav-link" href="/books/physics/v1/">Physics Book</a>
+                
+                    <ul class="nav flex-column">
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;measurement&#x2F;">Measurement</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;motion-straight-line&#x2F;">Motion Along a Straight Line</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;vectors&#x2F;">Vectors</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;motion-2d-3d&#x2F;">Motion in Two and Three Dimensions</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;force-motion-1&#x2F;">Force and Motion—I</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;force-motion-2&#x2F;">Force and Motion—II</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;kinetic-energy-work&#x2F;">Kinetic Energy and Work</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;potential-energy-conservation&#x2F;">Potential Energy and Conservation of Energy</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;center-mass-momentum&#x2F;">Center of Mass and Linear Momentum</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;rotation&#x2F;">Rotation</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;rolling-torque-angular-momentum&#x2F;">Rolling, Torque, and Angular Momentum</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;equilibrium-elasticity&#x2F;">Equilibrium and Elasticity</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;gravitation&#x2F;">Gravitation</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;fluids&#x2F;">Fluids</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;oscillations&#x2F;">Oscillations</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;waves-1&#x2F;">Waves—I</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;waves-2&#x2F;">Waves—II</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;kinetic-theory-gases&#x2F;">The Kinetic Theory of Gases</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;thermodynamics-temperature-heat&#x2F;">Temperature, Heat, and the First Law of Thermodynamics</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;entropy-thermodynamics&#x2F;">Entropy and the Second Law of Thermodynamics</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electric-fields&#x2F;">Electric Fields</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;gauss-law&#x2F;">Gauss’s Law</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electric-potential&#x2F;">Electric Potential</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;capacitance&#x2F;">Capacitance</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;current-resistance&#x2F;">Current and Resistance</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;circuits&#x2F;">Circuits</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;magnetic-fields&#x2F;">Magnetic Fields</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;magnetic-fields-currents&#x2F;">Magnetic Fields Due to Currents</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;induction-inductance&#x2F;">Induction and Inductance</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electromagnetic-oscillations-ac&#x2F;">Electromagnetic Oscillations and Alternating Current</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electromagnetic-waves&#x2F;">Electromagnetic Waves</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;images&#x2F;">Images</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;interference&#x2F;">Interference</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;diffraction&#x2F;">Diffraction</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;photons-matter-waves&#x2F;">Photons and Matter Waves</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;matter-waves-advanced&#x2F;">More About Matter Waves</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;atoms&#x2F;">All About Atoms</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;nuclear-physics&#x2F;">Nuclear Physics</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;nuclear-energy&#x2F;">Energy from the Nucleus</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;quarks-leptons&#x2F;">Quarks, Leptons, and the Big Bang</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;relativity&#x2F;">Relativity</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;conduction-solids&#x2F;">Conduction of Electricity in Solids</a>
+                            </li>
+                        
+                    </ul>
+                
+            </li>
+        </ul>
+    </li>
+</ul>
+                    
+                
+            </nav>
+        </div>
+        
+
+        <div class="docs-content">
+            
+    <div class="docs-main">
+        <article class="docs-article">
+            <h1 id="chapter-32-maxwell-s-equations-magnetism-of-matter">Chapter 32: Maxwell’s Equations; Magnetism of Matter</h1>
+<div class="callout-block callout-warning">
+    <div class="content">
+        <h4 class="callout-title">
+            <span class="callout-icon-holder me-1">
+                <i class="fas fa-exclamation-triangle"></i>
+            </span>
+            Beta Version
+        </h4>
+        <p>Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!</p>
+    </div>
+</div>
+<p>Maxwell’s equations unify electricity and magnetism, enabling applications like magnetic shielding in spacecraft. Building on the concepts of electromagnetism from Chapters 28–31, this chapter explores Maxwell’s equations and the magnetic properties of matter. For JEE Main, JEE Advanced, and NEET students, mastering these topics is essential, as they frequently appear in problems involving fields, electromagnetic waves, and material interactions. This chapter, <strong>Maxwell’s Equations; Magnetism of Matter</strong>, covers <strong>Gauss’s law for electricity</strong>, <strong>Gauss’s law for magnetism</strong>, <strong>Faraday’s law and Ampere-Maxwell law</strong>, and <strong>magnetism of matter</strong>, providing detailed explanations, derivations, solved examples, and practical applications to ensure conceptual clarity and problem-solving proficiency.</p>
+<h2 id="32-1-gauss-s-law-for-electricity">32.1 Gauss’s Law for Electricity</h2>
+<p>Gauss’s law for electricity relates electric fields to charges, a cornerstone of Maxwell’s equations for JEE/NEET.</p>
+<h3 id="gauss-s-law-for-electricity">Gauss’s Law for Electricity</h3>
+<p>Gauss’s law states that the electric flux through a closed surface is proportional to the charge enclosed:<br />
+$$
+\oint \vec{E} \cdot d\vec{A} = \frac{Q_{\text{enc}}}{\epsilon_0}
+$$</p>
+<ul>
+<li>$\vec{E}$: Electric field (N/C or V/m).</li>
+<li>$d\vec{A}$: Differential area vector (m²).</li>
+<li>$Q_{\text{enc}}$: Enclosed charge (C).</li>
+<li>$\epsilon_0 = 8.85 \times 10^{-12} , \text{C}^2/(\text{N·m}^2)$: Permittivity of free space.</li>
+<li>Units: Flux in N·m²/C.</li>
+</ul>
+<h3 id="applications">Applications</h3>
+<ul>
+<li><strong>Spherical Symmetry</strong>: For a point charge $Q$, $E = \frac{Q}{4 \pi \epsilon_0 r^2}$.</li>
+<li><strong>Cylindrical Symmetry</strong>: For an infinite line charge, $E = \frac{\lambda}{2 \pi \epsilon_0 r}$.</li>
+<li><strong>Planar Symmetry</strong>: For an infinite sheet, $E = \frac{\sigma}{2 \epsilon_0}$.</li>
+</ul>
+<p><strong>Derivation</strong>: <strong>Electric Field of a Point Charge Using Gauss’s Law</strong><br />
+Consider a point charge $Q$ at the origin. Choose a Gaussian surface as a sphere of radius $r$ centered on the charge. By symmetry, $\vec{E}$ is radial and constant on the sphere, $\vec{E} = E \hat{r}$, and $d\vec{A} = dA \hat{r}$. The flux is:<br />
+$$
+\oint \vec{E} \cdot d\vec{A} = E \oint dA = E (4 \pi r^2)
+$$
+The enclosed charge is $Q_{\text{enc}} = Q$. By Gauss’s law:<br />
+$$
+E (4 \pi r^2) = \frac{Q}{\epsilon_0} \implies E = \frac{Q}{4 \pi \epsilon_0 r^2}
+$$
+This is Coulomb’s law, confirming Gauss’s law’s consistency.</p>
+<p><strong>Derivation</strong>: <strong>Electric Field in Rocket Shielding</strong><br />
+A spacecraft’s charged surface ($Q = 10^{-6} , \text{C}$, $r = 1 , \text{m}$) has $E = \frac{10^{-6}}{4 \pi (8.85 \times 10^{-12}) (1)^2} \approx 8.99 \times 10^3 , \text{N/C}$, used for electrostatic shielding (your interest, April 19, 2025).</p>
+<p><strong>Solved Example</strong>: A JEE Main problem involves a point charge $Q = 2 , \mu\text{C}$ at a distance $r = 0.1 , \text{m}$. Find $E$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$E = \frac{Q}{4 \pi \epsilon_0 r^2} = \frac{2 \times 10^{-6}}{4 \pi (8.85 \times 10^{-12}) (0.1)^2} \approx 1.80 \times 10^5 , \text{N/C}$.
+<ul>
+<li><strong>JEE Tip</strong>: Use $k = \frac{1}{4 \pi \epsilon_0} \approx 9 \times 10^9 , \text{N·m}^2/\text{C}^2$; ensure $Q$ in C, $r$ in m. Common error: Incorrect units.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A NEET problem involves an infinite sheet with $\sigma = 4 \times 10^{-6} , \text{C/m}^2$. Find $E$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$E = \frac{\sigma}{2 \epsilon_0} = \frac{4 \times 10^{-6}}{2 \times (8.85 \times 10^{-12})} \approx 2.26 \times 10^5 , \text{N/C}$.
+<ul>
+<li><strong>NEET Tip</strong>: Field is constant for an infinite sheet; independent of distance. Common error: Using point charge formula.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Advanced problem involves a sphere with uniform charge density $\rho = 10^{-6} , \text{C/m}^3$, $r = 0.2 , \text{m}$, at $r = 0.1 , \text{m}$ inside. Find $E$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+Enclosed charge $Q_{\text{enc}} = \rho \left( \frac{4}{3} \pi r^3 \right) = (10^{-6}) \left( \frac{4}{3} \pi (0.1)^3 \right) \approx 4.19 \times 10^{-9} , \text{C}$, $E = \frac{Q_{\text{enc}}}{4 \pi \epsilon_0 r^2} \approx 3.76 \times 10^2 , \text{N/C}$.
+<ul>
+<li><strong>JEE Tip</strong>: Inside a uniform sphere, $E \propto r$; use enclosed charge. Common error: Using total charge.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Main problem involves a line charge $\lambda = 5 \times 10^{-6} , \text{C/m}$ at $r = 0.05 , \text{m}$. Find $E$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$E = \frac{\lambda}{2 \pi \epsilon_0 r} = \frac{5 \times 10^{-6}}{2 \pi (8.85 \times 10^{-12}) (0.05)} \approx 1.80 \times 10^5 , \text{N/C}$.
+<ul>
+<li><strong>JEE Tip</strong>: Field decreases as $1/r$ for a line charge; use cylindrical symmetry. Common error: Incorrect Gaussian surface.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Application</strong>: Gauss’s law applies to capacitors, shielding, and rocketry (e.g., spacecraft electrostatic protection, aligning with your interest, April 19, 2025).</p>
+<h2 id="32-2-gauss-s-law-for-magnetism">32.2 Gauss’s Law for Magnetism</h2>
+<p>Gauss’s law for magnetism describes the nature of magnetic fields, a key part of Maxwell’s equations for JEE/NEET.</p>
+<h3 id="gauss-s-law-for-magnetism">Gauss’s Law for Magnetism</h3>
+<p>Gauss’s law for magnetism states that the magnetic flux through a closed surface is zero, as there are no magnetic monopoles:<br />
+$$
+\oint \vec{B} \cdot d\vec{A} = 0
+$$</p>
+<ul>
+<li>$\vec{B}$: Magnetic field (T).</li>
+<li>$d\vec{A}$: Differential area vector (m²).</li>
+<li>Implies magnetic field lines form closed loops.</li>
+</ul>
+<h3 id="implications">Implications</h3>
+<ul>
+<li>No magnetic monopoles exist; magnetic poles always come in pairs (dipoles).</li>
+<li>Magnetic field lines are continuous, unlike electric field lines which start and end on charges.</li>
+</ul>
+<p><strong>Derivation</strong>: <strong>Magnetic Flux Through a Closed Surface</strong><br />
+Consider a closed surface (e.g., a sphere) in a magnetic field $\vec{B}$. If a magnetic monopole existed with magnetic charge $q_m$, we’d expect $\oint \vec{B} \cdot d\vec{A} \propto q_m$, analogous to Gauss’s law for electricity. However, experimental evidence shows no isolated magnetic poles (monopoles); magnetic fields are produced by dipoles (e.g., bar magnets). For a dipole, field lines leaving the north pole enter the south pole, so the net flux through any closed surface is zero:<br />
+$$
+\oint \vec{B} \cdot d\vec{A} = 0
+$$
+This is a fundamental law of magnetism, part of Maxwell’s equations.</p>
+<p><strong>Derivation</strong>: <strong>Magnetic Field in Rocket Shielding</strong><br />
+A spacecraft’s magnetic shielding uses a dipole field, ensuring $\oint \vec{B} \cdot d\vec{A} = 0$, protecting electronics from external fields (your interest, April 19, 2025).</p>
+<p><strong>Solved Example</strong>: A JEE Main problem asks the net magnetic flux through a closed surface around a bar magnet.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+By Gauss’s law for magnetism, $\oint \vec{B} \cdot d\vec{A} = 0$, as magnetic field lines form closed loops; flux entering equals flux leaving.
+<ul>
+<li><strong>JEE Tip</strong>: No magnetic monopoles; flux is always zero for a closed surface. Common error: Assuming non-zero flux.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A NEET problem involves a solenoid with $B = 0.5 , \text{T}$ inside, surface enclosing one end. Find the flux.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$\oint \vec{B} \cdot d\vec{A} = 0$. Inside, $B$ is uniform, but field lines exit and re-enter elsewhere; net flux through the closed surface is zero.
+<ul>
+<li><strong>NEET Tip</strong>: Apply Gauss’s law directly; magnetic flux through a closed surface is always zero. Common error: Using $B$ without considering closed loops.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Advanced problem involves a magnetic dipole in a spherical surface. Confirm the flux.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$\oint \vec{B} \cdot d\vec{A} = 0$, as the dipole’s field lines form closed loops; flux entering the sphere equals flux leaving.
+<ul>
+<li><strong>JEE Tip</strong>: Magnetic dipoles ensure zero net flux; no need for field calculation. Common error: Misapplying electric Gauss’s law.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Main problem asks if a magnetic monopole would violate Gauss’s law for magnetism.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+Yes, a monopole would imply $\oint \vec{B} \cdot d\vec{A} \neq 0$, contradicting the law, as field lines would start or end at the monopole.
+<ul>
+<li><strong>JEE Tip</strong>: The law holds because no monopoles exist; field lines are continuous. Common error: Assuming monopoles exist.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Application</strong>: Gauss’s law for magnetism applies to magnetic field design, MRI machines, and rocketry (e.g., spacecraft magnetic shielding, aligning with your interest, April 19, 2025).</p>
+<h2 id="32-3-faraday-s-law-and-ampere-maxwell-law">32.3 Faraday’s Law and Ampere-Maxwell Law</h2>
+<p>Faraday’s law and the Ampere-Maxwell law describe dynamic fields, completing Maxwell’s equations for JEE/NEET.</p>
+<h3 id="faraday-s-law-recap">Faraday’s Law (Recap)</h3>
+<p>Faraday’s law states that a changing magnetic flux induces an emf:<br />
+$$
+\oint \vec{E} \cdot d\vec{l} = -\frac{d\Phi_B}{dt}, \quad \Phi_B = \int \vec{B} \cdot d\vec{A}
+$$</p>
+<ul>
+<li>Links electric fields to changing magnetic fields.</li>
+</ul>
+<h3 id="ampere-maxwell-law">Ampere-Maxwell Law</h3>
+<p>The Ampere-Maxwell law extends Ampere’s law to include displacement current:<br />
+$$
+\oint \vec{B} \cdot d\vec{l} = \mu_0 I_{\text{enc}} + \mu_0 \epsilon_0 \frac{d\Phi_E}{dt}
+$$</p>
+<ul>
+<li>$\Phi_E = \int \vec{E} \cdot d\vec{A}$: Electric flux.</li>
+<li>$I_{\text{enc}}$: Conduction current.</li>
+<li>$\mu_0 \epsilon_0 \frac{d\Phi_E}{dt}$: Displacement current due to changing electric fields.</li>
+</ul>
+<p><strong>Derivation</strong>: <strong>Faraday’s Law for a Changing Magnetic Field</strong><br />
+Consider a rectangular loop in a uniform magnetic field $\vec{B} = B(t) \hat{z}$ perpendicular to the loop (area $A$). The magnetic flux is $\Phi_B = B A$. If $B$ changes with time, the induced emf is:<br />
+$$
+\mathcal{E} = -\frac{d\Phi_B}{dt} = -\frac{d}{dt} (B A) = -A \frac{dB}{dt}
+$$
+By Faraday’s law, $\mathcal{E} = \oint \vec{E} \cdot d\vec{l}$, so a changing $\vec{B}$ induces an electric field $\vec{E}$ around the loop.</p>
+<p><strong>Derivation</strong>: <strong>Ampere-Maxwell Law for a Capacitor</strong><br />
+Consider a charging capacitor with plates separated by a gap. Conduction current $I$ flows into one plate, but no current passes between plates. Choose an Amperian loop around the wire: $\oint \vec{B} \cdot d\vec{l} = \mu_0 I$. Now choose a surface between the plates: no conduction current passes, but the electric field $\vec{E}$ between the plates changes as the capacitor charges. The electric flux $\Phi_E = E A$, where $E = \frac{Q}{\epsilon_0 A}$, so $\Phi_E = \frac{Q A}{\epsilon_0 A} = \frac{Q}{\epsilon_0}$. Since $I = \frac{dQ}{dt}$, the displacement current term is:<br />
+$$
+\mu_0 \epsilon_0 \frac{d\Phi_E}{dt} = \mu_0 \epsilon_0 \frac{d}{dt} \left( \frac{Q}{\epsilon_0} \right) = \mu_0 I
+$$
+Thus, $\oint \vec{B} \cdot d\vec{l} = \mu_0 I_{\text{enc}} + \mu_0 \epsilon_0 \frac{d\Phi_E}{dt}$, unifying conduction and displacement currents.</p>
+<p><strong>Derivation</strong>: <strong>Displacement Current in Rocket Capacitor</strong><br />
+A spacecraft capacitor ($A = 0.01 , \text{m}^2$, $d = 0.001 , \text{m}$, charging at $I = 1 , \text{A}$) has displacement current $I_d = \epsilon_0 \frac{d\Phi_E}{dt} = I = 1 , \text{A}$, ensuring field continuity (your interest, April 19, 2025).</p>
+<p><strong>Solved Example</strong>: A JEE Main problem involves a solenoid $N = 100$, $A = 0.01 , \text{m}^2$, $B$ increasing at $0.2 , \text{T/s}$. Find $\mathcal{E}$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$\Phi_B = N B A$, $\frac{d\Phi_B}{dt} = N A \frac{dB}{dt} = 100 \times 0.01 \times 0.2 = 0.2 , \text{Wb/s}$, $\mathcal{E} = -\frac{d\Phi_B}{dt} = -0.2 , \text{V}$. Magnitude: $0.2 , \text{V}$.
+<ul>
+<li><strong>JEE Tip</strong>: Faraday’s law applies to changing $B$; $\mathcal{E}$ in volts. Common error: Forgetting $N$.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A NEET problem involves a capacitor charging with $I = 2 , \text{A}$. Find the displacement current.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+Displacement current $I_d = I = 2 , \text{A}$, as the Ampere-Maxwell law ensures continuity between conduction and displacement currents.
+<ul>
+<li><strong>NEET Tip</strong>: Displacement current equals conduction current in a capacitor circuit. Common error: Assuming zero current between plates.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Advanced problem involves a loop in $B = 0.5 t , \text{T}$, $A = 0.02 , \text{m}^2$. Find $\mathcal{E}$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$\Phi_B = B A = (0.5 t) \times 0.02 = 0.01 t$, $\frac{d\Phi_B}{dt} = 0.01 , \text{Wb/s}$, $\mathcal{E} = -0.01 , \text{V}$. Magnitude: $0.01 , \text{V}$.
+<ul>
+<li><strong>JEE Tip</strong>: Compute the rate of change of $B$; $\mathcal{E}$ depends on $dB/dt$. Common error: Using $B$ directly.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Main problem involves a capacitor $A = 0.05 , \text{m}^2$, $d = 0.01 , \text{m}$, $E$ increasing at $10^6 , \text{V/m·s}$. Find $I_d$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$\Phi_E = E A$, $\frac{d\Phi_E}{dt} = A \frac{dE}{dt} = 0.05 \times 10^6 = 5 \times 10^4$, $I_d = \epsilon_0 \frac{d\Phi_E}{dt} = (8.85 \times 10^{-12}) \times (5 \times 10^4) \approx 4.43 \times 10^{-7} , \text{A}$.
+<ul>
+<li><strong>JEE Tip</strong>: Displacement current depends on changing $E$; units in A. Common error: Forgetting $\epsilon_0$.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Application</strong>: These laws enable electromagnetic wave propagation, transformers, and rocketry (e.g., spacecraft communication, aligning with your interest, April 19, 2025).</p>
+<h2 id="32-4-magnetism-of-matter">32.4 Magnetism of Matter</h2>
+<p>Magnetism of matter describes how materials respond to magnetic fields, a key concept for JEE/NEET.</p>
+<h3 id="magnetic-susceptibility-and-permeability">Magnetic Susceptibility and Permeability</h3>
+<ul>
+<li><strong>Magnetization $\vec{M}$</strong>: Magnetic moment per unit volume (A/m).</li>
+<li><strong>Susceptibility $\chi$</strong>: $\vec{M} = \chi \vec{H}$, where $\vec{H}$ is the magnetic field intensity (A/m); $\chi$ is dimensionless.</li>
+<li><strong>Magnetic Field $\vec{B}$</strong>: $\vec{B} = \mu_0 (\vec{H} + \vec{M}) = \mu_0 (1 + \chi) \vec{H} = \mu \vec{H}$, where $\mu = \mu_0 \mu_r$, $\mu_r = 1 + \chi$.</li>
+<li><strong>Types</strong>:
+<ul>
+<li>Diamagnetic: $\chi &lt; 0$, $\mu_r &lt; 1$ (e.g., bismuth).</li>
+<li>Paramagnetic: $\chi &gt; 0$, $\mu_r &gt; 1$ (e.g., aluminum).</li>
+<li>Ferromagnetic: $\chi \gg 0$, $\mu_r \gg 1$ (e.g., iron).</li>
+</ul>
+</li>
+</ul>
+<h3 id="hysteresis">Hysteresis</h3>
+<p>Ferromagnetic materials exhibit hysteresis: magnetization lags behind the applied field, forming a hysteresis loop. Energy loss per cycle is proportional to the loop area.</p>
+<p><strong>Derivation</strong>: <strong>Magnetic Field in a Material</strong><br />
+For a material in a magnetic field, $\vec{H}$ is the applied field, and $\vec{M}$ is the magnetization induced. The total magnetic field $\vec{B}$ includes contributions from $\vec{H}$ and $\vec{M}$:<br />
+$$
+\vec{B} = \mu_0 (\vec{H} + \vec{M})
+$$
+Since $\vec{M} = \chi \vec{H}$, we have:<br />
+$$
+\vec{B} = \mu_0 (\vec{H} + \chi \vec{H}) = \mu_0 (1 + \chi) \vec{H}
+$$
+Define relative permeability $\mu_r = 1 + \chi$, so $\vec{B} = \mu_0 \mu_r \vec{H}$, where $\mu = \mu_0 \mu_r$.</p>
+<p><strong>Derivation</strong>: <strong>Ferromagnetic Shielding in Rocket</strong><br />
+A spacecraft uses a ferromagnetic shield ($\mu_r = 1000$, $H = 10 , \text{A/m}$), so $B = \mu_0 \mu_r H = (4 \pi \times 10^{-7}) \times 1000 \times 10 \approx 1.26 \times 10^{-2} , \text{T}$, enhancing shielding (your interest, April 19, 2025).</p>
+<p><strong>Solved Example</strong>: A JEE Main problem involves a material with $\chi = -0.01$. Find $\mu_r$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$\mu_r = 1 + \chi = 1 + (-0.01) = 0.99$. The material is diamagnetic.
+<ul>
+<li><strong>JEE Tip</strong>: Negative $\chi$ indicates diamagnetism; $\mu_r &lt; 1$. Common error: Forgetting the sign of $\chi$.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A NEET problem involves a paramagnetic material with $\chi = 0.02$. Find $\mu_r$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$\mu_r = 1 + \chi = 1 + 0.02 = 1.02$. The material is paramagnetic.
+<ul>
+<li><strong>NEET Tip</strong>: Positive $\chi$ indicates paramagnetism; $\mu_r &gt; 1$. Common error: Misinterpreting $\chi$.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Advanced problem involves a solenoid $H = 100 , \text{A/m}$, $\mu_r = 500$. Find $B$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$B = \mu_0 \mu_r H = (4 \pi \times 10^{-7}) \times 500 \times 100 \approx 6.28 \times 10^{-2} , \text{T}$.
+<ul>
+<li><strong>JEE Tip</strong>: $B$ increases with $\mu_r$; use $\mu_0$ correctly. Common error: Forgetting $\mu_r$.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Main problem asks the type of magnetism for $\chi = 1000$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+Large positive $\chi$ indicates ferromagnetism; $\mu_r \gg 1$.
+<ul>
+<li><strong>JEE Tip</strong>: Ferromagnetic materials have high $\chi$; think of iron. Common error: Confusing with paramagnetism.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Application</strong>: Magnetism of matter applies to MRI, magnetic storage, and rocketry (e.g., spacecraft shielding, aligning with your interest, April 19, 2025).</p>
+<h2 id="summary-and-quick-revision">Summary and Quick Revision</h2>
+<ul>
+<li><strong>Gauss’s Law for Electricity</strong>: $\oint \vec{E} \cdot d\vec{A} = \frac{Q_{\text{enc}}}{\epsilon_0}$, relates $E$ to charge.</li>
+<li><strong>Gauss’s Law for Magnetism</strong>: $\oint \vec{B} \cdot d\vec{A} = 0$, no magnetic monopoles.</li>
+<li><strong>Faraday’s Law</strong>: $\oint \vec{E} \cdot d\vec{l} = -\frac{d\Phi_B}{dt}$, changing $B$ induces $E$.</li>
+<li><strong>Ampere-Maxwell Law</strong>: $\oint \vec{B} \cdot d\vec{l} = \mu_0 I_{\text{enc}} + \mu_0 \epsilon_0 \frac{d\Phi_E}{dt}$, includes displacement current.</li>
+<li><strong>Magnetism of Matter</strong>: $\vec{B} = \mu_0 (\vec{H} + \vec{M})$, $\mu_r = 1 + \chi$; diamagnetic ($\chi &lt; 0$), paramagnetic ($\chi &gt; 0$), ferromagnetic ($\chi \gg 0$).</li>
+<li><strong>Applications</strong>: Shielding, MRI, spacecraft systems.</li>
+<li><strong>JEE/NEET Tips</strong>: Apply symmetry in Gauss’s laws, compute flux changes, identify material type from $\chi$, verify significant figures (April 14, 2025).</li>
+<li><strong>SI Units</strong>: $E$ (N/C), $B$ (T), $\chi$ (dimensionless), $\mu$ (H/m).</li>
+</ul>
+<h2 id="practice-problems">Practice Problems</h2>
+<p>Explore our problem set with <strong>100 problems</strong> inspired by JEE Main, JEE Advanced, and NEET patterns to test your understanding.</p>
+<p><a href="https://vidyamarg.com/books/physics/v1/maxwells-equations/./problems">View Problems</a></p>
+<h2 id="watch-on-youtube">Watch on YouTube</h2>
+<p>Our Hinglish video lessons make electromagnetism engaging! Subscribe for updates.</p>
+<p><a href="https://www.youtube.com/@VidyaMargbyRaviShankar-w9u">Watch Now</a></p>
+<p><em>Animation for visualizing field lines, hysteresis loops, and displacement current coming soon!</em></p>
+<p><em>Note: Content regularly updated to align with current JEE/NEET syllabi.</em></p>
+
+        </article>
+    </div>
+
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container text-center py-5">
+            <ul class="social-list list-unstyled pt-4 mb-0">
+                
+                    <li class="list-inline-item">
+                        <a href="https:&#x2F;&#x2F;www.youtube.com&#x2F;@VidyaMargbyRaviShankar-w9u" target="_blank" title="YouTube"><i class="fab fa-youtube fa-fw"></i></a>
+                    </li>
+                
+                    <li class="list-inline-item">
+                        <a href="https:&#x2F;&#x2F;t.me&#x2F;vidyamarg1" target="_blank" title="Telegram"><i class="fab fa-telegram fa-fw"></i></a>
+                    </li>
+                
+            </ul>
+            <small class="copyright">
+                © 2025 Vidya Marg. Designed with <span class="sr-only">love</span><i class="fas fa-heart" style="color: #fb866a;"></i> by <a class="theme-link" href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers. <a class="theme-link" href="/app/privacy-policy/">Privacy Policy</a>
+            </small>
+        </div>
+    </footer>
+
+    <!-- Javascript -->          
+    <script src="https://vidyamarg.com/plugins/popper.min.js"></script>
+    <script src="https://vidyamarg.com/plugins/bootstrap/js/bootstrap.min.js"></script>  
+    
+    <!-- Page Specific JS -->
+    <script src="https://vidyamarg.com/plugins/smoothscroll.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
+    <script src="https://vidyamarg.com/js/highlight-custom.js"></script> 
+    <script src="https://vidyamarg.com/plugins/simplelightbox/simple-lightbox.min.js"></script>      
+    <script src="https://vidyamarg.com/plugins/gumshoe/gumshoe.polyfills.min.js"></script> 
+    <script src="https://vidyamarg.com/js/docs.js"></script> 
+
+    <script>
+        function renderLatex() {
+            if (typeof renderMathInElement === "undefined") {
+                setTimeout(renderLatex, 100);
+                return;
+            }
+            renderMathInElement(document.body, {
+                delimiters: [
+                    { left: "$$", right: "$$", display: true },
+                    { left: "$", right: "$", display: false },
+                    { left: "\\(", right: "\\)", display: false },
+                    { left: "\\[", right: "\\]", display: true }
+                ],
+                throwOnError: false
+            });
+        }
+
+        window.addEventListener("load", function() {
+            renderLatex();
+        });
+    </script>
+</body>
+</html>

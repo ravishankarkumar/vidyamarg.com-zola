@@ -1,7 +1,7 @@
 ---
 title: Physics Book - Rotation Solutions for JEE & NEET
 description: Sample solutions for rotational motion problems, covering kinematics, dynamics, rotational energy, angular momentum, rolling motion, and gyroscopic effects, tailored for JEE and NEET preparation.
-slug: books/physics/rotation/solutions
+slug: solutions
 keywords: physics rotation solutions, JEE physics rotational motion solutions, NEET physics angular momentum solutions, rolling motion
 og:image: https://vidyamarg.com/og-physics-rotation.jpg
 ---
@@ -187,6 +187,6 @@ The answer is (c) $6.0 \, m/s$.
 - **JEE/NEET Tip**: Rolling objects have both translational and rotational kinetic energy; the factor $\frac{4}{3}$ is specific to a cylinder’s moment of inertia. Common error: Using $v = \sqrt{2gh}$ (for sliding), which overestimates the speed by ignoring rotational energy.
 
 ## Back to Chapter
-[Return to Rotation Chapter](./index.md)
+[Return to Rotation Chapter](../../rotation)
 
-[Return to Rotation Problems](./problems.md)
+[Return to Rotation Problems](../../rotation/problems)

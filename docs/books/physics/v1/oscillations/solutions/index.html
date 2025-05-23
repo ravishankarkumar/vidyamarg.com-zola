@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <title>Vidya Marg | Physics Book - Oscillations Solutions for JEE &amp; NEET</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sample solutions for oscillations problems, covering simple harmonic motion, energy, damped and forced oscillations, resonance, and applications, tailored for JEE and NEET preparation.">
+    <meta name="keywords" content="JEE physics book, NEET physics book, physics book, physics for JEE and NEET">
+    <meta property="og:image" content="https://vidyamarg.com/og-physics-book.jpg">
+    <link rel="canonical" href="https:&#x2F;&#x2F;vidyamarg.com&#x2F;books&#x2F;physics&#x2F;v1&#x2F;oscillations&#x2F;solutions&#x2F;">
+    <link rel="shortcut icon" href="https://vidyamarg.com/logos/maroon-bg-logo-128.ico">
+    
+    <!-- Preload Google Font -->
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" as="style">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript>
+        <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
+    </noscript>
+    
+    <!-- FontAwesome JS -->
+    <script defer src="https://vidyamarg.com/fontawesome/js/all.min.js"></script>
+
+    <!-- KaTeX for LaTeX rendering -->
+    <link rel="stylesheet" href="https://vidyamarg.com/katex/katex.min.css">
+    <script src="https://vidyamarg.com/katex/katex.min.js"></script>
+    <script src="https://vidyamarg.com/katex/auto-render.min.js"></script>
+
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.2/styles/atom-one-dark.min.css">
+    <link rel="stylesheet" href="https://vidyamarg.com/plugins/simplelightbox/simple-lightbox.min.css">
+
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="https://vidyamarg.com/css/theme.css">
+    <link rel="stylesheet" href="https://vidyamarg.com/css/custom.css" />
+</head> 
+
+<body>    
+    <header class="header fixed-top">
+        <div class="branding docs-branding">
+            <div class="container-fluid position-relative py-2">
+                <div class="docs-logo-wrapper">
+                    
+                    
+                    
+                    <button id="docs-sidebar-toggler" class="docs-sidebar-toggler docs-sidebar-visible me-2 d-xl-none" type="button">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    
+                    <div class="site-logo">
+                        <a class="navbar-brand" href="https://vidyamarg.com">
+                            <img class="logo-icon me-2" src="https://vidyamarg.com/logos/maroon-bg-logo-1024.png" alt="logo">
+                            <span class="logo-text">Vidya Marg</span>
+                        </a>
+                    </div>    
+                </div>
+                <div class="docs-top-utilities d-flex justify-content-end align-items-center">
+                    <ul class="nav-list list-inline mb-0 d-none d-lg-flex">
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;">Home</a>
+                            </li>
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics (Youtube series)</a>
+                            </li>
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;">Books</a>
+                            </li>
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;app&#x2F;">App</a>
+                            </li>
+                        
+                        
+                            
+                                <li class="list-inline-item">
+                                    <a href="https:&#x2F;&#x2F;www.youtube.com&#x2F;@VidyaMargbyRaviShankar-w9u" title="YouTube"><i class="fab fa-youtube fa-fw"></i></a>
+                                </li>
+                            
+                                <li class="list-inline-item">
+                                    <a href="https:&#x2F;&#x2F;t.me&#x2F;vidyamarg1" title="Telegram"><i class="fab fa-telegram fa-fw"></i></a>
+                                </li>
+                            
+                        
+                    </ul>
+                    <!-- Mobile Menu Button -->
+                    <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#mobileNav" aria-controls="mobileNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </div>
+            <!-- Mobile Menu -->
+            <div class="collapse navbar-collapse d-lg-none" id="mobileNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;">Home</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics (Youtube series)</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;books&#x2F;">Books</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;app&#x2F;">App</a>
+                        </li>
+                    
+                    
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="https:&#x2F;&#x2F;www.youtube.com&#x2F;@VidyaMargbyRaviShankar-w9u"><i class="fab fa-youtube fa-fw"></i> YouTube</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="https:&#x2F;&#x2F;t.me&#x2F;vidyamarg1"><i class="fab fa-telegram fa-fw"></i> Telegram</a>
+                            </li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="docs-wrapper">
+        
+        
+        
+        <div id="docs-sidebar" class="docs-sidebar">
+            <nav id="docs-nav" class="docs-nav navbar">
+                
+                    
+                        
+
+<ul class="nav flex-column">
+    <!-- Navigation Menu (visible only in mobile view) -->
+    <li class="nav-item d-lg-none">
+        <span class="nav-link">Navigation</span>
+        <ul class="nav flex-column">
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;">Home</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics (Youtube series)</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;books&#x2F;">Books</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;app&#x2F;">App</a>
+                </li>
+            
+        </ul>
+    </li>
+
+    <!-- JEE/NEET Physics Section -->
+    
+    <li class="nav-item">
+        <span class="nav-link">Physics for JEE&#x2F;NEET</span>
+        <ul class="nav flex-column">
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics for JEE&#x2F;NEET</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;maths-basics-for-physics&#x2F;">Maths Basics for Physics</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;units-and-dimensions&#x2F;">Units and Dimensions</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;physical-quantities-and-si-units&#x2F;">Physical Quantities and SI Units</a>
+                </li>
+            
+        </ul>
+    </li>
+
+    <!-- Books Section -->
+    
+    <li class="nav-item">
+        <span class="nav-link">Books</span>
+        <ul class="nav flex-column">
+            <!-- JEE/NEET Physics Book (Version 1) -->
+            
+            <li class="nav-item">
+                <a class="nav-link" href="/books/physics/v1/">Physics Book</a>
+                
+                    <ul class="nav flex-column">
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;measurement&#x2F;">Measurement</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;motion-straight-line&#x2F;">Motion Along a Straight Line</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;vectors&#x2F;">Vectors</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;motion-2d-3d&#x2F;">Motion in Two and Three Dimensions</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;force-motion-1&#x2F;">Force and Motion—I</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;force-motion-2&#x2F;">Force and Motion—II</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;kinetic-energy-work&#x2F;">Kinetic Energy and Work</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;potential-energy-conservation&#x2F;">Potential Energy and Conservation of Energy</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;center-mass-momentum&#x2F;">Center of Mass and Linear Momentum</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;rotation&#x2F;">Rotation</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;rolling-torque-angular-momentum&#x2F;">Rolling, Torque, and Angular Momentum</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;equilibrium-elasticity&#x2F;">Equilibrium and Elasticity</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;gravitation&#x2F;">Gravitation</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;fluids&#x2F;">Fluids</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;oscillations&#x2F;">Oscillations</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;waves-1&#x2F;">Waves—I</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;waves-2&#x2F;">Waves—II</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;kinetic-theory-gases&#x2F;">The Kinetic Theory of Gases</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;thermodynamics-temperature-heat&#x2F;">Temperature, Heat, and the First Law of Thermodynamics</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;entropy-thermodynamics&#x2F;">Entropy and the Second Law of Thermodynamics</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electric-fields&#x2F;">Electric Fields</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;gauss-law&#x2F;">Gauss’s Law</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electric-potential&#x2F;">Electric Potential</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;capacitance&#x2F;">Capacitance</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;current-resistance&#x2F;">Current and Resistance</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;circuits&#x2F;">Circuits</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;magnetic-fields&#x2F;">Magnetic Fields</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;magnetic-fields-currents&#x2F;">Magnetic Fields Due to Currents</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;induction-inductance&#x2F;">Induction and Inductance</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electromagnetic-oscillations-ac&#x2F;">Electromagnetic Oscillations and Alternating Current</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electromagnetic-waves&#x2F;">Electromagnetic Waves</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;images&#x2F;">Images</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;interference&#x2F;">Interference</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;diffraction&#x2F;">Diffraction</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;photons-matter-waves&#x2F;">Photons and Matter Waves</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;matter-waves-advanced&#x2F;">More About Matter Waves</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;atoms&#x2F;">All About Atoms</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;nuclear-physics&#x2F;">Nuclear Physics</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;nuclear-energy&#x2F;">Energy from the Nucleus</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;quarks-leptons&#x2F;">Quarks, Leptons, and the Big Bang</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;relativity&#x2F;">Relativity</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;conduction-solids&#x2F;">Conduction of Electricity in Solids</a>
+                            </li>
+                        
+                    </ul>
+                
+            </li>
+        </ul>
+    </li>
+</ul>
+                    
+                
+            </nav>
+        </div>
+        
+
+        <div class="docs-content">
+            
+    <div class="docs-main">
+        <article class="docs-article">
+            <h1 id="oscillations-solutions">Oscillations Solutions</h1>
+<p>This section provides <strong>sample solutions</strong> for selected problems from the Oscillations chapter, focusing on simple harmonic motion (SHM), energy in oscillatory systems, damped and forced oscillations, and resonance. These solutions are designed to help JEE Main, JEE Advanced, and NEET students understand key concepts and problem-solving techniques. Each solution includes detailed steps, exam-focused tips to avoid common mistakes, and alignment with JEE/NEET exam patterns. Full solutions for all 100 problems will be available in June 2025.</p>
+<h2 id="numerical-solutions">Numerical Solutions</h2>
+<h3 id="solution-1">Solution 1</h3>
+<p><strong>Problem</strong>: A spring-mass system has $m = 0.8 , \text{kg}$ and $k = 320 , \text{N/m}$. Calculate the period of oscillation.</p>
+<ul>
+<li>(a) $0.30 , \text{s}$</li>
+<li>(b) $0.31 , \text{s}$</li>
+<li>(c) $0.32 , \text{s}$</li>
+<li>(d) $0.33 , \text{s}$</li>
+</ul>
+<p><strong>Solution</strong>:<br />
+The period of a spring-mass system in simple harmonic motion (SHM) is given by $T = 2 \pi \sqrt{\frac{m}{k}}$, where $m$ is the mass and $k$ is the spring constant. Given $m = 0.8 , \text{kg}$ and $k = 320 , \text{N/m}$:<br />
+$$
+T = 2 \pi \sqrt{\frac{0.8}{320}}
+$$<br />
+First, compute the fraction: $\frac{0.8}{320} = 0.0025$. Then, take the square root: $\sqrt{0.0025} = 0.05$. So:<br />
+$$
+T = 2 \pi \times 0.05 \approx 2 \times 3.1416 \times 0.05 \approx 0.31416 , \text{s}
+$$<br />
+Round to two decimal places (April 14, 2025): $T \approx 0.31 , \text{s}$.<br />
+The answer is (b) $0.31 , \text{s}$.</p>
+<ul>
+<li><strong>JEE/NEET Tip</strong>: The period in SHM depends only on $m$ and $k$, not amplitude. Ensure units are consistent ($m$ in kg, $k$ in N/m). Common error: Forgetting to take the square root, leading to an incorrect $T$.</li>
+</ul>
+<h3 id="solution-4">Solution 4</h3>
+<p><strong>Problem</strong>: A spring-mass system ($m = 0.3 , \text{kg}$, $k = 150 , \text{N/m}$, $A = 0.08 , \text{m}$) oscillates. Calculate the total energy.</p>
+<ul>
+<li>(a) $0.45 , \text{J}$</li>
+<li>(b) $0.46 , \text{J}$</li>
+<li>(c) $0.47 , \text{J}$</li>
+<li>(d) $0.48 , \text{J}$</li>
+</ul>
+<p><strong>Solution</strong>:<br />
+The total energy in a spring-mass system undergoing SHM is conserved and given by $E = \frac{1}{2} k A^2$, where $k$ is the spring constant and $A$ is the amplitude. Given $k = 150 , \text{N/m}$ and $A = 0.08 , \text{m}$:<br />
+$$
+E = \frac{1}{2} \times 150 \times (0.08)^2
+$$<br />
+Compute: $(0.08)^2 = 0.0064$, then $\frac{1}{2} \times 150 = 75$, so $E = 75 \times 0.0064 = 0.48 , \text{J}$.<br />
+The answer is (d) $0.48 , \text{J}$.</p>
+<ul>
+<li><strong>JEE/NEET Tip</strong>: Total energy depends on amplitude and spring constant, not mass; units are joules (N/m times m²). Common error: Using $x$ instead of $A$ for total energy, which gives potential energy at a specific position.</li>
+</ul>
+<hr />
+<h2 id="conceptual-solutions">Conceptual Solutions</h2>
+<h3 id="solution-36">Solution 36</h3>
+<p><strong>Problem</strong>: What condition defines simple harmonic motion (SHM)?</p>
+<ul>
+<li>(a) Acceleration is constant</li>
+<li>(b) Acceleration is proportional to velocity</li>
+<li>(c) Acceleration is proportional to displacement and opposite in direction</li>
+<li>(d) Acceleration is independent of displacement</li>
+</ul>
+<p><strong>Solution</strong>:<br />
+Simple harmonic motion (SHM) is a type of periodic motion where the restoring force is directly proportional to the displacement from equilibrium and acts in the opposite direction. According to Newton’s second law, $F = m a$, and for SHM, the force is $F = -k x$ (e.g., in a spring-mass system). Thus, $m a = -k x$, or $a = -\frac{k}{m} x$. This shows that acceleration $a$ is proportional to displacement $x$ (via the constant $-\frac{k}{m}$) and opposite in direction (due to the negative sign). The general form is $a = -\omega^2 x$, where $\omega$ is the angular frequency.</p>
+<ul>
+<li>(a) Incorrect: Acceleration in SHM varies with position, not constant.</li>
+<li>(b) Incorrect: Acceleration is proportional to displacement, not velocity (velocity dependence occurs in damping).</li>
+<li>(c) Correct: $a \propto -x$, defining SHM.</li>
+<li>(d) Incorrect: Acceleration depends on displacement in SHM.<br />
+The answer is (c) Acceleration is proportional to displacement and opposite in direction.</li>
+<li><strong>JEE/NEET Tip</strong>: The defining condition for SHM is $a = -\omega^2 x$; look for a linear restoring force. Common error: Confusing SHM with other motions where acceleration might be constant (e.g., uniform acceleration).</li>
+</ul>
+<h3 id="solution-38">Solution 38</h3>
+<p><strong>Problem</strong>: What happens to the frequency of a simple pendulum if its length is doubled?</p>
+<ul>
+<li>(a) Increases by a factor of 2</li>
+<li>(b) Decreases by a factor of $\sqrt{2}$</li>
+<li>(c) Decreases by a factor of 2</li>
+<li>(d) Remains the same</li>
+</ul>
+<p><strong>Solution</strong>:<br />
+The period of a simple pendulum (for small angles) is $T = 2 \pi \sqrt{\frac{L}{g}}$, where $L$ is the length and $g$ is the acceleration due to gravity. Frequency is the inverse of period: $f = \frac{1}{T} = \frac{1}{2 \pi} \sqrt{\frac{g}{L}}$. If the length $L$ is doubled to $2L$, the new frequency $f'$ is:<br />
+$$
+f' = \frac{1}{2 \pi} \sqrt{\frac{g}{2L}}
+$$<br />
+Compare with the original frequency $f$:<br />
+$$
+\frac{f'}{f} = \frac{\sqrt{\frac{g}{2L}}}{\sqrt{\frac{g}{L}}} = \sqrt{\frac{g}{2L} \cdot \frac{L}{g}} = \sqrt{\frac{1}{2}} = \frac{1}{\sqrt{2}}
+$$<br />
+Thus, the frequency decreases by a factor of $\sqrt{2}$.</p>
+<ul>
+<li>(a) Incorrect: Frequency decreases, does not increase.</li>
+<li>(b) Correct: Frequency scales as $\frac{1}{\sqrt{2}}$ when $L$ is doubled.</li>
+<li>(c) Incorrect: Frequency decreases by $\frac{1}{\sqrt{2}}$, not $\frac{1}{2}$ (which would be if $T$ scaled linearly with $L$).</li>
+<li>(d) Incorrect: Frequency changes with length in a pendulum.<br />
+The answer is (b) Decreases by a factor of $\sqrt{2}$.</li>
+<li><strong>JEE/NEET Tip</strong>: Frequency is inversely proportional to $\sqrt{L}$; doubling $L$ increases $T$ by $\sqrt{2}$, reducing $f$ by $\frac{1}{\sqrt{2}}$. Common error: Assuming $T \propto L$, which would incorrectly suggest $f$ decreases by a factor of 2.</li>
+</ul>
+<hr />
+<h2 id="derivation-solutions">Derivation Solutions</h2>
+<h3 id="solution-51">Solution 51</h3>
+<p><strong>Problem</strong>: Derive the equation of motion for SHM $a = -\omega^2 x$.</p>
+<p><strong>Solution</strong>:<br />
+Consider a spring-mass system, a classic example of SHM. A mass $m$ is attached to a spring with spring constant $k$. When displaced by $x$ from equilibrium, the spring exerts a restoring force given by Hooke’s law: $F = -k x$, where the negative sign indicates the force acts opposite to the displacement, toward equilibrium. Apply Newton’s second law, $F = m a$, where $a$ is the acceleration:<br />
+$$
+m a = -k x
+$$<br />
+Divide through by $m$:<br />
+$$
+a = -\frac{k}{m} x
+$$<br />
+This matches the form of SHM, $a = -\omega^2 x$, where $\omega$ is the angular frequency. Equate the coefficients:<br />
+$$
+\omega^2 = \frac{k}{m} \quad \Rightarrow \quad \omega = \sqrt{\frac{k}{m}}
+$$<br />
+Thus, the equation of motion for SHM is $a = -\omega^2 x$, with $\omega = \sqrt{\frac{k}{m}}$. This is used in Problem 1 to find $T = 2 \pi \sqrt{\frac{m}{k}} = 2 \pi \sqrt{\frac{0.8}{320}} \approx 0.31 , \text{s}$.</p>
+<ul>
+<li><strong>JEE/NEET Tip</strong>: The SHM equation $a = -\omega^2 x$ applies to any system with a linear restoring force; identify $\omega$ based on the system (e.g., $\sqrt{\frac{k}{m}}$ for springs). Common error: Forgetting the negative sign, which defines the oscillatory nature of SHM.</li>
+</ul>
+<h3 id="solution-53">Solution 53</h3>
+<p><strong>Problem</strong>: Derive the total energy in SHM $E = \frac{1}{2} k A^2$.</p>
+<p><strong>Solution</strong>:<br />
+In SHM, total mechanical energy is conserved (assuming no damping). Consider a spring-mass system with mass $m$, spring constant $k$, and amplitude $A$. The position is $x(t) = A \cos(\omega t + \phi)$, where $\omega = \sqrt{\frac{k}{m}}$.</p>
+<ul>
+<li><strong>Potential Energy</strong>: The potential energy in a spring is $U = \frac{1}{2} k x^2$. At maximum displacement ($x = A$), $U_{\text{max}} = \frac{1}{2} k A^2$.</li>
+<li><strong>Kinetic Energy</strong>: Velocity is $v = \frac{dx}{dt} = -A \omega \sin(\omega t + \phi)$. Kinetic energy is $K = \frac{1}{2} m v^2 = \frac{1}{2} m (A \omega \sin(\omega t + \phi))^2$. At $x = 0$, $v = \pm A \omega$, so $K_{\text{max}} = \frac{1}{2} m (A \omega)^2 = \frac{1}{2} m A^2 \frac{k}{m} = \frac{1}{2} k A^2$.</li>
+<li><strong>Total Energy</strong>: Energy conservation gives $E = K + U$. At $x = A$, $K = 0$, $U = \frac{1}{2} k A^2$, so $E = \frac{1}{2} k A^2$. At $x = 0$, $U = 0$, $K = \frac{1}{2} k A^2$, so $E = \frac{1}{2} k A^2$. Generally:<br />
+$$
+E = \frac{1}{2} k x^2 + \frac{1}{2} m v^2 = \frac{1}{2} k (A \cos(\omega t + \phi))^2 + \frac{1}{2} m (A \omega \sin(\omega t + \phi))^2
+$$<br />
+Substitute $\omega^2 = \frac{k}{m}$, simplify using $\cos^2 \theta + \sin^2 \theta = 1$, and confirm $E = \frac{1}{2} k A^2$, as used in Problem 4 ($E = \frac{1}{2} \times 150 \times (0.08)^2 = 0.48 , \text{J}$).</li>
+<li><strong>JEE/NEET Tip</strong>: Total energy is constant in ideal SHM; use $A$ for maximum energy calculations. Common error: Confusing $x$ with $A$ when calculating total energy.</li>
+</ul>
+<hr />
+<h2 id="neet-style-solutions">NEET-style Solutions</h2>
+<h3 id="solution-96">Solution 96</h3>
+<p><strong>Problem</strong>: A spring-mass system has $m = 0.4 , \text{kg}$ and $k = 160 , \text{N/m}$. What is the period of oscillation?</p>
+<ul>
+<li>(a) $0.31 , \text{s}$</li>
+<li>(b) $0.32 , \text{s}$</li>
+<li>(c) $0.33 , \text{s}$</li>
+<li>(d) $0.34 , \text{s}$</li>
+</ul>
+<p><strong>Solution</strong>:<br />
+The period of a spring-mass system in SHM is $T = 2 \pi \sqrt{\frac{m}{k}}$. Given $m = 0.4 , \text{kg}$ and $k = 160 , \text{N/m}$:<br />
+$$
+T = 2 \pi \sqrt{\frac{0.4}{160}}
+$$<br />
+Compute: $\frac{0.4}{160} = 0.0025$, $\sqrt{0.0025} = 0.05$, so $T = 2 \pi \times 0.05 \approx 2 \times 3.1416 \times 0.05 \approx 0.31416 , \text{s}$. Round to two decimal places: $T \approx 0.31 , \text{s}$.<br />
+The answer is (a) $0.31 , \text{s}$.</p>
+<ul>
+<li><strong>JEE/NEET Tip</strong>: Period calculations are straightforward with $T = 2 \pi \sqrt{\frac{m}{k}}$; double-check the square root. Common error: Not rounding appropriately for the given options.</li>
+</ul>
+<h3 id="solution-98">Solution 98</h3>
+<p><strong>Problem</strong>: A mass of $0.2 , \text{kg}$ on a spring ($k = 80 , \text{N/m}$) has $A = 0.05 , \text{m}$. What is the maximum velocity?</p>
+<ul>
+<li>(a) $0.95 , \text{m/s}$</li>
+<li>(b) $1.00 , \text{m/s}$</li>
+<li>(c) $1.05 , \text{m/s}$</li>
+<li>(d) $1.10 , \text{m/s}$</li>
+</ul>
+<p><strong>Solution</strong>:<br />
+In SHM, the maximum velocity occurs at the equilibrium position ($x = 0$) and is given by $v_{\text{max}} = A \omega$, where $A$ is the amplitude and $\omega = \sqrt{\frac{k}{m}}$ is the angular frequency. Given $m = 0.2 , \text{kg}$, $k = 80 , \text{N/m}$, $A = 0.05 , \text{m}$:<br />
+$$
+\omega = \sqrt{\frac{k}{m}} = \sqrt{\frac{80}{0.2}} = \sqrt{400} = 20 , \text{rad/s}
+$$<br />
+Then:<br />
+$$
+v_{\text{max}} = A \omega = 0.05 \times 20 = 1.00 , \text{m/s}
+$$<br />
+The answer is (b) $1.00 , \text{m/s}$.</p>
+<ul>
+<li><strong>JEE/NEET Tip</strong>: Maximum velocity is at $x = 0$; use $A \omega$ directly after computing $\omega$. Common error: Forgetting to calculate $\omega$ or using $x$ instead of $A$.</li>
+</ul>
+<h2 id="back-to-chapter">Back to Chapter</h2>
+<p><a href="../../oscillations">Return to Oscillations Chapter</a></p>
+<p><a href="../../oscillations/problems">Return to Oscillations Problems</a></p>
+
+        </article>
+    </div>
+
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container text-center py-5">
+            <ul class="social-list list-unstyled pt-4 mb-0">
+                
+                    <li class="list-inline-item">
+                        <a href="https:&#x2F;&#x2F;www.youtube.com&#x2F;@VidyaMargbyRaviShankar-w9u" target="_blank" title="YouTube"><i class="fab fa-youtube fa-fw"></i></a>
+                    </li>
+                
+                    <li class="list-inline-item">
+                        <a href="https:&#x2F;&#x2F;t.me&#x2F;vidyamarg1" target="_blank" title="Telegram"><i class="fab fa-telegram fa-fw"></i></a>
+                    </li>
+                
+            </ul>
+            <small class="copyright">
+                © 2025 Vidya Marg. Designed with <span class="sr-only">love</span><i class="fas fa-heart" style="color: #fb866a;"></i> by <a class="theme-link" href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers. <a class="theme-link" href="/app/privacy-policy/">Privacy Policy</a>
+            </small>
+        </div>
+    </footer>
+
+    <!-- Javascript -->          
+    <script src="https://vidyamarg.com/plugins/popper.min.js"></script>
+    <script src="https://vidyamarg.com/plugins/bootstrap/js/bootstrap.min.js"></script>  
+    
+    <!-- Page Specific JS -->
+    <script src="https://vidyamarg.com/plugins/smoothscroll.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
+    <script src="https://vidyamarg.com/js/highlight-custom.js"></script> 
+    <script src="https://vidyamarg.com/plugins/simplelightbox/simple-lightbox.min.js"></script>      
+    <script src="https://vidyamarg.com/plugins/gumshoe/gumshoe.polyfills.min.js"></script> 
+    <script src="https://vidyamarg.com/js/docs.js"></script> 
+
+    <script>
+        function renderLatex() {
+            if (typeof renderMathInElement === "undefined") {
+                setTimeout(renderLatex, 100);
+                return;
+            }
+            renderMathInElement(document.body, {
+                delimiters: [
+                    { left: "$$", right: "$$", display: true },
+                    { left: "$", right: "$", display: false },
+                    { left: "\\(", right: "\\)", display: false },
+                    { left: "\\[", right: "\\]", display: true }
+                ],
+                throwOnError: false
+            });
+        }
+
+        window.addEventListener("load", function() {
+            renderLatex();
+        });
+    </script>
+</body>
+</html>

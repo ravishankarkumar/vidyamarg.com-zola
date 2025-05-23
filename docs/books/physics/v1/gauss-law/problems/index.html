@@ -1,0 +1,1273 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <title>Vidya Marg | Physics Book - Gauss’s Law Problems for JEE &amp; NEET</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Practice 100 electrostatics problems for JEE and NEET, inspired by exam patterns, covering electric flux, Gauss’s law applications, field calculations for symmetric charge distributions, and conductors.">
+    <meta name="keywords" content="JEE physics book, NEET physics book, physics book, physics for JEE and NEET">
+    <meta property="og:image" content="https://vidyamarg.com/og-physics-book.jpg">
+    <link rel="canonical" href="https:&#x2F;&#x2F;vidyamarg.com&#x2F;books&#x2F;physics&#x2F;v1&#x2F;gauss-law&#x2F;problems&#x2F;">
+    <link rel="shortcut icon" href="https://vidyamarg.com/logos/maroon-bg-logo-128.ico">
+    
+    <!-- Preload Google Font -->
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" as="style">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript>
+        <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
+    </noscript>
+    
+    <!-- FontAwesome JS -->
+    <script defer src="https://vidyamarg.com/fontawesome/js/all.min.js"></script>
+
+    <!-- KaTeX for LaTeX rendering -->
+    <link rel="stylesheet" href="https://vidyamarg.com/katex/katex.min.css">
+    <script src="https://vidyamarg.com/katex/katex.min.js"></script>
+    <script src="https://vidyamarg.com/katex/auto-render.min.js"></script>
+
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.2/styles/atom-one-dark.min.css">
+    <link rel="stylesheet" href="https://vidyamarg.com/plugins/simplelightbox/simple-lightbox.min.css">
+
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="https://vidyamarg.com/css/theme.css">
+    <link rel="stylesheet" href="https://vidyamarg.com/css/custom.css" />
+</head> 
+
+<body>    
+    <header class="header fixed-top">
+        <div class="branding docs-branding">
+            <div class="container-fluid position-relative py-2">
+                <div class="docs-logo-wrapper">
+                    
+                    
+                    
+                    <button id="docs-sidebar-toggler" class="docs-sidebar-toggler docs-sidebar-visible me-2 d-xl-none" type="button">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    
+                    <div class="site-logo">
+                        <a class="navbar-brand" href="https://vidyamarg.com">
+                            <img class="logo-icon me-2" src="https://vidyamarg.com/logos/maroon-bg-logo-1024.png" alt="logo">
+                            <span class="logo-text">Vidya Marg</span>
+                        </a>
+                    </div>    
+                </div>
+                <div class="docs-top-utilities d-flex justify-content-end align-items-center">
+                    <ul class="nav-list list-inline mb-0 d-none d-lg-flex">
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;">Home</a>
+                            </li>
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics (Youtube series)</a>
+                            </li>
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;">Books</a>
+                            </li>
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;app&#x2F;">App</a>
+                            </li>
+                        
+                        
+                            
+                                <li class="list-inline-item">
+                                    <a href="https:&#x2F;&#x2F;www.youtube.com&#x2F;@VidyaMargbyRaviShankar-w9u" title="YouTube"><i class="fab fa-youtube fa-fw"></i></a>
+                                </li>
+                            
+                                <li class="list-inline-item">
+                                    <a href="https:&#x2F;&#x2F;t.me&#x2F;vidyamarg1" title="Telegram"><i class="fab fa-telegram fa-fw"></i></a>
+                                </li>
+                            
+                        
+                    </ul>
+                    <!-- Mobile Menu Button -->
+                    <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#mobileNav" aria-controls="mobileNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </div>
+            <!-- Mobile Menu -->
+            <div class="collapse navbar-collapse d-lg-none" id="mobileNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;">Home</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics (Youtube series)</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;books&#x2F;">Books</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;app&#x2F;">App</a>
+                        </li>
+                    
+                    
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="https:&#x2F;&#x2F;www.youtube.com&#x2F;@VidyaMargbyRaviShankar-w9u"><i class="fab fa-youtube fa-fw"></i> YouTube</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="https:&#x2F;&#x2F;t.me&#x2F;vidyamarg1"><i class="fab fa-telegram fa-fw"></i> Telegram</a>
+                            </li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="docs-wrapper">
+        
+        
+        
+        <div id="docs-sidebar" class="docs-sidebar">
+            <nav id="docs-nav" class="docs-nav navbar">
+                
+                    
+                        
+
+<ul class="nav flex-column">
+    <!-- Navigation Menu (visible only in mobile view) -->
+    <li class="nav-item d-lg-none">
+        <span class="nav-link">Navigation</span>
+        <ul class="nav flex-column">
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;">Home</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics (Youtube series)</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;books&#x2F;">Books</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;app&#x2F;">App</a>
+                </li>
+            
+        </ul>
+    </li>
+
+    <!-- JEE/NEET Physics Section -->
+    
+    <li class="nav-item">
+        <span class="nav-link">Physics for JEE&#x2F;NEET</span>
+        <ul class="nav flex-column">
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics for JEE&#x2F;NEET</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;maths-basics-for-physics&#x2F;">Maths Basics for Physics</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;units-and-dimensions&#x2F;">Units and Dimensions</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;physical-quantities-and-si-units&#x2F;">Physical Quantities and SI Units</a>
+                </li>
+            
+        </ul>
+    </li>
+
+    <!-- Books Section -->
+    
+    <li class="nav-item">
+        <span class="nav-link">Books</span>
+        <ul class="nav flex-column">
+            <!-- JEE/NEET Physics Book (Version 1) -->
+            
+            <li class="nav-item">
+                <a class="nav-link" href="/books/physics/v1/">Physics Book</a>
+                
+                    <ul class="nav flex-column">
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;measurement&#x2F;">Measurement</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;motion-straight-line&#x2F;">Motion Along a Straight Line</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;vectors&#x2F;">Vectors</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;motion-2d-3d&#x2F;">Motion in Two and Three Dimensions</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;force-motion-1&#x2F;">Force and Motion—I</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;force-motion-2&#x2F;">Force and Motion—II</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;kinetic-energy-work&#x2F;">Kinetic Energy and Work</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;potential-energy-conservation&#x2F;">Potential Energy and Conservation of Energy</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;center-mass-momentum&#x2F;">Center of Mass and Linear Momentum</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;rotation&#x2F;">Rotation</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;rolling-torque-angular-momentum&#x2F;">Rolling, Torque, and Angular Momentum</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;equilibrium-elasticity&#x2F;">Equilibrium and Elasticity</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;gravitation&#x2F;">Gravitation</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;fluids&#x2F;">Fluids</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;oscillations&#x2F;">Oscillations</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;waves-1&#x2F;">Waves—I</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;waves-2&#x2F;">Waves—II</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;kinetic-theory-gases&#x2F;">The Kinetic Theory of Gases</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;thermodynamics-temperature-heat&#x2F;">Temperature, Heat, and the First Law of Thermodynamics</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;entropy-thermodynamics&#x2F;">Entropy and the Second Law of Thermodynamics</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electric-fields&#x2F;">Electric Fields</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;gauss-law&#x2F;">Gauss’s Law</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electric-potential&#x2F;">Electric Potential</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;capacitance&#x2F;">Capacitance</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;current-resistance&#x2F;">Current and Resistance</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;circuits&#x2F;">Circuits</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;magnetic-fields&#x2F;">Magnetic Fields</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;magnetic-fields-currents&#x2F;">Magnetic Fields Due to Currents</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;induction-inductance&#x2F;">Induction and Inductance</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electromagnetic-oscillations-ac&#x2F;">Electromagnetic Oscillations and Alternating Current</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electromagnetic-waves&#x2F;">Electromagnetic Waves</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;images&#x2F;">Images</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;interference&#x2F;">Interference</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;diffraction&#x2F;">Diffraction</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;photons-matter-waves&#x2F;">Photons and Matter Waves</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;matter-waves-advanced&#x2F;">More About Matter Waves</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;atoms&#x2F;">All About Atoms</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;nuclear-physics&#x2F;">Nuclear Physics</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;nuclear-energy&#x2F;">Energy from the Nucleus</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;quarks-leptons&#x2F;">Quarks, Leptons, and the Big Bang</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;relativity&#x2F;">Relativity</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;conduction-solids&#x2F;">Conduction of Electricity in Solids</a>
+                            </li>
+                        
+                    </ul>
+                
+            </li>
+        </ul>
+    </li>
+</ul>
+                    
+                
+            </nav>
+        </div>
+        
+
+        <div class="docs-content">
+            
+    <div class="docs-main">
+        <article class="docs-article">
+            <h1 id="gauss-s-law-problems">Gauss’s Law Problems</h1>
+<p>This section provides <strong>100 problems</strong> to test your understanding of Gauss’s law, including electric flux calculations, field computations for symmetric charge distributions, conductors, and charged surfaces. Inspired by JEE Main, JEE Advanced, and NEET exam patterns, these problems are tailored for exam preparation, offering a mix of numerical, conceptual, and derivation-based challenges. NEET-style problems (66–100) are formatted as multiple-choice questions (MCQs) to match the exam’s objective format. Problems are organized by type to support progressive learning and build confidence in mastering electrostatics, a key topic for JEE/NEET success.</p>
+<h2 id="numerical-problems">Numerical Problems</h2>
+<ol>
+<li>
+<p>A uniform electric field $\vec{E} = 600 \hat{i} , \text{N/C}$ passes through a square surface of side $0.3 , \text{m}$ in the yz-plane. Calculate the electric flux through the surface.</p>
+<ul>
+<li>(a) $53.9 , \text{N·m}^2/\text{C}$</li>
+<li>(b) $54.0 , \text{N·m}^2/\text{C}$</li>
+<li>(c) $54.1 , \text{N·m}^2/\text{C}$</li>
+<li>(d) $54.2 , \text{N·m}^2/\text{C}$</li>
+</ul>
+</li>
+<li>
+<p>A point charge $q = 4 , \mu\text{C}$ is at the center of a spherical Gaussian surface of radius $0.2 , \text{m}$. Calculate the electric flux through the surface ($\epsilon_0 = 8.85 \times 10^{-12} , \text{C}^2/\text{N·m}^2$).</p>
+<ul>
+<li>(a) $4.51 \times 10^5 , \text{N·m}^2/\text{C}$</li>
+<li>(b) $4.52 \times 10^5 , \text{N·m}^2/\text{C}$</li>
+<li>(c) $4.53 \times 10^5 , \text{N·m}^2/\text{C}$</li>
+<li>(d) $4.54 \times 10^5 , \text{N·m}^2/\text{C}$</li>
+</ul>
+</li>
+<li>
+<p>A charge $q = 2 , \mu\text{C}$ is inside a cube of side $0.1 , \text{m}$. Calculate the electric flux through one face of the cube.</p>
+<ul>
+<li>(a) $3.76 \times 10^4 , \text{N·m}^2/\text{C}$</li>
+<li>(b) $3.77 \times 10^4 , \text{N·m}^2/\text{C}$</li>
+<li>(c) $3.78 \times 10^4 , \text{N·m}^2/\text{C}$</li>
+<li>(d) $3.79 \times 10^4 , \text{N·m}^2/\text{C}$</li>
+</ul>
+</li>
+<li>
+<p>An infinite line charge has linear charge density $\lambda = 3 \times 10^{-6} , \text{C/m}$. Calculate the electric field at a distance $r = 0.5 , \text{m}$ from the line ($k = 9 \times 10^9 , \text{N·m}^2/\text{C}^2$).</p>
+<ul>
+<li>(a) $1.07 \times 10^4 , \text{N/C}$</li>
+<li>(b) $1.08 \times 10^4 , \text{N/C}$</li>
+<li>(c) $1.09 \times 10^4 , \text{N/C}$</li>
+<li>(d) $1.10 \times 10^4 , \text{N/C}$</li>
+</ul>
+</li>
+<li>
+<p>An infinite plane sheet has surface charge density $\sigma = 5 \times 10^{-6} , \text{C/m}^2$. Calculate the electric field near the sheet.</p>
+<ul>
+<li>(a) $2.82 \times 10^5 , \text{N/C}$</li>
+<li>(b) $2.83 \times 10^5 , \text{N/C}$</li>
+<li>(c) $2.84 \times 10^5 , \text{N/C}$</li>
+<li>(d) $2.85 \times 10^5 , \text{N/C}$</li>
+</ul>
+</li>
+<li>
+<p>A spherical shell of radius $R = 0.1 , \text{m}$ has total charge $Q = 6 , \mu\text{C}$. Calculate the electric field at $r = 0.05 , \text{m}$ and $r = 0.3 , \text{m}$.</p>
+<ul>
+<li>(a) $0, 6.00 \times 10^5 , \text{N/C}$</li>
+<li>(b) $0, 6.01 \times 10^5 , \text{N/C}$</li>
+<li>(c) $0, 6.02 \times 10^5 , \text{N/C}$</li>
+<li>(d) $0, 6.03 \times 10^5 , \text{N/C}$</li>
+</ul>
+</li>
+<li>
+<p>A solid sphere of radius $R = 0.2 , \text{m}$ has volume charge density $\rho = 2 \times 10^{-6} , \text{C/m}^3$. Calculate the electric field at $r = 0.1 , \text{m}$.</p>
+<ul>
+<li>(a) $3.76 \times 10^5 , \text{N/C}$</li>
+<li>(b) $3.77 \times 10^5 , \text{N/C}$</li>
+<li>(c) $3.78 \times 10^5 , \text{N/C}$</li>
+<li>(d) $3.79 \times 10^5 , \text{N/C}$</li>
+</ul>
+</li>
+<li>
+<p>A spherical conductor of radius $R = 0.15 , \text{m}$ has charge $Q = 8 , \mu\text{C}$. Calculate the electric field just outside the surface.</p>
+<ul>
+<li>(a) $3.19 \times 10^6 , \text{N/C}$</li>
+<li>(b) $3.20 \times 10^6 , \text{N/C}$</li>
+<li>(c) $3.21 \times 10^6 , \text{N/C}$</li>
+<li>(d) $3.22 \times 10^6 , \text{N/C}$</li>
+</ul>
+</li>
+<li>
+<p>Two parallel infinite sheets have surface charge densities $\sigma_1 = 4 \times 10^{-6} , \text{C/m}^2$ and $\sigma_2 = -4 \times 10^{-6} , \text{C/m}^2$. Calculate the electric field between the sheets.</p>
+<ul>
+<li>(a) $4.51 \times 10^5 , \text{N/C}$</li>
+<li>(b) $4.52 \times 10^5 , \text{N/C}$</li>
+<li>(c) $4.53 \times 10^5 , \text{N/C}$</li>
+<li>(d) $4.54 \times 10^5 , \text{N/C}$</li>
+</ul>
+</li>
+<li>
+<p>A thick slab extends from $z = -0.03 , \text{m}$ to $z = 0.03 , \text{m}$ with volume charge density $\rho = 1 \times 10^{-6} , \text{C/m}^3$. Calculate the electric field at $z = 0.02 , \text{m}$.</p>
+<ul>
+<li>(a) $2.25 \times 10^5 , \text{N/C}$</li>
+<li>(b) $2.26 \times 10^5 , \text{N/C}$</li>
+<li>(c) $2.27 \times 10^5 , \text{N/C}$</li>
+<li>(d) $2.28 \times 10^5 , \text{N/C}$</li>
+</ul>
+</li>
+<li>
+<p>A uniform field $\vec{E} = 400 \hat{i} , \text{N/C}$ passes through a circular surface of radius $0.5 , \text{m}$ in the yz-plane. Calculate the electric flux.</p>
+<ul>
+<li>(a) $314.0 , \text{N·m}^2/\text{C}$</li>
+<li>(b) $314.1 , \text{N·m}^2/\text{C}$</li>
+<li>(c) $314.2 , \text{N·m}^2/\text{C}$</li>
+<li>(d) $314.3 , \text{N·m}^2/\text{C}$</li>
+</ul>
+</li>
+<li>
+<p>A point charge $q = -3 , \mu\text{C}$ is at the center of a spherical surface of radius $0.4 , \text{m}$. Calculate the electric flux through the surface.</p>
+<ul>
+<li>(a) $-3.38 \times 10^5 , \text{N·m}^2/\text{C}$</li>
+<li>(b) $-3.39 \times 10^5 , \text{N·m}^2/\text{C}$</li>
+<li>(c) $-3.40 \times 10^5 , \text{N·m}^2/\text{C}$</li>
+<li>(d) $-3.41 \times 10^5 , \text{N·m}^2/\text{C}$</li>
+</ul>
+</li>
+<li>
+<p>An infinite line charge has $\lambda = 1 \times 10^{-6} , \text{C/m}$. Calculate the electric field at $r = 0.1 , \text{m}$.</p>
+<ul>
+<li>(a) $1.79 \times 10^5 , \text{N/C}$</li>
+<li>(b) $1.80 \times 10^5 , \text{N/C}$</li>
+<li>(c) $1.81 \times 10^5 , \text{N/C}$</li>
+<li>(d) $1.82 \times 10^5 , \text{N/C}$</li>
+</ul>
+</li>
+<li>
+<p>An infinite plane sheet has $\sigma = 2 \times 10^{-6} , \text{C/m}^2$. Calculate the electric field near the sheet.</p>
+<ul>
+<li>(a) $1.12 \times 10^5 , \text{N/C}$</li>
+<li>(b) $1.13 \times 10^5 , \text{N/C}$</li>
+<li>(c) $1.14 \times 10^5 , \text{N/C}$</li>
+<li>(d) $1.15 \times 10^5 , \text{N/C}$</li>
+</ul>
+</li>
+<li>
+<p>A spherical shell of radius $R = 0.3 , \text{m}$ has $Q = 9 , \mu\text{C}$. Calculate the electric field at $r = 0.5 , \text{m}$.</p>
+<ul>
+<li>(a) $3.23 \times 10^5 , \text{N/C}$</li>
+<li>(b) $3.24 \times 10^5 , \text{N/C}$</li>
+<li>(c) $3.25 \times 10^5 , \text{N/C}$</li>
+<li>(d) $3.26 \times 10^5 , \text{N/C}$</li>
+</ul>
+</li>
+<li>
+<p>A solid sphere of radius $R = 0.4 , \text{m}$ has $\rho = 3 \times 10^{-6} , \text{C/m}^3$. Calculate the electric field at $r = 0.2 , \text{m}$.</p>
+<ul>
+<li>(a) $1.12 \times 10^5 , \text{N/C}$</li>
+<li>(b) $1.13 \times 10^5 , \text{N/C}$</li>
+<li>(c) $1.14 \times 10^5 , \text{N/C}$</li>
+<li>(d) $1.15 \times 10^5 , \text{N/C}$</li>
+</ul>
+</li>
+<li>
+<p>A spherical conductor of radius $R = 0.2 , \text{m}$ has $Q = engaged in a rocket engine, a conductor plate has $\sigma = 2 \times 10^{-5} , \text{C/m}^2$. Calculate the electric field just outside the plate.</p>
+<ul>
+<li>(a) $2.25 \times 10^6 , \text{N/C}$</li>
+<li>(b) $2.26 \times 10^6 , \text{N/C}$</li>
+<li>(c) $2.27 \times 10^6 , \text{N/C}$</li>
+<li>(d) $2.28 \times 10^6 , \text{N/C}$</li>
+</ul>
+</li>
+<li>
+<p>Two parallel sheets have $\sigma_1 = 3 \times 10^{-6} , \text{C/m}^2$, $\sigma_2 = 3 \times 10^{-6} , \text{C/m}^2$. Calculate the electric field between the sheets.</p>
+<ul>
+<li>(a) $0 , \text{N/C}$</li>
+<li>(b) $1 \times 10^5 , \text{N/C}$</li>
+<li>(c) $2 \times 10^5 , \text{N/C}$</li>
+<li>(d) $3 \times 10^5 , \text{N/C}$</li>
+</ul>
+</li>
+<li>
+<p>A thick slab from $z = -0.05 , \text{m}$ to $z = 0.05 , \text{m}$ has $\rho = 2 \times 10^{-6} , \text{C/m}^3$. Calculate the electric field at $z = 0.04 , \text{m}$.</p>
+<ul>
+<li>(a) $9.03 \times 10^5 , \text{N/C}$</li>
+<li>(b) $9.04 \times 10^5 , \text{N/C}$</li>
+<li>(c) $9.05 \times 10^5 , \text{N/C}$</li>
+<li>(d) $9.06 \times 10^5 , \text{N/C}$</li>
+</ul>
+</li>
+<li>
+<p>A charge $q = 5 , \mu\text{C}$ is at the center of a spherical surface of radius $0.5 , \text{m}$. Calculate the electric flux through the surface.</p>
+<ul>
+<li>(a) $5.64 \times 10^5 , \text{N·m}^2/\text{C}$</li>
+<li>(b) $5.65 \times 10^5 , \text{N·m}^2/\text{C}$</li>
+<li>(c) $5.66 \times 10^5 , \text{N·m}^2/\text{C}$</li>
+<li>(d) $5.67 \times 10^5 , \text{N·m}^2/\text{C}$</li>
+</ul>
+</li>
+<li>
+<p>A uniform field $\vec{E} = 800 \hat{i} , \text{N/C}$ passes through a rectangular surface of dimensions $0.2 , \text{m} \times 0.3 , \text{m}$ in the yz-plane. Calculate the electric flux.</p>
+<ul>
+<li>(a) $47.9 , \text{N·m}^2/\text{C}$</li>
+<li>(b) $48.0 , \text{N·m}^2/\text{C}$</li>
+<li>(c) $48.1 , \text{N·m}^2/\text{C}$</li>
+<li>(d) $48.2 , \text{N·m}^2/\text{C}$</li>
+</ul>
+</li>
+<li>
+<p>An infinite line charge has $\lambda = 6 \times 10^{-6} , \text{C/m}$. Calculate the electric field at $r = 0.2 , \text{m}$.</p>
+<ul>
+<li>(a) $5.39 \times 10^5 , \text{N/C}$</li>
+<li>(b) $5.40 \times 10^5 , \text{N/C}$</li>
+<li>(c) $5.41 \times 10^5 , \text{N/C}$</li>
+<li>(d) $5.42 \times 10^5 , \text{N/C}$</li>
+</ul>
+</li>
+<li>
+<p>An infinite plane sheet has $\sigma = 1 \times 10^{-6} , \text{C/m}^2$. Calculate the electric field near the sheet.</p>
+<ul>
+<li>(a) $5.64 \times 10^4 , \text{N/C}$</li>
+<li>(b) $5.65 \times 10^4 , \text{N/C}$</li>
+<li>(c) $5.66 \times 10^4 , \text{N/C}$</li>
+<li>(d) $5.67 \times 10^4 , \text{N/C}$</li>
+</ul>
+</li>
+<li>
+<p>A spherical shell of radius $R = 0.5 , \text{m}$ has $Q = 10 , \mu\text{C}$. Calculate the electric field at $r = 0.7 , \text{m}$.</p>
+<ul>
+<li>(a) $1.83 \times 10^5 , \text{N/C}$</li>
+<li>(b) $1.84 \times 10^5 , \text{N/C}$</li>
+<li>(c) $1.85 \times 10^5 , \text{N/C}$</li>
+<li>(d) $1.86 \times 10^5 , \text{N/C}$</li>
+</ul>
+</li>
+<li>
+<p>A solid sphere of radius $R = 0.1 , \text{m}$ has $\rho = 4 \times 10^{-6} , \text{C/m}^3$. Calculate the electric field at $r = 0.05 , \text{m}$.</p>
+<ul>
+<li>(a) $7.52 \times 10^5 , \text{N/C}$</li>
+<li>(b) $7.53 \times 10^5 , \text{N/C}$</li>
+<li>(c) $7.54 \times 10^5 , \text{N/C}$</li>
+<li>(d) $7.55 \times 10^5 , \text{N/C}$</li>
+</ul>
+</li>
+<li>
+<p>A spherical conductor of radius $R = 0.3 , \text{m}$ has $Q = 12 , \mu\text{C}$. Calculate the electric field just outside the surface.</p>
+<ul>
+<li>(a) $1.33 \times 10^6 , \text{N/C}$</li>
+<li>(b) $1.34 \times 10^6 , \text{N/C}$</li>
+<li>(c) $1.35 \times 10^6 , \text{N/C}$</li>
+<li>(d) $1.36 \times 10^6 , \text{N/C}$</li>
+</ul>
+</li>
+<li>
+<p>Two parallel sheets have $\sigma_1 = 6 \times 10^{-6} , \text{C/m}^2$, $\sigma_2 = -2 \times 10^{-6} , \text{C/m}^2$. Calculate the electric field between the sheets.</p>
+<ul>
+<li>(a) $2.25 \times 10^5 , \text{N/C}$</li>
+<li>(b) $2.26 \times 10^5 , \text{N/C}$</li>
+<li>(c) $2.27 \times 10^5 , \text{N/C}$</li>
+<li>(d) $2.28 \times 10^5 , \text{N/C}$</li>
+</ul>
+</li>
+<li>
+<p>A thick slab from $z = -0.02 , \text{m}$ to $z = 0.02 , \text{m}$ has $\rho = 5 \times 10^{-6} , \text{C/m}^3$. Calculate the electric field at $z = 0.01 , \text{m}$.</p>
+<ul>
+<li>(a) $5.64 \times 10^5 , \text{N/C}$</li>
+<li>(b) $5.65 \times 10^5 , \text{N/C}$</li>
+<li>(c) $5.66 \times 10^5 , \text{N/C}$</li>
+<li>(d) $5.67 \times 10^5 , \text{N/C}$</li>
+</ul>
+</li>
+<li>
+<p>A charge $q = 7 , \mu\text{C}$ is inside a cube of side $0.2 , \text{m}$. Calculate the electric flux through one face.</p>
+<ul>
+<li>(a) $1.31 \times 10^5 , \text{N·m}^2/\text{C}$</li>
+<li>(b) $1.32 \times 10^5 , \text{N·m}^2/\text{C}$</li>
+<li>(c) $1.33 \times 10^5 , \text{N·m}^2/\text{C}$</li>
+<li>(d) $1.34 \times 10^5 , \text{N·m}^2/\text{C}$</li>
+</ul>
+</li>
+<li>
+<p>An infinite line charge has $\lambda = 8 \times 10^{-6} , \text{C/m}$. Calculate the electric field at $r = 0.4 , \text{m}$.</p>
+<ul>
+<li>(a) $3.59 \times 10^5 , \text{N/C}$</li>
+<li>(b) $3.60 \times 10^5 , \text{N/C}$</li>
+<li>(c) $3.61 \times 10^5 , \text{N/C}$</li>
+<li>(d) $3.62 \times 10^5 , \text{N/C}$</li>
+</ul>
+</li>
+<li>
+<p>In a rocket ion engine, a charged plate has $\sigma = 1 \times 10^{-5} , \text{C/m}^2$. Calculate the electric field just outside the plate to guide ions.</p>
+<ul>
+<li>(a) $1.12 \times 10^6 , \text{N/C}$</li>
+<li>(b) $1.13 \times 10^6 , \text{N/C}$</li>
+<li>(c) $1.14 \times 10^6 , \text{N/C}$</li>
+<li>(d) $1.15 \times 10^6 , \text{N/C}$</li>
+</ul>
+</li>
+<li>
+<p>A spherical shell of radius $R = 0.2 , \text{m}$ has $Q = 4 , \mu\text{C}$. Calculate the electric field at $r = 0.1 , \text{m}$.</p>
+<ul>
+<li>(a) $0 , \text{N/C}$</li>
+<li>(b) $1 \times 10^5 , \text{N/C}$</li>
+<li>(c) $2 \times 10^5 , \text{N/C}$</li>
+<li>(d) $3 \times 10^5 , \text{N/C}$</li>
+</ul>
+</li>
+<li>
+<p>A solid sphere of radius $R = 0.5 , \text{m}$ has $\rho = 1 \times 10^{-6} , \text{C/m}^3$. Calculate the electric field at $r = 0.6 , \text{m}$.</p>
+<ul>
+<li>(a) $2.09 \times 10^5 , \text{N/C}$</li>
+<li>(b) $2.10 \times 10^5 , \text{N/C}$</li>
+<li>(c) $2.11 \times 10^5 , \text{N/C}$</li>
+<li>(d) $2.12 \times 10^5 , \text{N/C}$</li>
+</ul>
+</li>
+<li>
+<p>Two parallel sheets have $\sigma_1 = 5 \times 10^{-6} , \text{C/m}^2$, $\sigma_2 = 1 \times 10^{-6} , \text{C/m}^2$. Calculate the electric field outside the sheets.</p>
+<ul>
+<li>(a) $3.38 \times 10^5 , \text{N/C}$</li>
+<li>(b) $3.39 \times 10^5 , \text{N/C}$</li>
+<li>(c) $3.40 \times 10^5 , \text{N/C}$</li>
+<li>(d) $3.41 \times 10^5 , \text{N/C}$</li>
+</ul>
+</li>
+<li>
+<p>A thick slab from $z = -0.04 , \text{m}$ to $z = 0.04 , \text{m}$ has $\rho = 3 \times 10^{-6} , \text{C/m}^3$. Calculate the electric field at $z = 0.05 , \text{m}$.</p>
+<ul>
+<li>(a) $1.35 \times 10^6 , \text{N/C}$</li>
+<li>(b) $1.36 \times 10^6 , \text{N/C}$</li>
+<li>(c) $1.37 \times 10^6 , \text{N/C}$</li>
+<li>(d) $1.38 \times 10^6 , \text{N/C}$</li>
+</ul>
+</li>
+</ol>
+<hr />
+<h2 id="conceptual-problems">Conceptual Problems</h2>
+<ol start="36">
+<li>What does electric flux measure?</li>
+</ol>
+<ul>
+<li>(a) Charge enclosed</li>
+<li>(b) Flow of electric field lines through a surface</li>
+<li>(c) Electric field strength</li>
+<li>(d) Potential energy</li>
+</ul>
+<ol start="37">
+<li>What does Gauss’s law relate?</li>
+</ol>
+<ul>
+<li>(a) Electric field to potential</li>
+<li>(b) Electric flux to charge enclosed</li>
+<li>(c) Charge to distance</li>
+<li>(d) Field to energy</li>
+</ul>
+<ol start="38">
+<li>What is the key requirement for using Gauss’s law effectively?</li>
+</ol>
+<ul>
+<li>(a) High charge density</li>
+<li>(b) Symmetry in charge distribution</li>
+<li>(c) Small Gaussian surface</li>
+<li>(d) No symmetry</li>
+</ul>
+<ol start="39">
+<li>What happens to the electric field inside a spherical shell?</li>
+</ol>
+<ul>
+<li>(a) Increases with radius</li>
+<li>(b) Decreases with radius</li>
+<li>(c) Zero</li>
+<li>(d) Infinite</li>
+</ul>
+<ol start="40">
+<li>What is the unit of electric flux in SI units?</li>
+</ol>
+<ul>
+<li>(a) $\text{N·m}^2/\text{C}$</li>
+<li>(b) $\text{N/C}$</li>
+<li>(c) $\text{J}$</li>
+<li>(d) $\text{V}$</li>
+</ul>
+<ol start="41">
+<li>What does a zero electric field inside a conductor indicate?</li>
+</ol>
+<ul>
+<li>(a) No charges present</li>
+<li>(b) Charges on the surface</li>
+<li>(c) Charges inside the conductor</li>
+<li>(d) No field lines</li>
+</ul>
+<ol start="42">
+<li>What is the field direction just outside a conductor?</li>
+</ol>
+<ul>
+<li>(a) Parallel to the surface</li>
+<li>(b) Perpendicular to the surface</li>
+<li>(c) Random</li>
+<li>(d) Zero</li>
+</ul>
+<ol start="43">
+<li>What is the physical significance of $\frac{\sigma}{\epsilon_0}$?</li>
+</ol>
+<ul>
+<li>(a) Electric field inside a conductor</li>
+<li>(b) Electric field just outside a conductor</li>
+<li>(c) Electric flux</li>
+<li>(d) Charge density</li>
+</ul>
+<ol start="44">
+<li>What does the field inside a solid sphere depend on?</li>
+</ol>
+<ul>
+<li>(a) Total charge</li>
+<li>(b) Distance from the center</li>
+<li>(c) Surface charge density</li>
+<li>(d) No dependence</li>
+</ul>
+<ol start="45">
+<li>What is the dimension of electric flux?</li>
+</ol>
+<ul>
+<li>(a) $[\text{M} \text{L}^3 \text{T}^{-3} \text{A}^{-1}]$</li>
+<li>(b) $[\text{M} \text{L} \text{T}^{-1}]$</li>
+<li>(c) $[\text{L} \text{T}^{-2}]$</li>
+<li>(d) $[\text{M} \text{L}^2 \text{T}^{-1}]$</li>
+</ul>
+<ol start="46">
+<li>What does a zero flux through a closed surface indicate?</li>
+</ol>
+<ul>
+<li>(a) No electric field</li>
+<li>(b) No charge enclosed</li>
+<li>(c) Maximum field</li>
+<li>(d) No field lines</li>
+</ul>
+<ol start="47">
+<li>What is the significance of $\frac{\lambda}{2 \pi \epsilon_0 r}$?</li>
+</ol>
+<ul>
+<li>(a) Field due to a point charge</li>
+<li>(b) Field due to an infinite line charge</li>
+<li>(c) Field due to a plane</li>
+<li>(d) Field inside a conductor</li>
+</ul>
+<ol start="48">
+<li>What happens to the field between two parallel sheets with opposite charges?</li>
+</ol>
+<ul>
+<li>(a) Zero</li>
+<li>(b) Fields add</li>
+<li>(c) Fields subtract</li>
+<li>(d) Fields cancel outside</li>
+</ul>
+<ol start="49">
+<li>What does the field inside a thick slab depend on?</li>
+</ol>
+<ul>
+<li>(a) Total charge</li>
+<li>(b) Distance from the center</li>
+<li>(c) Surface charge density</li>
+<li>(d) No dependence</li>
+</ul>
+<ol start="50">
+<li>How does Gauss’s law apply to rocket ion engines?</li>
+</ol>
+<ul>
+<li>(a) Calculates magnetic fields</li>
+<li>(b) Calculates electric fields for ion acceleration</li>
+<li>(c) Reduces charge</li>
+<li>(d) Increases distance</li>
+</ul>
+<hr />
+<h2 id="derivation-problems">Derivation Problems</h2>
+<ol start="51">
+<li>
+<p>Derive Gauss’s law from Coulomb’s law for a point charge.</p>
+</li>
+<li>
+<p>Derive the electric field due to an infinite line charge using Gauss’s law.</p>
+</li>
+<li>
+<p>Derive the electric field due to an infinite plane sheet using Gauss’s law.</p>
+</li>
+<li>
+<p>Derive the electric field due to a spherical shell using Gauss’s law.</p>
+</li>
+<li>
+<p>Derive the electric field due to a uniformly charged solid sphere using Gauss’s law.</p>
+</li>
+<li>
+<p>Derive the electric field inside a conductor in electrostatic equilibrium.</p>
+</li>
+<li>
+<p>Derive the electric field just outside a conductor surface.</p>
+</li>
+<li>
+<p>Derive the electric field between two parallel charged sheets.</p>
+</li>
+<li>
+<p>Derive the electric field inside a thick slab with volume charge density.</p>
+</li>
+<li>
+<p>Derive the flux through a closed surface due to an external charge.</p>
+</li>
+<li>
+<p>Derive the field due to a spherical conductor with a cavity containing a charge.</p>
+</li>
+<li>
+<p>Derive the field outside a conductor near a point charge.</p>
+</li>
+<li>
+<p>Derive the relation $\frac{Q_{\text{enc}}}{\epsilon_0}$ for a complex charge distribution.</p>
+</li>
+<li>
+<p>Derive the field due to a cylindrical shell of charge.</p>
+</li>
+<li>
+<p>Derive the flux through a Gaussian surface with multiple charges inside and outside.</p>
+</li>
+</ol>
+<hr />
+<h2 id="neet-style-conceptual-problems">NEET-style Conceptual Problems</h2>
+<ol start="66">
+<li>What is the unit of surface charge density $\sigma$?</li>
+</ol>
+<ul>
+<li>(a) $\text{C/m}^2$</li>
+<li>(b) $\text{N/C}$</li>
+<li>(c) $\text{J}$</li>
+<li>(d) $\text{V}$</li>
+</ul>
+<ol start="67">
+<li>What does a negative electric flux through a surface indicate?</li>
+</ol>
+<ul>
+<li>(a) Field lines entering the surface</li>
+<li>(b) No charge enclosed</li>
+<li>(c) Maximum field</li>
+<li>(d) No field lines</li>
+</ul>
+<ol start="68">
+<li>Which symmetry is used for an infinite line charge?</li>
+</ol>
+<ul>
+<li>(a) Spherical</li>
+<li>(b) Cylindrical</li>
+<li>(c) Planar</li>
+<li>(d) No symmetry</li>
+</ul>
+<ol start="69">
+<li>What happens to the field inside a conductor with a cavity containing no charge?</li>
+</ol>
+<ul>
+<li>(a) Increases</li>
+<li>(b) Decreases</li>
+<li>(c) Zero</li>
+<li>(d) Infinite</li>
+</ul>
+<ol start="70">
+<li>What is the dimension of $\epsilon_0$?</li>
+</ol>
+<ul>
+<li>(a) $[\text{M}^{-1} \text{L}^{-3} \text{T}^4 \text{A}^2]$</li>
+<li>(b) $[\text{M} \text{L} \text{T}^{-1}]$</li>
+<li>(c) $[\text{L} \text{T}^{-2}]$</li>
+<li>(d) $[\text{M} \text{L}^2 \text{T}^{-1}]$</li>
+</ul>
+<ol start="71">
+<li>What does the choice of Gaussian surface depend on?</li>
+</ol>
+<ul>
+<li>(a) Charge magnitude</li>
+<li>(b) Symmetry of the charge distribution</li>
+<li>(c) Field strength</li>
+<li>(d) Potential energy</li>
+</ul>
+<ol start="72">
+<li>What is the role of symmetry in Gauss’s law?</li>
+</ol>
+<ul>
+<li>(a) Increases field strength</li>
+<li>(b) Simplifies field calculations</li>
+<li>(c) Reduces charge</li>
+<li>(d) Increases distance</li>
+</ul>
+<ol start="73">
+<li>What happens to the field inside a spherical shell at $r = 0$?</li>
+</ol>
+<ul>
+<li>(a) Maximum</li>
+<li>(b) Minimum</li>
+<li>(c) Zero</li>
+<li>(d) Infinite</li>
+</ul>
+<ol start="74">
+<li>Why does the field just outside a conductor depend on $\sigma$?</li>
+</ol>
+<ul>
+<li>(a) Due to symmetry</li>
+<li>(b) Due to Gauss’s law</li>
+<li>(c) Due to field lines</li>
+<li>(d) Due to charge quantization</li>
+</ul>
+<ol start="75">
+<li>What is the unit of linear charge density $\lambda$?</li>
+</ol>
+<ul>
+<li>(a) $\text{C/m}$</li>
+<li>(b) $\text{N/C}$</li>
+<li>(c) $\text{J}$</li>
+<li>(d) $\text{V}$</li>
+</ul>
+<ol start="76">
+<li>What does a constant field near an infinite plane indicate?</li>
+</ol>
+<ul>
+<li>(a) Field depends on distance</li>
+<li>(b) Field is independent of distance</li>
+<li>(c) Field is zero</li>
+<li>(d) Field is infinite</li>
+</ul>
+<ol start="77">
+<li>Which type of charge distribution produces a field proportional to $r$ inside?</li>
+</ol>
+<ul>
+<li>(a) Spherical shell</li>
+<li>(b) Infinite plane</li>
+<li>(c) Solid sphere</li>
+<li>(d) Line charge</li>
+</ul>
+<ol start="78">
+<li>What is the direction of the field between two parallel sheets with opposite charges?</li>
+</ol>
+<ul>
+<li>(a) From positive to negative</li>
+<li>(b) From negative to positive</li>
+<li>(c) Perpendicular to sheets</li>
+<li>(d) Zero</li>
+</ul>
+<ol start="79">
+<li>What does a pseudo-force do in a non-inertial frame for fields in conductors?</li>
+</ol>
+<ul>
+<li>(a) Affects perceived field</li>
+<li>(b) Affects charge distribution</li>
+<li>(c) Creates flux</li>
+<li>(d) Reduces field strength</li>
+</ul>
+<ol start="80">
+<li>What is the dimension of volume charge density $\rho$?</li>
+</ol>
+<ul>
+<li>(a) $[\text{A} \text{T} \text{L}^{-3}]$</li>
+<li>(b) $[\text{M} \text{L} \text{T}^{-1}]$</li>
+<li>(c) $[\text{L} \text{T}^{-2}]$</li>
+<li>(d) $[\text{M} \text{L}^2 \text{T}^{-1}]$</li>
+</ul>
+<ol start="81">
+<li>What is the role of Gauss’s law in rocket ion propulsion?</li>
+</ol>
+<ul>
+<li>(a) Reduces charge</li>
+<li>(b) Calculates fields for ion acceleration</li>
+<li>(c) Increases distance</li>
+<li>(d) Decreases field</li>
+</ul>
+<ol start="82">
+<li>What happens to the field inside a conductor with a cavity containing a charge?</li>
+</ol>
+<ul>
+<li>(a) Zero in the conductor material</li>
+<li>(b) Non-zero everywhere</li>
+<li>(c) Zero in the cavity</li>
+<li>(d) Infinite</li>
+</ul>
+<ol start="83">
+<li>Why does the field due to an infinite plane not depend on distance?</li>
+</ol>
+<ul>
+<li>(a) Due to symmetry</li>
+<li>(b) Due to charge quantization</li>
+<li>(c) Due to field lines</li>
+<li>(d) Due to work done</li>
+</ul>
+<ol start="84">
+<li>What is the significance of $\frac{\rho r}{3 \epsilon_0}$?</li>
+</ol>
+<ul>
+<li>(a) Field inside a spherical shell</li>
+<li>(b) Field inside a solid sphere</li>
+<li>(c) Field outside a conductor</li>
+<li>(d) Flux through a surface</li>
+</ul>
+<ol start="85">
+<li>What is the unit of $\epsilon_0$?</li>
+</ol>
+<ul>
+<li>(a) $\text{C}^2/\text{N·m}^2$</li>
+<li>(b) $\text{N·m}^2/\text{C}^2$</li>
+<li>(c) $\text{J}$</li>
+<li>(d) $\text{V}$</li>
+</ul>
+<ol start="86">
+<li>What does a zero field between two parallel sheets indicate?</li>
+</ol>
+<ul>
+<li>(a) Opposite charges</li>
+<li>(b) Same charges of equal magnitude</li>
+<li>(c) No charges</li>
+<li>(d) Infinite charges</li>
+</ul>
+<ol start="87">
+<li>What is the physical significance of $\frac{Q_{\text{enc}}}{\epsilon_0}$?</li>
+</ol>
+<ul>
+<li>(a) Electric field</li>
+<li>(b) Electric flux through a closed surface</li>
+<li>(c) Charge density</li>
+<li>(d) Potential energy</li>
+</ul>
+<ol start="88">
+<li>Why does the field inside a thick slab increase linearly?</li>
+</ol>
+<ul>
+<li>(a) Due to constant $\rho$ and increasing $Q_{\text{enc}}$</li>
+<li>(b) Due to symmetry</li>
+<li>(c) Due to field lines</li>
+<li>(d) Due to charge quantization</li>
+</ul>
+<ol start="89">
+<li>What is the dimension of $\sigma$?</li>
+</ol>
+<ul>
+<li>(a) $[\text{A} \text{T} \text{L}^{-2}]$</li>
+<li>(b) $[\text{M} \text{L} \text{T}^{-1}]$</li>
+<li>(c) $[\text{L} \text{T}^{-2}]$</li>
+<li>(d) $[\text{M} \text{L}^2 \text{T}^{-1}]$</li>
+</ul>
+<ol start="90">
+<li>How does Gauss’s law help in ion propulsion design?</li>
+</ol>
+<ul>
+<li>(a) Increases charge</li>
+<li>(b) Calculates fields for ion trajectories</li>
+<li>(c) Reduces field</li>
+<li>(d) Increases distance</li>
+</ul>
+<ol start="91">
+<li>What is the role of $Q_{\text{enc}}$ in Gauss’s law?</li>
+</ol>
+<ul>
+<li>(a) Determines field strength</li>
+<li>(b) Determines flux through the surface</li>
+<li>(c) Determines distance</li>
+<li>(d) Determines charge density</li>
+</ul>
+<ol start="92">
+<li>What does a field of $\frac{\sigma}{2 \epsilon_0}$ indicate?</li>
+</ol>
+<ul>
+<li>(a) Field due to a point charge</li>
+<li>(b) Field due to an infinite plane</li>
+<li>(c) Field inside a conductor</li>
+<li>(d) Field inside a sphere</li>
+</ul>
+<ol start="93">
+<li>What is the physical significance of $E (4 \pi r^2) = \frac{Q}{\epsilon_0}$?</li>
+</ol>
+<ul>
+<li>(a) Flux through a surface</li>
+<li>(b) Gauss’s law for a spherical surface</li>
+<li>(c) Field inside a conductor</li>
+<li>(d) Charge density</li>
+</ul>
+<ol start="94">
+<li>What is the dimension of $\lambda$?</li>
+</ol>
+<ul>
+<li>(a) $[\text{A} \text{T} \text{L}^{-1}]$</li>
+<li>(b) $[\text{M} \text{L} \text{T}^{-1}]$</li>
+<li>(c) $[\text{L} \text{T}^{-2}]$</li>
+<li>(d) $[\text{M} \text{L}^2 \text{T}^{-1}]$</li>
+</ul>
+<ol start="95">
+<li>Why does the field outside a conductor depend on total charge?</li>
+</ol>
+<ul>
+<li>(a) Due to symmetry</li>
+<li>(b) Due to Gauss’s law</li>
+<li>(c) Due to field lines</li>
+<li>(d) Due to charge quantization</li>
+</ul>
+<hr />
+<h2 id="neet-style-numerical-problems">NEET-style Numerical Problems</h2>
+<ol start="96">
+<li>A point charge $q = 1 , \mu\text{C}$ is at the center of a spherical surface of radius $0.1 , \text{m}$. Calculate the electric flux through the surface.</li>
+</ol>
+<ul>
+<li>(a) $1.12 \times 10^5 , \text{N·m}^2/\text{C}$</li>
+<li>(b) $1.13 \times 10^5 , \text{N·m}^2/\text{C}$</li>
+<li>(c) $1.14 \times 10^5 , \text{N·m}^2/\text{C}$</li>
+<li>(d) $1.15 \times 10^5 , \text{N·m}^2/\text{C}$</li>
+</ul>
+<ol start="97">
+<li>An infinite line charge has $\lambda = 2 \times 10^{-6} , \text{C/m}$. Calculate the electric field at $r = 0.3 , \text{m}$.</li>
+</ol>
+<ul>
+<li>(a) $1.19 \times 10^5 , \text{N/C}$</li>
+<li>(b) $1.20 \times 10^5 , \text{N/C}$</li>
+<li>(c) $1.21 \times 10^5 , \text{N/C}$</li>
+<li>(d) $1.22 \times 10^5 , \text{N/C}$</li>
+</ul>
+<ol start="98">
+<li>A spherical conductor of radius $R = 0.1 , \text{m}$ has $Q = 5 , \mu\text{C}$. Calculate the electric field just outside the surface.</li>
+</ol>
+<ul>
+<li>(a) $4.49 \times 10^6 , \text{N/C}$</li>
+<li>(b) $4.50 \times 10^6 , \text{N/C}$</li>
+<li>(c) $4.51 \times 10^6 , \text{N/C}$</li>
+<li>(d) $4.52 \times 10^6 , \text{N/C}$</li>
+</ul>
+<ol start="99">
+<li>Two parallel sheets have $\sigma_1 = 2 \times 10^{-6} , \text{C/m}^2$, $\sigma_2 = -2 \times 10^{-6} , \text{C/m}^2$. Calculate the electric field between the sheets.</li>
+</ol>
+<ul>
+<li>(a) $2.25 \times 10^5 , \text{N/C}$</li>
+<li>(b) $2.26 \times 10^5 , \text{N/C}$</li>
+<li>(c) $2.27 \times 10^5 , \text{N/C}$</li>
+<li>(d) $2.28 \times 10^5 , \text{N/C}$</li>
+</ul>
+<ol start="100">
+<li>A solid sphere of radius $R = 0.2 , \text{m}$ has $\rho = 2 \times 10^{-6} , \text{C/m}^3$. Calculate the electric field at $r = 0.1 , \text{m}$.<br />
+- (a) $3.76 \times 10^5 , \text{N/C}$<br />
+- (b) $3.77 \times 10^5 , \text{N/C}$<br />
+- (c) $3.78 \times 10^5 , \text{N/C}$<br />
+- (d) $3.79 \times 10^5 , \text{N/C}$</li>
+</ol>
+<h2 id="back-to-chapter">Back to Chapter</h2>
+<p><a href="../../gauss-law">Return to Gauss’s Law Chapter</a></p>
+
+        </article>
+    </div>
+
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container text-center py-5">
+            <ul class="social-list list-unstyled pt-4 mb-0">
+                
+                    <li class="list-inline-item">
+                        <a href="https:&#x2F;&#x2F;www.youtube.com&#x2F;@VidyaMargbyRaviShankar-w9u" target="_blank" title="YouTube"><i class="fab fa-youtube fa-fw"></i></a>
+                    </li>
+                
+                    <li class="list-inline-item">
+                        <a href="https:&#x2F;&#x2F;t.me&#x2F;vidyamarg1" target="_blank" title="Telegram"><i class="fab fa-telegram fa-fw"></i></a>
+                    </li>
+                
+            </ul>
+            <small class="copyright">
+                © 2025 Vidya Marg. Designed with <span class="sr-only">love</span><i class="fas fa-heart" style="color: #fb866a;"></i> by <a class="theme-link" href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers. <a class="theme-link" href="/app/privacy-policy/">Privacy Policy</a>
+            </small>
+        </div>
+    </footer>
+
+    <!-- Javascript -->          
+    <script src="https://vidyamarg.com/plugins/popper.min.js"></script>
+    <script src="https://vidyamarg.com/plugins/bootstrap/js/bootstrap.min.js"></script>  
+    
+    <!-- Page Specific JS -->
+    <script src="https://vidyamarg.com/plugins/smoothscroll.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
+    <script src="https://vidyamarg.com/js/highlight-custom.js"></script> 
+    <script src="https://vidyamarg.com/plugins/simplelightbox/simple-lightbox.min.js"></script>      
+    <script src="https://vidyamarg.com/plugins/gumshoe/gumshoe.polyfills.min.js"></script> 
+    <script src="https://vidyamarg.com/js/docs.js"></script> 
+
+    <script>
+        function renderLatex() {
+            if (typeof renderMathInElement === "undefined") {
+                setTimeout(renderLatex, 100);
+                return;
+            }
+            renderMathInElement(document.body, {
+                delimiters: [
+                    { left: "$$", right: "$$", display: true },
+                    { left: "$", right: "$", display: false },
+                    { left: "\\(", right: "\\)", display: false },
+                    { left: "\\[", right: "\\]", display: true }
+                ],
+                throwOnError: false
+            });
+        }
+
+        window.addEventListener("load", function() {
+            renderLatex();
+        });
+    </script>
+</body>
+</html>

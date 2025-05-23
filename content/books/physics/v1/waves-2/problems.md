@@ -1,7 +1,7 @@
 ---
 title: Physics Book - Waves—II Problems for JEE & NEET
 description: Practice 100 advanced wave problems for JEE and NEET, inspired by exam patterns, covering sound waves, Doppler effect, wave intensity, shock waves, and applications in acoustics and motion.
-slug: books/physics/waves-2/problems
+slug: problems
 keywords: physics waves problems, JEE physics sound waves problems, NEET physics Doppler effect problems, shock waves
 og:image: https://vidyamarg.com/og-physics-waves-2.jpg
 ---
@@ -569,4 +569,4 @@ This section provides **100 problems** to test your understanding of advanced wa
     - (d) $0.499 \, \text{W/m}^2$
 
 ## Back to Chapter
-[Return to Waves—II Chapter](./index.md)
+[Return to Waves—II Chapter](../../waves-2)

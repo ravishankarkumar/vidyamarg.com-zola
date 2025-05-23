@@ -1,14 +1,26 @@
 ---
 title: Physics Book - Relativity for JEE & NEET
 description: Comprehensive guide on special relativity for JEE and NEET, covering postulates, time dilation, length contraction, relativistic dynamics, and mass-energy equivalence, with extensive examples.
-slug: books/physics/relativity
+slug: relativity
 keywords: physics relativity, JEE physics special relativity, NEET physics time dilation, mass-energy equivalence
 og:image: https://vidyamarg.com/og-physics-relativity.jpg
 ---
 
 # Chapter 37: Relativity
 
-**Beta Version**: Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!
+
+
+<div class="callout-block callout-warning">
+    <div class="content">
+        <h4 class="callout-title">
+            <span class="callout-icon-holder me-1">
+                <i class="fas fa-exclamation-triangle"></i>
+            </span>
+            Beta Version
+        </h4>
+        <p>Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!</p>
+    </div>
+</div>
 
 Relativity, critical for understanding high-speed spacecraft navigation, reshapes our concepts of space and time. Building on electromagnetic waves (Chapter 33) and wave optics (Chapters 35–36), this chapter introduces Einstein’s special theory of relativity. For JEE Main, JEE Advanced, and NEET students, mastering relativity is essential, as it frequently appears in problems involving time dilation, length contraction, and mass-energy equivalence. This chapter, **Relativity**, covers **postulates of special relativity**, **time dilation and length contraction**, **relativistic dynamics**, and **mass-energy equivalence**, providing detailed explanations, derivations, solved examples, and practical applications to ensure conceptual clarity and problem-solving proficiency.
 
@@ -279,7 +291,7 @@ A spacecraft converts 1 kg of mass to energy: $E = m c^2 = 1 \cdot (3 \times 10^
 ## Practice Problems
 Explore our problem set with **100 problems** inspired by JEE Main, JEE Advanced, and NEET patterns to test your understanding.
 
-[View Problems](./problems.md)
+[View Problems](./problems)
 
 ## Watch on YouTube
 Our Hinglish video lessons make relativity engaging! Subscribe for updates.

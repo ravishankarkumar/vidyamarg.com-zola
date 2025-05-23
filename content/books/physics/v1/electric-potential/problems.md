@@ -1,7 +1,7 @@
 ---
 title: Physics Book - Electric Potential Problems for JEE & NEET
 description: Practice 100 electrostatics problems for JEE and NEET, inspired by exam patterns, covering electric potential, potential energy, field-potential relations, conductors, and capacitors.
-slug: books/physics/electric-potential/problems
+slug: problems
 keywords: physics electric potential problems, JEE physics potential energy problems, NEET physics potential calculations problems, electrostatics
 og:image: https://vidyamarg.com/og-physics-electric-potential.jpg
 ---
@@ -401,4 +401,4 @@ This section provides **100 problems** to test your understanding of electric po
     - (d) $3.62 \times 10^5 \, \text{V}$
 
 ## Back to Chapter
-[Return to Electric Potential Chapter](./index.md)
+[Return to Electric Potential Chapter](../../electric-potential)

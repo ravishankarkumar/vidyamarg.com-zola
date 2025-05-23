@@ -1,11 +1,8 @@
 +++
 title = "Physics book"
-description = "physics book here"
+description = "Physics book to accompany your study at Vidya Marg youtube channel"
 +++
 
-# Physics for JEE/NEET
-
-physics book here
-physics book here
-
-physics book here
+<script>
+    window.location.replace("/books/physics/v1/");
+</script>

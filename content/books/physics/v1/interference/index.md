@@ -1,14 +1,26 @@
 ---
 title: Physics Book - Interference for JEE & NEET
 description: Comprehensive guide on interference of light for JEE and NEET, covering the principle of superposition, Young's double-slit experiment, interference patterns, and applications, with extensive examples.
-slug: books/physics/interference
+slug: interference
 keywords: physics interference, JEE physics wave optics, NEET physics Young's double-slit experiment, interference patterns
 og:image: https://vidyamarg.com/og-physics-interference.jpg
 ---
 
 # Chapter 35: Interference
 
-**Beta Version**: Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!
+
+
+<div class="callout-block callout-warning">
+    <div class="content">
+        <h4 class="callout-title">
+            <span class="callout-icon-holder me-1">
+                <i class="fas fa-exclamation-triangle"></i>
+            </span>
+            Beta Version
+        </h4>
+        <p>Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!</p>
+    </div>
+</div>
 
 Interference of light, such as in spacecraft sensor systems, demonstrates the wave nature of light. Building on the concepts of electromagnetic waves (Chapter 33) and geometric optics (Chapter 34), this chapter explores interference phenomena in wave optics. For JEE Main, JEE Advanced, and NEET students, mastering interference is essential, as it frequently appears in problems involving wave superposition, fringe patterns, and thin films. This chapter, **Interference**, covers **principle of superposition**, **Young's double-slit experiment**, **interference in thin films**, and **applications of interference**, providing detailed explanations, derivations, solved examples, and practical applications to ensure conceptual clarity and problem-solving proficiency.
 
@@ -264,7 +276,7 @@ A spacecraft lens coating ($n = 1.4$, $\lambda = 500 \, \text{nm}$) uses $t = \f
 ## Practice Problems
 Explore our problem set with **100 problems** inspired by JEE Main, JEE Advanced, and NEET patterns to test your understanding.
 
-[View Problems](./problems.md)
+[View Problems](./problems)
 
 ## Watch on YouTube
 Our Hinglish video lessons make wave optics engaging! Subscribe for updates.

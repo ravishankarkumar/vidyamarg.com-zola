@@ -1,7 +1,7 @@
 ---
 title: Physics Book - Maxwell’s Equations; Magnetism of Matter Solutions for JEE & NEET
 description: Sample solutions for Maxwell’s equations and magnetism of matter problems, covering Gauss’s laws, Faraday’s law, Ampere-Maxwell law, and magnetic properties of materials, tailored for JEE and NEET preparation.
-slug: books/physics/maxwells-equations/solutions
+slug: solutions
 keywords: physics Maxwell’s equations solutions, JEE physics magnetism of matter solutions, NEET physics electromagnetic theory solutions, electromagnetism
 og:image: https://vidyamarg.com/og-physics-maxwells-equations.jpg
 ---
@@ -187,6 +187,6 @@ Magnitude: $0.0400 \, \text{V}$. The answer is (b) $0.0400 \, \text{V}$.
 - **JEE/NEET Tip**: For $N$ turns, multiply the flux change by $N$; $\mathcal{E}$ is in volts. Common error: Forgetting $N$ or using $B$ instead of $\frac{dB}{dt}$.
 
 ## Back to Chapter
-[Return to Maxwell’s Equations; Magnetism of Matter Chapter](./index.md)
+[Return to Maxwell’s Equations; Magnetism of Matter Chapter](../../maxwells-equations)
 
-[Return to Maxwell’s Equations; Magnetism of Matter Problems](./problems.md)
+[Return to Maxwell’s Equations; Magnetism of Matter Problems](../../maxwells-equations/problems)

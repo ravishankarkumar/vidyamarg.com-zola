@@ -1,14 +1,26 @@
 ---
 title: Physics Book - Vectors for JEE & NEET
 description: Comprehensive guide to vectors for JEE and NEET, covering vector representation, addition, subtraction, components, dot and cross products, and applications in physics, with extensive examples.
-slug: books/physics/vectors
+slug: vectors
 keywords: physics vectors, JEE physics vectors, NEET physics vectors, dot product, cross product
 og:image: https://vidyamarg.com/og-physics-vectors.jpg
 ---
 
 # Chapter 3: Vectors
 
-**Beta Version**: Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!
+
+
+<div class="callout-block callout-warning">
+    <div class="content">
+        <h4 class="callout-title">
+            <span class="callout-icon-holder me-1">
+                <i class="fas fa-exclamation-triangle"></i>
+            </span>
+            Beta Version
+        </h4>
+        <p>Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!</p>
+    </div>
+</div>
 
 Vectors are the cornerstone of physics, providing a mathematical framework to describe quantities with both magnitude and direction, such as displacement, velocity, acceleration, and force. Unlike scalars, which only have magnitude (e.g., speed, mass), vectors are essential for solving problems in kinematics, dynamics, electromagnetism, and beyond. For JEE Main, JEE Advanced, and NEET students, mastering vectors is critical, as they appear in questions on resultant forces, projectile motion, work-energy principles, and torque calculations. Without a solid understanding of vectors, students may find it challenging to tackle these topics effectively. This chapter offers a comprehensive exploration of vectors, covering **representation and properties**, **addition and subtraction**, **components and unit vectors in 2D and 3D**, **vector algebra**, **dot and cross products**, and **applications in physics**, ensuring a deep conceptual understanding through detailed explanations, extensive derivations, numerous solved examples, and exam-focused strategies tailored for competitive exams.
 
@@ -444,7 +456,7 @@ $$
 ## Practice Problems
 Explore our extensive problem set with **100 problems** inspired by JEE Main, JEE Advanced, and NEET patterns to test your understanding of vectors.
 
-[View Problems](./problems.md)
+[View Problems](./problems)
 
 ## Watch on YouTube
 Our Hinglish video lessons make vectors engaging for JEE and NEET! Subscribe for updates.

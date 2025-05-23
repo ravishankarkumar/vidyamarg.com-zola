@@ -1,7 +1,7 @@
 ---
 title: Physics Book - Kinetic Energy and Work Solutions for JEE & NEET
 description: Sample solutions for kinetic energy and work problems, covering work, kinetic energy, work-energy theorem, variable forces, and power, tailored for JEE and NEET preparation.
-slug: books/physics/kinetic-energy-work/solutions
+slug: solutions
 keywords: physics kinetic energy work solutions, JEE physics work-energy theorem solutions, NEET physics power solutions, variable forces
 og:image: https://vidyamarg.com/og-physics-kinetic-energy-work.jpg
 ---
@@ -174,6 +174,6 @@ The answer is (b) $2.25 \, J$.
 - **JEE/NEET Tip**: Work to stretch a spring is always positive and equals the potential energy stored; use $x^2$ for magnitude regardless of stretching or compressing. Common error: Calculating work by the spring (negative) instead of work to stretch.
 
 ## Back to Chapter
-[Return to Kinetic Energy and Work Chapter](./index.md)
+[Return to Kinetic Energy and Work Chapter](../../kinetic-energy-work)
 
-[Return to Kinetic Energy and Work Problems](./problems.md)
+[Return to Kinetic Energy and Work Problems](../../kinetic-energy-work/problems)

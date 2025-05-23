@@ -1,0 +1,285 @@
+# Default sidebar (used by sidebar.html)
+[default.sections]
+
+# JEE/NEET Physics Section
+[default.sections.jee_neet_physics]
+title = "Physics for JEE/NEET"
+[[default.sections.jee_neet_physics.pages]]
+title = "Physics for JEE/NEET"
+url = "/jee-neet/physics/"
+[[default.sections.jee_neet_physics.pages]]
+title = "Maths Basics for Physics"
+url = "/jee-neet/physics/maths-basics-for-physics/"
+[[default.sections.jee_neet_physics.pages]]
+title = "Units and Dimensions"
+url = "/jee-neet/physics/units-and-dimensions/"
+[[default.sections.jee_neet_physics.pages]]
+title = "Physical Quantities and SI Units"
+url = "/jee-neet/physics/physical-quantities-and-si-units/"
+
+# Books Section
+[default.sections.books]
+title = "Books"
+[default.sections.books.jee_neet_physics_book_v1]
+title = "Physics Book"
+[[default.sections.books.jee_neet_physics_book_v1.pages]]
+title = "Measurement"
+url = "/books/physics/v1/measurement/"
+[[default.sections.books.jee_neet_physics_book_v1.pages]]
+title = "Motion Along a Straight Line"
+url = "/books/physics/v1/motion-straight-line/"
+[[default.sections.books.jee_neet_physics_book_v1.pages]]
+title = "Vectors"
+url = "/books/physics/v1/vectors/"
+[[default.sections.books.jee_neet_physics_book_v1.pages]]
+title = "Motion in Two and Three Dimensions"
+url = "/books/physics/v1/motion-2d-3d/"
+[[default.sections.books.jee_neet_physics_book_v1.pages]]
+title = "Force and Motion—I"
+url = "/books/physics/v1/force-motion-1/"
+[[default.sections.books.jee_neet_physics_book_v1.pages]]
+title = "Force and Motion—II"
+url = "/books/physics/v1/force-motion-2/"
+[[default.sections.books.jee_neet_physics_book_v1.pages]]
+title = "Kinetic Energy and Work"
+url = "/books/physics/v1/kinetic-energy-work/"
+[[default.sections.books.jee_neet_physics_book_v1.pages]]
+title = "Potential Energy and Conservation of Energy"
+url = "/books/physics/v1/potential-energy-conservation/"
+[[default.sections.books.jee_neet_physics_book_v1.pages]]
+title = "Center of Mass and Linear Momentum"
+url = "/books/physics/v1/center-mass-momentum/"
+[[default.sections.books.jee_neet_physics_book_v1.pages]]
+title = "Rotation"
+url = "/books/physics/v1/rotation/"
+[[default.sections.books.jee_neet_physics_book_v1.pages]]
+title = "Rolling, Torque, and Angular Momentum"
+url = "/books/physics/v1/rolling-torque-angular-momentum/"
+[[default.sections.books.jee_neet_physics_book_v1.pages]]
+title = "Equilibrium and Elasticity"
+url = "/books/physics/v1/equilibrium-elasticity/"
+[[default.sections.books.jee_neet_physics_book_v1.pages]]
+title = "Gravitation"
+url = "/books/physics/v1/gravitation/"
+[[default.sections.books.jee_neet_physics_book_v1.pages]]
+title = "Fluids"
+url = "/books/physics/v1/fluids/"
+[[default.sections.books.jee_neet_physics_book_v1.pages]]
+title = "Oscillations"
+url = "/books/physics/v1/oscillations/"
+[[default.sections.books.jee_neet_physics_book_v1.pages]]
+title = "Waves—I"
+url = "/books/physics/v1/waves-1/"
+[[default.sections.books.jee_neet_physics_book_v1.pages]]
+title = "Waves—II"
+url = "/books/physics/v1/waves-2/"
+[[default.sections.books.jee_neet_physics_book_v1.pages]]
+title = "The Kinetic Theory of Gases"
+url = "/books/physics/v1/kinetic-theory-gases/"
+[[default.sections.books.jee_neet_physics_book_v1.pages]]
+title = "Temperature, Heat, and the First Law of Thermodynamics"
+url = "/books/physics/v1/thermodynamics-temperature-heat/"
+[[default.sections.books.jee_neet_physics_book_v1.pages]]
+title = "Entropy and the Second Law of Thermodynamics"
+url = "/books/physics/v1/entropy-thermodynamics/"
+[[default.sections.books.jee_neet_physics_book_v1.pages]]
+title = "Electric Fields"
+url = "/books/physics/v1/electric-fields/"
+[[default.sections.books.jee_neet_physics_book_v1.pages]]
+title = "Gauss’s Law"
+url = "/books/physics/v1/gauss-law/"
+[[default.sections.books.jee_neet_physics_book_v1.pages]]
+title = "Electric Potential"
+url = "/books/physics/v1/electric-potential/"
+[[default.sections.books.jee_neet_physics_book_v1.pages]]
+title = "Capacitance"
+url = "/books/physics/v1/capacitance/"
+[[default.sections.books.jee_neet_physics_book_v1.pages]]
+title = "Current and Resistance"
+url = "/books/physics/v1/current-resistance/"
+[[default.sections.books.jee_neet_physics_book_v1.pages]]
+title = "Circuits"
+url = "/books/physics/v1/circuits/"
+[[default.sections.books.jee_neet_physics_book_v1.pages]]
+title = "Magnetic Fields"
+url = "/books/physics/v1/magnetic-fields/"
+[[default.sections.books.jee_neet_physics_book_v1.pages]]
+title = "Magnetic Fields Due to Currents"
+url = "/books/physics/v1/magnetic-fields-currents/"
+[[default.sections.books.jee_neet_physics_book_v1.pages]]
+title = "Induction and Inductance"
+url = "/books/physics/v1/induction-inductance/"
+[[default.sections.books.jee_neet_physics_book_v1.pages]]
+title = "Electromagnetic Oscillations and Alternating Current"
+url = "/books/physics/v1/electromagnetic-oscillations-ac/"
+[[default.sections.books.jee_neet_physics_book_v1.pages]]
+title = "Electromagnetic Waves"
+url = "/books/physics/v1/electromagnetic-waves/"
+[[default.sections.books.jee_neet_physics_book_v1.pages]]
+title = "Images"
+url = "/books/physics/v1/images/"
+[[default.sections.books.jee_neet_physics_book_v1.pages]]
+title = "Interference"
+url = "/books/physics/v1/interference/"
+[[default.sections.books.jee_neet_physics_book_v1.pages]]
+title = "Diffraction"
+url = "/books/physics/v1/diffraction/"
+[[default.sections.books.jee_neet_physics_book_v1.pages]]
+title = "Photons and Matter Waves"
+url = "/books/physics/v1/photons-matter-waves/"
+[[default.sections.books.jee_neet_physics_book_v1.pages]]
+title = "More About Matter Waves"
+url = "/books/physics/v1/matter-waves-advanced/"
+[[default.sections.books.jee_neet_physics_book_v1.pages]]
+title = "All About Atoms"
+url = "/books/physics/v1/atoms/"
+[[default.sections.books.jee_neet_physics_book_v1.pages]]
+title = "Nuclear Physics"
+url = "/books/physics/v1/nuclear-physics/"
+[[default.sections.books.jee_neet_physics_book_v1.pages]]
+title = "Energy from the Nucleus"
+url = "/books/physics/v1/nuclear-energy/"
+[[default.sections.books.jee_neet_physics_book_v1.pages]]
+title = "Quarks, Leptons, and the Big Bang"
+url = "/books/physics/v1/quarks-leptons/"
+[[default.sections.books.jee_neet_physics_book_v1.pages]]
+title = "Relativity"
+url = "/books/physics/v1/relativity/"
+[[default.sections.books.jee_neet_physics_book_v1.pages]]
+title = "Conduction of Electricity in Solids"
+url = "/books/physics/v1/conduction-solids/"
+
+# Physics sidebar (used by physics_sidebar.html)
+[physics.sections]
+
+# JEE/NEET Physics Book (Version 1)
+[physics.sections.physics_book_v1]
+title = "Physics Book"
+url = "/books/physics/v1/"
+icon = "fas fa-book"
+[[physics.sections.physics_book_v1.pages]]
+title = "Measurement"
+url = "/books/physics/v1/measurement/"
+[[physics.sections.physics_book_v1.pages]]
+title = "Vectors"
+url = "/books/physics/v1/vectors/"
+[[physics.sections.physics_book_v1.pages]]
+title = "Motion Along a Straight Line"
+url = "/books/physics/v1/motion-straight-line/"
+[[physics.sections.physics_book_v1.pages]]
+title = "Motion in Two and Three Dimensions"
+url = "/books/physics/v1/motion-2d-3d/"
+[[physics.sections.physics_book_v1.pages]]
+title = "Force and Motion—I"
+url = "/books/physics/v1/force-motion-1/"
+[[physics.sections.physics_book_v1.pages]]
+title = "Force and Motion—II"
+url = "/books/physics/v1/force-motion-2/"
+[[physics.sections.physics_book_v1.pages]]
+title = "Kinetic Energy and Work"
+url = "/books/physics/v1/kinetic-energy-work/"
+[[physics.sections.physics_book_v1.pages]]
+title = "Potential Energy and Conservation of Energy"
+url = "/books/physics/v1/potential-energy-conservation/"
+[[physics.sections.physics_book_v1.pages]]
+title = "Center of Mass and Linear Momentum"
+url = "/books/physics/v1/center-mass-momentum/"
+[[physics.sections.physics_book_v1.pages]]
+title = "Rotation"
+url = "/books/physics/v1/rotation/"
+[[physics.sections.physics_book_v1.pages]]
+title = "Rolling, Torque, and Angular Momentum"
+url = "/books/physics/v1/rolling-torque-angular-momentum/"
+[[physics.sections.physics_book_v1.pages]]
+title = "Equilibrium and Elasticity"
+url = "/books/physics/v1/equilibrium-elasticity/"
+[[physics.sections.physics_book_v1.pages]]
+title = "Gravitation"
+url = "/books/physics/v1/gravitation/"
+[[physics.sections.physics_book_v1.pages]]
+title = "Fluids"
+url = "/books/physics/v1/fluids/"
+[[physics.sections.physics_book_v1.pages]]
+title = "Oscillations"
+url = "/books/physics/v1/oscillations/"
+[[physics.sections.physics_book_v1.pages]]
+title = "Waves—I"
+url = "/books/physics/v1/waves-1/"
+[[physics.sections.physics_book_v1.pages]]
+title = "Waves—II"
+url = "/books/physics/v1/waves-2/"
+[[physics.sections.physics_book_v1.pages]]
+title = "The Kinetic Theory of Gases"
+url = "/books/physics/v1/kinetic-theory-gases/"
+[[physics.sections.physics_book_v1.pages]]
+title = "Temperature, Heat, and the First Law of Thermodynamics"
+url = "/books/physics/v1/thermodynamics-1/"
+[[physics.sections.physics_book_v1.pages]]
+title = "Entropy and the Second Law of Thermodynamics"
+url = "/books/physics/v1/entropy-thermodynamics/"
+[[physics.sections.physics_book_v1.pages]]
+title = "Electric Fields"
+url = "/books/physics/v1/electric-fields/"
+[[physics.sections.physics_book_v1.pages]]
+title = "Gauss’s Law"
+url = "/books/physics/v1/gauss-law/"
+[[physics.sections.physics_book_v1.pages]]
+title = "Electric Potential"
+url = "/books/physics/v1/electric-potential/"
+[[physics.sections.physics_book_v1.pages]]
+title = "Capacitance"
+url = "/books/physics/v1/capacitance/"
+[[physics.sections.physics_book_v1.pages]]
+title = "Current and Resistance"
+url = "/books/physics/v1/current-resistance/"
+[[physics.sections.physics_book_v1.pages]]
+title = "Circuits"
+url = "/books/physics/v1/circuits/"
+[[physics.sections.physics_book_v1.pages]]
+title = "Magnetic Fields"
+url = "/books/physics/v1/magnetic-fields/"
+[[physics.sections.physics_book_v1.pages]]
+title = "Magnetic Fields Due to Currents"
+url = "/books/physics/v1/magnetic-fields-currents/"
+[[physics.sections.physics_book_v1.pages]]
+title = "Induction and Inductance"
+url = "/books/physics/v1/induction-inductance/"
+[[physics.sections.physics_book_v1.pages]]
+title = "Electromagnetic Oscillations and Alternating Current"
+url = "/books/physics/v1/electromagnetic-oscillations-ac/"
+[[physics.sections.physics_book_v1.pages]]
+title = "Electromagnetic Waves"
+url = "/books/physics/v1/electromagnetic-waves/"
+[[physics.sections.physics_book_v1.pages]]
+title = "Images"
+url = "/books/physics/v1/images/"
+[[physics.sections.physics_book_v1.pages]]
+title = "Interference"
+url = "/books/physics/v1/interference/"
+[[physics.sections.physics_book_v1.pages]]
+title = "Diffraction"
+url = "/books/physics/v1/diffraction/"
+[[physics.sections.physics_book_v1.pages]]
+title = "Photons and Matter Waves"
+url = "/books/physics/v1/photons-matter-waves/"
+[[physics.sections.physics_book_v1.pages]]
+title = "More About Matter Waves"
+url = "/books/physics/v1/matter-waves-advanced/"
+[[physics.sections.physics_book_v1.pages]]
+title = "All About Atoms"
+url = "/books/physics/v1/atoms/"
+[[physics.sections.physics_book_v1.pages]]
+title = "Nuclear Physics"
+url = "/books/physics/v1/nuclear-physics/"
+[[physics.sections.physics_book_v1.pages]]
+title = "Energy from the Nucleus"
+url = "/books/physics/v1/nuclear-energy/"
+[[physics.sections.physics_book_v1.pages]]
+title = "Quarks, Leptons, and the Big Bang"
+url = "/books/physics/v1/quarks-leptons/"
+[[physics.sections.physics_book_v1.pages]]
+title = "Relativity"
+url = "/books/physics/v1/relativity/"
+[[physics.sections.physics_book_v1.pages]]
+title = "Conduction of Electricity in Solids"
+url = "/books/physics/v1/conduction-solids/"

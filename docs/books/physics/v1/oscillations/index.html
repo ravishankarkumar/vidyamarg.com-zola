@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <title>Vidya Marg | Physics Book - Oscillations for JEE &amp; NEET</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Comprehensive guide on oscillations for JEE and NEET, covering simple harmonic motion, damped and forced oscillations, resonance, and applications, with extensive examples and exam strategies.">
+    <meta name="keywords" content="JEE physics book, NEET physics book, physics book, physics for JEE and NEET">
+    <meta property="og:image" content="https://vidyamarg.com/og-physics-book.jpg">
+    <link rel="canonical" href="https:&#x2F;&#x2F;vidyamarg.com&#x2F;books&#x2F;physics&#x2F;v1&#x2F;oscillations&#x2F;">
+    <link rel="shortcut icon" href="https://vidyamarg.com/logos/maroon-bg-logo-128.ico">
+    
+    <!-- Preload Google Font -->
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" as="style">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript>
+        <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
+    </noscript>
+    
+    <!-- FontAwesome JS -->
+    <script defer src="https://vidyamarg.com/fontawesome/js/all.min.js"></script>
+
+    <!-- KaTeX for LaTeX rendering -->
+    <link rel="stylesheet" href="https://vidyamarg.com/katex/katex.min.css">
+    <script src="https://vidyamarg.com/katex/katex.min.js"></script>
+    <script src="https://vidyamarg.com/katex/auto-render.min.js"></script>
+
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.2/styles/atom-one-dark.min.css">
+    <link rel="stylesheet" href="https://vidyamarg.com/plugins/simplelightbox/simple-lightbox.min.css">
+
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="https://vidyamarg.com/css/theme.css">
+    <link rel="stylesheet" href="https://vidyamarg.com/css/custom.css" />
+</head> 
+
+<body>    
+    <header class="header fixed-top">
+        <div class="branding docs-branding">
+            <div class="container-fluid position-relative py-2">
+                <div class="docs-logo-wrapper">
+                    
+                    
+                    
+                    <button id="docs-sidebar-toggler" class="docs-sidebar-toggler docs-sidebar-visible me-2 d-xl-none" type="button">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    
+                    <div class="site-logo">
+                        <a class="navbar-brand" href="https://vidyamarg.com">
+                            <img class="logo-icon me-2" src="https://vidyamarg.com/logos/maroon-bg-logo-1024.png" alt="logo">
+                            <span class="logo-text">Vidya Marg</span>
+                        </a>
+                    </div>    
+                </div>
+                <div class="docs-top-utilities d-flex justify-content-end align-items-center">
+                    <ul class="nav-list list-inline mb-0 d-none d-lg-flex">
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;">Home</a>
+                            </li>
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics (Youtube series)</a>
+                            </li>
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;">Books</a>
+                            </li>
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;app&#x2F;">App</a>
+                            </li>
+                        
+                        
+                            
+                                <li class="list-inline-item">
+                                    <a href="https:&#x2F;&#x2F;www.youtube.com&#x2F;@VidyaMargbyRaviShankar-w9u" title="YouTube"><i class="fab fa-youtube fa-fw"></i></a>
+                                </li>
+                            
+                                <li class="list-inline-item">
+                                    <a href="https:&#x2F;&#x2F;t.me&#x2F;vidyamarg1" title="Telegram"><i class="fab fa-telegram fa-fw"></i></a>
+                                </li>
+                            
+                        
+                    </ul>
+                    <!-- Mobile Menu Button -->
+                    <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#mobileNav" aria-controls="mobileNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </div>
+            <!-- Mobile Menu -->
+            <div class="collapse navbar-collapse d-lg-none" id="mobileNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;">Home</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics (Youtube series)</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;books&#x2F;">Books</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;app&#x2F;">App</a>
+                        </li>
+                    
+                    
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="https:&#x2F;&#x2F;www.youtube.com&#x2F;@VidyaMargbyRaviShankar-w9u"><i class="fab fa-youtube fa-fw"></i> YouTube</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="https:&#x2F;&#x2F;t.me&#x2F;vidyamarg1"><i class="fab fa-telegram fa-fw"></i> Telegram</a>
+                            </li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="docs-wrapper">
+        
+        
+        
+        <div id="docs-sidebar" class="docs-sidebar">
+            <nav id="docs-nav" class="docs-nav navbar">
+                
+                    
+                        
+
+<ul class="nav flex-column">
+    <!-- Navigation Menu (visible only in mobile view) -->
+    <li class="nav-item d-lg-none">
+        <span class="nav-link">Navigation</span>
+        <ul class="nav flex-column">
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;">Home</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics (Youtube series)</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;books&#x2F;">Books</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;app&#x2F;">App</a>
+                </li>
+            
+        </ul>
+    </li>
+
+    <!-- JEE/NEET Physics Section -->
+    
+    <li class="nav-item">
+        <span class="nav-link">Physics for JEE&#x2F;NEET</span>
+        <ul class="nav flex-column">
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics for JEE&#x2F;NEET</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;maths-basics-for-physics&#x2F;">Maths Basics for Physics</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;units-and-dimensions&#x2F;">Units and Dimensions</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;physical-quantities-and-si-units&#x2F;">Physical Quantities and SI Units</a>
+                </li>
+            
+        </ul>
+    </li>
+
+    <!-- Books Section -->
+    
+    <li class="nav-item">
+        <span class="nav-link">Books</span>
+        <ul class="nav flex-column">
+            <!-- JEE/NEET Physics Book (Version 1) -->
+            
+            <li class="nav-item">
+                <a class="nav-link" href="/books/physics/v1/">Physics Book</a>
+                
+                    <ul class="nav flex-column">
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;measurement&#x2F;">Measurement</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;motion-straight-line&#x2F;">Motion Along a Straight Line</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;vectors&#x2F;">Vectors</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;motion-2d-3d&#x2F;">Motion in Two and Three Dimensions</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;force-motion-1&#x2F;">Force and Motion—I</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;force-motion-2&#x2F;">Force and Motion—II</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;kinetic-energy-work&#x2F;">Kinetic Energy and Work</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;potential-energy-conservation&#x2F;">Potential Energy and Conservation of Energy</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;center-mass-momentum&#x2F;">Center of Mass and Linear Momentum</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;rotation&#x2F;">Rotation</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;rolling-torque-angular-momentum&#x2F;">Rolling, Torque, and Angular Momentum</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;equilibrium-elasticity&#x2F;">Equilibrium and Elasticity</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;gravitation&#x2F;">Gravitation</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;fluids&#x2F;">Fluids</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;oscillations&#x2F;">Oscillations</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;waves-1&#x2F;">Waves—I</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;waves-2&#x2F;">Waves—II</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;kinetic-theory-gases&#x2F;">The Kinetic Theory of Gases</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;thermodynamics-temperature-heat&#x2F;">Temperature, Heat, and the First Law of Thermodynamics</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;entropy-thermodynamics&#x2F;">Entropy and the Second Law of Thermodynamics</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electric-fields&#x2F;">Electric Fields</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;gauss-law&#x2F;">Gauss’s Law</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electric-potential&#x2F;">Electric Potential</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;capacitance&#x2F;">Capacitance</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;current-resistance&#x2F;">Current and Resistance</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;circuits&#x2F;">Circuits</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;magnetic-fields&#x2F;">Magnetic Fields</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;magnetic-fields-currents&#x2F;">Magnetic Fields Due to Currents</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;induction-inductance&#x2F;">Induction and Inductance</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electromagnetic-oscillations-ac&#x2F;">Electromagnetic Oscillations and Alternating Current</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electromagnetic-waves&#x2F;">Electromagnetic Waves</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;images&#x2F;">Images</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;interference&#x2F;">Interference</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;diffraction&#x2F;">Diffraction</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;photons-matter-waves&#x2F;">Photons and Matter Waves</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;matter-waves-advanced&#x2F;">More About Matter Waves</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;atoms&#x2F;">All About Atoms</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;nuclear-physics&#x2F;">Nuclear Physics</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;nuclear-energy&#x2F;">Energy from the Nucleus</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;quarks-leptons&#x2F;">Quarks, Leptons, and the Big Bang</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;relativity&#x2F;">Relativity</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;conduction-solids&#x2F;">Conduction of Electricity in Solids</a>
+                            </li>
+                        
+                    </ul>
+                
+            </li>
+        </ul>
+    </li>
+</ul>
+                    
+                
+            </nav>
+        </div>
+        
+
+        <div class="docs-content">
+            
+    <div class="docs-main">
+        <article class="docs-article">
+            <h1 id="chapter-15-oscillations">Chapter 15: Oscillations</h1>
+<div class="callout-block callout-warning">
+    <div class="content">
+        <h4 class="callout-title">
+            <span class="callout-icon-holder me-1">
+                <i class="fas fa-exclamation-triangle"></i>
+            </span>
+            Beta Version
+        </h4>
+        <p>Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!</p>
+    </div>
+</div>
+<p>Oscillations are periodic motions that underpin many physical phenomena, from the swinging of a pendulum to the vibrations of a rocket during launch. Building on the mechanics, energy, and fluid concepts from Chapters 1–14, this chapter explores oscillatory motion, a fundamental topic in physics. For JEE Main, JEE Advanced, and NEET students, mastering oscillations is essential, as it appears in problems involving simple harmonic motion (SHM), damped systems, and resonance in various applications. This chapter covers <strong>simple harmonic motion and its kinematics</strong>, <strong>energy in oscillatory systems</strong>, <strong>damped and forced oscillations</strong>, and <strong>resonance and applications</strong>, providing detailed explanations, derivations, solved examples, and practical applications to ensure conceptual clarity and problem-solving proficiency.</p>
+<h2 id="15-1-simple-harmonic-motion-and-its-kinematics">15.1 Simple Harmonic Motion and Its Kinematics</h2>
+<p><strong>Simple Harmonic Motion (SHM)</strong> is a type of periodic motion where the restoring force is proportional to the displacement and acts opposite to it. SHM is a foundational concept for understanding oscillatory systems like springs and pendulums.</p>
+<h3 id="definition-and-equation-of-shm">Definition and Equation of SHM</h3>
+<p>A system undergoes SHM if the acceleration is proportional to displacement and directed opposite to it:<br />
+$$
+a = -\omega^2 x
+$$
+where $x$ is displacement from equilibrium, $a$ is acceleration, and $\omega$ is the angular frequency (in $\text{rad/s}$). The solution to this differential equation is:<br />
+$$
+x(t) = A \cos(\omega t + \phi)
+$$</p>
+<ul>
+<li>$A$: Amplitude (maximum displacement).</li>
+<li>$\omega$: Angular frequency, $\omega = 2 \pi f = \frac{2 \pi}{T}$, where $f$ is frequency, $T$ is period.</li>
+<li>$\phi$: Phase constant (initial phase).</li>
+</ul>
+<h3 id="velocity-and-acceleration-in-shm">Velocity and Acceleration in SHM</h3>
+<ul>
+<li>Velocity: $v = \frac{dx}{dt} = -A \omega \sin(\omega t + \phi)$, maximum at $x = 0$: $v_{\text{max}} = A \omega$.</li>
+<li>Acceleration: $a = \frac{dv}{dt} = -A \omega^2 \cos(\omega t + \phi) = -\omega^2 x$, maximum at $x = \pm A$: $a_{\text{max}} = A \omega^2$.</li>
+</ul>
+<h3 id="examples-of-shm">Examples of SHM</h3>
+<ul>
+<li><strong>Spring-Mass System</strong>: Force $F = -k x$, so $a = -\frac{k}{m} x$, $\omega = \sqrt{\frac{k}{m}}$, $T = 2 \pi \sqrt{\frac{m}{k}}$.</li>
+<li><strong>Simple Pendulum (Small Angles)</strong>: For small angles, $\theta \approx \sin \theta$, restoring torque $\tau = -mgL \sin \theta \approx -mgL \theta$, angular acceleration $\alpha = -\frac{g}{L} \theta$, $\omega = \sqrt{\frac{g}{L}}$, $T = 2 \pi \sqrt{\frac{L}{g}}$.</li>
+</ul>
+<p><strong>Derivation</strong>: <strong>Equation of SHM ($a = -\omega^2 x$)</strong><br />
+For a spring-mass system, Hooke’s law gives the force: $F = -k x$. Newton’s second law: $F = m a$, so $m a = -k x$, or $a = -\frac{k}{m} x$. Compare with SHM form $a = -\omega^2 x$: $\omega^2 = \frac{k}{m}$, so $\omega = \sqrt{\frac{k}{m}}$. The differential equation $m \frac{d^2 x}{dt^2} + k x = 0$ has solution $x(t) = A \cos(\omega t + \phi)$.</p>
+<p><strong>Derivation</strong>: <strong>Period of a Simple Pendulum ($T = 2 \pi \sqrt{\frac{L}{g}}$)</strong><br />
+For a pendulum of length $L$, mass $m$, at small angle $\theta$, the restoring torque is $\tau = -mgL \sin \theta \approx -mgL \theta$. Moment of inertia about the pivot: $I = m L^2$. Angular acceleration: $\alpha = \frac{\tau}{I} = -\frac{mgL \theta}{m L^2} = -\frac{g}{L} \theta$. Compare with SHM: $\alpha = -\omega^2 \theta$, so $\omega = \sqrt{\frac{g}{L}}$, $T = \frac{2 \pi}{\omega} = 2 \pi \sqrt{\frac{L}{g}}$.</p>
+<p><strong>Derivation</strong>: <strong>Velocity and Acceleration in SHM</strong><br />
+From $x(t) = A \cos(\omega t + \phi)$, velocity: $v = \frac{dx}{dt} = -A \omega \sin(\omega t + \phi)$. Acceleration: $a = \frac{dv}{dt} = -A \omega^2 \cos(\omega t + \phi) = -\omega^2 x$. Maximum values: $v_{\text{max}} = A \omega$ (at $x = 0$), $a_{\text{max}} = A \omega^2$ (at $x = \pm A$).</p>
+<p><strong>Derivation</strong>: <strong>Period of a Spring-Mass System ($T = 2 \pi \sqrt{\frac{m}{k}}$)</strong><br />
+From $a = -\frac{k}{m} x$, we identified $\omega = \sqrt{\frac{k}{m}}$. The period is $T = \frac{2 \pi}{\omega} = 2 \pi \sqrt{\frac{m}{k}}$.</p>
+<p><strong>Solved Example</strong>: A JEE Main problem involves a spring-mass system with $m = 0.5 , \text{kg}$, $k = 200 , \text{N/m}$. Find the period of oscillation.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$T = 2 \pi \sqrt{\frac{m}{k}} = 2 \pi \sqrt{\frac{0.5}{200}} = 2 \pi \sqrt{0.0025} = 2 \pi \times 0.05 \approx 0.314 , \text{s}$.
+<ul>
+<li><strong>JEE Tip</strong>: Period depends on $m$ and $k$, not amplitude; ensure units are consistent ($m$ in kg, $k$ in N/m). Common error: Forgetting to take the square root, leading to incorrect $T$.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A NEET problem involves a simple pendulum of length $1 , \text{m}$ on Earth ($g = 9.8 , \text{m/s}^2$). Find the frequency.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$T = 2 \pi \sqrt{\frac{L}{g}} = 2 \pi \sqrt{\frac{1}{9.8}} \approx 2 \pi \times 0.319 \approx 2.01 , \text{s}$. Frequency: $f = \frac{1}{T} \approx \frac{1}{2.01} \approx 0.498 , \text{Hz}$.
+<ul>
+<li><strong>NEET Tip</strong>: Frequency is the inverse of period; small-angle approximation is key for SHM. Common error: Using $\sin \theta$ without approximation, invalidating SHM.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Advanced problem involves a mass of $0.2 , \text{kg}$ on a spring ($k = 50 , \text{N/m}$) with amplitude $0.1 , \text{m}$. Find the maximum velocity.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$\omega = \sqrt{\frac{k}{m}} = \sqrt{\frac{50}{0.2}} = \sqrt{250} \approx 15.81 , \text{rad/s}$. Maximum velocity: $v_{\text{max}} = A \omega = 0.1 \times 15.81 \approx 1.58 , \text{m/s}$.
+<ul>
+<li><strong>JEE Tip</strong>: Maximum velocity occurs at equilibrium ($x = 0$); use $A \omega$ directly. Common error: Using incorrect $\omega$ by forgetting to take the square root.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Main problem involves a pendulum with $T = 2 , \text{s}$ on Earth ($g = 9.8 , \text{m/s}^2$). Find its length.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$T = 2 \pi \sqrt{\frac{L}{g}}$, so $L = \frac{T^2 g}{(2 \pi)^2} = \frac{(2)^2 \times 9.8}{(2 \pi)^2} \approx \frac{39.2}{39.478} \approx 0.993 , \text{m}$.
+<ul>
+<li><strong>JEE Tip</strong>: Solve for $L$ by squaring both sides of the period equation; round appropriately. Common error: Forgetting to square $T$ or $2 \pi$.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Application</strong>: SHM applies to mechanical systems (e.g., springs in suspensions), clocks (pendulums), and rocketry (e.g., vibrations in rocket structures during launch).</p>
+<h2 id="15-2-energy-in-oscillatory-systems">15.2 Energy in Oscillatory Systems</h2>
+<p>Energy in oscillatory systems like SHM is conserved (in the absence of damping), oscillating between kinetic and potential forms, a key concept for energy-based problems in JEE/NEET.</p>
+<h3 id="energy-in-shm">Energy in SHM</h3>
+<ul>
+<li><strong>Potential Energy</strong>: For a spring, $U = \frac{1}{2} k x^2$. Maximum at $x = \pm A$: $U_{\text{max}} = \frac{1}{2} k A^2$.</li>
+<li><strong>Kinetic Energy</strong>: $K = \frac{1}{2} m v^2 = \frac{1}{2} m (A \omega \sin(\omega t + \phi))^2$. Maximum at $x = 0$: $K_{\text{max}} = \frac{1}{2} m (A \omega)^2 = \frac{1}{2} k A^2$.</li>
+<li><strong>Total Energy</strong>: $E = K + U = \frac{1}{2} k A^2$, constant in ideal SHM.</li>
+</ul>
+<h3 id="energy-conservation">Energy Conservation</h3>
+<p>At any point: $E = \frac{1}{2} k A^2 = \frac{1}{2} k x^2 + \frac{1}{2} m v^2$. Solve for $v$ at position $x$: $v = \omega \sqrt{A^2 - x^2}$.</p>
+<h3 id="energy-in-a-pendulum">Energy in a Pendulum</h3>
+<p>For a pendulum, potential energy is $U = m g L (1 - \cos \theta)$, kinetic energy $K = \frac{1}{2} m v^2$. Total energy is conserved for small angles, approximated as SHM.</p>
+<p><strong>Derivation</strong>: <strong>Total Energy in SHM ($E = \frac{1}{2} k A^2$)</strong><br />
+For a spring-mass system, potential energy: $U = \frac{1}{2} k x^2$. Velocity: $v = \omega \sqrt{A^2 - x^2}$, with $\omega = \sqrt{\frac{k}{m}}$. Kinetic energy: $K = \frac{1}{2} m v^2 = \frac{1}{2} m (\omega \sqrt{A^2 - x^2})^2 = \frac{1}{2} m \frac{k}{m} (A^2 - x^2) = \frac{1}{2} k (A^2 - x^2)$. Total energy:<br />
+$$
+E = U + K = \frac{1}{2} k x^2 + \frac{1}{2} k (A^2 - x^2) = \frac{1}{2} k A^2
+$$</p>
+<p><strong>Derivation</strong>: <strong>Velocity as a Function of Position ($v = \omega \sqrt{A^2 - x^2}$)</strong><br />
+From energy conservation: $\frac{1}{2} k A^2 = \frac{1}{2} k x^2 + \frac{1}{2} m v^2$. Solve for $v$:<br />
+$$
+\frac{1}{2} m v^2 = \frac{1}{2} k (A^2 - x^2) \quad \Rightarrow \quad v^2 = \frac{k}{m} (A^2 - x^2) = \omega^2 (A^2 - x^2) \quad \Rightarrow \quad v = \omega \sqrt{A^2 - x^2}
+$$</p>
+<p><strong>Derivation</strong>: <strong>Energy Oscillation in SHM</strong><br />
+At $x = A$, $U = \frac{1}{2} k A^2$, $K = 0$. At $x = 0$, $U = 0$, $K = \frac{1}{2} k A^2$. At $x = \frac{A}{\sqrt{2}}$, $U = \frac{1}{2} k \left(\frac{A}{\sqrt{2}}\right)^2 = \frac{1}{4} k A^2$, $K = \frac{1}{2} k A^2 - \frac{1}{4} k A^2 = \frac{1}{4} k A^2$, showing energy splits equally.</p>
+<p><strong>Derivation</strong>: <strong>Energy in a Pendulum for Small Angles</strong><br />
+For small $\theta$, $1 - \cos \theta \approx \frac{\theta^2}{2}$, so $U = m g L (1 - \cos \theta) \approx \frac{1}{2} m g L \theta^2$. Compare to SHM: $U = \frac{1}{2} k_{\text{eff}} \theta^2$, $k_{\text{eff}} = m g L$, $\omega = \sqrt{\frac{k_{\text{eff}}}{I}} = \sqrt{\frac{m g L}{m L^2}} = \sqrt{\frac{g}{L}}$.</p>
+<p><strong>Solved Example</strong>: A JEE Main problem involves a spring-mass system ($m = 0.4 , \text{kg}$, $k = 100 , \text{N/m}$, $A = 0.05 , \text{m}$). Find the total energy.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$E = \frac{1}{2} k A^2 = \frac{1}{2} \times 100 \times (0.05)^2 = \frac{1}{2} \times 100 \times 0.0025 = 0.125 , \text{J}$.
+<ul>
+<li><strong>JEE Tip</strong>: Total energy is constant and depends on amplitude; units are joules (N/m times m²). Common error: Using $x$ instead of $A$ for maximum energy.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A NEET problem involves a mass on a spring ($k = 50 , \text{N/m}$, $m = 0.2 , \text{kg}$, $A = 0.1 , \text{m}$). Find the velocity at $x = 0.05 , \text{m}$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$\omega = \sqrt{\frac{k}{m}} = \sqrt{\frac{50}{0.2}} = \sqrt{250} \approx 15.81 , \text{rad/s}$. $v = \omega \sqrt{A^2 - x^2} = 15.81 \sqrt{(0.1)^2 - (0.05)^2} = 15.81 \sqrt{0.01 - 0.0025} = 15.81 \times 0.0866 \approx 1.37 , \text{m/s}$.
+<ul>
+<li><strong>NEET Tip</strong>: Velocity is maximum at $x = 0$, zero at $x = \pm A$; use energy conservation for intermediate positions. Common error: Forgetting to square $A$ and $x$ in the formula.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Advanced problem involves a pendulum ($m = 0.1 , \text{kg}$, $L = 0.5 , \text{m}$, $\theta_{\text{max}} = 0.2 , \text{rad}$, $g = 9.8 , \text{m/s}^2$). Find the maximum kinetic energy.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+Maximum potential energy at $\theta_{\text{max}}$: $U_{\text{max}} = m g L (1 - \cos \theta_{\text{max}}) \approx m g L \frac{\theta_{\text{max}}^2}{2} = 0.1 \times 9.8 \times 0.5 \times \frac{(0.2)^2}{2} = 0.0098 , \text{J}$. Maximum kinetic energy (at $\theta = 0$): $K_{\text{max}} = U_{\text{max}} = 0.0098 , \text{J}$.
+<ul>
+<li><strong>JEE Tip</strong>: For small angles, use the approximation $1 - \cos \theta \approx \frac{\theta^2}{2}$; energy converts fully to kinetic at equilibrium. Common error: Not using the small-angle approximation, complicating the calculation.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Main problem involves a spring-mass system ($k = 200 , \text{N/m}$, $A = 0.02 , \text{m}$). Find the potential energy at $x = 0.01 , \text{m}$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$U = \frac{1}{2} k x^2 = \frac{1}{2} \times 200 \times (0.01)^2 = \frac{1}{2} \times 200 \times 0.0001 = 0.01 , \text{J}$.
+<ul>
+<li><strong>JEE Tip</strong>: Potential energy depends on position $x$, not amplitude; ensure $x$ is in meters. Common error: Using $A$ instead of $x$ for $U$ at a specific position.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Application</strong>: Energy in oscillatory systems applies to mechanical vibrations (e.g., car suspensions), pendulums in clocks, and rocketry (e.g., vibrational energy in rocket components during launch).</p>
+<h2 id="15-3-damped-and-forced-oscillations">15.3 Damped and Forced Oscillations</h2>
+<p>Real oscillatory systems experience damping (energy loss) and may be driven by external forces, leading to <strong>damped</strong> and <strong>forced oscillations</strong>, and phenomena like resonance.</p>
+<h3 id="damped-oscillations">Damped Oscillations</h3>
+<p>Damping introduces a resistive force, often proportional to velocity: $F_{\text{damping}} = -b v$. The equation of motion becomes:<br />
+$$
+m \frac{d^2 x}{dt^2} + b \frac{dx}{dt} + k x = 0
+$$
+Solution: $x(t) = A e^{-\gamma t} \cos(\omega' t + \phi)$, where $\gamma = \frac{b}{2m}$, $\omega' = \sqrt{\omega_0^2 - \gamma^2}$, $\omega_0 = \sqrt{\frac{k}{m}}$.</p>
+<ul>
+<li><strong>Underdamped</strong>: $\omega_0 &gt; \gamma$, oscillatory with decaying amplitude.</li>
+<li><strong>Critically Damped</strong>: $\omega_0 = \gamma$, fastest return to equilibrium without oscillation.</li>
+<li><strong>Overdamped</strong>: $\omega_0 &lt; \gamma$, slow return without oscillation.</li>
+</ul>
+<h3 id="forced-oscillations">Forced Oscillations</h3>
+<p>An external periodic force $F(t) = F_0 \cos(\omega_d t)$ drives the system:<br />
+$$
+m \frac{d^2 x}{dt^2} + b \frac{dx}{dt} + k x = F_0 \cos(\omega_d t)
+$$
+Steady-state solution: $x(t) = A \cos(\omega_d t + \phi)$, where amplitude $A$ depends on driving frequency $\omega_d$.</p>
+<h3 id="resonance">Resonance</h3>
+<p>Resonance occurs when $\omega_d \approx \omega_0$, maximizing amplitude: $A_{\text{max}} \approx \frac{F_0}{b \omega_0}$.</p>
+<p><strong>Derivation</strong>: <strong>Damped SHM Equation</strong><br />
+Newton’s second law with damping: $m \frac{d^2 x}{dt^2} = -k x - b v$, so $m \frac{d^2 x}{dt^2} + b \frac{dx}{dt} + k x = 0$. Divide by $m$: $\frac{d^2 x}{dt^2} + \frac{b}{m} \frac{dx}{dt} + \frac{k}{m} x = 0$. Define $\gamma = \frac{b}{2m}$, $\omega_0 = \sqrt{\frac{k}{m}}$, yielding the standard form: $\frac{d^2 x}{dt^2} + 2 \gamma \frac{dx}{dt} + \omega_0^2 x = 0$.</p>
+<p><strong>Derivation</strong>: <strong>Solution to Damped SHM</strong><br />
+The characteristic equation is $r^2 + 2 \gamma r + \omega_0^2 = 0$, with roots $r = -\gamma \pm \sqrt{\gamma^2 - \omega_0^2}$. For underdamped case ($\gamma &lt; \omega_0$), roots are complex: $r = -\gamma \pm i \omega'$, where $\omega' = \sqrt{\omega_0^2 - \gamma^2}$. Solution: $x(t) = A e^{-\gamma t} \cos(\omega' t + \phi)$.</p>
+<p><strong>Derivation</strong>: <strong>Resonance Amplitude</strong><br />
+For forced oscillation, steady-state amplitude: $A = \frac{F_0 / m}{\sqrt{(\omega_0^2 - \omega_d^2)^2 + (2 \gamma \omega_d)^2}}$. At resonance ($\omega_d \approx \omega_0$): $A_{\text{max}} \approx \frac{F_0 / m}{2 \gamma \omega_0} = \frac{F_0}{b \omega_0}$, since $2 \gamma = \frac{b}{m}$.</p>
+<p><strong>Derivation</strong>: <strong>Energy Decay in Damped Oscillations</strong><br />
+Energy $E \propto A^2$. Amplitude decays as $A e^{-\gamma t}$, so $E(t) \propto (A e^{-\gamma t})^2 = A^2 e^{-2 \gamma t}$, showing exponential energy decay.</p>
+<p><strong>Solved Example</strong>: A JEE Main problem involves a damped oscillator ($m = 0.1 , \text{kg}$, $k = 100 , \text{N/m}$, $b = 0.2 , \text{kg/s}$). Find the damped frequency.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$\omega_0 = \sqrt{\frac{k}{m}} = \sqrt{\frac{100}{0.1}} = \sqrt{1000} \approx 31.62 , \text{rad/s}$. $\gamma = \frac{b}{2m} = \frac{0.2}{2 \times 0.1} = 1 , \text{s}^{-1}$. Damped frequency: $\omega' = \sqrt{\omega_0^2 - \gamma^2} = \sqrt{(31.62)^2 - (1)^2} \approx \sqrt{999} \approx 31.61 , \text{rad/s}$.
+<ul>
+<li><strong>JEE Tip</strong>: Damped frequency is slightly less than natural frequency; check if underdamped ($\omega_0 &gt; \gamma$). Common error: Not squaring $\omega_0$ and $\gamma$ in the formula.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A NEET problem involves a forced oscillator ($m = 0.5 , \text{kg}$, $b = 0.1 , \text{kg/s}$, $k = 50 , \text{N/m}$, $F_0 = 2 , \text{N}$) at resonance. Find the maximum amplitude.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$\omega_0 = \sqrt{\frac{k}{m}} = \sqrt{\frac{50}{0.5}} = \sqrt{100} = 10 , \text{rad/s}$. $A_{\text{max}} = \frac{F_0}{b \omega_0} = \frac{2}{0.1 \times 10} = 2 , \text{m}$.
+<ul>
+<li><strong>NEET Tip</strong>: Resonance maximizes amplitude; use the simplified formula at $\omega_d = \omega_0$. Common error: Forgetting to use $\omega_0$ in the denominator.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Advanced problem involves a damped system ($m = 0.2 , \text{kg}$, $b = 0.4 , \text{kg/s}$, $k = 80 , \text{N/m}$). Determine the damping type.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$\omega_0 = \sqrt{\frac{80}{0.2}} = \sqrt{400} = 20 , \text{rad/s}$. $\gamma = \frac{b}{2m} = \frac{0.4}{2 \times 0.2} = 1 , \text{s}^{-1}$. Since $\omega_0 &gt; \gamma$, the system is underdamped (oscillatory with decay).
+<ul>
+<li><strong>JEE Tip</strong>: Compare $\omega_0$ and $\gamma$ to classify damping; underdamped systems oscillate. Common error: Miscalculating $\gamma$ by forgetting the factor of 2 in $2m$.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Main problem involves a rocket component vibrating ($m = 1 , \text{kg}$, $k = 500 , \text{N/m}$, $b = 10 , \text{kg/s}$). Find the time for amplitude to reduce to $1/e$ of its initial value.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$\gamma = \frac{b}{2m} = \frac{10}{2 \times 1} = 5 , \text{s}^{-1}$. Amplitude decays as $A e^{-\gamma t}$. Set $e^{-\gamma t} = \frac{1}{e}$, so $-\gamma t = -1$, $t = \frac{1}{\gamma} = \frac{1}{5} = 0.2 , \text{s}$.
+<ul>
+<li><strong>JEE Tip</strong>: Time constant for amplitude decay is $\frac{1}{\gamma}$; relevant for rocket vibrations (your interest, April 19, 2025). Common error: Using $\gamma$ instead of $\frac{1}{\gamma}$ for the time constant.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Application</strong>: Damped and forced oscillations apply to shock absorbers (damping), musical instruments (resonance), and rocketry (e.g., managing resonance in rocket engines, aligning with your interest, April 19, 2025).</p>
+<h2 id="15-4-resonance-and-applications">15.4 Resonance and Applications</h2>
+<p><strong>Resonance</strong> occurs when a system is driven at its natural frequency, leading to large amplitudes, with applications ranging from engineering to natural phenomena.</p>
+<h3 id="resonance-in-forced-oscillations">Resonance in Forced Oscillations</h3>
+<p>As derived, resonance occurs at $\omega_d \approx \omega_0$, with maximum amplitude $A_{\text{max}} \approx \frac{F_0}{b \omega_0}$. Resonance can be beneficial (e.g., tuning a radio) or destructive (e.g., bridge collapse).</p>
+<h3 id="quality-factor-q-factor">Quality Factor (Q-Factor)</h3>
+<p>The Q-factor measures the sharpness of resonance: $Q = \frac{\omega_0}{2 \gamma} = \frac{\omega_0 m}{b}$. Higher $Q$ means sharper resonance (less damping).</p>
+<h3 id="applications">Applications</h3>
+<ul>
+<li><strong>Engineering</strong>: Avoiding resonance in bridges, buildings, and rocket structures.</li>
+<li><strong>Physics</strong>: Resonance in LC circuits, musical instruments.</li>
+<li><strong>Nature</strong>: Tidal resonance, acoustic resonance in cavities.</li>
+</ul>
+<p><strong>Derivation</strong>: <strong>Q-Factor ($Q = \frac{\omega_0}{2 \gamma}$)</strong><br />
+The Q-factor is the ratio of energy stored to energy lost per cycle. Energy decays as $e^{-2 \gamma t}$, and the width of the resonance peak (bandwidth) is $\Delta \omega \approx 2 \gamma$. So, $Q = \frac{\omega_0}{\Delta \omega} \approx \frac{\omega_0}{2 \gamma}$.</p>
+<p><strong>Derivation</strong>: <strong>Resonance Frequency</strong><br />
+From the amplitude equation, $A$ peaks when $\omega_d = \omega_0$ (for light damping). For heavy damping, the peak shifts slightly to $\omega_d = \sqrt{\omega_0^2 - 2 \gamma^2}$, but $\omega_0$ is a good approximation for resonance.</p>
+<p><strong>Derivation</strong>: <strong>Energy at Resonance</strong><br />
+At resonance, $A_{\text{max}} = \frac{F_0}{b \omega_0}$. Maximum energy: $E_{\text{max}} = \frac{1}{2} k A_{\text{max}}^2 = \frac{1}{2} k \left(\frac{F_0}{b \omega_0}\right)^2$. This shows energy amplification at resonance.</p>
+<p><strong>Derivation</strong>: <strong>Resonance in a Rocket Structure</strong><br />
+A rocket component ($m = 2 , \text{kg}$, $k = 1000 , \text{N/m}$, $b = 5 , \text{kg/s}$) experiences external vibrations. Resonance frequency: $\omega_0 = \sqrt{\frac{k}{m}} = \sqrt{\frac{1000}{2}} = \sqrt{500} \approx 22.36 , \text{rad/s}$. Engineers avoid this frequency to prevent structural failure.</p>
+<p><strong>Solved Example</strong>: A JEE Main problem involves a system ($m = 0.3 , \text{kg}$, $k = 120 , \text{N/m}$, $b = 0.6 , \text{kg/s}$, $F_0 = 1.5 , \text{N}$). Find the resonance amplitude.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$\omega_0 = \sqrt{\frac{120}{0.3}} = \sqrt{400} = 20 , \text{rad/s}$. $A_{\text{max}} = \frac{F_0}{b \omega_0} = \frac{1.5}{0.6 \times 20} = 0.125 , \text{m}$.
+<ul>
+<li><strong>JEE Tip</strong>: Resonance amplifies amplitude; ensure $b$ and $\omega_0$ are in consistent units. Common error: Using $\omega_d$ instead of $\omega_0$ for resonance.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A NEET problem involves a system ($m = 0.2 , \text{kg}$, $k = 80 , \text{N/m}$, $b = 0.4 , \text{kg/s}$). Find the Q-factor.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$\omega_0 = \sqrt{\frac{80}{0.2}} = \sqrt{400} = 20 , \text{rad/s}$. $\gamma = \frac{b}{2m} = \frac{0.4}{2 \times 0.2} = 1 , \text{s}^{-1}$. $Q = \frac{\omega_0}{2 \gamma} = \frac{20}{2 \times 1} = 10$.
+<ul>
+<li><strong>NEET Tip</strong>: Q-factor indicates resonance sharpness; higher $Q$ means less damping. Common error: Forgetting the factor of 2 in $2 \gamma$.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Advanced problem involves a rocket structure ($m = 1 , \text{kg}$, $k = 400 , \text{N/m}$, $b = 2 , \text{kg/s}$). Find the resonance frequency and Q-factor.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$\omega_0 = \sqrt{\frac{400}{1}} = 20 , \text{rad/s}$, $f_0 = \frac{\omega_0}{2 \pi} \approx 3.18 , \text{Hz}$. $\gamma = \frac{b}{2m} = \frac{2}{2 \times 1} = 1 , \text{s}^{-1}$, $Q = \frac{\omega_0}{2 \gamma} = \frac{20}{2 \times 1} = 10$.
+<ul>
+<li><strong>JEE Tip</strong>: Resonance frequency is the natural frequency; critical for rocket design (your interest, April 19, 2025). Common error: Using $f_0$ instead of $\omega_0$ in Q-factor.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Main problem involves a system at resonance ($m = 0.5 , \text{kg}$, $k = 200 , \text{N/m}$, $b = 1 , \text{kg/s}$, $F_0 = 3 , \text{N}$). Find the maximum energy.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$\omega_0 = \sqrt{\frac{200}{0.5}} = 20 , \text{rad/s}$. $A_{\text{max}} = \frac{F_0}{b \omega_0} = \frac{3}{1 \times 20} = 0.15 , \text{m}$. $E_{\text{max}} = \frac{1}{2} k A_{\text{max}}^2 = \frac{1}{2} \times 200 \times (0.15)^2 = 2.25 , \text{J}$.
+<ul>
+<li><strong>JEE Tip</strong>: Energy at resonance scales with $A^2$; compute $A_{\text{max}}$ first. Common error: Forgetting to square the amplitude in energy.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Application</strong>: Resonance applies to engineering (e.g., avoiding resonance in bridges), electronics (e.g., tuning circuits), and rocketry (e.g., managing vibrational resonance in rocket engines, aligning with your interest, April 19, 2025).</p>
+<h2 id="summary-and-quick-revision">Summary and Quick Revision</h2>
+<ul>
+<li><strong>SHM Kinematics</strong>: $a = -\omega^2 x$, $x(t) = A \cos(\omega t + \phi)$, $v = -A \omega \sin(\omega t + \phi)$, $a = -\omega^2 x$. Spring: $T = 2 \pi \sqrt{\frac{m}{k}}$. Pendulum: $T = 2 \pi \sqrt{\frac{L}{g}}$ (small angles).</li>
+<li><strong>Energy</strong>: $U = \frac{1}{2} k x^2$, $K = \frac{1}{2} m v^2$, $E = \frac{1}{2} k A^2$. Velocity: $v = \omega \sqrt{A^2 - x^2}$. $K_{\text{max}} = U_{\text{max}} = \frac{1}{2} k A^2$.</li>
+<li><strong>Damped Oscillations</strong>: $m \frac{d^2 x}{dt^2} + b \frac{dx}{dt} + k x = 0$, $x(t) = A e^{-\gamma t} \cos(\omega' t + \phi)$, $\gamma = \frac{b}{2m}$, $\omega' = \sqrt{\omega_0^2 - \gamma^2}$. Types: underdamped, critically damped, overdamped.</li>
+<li><strong>Forced Oscillations and Resonance</strong>: $m \frac{d^2 x}{dt^2} + b \frac{dx}{dt} + k x = F_0 \cos(\omega_d t)$. Resonance at $\omega_d \approx \omega_0$, $A_{\text{max}} = \frac{F_0}{b \omega_0}$. Q-factor: $Q = \frac{\omega_0}{2 \gamma}$.</li>
+<li><strong>Applications</strong>: Vibrations in machines, resonance in circuits, structural dynamics in rocketry.</li>
+<li><strong>JEE/NEET Tips</strong>: Use $\omega = \sqrt{\frac{k}{m}}$ for springs, small-angle approximation for pendulums, energy conservation for velocity, identify damping type by comparing $\omega_0$ and $\gamma$, use resonance for maximum amplitude, verify significant figures (April 14, 2025), distinguish natural and damped frequencies.</li>
+<li><strong>SI Units</strong>: Period ($\text{s}$), frequency ($\text{Hz}$), angular frequency ($\text{rad/s}$), energy ($\text{J}$), damping coefficient ($\text{kg/s}$), Q-factor (dimensionless).</li>
+</ul>
+<h2 id="practice-problems">Practice Problems</h2>
+<p>Explore our problem set with <strong>100 problems</strong> inspired by JEE Main, JEE Advanced, and NEET patterns to test your understanding.</p>
+<p><a href="https://vidyamarg.com/books/physics/v1/oscillations/./problems">View Problems</a></p>
+<h2 id="watch-on-youtube">Watch on YouTube</h2>
+<p>Our Hinglish video lessons make oscillations engaging! Subscribe for updates.</p>
+<p><a href="https://www.youtube.com/@VidyaMargbyRaviShankar-w9u">Watch Now</a></p>
+<p><em>Animation for visualizing SHM, damping, and resonance coming soon!</em></p>
+<p><em>Note: Content regularly updated to align with current JEE/NEET syllabi.</em></p>
+
+        </article>
+    </div>
+
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container text-center py-5">
+            <ul class="social-list list-unstyled pt-4 mb-0">
+                
+                    <li class="list-inline-item">
+                        <a href="https:&#x2F;&#x2F;www.youtube.com&#x2F;@VidyaMargbyRaviShankar-w9u" target="_blank" title="YouTube"><i class="fab fa-youtube fa-fw"></i></a>
+                    </li>
+                
+                    <li class="list-inline-item">
+                        <a href="https:&#x2F;&#x2F;t.me&#x2F;vidyamarg1" target="_blank" title="Telegram"><i class="fab fa-telegram fa-fw"></i></a>
+                    </li>
+                
+            </ul>
+            <small class="copyright">
+                © 2025 Vidya Marg. Designed with <span class="sr-only">love</span><i class="fas fa-heart" style="color: #fb866a;"></i> by <a class="theme-link" href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers. <a class="theme-link" href="/app/privacy-policy/">Privacy Policy</a>
+            </small>
+        </div>
+    </footer>
+
+    <!-- Javascript -->          
+    <script src="https://vidyamarg.com/plugins/popper.min.js"></script>
+    <script src="https://vidyamarg.com/plugins/bootstrap/js/bootstrap.min.js"></script>  
+    
+    <!-- Page Specific JS -->
+    <script src="https://vidyamarg.com/plugins/smoothscroll.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
+    <script src="https://vidyamarg.com/js/highlight-custom.js"></script> 
+    <script src="https://vidyamarg.com/plugins/simplelightbox/simple-lightbox.min.js"></script>      
+    <script src="https://vidyamarg.com/plugins/gumshoe/gumshoe.polyfills.min.js"></script> 
+    <script src="https://vidyamarg.com/js/docs.js"></script> 
+
+    <script>
+        function renderLatex() {
+            if (typeof renderMathInElement === "undefined") {
+                setTimeout(renderLatex, 100);
+                return;
+            }
+            renderMathInElement(document.body, {
+                delimiters: [
+                    { left: "$$", right: "$$", display: true },
+                    { left: "$", right: "$", display: false },
+                    { left: "\\(", right: "\\)", display: false },
+                    { left: "\\[", right: "\\]", display: true }
+                ],
+                throwOnError: false
+            });
+        }
+
+        window.addEventListener("load", function() {
+            renderLatex();
+        });
+    </script>
+</body>
+</html>

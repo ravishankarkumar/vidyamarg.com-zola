@@ -1,7 +1,7 @@
 ---
 title: Physics Book - Interference Problems for JEE & NEET
 description: Practice 100 problems on interference of light for JEE and NEET, inspired by exam patterns, covering the principle of superposition, Young's double-slit experiment, thin film interference, and applications.
-slug: books/physics/interference/problems
+slug: problems
 keywords: physics interference problems, JEE physics wave optics problems, NEET physics Young's double-slit problems, interference patterns
 og:image: https://vidyamarg.com/og-physics-interference.jpg
 ---
@@ -569,4 +569,4 @@ This section provides **100 problems** to test your understanding of interferenc
     - (d) 5.9 V/m
 
 ## Back to Chapter
-[Return to Interference Chapter](./index.md)
+[Return to Interference Chapter](../../interference)

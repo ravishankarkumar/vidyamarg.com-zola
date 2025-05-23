@@ -1,14 +1,26 @@
 ---
 title: Physics Book - Electric Fields for JEE & NEET
 description: Comprehensive guide on electric fields for JEE and NEET, covering field definitions, calculations for charge distributions, field lines, and applications in electrostatics, with extensive examples.
-slug: books/physics/electric-fields
+slug: electric-fields
 keywords: physics electric fields, JEE physics field calculations, NEET physics field lines, electrostatics
 og:image: https://vidyamarg.com/og-physics-electric-fields.jpg
 ---
 
 # Chapter 22: Electric Fields
 
-**Beta Version**: Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!
+
+
+<div class="callout-block callout-warning">
+    <div class="content">
+        <h4 class="callout-title">
+            <span class="callout-icon-holder me-1">
+                <i class="fas fa-exclamation-triangle"></i>
+            </span>
+            Beta Version
+        </h4>
+        <p>Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!</p>
+    </div>
+</div>
 
 Electric fields describe the invisible influence of charges, playing a crucial role in applications from ion propulsion in rockets to the behavior of charged particles in capacitors. Building on Coulomb’s law from Chapter 21, this chapter explores the concept of electric fields in depth. For JEE Main, JEE Advanced, and NEET students, mastering electric fields is essential, as they appear in problems involving field calculations, motion of charges, and electrostatic devices. This chapter, **Electric Fields**, covers **electric field definition and properties**, **field due to charge distributions**, **electric field lines**, and **motion of charges in electric fields**, providing detailed explanations, derivations, solved examples, and practical applications to ensure conceptual clarity and problem-solving proficiency.
 
@@ -269,7 +281,7 @@ An ion ($q = 1.6 \times 10^{-19} \, \text{C}$, $m = 1.67 \times 10^{-27} \, \tex
 ## Practice Problems
 Explore our problem set with **100 problems** inspired by JEE Main, JEE Advanced, and NEET patterns to test your understanding.
 
-[View Problems](./problems.md)
+[View Problems](./problems)
 
 ## Watch on YouTube
 Our Hinglish video lessons make electrostatics engaging! Subscribe for updates.

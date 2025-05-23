@@ -1,8 +1,8 @@
 +++
 title = "Books"
-description = "all the books here."
+# description = "Please find Vidya Marg online booke here"
 +++
 
-# Physics for JEE/NEET
-
-all the books here.
+<script>
+    window.location.replace("/books/physics/v1/");
+</script>

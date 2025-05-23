@@ -1,7 +1,7 @@
 ---
 title: Physics Book - Coulomb’s Law Solutions for JEE & NEET
 description: Sample solutions for electrostatics problems, covering Coulomb’s law, vector forces, superposition principle, equilibrium, and electric fields, tailored for JEE and NEET preparation.
-slug: books/physics/coulombs-law/solutions
+slug: solutions
 keywords: physics Coulomb’s law solutions, JEE physics electric force solutions, NEET physics superposition principle solutions, electrostatics
 og:image: https://vidyamarg.com/og-physics-coulombs-law.jpg
 ---
@@ -168,6 +168,6 @@ The answer is (b) $5.00 \times 10^5 \hat{j} \, \text{N/C}$.
 - **JEE/NEET Tip**: Positive charge means the field points away; specify direction with unit vectors. Common error: Omitting direction, giving only magnitude.
 
 ## Back to Chapter
-[Return to Coulomb’s Law Chapter](./index.md)
+[Return to Coulomb’s Law Chapter](../../coulombs-law)
 
-[Return to Coulomb’s Law Problems](./problems.md)
+[Return to Coulomb’s Law Problems](../../coulombs-law/problems)

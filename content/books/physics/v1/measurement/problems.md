@@ -1,7 +1,7 @@
 ---
 title: Physics Book - Measurement Problems for JEE & NEET
 description: Practice 100 measurement problems for JEE and NEET, inspired by exam patterns, covering SI units, dimensional analysis, significant figures, and error analysis.
-slug: books/physics/measurement/problems
+slug: problems
 keywords: physics measurement problems, JEE physics SI units problems, NEET physics dimensional analysis problems, significant figures
 og:image: https://vidyamarg.com/og-physics-measurement.jpg
 ---
@@ -569,4 +569,4 @@ This section provides **100 problems** to test your understanding of measurement
     - (d) $17 \, J$
 
 ## Back to Chapter
-[Return to Measurement Chapter](./index.md)
+[Return to Measurement Chapter](../../measurement)

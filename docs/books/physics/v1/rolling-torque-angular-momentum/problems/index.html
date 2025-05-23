@@ -1,0 +1,1273 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <title>Vidya Marg | Physics Book - Rolling, Torque, and Angular Momentum Problems for JEE &amp; NEET</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Practice 100 problems on rolling, torque, and angular momentum for JEE and NEET, inspired by exam patterns, covering rotational dynamics, angular momentum conservation, and rolling motion.">
+    <meta name="keywords" content="JEE physics book, NEET physics book, physics book, physics for JEE and NEET">
+    <meta property="og:image" content="https://vidyamarg.com/og-physics-book.jpg">
+    <link rel="canonical" href="https:&#x2F;&#x2F;vidyamarg.com&#x2F;books&#x2F;physics&#x2F;v1&#x2F;rolling-torque-angular-momentum&#x2F;problems&#x2F;">
+    <link rel="shortcut icon" href="https://vidyamarg.com/logos/maroon-bg-logo-128.ico">
+    
+    <!-- Preload Google Font -->
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" as="style">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript>
+        <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
+    </noscript>
+    
+    <!-- FontAwesome JS -->
+    <script defer src="https://vidyamarg.com/fontawesome/js/all.min.js"></script>
+
+    <!-- KaTeX for LaTeX rendering -->
+    <link rel="stylesheet" href="https://vidyamarg.com/katex/katex.min.css">
+    <script src="https://vidyamarg.com/katex/katex.min.js"></script>
+    <script src="https://vidyamarg.com/katex/auto-render.min.js"></script>
+
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.2/styles/atom-one-dark.min.css">
+    <link rel="stylesheet" href="https://vidyamarg.com/plugins/simplelightbox/simple-lightbox.min.css">
+
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="https://vidyamarg.com/css/theme.css">
+    <link rel="stylesheet" href="https://vidyamarg.com/css/custom.css" />
+</head> 
+
+<body>    
+    <header class="header fixed-top">
+        <div class="branding docs-branding">
+            <div class="container-fluid position-relative py-2">
+                <div class="docs-logo-wrapper">
+                    
+                    
+                    
+                    <button id="docs-sidebar-toggler" class="docs-sidebar-toggler docs-sidebar-visible me-2 d-xl-none" type="button">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    
+                    <div class="site-logo">
+                        <a class="navbar-brand" href="https://vidyamarg.com">
+                            <img class="logo-icon me-2" src="https://vidyamarg.com/logos/maroon-bg-logo-1024.png" alt="logo">
+                            <span class="logo-text">Vidya Marg</span>
+                        </a>
+                    </div>    
+                </div>
+                <div class="docs-top-utilities d-flex justify-content-end align-items-center">
+                    <ul class="nav-list list-inline mb-0 d-none d-lg-flex">
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;">Home</a>
+                            </li>
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics (Youtube series)</a>
+                            </li>
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;">Books</a>
+                            </li>
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;app&#x2F;">App</a>
+                            </li>
+                        
+                        
+                            
+                                <li class="list-inline-item">
+                                    <a href="https:&#x2F;&#x2F;www.youtube.com&#x2F;@VidyaMargbyRaviShankar-w9u" title="YouTube"><i class="fab fa-youtube fa-fw"></i></a>
+                                </li>
+                            
+                                <li class="list-inline-item">
+                                    <a href="https:&#x2F;&#x2F;t.me&#x2F;vidyamarg1" title="Telegram"><i class="fab fa-telegram fa-fw"></i></a>
+                                </li>
+                            
+                        
+                    </ul>
+                    <!-- Mobile Menu Button -->
+                    <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#mobileNav" aria-controls="mobileNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </div>
+            <!-- Mobile Menu -->
+            <div class="collapse navbar-collapse d-lg-none" id="mobileNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;">Home</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics (Youtube series)</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;books&#x2F;">Books</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;app&#x2F;">App</a>
+                        </li>
+                    
+                    
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="https:&#x2F;&#x2F;www.youtube.com&#x2F;@VidyaMargbyRaviShankar-w9u"><i class="fab fa-youtube fa-fw"></i> YouTube</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="https:&#x2F;&#x2F;t.me&#x2F;vidyamarg1"><i class="fab fa-telegram fa-fw"></i> Telegram</a>
+                            </li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="docs-wrapper">
+        
+        
+        
+        <div id="docs-sidebar" class="docs-sidebar">
+            <nav id="docs-nav" class="docs-nav navbar">
+                
+                    
+                        
+
+<ul class="nav flex-column">
+    <!-- Navigation Menu (visible only in mobile view) -->
+    <li class="nav-item d-lg-none">
+        <span class="nav-link">Navigation</span>
+        <ul class="nav flex-column">
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;">Home</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics (Youtube series)</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;books&#x2F;">Books</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;app&#x2F;">App</a>
+                </li>
+            
+        </ul>
+    </li>
+
+    <!-- JEE/NEET Physics Section -->
+    
+    <li class="nav-item">
+        <span class="nav-link">Physics for JEE&#x2F;NEET</span>
+        <ul class="nav flex-column">
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics for JEE&#x2F;NEET</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;maths-basics-for-physics&#x2F;">Maths Basics for Physics</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;units-and-dimensions&#x2F;">Units and Dimensions</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;physical-quantities-and-si-units&#x2F;">Physical Quantities and SI Units</a>
+                </li>
+            
+        </ul>
+    </li>
+
+    <!-- Books Section -->
+    
+    <li class="nav-item">
+        <span class="nav-link">Books</span>
+        <ul class="nav flex-column">
+            <!-- JEE/NEET Physics Book (Version 1) -->
+            
+            <li class="nav-item">
+                <a class="nav-link" href="/books/physics/v1/">Physics Book</a>
+                
+                    <ul class="nav flex-column">
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;measurement&#x2F;">Measurement</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;motion-straight-line&#x2F;">Motion Along a Straight Line</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;vectors&#x2F;">Vectors</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;motion-2d-3d&#x2F;">Motion in Two and Three Dimensions</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;force-motion-1&#x2F;">Force and Motion—I</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;force-motion-2&#x2F;">Force and Motion—II</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;kinetic-energy-work&#x2F;">Kinetic Energy and Work</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;potential-energy-conservation&#x2F;">Potential Energy and Conservation of Energy</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;center-mass-momentum&#x2F;">Center of Mass and Linear Momentum</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;rotation&#x2F;">Rotation</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;rolling-torque-angular-momentum&#x2F;">Rolling, Torque, and Angular Momentum</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;equilibrium-elasticity&#x2F;">Equilibrium and Elasticity</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;gravitation&#x2F;">Gravitation</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;fluids&#x2F;">Fluids</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;oscillations&#x2F;">Oscillations</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;waves-1&#x2F;">Waves—I</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;waves-2&#x2F;">Waves—II</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;kinetic-theory-gases&#x2F;">The Kinetic Theory of Gases</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;thermodynamics-temperature-heat&#x2F;">Temperature, Heat, and the First Law of Thermodynamics</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;entropy-thermodynamics&#x2F;">Entropy and the Second Law of Thermodynamics</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electric-fields&#x2F;">Electric Fields</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;gauss-law&#x2F;">Gauss’s Law</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electric-potential&#x2F;">Electric Potential</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;capacitance&#x2F;">Capacitance</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;current-resistance&#x2F;">Current and Resistance</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;circuits&#x2F;">Circuits</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;magnetic-fields&#x2F;">Magnetic Fields</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;magnetic-fields-currents&#x2F;">Magnetic Fields Due to Currents</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;induction-inductance&#x2F;">Induction and Inductance</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electromagnetic-oscillations-ac&#x2F;">Electromagnetic Oscillations and Alternating Current</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electromagnetic-waves&#x2F;">Electromagnetic Waves</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;images&#x2F;">Images</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;interference&#x2F;">Interference</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;diffraction&#x2F;">Diffraction</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;photons-matter-waves&#x2F;">Photons and Matter Waves</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;matter-waves-advanced&#x2F;">More About Matter Waves</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;atoms&#x2F;">All About Atoms</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;nuclear-physics&#x2F;">Nuclear Physics</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;nuclear-energy&#x2F;">Energy from the Nucleus</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;quarks-leptons&#x2F;">Quarks, Leptons, and the Big Bang</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;relativity&#x2F;">Relativity</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;conduction-solids&#x2F;">Conduction of Electricity in Solids</a>
+                            </li>
+                        
+                    </ul>
+                
+            </li>
+        </ul>
+    </li>
+</ul>
+                    
+                
+            </nav>
+        </div>
+        
+
+        <div class="docs-content">
+            
+    <div class="docs-main">
+        <article class="docs-article">
+            <h1 id="rolling-torque-and-angular-momentum-problems">Rolling, Torque, and Angular Momentum Problems</h1>
+<p>This section provides <strong>100 problems</strong> to test your understanding of rolling, torque, and angular momentum, focusing on torque as the driver of rotational motion, angular momentum and its conservation, and rolling motion as a combination of translation and rotation. Inspired by JEE Main, JEE Advanced, and NEET exam patterns, these problems are tailored for exam preparation, offering a mix of numerical, conceptual, and derivation-based challenges. NEET-style problems (66–100) are formatted as multiple-choice questions (MCQs) to match the exam’s objective format. Problems are organized by type to support progressive learning and build confidence in mastering rotational dynamics, a key topic for JEE/NEET success.</p>
+<h2 id="numerical-problems">Numerical Problems</h2>
+<ol>
+<li>
+<p>A uniform rod of mass $3 , kg$ and length $1.2 , m$ is pivoted at one end. A force $F = 12 , N$ is applied perpendicularly at the other end. Calculate the angular acceleration.</p>
+<ul>
+<li>(a) $6.0 , \text{rad/s}^2$</li>
+<li>(b) $6.5 , \text{rad/s}^2$</li>
+<li>(c) $7.0 , \text{rad/s}^2$</li>
+<li>(d) $7.5 , \text{rad/s}^2$</li>
+</ul>
+</li>
+<li>
+<p>A disk of mass $2 , kg$ and radius $0.4 , m$ has a torque $\tau = 8 , N \cdot m$ applied about its center. Calculate the angular acceleration.</p>
+<ul>
+<li>(a) $20 , \text{rad/s}^2$</li>
+<li>(b) $22 , \text{rad/s}^2$</li>
+<li>(c) $24 , \text{rad/s}^2$</li>
+<li>(d) $25 , \text{rad/s}^2$</li>
+</ul>
+</li>
+<li>
+<p>A skater with moment of inertia $I = 4 , kg \cdot m^2$ spins at $\omega = 5 , \text{rad/s}$. She reduces $I$ to $2 , kg \cdot m^2$ by pulling her arms in. Calculate her new angular velocity.</p>
+<ul>
+<li>(a) $8 , \text{rad/s}$</li>
+<li>(b) $9 , \text{rad/s}$</li>
+<li>(c) $10 , \text{rad/s}$</li>
+<li>(d) $11 , \text{rad/s}$</li>
+</ul>
+</li>
+<li>
+<p>A solid sphere of mass $1 , kg$ and radius $0.3 , m$ rolls without slipping at $v_{\text{CM}} = 4 , m/s$. Calculate the total kinetic energy.</p>
+<ul>
+<li>(a) $8.0 , J$</li>
+<li>(b) $8.8 , J$</li>
+<li>(c) $9.0 , J$</li>
+<li>(d) $9.6 , J$</li>
+</ul>
+</li>
+<li>
+<p>A cylinder rolls down an incline of height $5 , m$ without slipping ($g = 9.8 , m/s^2$). Calculate the speed of the center of mass at the bottom.</p>
+<ul>
+<li>(a) $7.0 , m/s$</li>
+<li>(b) $7.5 , m/s$</li>
+<li>(c) $8.0 , m/s$</li>
+<li>(d) $8.5 , m/s$</li>
+</ul>
+</li>
+<li>
+<p>A particle of mass $0.5 , kg$ moves in a circle of radius $2 , m$ at $v = 10 , m/s$. Calculate the angular momentum about the center.</p>
+<ul>
+<li>(a) $8 , kg \cdot m^2/s$</li>
+<li>(b) $9 , kg \cdot m^2/s$</li>
+<li>(c) $10 , kg \cdot m^2/s$</li>
+<li>(d) $11 , kg \cdot m^2/s$</li>
+</ul>
+</li>
+<li>
+<p>A hoop of mass $2 , kg$ and radius $0.5 , m$ rolls down an incline at $45^\circ$ without slipping ($g = 9.8 , m/s^2$). Calculate the acceleration of the center of mass.</p>
+<ul>
+<li>(a) $3.0 , m/s^2$</li>
+<li>(b) $3.47 , m/s^2$</li>
+<li>(c) $3.8 , m/s^2$</li>
+<li>(d) $4.0 , m/s^2$</li>
+</ul>
+</li>
+<li>
+<p>A rod of $I = 0.3 , kg \cdot m^2$ rotates at $\omega_i = 8 , \text{rad/s}$. A torque $\tau = -3 , N \cdot m$ acts for $2 , s$. Calculate the final angular velocity.</p>
+<ul>
+<li>(a) $2 , \text{rad/s}$</li>
+<li>(b) $3 , \text{rad/s}$</li>
+<li>(c) $4 , \text{rad/s}$</li>
+<li>(d) $5 , \text{rad/s}$</li>
+</ul>
+</li>
+<li>
+<p>A sphere rolls up an incline at $30^\circ$ with initial $v_{\text{CM}} = 6 , m/s$ ($g = 9.8 , m/s^2$). Calculate the distance it travels before stopping.</p>
+<ul>
+<li>(a) $3.5 , m$</li>
+<li>(b) $4.0 , m$</li>
+<li>(c) $4.5 , m$</li>
+<li>(d) $5.0 , m$</li>
+</ul>
+</li>
+<li>
+<p>A disk with $I = 0.1 , kg \cdot m^2$ rotates at $\omega = 12 , \text{rad/s}$. Calculate the angular momentum.</p>
+<ul>
+<li>(a) $1.0 , kg \cdot m^2/s$</li>
+<li>(b) $1.2 , kg \cdot m^2/s$</li>
+<li>(c) $1.4 , kg \cdot m^2/s$</li>
+<li>(d) $1.6 , kg \cdot m^2/s$</li>
+</ul>
+</li>
+<li>
+<p>A $1 , kg$ mass on a $1 , m$ rod pivoted at the center has a force $F = 6 , N$ applied at $45^\circ$ at the end. Calculate the angular acceleration.</p>
+<ul>
+<li>(a) $5.0 , \text{rad/s}^2$</li>
+<li>(b) $5.5 , \text{rad/s}^2$</li>
+<li>(c) $6.0 , \text{rad/s}^2$</li>
+<li>(d) $6.5 , \text{rad/s}^2$</li>
+</ul>
+</li>
+<li>
+<p>A skater with $I = 6 , kg \cdot m^2$ spins at $\omega = 3 , \text{rad/s}$. She reduces $I$ to $3 , kg \cdot m^2$. Calculate her new angular velocity.</p>
+<ul>
+<li>(a) $5 , \text{rad/s}$</li>
+<li>(b) $6 , \text{rad/s}$</li>
+<li>(c) $7 , \text{rad/s}$</li>
+<li>(d) $8 , \text{rad/s}$</li>
+</ul>
+</li>
+<li>
+<p>A cylinder of mass $3 , kg$ and radius $0.2 , m$ rolls without slipping at $v_{\text{CM}} = 5 , m/s$. Calculate the total kinetic energy.</p>
+<ul>
+<li>(a) $37.5 , J$</li>
+<li>(b) $40.0 , J$</li>
+<li>(c) $42.5 , J$</li>
+<li>(d) $45.0 , J$</li>
+</ul>
+</li>
+<li>
+<p>A hoop rolls down an incline of height $6 , m$ without slipping ($g = 9.8 , m/s^2$). Calculate the speed of the center of mass at the bottom.</p>
+<ul>
+<li>(a) $6.0 , m/s$</li>
+<li>(b) $6.5 , m/s$</li>
+<li>(c) $7.0 , m/s$</li>
+<li>(d) $7.5 , m/s$</li>
+</ul>
+</li>
+<li>
+<p>A particle of mass $0.8 , kg$ moves in a circle of radius $1.5 , m$ at $v = 15 , m/s$. Calculate the angular momentum about the center.</p>
+<ul>
+<li>(a) $15 , kg \cdot m^2/s$</li>
+<li>(b) $16 , kg \cdot m^2/s$</li>
+<li>(c) $17 , kg \cdot m^2/s$</li>
+<li>(d) $18 , kg \cdot m^2/s$</li>
+</ul>
+</li>
+<li>
+<p>A rod of mass $4 , kg$ and length $1.5 , m$ is pivoted at one end. A force $F = 20 , N$ is applied perpendicularly at the other end. Calculate the angular acceleration.</p>
+<ul>
+<li>(a) $8 , \text{rad/s}^2$</li>
+<li>(b) $9 , \text{rad/s}^2$</li>
+<li>(c) $10 , \text{rad/s}^2$</li>
+<li>(d) $11 , \text{rad/s}^2$</li>
+</ul>
+</li>
+<li>
+<p>A disk with $I = 0.15 , kg \cdot m^2$ rotates at $\omega_i = 10 , \text{rad/s}$. A torque $\tau = 3 , N \cdot m$ acts for $4 , s$. Calculate the final angular velocity.</p>
+<ul>
+<li>(a) $20 , \text{rad/s}$</li>
+<li>(b) $22 , \text{rad/s}$</li>
+<li>(c) $24 , \text{rad/s}$</li>
+<li>(d) $26 , \text{rad/s}$</li>
+</ul>
+</li>
+<li>
+<p>A sphere rolls down an incline at $60^\circ$ without slipping ($g = 9.8 , m/s^2$). Calculate the acceleration of the center of mass.</p>
+<ul>
+<li>(a) $5.0 , m/s^2$</li>
+<li>(b) $5.5 , m/s^2$</li>
+<li>(c) $6.0 , m/s^2$</li>
+<li>(d) $6.5 , m/s^2$</li>
+</ul>
+</li>
+<li>
+<p>A skater with $I = 8 , kg \cdot m^2$ spins at $\omega = 2 , \text{rad/s}$. She reduces $I$ to $4 , kg \cdot m^2$. Calculate her new angular velocity.</p>
+<ul>
+<li>(a) $3 , \text{rad/s}$</li>
+<li>(b) $4 , \text{rad/s}$</li>
+<li>(c) $5 , \text{rad/s}$</li>
+<li>(d) $6 , \text{rad/s}$</li>
+</ul>
+</li>
+<li>
+<p>A hoop of mass $1 , kg$ and radius $0.2 , m$ rolls without slipping at $v_{\text{CM}} = 3 , m/s$. Calculate the total kinetic energy.</p>
+<ul>
+<li>(a) $4.0 , J$</li>
+<li>(b) $4.5 , J$</li>
+<li>(c) $5.0 , J$</li>
+<li>(d) $5.5 , J$</li>
+</ul>
+</li>
+<li>
+<p>A particle of mass $0.6 , kg$ moves in a circle of radius $1 , m$ at $v = 12 , m/s$. Calculate the angular momentum about the center.</p>
+<ul>
+<li>(a) $6.0 , kg \cdot m^2/s$</li>
+<li>(b) $6.5 , kg \cdot m^2/s$</li>
+<li>(c) $7.0 , kg \cdot m^2/s$</li>
+<li>(d) $7.2 , kg \cdot m^2/s$</li>
+</ul>
+</li>
+<li>
+<p>A rod of $I = 0.5 , kg \cdot m^2$ rotates at $\omega_i = 4 , \text{rad/s}$. A torque $\tau = -2 , N \cdot m$ acts for $3 , s$. Calculate the final angular velocity.</p>
+<ul>
+<li>(a) $-2 , \text{rad/s}$</li>
+<li>(b) $-1 , \text{rad/s}$</li>
+<li>(c) $0 , \text{rad/s}$</li>
+<li>(d) $1 , \text{rad/s}$</li>
+</ul>
+</li>
+<li>
+<p>A sphere rolls up an incline at $45^\circ$ with initial $v_{\text{CM}} = 8 , m/s$ ($g = 9.8 , m/s^2$). Calculate the distance it travels before stopping.</p>
+<ul>
+<li>(a) $4.5 , m$</li>
+<li>(b) $5.0 , m$</li>
+<li>(c) $5.5 , m$</li>
+<li>(d) $6.0 , m$</li>
+</ul>
+</li>
+<li>
+<p>A disk of mass $4 , kg$ and radius $0.5 , m$ has a torque $\tau = 10 , N \cdot m$ applied about its center. Calculate the angular acceleration.</p>
+<ul>
+<li>(a) $8 , \text{rad/s}^2$</li>
+<li>(b) $9 , \text{rad/s}^2$</li>
+<li>(c) $10 , \text{rad/s}^2$</li>
+<li>(d) $11 , \text{rad/s}^2$</li>
+</ul>
+</li>
+<li>
+<p>A cylinder rolls down an incline of height $3 , m$ without slipping ($g = 9.8 , m/s^2$). Calculate the speed of the center of mass at the bottom.</p>
+<ul>
+<li>(a) $5.5 , m/s$</li>
+<li>(b) $6.0 , m/s$</li>
+<li>(c) $6.5 , m/s$</li>
+<li>(d) $7.0 , m/s$</li>
+</ul>
+</li>
+<li>
+<p>A $2 , kg$ mass on a $1.2 , m$ rod pivoted at the center has a force $F = 15 , N$ applied perpendicularly at the end. Calculate the angular acceleration.</p>
+<ul>
+<li>(a) $10 , \text{rad/s}^2$</li>
+<li>(b) $11 , \text{rad/s}^2$</li>
+<li>(c) $12 , \text{rad/s}^2$</li>
+<li>(d) $13 , \text{rad/s}^2$</li>
+</ul>
+</li>
+<li>
+<p>A skater with $I = 3 , kg \cdot m^2$ spins at $\omega = 6 , \text{rad/s}$. She reduces $I$ to $1.5 , kg \cdot m^2$. Calculate her new angular velocity.</p>
+<ul>
+<li>(a) $10 , \text{rad/s}$</li>
+<li>(b) $11 , \text{rad/s}$</li>
+<li>(c) $12 , \text{rad/s}$</li>
+<li>(d) $13 , \text{rad/s}$</li>
+</ul>
+</li>
+<li>
+<p>A hoop rolls down an incline at $60^\circ$ without slipping ($g = 9.8 , m/s^2$). Calculate the acceleration of the center of mass.</p>
+<ul>
+<li>(a) $3.5 , m/s^2$</li>
+<li>(b) $4.0 , m/s^2$</li>
+<li>(c) $4.24 , m/s^2$</li>
+<li>(d) $4.5 , m/s^2$</li>
+</ul>
+</li>
+<li>
+<p>A disk with $I = 0.25 , kg \cdot m^2$ rotates at $\omega = 15 , \text{rad/s}$. Calculate the angular momentum.</p>
+<ul>
+<li>(a) $3.0 , kg \cdot m^2/s$</li>
+<li>(b) $3.5 , kg \cdot m^2/s$</li>
+<li>(c) $3.75 , kg \cdot m^2/s$</li>
+<li>(d) $4.0 , kg \cdot m^2/s$</li>
+</ul>
+</li>
+<li>
+<p>A sphere of mass $2 , kg$ and radius $0.4 , m$ rolls without slipping at $v_{\text{CM}} = 6 , m/s$. Calculate the total kinetic energy.</p>
+<ul>
+<li>(a) $36 , J$</li>
+<li>(b) $38 , J$</li>
+<li>(c) $40 , J$</li>
+<li>(d) $42 , J$</li>
+</ul>
+</li>
+<li>
+<p>A particle of mass $1 , kg$ moves in a circle of radius $0.5 , m$ at $v = 20 , m/s$. Calculate the angular momentum about the center.</p>
+<ul>
+<li>(a) $8 , kg \cdot m^2/s$</li>
+<li>(b) $9 , kg \cdot m^2/s$</li>
+<li>(c) $10 , kg \cdot m^2/s$</li>
+<li>(d) $11 , kg \cdot m^2/s$</li>
+</ul>
+</li>
+<li>
+<p>A rod of $I = 0.2 , kg \cdot m^2$ rotates at $\omega_i = 5 , \text{rad/s}$. A torque $\tau = 4 , N \cdot m$ acts for $2 , s$. Calculate the final angular velocity.</p>
+<ul>
+<li>(a) $40 , \text{rad/s}$</li>
+<li>(b) $42 , \text{rad/s}$</li>
+<li>(c) $44 , \text{rad/s}$</li>
+<li>(d) $45 , \text{rad/s}$</li>
+</ul>
+</li>
+<li>
+<p>A sphere rolls down an incline of height $7 , m$ without slipping ($g = 9.8 , m/s^2$). Calculate the speed of the center of mass at the bottom.</p>
+<ul>
+<li>(a) $8.0 , m/s$</li>
+<li>(b) $8.5 , m/s$</li>
+<li>(c) $9.0 , m/s$</li>
+<li>(d) $9.5 , m/s$</li>
+</ul>
+</li>
+<li>
+<p>A hoop rolls up an incline at $30^\circ$ with initial $v_{\text{CM}} = 5 , m/s$ ($g = 9.8 , m/s^2$). Calculate the distance it travels before stopping.</p>
+<ul>
+<li>(a) $2.0 , m$</li>
+<li>(b) $2.5 , m$</li>
+<li>(c) $3.0 , m$</li>
+<li>(d) $3.5 , m$</li>
+</ul>
+</li>
+<li>
+<p>A disk of mass $5 , kg$ and radius $0.6 , m$ has a torque $\tau = 12 , N \cdot m$ applied about its center. Calculate the angular acceleration.</p>
+<ul>
+<li>(a) $6 , \text{rad/s}^2$</li>
+<li>(b) $7 , \text{rad/s}^2$</li>
+<li>(c) $8 , \text{rad/s}^2$</li>
+<li>(d) $9 , \text{rad/s}^2$</li>
+</ul>
+</li>
+</ol>
+<hr />
+<h2 id="conceptual-problems">Conceptual Problems</h2>
+<ol start="36">
+<li>What does torque cause in a rotating system?</li>
+</ol>
+<ul>
+<li>(a) Linear acceleration</li>
+<li>(b) Angular acceleration</li>
+<li>(c) Linear displacement</li>
+<li>(d) Angular velocity</li>
+</ul>
+<ol start="37">
+<li>When is angular momentum conserved?</li>
+</ol>
+<ul>
+<li>(a) When net external force is zero</li>
+<li>(b) When net external torque is zero</li>
+<li>(c) When kinetic energy is conserved</li>
+<li>(d) When linear momentum is conserved</li>
+</ul>
+<ol start="38">
+<li>What does rolling without slipping imply?</li>
+</ol>
+<ul>
+<li>(a) $v_{\text{CM}} = R \omega$</li>
+<li>(b) $v_{\text{CM}} \neq R \omega$</li>
+<li>(c) $v_{\text{CM}} = 0$</li>
+<li>(d) $\omega = 0$</li>
+</ul>
+<ol start="39">
+<li>What is the unit of angular momentum?</li>
+</ol>
+<ul>
+<li>(a) $kg \cdot m^2/s$</li>
+<li>(b) $N \cdot m$</li>
+<li>(c) $J$</li>
+<li>(d) $kg \cdot m/s$</li>
+</ul>
+<ol start="40">
+<li>What happens to angular velocity when moment of inertia decreases?</li>
+</ol>
+<ul>
+<li>(a) Decreases</li>
+<li>(b) Increases</li>
+<li>(c) Remains the same</li>
+<li>(d) Becomes zero</li>
+</ul>
+<ol start="41">
+<li>How does friction affect rolling motion down an incline?</li>
+</ol>
+<ul>
+<li>(a) Provides linear acceleration</li>
+<li>(b) Provides torque for rotation</li>
+<li>(c) Causes slipping</li>
+<li>(d) Reduces angular velocity</li>
+</ul>
+<ol start="42">
+<li>What is the physical significance of $I \omega$?</li>
+</ol>
+<ul>
+<li>(a) Rotational kinetic energy</li>
+<li>(b) Angular momentum</li>
+<li>(c) Torque</li>
+<li>(d) Moment of inertia</li>
+</ul>
+<ol start="43">
+<li>What does a negative torque imply?</li>
+</ol>
+<ul>
+<li>(a) Increases angular velocity</li>
+<li>(b) Decreases angular velocity</li>
+<li>(c) No change in angular velocity</li>
+<li>(d) Increases linear velocity</li>
+</ul>
+<ol start="44">
+<li>What is the dimension of torque?</li>
+</ol>
+<ul>
+<li>(a) $[\text{M} \text{L}^2 \text{T}^{-2}]$</li>
+<li>(b) $[\text{M} \text{L} \text{T}^{-1}]$</li>
+<li>(c) $[\text{M} \text{L}^2 \text{T}^{-1}]$</li>
+<li>(d) $[\text{L} \text{T}^{-2}]$</li>
+</ul>
+<ol start="45">
+<li>What happens to the speed of a rolling object compared to a sliding object down an incline?</li>
+</ol>
+<ul>
+<li>(a) Rolling is faster</li>
+<li>(b) Sliding is faster</li>
+<li>(c) Both are the same</li>
+<li>(d) Depends on the object</li>
+</ul>
+<ol start="46">
+<li>What does a zero total kinetic energy in rolling indicate?</li>
+</ol>
+<ul>
+<li>(a) Object is still rotating</li>
+<li>(b) Object is at rest</li>
+<li>(c) Object is sliding</li>
+<li>(d) Object is spinning</li>
+</ul>
+<ol start="47">
+<li>What is the significance of $r F \sin \theta$?</li>
+</ol>
+<ul>
+<li>(a) Angular momentum</li>
+<li>(b) Rotational kinetic energy</li>
+<li>(c) Torque</li>
+<li>(d) Moment of inertia</li>
+</ul>
+<ol start="48">
+<li>What does the conservation of angular momentum imply?</li>
+</ol>
+<ul>
+<li>(a) Constant linear velocity</li>
+<li>(b) Constant angular velocity</li>
+<li>(c) Constant angular momentum when $\tau_{\text{net}} = 0$</li>
+<li>(d) Constant kinetic energy</li>
+</ul>
+<ol start="49">
+<li>How does the moment of inertia affect rolling acceleration?</li>
+</ol>
+<ul>
+<li>(a) Larger $I$ increases acceleration</li>
+<li>(b) Larger $I$ decreases acceleration</li>
+<li>(c) No effect</li>
+<li>(d) Depends on the angle</li>
+</ul>
+<ol start="50">
+<li>What does a zero net torque imply?</li>
+</ol>
+<ul>
+<li>(a) No rotation</li>
+<li>(b) Constant angular velocity</li>
+<li>(c) No angular momentum</li>
+<li>(d) No kinetic energy</li>
+</ul>
+<hr />
+<h2 id="derivation-problems">Derivation Problems</h2>
+<ol start="51">
+<li>
+<p>Derive Newton’s second law for rotation $\tau_{\text{net}} = I \alpha$.</p>
+</li>
+<li>
+<p>Derive the conservation of angular momentum for a skater pulling in her arms.</p>
+</li>
+<li>
+<p>Derive the condition for rolling without slipping $v_{\text{CM}} = R \omega$.</p>
+</li>
+<li>
+<p>Derive the angular momentum of a particle $L = m v r \sin \theta$.</p>
+</li>
+<li>
+<p>Derive the total kinetic energy of a rolling object.</p>
+</li>
+<li>
+<p>Derive the acceleration of a cylinder rolling down an incline.</p>
+</li>
+<li>
+<p>Derive the torque due to gravity on a rod pivoted at one end.</p>
+</li>
+<li>
+<p>Derive the angular momentum of a rigid body $L = I \omega$.</p>
+</li>
+<li>
+<p>Derive the speed of a rolling object down an incline using energy conservation.</p>
+</li>
+<li>
+<p>Derive the moment of inertia of a thin hoop about its center.</p>
+</li>
+<li>
+<p>Derive the work done by a constant torque $W = \tau \theta$.</p>
+</li>
+<li>
+<p>Derive the final angular velocity using torque and angular momentum.</p>
+</li>
+<li>
+<p>Derive the distance traveled by a rolling object up an incline.</p>
+</li>
+<li>
+<p>Derive the effect of torque on angular momentum $\frac{dL}{dt} = \tau$.</p>
+</li>
+<li>
+<p>Derive the acceleration of a hoop rolling down an incline.</p>
+</li>
+</ol>
+<hr />
+<h2 id="neet-style-conceptual-problems">NEET-style Conceptual Problems</h2>
+<ol start="66">
+<li>What is the unit of torque in SI units?</li>
+</ol>
+<ul>
+<li>(a) $N \cdot m$</li>
+<li>(b) $J$</li>
+<li>(c) $kg \cdot m^2/s$</li>
+<li>(d) $W$</li>
+</ul>
+<ol start="67">
+<li>What does a zero angular momentum indicate?</li>
+</ol>
+<ul>
+<li>(a) Object is at rest or not rotating</li>
+<li>(b) Object is sliding</li>
+<li>(c) Object is rolling</li>
+<li>(d) Object has no mass</li>
+</ul>
+<ol start="68">
+<li>Which quantity is conserved in rolling motion down an incline?</li>
+</ol>
+<ul>
+<li>(a) Angular velocity</li>
+<li>(b) Linear velocity</li>
+<li>(c) Mechanical energy</li>
+<li>(d) Angular acceleration</li>
+</ul>
+<ol start="69">
+<li>What happens to kinetic energy when an object rolls without slipping?</li>
+</ol>
+<ul>
+<li>(a) Only translational energy</li>
+<li>(b) Only rotational energy</li>
+<li>(c) Both translational and rotational energy</li>
+<li>(d) No kinetic energy</li>
+</ul>
+<ol start="70">
+<li>What is the dimension of angular momentum?</li>
+</ol>
+<ul>
+<li>(a) $[\text{M} \text{L}^2 \text{T}^{-1}]$</li>
+<li>(b) $[\text{M} \text{L} \text{T}^{-1}]$</li>
+<li>(c) $[\text{M} \text{L}^2 \text{T}^{-2}]$</li>
+<li>(d) $[\text{L} \text{T}^{-1}]$</li>
+</ul>
+<ol start="71">
+<li>What does torque depend on?</li>
+</ol>
+<ul>
+<li>(a) Force only</li>
+<li>(b) Distance only</li>
+<li>(c) Force, distance, and angle between them</li>
+<li>(d) Mass of the object</li>
+</ul>
+<ol start="72">
+<li>What is the role of friction in rolling motion?</li>
+</ol>
+<ul>
+<li>(a) Causes slipping</li>
+<li>(b) Provides torque for rotation</li>
+<li>(c) Increases linear speed</li>
+<li>(d) Reduces angular velocity</li>
+</ul>
+<ol start="73">
+<li>What happens to angular velocity when a skater pulls in her arms?</li>
+</ol>
+<ul>
+<li>(a) Decreases</li>
+<li>(b) Increases</li>
+<li>(c) Remains the same</li>
+<li>(d) Becomes zero</li>
+</ul>
+<ol start="74">
+<li>Why does a rolling object have less acceleration than a sliding object?</li>
+</ol>
+<ul>
+<li>(a) Rotational energy reduces linear acceleration</li>
+<li>(b) Friction increases acceleration</li>
+<li>(c) Gravity is less for rolling</li>
+<li>(d) Mass distribution changes</li>
+</ul>
+<ol start="75">
+<li>What is the unit of moment of inertia?</li>
+</ol>
+<ul>
+<li>(a) $kg \cdot m^2$</li>
+<li>(b) $N \cdot m$</li>
+<li>(c) $J$</li>
+<li>(d) $kg \cdot m/s$</li>
+</ul>
+<ol start="76">
+<li>What does a constant angular momentum imply?</li>
+</ol>
+<ul>
+<li>(a) No net external torque</li>
+<li>(b) Constant linear velocity</li>
+<li>(c) Constant kinetic energy</li>
+<li>(d) Constant potential energy</li>
+</ul>
+<ol start="77">
+<li>Which motion involves both translation and rotation?</li>
+</ol>
+<ul>
+<li>(a) Pure rotation</li>
+<li>(b) Pure translation</li>
+<li>(c) Rolling motion</li>
+<li>(d) Sliding motion</li>
+</ul>
+<ol start="78">
+<li>What is the direction of torque in a rotating system?</li>
+</ol>
+<ul>
+<li>(a) Along the force</li>
+<li>(b) Along the radius</li>
+<li>(c) Perpendicular to the plane of $\vec{r}$ and $\vec{F}$</li>
+<li>(d) Along the velocity</li>
+</ul>
+<ol start="79">
+<li>What does a pseudo-force do in a rotating frame?</li>
+</ol>
+<ul>
+<li>(a) Conserves angular momentum</li>
+<li>(b) Affects rotational dynamics</li>
+<li>(c) Provides centripetal force</li>
+<li>(d) Reduces friction</li>
+</ul>
+<ol start="80">
+<li>What is the dimension of angular velocity?</li>
+</ol>
+<ul>
+<li>(a) $[\text{T}^{-1}]$</li>
+<li>(b) $[\text{M} \text{L} \text{T}^{-1}]$</li>
+<li>(c) $[\text{L} \text{T}^{-1}]$</li>
+<li>(d) $[\text{M} \text{L}^2 \text{T}^{-1}]$</li>
+</ul>
+<ol start="81">
+<li>What is the role of angular momentum in a spinning object?</li>
+</ol>
+<ul>
+<li>(a) Increases linear speed</li>
+<li>(b) Maintains rotational motion</li>
+<li>(c) Reduces torque</li>
+<li>(d) Increases potential energy</li>
+</ul>
+<ol start="82">
+<li>What happens to total kinetic energy when a rolling object stops?</li>
+</ol>
+<ul>
+<li>(a) Becomes zero</li>
+<li>(b) Converts to potential energy</li>
+<li>(c) Remains constant</li>
+<li>(d) Increases</li>
+</ul>
+<ol start="83">
+<li>Why does torque depend on the angle between force and radius?</li>
+</ol>
+<ul>
+<li>(a) It affects linear acceleration</li>
+<li>(b) It determines the perpendicular component</li>
+<li>(c) It changes the mass</li>
+<li>(d) It affects velocity</li>
+</ul>
+<ol start="84">
+<li>What is the significance of $\frac{1}{2} M v_{\text{CM}}^2 + \frac{1}{2} I \omega^2$?</li>
+</ol>
+<ul>
+<li>(a) Angular momentum</li>
+<li>(b) Total kinetic energy of rolling</li>
+<li>(c) Torque</li>
+<li>(d) Potential energy</li>
+</ul>
+<ol start="85">
+<li>What is the unit of angular acceleration?</li>
+</ol>
+<ul>
+<li>(a) $\text{rad/s}^2$</li>
+<li>(b) $N \cdot m$</li>
+<li>(c) $J$</li>
+<li>(d) $kg \cdot m^2/s$</li>
+</ul>
+<ol start="86">
+<li>What does a zero acceleration of the center of mass indicate in rolling?</li>
+</ol>
+<ul>
+<li>(a) Object is sliding</li>
+<li>(b) Object is at rest or moving uniformly</li>
+<li>(c) Object is spinning faster</li>
+<li>(d) Object is precessing</li>
+</ul>
+<ol start="87">
+<li>What is the physical significance of $\frac{dL}{dt} = \tau$?</li>
+</ol>
+<ul>
+<li>(a) Work-energy theorem</li>
+<li>(b) Torque changes angular momentum</li>
+<li>(c) Angular momentum conservation</li>
+<li>(d) Power in rotation</li>
+</ul>
+<ol start="88">
+<li>Why does a hoop roll slower than a sphere down an incline?</li>
+</ol>
+<ul>
+<li>(a) Larger moment of inertia</li>
+<li>(b) Smaller mass</li>
+<li>(c) Larger radius</li>
+<li>(d) Smaller friction</li>
+</ul>
+<ol start="89">
+<li>What is the dimension of moment of inertia?</li>
+</ol>
+<ul>
+<li>(a) $[\text{M} \text{L}^2]$</li>
+<li>(b) $[\text{M} \text{L} \text{T}^{-1}]$</li>
+<li>(c) $[\text{M} \text{L}^2 \text{T}^{-1}]$</li>
+<li>(d) $[\text{L} \text{T}^{-2}]$</li>
+</ul>
+<ol start="90">
+<li>How does friction contribute to rolling motion?</li>
+</ol>
+<ul>
+<li>(a) Increases linear speed</li>
+<li>(b) Provides torque for rotation</li>
+<li>(c) Reduces angular momentum</li>
+<li>(d) Increases potential energy</li>
+</ul>
+<ol start="91">
+<li>What is the role of conservation in a spinning rocket?</li>
+</ol>
+<ul>
+<li>(a) Determines linear speed</li>
+<li>(b) Maintains angular momentum</li>
+<li>(c) Increases kinetic energy</li>
+<li>(d) Reduces torque</li>
+</ul>
+<ol start="92">
+<li>What does a zero speed of the center of mass indicate?</li>
+</ol>
+<ul>
+<li>(a) Object is still rotating</li>
+<li>(b) Object is at rest</li>
+<li>(c) Object is sliding</li>
+<li>(d) Object is precessing</li>
+</ul>
+<ol start="93">
+<li>What is the physical significance of $m v r \sin \theta$?</li>
+</ol>
+<ul>
+<li>(a) Angular momentum of a particle</li>
+<li>(b) Rotational kinetic energy</li>
+<li>(c) Torque</li>
+<li>(d) Moment of inertia</li>
+</ul>
+<ol start="94">
+<li>What is the dimension of linear velocity in rolling?</li>
+</ol>
+<ul>
+<li>(a) $[\text{L} \text{T}^{-1}]$</li>
+<li>(b) $[\text{M} \text{L} \text{T}^{-1}]$</li>
+<li>(c) $[\text{L} \text{T}^{-2}]$</li>
+<li>(d) $[\text{M} \text{L}^2 \text{T}^{-1}]$</li>
+</ul>
+<ol start="95">
+<li>Why does moment of inertia affect angular momentum?</li>
+</ol>
+<ul>
+<li>(a) It changes linear velocity</li>
+<li>(b) It determines $L = I \omega$</li>
+<li>(c) It changes torque</li>
+<li>(d) It changes kinetic energy</li>
+</ul>
+<hr />
+<h2 id="neet-style-numerical-problems">NEET-style Numerical Problems</h2>
+<ol start="96">
+<li>A rod of mass $2 , kg$ and length $1 , m$ is pivoted at one end. A force $F = 8 , N$ is applied perpendicularly at the other end. What is the angular acceleration?</li>
+</ol>
+<ul>
+<li>(a) $10 , \text{rad/s}^2$</li>
+<li>(b) $11 , \text{rad/s}^2$</li>
+<li>(c) $12 , \text{rad/s}^2$</li>
+<li>(d) $13 , \text{rad/s}^2$</li>
+</ul>
+<ol start="97">
+<li>A disk with $I = 0.1 , kg \cdot m^2$ rotates at $\omega = 8 , \text{rad/s}$. What is the angular momentum?</li>
+</ol>
+<ul>
+<li>(a) $0.6 , kg \cdot m^2/s$</li>
+<li>(b) $0.7 , kg \cdot m^2/s$</li>
+<li>(c) $0.8 , kg \cdot m^2/s$</li>
+<li>(d) $0.9 , kg \cdot m^2/s$</li>
+</ul>
+<ol start="98">
+<li>A cylinder rolls down an incline of height $2 , m$ without slipping ($g = 9.8 , m/s^2$). What is the speed of the center of mass at the bottom?</li>
+</ol>
+<ul>
+<li>(a) $4.5 , m/s$</li>
+<li>(b) $5.0 , m/s$</li>
+<li>(c) $5.5 , m/s$</li>
+<li>(d) $6.0 , m/s$</li>
+</ul>
+<ol start="99">
+<li>A skater with $I = 3 , kg \cdot m^2$ spins at $\omega = 4 , \text{rad/s}$. She reduces $I$ to $1 , kg \cdot m^2$. What is her new angular velocity?</li>
+</ol>
+<ul>
+<li>(a) $10 , \text{rad/s}$</li>
+<li>(b) $11 , \text{rad/s}$</li>
+<li>(c) $12 , \text{rad/s}$</li>
+<li>(d) $13 , \text{rad/s}$</li>
+</ul>
+<ol start="100">
+<li>A sphere of mass $1 , kg$ and radius $0.2 , m$ rolls without slipping at $v_{\text{CM}} = 3 , m/s$. What is the total kinetic energy?<br />
+- (a) $4.5 , J$<br />
+- (b) $5.0 , J$<br />
+- (c) $5.5 , J$<br />
+- (d) $6.0 , J$</li>
+</ol>
+<h2 id="back-to-chapter">Back to Chapter</h2>
+<p><a href="../../rolling-torque-angular-momentum">Return to Rolling, Torque, and Angular Momentum Chapter</a></p>
+
+        </article>
+    </div>
+
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container text-center py-5">
+            <ul class="social-list list-unstyled pt-4 mb-0">
+                
+                    <li class="list-inline-item">
+                        <a href="https:&#x2F;&#x2F;www.youtube.com&#x2F;@VidyaMargbyRaviShankar-w9u" target="_blank" title="YouTube"><i class="fab fa-youtube fa-fw"></i></a>
+                    </li>
+                
+                    <li class="list-inline-item">
+                        <a href="https:&#x2F;&#x2F;t.me&#x2F;vidyamarg1" target="_blank" title="Telegram"><i class="fab fa-telegram fa-fw"></i></a>
+                    </li>
+                
+            </ul>
+            <small class="copyright">
+                © 2025 Vidya Marg. Designed with <span class="sr-only">love</span><i class="fas fa-heart" style="color: #fb866a;"></i> by <a class="theme-link" href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers. <a class="theme-link" href="/app/privacy-policy/">Privacy Policy</a>
+            </small>
+        </div>
+    </footer>
+
+    <!-- Javascript -->          
+    <script src="https://vidyamarg.com/plugins/popper.min.js"></script>
+    <script src="https://vidyamarg.com/plugins/bootstrap/js/bootstrap.min.js"></script>  
+    
+    <!-- Page Specific JS -->
+    <script src="https://vidyamarg.com/plugins/smoothscroll.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
+    <script src="https://vidyamarg.com/js/highlight-custom.js"></script> 
+    <script src="https://vidyamarg.com/plugins/simplelightbox/simple-lightbox.min.js"></script>      
+    <script src="https://vidyamarg.com/plugins/gumshoe/gumshoe.polyfills.min.js"></script> 
+    <script src="https://vidyamarg.com/js/docs.js"></script> 
+
+    <script>
+        function renderLatex() {
+            if (typeof renderMathInElement === "undefined") {
+                setTimeout(renderLatex, 100);
+                return;
+            }
+            renderMathInElement(document.body, {
+                delimiters: [
+                    { left: "$$", right: "$$", display: true },
+                    { left: "$", right: "$", display: false },
+                    { left: "\\(", right: "\\)", display: false },
+                    { left: "\\[", right: "\\]", display: true }
+                ],
+                throwOnError: false
+            });
+        }
+
+        window.addEventListener("load", function() {
+            renderLatex();
+        });
+    </script>
+</body>
+</html>

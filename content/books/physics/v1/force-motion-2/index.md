@@ -1,14 +1,26 @@
 ---
 title: Physics Book - Force and Motion—II for JEE & NEET
 description: Comprehensive guide to advanced force and motion for JEE and NEET, covering friction, circular motion dynamics, drag forces, and complex systems, with extensive examples.
-slug: books/physics/force-motion-2
+slug: force-motion-2
 keywords: physics force motion, JEE physics friction, NEET physics circular motion, drag forces
 og:image: https://vidyamarg.com/og-physics-force-motion-2.jpg
 ---
 
 # Chapter 6: Force and Motion—II
 
-**Beta Version**: Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!
+
+
+<div class="callout-block callout-warning">
+    <div class="content">
+        <h4 class="callout-title">
+            <span class="callout-icon-holder me-1">
+                <i class="fas fa-exclamation-triangle"></i>
+            </span>
+            Beta Version
+        </h4>
+        <p>Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!</p>
+    </div>
+</div>
 
 Force and Motion—II builds on the foundational dynamics concepts from Chapter 5, delving into more complex applications of Newton’s laws. This chapter explores forces that challenge motion in intricate ways, such as friction, the dynamics of circular motion, and drag forces, which are essential for solving real-world problems like a car navigating a curved road or a skydiver reaching terminal velocity. For JEE Main, JEE Advanced, and NEET students, mastering these topics is critical, as they frequently appear in questions involving friction on inclines, centripetal force in circular motion, and motion through resistive media. This chapter covers **friction in detail**, **circular motion dynamics**, **drag forces and terminal velocity**, and **applications in complex systems**, providing detailed explanations, derivations, numerous solved examples, and exam-focused strategies to ensure conceptual clarity and problem-solving proficiency.
 
@@ -256,7 +268,7 @@ $$
 ## Practice Problems
 Explore our extensive problem set with **100 problems** inspired by JEE Main, JEE Advanced, and NEET patterns to test your understanding of force and motion—II.
 
-[View Problems](./problems.md)
+[View Problems](./problems)
 
 ## Watch on YouTube
 Our Hinglish video lessons make force and motion—II engaging for JEE and NEET! Subscribe for updates.

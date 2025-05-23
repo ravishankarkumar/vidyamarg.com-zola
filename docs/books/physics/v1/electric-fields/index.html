@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <title>Vidya Marg | Physics Book - Electric Fields for JEE &amp; NEET</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Comprehensive guide on electric fields for JEE and NEET, covering field definitions, calculations for charge distributions, field lines, and applications in electrostatics, with extensive examples.">
+    <meta name="keywords" content="JEE physics book, NEET physics book, physics book, physics for JEE and NEET">
+    <meta property="og:image" content="https://vidyamarg.com/og-physics-book.jpg">
+    <link rel="canonical" href="https:&#x2F;&#x2F;vidyamarg.com&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electric-fields&#x2F;">
+    <link rel="shortcut icon" href="https://vidyamarg.com/logos/maroon-bg-logo-128.ico">
+    
+    <!-- Preload Google Font -->
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" as="style">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript>
+        <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
+    </noscript>
+    
+    <!-- FontAwesome JS -->
+    <script defer src="https://vidyamarg.com/fontawesome/js/all.min.js"></script>
+
+    <!-- KaTeX for LaTeX rendering -->
+    <link rel="stylesheet" href="https://vidyamarg.com/katex/katex.min.css">
+    <script src="https://vidyamarg.com/katex/katex.min.js"></script>
+    <script src="https://vidyamarg.com/katex/auto-render.min.js"></script>
+
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.2/styles/atom-one-dark.min.css">
+    <link rel="stylesheet" href="https://vidyamarg.com/plugins/simplelightbox/simple-lightbox.min.css">
+
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="https://vidyamarg.com/css/theme.css">
+    <link rel="stylesheet" href="https://vidyamarg.com/css/custom.css" />
+</head> 
+
+<body>    
+    <header class="header fixed-top">
+        <div class="branding docs-branding">
+            <div class="container-fluid position-relative py-2">
+                <div class="docs-logo-wrapper">
+                    
+                    
+                    
+                    <button id="docs-sidebar-toggler" class="docs-sidebar-toggler docs-sidebar-visible me-2 d-xl-none" type="button">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    
+                    <div class="site-logo">
+                        <a class="navbar-brand" href="https://vidyamarg.com">
+                            <img class="logo-icon me-2" src="https://vidyamarg.com/logos/maroon-bg-logo-1024.png" alt="logo">
+                            <span class="logo-text">Vidya Marg</span>
+                        </a>
+                    </div>    
+                </div>
+                <div class="docs-top-utilities d-flex justify-content-end align-items-center">
+                    <ul class="nav-list list-inline mb-0 d-none d-lg-flex">
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;">Home</a>
+                            </li>
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics (Youtube series)</a>
+                            </li>
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;">Books</a>
+                            </li>
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;app&#x2F;">App</a>
+                            </li>
+                        
+                        
+                            
+                                <li class="list-inline-item">
+                                    <a href="https:&#x2F;&#x2F;www.youtube.com&#x2F;@VidyaMargbyRaviShankar-w9u" title="YouTube"><i class="fab fa-youtube fa-fw"></i></a>
+                                </li>
+                            
+                                <li class="list-inline-item">
+                                    <a href="https:&#x2F;&#x2F;t.me&#x2F;vidyamarg1" title="Telegram"><i class="fab fa-telegram fa-fw"></i></a>
+                                </li>
+                            
+                        
+                    </ul>
+                    <!-- Mobile Menu Button -->
+                    <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#mobileNav" aria-controls="mobileNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </div>
+            <!-- Mobile Menu -->
+            <div class="collapse navbar-collapse d-lg-none" id="mobileNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;">Home</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics (Youtube series)</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;books&#x2F;">Books</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;app&#x2F;">App</a>
+                        </li>
+                    
+                    
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="https:&#x2F;&#x2F;www.youtube.com&#x2F;@VidyaMargbyRaviShankar-w9u"><i class="fab fa-youtube fa-fw"></i> YouTube</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="https:&#x2F;&#x2F;t.me&#x2F;vidyamarg1"><i class="fab fa-telegram fa-fw"></i> Telegram</a>
+                            </li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="docs-wrapper">
+        
+        
+        
+        <div id="docs-sidebar" class="docs-sidebar">
+            <nav id="docs-nav" class="docs-nav navbar">
+                
+                    
+                        
+
+<ul class="nav flex-column">
+    <!-- Navigation Menu (visible only in mobile view) -->
+    <li class="nav-item d-lg-none">
+        <span class="nav-link">Navigation</span>
+        <ul class="nav flex-column">
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;">Home</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics (Youtube series)</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;books&#x2F;">Books</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;app&#x2F;">App</a>
+                </li>
+            
+        </ul>
+    </li>
+
+    <!-- JEE/NEET Physics Section -->
+    
+    <li class="nav-item">
+        <span class="nav-link">Physics for JEE&#x2F;NEET</span>
+        <ul class="nav flex-column">
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics for JEE&#x2F;NEET</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;maths-basics-for-physics&#x2F;">Maths Basics for Physics</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;units-and-dimensions&#x2F;">Units and Dimensions</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;physical-quantities-and-si-units&#x2F;">Physical Quantities and SI Units</a>
+                </li>
+            
+        </ul>
+    </li>
+
+    <!-- Books Section -->
+    
+    <li class="nav-item">
+        <span class="nav-link">Books</span>
+        <ul class="nav flex-column">
+            <!-- JEE/NEET Physics Book (Version 1) -->
+            
+            <li class="nav-item">
+                <a class="nav-link" href="/books/physics/v1/">Physics Book</a>
+                
+                    <ul class="nav flex-column">
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;measurement&#x2F;">Measurement</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;motion-straight-line&#x2F;">Motion Along a Straight Line</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;vectors&#x2F;">Vectors</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;motion-2d-3d&#x2F;">Motion in Two and Three Dimensions</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;force-motion-1&#x2F;">Force and Motion—I</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;force-motion-2&#x2F;">Force and Motion—II</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;kinetic-energy-work&#x2F;">Kinetic Energy and Work</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;potential-energy-conservation&#x2F;">Potential Energy and Conservation of Energy</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;center-mass-momentum&#x2F;">Center of Mass and Linear Momentum</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;rotation&#x2F;">Rotation</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;rolling-torque-angular-momentum&#x2F;">Rolling, Torque, and Angular Momentum</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;equilibrium-elasticity&#x2F;">Equilibrium and Elasticity</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;gravitation&#x2F;">Gravitation</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;fluids&#x2F;">Fluids</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;oscillations&#x2F;">Oscillations</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;waves-1&#x2F;">Waves—I</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;waves-2&#x2F;">Waves—II</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;kinetic-theory-gases&#x2F;">The Kinetic Theory of Gases</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;thermodynamics-temperature-heat&#x2F;">Temperature, Heat, and the First Law of Thermodynamics</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;entropy-thermodynamics&#x2F;">Entropy and the Second Law of Thermodynamics</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electric-fields&#x2F;">Electric Fields</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;gauss-law&#x2F;">Gauss’s Law</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electric-potential&#x2F;">Electric Potential</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;capacitance&#x2F;">Capacitance</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;current-resistance&#x2F;">Current and Resistance</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;circuits&#x2F;">Circuits</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;magnetic-fields&#x2F;">Magnetic Fields</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;magnetic-fields-currents&#x2F;">Magnetic Fields Due to Currents</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;induction-inductance&#x2F;">Induction and Inductance</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electromagnetic-oscillations-ac&#x2F;">Electromagnetic Oscillations and Alternating Current</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electromagnetic-waves&#x2F;">Electromagnetic Waves</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;images&#x2F;">Images</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;interference&#x2F;">Interference</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;diffraction&#x2F;">Diffraction</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;photons-matter-waves&#x2F;">Photons and Matter Waves</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;matter-waves-advanced&#x2F;">More About Matter Waves</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;atoms&#x2F;">All About Atoms</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;nuclear-physics&#x2F;">Nuclear Physics</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;nuclear-energy&#x2F;">Energy from the Nucleus</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;quarks-leptons&#x2F;">Quarks, Leptons, and the Big Bang</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;relativity&#x2F;">Relativity</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;conduction-solids&#x2F;">Conduction of Electricity in Solids</a>
+                            </li>
+                        
+                    </ul>
+                
+            </li>
+        </ul>
+    </li>
+</ul>
+                    
+                
+            </nav>
+        </div>
+        
+
+        <div class="docs-content">
+            
+    <div class="docs-main">
+        <article class="docs-article">
+            <h1 id="chapter-22-electric-fields">Chapter 22: Electric Fields</h1>
+<div class="callout-block callout-warning">
+    <div class="content">
+        <h4 class="callout-title">
+            <span class="callout-icon-holder me-1">
+                <i class="fas fa-exclamation-triangle"></i>
+            </span>
+            Beta Version
+        </h4>
+        <p>Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!</p>
+    </div>
+</div>
+<p>Electric fields describe the invisible influence of charges, playing a crucial role in applications from ion propulsion in rockets to the behavior of charged particles in capacitors. Building on Coulomb’s law from Chapter 21, this chapter explores the concept of electric fields in depth. For JEE Main, JEE Advanced, and NEET students, mastering electric fields is essential, as they appear in problems involving field calculations, motion of charges, and electrostatic devices. This chapter, <strong>Electric Fields</strong>, covers <strong>electric field definition and properties</strong>, <strong>field due to charge distributions</strong>, <strong>electric field lines</strong>, and <strong>motion of charges in electric fields</strong>, providing detailed explanations, derivations, solved examples, and practical applications to ensure conceptual clarity and problem-solving proficiency.</p>
+<h2 id="22-1-electric-field-definition-and-properties">22.1 Electric Field Definition and Properties</h2>
+<p>The electric field is a fundamental concept in electrostatics, describing the force experienced by a charge in the presence of other charges, a key topic for JEE/NEET problems.</p>
+<h3 id="electric-field-definition">Electric Field Definition</h3>
+<p>The electric field $\vec{E}$ at a point in space is defined as the force $\vec{F}$ experienced by a small positive test charge $q_{\text{test}}$ placed at that point, per unit charge:<br />
+$$
+\vec{E} = \frac{\vec{F}}{q_{\text{test}}}
+$$</p>
+<ul>
+<li>Units: N/C (newtons per coulomb) or V/m (volts per meter).</li>
+<li>The field is a vector quantity, with direction the same as the force on a positive test charge.</li>
+</ul>
+<h3 id="electric-field-due-to-a-point-charge">Electric Field Due to a Point Charge</h3>
+<p>From Coulomb’s law, the force on $q_{\text{test}}$ due to a point charge $q$ at distance $r$ is $\vec{F} = k \frac{q q_{\text{test}}}{r^2} \hat{r}$, where $k = \frac{1}{4 \pi \epsilon_0} \approx 9 \times 10^9 , \text{N·m}^2/\text{C}^2$, and $\hat{r}$ is the unit vector from $q$ to the test charge. Thus:<br />
+$$
+\vec{E} = k \frac{q}{r^2} \hat{r}
+$$</p>
+<ul>
+<li>If $q &gt; 0$, $\vec{E}$ points away from $q$; if $q &lt; 0$, $\vec{E}$ points toward $q$.</li>
+</ul>
+<h3 id="properties-of-electric-fields">Properties of Electric Fields</h3>
+<ul>
+<li><strong>Superposition</strong>: The net field due to multiple charges is the vector sum: $\vec{E}_{\text{net}} = \sum \vec{E}_i$.</li>
+<li><strong>Conservative Field</strong>: The work done by the electric field is path-independent (leads to electric potential, covered in later chapters).</li>
+<li><strong>Field Strength</strong>: Proportional to $1/r^2$ for a point charge, decreases with distance.</li>
+</ul>
+<h3 id="principle-of-superposition">Principle of Superposition</h3>
+<p>For multiple charges $q_1, q_2, \ldots, q_n$, the electric field at a point is:<br />
+$$
+\vec{E} = k \sum_i \frac{q_i}{r_i^2} \hat{r}_i
+$$</p>
+<p><strong>Derivation</strong>: <strong>Electric Field from a Point Charge</strong><br />
+Place $q$ at the origin and $q_{\text{test}}$ at position $\vec{r}$. The force is $\vec{F} = k \frac{q q_{\text{test}}}{r^2} \hat{r}$, where $r = |\vec{r}|$, $\hat{r} = \frac{\vec{r}}{r}$. The electric field is:<br />
+$$
+\vec{E} = \frac{\vec{F}}{q_{\text{test}}} = k \frac{q}{r^2} \hat{r}
+$$</p>
+<p><strong>Derivation</strong>: <strong>Superposition for Electric Fields</strong><br />
+For charges $q_1, q_2, \ldots$, each produces a field $\vec{E}_i = k \frac{q_i}{r_i^2} \hat{r}<em>i$. Since the force on $q</em>{\text{test}}$ is the vector sum of forces from each charge (superposition principle from Chapter 21), the field is $\vec{E} = \sum \vec{E}_i$, as $\vec{E}$ is force per unit charge.</p>
+<p><strong>Derivation</strong>: <strong>Field Properties in a System</strong><br />
+For two charges $q_1 = +q$ at $(0, 0)$, $q_2 = -q$ at $(a, 0)$, the field at $(a/2, y)$ cancels in the x-direction due to symmetry, leaving only a y-component, illustrating superposition and field direction.</p>
+<p><strong>Derivation</strong>: <strong>Field in Rocket Ion Propulsion</strong><br />
+In an ion engine, a charge $q = 5 \times 10^{-6} , \text{C}$ at $(0, 0)$ creates a field at $(0.1, 0)$: $\vec{E} = 4.5 \times 10^6 \hat{i} , \text{N/C}$, accelerating ions for thrust (your interest, April 19, 2025).</p>
+<p><strong>Solved Example</strong>: A JEE Main problem involves calculating the electric field at $(0, 0.2)$ due to $q = +4 , \mu\text{C}$ at $(0, 0)$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$r = 0.2 , \text{m}$, $\hat{r} = \hat{j}$, $q = 4 \times 10^{-6} , \text{C}$:<br />
+$$
+\vec{E} = 9 \times 10^9 \times \frac{4 \times 10^{-6}}{(0.2)^2} \hat{j} = 9 \times 10^9 \times \frac{4 \times 10^{-6}}{0.04} \hat{j} = 9 \times 10^5 \hat{j} , \text{N/C}
+$$
+<ul>
+<li><strong>JEE Tip</strong>: Positive charge means field points away; use unit vectors for direction. Common error: Forgetting direction, giving only magnitude.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A NEET problem involves $q = -3 , \mu\text{C}$ at $(0, 0)$. Find $\vec{E}$ at $(0.3, 0)$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$r = 0.3 , \text{m}$, $\hat{r} = \hat{i}$, $q = -3 \times 10^{-6} , \text{C}$:<br />
+$$
+\vec{E} = 9 \times 10^9 \times \frac{-3 \times 10^{-6}}{(0.3)^2} \hat{i} = -3 \times 10^5 \hat{i} , \text{N/C}
+$$
+<ul>
+<li><strong>NEET Tip</strong>: Negative charge means field points toward the charge; direction is key. Common error: Incorrect field direction.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Advanced problem involves $q_1 = +2 , \mu\text{C}$ at $(0.1, 0)$, $q_2 = -2 , \mu\text{C}$ at $(-0.1, 0)$. Find $\vec{E}$ at $(0, 0.2)$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$r = \sqrt{(0.1)^2 + (0.2)^2} = 0.224 , \text{m}$, $\vec{E}_1 = 4 \times 10^5 \hat{j}$, $\vec{E}<em>2 = -4 \times 10^5 \hat{j}$, $\vec{E}</em>{\text{net}} = 0$.
+<ul>
+<li><strong>JEE Tip</strong>: Superposition requires vector addition; symmetry can cancel components. Common error: Adding magnitudes without direction.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Main problem involves $q = +6 , \mu\text{C}$ at $(0, 0)$. Find $\vec{E}$ at $(0.1, 0.1)$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$r = \sqrt{(0.1)^2 + (0.1)^2} = 0.1414 , \text{m}$, $\hat{r} = \frac{\hat{i} + \hat{j}}{\sqrt{2}}$, $\vec{E} = 2.7 \times 10^6 \left( \frac{\hat{i} + \hat{j}}{\sqrt{2}} \right) , \text{N/C}$.
+<ul>
+<li><strong>JEE Tip</strong>: Resolve $\hat{r}$ using coordinates; round appropriately (April 14, 2025). Common error: Incorrect unit vector.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Application</strong>: Electric fields apply to capacitors, particle accelerators, and rocketry (e.g., ion propulsion, aligning with your interest, April 19, 2025).</p>
+<h2 id="22-2-electric-field-due-to-charge-distributions">22.2 Electric Field Due to Charge Distributions</h2>
+<p>Electric fields from continuous charge distributions require integration, a common technique in JEE/NEET problems involving lines, rings, and surfaces.</p>
+<h3 id="general-method">General Method</h3>
+<p>For a charge distribution, the field at a point is:<br />
+$$
+\vec{E} = k \int \frac{dq}{r^2} \hat{r}
+$$</p>
+<ul>
+<li>$dq$: Infinitesimal charge element.</li>
+<li>$r$: Distance from $dq$ to the field point.</li>
+<li>$\hat{r}$: Unit vector from $dq$ to the field point.</li>
+</ul>
+<h3 id="field-due-to-a-line-charge">Field Due to a Line Charge</h3>
+<p>For a line charge with linear charge density $\lambda$ (C/m), length $L$, along the x-axis from $-L/2$ to $L/2$, field at $(0, d)$:<br />
+$$
+E_y = k \int_{-L/2}^{L/2} \frac{\lambda dx}{(x^2 + d^2)} \cdot \frac{d}{\sqrt{x^2 + d^2}} = k \frac{\lambda L}{d \sqrt{d^2 + (L/2)^2}}
+$$</p>
+<h3 id="field-due-to-a-ring-of-charge">Field Due to a Ring of Charge</h3>
+<p>For a ring of radius $R$, total charge $Q$, in the xy-plane, field on the z-axis at $(0, 0, z)$:<br />
+$$
+E_z = k \frac{Q z}{(R^2 + z^2)^{3/2}}
+$$</p>
+<h3 id="field-due-to-a-uniformly-charged-disk">Field Due to a Uniformly Charged Disk</h3>
+<p>For a disk of radius $R$, surface charge density $\sigma$, field on the axis at distance $z$:<br />
+$$
+E_z = \frac{\sigma}{2 \epsilon_0} \left( 1 - \frac{z}{\sqrt{R^2 + z^2}} \right)
+$$</p>
+<p><strong>Derivation</strong>: <strong>Field Due to a Line Charge</strong><br />
+Consider a line charge along the x-axis from $-L/2$ to $L/2$, $\lambda$ C/m. At $(0, d)$, $dq = \lambda dx$, $r = \sqrt{x^2 + d^2}$, $\hat{r} = \frac{(-x, d)}{r}$. The y-component: $dE_y = k \frac{dq}{r^2} \cdot \frac{d}{r}$. Integrate: $E_y = k \lambda \int_{-L/2}^{L/2} \frac{d , dx}{(x^2 + d^2)^{3/2}}$, yielding the result above. x-components cancel due to symmetry.</p>
+<p><strong>Derivation</strong>: <strong>Field Due to a Ring</strong><br />
+Ring in xy-plane, radius $R$, charge $Q$, $dq = \frac{Q}{2 \pi R} Rd\theta$. At $(0, 0, z)$, $r = \sqrt{R^2 + z^2}$, $\hat{r}$ has a z-component $\frac{z}{r}$. Integrate: $E_z = k \int_0^{2\pi} \frac{dq}{(R^2 + z^2)} \cdot \frac{z}{\sqrt{R^2 + z^2}}$, giving $E_z = k \frac{Q z}{(R^2 + z^2)^{3/2}}$.</p>
+<p><strong>Derivation</strong>: <strong>Field Due to a Disk</strong><br />
+Disk as a series of rings, radius $r$ from 0 to $R$, $\sigma$ C/m², $dq = \sigma (2 \pi r dr)$. Use ring result, integrate: $E_z = \int_0^R k \frac{(\sigma 2 \pi r dr) z}{(r^2 + z^2)^{3/2}}$, yielding the expression above.</p>
+<p><strong>Derivation</strong>: <strong>Rocket Ion Engine Field</strong><br />
+A charged disk in an ion engine (radius $R = 0.1 , \text{m}$, $\sigma = 10^{-5} , \text{C/m}^2$) at $z = 0.05 , \text{m}$: $E_z \approx 8.47 \times 10^5 , \text{N/C}$, accelerating ions (your interest, April 19, 2025).</p>
+<p><strong>Solved Example</strong>: A JEE Main problem involves a line charge, $\lambda = 2 \times 10^{-6} , \text{C/m}$, $L = 0.4 , \text{m}$, along the x-axis. Find $E$ at $(0, 0.2)$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$E_y = k \frac{\lambda L}{d \sqrt{d^2 + (L/2)^2}} = 9 \times 10^9 \times \frac{(2 \times 10^{-6}) \times 0.4}{0.2 \sqrt{(0.2)^2 + (0.2)^2}} = 1.8 \times 10^5 \hat{j} , \text{N/C}$.
+<ul>
+<li><strong>JEE Tip</strong>: Symmetry cancels x-components; integrate y-components. Common error: Forgetting symmetry.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A NEET problem involves a ring, $R = 0.1 , \text{m}$, $Q = 3 , \mu\text{C}$, at $z = 0.1 , \text{m}$. Find $E$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$E_z = 9 \times 10^9 \times \frac{3 \times 10^{-6} \times 0.1}{((0.1)^2 + (0.1)^2)^{3/2}} = 9.54 \times 10^5 , \text{N/C}$.
+<ul>
+<li><strong>NEET Tip</strong>: Ring field is along the axis; use the formula directly. Common error: Incorrect $r$.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Advanced problem involves a disk, $R = 0.2 , \text{m}$, $\sigma = 5 \times 10^{-6} , \text{C/m}^2$, at $z = 0.1 , \text{m}$. Find $E$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$E_z = \frac{5 \times 10^{-6}}{2 \times 8.85 \times 10^{-12}} \left( 1 - \frac{0.1}{\sqrt{(0.2)^2 + (0.1)^2}} \right) \approx 1.05 \times 10^5 , \text{N/C}$.
+<ul>
+<li><strong>JEE Tip</strong>: Disk field requires integration; use the derived formula. Common error: Misapplying limits.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Main problem involves a line, $\lambda = 1 \times 10^{-6} , \text{C/m}$, $L = 0.5 , \text{m}$. Find $E$ at $(0, 0.3)$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$E_y = 9 \times 10^9 \times \frac{(1 \times 10^{-6}) \times 0.5}{0.3 \sqrt{(0.3)^2 + (0.25)^2}} \approx 9.6 \times 10^4 \hat{j} , \text{N/C}$.
+<ul>
+<li><strong>JEE Tip</strong>: Compute $d$ and $L/2$ carefully; round as needed (April 14, 2025). Common error: Incorrect geometry.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Application</strong>: Charge distributions apply to capacitors, charged surfaces, and rocketry (e.g., ion engine fields, aligning with your interest, April 19, 2025).</p>
+<h2 id="22-3-electric-field-lines">22.3 Electric Field Lines</h2>
+<p><strong>Electric field lines</strong> provide a visual representation of electric fields, helping to understand field patterns, a key concept for JEE/NEET visualization problems.</p>
+<h3 id="definition-and-properties">Definition and Properties</h3>
+<ul>
+<li><strong>Field Lines</strong>: Imaginary lines showing the direction of $\vec{E}$ at each point; a positive test charge would move along the line.</li>
+<li><strong>Direction</strong>: Lines point away from positive charges, toward negative charges.</li>
+<li><strong>Density</strong>: Proportional to field strength; closer lines indicate stronger fields.</li>
+<li><strong>Rules</strong>: Lines never cross (field is unique at each point); they start at positive charges (or infinity) and end at negative charges (or infinity).</li>
+</ul>
+<h3 id="patterns">Patterns</h3>
+<ul>
+<li><strong>Point Charge</strong>: Radial lines (outward for $q &gt; 0$, inward for $q &lt; 0$).</li>
+<li><strong>Dipole</strong>: Lines from positive to negative charge, curving outward.</li>
+<li><strong>Uniform Field</strong>: Parallel lines (e.g., between parallel plates).</li>
+</ul>
+<h3 id="number-of-lines">Number of Lines</h3>
+<p>The number of lines leaving a charge $q$ is proportional to $|q|$; for two charges, the ratio of lines matches the ratio of charges.</p>
+<p><strong>Derivation</strong>: <strong>Field Line Direction</strong><br />
+At a point near a charge $q$, $\vec{E} = k \frac{q}{r^2} \hat{r}$. For $q &gt; 0$, $\vec{E}$ points along $\hat{r}$ (outward); for $q &lt; 0$, inward. Field lines follow $\vec{E}$’s direction, tangent to $\vec{E}$ at each point.</p>
+<p><strong>Derivation</strong>: <strong>Field Line Density</strong><br />
+Field strength $E \propto 1/r^2$. At a distance $r$, surface area of a sphere is $4 \pi r^2$, so flux $\Phi = E \cdot 4 \pi r^2$ is constant (Gauss’s law). Line density ($E$) decreases as $1/r^2$, matching field strength.</p>
+<p><strong>Derivation</strong>: <strong>Dipole Field Lines</strong><br />
+For a dipole ($+q$ at $(0, 0, d/2)$, $-q$ at $(0, 0, -d/2)$), field lines curve from $+q$ to $-q$. At large distances, $E \propto 1/r^3$, derived using superposition, showing tighter lines near charges.</p>
+<p><strong>Derivation</strong>: <strong>Field Lines in Rocket Systems</strong><br />
+In an ion engine, field lines from a charged plate to an electrode guide ions, optimizing thrust paths (your interest, April 19, 2025).</p>
+<p><strong>Solved Example</strong>: A JEE Main problem involves sketching field lines for $q = +q$ at $(0, 0)$ and $q = -q$ at $(0.1, 0)$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+Lines start at $+q$, end at $-q$, curving from $(0, 0)$ to $(0.1, 0)$. Density is highest near charges, decreasing with distance.
+<ul>
+<li><strong>JEE Tip</strong>: Lines go from positive to negative; density reflects field strength. Common error: Drawing lines crossing, which violates uniqueness of $\vec{E}$.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A NEET problem involves describing the field lines for a uniform field.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+Field lines are parallel, equally spaced, directed from positive to negative (e.g., between parallel plates).
+<ul>
+<li><strong>NEET Tip</strong>: Uniform fields have constant strength and direction; lines are straight. Common error: Curving lines, which indicates non-uniformity.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Advanced problem involves $q_1 = +2q$, $q_2 = -q$. Compare the number of field lines.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+Number of lines $\propto |q|$. Ratio: $|q_1|/|q_2| = 2q/q = 2$. Twice as many lines leave $q_1$ as enter $q_2$.
+<ul>
+<li><strong>JEE Tip</strong>: Line number is proportional to charge magnitude; direction depends on sign. Common error: Ignoring magnitude ratio.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Main problem involves a dipole ($+q$, $-q$, separation $d$). Describe the field line pattern.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+Lines emerge from $+q$, curve, and enter $-q$, forming loops. Density is high near charges, low at large distances.
+<ul>
+<li><strong>JEE Tip</strong>: Dipole lines are characteristic; field weakens as $1/r^3$ at large $r$. Common error: Drawing straight lines, ignoring curvature.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Application</strong>: Field lines apply to visualizing fields in capacitors, dipoles, and rocketry (e.g., ion trajectory design, aligning with your interest, April 19, 2025).</p>
+<h2 id="22-4-motion-of-charges-in-electric-fields">22.4 Motion of Charges in Electric Fields</h2>
+<p>The motion of charged particles in electric fields is a practical application of field concepts, frequently tested in JEE/NEET dynamics problems.</p>
+<h3 id="force-on-a-charge">Force on a Charge</h3>
+<p>A charge $q$ in an electric field $\vec{E}$ experiences a force:<br />
+$$
+\vec{F} = q \vec{E}
+$$</p>
+<ul>
+<li>If $q &gt; 0$, $\vec{F}$ is in the direction of $\vec{E}$; if $q &lt; 0$, opposite.</li>
+</ul>
+<h3 id="motion-in-a-uniform-field">Motion in a Uniform Field</h3>
+<p>For a uniform field (e.g., between parallel plates, $\vec{E} = E \hat{i}$):</p>
+<ul>
+<li><strong>Acceleration</strong>: $a = \frac{F}{m} = \frac{q E}{m}$.</li>
+<li><strong>Kinematics</strong>: If $\vec{v}_0 = 0$, motion is linear: $x = \frac{1}{2} \frac{q E}{m} t^2$.</li>
+<li><strong>Trajectory</strong>: If $\vec{v}_0 \perp \vec{E}$, motion is parabolic (like projectile motion).</li>
+</ul>
+<h3 id="work-done-by-the-field">Work Done by the Field</h3>
+<p>Work done by the field over a displacement $\vec{d}$: $W = \vec{F} \cdot \vec{d} = q \vec{E} \cdot \vec{d}$.</p>
+<h3 id="energy-considerations">Energy Considerations</h3>
+<p>The potential energy change is related to work (covered in later chapters), but kinetic energy increases as $KE = W$ if starting from rest.</p>
+<p><strong>Derivation</strong>: <strong>Motion in a Uniform Field</strong><br />
+For a charge $q$ in $\vec{E} = E \hat{i}$, $\vec{F} = q E \hat{i}$, $a = \frac{q E}{m}$. If $\vec{v}_0 = 0$, $x = \frac{1}{2} \frac{q E}{m} t^2$. If $\vec{v}_0 = v_0 \hat{j}$, $x$-motion: $x = \frac{1}{2} \frac{q E}{m} t^2$, $y$-motion: $y = v_0 t$, yielding a parabolic path $y = \frac{m v_0^2}{q E} x$.</p>
+<p><strong>Derivation</strong>: <strong>Work Done by the Field</strong><br />
+For $\vec{E} = E \hat{i}$, displacement $\vec{d} = d_x \hat{i} + d_y \hat{j}$, $W = q E d_x$. If $\vec{d} \perp \vec{E}$, $W = 0$.</p>
+<p><strong>Derivation</strong>: <strong>Trajectory in Rocket Ion Engine</strong><br />
+An ion ($q = 1.6 \times 10^{-19} , \text{C}$, $m = 1.67 \times 10^{-27} , \text{kg}$) in $\vec{E} = 10^6 \hat{i} , \text{N/C}$, $\vec{v}_0 = 10^5 \hat{j} , \text{m/s}$, follows $y = 5.23 \times 10^{-2} x$, optimizing thrust (your interest, April 19, 2025).</p>
+<p><strong>Solved Example</strong>: A JEE Main problem involves an electron ($q = -1.6 \times 10^{-19} , \text{C}$, $m = 9.1 \times 10^{-31} , \text{kg}$) in $\vec{E} = 500 \hat{i} , \text{N/C}$, starting at rest. Find its position after $t = 1 , \text{ns}$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$a = \frac{q E}{m} = \frac{(-1.6 \times 10^{-19}) \times 500}{9.1 \times 10^{-31}} \approx -8.79 \times 10^{13} , \text{m/s}^2$, $x = \frac{1}{2} (-8.79 \times 10^{13}) (10^{-9})^2 = -4.395 \times 10^{-5} , \text{m}$.
+<ul>
+<li><strong>JEE Tip</strong>: Electron’s negative charge means acceleration opposite to $\vec{E}$. Common error: Forgetting the sign of $q$.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A NEET problem involves a proton ($q = 1.6 \times 10^{-19} , \text{C}$, $m = 1.67 \times 10^{-27} , \text{kg}$) in $\vec{E} = 1000 \hat{j} , \text{N/C}$, $\vec{v}_0 = 10^4 \hat{i} , \text{m/s}$. Find the trajectory.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$a = \frac{q E}{m} \approx 9.58 \times 10^{10} \hat{j} , \text{m/s}^2$, $x = 10^4 t$, $y = \frac{1}{2} (9.58 \times 10^{10}) t^2$, $y = 2.395 \times 10^2 x^2$. Parabolic path.
+<ul>
+<li><strong>NEET Tip</strong>: Perpendicular $\vec{v}_0$ and $\vec{E}$ yield a parabola; eliminate $t$. Common error: Ignoring initial velocity.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Advanced problem involves a charge $q = 2 \times 10^{-6} , \text{C}$ in $\vec{E} = 500 \hat{i} , \text{N/C}$, moving from $(0, 0)$ to $(0.1, 0.2)$. Find the work done.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$W = q E d_x = (2 \times 10^{-6}) \times 500 \times 0.1 = 0.1 , \text{J}$.
+<ul>
+<li><strong>JEE Tip</strong>: Work depends only on displacement along $\vec{E}$. Common error: Including $d_y$, which contributes zero work.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Main problem involves an electron in $\vec{E} = 200 \hat{j} , \text{N/C}$, $\vec{v}_0 = 0$. Find $v$ after $t = 2 , \text{ns}$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$a = \frac{q E}{m} \approx 3.52 \times 10^{13} \hat{j} , \text{m/s}^2$, $v = a t = (3.52 \times 10^{13}) \times (2 \times 10^{-9}) = 7.04 \times 10^4 \hat{j} , \text{m/s}$.
+<ul>
+<li><strong>JEE Tip</strong>: Velocity is along $\vec{E}$ for $\vec{v}_0 = 0$; use kinematics. Common error: Incorrect $m$ or $q$ for electron.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Application</strong>: Motion in fields applies to cathode ray tubes, particle accelerators, and rocketry (e.g., ion propulsion trajectories, aligning with your interest, April 19, 2025).</p>
+<h2 id="summary-and-quick-revision">Summary and Quick Revision</h2>
+<ul>
+<li><strong>Electric Field</strong>: $\vec{E} = \frac{\vec{F}}{q_{\text{test}}} = k \frac{q}{r^2} \hat{r}$, $k \approx 9 \times 10^9 , \text{N·m}^2/\text{C}^2$. Units: N/C or V/m.</li>
+<li><strong>Superposition</strong>: $\vec{E}_{\text{net}} = \sum \vec{E}_i$. Fields add vectorially.</li>
+<li><strong>Charge Distributions</strong>: Line: $E \propto \frac{\lambda}{d}$; Ring: $E_z = k \frac{Q z}{(R^2 + z^2)^{3/2}}$; Disk: $E_z = \frac{\sigma}{2 \epsilon_0} \left( 1 - \frac{z}{\sqrt{R^2 + z^2}} \right)$.</li>
+<li><strong>Field Lines</strong>: Point away from positive charges, toward negative; density $\propto E$; never cross.</li>
+<li><strong>Motion</strong>: $\vec{F} = q \vec{E}$, $a = \frac{q E}{m}$. Uniform field: linear or parabolic motion. Work: $W = q \vec{E} \cdot \vec{d}$.</li>
+<li><strong>Applications</strong>: Capacitors, particle accelerators, ion propulsion.</li>
+<li><strong>JEE/NEET Tips</strong>: Use superposition for multiple charges, integrate for distributions, draw field lines with correct direction, apply kinematics for motion, verify significant figures (April 14, 2025).</li>
+<li><strong>SI Units</strong>: Field (N/C), charge (C), distance (m), force (N), work (J).</li>
+</ul>
+<h2 id="practice-problems">Practice Problems</h2>
+<p>Explore our problem set with <strong>100 problems</strong> inspired by JEE Main, JEE Advanced, and NEET patterns to test your understanding.</p>
+<p><a href="https://vidyamarg.com/books/physics/v1/electric-fields/./problems">View Problems</a></p>
+<h2 id="watch-on-youtube">Watch on YouTube</h2>
+<p>Our Hinglish video lessons make electrostatics engaging! Subscribe for updates.</p>
+<p><a href="https://www.youtube.com/@VidyaMargbyRaviShankar-w9u">Watch Now</a></p>
+<p><em>Animation for visualizing electric fields, field lines, and charge motion coming soon!</em></p>
+<p><em>Note: Content regularly updated to align with current JEE/NEET syllabi.</em></p>
+
+        </article>
+    </div>
+
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container text-center py-5">
+            <ul class="social-list list-unstyled pt-4 mb-0">
+                
+                    <li class="list-inline-item">
+                        <a href="https:&#x2F;&#x2F;www.youtube.com&#x2F;@VidyaMargbyRaviShankar-w9u" target="_blank" title="YouTube"><i class="fab fa-youtube fa-fw"></i></a>
+                    </li>
+                
+                    <li class="list-inline-item">
+                        <a href="https:&#x2F;&#x2F;t.me&#x2F;vidyamarg1" target="_blank" title="Telegram"><i class="fab fa-telegram fa-fw"></i></a>
+                    </li>
+                
+            </ul>
+            <small class="copyright">
+                © 2025 Vidya Marg. Designed with <span class="sr-only">love</span><i class="fas fa-heart" style="color: #fb866a;"></i> by <a class="theme-link" href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers. <a class="theme-link" href="/app/privacy-policy/">Privacy Policy</a>
+            </small>
+        </div>
+    </footer>
+
+    <!-- Javascript -->          
+    <script src="https://vidyamarg.com/plugins/popper.min.js"></script>
+    <script src="https://vidyamarg.com/plugins/bootstrap/js/bootstrap.min.js"></script>  
+    
+    <!-- Page Specific JS -->
+    <script src="https://vidyamarg.com/plugins/smoothscroll.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
+    <script src="https://vidyamarg.com/js/highlight-custom.js"></script> 
+    <script src="https://vidyamarg.com/plugins/simplelightbox/simple-lightbox.min.js"></script>      
+    <script src="https://vidyamarg.com/plugins/gumshoe/gumshoe.polyfills.min.js"></script> 
+    <script src="https://vidyamarg.com/js/docs.js"></script> 
+
+    <script>
+        function renderLatex() {
+            if (typeof renderMathInElement === "undefined") {
+                setTimeout(renderLatex, 100);
+                return;
+            }
+            renderMathInElement(document.body, {
+                delimiters: [
+                    { left: "$$", right: "$$", display: true },
+                    { left: "$", right: "$", display: false },
+                    { left: "\\(", right: "\\)", display: false },
+                    { left: "\\[", right: "\\]", display: true }
+                ],
+                throwOnError: false
+            });
+        }
+
+        window.addEventListener("load", function() {
+            renderLatex();
+        });
+    </script>
+</body>
+</html>

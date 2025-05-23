@@ -1,7 +1,7 @@
 ---
 title: Physics Book - Force and Motion—I Solutions for JEE & NEET
 description: Sample solutions for force and motion problems, covering Newton’s laws, inertial frames, applications in linear motion, and problem-solving techniques, tailored for JEE and NEET preparation.
-slug: books/physics/force-motion-1/solutions
+slug: solutions
 keywords: physics force motion solutions, JEE physics Newton’s laws solutions, NEET physics dynamics solutions, inertial frames
 og:image: https://vidyamarg.com/og-physics-force-motion-1.jpg
 ---
@@ -176,6 +176,6 @@ The answer is (d) $3.5 \, m/s^2$ (noting a potential mismatch in expected option
 - **JEE/NEET Tip**: Use the Atwood’s machine formula for quick solutions; double-check significant figures and option alignment. Common error: Incorrectly assigning directions of acceleration for each mass.
 
 ## Back to Chapter
-[Return to Force and Motion—I Chapter](./index.md)
+[Return to Force and Motion—I Chapter](../../force-motion-1)
 
-[Return to Force and Motion—I Problems](./problems.md)
+[Return to Force and Motion—I Problems](../../force-motion-1/problems)

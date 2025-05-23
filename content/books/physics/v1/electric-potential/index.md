@@ -1,14 +1,26 @@
 ---
 title: Physics Book - Electric Potential for JEE & NEET
 description: Comprehensive guide on electric potential for JEE and NEET, covering potential definitions, potential due to charge distributions, potential energy, and applications in electrostatics, with extensive examples.
-slug: books/physics/electric-potential
+slug: electric-potential
 keywords: physics electric potential, JEE physics potential energy, NEET physics potential calculations, electrostatics
 og:image: https://vidyamarg.com/og-physics-electric-potential.jpg
 ---
 
 # Chapter 24: Electric Potential
 
-**Beta Version**: Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!
+
+
+<div class="callout-block callout-warning">
+    <div class="content">
+        <h4 class="callout-title">
+            <span class="callout-icon-holder me-1">
+                <i class="fas fa-exclamation-triangle"></i>
+            </span>
+            Beta Version
+        </h4>
+        <p>Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!</p>
+    </div>
+</div>
 
 Electric potential is a cornerstone of electrostatics, providing a scalar approach to understanding electric fields, with applications like calculating energy in rocket propulsion systems. Building on the concepts of electric fields and Gauss’s law from Chapters 21–23, this chapter explores electric potential in depth. For JEE Main, JEE Advanced, and NEET students, mastering electric potential is essential, as it frequently appears in problems involving energy, field calculations, and capacitor systems. This chapter, **Electric Potential**, covers **electric potential and potential energy**, **potential due to charge distributions**, **relation between electric field and potential**, and **potential in conductors and capacitors**, providing detailed explanations, derivations, solved examples, and practical applications to ensure conceptual clarity and problem-solving proficiency.
 
@@ -287,7 +299,7 @@ A capacitor in a rocket circuit ($A = 0.01 \, \text{m}^2$, $d = 0.001 \, \text{m
 ## Practice Problems
 Explore our problem set with **100 problems** inspired by JEE Main, JEE Advanced, and NEET patterns to test your understanding.
 
-[View Problems](./problems.md)
+[View Problems](./problems)
 
 ## Watch on YouTube
 Our Hinglish video lessons make electrostatics engaging! Subscribe for updates.

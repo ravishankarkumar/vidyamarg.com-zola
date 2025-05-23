@@ -1,0 +1,1273 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <title>Vidya Marg | Physics Book - Fluids Problems for JEE &amp; NEET</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Practice 100 fluid mechanics problems for JEE and NEET, inspired by exam patterns, covering fluid statics, dynamics, viscosity, surface tension, and applications in pipes, buoyancy, and flow systems.">
+    <meta name="keywords" content="JEE physics book, NEET physics book, physics book, physics for JEE and NEET">
+    <meta property="og:image" content="https://vidyamarg.com/og-physics-book.jpg">
+    <link rel="canonical" href="https:&#x2F;&#x2F;vidyamarg.com&#x2F;books&#x2F;physics&#x2F;v1&#x2F;fluids&#x2F;problems&#x2F;">
+    <link rel="shortcut icon" href="https://vidyamarg.com/logos/maroon-bg-logo-128.ico">
+    
+    <!-- Preload Google Font -->
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" as="style">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript>
+        <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
+    </noscript>
+    
+    <!-- FontAwesome JS -->
+    <script defer src="https://vidyamarg.com/fontawesome/js/all.min.js"></script>
+
+    <!-- KaTeX for LaTeX rendering -->
+    <link rel="stylesheet" href="https://vidyamarg.com/katex/katex.min.css">
+    <script src="https://vidyamarg.com/katex/katex.min.js"></script>
+    <script src="https://vidyamarg.com/katex/auto-render.min.js"></script>
+
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.2/styles/atom-one-dark.min.css">
+    <link rel="stylesheet" href="https://vidyamarg.com/plugins/simplelightbox/simple-lightbox.min.css">
+
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="https://vidyamarg.com/css/theme.css">
+    <link rel="stylesheet" href="https://vidyamarg.com/css/custom.css" />
+</head> 
+
+<body>    
+    <header class="header fixed-top">
+        <div class="branding docs-branding">
+            <div class="container-fluid position-relative py-2">
+                <div class="docs-logo-wrapper">
+                    
+                    
+                    
+                    <button id="docs-sidebar-toggler" class="docs-sidebar-toggler docs-sidebar-visible me-2 d-xl-none" type="button">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    
+                    <div class="site-logo">
+                        <a class="navbar-brand" href="https://vidyamarg.com">
+                            <img class="logo-icon me-2" src="https://vidyamarg.com/logos/maroon-bg-logo-1024.png" alt="logo">
+                            <span class="logo-text">Vidya Marg</span>
+                        </a>
+                    </div>    
+                </div>
+                <div class="docs-top-utilities d-flex justify-content-end align-items-center">
+                    <ul class="nav-list list-inline mb-0 d-none d-lg-flex">
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;">Home</a>
+                            </li>
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics (Youtube series)</a>
+                            </li>
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;">Books</a>
+                            </li>
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;app&#x2F;">App</a>
+                            </li>
+                        
+                        
+                            
+                                <li class="list-inline-item">
+                                    <a href="https:&#x2F;&#x2F;www.youtube.com&#x2F;@VidyaMargbyRaviShankar-w9u" title="YouTube"><i class="fab fa-youtube fa-fw"></i></a>
+                                </li>
+                            
+                                <li class="list-inline-item">
+                                    <a href="https:&#x2F;&#x2F;t.me&#x2F;vidyamarg1" title="Telegram"><i class="fab fa-telegram fa-fw"></i></a>
+                                </li>
+                            
+                        
+                    </ul>
+                    <!-- Mobile Menu Button -->
+                    <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#mobileNav" aria-controls="mobileNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </div>
+            <!-- Mobile Menu -->
+            <div class="collapse navbar-collapse d-lg-none" id="mobileNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;">Home</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics (Youtube series)</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;books&#x2F;">Books</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;app&#x2F;">App</a>
+                        </li>
+                    
+                    
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="https:&#x2F;&#x2F;www.youtube.com&#x2F;@VidyaMargbyRaviShankar-w9u"><i class="fab fa-youtube fa-fw"></i> YouTube</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="https:&#x2F;&#x2F;t.me&#x2F;vidyamarg1"><i class="fab fa-telegram fa-fw"></i> Telegram</a>
+                            </li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="docs-wrapper">
+        
+        
+        
+        <div id="docs-sidebar" class="docs-sidebar">
+            <nav id="docs-nav" class="docs-nav navbar">
+                
+                    
+                        
+
+<ul class="nav flex-column">
+    <!-- Navigation Menu (visible only in mobile view) -->
+    <li class="nav-item d-lg-none">
+        <span class="nav-link">Navigation</span>
+        <ul class="nav flex-column">
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;">Home</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics (Youtube series)</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;books&#x2F;">Books</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;app&#x2F;">App</a>
+                </li>
+            
+        </ul>
+    </li>
+
+    <!-- JEE/NEET Physics Section -->
+    
+    <li class="nav-item">
+        <span class="nav-link">Physics for JEE&#x2F;NEET</span>
+        <ul class="nav flex-column">
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics for JEE&#x2F;NEET</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;maths-basics-for-physics&#x2F;">Maths Basics for Physics</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;units-and-dimensions&#x2F;">Units and Dimensions</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;physical-quantities-and-si-units&#x2F;">Physical Quantities and SI Units</a>
+                </li>
+            
+        </ul>
+    </li>
+
+    <!-- Books Section -->
+    
+    <li class="nav-item">
+        <span class="nav-link">Books</span>
+        <ul class="nav flex-column">
+            <!-- JEE/NEET Physics Book (Version 1) -->
+            
+            <li class="nav-item">
+                <a class="nav-link" href="/books/physics/v1/">Physics Book</a>
+                
+                    <ul class="nav flex-column">
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;measurement&#x2F;">Measurement</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;motion-straight-line&#x2F;">Motion Along a Straight Line</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;vectors&#x2F;">Vectors</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;motion-2d-3d&#x2F;">Motion in Two and Three Dimensions</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;force-motion-1&#x2F;">Force and Motion—I</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;force-motion-2&#x2F;">Force and Motion—II</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;kinetic-energy-work&#x2F;">Kinetic Energy and Work</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;potential-energy-conservation&#x2F;">Potential Energy and Conservation of Energy</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;center-mass-momentum&#x2F;">Center of Mass and Linear Momentum</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;rotation&#x2F;">Rotation</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;rolling-torque-angular-momentum&#x2F;">Rolling, Torque, and Angular Momentum</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;equilibrium-elasticity&#x2F;">Equilibrium and Elasticity</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;gravitation&#x2F;">Gravitation</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;fluids&#x2F;">Fluids</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;oscillations&#x2F;">Oscillations</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;waves-1&#x2F;">Waves—I</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;waves-2&#x2F;">Waves—II</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;kinetic-theory-gases&#x2F;">The Kinetic Theory of Gases</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;thermodynamics-temperature-heat&#x2F;">Temperature, Heat, and the First Law of Thermodynamics</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;entropy-thermodynamics&#x2F;">Entropy and the Second Law of Thermodynamics</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electric-fields&#x2F;">Electric Fields</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;gauss-law&#x2F;">Gauss’s Law</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electric-potential&#x2F;">Electric Potential</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;capacitance&#x2F;">Capacitance</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;current-resistance&#x2F;">Current and Resistance</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;circuits&#x2F;">Circuits</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;magnetic-fields&#x2F;">Magnetic Fields</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;magnetic-fields-currents&#x2F;">Magnetic Fields Due to Currents</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;induction-inductance&#x2F;">Induction and Inductance</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electromagnetic-oscillations-ac&#x2F;">Electromagnetic Oscillations and Alternating Current</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electromagnetic-waves&#x2F;">Electromagnetic Waves</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;images&#x2F;">Images</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;interference&#x2F;">Interference</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;diffraction&#x2F;">Diffraction</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;photons-matter-waves&#x2F;">Photons and Matter Waves</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;matter-waves-advanced&#x2F;">More About Matter Waves</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;atoms&#x2F;">All About Atoms</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;nuclear-physics&#x2F;">Nuclear Physics</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;nuclear-energy&#x2F;">Energy from the Nucleus</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;quarks-leptons&#x2F;">Quarks, Leptons, and the Big Bang</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;relativity&#x2F;">Relativity</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;conduction-solids&#x2F;">Conduction of Electricity in Solids</a>
+                            </li>
+                        
+                    </ul>
+                
+            </li>
+        </ul>
+    </li>
+</ul>
+                    
+                
+            </nav>
+        </div>
+        
+
+        <div class="docs-content">
+            
+    <div class="docs-main">
+        <article class="docs-article">
+            <h1 id="fluids-problems">Fluids Problems</h1>
+<p>This section provides <strong>100 problems</strong> to test your understanding of fluid mechanics, including fluid statics (density, pressure, buoyancy), fluid dynamics (continuity, Bernoulli’s principle), viscosity (Poiseuille’s law, Stokes’ law), and surface tension (capillary action, droplets). Inspired by JEE Main, JEE Advanced, and NEET exam patterns, these problems are tailored for exam preparation, offering a mix of numerical, conceptual, and derivation-based challenges. NEET-style problems (66–100) are formatted as multiple-choice questions (MCQs) to match the exam’s objective format. Problems are organized by type to support progressive learning and build confidence in mastering fluid mechanics, a key topic for JEE/NEET success.</p>
+<h2 id="numerical-problems">Numerical Problems</h2>
+<ol>
+<li>
+<p>A tank filled with water ($\rho = 1000 , \text{kg/m}^3$) has a depth of $3 , \text{m}$. Calculate the pressure at the bottom ($P_{\text{atm}} = 1.013 \times 10^5 , \text{Pa}$, $g = 9.8 , \text{m/s}^2$).</p>
+<ul>
+<li>(a) $1.294 \times 10^5 , \text{Pa}$</li>
+<li>(b) $1.307 \times 10^5 , \text{Pa}$</li>
+<li>(c) $1.320 \times 10^5 , \text{Pa}$</li>
+<li>(d) $1.333 \times 10^5 , \text{Pa}$</li>
+</ul>
+</li>
+<li>
+<p>A wooden block of density $700 , \text{kg/m}^3$ floats in water ($\rho = 1000 , \text{kg/m}^3$). What fraction of the block is submerged?</p>
+<ul>
+<li>(a) $0.65$</li>
+<li>(b) $0.70$</li>
+<li>(c) $0.75$</li>
+<li>(d) $0.80$</li>
+</ul>
+</li>
+<li>
+<p>A hydraulic lift has an input area $A_1 = 0.03 , \text{m}^2$ and output area $A_2 = 0.15 , \text{m}^2$. If an input force $F_1 = 150 , \text{N}$ is applied, calculate the output force.</p>
+<ul>
+<li>(a) $700 , \text{N}$</li>
+<li>(b) $725 , \text{N}$</li>
+<li>(c) $750 , \text{N}$</li>
+<li>(d) $775 , \text{N}$</li>
+</ul>
+</li>
+<li>
+<p>A steel ball ($\rho_{\text{steel}} = 7800 , \text{kg/m}^3$, volume $0.002 , \text{m}^3$) is submerged in water ($\rho_{\text{water}} = 1000 , \text{kg/m}^3$, $g = 9.8 , \text{m/s}^2$). Calculate the buoyant force.</p>
+<ul>
+<li>(a) $18.6 , \text{N}$</li>
+<li>(b) $19.0 , \text{N}$</li>
+<li>(c) $19.4 , \text{N}$</li>
+<li>(d) $19.6 , \text{N}$</li>
+</ul>
+</li>
+<li>
+<p>A pipe has cross-sectional areas $A_1 = 0.04 , \text{m}^2$ and $A_2 = 0.01 , \text{m}^2$. If the flow speed at $A_1$ is $v_1 = 1.5 , \text{m/s}$, calculate $v_2$.</p>
+<ul>
+<li>(a) $5.5 , \text{m/s}$</li>
+<li>(b) $6.0 , \text{m/s}$</li>
+<li>(c) $6.5 , \text{m/s}$</li>
+<li>(d) $7.0 , \text{m/s}$</li>
+</ul>
+</li>
+<li>
+<p>A tank with a hole at $2 , \text{m}$ below the surface releases water. Calculate the speed of the water exiting ($g = 9.8 , \text{m/s}^2$).</p>
+<ul>
+<li>(a) $6.1 , \text{m/s}$</li>
+<li>(b) $6.2 , \text{m/s}$</li>
+<li>(c) $6.3 , \text{m/s}$</li>
+<li>(d) $6.4 , \text{m/s}$</li>
+</ul>
+</li>
+<li>
+<p>A horizontal pipe has $P_1 = 1.5 \times 10^5 , \text{Pa}$, $v_1 = 2 , \text{m/s}$, $A_1 = 0.05 , \text{m}^2$, $A_2 = 0.02 , \text{m}^2$. Calculate $P_2$ ($\rho = 1000 , \text{kg/m}^3$).</p>
+<ul>
+<li>(a) $1.425 \times 10^5 , \text{Pa}$</li>
+<li>(b) $1.430 \times 10^5 , \text{Pa}$</li>
+<li>(c) $1.435 \times 10^5 , \text{Pa}$</li>
+<li>(d) $1.440 \times 10^5 , \text{Pa}$</li>
+</ul>
+</li>
+<li>
+<p>An airfoil has $v_{\text{top}} = 60 , \text{m/s}$, $v_{\text{bottom}} = 50 , \text{m/s}$, area $A = 1.5 , \text{m}^2$, $\rho_{\text{air}} = 1.2 , \text{kg/m}^3$. Calculate the lift force.</p>
+<ul>
+<li>(a) $900 , \text{N}$</li>
+<li>(b) $925 , \text{N}$</li>
+<li>(c) $950 , \text{N}$</li>
+<li>(d) $975 , \text{N}$</li>
+</ul>
+</li>
+<li>
+<p>A steel ball ($r = 0.005 , \text{m}$, $\rho_{\text{steel}} = 7800 , \text{kg/m}^3$) falls in oil ($\rho_{\text{oil}} = 800 , \text{kg/m}^3$, $\eta = 0.15 , \text{Pa} \cdot \text{s}$, $g = 9.8 , \text{m/s}^2$). Calculate the terminal velocity.</p>
+<ul>
+<li>(a) $4.70 , \text{m/s}$</li>
+<li>(b) $4.80 , \text{m/s}$</li>
+<li>(c) $4.90 , \text{m/s}$</li>
+<li>(d) $5.00 , \text{m/s}$</li>
+</ul>
+</li>
+<li>
+<p>A tube of radius $0.004 , \text{m}$, length $0.2 , \text{m}$, has $\Delta P = 800 , \text{Pa}$, $\eta = 0.001 , \text{Pa} \cdot \text{s}$. Calculate the flow rate.</p>
+<ul>
+<li>(a) $1.61 \times 10^{-5} , \text{m}^3/\text{s}$</li>
+<li>(b) $1.63 \times 10^{-5} , \text{m}^3/\text{s}$</li>
+<li>(c) $1.65 \times 10^{-5} , \text{m}^3/\text{s}$</li>
+<li>(d) $1.67 \times 10^{-5} , \text{m}^3/\text{s}$</li>
+</ul>
+</li>
+<li>
+<p>A water droplet of radius $0.002 , \text{m}$ has surface tension $\gamma = 0.072 , \text{N/m}$. Calculate the excess pressure inside.</p>
+<ul>
+<li>(a) $70 , \text{Pa}$</li>
+<li>(b) $72 , \text{Pa}$</li>
+<li>(c) $74 , \text{Pa}$</li>
+<li>(d) $76 , \text{Pa}$</li>
+</ul>
+</li>
+<li>
+<p>A capillary tube of radius $0.0004 , \text{m}$ is placed in water ($\gamma = 0.072 , \text{N/m}$, $\rho = 1000 , \text{kg/m}^3$, $g = 9.8 , \text{m/s}^2$). Calculate the height of rise.</p>
+<ul>
+<li>(a) $35.5 , \text{mm}$</li>
+<li>(b) $36.0 , \text{mm}$</li>
+<li>(c) $36.5 , \text{mm}$</li>
+<li>(d) $37.0 , \text{mm}$</li>
+</ul>
+</li>
+<li>
+<p>A tank filled with mercury ($\rho = 13600 , \text{kg/m}^3$) has a depth of $1.5 , \text{m}$. Calculate the pressure at the bottom ($P_{\text{atm}} = 1.013 \times 10^5 , \text{Pa}$, $g = 9.8 , \text{m/s}^2$).</p>
+<ul>
+<li>(a) $3.00 \times 10^5 , \text{Pa}$</li>
+<li>(b) $3.01 \times 10^5 , \text{Pa}$</li>
+<li>(c) $3.02 \times 10^5 , \text{Pa}$</li>
+<li>(d) $3.03 \times 10^5 , \text{Pa}$</li>
+</ul>
+</li>
+<li>
+<p>A block of density $400 , \text{kg/m}^3$ floats in a liquid of density $800 , \text{kg/m}^3$. What fraction of the block is submerged?</p>
+<ul>
+<li>(a) $0.45$</li>
+<li>(b) $0.50$</li>
+<li>(c) $0.55$</li>
+<li>(d) $0.60$</li>
+</ul>
+</li>
+<li>
+<p>A hydraulic lift has $A_1 = 0.01 , \text{m}^2$ and $A_2 = 0.05 , \text{m}^2$. If $F_1 = 100 , \text{N}$, calculate $F_2$.</p>
+<ul>
+<li>(a) $450 , \text{N}$</li>
+<li>(b) $475 , \text{N}$</li>
+<li>(c) $500 , \text{N}$</li>
+<li>(d) $525 , \text{N}$</li>
+</ul>
+</li>
+<li>
+<p>A copper sphere ($\rho_{\text{copper}} = 8900 , \text{kg/m}^3$, volume $0.0005 , \text{m}^3$) is submerged in oil ($\rho_{\text{oil}} = 850 , \text{kg/m}^3$, $g = 9.8 , \text{m/s}^2$). Calculate the buoyant force.</p>
+<ul>
+<li>(a) $4.1 , \text{N}$</li>
+<li>(b) $4.2 , \text{N}$</li>
+<li>(c) $4.3 , \text{N}$</li>
+<li>(d) $4.4 , \text{N}$</li>
+</ul>
+</li>
+<li>
+<p>A pipe has $A_1 = 0.06 , \text{m}^2$ and $A_2 = 0.03 , \text{m}^2$. If $v_1 = 1 , \text{m/s}$, calculate $v_2$.</p>
+<ul>
+<li>(a) $1.5 , \text{m/s}$</li>
+<li>(b) $2.0 , \text{m/s}$</li>
+<li>(c) $2.5 , \text{m/s}$</li>
+<li>(d) $3.0 , \text{m/s}$</li>
+</ul>
+</li>
+<li>
+<p>A tank with a hole at $1 , \text{m}$ below the surface releases water. Calculate the exit speed ($g = 9.8 , \text{m/s}^2$).</p>
+<ul>
+<li>(a) $4.3 , \text{m/s}$</li>
+<li>(b) $4.4 , \text{m/s}$</li>
+<li>(c) $4.5 , \text{m/s}$</li>
+<li>(d) $4.6 , \text{m/s}$</li>
+</ul>
+</li>
+<li>
+<p>A horizontal pipe has $P_1 = 1.8 \times 10^5 , \text{Pa}$, $v_1 = 1.5 , \text{m/s}$, $A_1 = 0.03 , \text{m}^2$, $A_2 = 0.01 , \text{m}^2$. Calculate $P_2$ ($\rho = 1000 , \text{kg/m}^3$).</p>
+<ul>
+<li>(a) $1.775 \times 10^5 , \text{Pa}$</li>
+<li>(b) $1.780 \times 10^5 , \text{Pa}$</li>
+<li>(c) $1.785 \times 10^5 , \text{Pa}$</li>
+<li>(d) $1.790 \times 10^5 , \text{Pa}$</li>
+</ul>
+</li>
+<li>
+<p>An airfoil has $v_{\text{top}} = 70 , \text{m/s}$, $v_{\text{bottom}} = 60 , \text{m/s}$, $A = 2 , \text{m}^2$, $\rho_{\text{air}} = 1.2 , \text{kg/m}^3$. Calculate the lift force.</p>
+<ul>
+<li>(a) $1500 , \text{N}$</li>
+<li>(b) $1525 , \text{N}$</li>
+<li>(c) $1550 , \text{N}$</li>
+<li>(d) $1575 , \text{N}$</li>
+</ul>
+</li>
+<li>
+<p>A glass sphere ($r = 0.002 , \text{m}$, $\rho_{\text{glass}} = 2500 , \text{kg/m}^3$) falls in water ($\rho_{\text{water}} = 1000 , \text{kg/m}^3$, $\eta = 0.001 , \text{Pa} \cdot \text{s}$, $g = 9.8 , \text{m/s}^2$). Calculate the terminal velocity.</p>
+<ul>
+<li>(a) $0.65 , \text{m/s}$</li>
+<li>(b) $0.66 , \text{m/s}$</li>
+<li>(c) $0.67 , \text{m/s}$</li>
+<li>(d) $0.68 , \text{m/s}$</li>
+</ul>
+</li>
+<li>
+<p>A tube of radius $0.003 , \text{m}$, length $0.15 , \text{m}$, has $\Delta P = 1200 , \text{Pa}$, $\eta = 0.002 , \text{Pa} \cdot \text{s}$. Calculate the flow rate.</p>
+<ul>
+<li>(a) $1.27 \times 10^{-5} , \text{m}^3/\text{s}$</li>
+<li>(b) $1.28 \times 10^{-5} , \text{m}^3/\text{s}$</li>
+<li>(c) $1.29 \times 10^{-5} , \text{m}^3/\text{s}$</li>
+<li>(d) $1.30 \times 10^{-5} , \text{m}^3/\text{s}$</li>
+</ul>
+</li>
+<li>
+<p>A soap bubble of radius $0.015 , \text{m}$ has surface tension $\gamma = 0.025 , \text{N/m}$. Calculate the excess pressure inside.</p>
+<ul>
+<li>(a) $6.5 , \text{Pa}$</li>
+<li>(b) $6.6 , \text{Pa}$</li>
+<li>(c) $6.7 , \text{Pa}$</li>
+<li>(d) $6.8 , \text{Pa}$</li>
+</ul>
+</li>
+<li>
+<p>A capillary tube of radius $0.0002 , \text{m}$ is placed in water ($\gamma = 0.072 , \text{N/m}$, $\rho = 1000 , \text{kg/m}^3$, $g = 9.8 , \text{m/s}^2$). Calculate the height of rise.</p>
+<ul>
+<li>(a) $72.0 , \text{mm}$</li>
+<li>(b) $73.0 , \text{mm}$</li>
+<li>(c) $74.0 , \text{mm}$</li>
+<li>(d) $75.0 , \text{mm}$</li>
+</ul>
+</li>
+<li>
+<p>A tank filled with oil ($\rho = 900 , \text{kg/m}^3$) has a depth of $4 , \text{m}$. Calculate the pressure at the bottom ($P_{\text{atm}} = 1.013 \times 10^5 , \text{Pa}$, $g = 9.8 , \text{m/s}^2$).</p>
+<ul>
+<li>(a) $1.346 \times 10^5 , \text{Pa}$</li>
+<li>(b) $1.347 \times 10^5 , \text{Pa}$</li>
+<li>(c) $1.348 \times 10^5 , \text{Pa}$</li>
+<li>(d) $1.349 \times 10^5 , \text{Pa}$</li>
+</ul>
+</li>
+<li>
+<p>A block of density $500 , \text{kg/m}^3$ floats in mercury ($\rho = 13600 , \text{kg/m}^3$). What fraction of the block is submerged?</p>
+<ul>
+<li>(a) $0.035$</li>
+<li>(b) $0.036$</li>
+<li>(c) $0.037$</li>
+<li>(d) $0.038$</li>
+</ul>
+</li>
+<li>
+<p>A hydraulic lift has $A_1 = 0.02 , \text{m}^2$ and $A_2 = 0.08 , \text{m}^2$. If $F_1 = 120 , \text{N}$, calculate $F_2$.</p>
+<ul>
+<li>(a) $450 , \text{N}$</li>
+<li>(b) $475 , \text{N}$</li>
+<li>(c) $480 , \text{N}$</li>
+<li>(d) $500 , \text{N}$</li>
+</ul>
+</li>
+<li>
+<p>A lead sphere ($\rho_{\text{lead}} = 11300 , \text{kg/m}^3$, volume $0.0001 , \text{m}^3$) is submerged in water ($\rho_{\text{water}} = 1000 , \text{kg/m}^3$, $g = 9.8 , \text{m/s}^2$). Calculate the buoyant force.</p>
+<ul>
+<li>(a) $0.95 , \text{N}$</li>
+<li>(b) $0.96 , \text{N}$</li>
+<li>(c) $0.97 , \text{N}$</li>
+<li>(d) $0.98 , \text{N}$</li>
+</ul>
+</li>
+<li>
+<p>A pipe has $A_1 = 0.08 , \text{m}^2$ and $A_2 = 0.04 , \text{m}^2$. If $v_1 = 0.5 , \text{m/s}$, calculate $v_2$.</p>
+<ul>
+<li>(a) $0.8 , \text{m/s}$</li>
+<li>(b) $0.9 , \text{m/s}$</li>
+<li>(c) $1.0 , \text{m/s}$</li>
+<li>(d) $1.1 , \text{m/s}$</li>
+</ul>
+</li>
+<li>
+<p>A tank with a hole at $0.5 , \text{m}$ below the surface releases water. Calculate the exit speed ($g = 9.8 , \text{m/s}^2$).</p>
+<ul>
+<li>(a) $3.0 , \text{m/s}$</li>
+<li>(b) $3.1 , \text{m/s}$</li>
+<li>(c) $3.2 , \text{m/s}$</li>
+<li>(d) $3.3 , \text{m/s}$</li>
+</ul>
+</li>
+<li>
+<p>A horizontal pipe has $P_1 = 2.0 \times 10^5 , \text{Pa}$, $v_1 = 1 , \text{m/s}$, $A_1 = 0.06 , \text{m}^2$, $A_2 = 0.03 , \text{m}^2$. Calculate $P_2$ ($\rho = 1000 , \text{kg/m}^3$).</p>
+<ul>
+<li>(a) $1.995 \times 10^5 , \text{Pa}$</li>
+<li>(b) $1.996 \times 10^5 , \text{Pa}$</li>
+<li>(c) $1.997 \times 10^5 , \text{Pa}$</li>
+<li>(d) $1.998 \times 10^5 , \text{Pa}$</li>
+</ul>
+</li>
+<li>
+<p>A cylindrical pipe ($r = 0.001 , \text{m}$, $L = 0.3 , \text{m}$, $\eta = 0.0015 , \text{Pa} \cdot \text{s}$) has $Q = 5 \times 10^{-6} , \text{m}^3/\text{s}$. Calculate $\Delta P$.</p>
+<ul>
+<li>(a) $1432 , \text{Pa}$</li>
+<li>(b) $1433 , \text{Pa}$</li>
+<li>(c) $1434 , \text{Pa}$</li>
+<li>(d) $1435 , \text{Pa}$</li>
+</ul>
+</li>
+<li>
+<p>A rocket fuel droplet ($r = 0.0002 , \text{m}$, $\gamma = 0.03 , \text{N/m}$) is atomized. Calculate the excess pressure inside.</p>
+<ul>
+<li>(a) $300 , \text{Pa}$</li>
+<li>(b) $305 , \text{Pa}$</li>
+<li>(c) $310 , \text{Pa}$</li>
+<li>(d) $315 , \text{Pa}$</li>
+</ul>
+</li>
+<li>
+<p>A capillary tube of radius $0.0001 , \text{m}$ is placed in mercury ($\gamma = 0.465 , \text{N/m}$, $\rho = 13600 , \text{kg/m}^3$, $g = 9.8 , \text{m/s}^2$, contact angle $\theta = 140^\circ$, $\cos 140^\circ \approx -0.766$). Calculate the depression height.</p>
+<ul>
+<li>(a) $-50.5 , \text{mm}$</li>
+<li>(b) $-51.0 , \text{mm}$</li>
+<li>(c) $-51.5 , \text{mm}$</li>
+<li>(d) $-52.0 , \text{mm}$</li>
+</ul>
+</li>
+<li>
+<p>A rocket nozzle (radius $0.04 , \text{m}$) moves at $150 , \text{m/s}$ through air ($\eta = 1.8 \times 10^{-5} , \text{Pa} \cdot \text{s}$). Calculate the viscous drag force.</p>
+<ul>
+<li>(a) $0.33 , \text{N}$</li>
+<li>(b) $0.34 , \text{N}$</li>
+<li>(c) $0.35 , \text{N}$</li>
+<li>(d) $0.36 , \text{N}$</li>
+</ul>
+</li>
+</ol>
+<hr />
+<h2 id="conceptual-problems">Conceptual Problems</h2>
+<ol start="36">
+<li>What does pressure in a fluid depend on at a given depth?</li>
+</ol>
+<ul>
+<li>(a) Surface area</li>
+<li>(b) Density, gravity, and depth</li>
+<li>(c) Volume of the fluid</li>
+<li>(d) Shape of the container</li>
+</ul>
+<ol start="37">
+<li>What does Archimedes’ principle state?</li>
+</ol>
+<ul>
+<li>(a) Pressure increases with depth</li>
+<li>(b) Buoyant force equals the weight of displaced fluid</li>
+<li>(c) Fluid speed increases in narrower sections</li>
+<li>(d) Pressure is transmitted equally in a fluid</li>
+</ul>
+<ol start="38">
+<li>What does the continuity equation imply for an incompressible fluid?</li>
+</ol>
+<ul>
+<li>(a) Pressure is constant</li>
+<li>(b) Flow speed is constant</li>
+<li>(c) Mass flow rate is constant</li>
+<li>(d) Volume decreases with speed</li>
+</ul>
+<ol start="39">
+<li>What does Bernoulli’s principle conserve in fluid flow?</li>
+</ol>
+<ul>
+<li>(a) Mass</li>
+<li>(b) Momentum</li>
+<li>(c) Energy per unit volume</li>
+<li>(d) Viscosity</li>
+</ul>
+<ol start="40">
+<li>What is the unit of viscosity?</li>
+</ol>
+<ul>
+<li>(a) $\text{Pa} \cdot \text{s}$</li>
+<li>(b) $\text{N/m}$</li>
+<li>(c) $\text{Pa}$</li>
+<li>(d) $\text{m/s}$</li>
+</ul>
+<ol start="41">
+<li>What happens to flow speed in a pipe when the cross-sectional area decreases?</li>
+</ol>
+<ul>
+<li>(a) Decreases</li>
+<li>(b) Increases</li>
+<li>(c) Remains the same</li>
+<li>(d) Becomes zero</li>
+</ul>
+<ol start="42">
+<li>What does a high surface tension indicate?</li>
+</ol>
+<ul>
+<li>(a) Low cohesive forces</li>
+<li>(b) High cohesive forces</li>
+<li>(c) Low viscosity</li>
+<li>(d) High density</li>
+</ul>
+<ol start="43">
+<li>What is the physical significance of $\frac{2 \gamma}{r}$?</li>
+</ol>
+<ul>
+<li>(a) Excess pressure inside a droplet</li>
+<li>(b) Excess pressure inside a soap bubble</li>
+<li>(c) Capillary rise</li>
+<li>(d) Viscous force</li>
+</ul>
+<ol start="44">
+<li>What does Stokes’ law describe?</li>
+</ol>
+<ul>
+<li>(a) Flow rate in a pipe</li>
+<li>(b) Drag force on a sphere in a fluid</li>
+<li>(c) Pressure in a fluid</li>
+<li>(d) Surface tension in a droplet</li>
+</ul>
+<ol start="45">
+<li>What is the dimension of surface tension?</li>
+</ol>
+<ul>
+<li>(a) $[\text{M} \text{T}^{-2}]$</li>
+<li>(b) $[\text{M} \text{L} \text{T}^{-1}]$</li>
+<li>(c) $[\text{M} \text{L}^2 \text{T}^{-1}]$</li>
+<li>(d) $[\text{L} \text{T}^{-2}]$</li>
+</ul>
+<ol start="46">
+<li>What does a zero velocity gradient imply in a fluid?</li>
+</ol>
+<ul>
+<li>(a) No viscous force</li>
+<li>(b) Maximum viscous force</li>
+<li>(c) High flow rate</li>
+<li>(d) Low pressure</li>
+</ul>
+<ol start="47">
+<li>What is the significance of $\frac{\pi r^4 \Delta P}{8 \eta L}$?</li>
+</ol>
+<ul>
+<li>(a) Buoyant force</li>
+<li>(b) Volume flow rate</li>
+<li>(c) Terminal velocity</li>
+<li>(d) Excess pressure</li>
+</ul>
+<ol start="48">
+<li>What happens to pressure in a fluid as flow speed increases, per Bernoulli’s principle?</li>
+</ol>
+<ul>
+<li>(a) Increases</li>
+<li>(b) Decreases</li>
+<li>(c) Remains the same</li>
+<li>(d) Becomes zero</li>
+</ul>
+<ol start="49">
+<li>What does a low contact angle in capillary action indicate?</li>
+</ol>
+<ul>
+<li>(a) Fluid rises in the tube</li>
+<li>(b) Fluid depresses in the tube</li>
+<li>(c) No rise or depression</li>
+<li>(d) High viscosity</li>
+</ul>
+<ol start="50">
+<li>How does viscosity affect flow rate in a pipe?</li>
+</ol>
+<ul>
+<li>(a) Increases flow rate</li>
+<li>(b) Decreases flow rate</li>
+<li>(c) No effect</li>
+<li>(d) Increases pressure</li>
+</ul>
+<hr />
+<h2 id="derivation-problems">Derivation Problems</h2>
+<ol start="51">
+<li>
+<p>Derive the pressure in a fluid at depth $P = P_0 + \rho g h$.</p>
+</li>
+<li>
+<p>Derive Archimedes’ principle for the buoyant force.</p>
+</li>
+<li>
+<p>Derive the continuity equation $A_1 v_1 = A_2 v_2$.</p>
+</li>
+<li>
+<p>Derive Bernoulli’s equation for fluid flow.</p>
+</li>
+<li>
+<p>Derive the viscous force equation $F = \eta A \frac{v}{d}$.</p>
+</li>
+<li>
+<p>Derive Poiseuille’s law $Q = \frac{\pi r^4 \Delta P}{8 \eta L}$.</p>
+</li>
+<li>
+<p>Derive the excess pressure inside a droplet $\Delta P = \frac{2 \gamma}{r}$.</p>
+</li>
+<li>
+<p>Derive the capillary rise formula $h = \frac{2 \gamma \cos \theta}{\rho g r}$.</p>
+</li>
+<li>
+<p>Derive the terminal velocity using Stokes’ law.</p>
+</li>
+<li>
+<p>Derive the velocity of efflux (Torricelli’s law) $v = \sqrt{2 g h}$.</p>
+</li>
+<li>
+<p>Derive the lift force on an airfoil using Bernoulli’s principle.</p>
+</li>
+<li>
+<p>Derive the excess pressure inside a soap bubble $\Delta P = \frac{4 \gamma}{r}$.</p>
+</li>
+<li>
+<p>Derive Pascal’s principle for pressure transmission in a hydraulic system.</p>
+</li>
+<li>
+<p>Derive the fraction submerged for a floating object.</p>
+</li>
+<li>
+<p>Derive the viscous drag force on a rocket nozzle using Stokes’ law.</p>
+</li>
+</ol>
+<hr />
+<h2 id="neet-style-conceptual-problems">NEET-style Conceptual Problems</h2>
+<ol start="66">
+<li>What is the unit of pressure in SI units?</li>
+</ol>
+<ul>
+<li>(a) $\text{Pa}$</li>
+<li>(b) $\text{N/m}$</li>
+<li>(c) $\text{J}$</li>
+<li>(d) $\text{kg/m}^3$</li>
+</ul>
+<ol start="67">
+<li>What does a floating object displace in a fluid?</li>
+</ol>
+<ul>
+<li>(a) Fluid equal to its volume</li>
+<li>(b) Fluid equal to its weight</li>
+<li>(c) Fluid equal to its density</li>
+<li>(d) Fluid equal to its surface area</li>
+</ul>
+<ol start="68">
+<li>Which principle explains the operation of a hydraulic lift?</li>
+</ol>
+<ul>
+<li>(a) Archimedes’ principle</li>
+<li>(b) Bernoulli’s principle</li>
+<li>(c) Pascal’s principle</li>
+<li>(d) Continuity principle</li>
+</ul>
+<ol start="69">
+<li>What happens to a fluid’s speed in a pipe when the cross-sectional area increases?</li>
+</ol>
+<ul>
+<li>(a) Increases</li>
+<li>(b) Decreases</li>
+<li>(c) Remains the same</li>
+<li>(d) Becomes zero</li>
+</ul>
+<ol start="70">
+<li>What is the dimension of viscosity?</li>
+</ol>
+<ul>
+<li>(a) $[\text{M} \text{L}^{-1} \text{T}^{-1}]$</li>
+<li>(b) $[\text{M} \text{L} \text{T}^{-1}]$</li>
+<li>(c) $[\text{M} \text{L}^2 \text{T}^{-1}]$</li>
+<li>(d) $[\text{L} \text{T}^{-2}]$</li>
+</ul>
+<ol start="71">
+<li>What does Bernoulli’s principle apply to?</li>
+</ol>
+<ul>
+<li>(a) Fluids at rest</li>
+<li>(b) Ideal fluids in steady flow</li>
+<li>(c) Viscous fluids</li>
+<li>(d) Compressible fluids</li>
+</ul>
+<ol start="72">
+<li>What is the role of surface tension in a droplet?</li>
+</ol>
+<ul>
+<li>(a) Increases volume</li>
+<li>(b) Creates excess pressure inside</li>
+<li>(c) Reduces viscosity</li>
+<li>(d) Increases density</li>
+</ul>
+<ol start="73">
+<li>What happens to terminal velocity as the radius of a falling sphere increases?</li>
+</ol>
+<ul>
+<li>(a) Decreases</li>
+<li>(b) Increases</li>
+<li>(c) Remains the same</li>
+<li>(d) Becomes zero</li>
+</ul>
+<ol start="74">
+<li>Why does a fluid rise in a capillary tube with a small radius?</li>
+</ol>
+<ul>
+<li>(a) High viscosity</li>
+<li>(b) Surface tension and low contact angle</li>
+<li>(c) Low density</li>
+<li>(d) High pressure</li>
+</ul>
+<ol start="75">
+<li>What is the unit of volume flow rate?</li>
+</ol>
+<ul>
+<li>(a) $\text{m}^3/\text{s}$</li>
+<li>(b) $\text{m/s}$</li>
+<li>(c) $\text{Pa}$</li>
+<li>(d) $\text{N/m}$</li>
+</ul>
+<ol start="76">
+<li>What does a constant $A v$ indicate in fluid flow?</li>
+</ol>
+<ul>
+<li>(a) Bernoulli’s principle</li>
+<li>(b) Continuity equation</li>
+<li>(c) Pascal’s principle</li>
+<li>(d) Stokes’ law</li>
+</ul>
+<ol start="77">
+<li>Which type of force causes lift on an airfoil?</li>
+</ol>
+<ul>
+<li>(a) Viscous force</li>
+<li>(b) Pressure difference</li>
+<li>(c) Buoyant force</li>
+<li>(d) Surface tension</li>
+</ul>
+<ol start="78">
+<li>What is the direction of the buoyant force?</li>
+</ol>
+<ul>
+<li>(a) Downward</li>
+<li>(b) Upward</li>
+<li>(c) Horizontal</li>
+<li>(d) Along the flow</li>
+</ul>
+<ol start="79">
+<li>What does a pseudo-force do in a rotating fluid frame?</li>
+</ol>
+<ul>
+<li>(a) Maintains flow rate</li>
+<li>(b) Affects pressure calculations</li>
+<li>(c) Provides buoyant force</li>
+<li>(d) Reduces viscosity</li>
+</ul>
+<ol start="80">
+<li>What is the dimension of pressure?</li>
+</ol>
+<ul>
+<li>(a) $[\text{M} \text{L}^{-1} \text{T}^{-2}]$</li>
+<li>(b) $[\text{M} \text{L} \text{T}^{-1}]$</li>
+<li>(c) $[\text{M} \text{L}^2 \text{T}^{-1}]$</li>
+<li>(d) $[\text{L} \text{T}^{-2}]$</li>
+</ul>
+<ol start="81">
+<li>What is the role of viscosity in a rocket fuel system?</li>
+</ol>
+<ul>
+<li>(a) Increases flow rate</li>
+<li>(b) Resists flow, affecting fuel delivery</li>
+<li>(c) Increases pressure</li>
+<li>(d) Reduces surface tension</li>
+</ul>
+<ol start="82">
+<li>What happens to excess pressure inside a droplet as radius decreases?</li>
+</ol>
+<ul>
+<li>(a) Decreases</li>
+<li>(b) Increases</li>
+<li>(c) Remains the same</li>
+<li>(d) Becomes zero</li>
+</ul>
+<ol start="83">
+<li>Why does Bernoulli’s principle lead to lift on a wing?</li>
+</ol>
+<ul>
+<li>(a) Higher speed, higher pressure</li>
+<li>(b) Higher speed, lower pressure</li>
+<li>(c) Lower speed, lower pressure</li>
+<li>(d) No pressure change</li>
+</ul>
+<ol start="84">
+<li>What is the significance of $6 \pi \eta r v$?</li>
+</ol>
+<ul>
+<li>(a) Buoyant force</li>
+<li>(b) Viscous drag on a sphere</li>
+<li>(c) Surface tension force</li>
+<li>(d) Pressure in a pipe</li>
+</ul>
+<ol start="85">
+<li>What is the unit of density?</li>
+</ol>
+<ul>
+<li>(a) $\text{kg/m}^3$</li>
+<li>(b) $\text{Pa}$</li>
+<li>(c) $\text{N/m}$</li>
+<li>(d) $\text{m/s}$</li>
+</ul>
+<ol start="86">
+<li>What does a zero flow speed at the surface of a tank indicate?</li>
+</ol>
+<ul>
+<li>(a) No pressure</li>
+<li>(b) Maximum pressure</li>
+<li>(c) Torricelli’s law applies</li>
+<li>(d) No viscosity</li>
+</ul>
+<ol start="87">
+<li>What is the physical significance of $\sqrt{2 g h}$?</li>
+</ol>
+<ul>
+<li>(a) Terminal velocity</li>
+<li>(b) Velocity of efflux</li>
+<li>(c) Capillary rise</li>
+<li>(d) Viscous force</li>
+</ul>
+<ol start="88">
+<li>Why does a soap bubble have higher excess pressure than a droplet of the same radius?</li>
+</ol>
+<ul>
+<li>(a) Two surfaces vs. one</li>
+<li>(b) Higher surface tension</li>
+<li>(c) Lower viscosity</li>
+<li>(d) Higher density</li>
+</ul>
+<ol start="89">
+<li>What is the dimension of volume flow rate?</li>
+</ol>
+<ul>
+<li>(a) $[\text{L}^3 \text{T}^{-1}]$</li>
+<li>(b) $[\text{M} \text{L} \text{T}^{-1}]$</li>
+<li>(c) $[\text{L} \text{T}^{-2}]$</li>
+<li>(d) $[\text{M} \text{L}^2 \text{T}^{-1}]$</li>
+</ul>
+<ol start="90">
+<li>How does surface tension affect fuel atomization in a rocket?</li>
+</ol>
+<ul>
+<li>(a) Increases droplet size</li>
+<li>(b) Creates pressure to break droplets</li>
+<li>(c) Reduces viscosity</li>
+<li>(d) Increases flow rate</li>
+</ul>
+<ol start="91">
+<li>What is the role of buoyancy in a hot air balloon?</li>
+</ol>
+<ul>
+<li>(a) Increases pressure</li>
+<li>(b) Provides lift by displacing air</li>
+<li>(c) Increases viscosity</li>
+<li>(d) Reduces surface tension</li>
+</ul>
+<ol start="92">
+<li>What does a zero pressure difference in a pipe indicate?</li>
+</ol>
+<ul>
+<li>(a) No flow</li>
+<li>(b) Maximum flow</li>
+<li>(c) High viscosity</li>
+<li>(d) Low density</li>
+</ul>
+<ol start="93">
+<li>What is the physical significance of $\frac{2 \gamma \cos \theta}{\rho g r}$?</li>
+</ol>
+<ul>
+<li>(a) Excess pressure</li>
+<li>(b) Terminal velocity</li>
+<li>(c) Capillary rise height</li>
+<li>(d) Flow rate</li>
+</ul>
+<ol start="94">
+<li>What is the dimension of lift force?</li>
+</ol>
+<ul>
+<li>(a) $[\text{M} \text{L} \text{T}^{-2}]$</li>
+<li>(b) $[\text{M} \text{L} \text{T}^{-1}]$</li>
+<li>(c) $[\text{L} \text{T}^{-2}]$</li>
+<li>(d) $[\text{M} \text{L}^2 \text{T}^{-1}]$</li>
+</ul>
+<ol start="95">
+<li>Why does viscosity decrease with temperature in most liquids?</li>
+</ol>
+<ul>
+<li>(a) Increased molecular motion</li>
+<li>(b) Decreased density</li>
+<li>(c) Increased surface tension</li>
+<li>(d) Decreased pressure</li>
+</ul>
+<hr />
+<h2 id="neet-style-numerical-problems">NEET-style Numerical Problems</h2>
+<ol start="96">
+<li>A tank filled with water ($\rho = 1000 , \text{kg/m}^3$) has a depth of $1 , \text{m}$. What is the pressure at the bottom ($P_{\text{atm}} = 1.013 \times 10^5 , \text{Pa}$, $g = 9.8 , \text{m/s}^2$)?</li>
+</ol>
+<ul>
+<li>(a) $1.111 \times 10^5 , \text{Pa}$</li>
+<li>(b) $1.112 \times 10^5 , \text{Pa}$</li>
+<li>(c) $1.113 \times 10^5 , \text{Pa}$</li>
+<li>(d) $1.114 \times 10^5 , \text{Pa}$</li>
+</ul>
+<ol start="97">
+<li>A pipe has $A_1 = 0.02 , \text{m}^2$ and $A_2 = 0.01 , \text{m}^2$. If $v_1 = 2 , \text{m/s}$, what is $v_2$?</li>
+</ol>
+<ul>
+<li>(a) $3.5 , \text{m/s}$</li>
+<li>(b) $4.0 , \text{m/s}$</li>
+<li>(c) $4.5 , \text{m/s}$</li>
+<li>(d) $5.0 , \text{m/s}$</li>
+</ul>
+<ol start="98">
+<li>A steel ball ($r = 0.003 , \text{m}$, $\rho_{\text{steel}} = 7800 , \text{kg/m}^3$) falls in water ($\rho_{\text{water}} = 1000 , \text{kg/m}^3$, $\eta = 0.001 , \text{Pa} \cdot \text{s}$, $g = 9.8 , \text{m/s}^2$). What is the terminal velocity?</li>
+</ol>
+<ul>
+<li>(a) $2.35 , \text{m/s}$</li>
+<li>(b) $2.36 , \text{m/s}$</li>
+<li>(c) $2.37 , \text{m/s}$</li>
+<li>(d) $2.38 , \text{m/s}$</li>
+</ul>
+<ol start="99">
+<li>A water droplet of radius $0.0015 , \text{m}$ has $\gamma = 0.072 , \text{N/m}$. What is the excess pressure inside?</li>
+</ol>
+<ul>
+<li>(a) $95 , \text{Pa}$</li>
+<li>(b) $96 , \text{Pa}$</li>
+<li>(c) $97 , \text{Pa}$</li>
+<li>(d) $98 , \text{Pa}$</li>
+</ul>
+<ol start="100">
+<li>A capillary tube of radius $0.0003 , \text{m}$ is placed in water ($\gamma = 0.072 , \text{N/m}$, $\rho = 1000 , \text{kg/m}^3$, $g = 9.8 , \text{m/s}^2$). What is the height of rise?<br />
+- (a) $48.5 , \text{mm}$<br />
+- (b) $49.0 , \text{mm}$<br />
+- (c) $49.5 , \text{mm}$<br />
+- (d) $50.0 , \text{mm}$</li>
+</ol>
+<h2 id="back-to-chapter">Back to Chapter</h2>
+<p><a href="../../fluids">Return to Fluids Chapter</a></p>
+
+        </article>
+    </div>
+
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container text-center py-5">
+            <ul class="social-list list-unstyled pt-4 mb-0">
+                
+                    <li class="list-inline-item">
+                        <a href="https:&#x2F;&#x2F;www.youtube.com&#x2F;@VidyaMargbyRaviShankar-w9u" target="_blank" title="YouTube"><i class="fab fa-youtube fa-fw"></i></a>
+                    </li>
+                
+                    <li class="list-inline-item">
+                        <a href="https:&#x2F;&#x2F;t.me&#x2F;vidyamarg1" target="_blank" title="Telegram"><i class="fab fa-telegram fa-fw"></i></a>
+                    </li>
+                
+            </ul>
+            <small class="copyright">
+                © 2025 Vidya Marg. Designed with <span class="sr-only">love</span><i class="fas fa-heart" style="color: #fb866a;"></i> by <a class="theme-link" href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers. <a class="theme-link" href="/app/privacy-policy/">Privacy Policy</a>
+            </small>
+        </div>
+    </footer>
+
+    <!-- Javascript -->          
+    <script src="https://vidyamarg.com/plugins/popper.min.js"></script>
+    <script src="https://vidyamarg.com/plugins/bootstrap/js/bootstrap.min.js"></script>  
+    
+    <!-- Page Specific JS -->
+    <script src="https://vidyamarg.com/plugins/smoothscroll.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
+    <script src="https://vidyamarg.com/js/highlight-custom.js"></script> 
+    <script src="https://vidyamarg.com/plugins/simplelightbox/simple-lightbox.min.js"></script>      
+    <script src="https://vidyamarg.com/plugins/gumshoe/gumshoe.polyfills.min.js"></script> 
+    <script src="https://vidyamarg.com/js/docs.js"></script> 
+
+    <script>
+        function renderLatex() {
+            if (typeof renderMathInElement === "undefined") {
+                setTimeout(renderLatex, 100);
+                return;
+            }
+            renderMathInElement(document.body, {
+                delimiters: [
+                    { left: "$$", right: "$$", display: true },
+                    { left: "$", right: "$", display: false },
+                    { left: "\\(", right: "\\)", display: false },
+                    { left: "\\[", right: "\\]", display: true }
+                ],
+                throwOnError: false
+            });
+        }
+
+        window.addEventListener("load", function() {
+            renderLatex();
+        });
+    </script>
+</body>
+</html>

@@ -1,7 +1,7 @@
 ---
 title: Physics Book - Magnetic Fields Solutions for JEE & NEET
 description: Sample solutions for magnetic field problems, covering Biot-Savart law, Ampere’s law, magnetic fields due to current distributions, and electromagnetism applications, tailored for JEE and NEET preparation.
-slug: books/physics/magnetic-fields/solutions
+slug: solutions
 keywords: physics magnetic fields solutions, JEE physics Biot-Savart law solutions, NEET physics Ampere’s law solutions, electromagnetism
 og:image: https://vidyamarg.com/og-physics-magnetic-fields.jpg
 ---
@@ -155,6 +155,6 @@ Round to two decimal places: $4.19 \times 10^{-5} \, \text{T}$. The answer is (b
 - **JEE/NEET Tip**: Field at the center is stronger for smaller $R$; use the right-hand rule for direction. Common error: Using the straight wire formula or incorrect $\mu_0$.
 
 ## Back to Chapter
-[Return to Magnetic Fields Chapter](./index.md)
+[Return to Magnetic Fields Chapter](../../magnetic-fields)
 
-[Return to Magnetic Fields Problems](./problems.md)
+[Return to Magnetic Fields Problems](../../magnetic-fields/problems)

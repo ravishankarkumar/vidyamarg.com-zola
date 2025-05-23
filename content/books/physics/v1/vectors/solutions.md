@@ -1,7 +1,7 @@
 ---
 title: Physics Book - Vectors Solutions for JEE & NEET
 description: Sample solutions for vectors problems, covering vector representation, addition, subtraction, components, dot and cross products, and applications, tailored for JEE and NEET preparation.
-slug: books/physics/vectors/solutions
+slug: solutions
 keywords: physics vectors solutions, JEE physics vectors solutions, NEET physics vectors solutions, dot product, cross product
 og:image: https://vidyamarg.com/og-physics-vectors.jpg
 ---
@@ -155,6 +155,6 @@ The answer is (a) $17 \, N \cdot m$.
 - **JEE/NEET Tip**: Cross product gives torque; use the right-hand rule for direction (here, out of the plane). Common error: Reversing the order of components ($r_y F_x - r_x F_y$ gives wrong sign).
 
 ## Back to Chapter
-[Return to Vectors Chapter](./index.md)
+[Return to Vectors Chapter](../../vectors)
 
-[Return to Vectors Problems](./problems.md)
+[Return to Vectors Problems](../../vectors/problems)

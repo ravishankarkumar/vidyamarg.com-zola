@@ -1,7 +1,7 @@
 ---
 title: Physics Book - Gravitation Solutions for JEE & NEET
 description: Sample solutions for gravitation problems, covering Newton’s law, gravitational fields, potential energy, Kepler’s laws, orbital motion, and escape velocity, tailored for JEE and NEET preparation.
-slug: books/physics/gravitation/solutions
+slug: solutions
 keywords: physics gravitation solutions, JEE physics gravitation solutions, NEET physics orbital motion solutions, escape velocity
 og:image: https://vidyamarg.com/og-physics-gravitation.jpg
 ---
@@ -159,6 +159,6 @@ The answer is (b) $760女孩0 \, \text{m/s}$.
 - **JEE/NEET Tip**: Orbital velocity is typically 7–8 km/s for low Earth orbit; ensure $r$ includes Earth’s radius. Common error: Using height alone for $r$, leading to an incorrect velocity.
 
 ## Back to Chapter
-[Return to Gravitation Chapter](./index.md)
+[Return to Gravitation Chapter](../../gravitation)
 
-[Return to Gravitation Problems](./problems.md)
+[Return to Gravitation Problems](../../gravitation/problems)

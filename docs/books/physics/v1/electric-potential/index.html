@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <title>Vidya Marg | Physics Book - Electric Potential for JEE &amp; NEET</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Comprehensive guide on electric potential for JEE and NEET, covering potential definitions, potential due to charge distributions, potential energy, and applications in electrostatics, with extensive examples.">
+    <meta name="keywords" content="JEE physics book, NEET physics book, physics book, physics for JEE and NEET">
+    <meta property="og:image" content="https://vidyamarg.com/og-physics-book.jpg">
+    <link rel="canonical" href="https:&#x2F;&#x2F;vidyamarg.com&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electric-potential&#x2F;">
+    <link rel="shortcut icon" href="https://vidyamarg.com/logos/maroon-bg-logo-128.ico">
+    
+    <!-- Preload Google Font -->
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" as="style">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript>
+        <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
+    </noscript>
+    
+    <!-- FontAwesome JS -->
+    <script defer src="https://vidyamarg.com/fontawesome/js/all.min.js"></script>
+
+    <!-- KaTeX for LaTeX rendering -->
+    <link rel="stylesheet" href="https://vidyamarg.com/katex/katex.min.css">
+    <script src="https://vidyamarg.com/katex/katex.min.js"></script>
+    <script src="https://vidyamarg.com/katex/auto-render.min.js"></script>
+
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.2/styles/atom-one-dark.min.css">
+    <link rel="stylesheet" href="https://vidyamarg.com/plugins/simplelightbox/simple-lightbox.min.css">
+
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="https://vidyamarg.com/css/theme.css">
+    <link rel="stylesheet" href="https://vidyamarg.com/css/custom.css" />
+</head> 
+
+<body>    
+    <header class="header fixed-top">
+        <div class="branding docs-branding">
+            <div class="container-fluid position-relative py-2">
+                <div class="docs-logo-wrapper">
+                    
+                    
+                    
+                    <button id="docs-sidebar-toggler" class="docs-sidebar-toggler docs-sidebar-visible me-2 d-xl-none" type="button">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    
+                    <div class="site-logo">
+                        <a class="navbar-brand" href="https://vidyamarg.com">
+                            <img class="logo-icon me-2" src="https://vidyamarg.com/logos/maroon-bg-logo-1024.png" alt="logo">
+                            <span class="logo-text">Vidya Marg</span>
+                        </a>
+                    </div>    
+                </div>
+                <div class="docs-top-utilities d-flex justify-content-end align-items-center">
+                    <ul class="nav-list list-inline mb-0 d-none d-lg-flex">
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;">Home</a>
+                            </li>
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics (Youtube series)</a>
+                            </li>
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;">Books</a>
+                            </li>
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;app&#x2F;">App</a>
+                            </li>
+                        
+                        
+                            
+                                <li class="list-inline-item">
+                                    <a href="https:&#x2F;&#x2F;www.youtube.com&#x2F;@VidyaMargbyRaviShankar-w9u" title="YouTube"><i class="fab fa-youtube fa-fw"></i></a>
+                                </li>
+                            
+                                <li class="list-inline-item">
+                                    <a href="https:&#x2F;&#x2F;t.me&#x2F;vidyamarg1" title="Telegram"><i class="fab fa-telegram fa-fw"></i></a>
+                                </li>
+                            
+                        
+                    </ul>
+                    <!-- Mobile Menu Button -->
+                    <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#mobileNav" aria-controls="mobileNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </div>
+            <!-- Mobile Menu -->
+            <div class="collapse navbar-collapse d-lg-none" id="mobileNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;">Home</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics (Youtube series)</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;books&#x2F;">Books</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;app&#x2F;">App</a>
+                        </li>
+                    
+                    
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="https:&#x2F;&#x2F;www.youtube.com&#x2F;@VidyaMargbyRaviShankar-w9u"><i class="fab fa-youtube fa-fw"></i> YouTube</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="https:&#x2F;&#x2F;t.me&#x2F;vidyamarg1"><i class="fab fa-telegram fa-fw"></i> Telegram</a>
+                            </li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="docs-wrapper">
+        
+        
+        
+        <div id="docs-sidebar" class="docs-sidebar">
+            <nav id="docs-nav" class="docs-nav navbar">
+                
+                    
+                        
+
+<ul class="nav flex-column">
+    <!-- Navigation Menu (visible only in mobile view) -->
+    <li class="nav-item d-lg-none">
+        <span class="nav-link">Navigation</span>
+        <ul class="nav flex-column">
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;">Home</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics (Youtube series)</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;books&#x2F;">Books</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;app&#x2F;">App</a>
+                </li>
+            
+        </ul>
+    </li>
+
+    <!-- JEE/NEET Physics Section -->
+    
+    <li class="nav-item">
+        <span class="nav-link">Physics for JEE&#x2F;NEET</span>
+        <ul class="nav flex-column">
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics for JEE&#x2F;NEET</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;maths-basics-for-physics&#x2F;">Maths Basics for Physics</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;units-and-dimensions&#x2F;">Units and Dimensions</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;physical-quantities-and-si-units&#x2F;">Physical Quantities and SI Units</a>
+                </li>
+            
+        </ul>
+    </li>
+
+    <!-- Books Section -->
+    
+    <li class="nav-item">
+        <span class="nav-link">Books</span>
+        <ul class="nav flex-column">
+            <!-- JEE/NEET Physics Book (Version 1) -->
+            
+            <li class="nav-item">
+                <a class="nav-link" href="/books/physics/v1/">Physics Book</a>
+                
+                    <ul class="nav flex-column">
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;measurement&#x2F;">Measurement</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;motion-straight-line&#x2F;">Motion Along a Straight Line</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;vectors&#x2F;">Vectors</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;motion-2d-3d&#x2F;">Motion in Two and Three Dimensions</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;force-motion-1&#x2F;">Force and Motion—I</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;force-motion-2&#x2F;">Force and Motion—II</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;kinetic-energy-work&#x2F;">Kinetic Energy and Work</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;potential-energy-conservation&#x2F;">Potential Energy and Conservation of Energy</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;center-mass-momentum&#x2F;">Center of Mass and Linear Momentum</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;rotation&#x2F;">Rotation</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;rolling-torque-angular-momentum&#x2F;">Rolling, Torque, and Angular Momentum</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;equilibrium-elasticity&#x2F;">Equilibrium and Elasticity</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;gravitation&#x2F;">Gravitation</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;fluids&#x2F;">Fluids</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;oscillations&#x2F;">Oscillations</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;waves-1&#x2F;">Waves—I</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;waves-2&#x2F;">Waves—II</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;kinetic-theory-gases&#x2F;">The Kinetic Theory of Gases</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;thermodynamics-temperature-heat&#x2F;">Temperature, Heat, and the First Law of Thermodynamics</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;entropy-thermodynamics&#x2F;">Entropy and the Second Law of Thermodynamics</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electric-fields&#x2F;">Electric Fields</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;gauss-law&#x2F;">Gauss’s Law</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electric-potential&#x2F;">Electric Potential</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;capacitance&#x2F;">Capacitance</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;current-resistance&#x2F;">Current and Resistance</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;circuits&#x2F;">Circuits</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;magnetic-fields&#x2F;">Magnetic Fields</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;magnetic-fields-currents&#x2F;">Magnetic Fields Due to Currents</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;induction-inductance&#x2F;">Induction and Inductance</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electromagnetic-oscillations-ac&#x2F;">Electromagnetic Oscillations and Alternating Current</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electromagnetic-waves&#x2F;">Electromagnetic Waves</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;images&#x2F;">Images</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;interference&#x2F;">Interference</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;diffraction&#x2F;">Diffraction</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;photons-matter-waves&#x2F;">Photons and Matter Waves</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;matter-waves-advanced&#x2F;">More About Matter Waves</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;atoms&#x2F;">All About Atoms</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;nuclear-physics&#x2F;">Nuclear Physics</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;nuclear-energy&#x2F;">Energy from the Nucleus</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;quarks-leptons&#x2F;">Quarks, Leptons, and the Big Bang</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;relativity&#x2F;">Relativity</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;conduction-solids&#x2F;">Conduction of Electricity in Solids</a>
+                            </li>
+                        
+                    </ul>
+                
+            </li>
+        </ul>
+    </li>
+</ul>
+                    
+                
+            </nav>
+        </div>
+        
+
+        <div class="docs-content">
+            
+    <div class="docs-main">
+        <article class="docs-article">
+            <h1 id="chapter-24-electric-potential">Chapter 24: Electric Potential</h1>
+<div class="callout-block callout-warning">
+    <div class="content">
+        <h4 class="callout-title">
+            <span class="callout-icon-holder me-1">
+                <i class="fas fa-exclamation-triangle"></i>
+            </span>
+            Beta Version
+        </h4>
+        <p>Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!</p>
+    </div>
+</div>
+<p>Electric potential is a cornerstone of electrostatics, providing a scalar approach to understanding electric fields, with applications like calculating energy in rocket propulsion systems. Building on the concepts of electric fields and Gauss’s law from Chapters 21–23, this chapter explores electric potential in depth. For JEE Main, JEE Advanced, and NEET students, mastering electric potential is essential, as it frequently appears in problems involving energy, field calculations, and capacitor systems. This chapter, <strong>Electric Potential</strong>, covers <strong>electric potential and potential energy</strong>, <strong>potential due to charge distributions</strong>, <strong>relation between electric field and potential</strong>, and <strong>potential in conductors and capacitors</strong>, providing detailed explanations, derivations, solved examples, and practical applications to ensure conceptual clarity and problem-solving proficiency.</p>
+<h2 id="24-1-electric-potential-and-potential-energy">24.1 Electric Potential and Potential Energy</h2>
+<p>Electric potential provides a scalar measure of the electric field, simplifying energy calculations, a key concept for JEE/NEET electrostatics problems.</p>
+<h3 id="electric-potential-energy">Electric Potential Energy</h3>
+<p>The electric potential energy $U$ of a charge $q$ in an electric field is the work done by the field to bring the charge from infinity to its position:<br />
+$$
+U = q V
+$$</p>
+<ul>
+<li>$V$: Electric potential at the position (defined below).</li>
+<li>For two point charges $q_1$ and $q_2$ separated by $r$:<br />
+$$
+U = k \frac{q_1 q_2}{r}
+$$</li>
+<li>Units: Joules (J).</li>
+<li>Sign: Positive if repulsive (like charges), negative if attractive (unlike charges).</li>
+</ul>
+<h3 id="electric-potential">Electric Potential</h3>
+<p>Electric potential $V$ at a point is the potential energy per unit charge:<br />
+$$
+V = \frac{U}{q} = k \frac{Q}{r}
+$$</p>
+<ul>
+<li>For a point charge $Q$, at distance $r$ from $Q$.</li>
+<li>$k = \frac{1}{4 \pi \epsilon_0} \approx 9 \times 10^9 , \text{N·m}^2/\text{C}^2$, $\epsilon_0 = 8.85 \times 10^{-12} , \text{C}^2/\text{N·m}^2$.</li>
+<li>Units: Volts (V), where $1 , \text{V} = 1 , \text{J/C}$.</li>
+<li>Reference: $V = 0$ at infinity.</li>
+<li>For multiple charges: $V = \sum V_i = k \sum \frac{q_i}{r_i}$ (superposition principle).</li>
+</ul>
+<h3 id="work-done-by-the-field">Work Done by the Field</h3>
+<p>Work done by the field when a charge $q$ moves between points with potentials $V_a$ and $V_b$:<br />
+$$
+W = q (V_a - V_b)
+$$</p>
+<h3 id="properties">Properties</h3>
+<ul>
+<li><strong>Scalar Quantity</strong>: Potential is a scalar, simplifying calculations compared to vector fields.</li>
+<li><strong>Conservative Field</strong>: Work done by the field is path-independent, only depends on the potential difference.</li>
+<li><strong>Sign</strong>: $V$ is positive for positive charges, negative for negative charges.</li>
+</ul>
+<p><strong>Derivation</strong>: <strong>Potential Due to a Point Charge</strong><br />
+The electric field due to a point charge $Q$ is $\vec{E} = k \frac{Q}{r^2} \hat{r}$. Potential is defined as $V = -\int_{\infty}^{r} \vec{E} \cdot d\vec{l}$, where the path is radial from infinity to $r$, $d\vec{l} = dr \hat{r}$, $\vec{E} \cdot d\vec{l} = E dr$.<br />
+$$
+V = -\int_{\infty}^{r} \left( k \frac{Q}{r'^2} \right) dr' = -k Q \left[ -\frac{1}{r'} \right]_{\infty}^{r} = -k Q \left( -\frac{1}{r} - 0 \right) = k \frac{Q}{r}
+$$</p>
+<p><strong>Derivation</strong>: <strong>Potential Energy of Two Charges</strong><br />
+For charges $q_1$ and $q_2$ at distance $r$, bring $q_2$ from infinity to $r$ in the field of $q_1$. The potential at $r$ due to $q_1$ is $V = k \frac{q_1}{r}$, so $U = q_2 V = k \frac{q_1 q_2}{r}$.</p>
+<p><strong>Derivation</strong>: <strong>Work Done by the Field</strong><br />
+Work done by the field is the negative change in potential energy: $W = -\Delta U = -(U_b - U_a) = -q (V_b - V_a) = q (V_a - V_b)$.</p>
+<p><strong>Derivation</strong>: <strong>Potential in Rocket System</strong><br />
+In a rocket ion engine, a charge $Q = 2 \times 10^{-6} , \text{C}$ at the origin creates $V = k \frac{Q}{r}$ at $r = 0.1 , \text{m}$, $V = 1.8 \times 10^5 , \text{V}$, affecting ion energy (your interest, April 19, 2025).</p>
+<p><strong>Solved Example</strong>: A JEE Main problem involves calculating the potential at $r = 0.2 , \text{m}$ from a charge $Q = 3 , \mu\text{C}$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$V = k \frac{Q}{r} = 9 \times 10^9 \times \frac{3 \times 10^{-6}}{0.2} = 1.35 \times 10^5 , \text{V}$.
+<ul>
+<li><strong>JEE Tip</strong>: Potential is a scalar; $V \propto 1/r$, unlike $E \propto 1/r^2$. Common error: Using $E$ formula instead of $V$.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A NEET problem involves two charges $q_1 = +2 , \mu\text{C}$ at $(0, 0)$ and $q_2 = -2 , \mu\text{C}$ at $(0.1, 0)$. Find $V$ at $(0.05, 0)$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$V_1 = k \frac{q_1}{r_1} = 9 \times 10^9 \times \frac{2 \times 10^{-6}}{0.05} = 3.6 \times 10^5 , \text{V}$, $V_2 = 9 \times 10^9 \times \frac{-2 \times 10^{-6}}{0.05} = -3.6 \times 10^5 , \text{V}$, $V = V_1 + V_2 = 0 , \text{V}$.
+<ul>
+<li><strong>NEET Tip</strong>: Potentials add as scalars; symmetry can lead to cancellation. Common error: Adding magnitudes without considering signs.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Advanced problem involves the potential energy of $q_1 = 4 , \mu\text{C}$ and $q_2 = -3 , \mu\text{C}$ at $r = 0.2 , \text{m}$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$U = k \frac{q_1 q_2}{r} = 9 \times 10^9 \times \frac{(4 \times 10^{-6}) \times (-3 \times 10^{-6})}{0.2} = -0.54 , \text{J}$.
+<ul>
+<li><strong>JEE Tip</strong>: Negative $U$ indicates attraction; include charge signs. Common error: Forgetting the sign of $U$.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Main problem involves a charge $q = 2 , \mu\text{C}$ moving from $V_a = 100 , \text{V}$ to $V_b = 50 , \text{V}$. Find the work done by the field.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$W = q (V_a - V_b) = (2 \times 10^{-6}) \times (100 - 50) = 1 \times 10^{-4} , \text{J}$.
+<ul>
+<li><strong>JEE Tip</strong>: Work depends on potential difference; positive work means field does work. Common error: Using incorrect $q$ units.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Application</strong>: Potential applies to capacitors, energy storage, and rocketry (e.g., ion energy in propulsion, aligning with your interest, April 19, 2025).</p>
+<h2 id="24-2-electric-potential-due-to-charge-distributions">24.2 Electric Potential Due to Charge Distributions</h2>
+<p>Electric potential due to continuous charge distributions requires integration, a common technique in JEE/NEET problems involving lines, rings, and spheres.</p>
+<h3 id="general-method">General Method</h3>
+<p>For a charge distribution, the potential at a point is:<br />
+$$
+V = k \int \frac{dq}{r}
+$$</p>
+<ul>
+<li>$dq$: Infinitesimal charge element.</li>
+<li>$r$: Distance from $dq$ to the field point.</li>
+<li>Unlike electric field, potential is a scalar, so no vector components are needed.</li>
+</ul>
+<h3 id="potential-due-to-a-line-charge">Potential Due to a Line Charge</h3>
+<p>For a line charge with linear charge density $\lambda$ (C/m), length $L$, along the x-axis from $-L/2$ to $L/2$, potential at $(0, d)$:<br />
+$$
+V = k \lambda \int_{-L/2}^{L/2} \frac{dx}{\sqrt{x^2 + d^2}} = k \lambda \ln \left( \frac{\sqrt{(L/2)^2 + d^2} + L/2}{\sqrt{(L/2)^2 + d^2} - L/2} \right)
+$$</p>
+<h3 id="potential-due-to-a-ring-of-charge">Potential Due to a Ring of Charge</h3>
+<p>For a ring of radius $R$, total charge $Q$, in the xy-plane, potential on the z-axis at $(0, 0, z)$:<br />
+$$
+V = k \frac{Q}{\sqrt{R^2 + z^2}}
+$$</p>
+<h3 id="potential-due-to-a-uniformly-charged-disk">Potential Due to a Uniformly Charged Disk</h3>
+<p>For a disk of radius $R$, surface charge density $\sigma$, potential on the axis at distance $z$:<br />
+$$
+V = \frac{\sigma}{2 \epsilon_0} \left( \sqrt{R^2 + z^2} - |z| \right)
+$$</p>
+<h3 id="potential-due-to-a-spherical-shell">Potential Due to a Spherical Shell</h3>
+<p>For a thin spherical shell, radius $R$, charge $Q$:</p>
+<ul>
+<li><strong>Outside ($r &gt; R$)</strong>: $V = k \frac{Q}{r}$.</li>
+<li><strong>Inside ($r &lt; R$)</strong>: $V = k \frac{Q}{R}$ (constant, since $E = 0$ inside).</li>
+</ul>
+<p><strong>Derivation</strong>: <strong>Potential Due to a Line Charge</strong><br />
+Element $dx$ at $(x, 0)$, $dq = \lambda dx$, distance to $(0, d)$ is $r = \sqrt{x^2 + d^2}$. Potential: $dV = k \frac{dq}{r}$, integrate: $V = k \lambda \int_{-L/2}^{L/2} \frac{dx}{\sqrt{x^2 + d^2}}$, yielding the result above.</p>
+<p><strong>Derivation</strong>: <strong>Potential Due to a Ring</strong><br />
+Ring in xy-plane, $dq = \frac{Q}{2 \pi R} Rd\theta$. At $(0, 0, z)$, distance $r = \sqrt{R^2 + z^2}$, constant for all $dq$. Integrate: $V = k \int_0^{2\pi} \frac{dq}{\sqrt{R^2 + z^2}} = k \frac{Q}{\sqrt{R^2 + z^2}}$.</p>
+<p><strong>Derivation</strong>: <strong>Potential Due to a Spherical Shell</strong><br />
+Outside: Same as a point charge, $V = k \frac{Q}{r}$. Inside: $E = 0$, so $V$ is constant, equal to the surface value: $V = k \frac{Q}{R}$.</p>
+<p><strong>Derivation</strong>: <strong>Potential in Rocket Ion Engine</strong><br />
+A charged disk in an ion engine ($R = 0.1 , \text{m}$, $\sigma = 10^{-5} , \text{C/m}^2$) at $z = 0.05 , \text{m}$: $V \approx 8.47 \times 10^4 , \text{V}$, influencing ion trajectories (your interest, April 19, 2025).</p>
+<p><strong>Solved Example</strong>: A JEE Main problem involves a line charge, $\lambda = 2 \times 10^{-6} , \text{C/m}$, $L = 0.4 , \text{m}$, along the x-axis. Find $V$ at $(0, 0.2)$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$V = k \lambda \ln \left( \frac{\sqrt{(0.2)^2 + (0.2)^2} + 0.2}{\sqrt{(0.2)^2 + (0.2)^2} - 0.2} \right) = 9 \times 10^9 \times (2 \times 10^{-6}) \ln \left( \frac{0.4828}{0.0828} \right) \approx 3.24 \times 10^4 , \text{V}$.
+<ul>
+<li><strong>JEE Tip</strong>: Integrate scalar contributions; no symmetry cancellation needed. Common error: Using $E$ formula.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A NEET problem involves a ring, $R = 0.1 , \text{m}$, $Q = 3 , \mu\text{C}$, at $z = 0.1 , \text{m}$. Find $V$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$V = k \frac{Q}{\sqrt{R^2 + z^2}} = 9 \times 10^9 \times \frac{3 \times 10^{-6}}{\sqrt{(0.1)^2 + (0.1)^2}} = 1.91 \times 10^5 , \text{V}$.
+<ul>
+<li><strong>NEET Tip</strong>: Distance is constant for a ring; use the formula directly. Common error: Using incorrect $r$.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Advanced problem involves a disk, $R = 0.2 , \text{m}$, $\sigma = 5 \times 10^{-6} , \text{C/m}^2$, at $z = 0.1 , \text{m}$. Find $V$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$V = \frac{5 \times 10^{-6}}{2 \times 8.85 \times 10^{-12}} \left( \sqrt{(0.2)^2 + (0.1)^2} - 0.1 \right) \approx 1.05 \times 10^5 , \text{V}$.
+<ul>
+<li><strong>JEE Tip</strong>: Disk potential requires integration; use the derived formula. Common error: Misapplying limits.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Main problem involves a spherical shell, $R = 0.1 , \text{m}$, $Q = 4 , \mu\text{C}$, at $r = 0.05 , \text{m}$. Find $V$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+Inside: $V = k \frac{Q}{R} = 9 \times 10^9 \times \frac{4 \times 10^{-6}}{0.1} = 3.6 \times 10^5 , \text{V}$.
+<ul>
+<li><strong>JEE Tip</strong>: Inside a shell, $V$ is constant; outside, $V \propto 1/r$. Common error: Assuming $V \propto 1/r$ inside.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Application</strong>: Charge distributions apply to capacitors, potential mapping, and rocketry (e.g., ion engine potential fields, aligning with your interest, April 19, 2025).</p>
+<h2 id="24-3-relation-between-electric-field-and-potential">24.3 Relation Between Electric Field and Potential</h2>
+<p>The electric field and potential are intimately related, providing a powerful tool for JEE/NEET problems involving field calculations.</p>
+<h3 id="relation">Relation</h3>
+<p>The electric field is the negative gradient of the potential:<br />
+$$
+\vec{E} = -\nabla V = -\left( \frac{\partial V}{\partial x} \hat{i} + \frac{\partial V}{\partial y} \hat{j} + \frac{\partial V}{\partial z} \hat{k} \right)
+$$</p>
+<ul>
+<li>In one dimension: $E_x = -\frac{dV}{dx}$.</li>
+<li>For a point charge, $V = k \frac{Q}{r}$, so $E = -\frac{d}{dr} \left( k \frac{Q}{r} \right) = k \frac{Q}{r^2}$, matching the field.</li>
+</ul>
+<h3 id="potential-difference">Potential Difference</h3>
+<p>The potential difference between two points is related to the field:<br />
+$$
+V_b - V_a = -\int_a^b \vec{E} \cdot d\vec{l}
+$$</p>
+<h3 id="equipotential-surfaces">Equipotential Surfaces</h3>
+<p>Surfaces where $V$ is constant are equipotential. Since $\vec{E} = -\nabla V$, $\vec{E}$ is perpendicular to equipotential surfaces.</p>
+<h3 id="potential-energy-and-field">Potential Energy and Field</h3>
+<p>For a system of charges, the field can be derived from the potential energy gradient: $\vec{F} = -\nabla U$.</p>
+<p><strong>Derivation</strong>: <strong>Electric Field from Potential</strong><br />
+Given $V = k \frac{Q}{r}$, in spherical coordinates, $V$ depends only on $r$, so $\nabla V = \frac{\partial V}{\partial r} \hat{r} = -\frac{k Q}{r^2} \hat{r}$. Thus, $\vec{E} = -\nabla V = k \frac{Q}{r^2} \hat{r}$, matching the field from Coulomb’s law.</p>
+<p><strong>Derivation</strong>: <strong>Potential Difference</strong><br />
+Work done by the field is $W = q (V_a - V_b)$. Since $W = \int_a^b \vec{F} \cdot d\vec{l} = q \int_a^b \vec{E} \cdot d\vec{l}$, we have $V_a - V_b = \int_a^b \vec{E} \cdot d\vec{l}$, so $V_b - V_a = -\int_a^b \vec{E} \cdot d\vec{l}$.</p>
+<p><strong>Derivation</strong>: <strong>Equipotential Surfaces</strong><br />
+If $V$ is constant on a surface, $\nabla V \perp$ to the surface (no change along the surface). Since $\vec{E} = -\nabla V$, $\vec{E}$ is perpendicular to the equipotential surface.</p>
+<p><strong>Derivation</strong>: <strong>Field in Rocket System</strong><br />
+A potential $V = 10^5 , \text{V}$ at a plate in an ion engine, with $V$ decreasing to $0$ over $0.1 , \text{m}$, gives $E \approx -\frac{\Delta V}{\Delta x} = 10^6 , \text{N/C}$, accelerating ions (your interest, April 19, 2025).</p>
+<p><strong>Solved Example</strong>: A JEE Main problem involves $V = k \frac{2 \times 10^{-6}}{r}$. Find $E$ at $r = 0.2 , \text{m}$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$E = -\frac{dV}{dr} = -\frac{d}{dr} \left( k \frac{2 \times 10^{-6}}{r} \right) = k \frac{2 \times 10^{-6}}{r^2} = 9 \times 10^9 \times \frac{2 \times 10^{-6}}{(0.2)^2} = 4.5 \times 10^5 , \text{N/C}$.
+<ul>
+<li><strong>JEE Tip</strong>: $E = -\frac{dV}{dr}$ for radial fields; confirm with Coulomb’s law. Common error: Forgetting the negative sign.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A NEET problem involves a uniform field $E = 500 \hat{i} , \text{N/C}$. Find the potential difference between $(0, 0)$ and $(0.1, 0)$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$V_b - V_a = -\int_a^b \vec{E} \cdot d\vec{l} = -500 \times 0.1 = -50 , \text{V}$.
+<ul>
+<li><strong>NEET Tip</strong>: Potential decreases along the field direction; path is simple here. Common error: Incorrect sign of $\Delta V$.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Advanced problem involves $V = 1000 - 200x , \text{V}$. Find $\vec{E}$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$\vec{E} = -\nabla V = -\frac{\partial V}{\partial x} \hat{i} = -(-200) \hat{i} = 200 \hat{i} , \text{N/C}$.
+<ul>
+<li><strong>JEE Tip</strong>: Use partial derivatives for each direction; here, $V$ depends only on $x$. Common error: Missing negative sign in $\vec{E}$.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Main problem involves equipotential surfaces for a point charge. Describe their shape.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$V = k \frac{Q}{r}$, so constant $V$ means constant $r$. Equipotentials are spherical surfaces centered on the charge. $\vec{E}$ is radial, perpendicular to these spheres.
+<ul>
+<li><strong>JEE Tip</strong>: Equipotentials are perpendicular to $\vec{E}$; for a point charge, they’re spheres. Common error: Assuming equipotentials follow field lines.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Application</strong>: Field-potential relations apply to field mapping, capacitor design, and rocketry (e.g., ion acceleration in engines, aligning with your interest, April 19, 2025).</p>
+<h2 id="24-4-electric-potential-in-conductors-and-capacitors">24.4 Electric Potential in Conductors and Capacitors</h2>
+<p>Electric potential in conductors and capacitors is a practical application, frequently tested in JEE/NEET problems involving energy storage and field behavior.</p>
+<h3 id="potential-in-conductors">Potential in Conductors</h3>
+<ul>
+<li><strong>Equilibrium</strong>: Inside a conductor, $E = 0$, so $V$ is constant (equipotential volume).</li>
+<li><strong>Surface</strong>: All charge resides on the surface; $V$ just outside is $V = k \frac{Q}{R}$ for a spherical conductor.</li>
+<li><strong>Cavity</strong>: If a cavity contains charge $q$, $V$ inside adjusts due to induced charges; otherwise, $V$ is constant.</li>
+</ul>
+<h3 id="potential-in-capacitors">Potential in Capacitors</h3>
+<p>For a parallel plate capacitor with charge $Q$, area $A$, separation $d$:</p>
+<ul>
+<li>Field: $E = \frac{\sigma}{\epsilon_0} = \frac{Q}{\epsilon_0 A}$.</li>
+<li>Potential difference: $V = E d = \frac{Q d}{\epsilon_0 A}$.</li>
+<li>Capacitance: $C = \frac{Q}{V} = \frac{\epsilon_0 A}{d}$.</li>
+</ul>
+<h3 id="energy-stored-in-a-capacitor">Energy Stored in a Capacitor</h3>
+<p>Energy stored:<br />
+$$
+U = \frac{1}{2} C V^2 = \frac{1}{2} \frac{Q^2}{C} = \frac{1}{2} Q V
+$$</p>
+<h3 id="potential-energy-in-systems">Potential Energy in Systems</h3>
+<p>For a system of charges, total potential energy is the sum of pairwise interactions: $U = \sum_{i &lt; j} k \frac{q_i q_j}{r_{ij}}$.</p>
+<p><strong>Derivation</strong>: <strong>Potential Inside a Conductor</strong><br />
+Inside a conductor, $E = 0$ (from Gauss’s law, Chapter 23). Since $\vec{E} = -\nabla V$, if $E = 0$, $\nabla V = 0$, so $V$ is constant throughout the conductor.</p>
+<p><strong>Derivation</strong>: <strong>Potential Difference in a Capacitor</strong><br />
+For a parallel plate capacitor, $E = \frac{\sigma}{\epsilon_0}$, constant between plates. $V = -\int_0^d E , dz = E d = \frac{\sigma d}{\epsilon_0} = \frac{Q d}{\epsilon_0 A}$.</p>
+<p><strong>Derivation</strong>: <strong>Energy Stored in a Capacitor</strong><br />
+Work to charge a capacitor: $dW = V dq$, where $V = \frac{q}{C}$. Integrate: $U = \int_0^Q \frac{q}{C} dq = \frac{1}{2} \frac{Q^2}{C}$. Since $Q = C V$, $U = \frac{1}{2} C V^2$.</p>
+<p><strong>Derivation</strong>: <strong>Capacitor in Rocket System</strong><br />
+A capacitor in a rocket circuit ($A = 0.01 , \text{m}^2$, $d = 0.001 , \text{m}$) has $C = \frac{\epsilon_0 A}{d} \approx 8.85 \times 10^{-11} , \text{F}$, $V = 10^4 , \text{V}$, storing $U = 4.43 \times 10^{-3} , \text{J}$, powering ion acceleration (your interest, April 19, 2025).</p>
+<p><strong>Solved Example</strong>: A JEE Main problem involves a spherical conductor, $R = 0.1 , \text{m}$, $Q = 5 , \mu\text{C}$. Find $V$ on the surface.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$V = k \frac{Q}{R} = 9 \times 10^9 \times \frac{5 \times 10^{-6}}{0.1} = 4.5 \times 10^5 , \text{V}$. Inside, $V$ is the same.
+<ul>
+<li><strong>JEE Tip</strong>: $V$ is constant inside a conductor; surface potential as if charge at center. Common error: Assuming $V = 0$ inside.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A NEET problem involves a parallel plate capacitor, $A = 0.02 , \text{m}^2$, $d = 0.002 , \text{m}$, $Q = 2 \times 10^{-8} , \text{C}$. Find $V$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$V = \frac{Q d}{\epsilon_0 A} = \frac{(2 \times 10^{-8}) \times 0.002}{(8.85 \times 10^{-12}) \times 0.02} \approx 226 , \text{V}$.
+<ul>
+<li><strong>NEET Tip</strong>: Use $V = E d$, where $E = \frac{\sigma}{\epsilon_0}$. Common error: Incorrect $\epsilon_0$ value.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Advanced problem involves a capacitor with $C = 10 , \mu\text{F}$, $V = 100 , \text{V}$. Find the energy stored.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$U = \frac{1}{2} C V^2 = \frac{1}{2} \times (10 \times 10^{-6}) \times (100)^2 = 0.05 , \text{J}$.
+<ul>
+<li><strong>JEE Tip</strong>: Use any form of the energy formula; ensure units match. Common error: Forgetting the factor of $\frac{1}{2}$.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Main problem involves three charges $q_1 = q_2 = q_3 = 2 , \mu\text{C}$ at vertices of an equilateral triangle, side $0.1 , \text{m}$. Find $U$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$U = 3 \times k \frac{q^2}{r} = 3 \times 9 \times 10^9 \times \frac{(2 \times 10^{-6})^2}{0.1} = 1.08 , \text{J}$.
+<ul>
+<li><strong>JEE Tip</strong>: Sum pairwise interactions; all pairs are identical here. Common error: Miscounting pairs.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Application</strong>: Conductors and capacitors apply to circuits, energy storage, and rocketry (e.g., capacitor-driven ion propulsion, aligning with your interest, April 19, 2025).</p>
+<h2 id="summary-and-quick-revision">Summary and Quick Revision</h2>
+<ul>
+<li><strong>Potential Energy</strong>: $U = k \frac{q_1 q_2}{r}$, units: J. Sign depends on charges.</li>
+<li><strong>Electric Potential</strong>: $V = k \frac{Q}{r}$, units: V. For multiple charges: $V = \sum k \frac{q_i}{r_i}$. Work: $W = q (V_a - V_b)$.</li>
+<li><strong>Charge Distributions</strong>: Line: $V = k \lambda \ln \left( \frac{\sqrt{(L/2)^2 + d^2} + L/2}{\sqrt{(L/2)^2 + d^2} - L/2} \right)$; Ring: $V = k \frac{Q}{\sqrt{R^2 + z^2}}$; Shell: $V = k \frac{Q}{r}$ (outside), $V = k \frac{Q}{R}$ (inside).</li>
+<li><strong>Field-Potential Relation</strong>: $\vec{E} = -\nabla V$, $V_b - V_a = -\int_a^b \vec{E} \cdot d\vec{l}$. Equipotentials perpendicular to $\vec{E}$.</li>
+<li><strong>Conductors and Capacitors</strong>: Inside conductor: $V$ constant. Capacitor: $V = \frac{Q d}{\epsilon_0 A}$, $C = \frac{\epsilon_0 A}{d}$, $U = \frac{1}{2} C V^2$.</li>
+<li><strong>Applications</strong>: Energy storage, field mapping, ion propulsion.</li>
+<li><strong>JEE/NEET Tips</strong>: Use scalar addition for $V$, compute $\vec{E}$ via $-\nabla V$, check equipotential geometry, apply conductor properties, verify significant figures (April 14, 2025).</li>
+<li><strong>SI Units</strong>: Potential (V), potential energy (J), capacitance (F), field (N/C), charge (C).</li>
+</ul>
+<h2 id="practice-problems">Practice Problems</h2>
+<p>Explore our problem set with <strong>100 problems</strong> inspired by JEE Main, JEE Advanced, and NEET patterns to test your understanding.</p>
+<p><a href="https://vidyamarg.com/books/physics/v1/electric-potential/./problems">View Problems</a></p>
+<h2 id="watch-on-youtube">Watch on YouTube</h2>
+<p>Our Hinglish video lessons make electrostatics engaging! Subscribe for updates.</p>
+<p><a href="https://www.youtube.com/@VidyaMargbyRaviShankar-w9u">Watch Now</a></p>
+<p><em>Animation for visualizing potential gradients, equipotential surfaces, and capacitor fields coming soon!</em></p>
+<p><em>Note: Content regularly updated to align with current JEE/NEET syllabi.</em></p>
+
+        </article>
+    </div>
+
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container text-center py-5">
+            <ul class="social-list list-unstyled pt-4 mb-0">
+                
+                    <li class="list-inline-item">
+                        <a href="https:&#x2F;&#x2F;www.youtube.com&#x2F;@VidyaMargbyRaviShankar-w9u" target="_blank" title="YouTube"><i class="fab fa-youtube fa-fw"></i></a>
+                    </li>
+                
+                    <li class="list-inline-item">
+                        <a href="https:&#x2F;&#x2F;t.me&#x2F;vidyamarg1" target="_blank" title="Telegram"><i class="fab fa-telegram fa-fw"></i></a>
+                    </li>
+                
+            </ul>
+            <small class="copyright">
+                © 2025 Vidya Marg. Designed with <span class="sr-only">love</span><i class="fas fa-heart" style="color: #fb866a;"></i> by <a class="theme-link" href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers. <a class="theme-link" href="/app/privacy-policy/">Privacy Policy</a>
+            </small>
+        </div>
+    </footer>
+
+    <!-- Javascript -->          
+    <script src="https://vidyamarg.com/plugins/popper.min.js"></script>
+    <script src="https://vidyamarg.com/plugins/bootstrap/js/bootstrap.min.js"></script>  
+    
+    <!-- Page Specific JS -->
+    <script src="https://vidyamarg.com/plugins/smoothscroll.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
+    <script src="https://vidyamarg.com/js/highlight-custom.js"></script> 
+    <script src="https://vidyamarg.com/plugins/simplelightbox/simple-lightbox.min.js"></script>      
+    <script src="https://vidyamarg.com/plugins/gumshoe/gumshoe.polyfills.min.js"></script> 
+    <script src="https://vidyamarg.com/js/docs.js"></script> 
+
+    <script>
+        function renderLatex() {
+            if (typeof renderMathInElement === "undefined") {
+                setTimeout(renderLatex, 100);
+                return;
+            }
+            renderMathInElement(document.body, {
+                delimiters: [
+                    { left: "$$", right: "$$", display: true },
+                    { left: "$", right: "$", display: false },
+                    { left: "\\(", right: "\\)", display: false },
+                    { left: "\\[", right: "\\]", display: true }
+                ],
+                throwOnError: false
+            });
+        }
+
+        window.addEventListener("load", function() {
+            renderLatex();
+        });
+    </script>
+</body>
+</html>

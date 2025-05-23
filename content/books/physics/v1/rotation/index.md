@@ -1,14 +1,26 @@
 ---
 title: Physics Book - Rotation for JEE & NEET
 description: Comprehensive guide to rotational motion for JEE and NEET, covering kinematics, dynamics, rotational energy, angular momentum, rolling motion, and gyroscopic effects, with extensive examples and applications.
-slug: books/physics/rotation
+slug: rotation
 keywords: physics rotation, JEE physics rotational motion, NEET physics angular momentum, rolling motion
 og:image: https://vidyamarg.com/og-physics-rotation.jpg
 ---
 
 # Chapter 10: Rotation
 
-**Beta Version**: Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!
+
+
+<div class="callout-block callout-warning">
+    <div class="content">
+        <h4 class="callout-title">
+            <span class="callout-icon-holder me-1">
+                <i class="fas fa-exclamation-triangle"></i>
+            </span>
+            Beta Version
+        </h4>
+        <p>Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!</p>
+    </div>
+</div>
 
 Rotational motion is a cornerstone of classical mechanics, extending the principles of linear motion from Chapters 1–9 to systems that rotate about an axis. This chapter introduces the concepts needed to analyze spinning wheels, rolling balls, orbiting planets, and even the stability of rockets—topics that are both fascinating and challenging for JEE Main, JEE Advanced, and NEET students. Rotational motion involves understanding how objects rotate, the forces and torques that cause rotation, the energy and momentum associated with spinning systems, and the complex motion of objects that both rotate and translate, like a rolling cylinder. Given the complexity of this topic, we’ll dive deep into each aspect, providing detailed explanations, derivations, numerous solved examples, and practical applications to ensure you master rotational dynamics. We’ll explore **kinematics of rotational motion**, **dynamics of rotational motion**, **rotational kinetic energy and work**, **angular momentum and its conservation**, **rolling motion**, and **gyroscopic effects and advanced applications**, equipping you with the tools to tackle even the toughest JEE/NEET problems.
 
@@ -426,7 +438,7 @@ A rocket spins at $\omega$ to stabilize its flight. Angular momentum $L = I \ome
 ## Practice Problems
 Explore our extensive problem set with **100 problems** inspired by JEE Main, JEE Advanced, and NEET patterns to test your understanding of rotational motion.
 
-[View Problems](./problems.md)
+[View Problems](./problems)
 
 ## Watch on YouTube
 Our Hinglish video lessons make rotational motion engaging for JEE and NEET! Subscribe for updates.

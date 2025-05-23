@@ -1,7 +1,7 @@
 ---
 title: Physics Book - Oscillations Solutions for JEE & NEET
 description: Sample solutions for oscillations problems, covering simple harmonic motion, energy, damped and forced oscillations, resonance, and applications, tailored for JEE and NEET preparation.
-slug: books/physics/oscillations/solutions
+slug: solutions
 keywords: physics oscillations solutions, JEE physics simple harmonic motion solutions, NEET physics resonance solutions, damped oscillations
 og:image: https://vidyamarg.com/og-physics-oscillations.jpg
 ---
@@ -170,6 +170,6 @@ The answer is (b) $1.00 \, \text{m/s}$.
 - **JEE/NEET Tip**: Maximum velocity is at $x = 0$; use $A \omega$ directly after computing $\omega$. Common error: Forgetting to calculate $\omega$ or using $x$ instead of $A$.
 
 ## Back to Chapter
-[Return to Oscillations Chapter](./index.md)
+[Return to Oscillations Chapter](../../oscillations)
 
-[Return to Oscillations Problems](./problems.md)
+[Return to Oscillations Problems](../../oscillations/problems)

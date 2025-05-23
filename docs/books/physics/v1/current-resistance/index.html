@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <title>Vidya Marg | Physics Book - Current and Resistance for JEE &amp; NEET</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Comprehensive guide on current and resistance for JEE and NEET, covering electric current, Ohm&#x27;s law, resistivity, temperature effects, electrical power, and applications in circuits, with extensive examples.">
+    <meta name="keywords" content="JEE physics book, NEET physics book, physics book, physics for JEE and NEET">
+    <meta property="og:image" content="https://vidyamarg.com/og-physics-book.jpg">
+    <link rel="canonical" href="https:&#x2F;&#x2F;vidyamarg.com&#x2F;books&#x2F;physics&#x2F;v1&#x2F;current-resistance&#x2F;">
+    <link rel="shortcut icon" href="https://vidyamarg.com/logos/maroon-bg-logo-128.ico">
+    
+    <!-- Preload Google Font -->
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" as="style">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript>
+        <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
+    </noscript>
+    
+    <!-- FontAwesome JS -->
+    <script defer src="https://vidyamarg.com/fontawesome/js/all.min.js"></script>
+
+    <!-- KaTeX for LaTeX rendering -->
+    <link rel="stylesheet" href="https://vidyamarg.com/katex/katex.min.css">
+    <script src="https://vidyamarg.com/katex/katex.min.js"></script>
+    <script src="https://vidyamarg.com/katex/auto-render.min.js"></script>
+
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.2/styles/atom-one-dark.min.css">
+    <link rel="stylesheet" href="https://vidyamarg.com/plugins/simplelightbox/simple-lightbox.min.css">
+
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="https://vidyamarg.com/css/theme.css">
+    <link rel="stylesheet" href="https://vidyamarg.com/css/custom.css" />
+</head> 
+
+<body>    
+    <header class="header fixed-top">
+        <div class="branding docs-branding">
+            <div class="container-fluid position-relative py-2">
+                <div class="docs-logo-wrapper">
+                    
+                    
+                    
+                    <button id="docs-sidebar-toggler" class="docs-sidebar-toggler docs-sidebar-visible me-2 d-xl-none" type="button">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    
+                    <div class="site-logo">
+                        <a class="navbar-brand" href="https://vidyamarg.com">
+                            <img class="logo-icon me-2" src="https://vidyamarg.com/logos/maroon-bg-logo-1024.png" alt="logo">
+                            <span class="logo-text">Vidya Marg</span>
+                        </a>
+                    </div>    
+                </div>
+                <div class="docs-top-utilities d-flex justify-content-end align-items-center">
+                    <ul class="nav-list list-inline mb-0 d-none d-lg-flex">
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;">Home</a>
+                            </li>
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics (Youtube series)</a>
+                            </li>
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;">Books</a>
+                            </li>
+                        
+                            <li class="list-inline-item">
+                                <a class="nav-link" href="&#x2F;app&#x2F;">App</a>
+                            </li>
+                        
+                        
+                            
+                                <li class="list-inline-item">
+                                    <a href="https:&#x2F;&#x2F;www.youtube.com&#x2F;@VidyaMargbyRaviShankar-w9u" title="YouTube"><i class="fab fa-youtube fa-fw"></i></a>
+                                </li>
+                            
+                                <li class="list-inline-item">
+                                    <a href="https:&#x2F;&#x2F;t.me&#x2F;vidyamarg1" title="Telegram"><i class="fab fa-telegram fa-fw"></i></a>
+                                </li>
+                            
+                        
+                    </ul>
+                    <!-- Mobile Menu Button -->
+                    <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#mobileNav" aria-controls="mobileNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </div>
+            <!-- Mobile Menu -->
+            <div class="collapse navbar-collapse d-lg-none" id="mobileNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;">Home</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics (Youtube series)</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;books&#x2F;">Books</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="&#x2F;app&#x2F;">App</a>
+                        </li>
+                    
+                    
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="https:&#x2F;&#x2F;www.youtube.com&#x2F;@VidyaMargbyRaviShankar-w9u"><i class="fab fa-youtube fa-fw"></i> YouTube</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="https:&#x2F;&#x2F;t.me&#x2F;vidyamarg1"><i class="fab fa-telegram fa-fw"></i> Telegram</a>
+                            </li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="docs-wrapper">
+        
+        
+        
+        <div id="docs-sidebar" class="docs-sidebar">
+            <nav id="docs-nav" class="docs-nav navbar">
+                
+                    
+                        
+
+<ul class="nav flex-column">
+    <!-- Navigation Menu (visible only in mobile view) -->
+    <li class="nav-item d-lg-none">
+        <span class="nav-link">Navigation</span>
+        <ul class="nav flex-column">
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;">Home</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics (Youtube series)</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;books&#x2F;">Books</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;app&#x2F;">App</a>
+                </li>
+            
+        </ul>
+    </li>
+
+    <!-- JEE/NEET Physics Section -->
+    
+    <li class="nav-item">
+        <span class="nav-link">Physics for JEE&#x2F;NEET</span>
+        <ul class="nav flex-column">
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;">Physics for JEE&#x2F;NEET</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;maths-basics-for-physics&#x2F;">Maths Basics for Physics</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;units-and-dimensions&#x2F;">Units and Dimensions</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link" href="&#x2F;jee-neet&#x2F;physics&#x2F;physical-quantities-and-si-units&#x2F;">Physical Quantities and SI Units</a>
+                </li>
+            
+        </ul>
+    </li>
+
+    <!-- Books Section -->
+    
+    <li class="nav-item">
+        <span class="nav-link">Books</span>
+        <ul class="nav flex-column">
+            <!-- JEE/NEET Physics Book (Version 1) -->
+            
+            <li class="nav-item">
+                <a class="nav-link" href="/books/physics/v1/">Physics Book</a>
+                
+                    <ul class="nav flex-column">
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;measurement&#x2F;">Measurement</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;motion-straight-line&#x2F;">Motion Along a Straight Line</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;vectors&#x2F;">Vectors</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;motion-2d-3d&#x2F;">Motion in Two and Three Dimensions</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;force-motion-1&#x2F;">Force and Motion—I</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;force-motion-2&#x2F;">Force and Motion—II</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;kinetic-energy-work&#x2F;">Kinetic Energy and Work</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;potential-energy-conservation&#x2F;">Potential Energy and Conservation of Energy</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;center-mass-momentum&#x2F;">Center of Mass and Linear Momentum</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;rotation&#x2F;">Rotation</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;rolling-torque-angular-momentum&#x2F;">Rolling, Torque, and Angular Momentum</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;equilibrium-elasticity&#x2F;">Equilibrium and Elasticity</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;gravitation&#x2F;">Gravitation</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;fluids&#x2F;">Fluids</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;oscillations&#x2F;">Oscillations</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;waves-1&#x2F;">Waves—I</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;waves-2&#x2F;">Waves—II</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;kinetic-theory-gases&#x2F;">The Kinetic Theory of Gases</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;thermodynamics-temperature-heat&#x2F;">Temperature, Heat, and the First Law of Thermodynamics</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;entropy-thermodynamics&#x2F;">Entropy and the Second Law of Thermodynamics</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electric-fields&#x2F;">Electric Fields</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;gauss-law&#x2F;">Gauss’s Law</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electric-potential&#x2F;">Electric Potential</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;capacitance&#x2F;">Capacitance</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;current-resistance&#x2F;">Current and Resistance</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;circuits&#x2F;">Circuits</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;magnetic-fields&#x2F;">Magnetic Fields</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;magnetic-fields-currents&#x2F;">Magnetic Fields Due to Currents</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;induction-inductance&#x2F;">Induction and Inductance</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electromagnetic-oscillations-ac&#x2F;">Electromagnetic Oscillations and Alternating Current</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;electromagnetic-waves&#x2F;">Electromagnetic Waves</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;images&#x2F;">Images</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;interference&#x2F;">Interference</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;diffraction&#x2F;">Diffraction</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;photons-matter-waves&#x2F;">Photons and Matter Waves</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;matter-waves-advanced&#x2F;">More About Matter Waves</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;atoms&#x2F;">All About Atoms</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;nuclear-physics&#x2F;">Nuclear Physics</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;nuclear-energy&#x2F;">Energy from the Nucleus</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;quarks-leptons&#x2F;">Quarks, Leptons, and the Big Bang</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;relativity&#x2F;">Relativity</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" href="&#x2F;books&#x2F;physics&#x2F;v1&#x2F;conduction-solids&#x2F;">Conduction of Electricity in Solids</a>
+                            </li>
+                        
+                    </ul>
+                
+            </li>
+        </ul>
+    </li>
+</ul>
+                    
+                
+            </nav>
+        </div>
+        
+
+        <div class="docs-content">
+            
+    <div class="docs-main">
+        <article class="docs-article">
+            <h1 id="chapter-26-current-and-resistance">Chapter 26: Current and Resistance</h1>
+<div class="callout-block callout-warning">
+    <div class="content">
+        <h4 class="callout-title">
+            <span class="callout-icon-holder me-1">
+                <i class="fas fa-exclamation-triangle"></i>
+            </span>
+            Beta Version
+        </h4>
+        <p>Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!</p>
+    </div>
+</div>
+<p>Current and resistance are foundational concepts for understanding how charges flow in circuits, with applications like optimizing spacecraft electrical systems for ion propulsion. Building on the concepts of electric potential and capacitance from Chapters 24–25, this chapter explores current and resistance in depth. For JEE Main, JEE Advanced, and NEET students, mastering current and resistance is essential, as these topics frequently appear in problems involving circuits, power, and material properties. This chapter, <strong>Current and Resistance</strong>, covers <strong>electric current and conduction</strong>, <strong>resistance and Ohm's law</strong>, <strong>resistivity and temperature effects</strong>, and <strong>electrical power and energy</strong>, providing detailed explanations, derivations, solved examples, and practical applications to ensure conceptual clarity and problem-solving proficiency.</p>
+<h2 id="26-1-electric-current-and-conduction">26.1 Electric Current and Conduction</h2>
+<p>Electric current describes the flow of charge, a key concept for JEE/NEET problems involving circuits and conduction.</p>
+<h3 id="electric-current">Electric Current</h3>
+<p>Electric current $I$ is the rate of flow of charge through a conductor:<br />
+$$
+I = \frac{dQ}{dt}
+$$</p>
+<ul>
+<li>For steady current, $I = \frac{Q}{t}$.</li>
+<li>Units: Ampere (A), where $1 , \text{A} = 1 , \text{C/s}$.</li>
+<li>Direction: Conventional current flows from positive to negative (opposite to electron flow in metals).</li>
+</ul>
+<h3 id="current-density">Current Density</h3>
+<p>Current density $\vec{J}$ is the current per unit area perpendicular to the flow:<br />
+$$
+\vec{J} = \frac{I}{A} \hat{n}
+$$</p>
+<ul>
+<li>$A$: Cross-sectional area (m²).</li>
+<li>$\hat{n}$: Direction of current.</li>
+<li>Units: A/m².</li>
+<li>Relation to electric field in a conductor: $\vec{J} = \sigma \vec{E}$, where $\sigma$ is the conductivity.</li>
+</ul>
+<h3 id="drift-velocity">Drift Velocity</h3>
+<p>In a conductor, electrons move randomly but drift under an electric field. Drift velocity $v_d$ is:<br />
+$$
+v_d = \frac{I}{n q A}
+$$</p>
+<ul>
+<li>$n$: Number density of charge carriers (m⁻³).</li>
+<li>$q$: Charge of each carrier (e.g., $q = e = 1.6 \times 10^{-19} , \text{C}$ for electrons).</li>
+<li>$A$: Cross-sectional area.</li>
+</ul>
+<h3 id="conduction-mechanism">Conduction Mechanism</h3>
+<ul>
+<li>In metals, conduction is due to free electrons.</li>
+<li>In electrolytes, ions carry charge.</li>
+<li>In semiconductors, both electrons and holes contribute.</li>
+</ul>
+<p><strong>Derivation</strong>: <strong>Drift Velocity</strong><br />
+Consider a conductor with cross-sectional area $A$, length $L$, and $n$ free electrons per unit volume. An electric field $E$ causes electrons to drift with velocity $v_d$. The current $I$ is the charge passing through the cross-section per unit time. In time $t$, electrons within a distance $v_d t$ pass through: volume = $A (v_d t)$, number of electrons = $n A v_d t$, charge = $Q = (n A v_d t) q$. Current: $I = \frac{Q}{t} = n A v_d q$, so:<br />
+$$
+v_d = \frac{I}{n q A}
+$$</p>
+<p><strong>Derivation</strong>: <strong>Current Density and Conductivity</strong><br />
+Current $I$ through area $A$ gives $J = \frac{I}{A}$. In a conductor, electrons drift due to $E$, with $v_d = \frac{e E \tau}{m}$ (where $\tau$ is the relaxation time, $m$ is electron mass). Current: $I = n e A v_d = n e A \left( \frac{e E \tau}{m} \right)$, so $J = \frac{I}{A} = n e \left( \frac{e E \tau}{m} \right)$. Thus, $J = \sigma E$, where $\sigma = \frac{n e^2 \tau}{m}$.</p>
+<p><strong>Derivation</strong>: <strong>Current in Rocket System</strong><br />
+In a spacecraft circuit, a wire ($A = 10^{-6} , \text{m}^2$, $n = 8.5 \times 10^{28} , \text{m}^{-3}$, $q = 1.6 \times 10^{-19} , \text{C}$) with $I = 2 , \text{A}$ has $v_d = \frac{2}{(8.5 \times 10^{28}) \times (1.6 \times 10^{-19}) \times 10^{-6}} \approx 1.47 \times 10^{-4} , \text{m/s}$, affecting ion propulsion timing (your interest, April 19, 2025).</p>
+<p><strong>Solved Example</strong>: A JEE Main problem involves a wire with $I = 5 , \text{A}$, $A = 2 \times 10^{-6} , \text{m}^2$. Find the current density.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$J = \frac{I}{A} = \frac{5}{2 \times 10^{-6}} = 2.5 \times 10^6 , \text{A/m}^2$.
+<ul>
+<li><strong>JEE Tip</strong>: Current density is a vector; magnitude is $I/A$. Common error: Forgetting to convert $A$ to m².</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A NEET problem involves a conductor ($A = 10^{-5} , \text{m}^2$, $n = 10^{29} , \text{m}^{-3}$, $q = 1.6 \times 10^{-19} , \text{C}$) with $I = 1 , \text{A}$. Find $v_d$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$v_d = \frac{I}{n q A} = \frac{1}{(10^{29}) \times (1.6 \times 10^{-19}) \times (10^{-5})} \approx 6.25 \times 10^{-6} , \text{m/s}$.
+<ul>
+<li><strong>NEET Tip</strong>: Drift velocity is small; ensure consistent units. Common error: Incorrect powers of 10.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Advanced problem involves $I = 3 , \text{A}$ through a wire of diameter $1 , \text{mm}$. Find $J$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$A = \pi r^2 = \pi \left( \frac{0.001}{2} \right)^2 = \pi (0.0005)^2 \approx 7.854 \times 10^{-7} , \text{m}^2$, $J = \frac{3}{7.854 \times 10^{-7}} \approx 3.82 \times 10^6 , \text{A/m}^2$.
+<ul>
+<li><strong>JEE Tip</strong>: Convert diameter to radius in meters; $J$ is high in small areas. Common error: Using diameter instead of radius.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Main problem involves $Q = 10 , \text{C}$ passing through a conductor in $t = 2 , \text{s}$. Find $I$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$I = \frac{Q}{t} = \frac{10}{2} = 5 , \text{A}$.
+<ul>
+<li><strong>JEE Tip</strong>: Current is charge per unit time; ensure SI units. Common error: Misinterpreting time units.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Application</strong>: Current and conduction apply to wires, circuits, and rocketry (e.g., current in spacecraft wiring, aligning with your interest, April 19, 2025).</p>
+<h2 id="26-2-resistance-and-ohm-s-law">26.2 Resistance and Ohm's Law</h2>
+<p>Resistance governs how materials oppose current flow, a key concept for JEE/NEET problems involving circuits and conductors.</p>
+<h3 id="resistance">Resistance</h3>
+<p>Resistance $R$ of a conductor is the ratio of the potential difference $V$ across it to the current $I$ through it:<br />
+$$
+R = \frac{V}{I}
+$$</p>
+<ul>
+<li>Units: Ohm ($\Omega$), where $1 , \Omega = 1 , \text{V/A}$.</li>
+<li>Resistance depends on material, geometry, and temperature.</li>
+</ul>
+<h3 id="ohm-s-law">Ohm's Law</h3>
+<p>Ohm's law states that for a conductor (under certain conditions), current is proportional to potential difference:<br />
+$$
+V = I R
+$$</p>
+<ul>
+<li>Valid for ohmic materials (linear relationship).</li>
+<li>Non-ohmic materials (e.g., diodes) deviate from this.</li>
+</ul>
+<h3 id="resistance-of-a-conductor">Resistance of a Conductor</h3>
+<p>For a uniform conductor of length $L$ and cross-sectional area $A$:<br />
+$$
+R = \rho \frac{L}{A}
+$$</p>
+<ul>
+<li>$\rho$: Resistivity of the material ($\Omega \cdot \text{m}$).</li>
+<li>$L$: Length (m).</li>
+<li>$A$: Cross-sectional area (m²).</li>
+</ul>
+<h3 id="conductance">Conductance</h3>
+<p>Conductance $G$ is the reciprocal of resistance: $G = \frac{1}{R}$, with units siemens (S), $1 , \text{S} = 1 , \Omega^{-1}$.</p>
+<p><strong>Derivation</strong>: <strong>Resistance of a Conductor</strong><br />
+Consider a cylindrical conductor of length $L$, area $A$, with potential difference $V$ and current $I$. The electric field $E$ inside is $E = \frac{V}{L}$ (uniform field). Current density: $J = \frac{I}{A}$. From $J = \sigma E$, where $\sigma = \frac{1}{\rho}$ (conductivity), $\frac{I}{A} = \frac{1}{\rho} \left( \frac{V}{L} \right)$. Rearrange:<br />
+$$
+I = \frac{V}{\rho \frac{L}{A}} \implies R = \frac{V}{I} = \rho \frac{L}{A}
+$$</p>
+<p><strong>Derivation</strong>: <strong>Ohm's Law from Microscopic View</strong><br />
+Current $I = n q A v_d$, $v_d = \frac{e E \tau}{m}$, $E = \frac{V}{L}$. So: $I = n q A \left( \frac{e}{m} \frac{V}{L} \tau \right) = \left( \frac{n e^2 \tau A}{m L} \right) V$. Thus, $R = \frac{V}{I} = \frac{m L}{n e^2 \tau A}$, and since $\rho = \frac{m}{n e^2 \tau}$, $R = \rho \frac{L}{A}$, confirming Ohm’s law: $V = I R$.</p>
+<p><strong>Derivation</strong>: <strong>Resistance in Rocket Wiring</strong><br />
+A spacecraft wire ($L = 1 , \text{m}$, $A = 10^{-6} , \text{m}^2$, $\rho = 1.68 \times 10^{-8} , \Omega \cdot \text{m}$ for copper) has $R = \frac{(1.68 \times 10^{-8}) \times 1}{10^{-6}} = 0.0168 , \Omega$, affecting current flow in propulsion circuits (your interest, April 19, 2025).</p>
+<p><strong>Solved Example</strong>: A JEE Main problem involves a resistor with $V = 12 , \text{V}$, $I = 4 , \text{A}$. Find $R$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$R = \frac{V}{I} = \frac{12}{4} = 3 , \Omega$.
+<ul>
+<li><strong>JEE Tip</strong>: Ohm’s law applies to ohmic resistors; ensure $V$ and $I$ units match. Common error: Mixing up $V$ and $I$.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A NEET problem involves a wire ($L = 2 , \text{m}$, $A = 5 \times 10^{-7} , \text{m}^2$, $\rho = 1.5 \times 10^{-8} , \Omega \cdot \text{m}$). Find $R$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$R = \rho \frac{L}{A} = (1.5 \times 10^{-8}) \times \frac{2}{5 \times 10^{-7}} = 0.06 , \Omega$.
+<ul>
+<li><strong>NEET Tip</strong>: $R \propto L$, $R \propto \frac{1}{A}$; use SI units. Common error: Incorrect area units.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Advanced problem involves a conductor with $I = 2 , \text{A}$, $R = 5 , \Omega$. Find $V$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$V = I R = 2 \times 5 = 10 , \text{V}$.
+<ul>
+<li><strong>JEE Tip</strong>: Ohm’s law is linear for ohmic materials; check if non-ohmic behavior is specified. Common error: Forgetting units of $R$.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Main problem involves a wire of diameter $2 , \text{mm}$, $L = 1 , \text{m}$, $\rho = 2 \times 10^{-8} , \Omega \cdot \text{m}$. Find $R$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$A = \pi r^2 = \pi \left( \frac{0.002}{2} \right)^2 = \pi \times 10^{-6} \approx 3.142 \times 10^{-6} , \text{m}^2$, $R = \frac{(2 \times 10^{-8}) \times 1}{3.142 \times 10^{-6}} \approx 0.00637 , \Omega$.
+<ul>
+<li><strong>JEE Tip</strong>: Convert diameter to radius; $R$ is small for thick wires. Common error: Using diameter directly.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Application</strong>: Resistance applies to circuit design, material selection, and rocketry (e.g., wiring in spacecraft, aligning with your interest, April 19, 2025).</p>
+<h2 id="26-3-resistivity-and-temperature-effects">26.3 Resistivity and Temperature Effects</h2>
+<p>Resistivity determines a material’s resistance, and temperature affects it, a key concept for JEE/NEET problems involving conductors and semiconductors.</p>
+<h3 id="resistivity">Resistivity</h3>
+<p>Resistivity $\rho$ is a material property:<br />
+$$
+\rho = \frac{E}{J}
+$$</p>
+<ul>
+<li>Units: $\Omega \cdot \text{m}$.</li>
+<li>Related to resistance: $R = \rho \frac{L}{A}$.</li>
+<li>Conductivity $\sigma = \frac{1}{\rho}$.</li>
+</ul>
+<h3 id="temperature-dependence-of-resistivity">Temperature Dependence of Resistivity</h3>
+<p>For metals, resistivity increases with temperature:<br />
+$$
+\rho = \rho_0 [1 + \alpha (T - T_0)]
+$$</p>
+<ul>
+<li>$\rho_0$: Resistivity at reference temperature $T_0$ (often 20°C).</li>
+<li>$\alpha$: Temperature coefficient of resistivity (K⁻¹).</li>
+<li>$T$: Temperature (K or °C, depending on context).</li>
+<li>For semiconductors, $\rho$ decreases with temperature due to increased charge carriers.</li>
+</ul>
+<h3 id="resistance-and-temperature">Resistance and Temperature</h3>
+<p>Since $R = \rho \frac{L}{A}$, resistance also varies with temperature:<br />
+$$
+R = R_0 [1 + \alpha (T - T_0)]
+$$</p>
+<h3 id="microscopic-view">Microscopic View</h3>
+<p>Resistivity arises from collisions of charge carriers with lattice ions, which increase with temperature in metals (more thermal vibrations), but in semiconductors, more carriers are thermally generated, reducing $\rho$.</p>
+<p><strong>Derivation</strong>: <strong>Temperature Dependence of Resistivity</strong><br />
+In metals, resistivity $\rho \propto \frac{1}{\tau}$ (where $\tau$ is the mean time between collisions). As temperature $T$ increases, lattice vibrations increase, reducing $\tau$, so $\rho$ increases. Empirically, for small temperature changes, $\rho$ varies linearly: $\rho = \rho_0 [1 + \alpha (T - T_0)]$, where $\alpha$ is determined experimentally (e.g., $\alpha \approx 0.0039 , \text{K}^{-1}$ for copper).</p>
+<p><strong>Derivation</strong>: <strong>Resistance Variation with Temperature</strong><br />
+From $R = \rho \frac{L}{A}$, if $L$ and $A$ are constant (neglecting thermal expansion), $R \propto \rho$. Using $\rho = \rho_0 [1 + \alpha (T - T_0)]$, $R = R_0 [1 + \alpha (T - T_0)]$.</p>
+<p><strong>Derivation</strong>: <strong>Resistivity in Rocket Wiring</strong><br />
+A spacecraft copper wire ($\rho_0 = 1.68 \times 10^{-8} , \Omega \cdot \text{m}$ at $T_0 = 20^\circ\text{C}$, $\alpha = 0.0039 , \text{K}^{-1}$) at $T = 100^\circ\text{C}$ has $\rho = (1.68 \times 10^{-8}) \times [1 + 0.0039 \times (100 - 20)] \approx 2.00 \times 10^{-8} , \Omega \cdot \text{m}$, impacting resistance in propulsion circuits (your interest, April 19, 2025).</p>
+<p><strong>Solved Example</strong>: A JEE Main problem involves a wire with $\rho_0 = 1.7 \times 10^{-8} , \Omega \cdot \text{m}$ at $20^\circ\text{C}$, $\alpha = 0.004 , \text{K}^{-1}$, at $50^\circ\text{C}$. Find $\rho$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$\rho = \rho_0 [1 + \alpha (T - T_0)] = (1.7 \times 10^{-8}) \times [1 + 0.004 \times (50 - 20)] = (1.7 \times 10^{-8}) \times 1.12 \approx 1.904 \times 10^{-8} , \Omega \cdot \text{m}$.
+<ul>
+<li><strong>JEE Tip</strong>: Temperature difference is in °C or K (same for $\Delta T$); $\rho$ increases with $T$. Common error: Forgetting $\alpha$ units.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A NEET problem involves a resistor $R_0 = 10 , \Omega$ at $25^\circ\text{C}$, $\alpha = 0.003 , \text{K}^{-1}$, at $75^\circ\text{C}$. Find $R$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$R = R_0 [1 + \alpha (T - T_0)] = 10 \times [1 + 0.003 \times (75 - 25)] = 10 \times 1.15 = 11.5 , \Omega$.
+<ul>
+<li><strong>NEET Tip</strong>: Resistance increases with temperature in metals; use $\Delta T$. Common error: Incorrect $\Delta T$.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Advanced problem involves a wire ($L = 1 , \text{m}$, $A = 10^{-6} , \text{m}^2$, $\rho = 2 \times 10^{-8} , \Omega \cdot \text{m}$ at $20^\circ\text{C}$, $\alpha = 0.005 , \text{K}^{-1}$) at $40^\circ\text{C}$. Find $R$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$\rho = (2 \times 10^{-8}) \times [1 + 0.005 \times (40 - 20)] = 2 \times 10^{-8} \times 1.1 = 2.2 \times 10^{-8} , \Omega \cdot \text{m}$, $R = \frac{(2.2 \times 10^{-8}) \times 1}{10^{-6}} = 0.022 , \Omega$.
+<ul>
+<li><strong>JEE Tip</strong>: Adjust $\rho$ first, then compute $R$; small $\Delta T$ assumes linear variation. Common error: Forgetting temperature effect.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Main problem involves a semiconductor with $\rho$ decreasing from $10 , \Omega \cdot \text{m}$ to $8 , \Omega \cdot \text{m}$ as $T$ increases. Identify the material type.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$\rho$ decreases with increasing $T$, typical of semiconductors (more charge carriers generated). Metals show increasing $\rho$.
+<ul>
+<li><strong>JEE Tip</strong>: Semiconductors have negative temperature coefficients; metals have positive ones. Common error: Assuming all materials behave like metals.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Application</strong>: Resistivity and temperature effects apply to circuit design, thermistors, and rocketry (e.g., temperature effects in spacecraft wiring, aligning with your interest, April 19, 2025).</p>
+<h2 id="26-4-electrical-power-and-energy">26.4 Electrical Power and Energy</h2>
+<p>Electrical power and energy quantify the rate of energy transfer in circuits, a key concept for JEE/NEET problems involving circuits and efficiency.</p>
+<h3 id="electrical-power">Electrical Power</h3>
+<p>Power $P$ delivered to a resistor is the rate of energy transfer:<br />
+$$
+P = I V
+$$</p>
+<ul>
+<li>$I$: Current (A).</li>
+<li>$V$: Potential difference (V).</li>
+<li>Units: Watt (W), $1 , \text{W} = 1 , \text{J/s}$.</li>
+<li>For a resistor, $V = I R$, so:<br />
+$$
+P = I (I R) = I^2 R \quad \text{or} \quad P = \frac{V^2}{R}
+$$</li>
+</ul>
+<h3 id="energy-dissipated">Energy Dissipated</h3>
+<p>Energy dissipated as heat in a resistor over time $t$ is:<br />
+$$
+E = P t = I V t = I^2 R t = \frac{V^2}{R} t
+$$</p>
+<ul>
+<li>Units: Joules (J).</li>
+</ul>
+<h3 id="efficiency-in-circuits">Efficiency in Circuits</h3>
+<p>In practical circuits (e.g., with internal resistance), efficiency $\eta$ is the ratio of useful power to total power: $\eta = \frac{P_{\text{useful}}}{P_{\text{total}}}$.</p>
+<h3 id="applications">Applications</h3>
+<ul>
+<li><strong>Joule Heating</strong>: Energy dissipated as heat in resistors ($I^2 R$ loss).</li>
+<li><strong>Power Transmission</strong>: High voltage reduces $I$, minimizing $I^2 R$ losses.</li>
+</ul>
+<p><strong>Derivation</strong>: <strong>Power in a Resistor</strong><br />
+Power is the rate of work done: $P = \frac{dW}{dt}$. Work done on charge $dQ$ moving through potential $V$ is $dW = V dQ$. Since $I = \frac{dQ}{dt}$, $P = \frac{dW}{dt} = V \frac{dQ}{dt} = V I$. For a resistor, $V = I R$, so $P = I (I R) = I^2 R$, or $P = \frac{V^2}{R}$.</p>
+<p><strong>Derivation</strong>: <strong>Energy Dissipated</strong><br />
+Energy over time $t$ is $E = \int_0^t P , dt$. For constant $P$, $E = P t = (I V) t$. Using Ohm’s law, $E = I^2 R t$ or $E = \frac{V^2}{R} t$.</p>
+<p><strong>Derivation</strong>: <strong>Power in Rocket Circuit</strong><br />
+A spacecraft resistor ($R = 0.1 , \Omega$, $I = 5 , \text{A}$) dissipates $P = I^2 R = (5)^2 \times 0.1 = 2.5 , \text{W}$, heating components in propulsion systems (your interest, April 19, 2025).</p>
+<p><strong>Solved Example</strong>: A JEE Main problem involves a resistor with $I = 2 , \text{A}$, $R = 3 , \Omega$. Find $P$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$P = I^2 R = (2)^2 \times 3 = 12 , \text{W}$.
+<ul>
+<li><strong>JEE Tip</strong>: Use $P = I^2 R$ when $I$ and $R$ are given; all forms are equivalent. Common error: Forgetting to square $I$.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A NEET problem involves a resistor with $V = 10 , \text{V}$, $R = 5 , \Omega$, over $t = 2 , \text{s}$. Find $E$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$P = \frac{V^2}{R} = \frac{(10)^2}{5} = 20 , \text{W}$, $E = P t = 20 \times 2 = 40 , \text{J}$.
+<ul>
+<li><strong>NEET Tip</strong>: Energy is power times time; use consistent units. Common error: Using incorrect $P$ formula.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Advanced problem involves a battery ($V = 12 , \text{V}$) with a resistor $R = 4 , \Omega$. Find $P$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$P = \frac{V^2}{R} = \frac{(12)^2}{4} = \frac{144}{4} = 36 , \text{W}$.
+<ul>
+<li><strong>JEE Tip</strong>: When $V$ is across the resistor directly, use $P = \frac{V^2}{R}$. Common error: Not accounting for internal resistance if present.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Solved Example</strong>: A JEE Main problem involves a circuit with $I = 1 , \text{A}$, $V = 5 , \text{V}$, over $t = 10 , \text{s}$. Find $E$.</p>
+<ul>
+<li><strong>Solution</strong>:<br />
+$P = I V = 1 \times 5 = 5 , \text{W}$, $E = P t = 5 \times 10 = 50 , \text{J}$.
+<ul>
+<li><strong>JEE Tip</strong>: $P = I V$ is the most direct when both are given; $E$ is in joules. Common error: Misinterpreting $V$ as across a different component.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Application</strong>: Electrical power applies to circuit analysis, heating, and rocketry (e.g., power management in spacecraft, aligning with your interest, April 19, 2025).</p>
+<h2 id="summary-and-quick-revision">Summary and Quick Revision</h2>
+<ul>
+<li><strong>Electric Current</strong>: $I = \frac{dQ}{dt}$, units: A. $J = \frac{I}{A}$, $v_d = \frac{I}{n q A}$.</li>
+<li><strong>Resistance</strong>: $R = \frac{V}{I}$, units: $\Omega$. $R = \rho \frac{L}{A}$, Ohm’s law: $V = I R$.</li>
+<li><strong>Resistivity</strong>: $\rho = \frac{E}{J}$, $\rho = \rho_0 [1 + \alpha (T - T_0)]$, units: $\Omega \cdot \text{m}$. $R = R_0 [1 + \alpha (T - T_0)]$.</li>
+<li><strong>Power and Energy</strong>: $P = I V = I^2 R = \frac{V^2}{R}$, units: W. $E = P t$, units: J.</li>
+<li><strong>Applications</strong>: Circuit design, heating, spacecraft power systems.</li>
+<li><strong>JEE/NEET Tips</strong>: Use Ohm’s law for ohmic materials, adjust $R$ for temperature, choose appropriate power formula, verify significant figures (April 14, 2025).</li>
+<li><strong>SI Units</strong>: Current (A), resistance ($\Omega$), resistivity ($\Omega \cdot \text{m}$), power (W), energy (J).</li>
+</ul>
+<h2 id="practice-problems">Practice Problems</h2>
+<p>Explore our problem set with <strong>100 problems</strong> inspired by JEE Main, JEE Advanced, and NEET patterns to test your understanding.</p>
+<p><a href="https://vidyamarg.com/books/physics/v1/current-resistance/./problems">View Problems</a></p>
+<h2 id="watch-on-youtube">Watch on YouTube</h2>
+<p>Our Hinglish video lessons make electrostatics engaging! Subscribe for updates.</p>
+<p><a href="https://www.youtube.com/@VidyaMargbyRaviShankar-w9u">Watch Now</a></p>
+<p><em>Animation for visualizing current flow, resistance effects, and power dissipation coming soon!</em></p>
+<p><em>Note: Content regularly updated to align with current JEE/NEET syllabi.</em></p>
+
+        </article>
+    </div>
+
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container text-center py-5">
+            <ul class="social-list list-unstyled pt-4 mb-0">
+                
+                    <li class="list-inline-item">
+                        <a href="https:&#x2F;&#x2F;www.youtube.com&#x2F;@VidyaMargbyRaviShankar-w9u" target="_blank" title="YouTube"><i class="fab fa-youtube fa-fw"></i></a>
+                    </li>
+                
+                    <li class="list-inline-item">
+                        <a href="https:&#x2F;&#x2F;t.me&#x2F;vidyamarg1" target="_blank" title="Telegram"><i class="fab fa-telegram fa-fw"></i></a>
+                    </li>
+                
+            </ul>
+            <small class="copyright">
+                © 2025 Vidya Marg. Designed with <span class="sr-only">love</span><i class="fas fa-heart" style="color: #fb866a;"></i> by <a class="theme-link" href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers. <a class="theme-link" href="/app/privacy-policy/">Privacy Policy</a>
+            </small>
+        </div>
+    </footer>
+
+    <!-- Javascript -->          
+    <script src="https://vidyamarg.com/plugins/popper.min.js"></script>
+    <script src="https://vidyamarg.com/plugins/bootstrap/js/bootstrap.min.js"></script>  
+    
+    <!-- Page Specific JS -->
+    <script src="https://vidyamarg.com/plugins/smoothscroll.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
+    <script src="https://vidyamarg.com/js/highlight-custom.js"></script> 
+    <script src="https://vidyamarg.com/plugins/simplelightbox/simple-lightbox.min.js"></script>      
+    <script src="https://vidyamarg.com/plugins/gumshoe/gumshoe.polyfills.min.js"></script> 
+    <script src="https://vidyamarg.com/js/docs.js"></script> 
+
+    <script>
+        function renderLatex() {
+            if (typeof renderMathInElement === "undefined") {
+                setTimeout(renderLatex, 100);
+                return;
+            }
+            renderMathInElement(document.body, {
+                delimiters: [
+                    { left: "$$", right: "$$", display: true },
+                    { left: "$", right: "$", display: false },
+                    { left: "\\(", right: "\\)", display: false },
+                    { left: "\\[", right: "\\]", display: true }
+                ],
+                throwOnError: false
+            });
+        }
+
+        window.addEventListener("load", function() {
+            renderLatex();
+        });
+    </script>
+</body>
+</html>

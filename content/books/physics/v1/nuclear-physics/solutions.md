@@ -1,7 +1,7 @@
 ---
 title: Physics Book - Nuclear Physics Solutions for JEE & NEET
 description: Sample solutions for nuclear physics problems, covering nuclear structure, radioactivity, nuclear reactions, and applications like nuclear power and medical imaging, tailored for JEE and NEET preparation.
-slug: books/physics/nuclear-physics/solutions
+slug: solutions
 keywords: physics nuclear physics solutions, JEE physics radioactivity solutions, NEET physics nuclear reactions solutions, nuclear power applications
 og:image: https://vidyamarg.com/og-physics-nuclear-physics.jpg
 ---
@@ -192,6 +192,6 @@ The answer is (b) 100 Bq.
 - **JEE/NEET Tip**: Activity halves with each half-life; 2 half-lives reduce activity to 1/4. Common error: Incorrect number of half-lives or unit mismatch.
 
 ## Back to Chapter
-[Return to Nuclear Physics Chapter](./index.md)
+[Return to Nuclear Physics Chapter](../../nuclear-physics)
 
-[Return to Nuclear Physics Problems](./problems.md)
+[Return to Nuclear Physics Problems](../../nuclear-physics/problems)

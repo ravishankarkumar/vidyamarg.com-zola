@@ -1,7 +1,7 @@
 ---
 title: Physics Book - Fluids Solutions for JEE & NEET
 description: Sample solutions for fluid mechanics problems, covering fluid statics, dynamics, viscosity, surface tension, and applications, tailored for JEE and NEET preparation.
-slug: books/physics/fluids/solutions
+slug: solutions
 keywords: physics fluids solutions, JEE physics fluid mechanics solutions, NEET physics Bernoulli’s principle solutions, viscosity
 og:image: https://vidyamarg.com/og-physics-fluids.jpg
 ---
@@ -166,6 +166,6 @@ The answer is (b) $2.36 \, \text{m/s}$.
 - **JEE/NEET Tip**: Terminal velocity scales with $r^2$; ensure density difference accounts for buoyancy. Common error: Forgetting buoyancy or using incorrect units for $\eta$.
 
 ## Back to Chapter
-[Return to Fluids Chapter](./index.md)
+[Return to Fluids Chapter](../../fluids)
 
-[Return to Fluids Problems](./problems.md)
+[Return to Fluids Problems](../../fluids/problems)

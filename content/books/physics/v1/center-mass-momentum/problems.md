@@ -1,7 +1,7 @@
 ---
 title: Physics Book - Center of Mass and Linear Momentum Problems for JEE & NEET
 description: Practice 100 center of mass and linear momentum problems for JEE and NEET, inspired by exam patterns, covering center of mass, momentum conservation, impulse, and collisions.
-slug: books/physics/center-mass-momentum/problems
+slug: problems
 keywords: physics center of mass momentum problems, JEE physics momentum conservation problems, NEET physics collisions problems, impulse
 og:image: https://vidyamarg.com/og-physics-center-mass-momentum.jpg
 ---
@@ -569,4 +569,4 @@ This section provides **100 problems** to test your understanding of center of m
     - (d) $3.0 \, m/s$
 
 ## Back to Chapter
-[Return to Center of Mass and Linear Momentum Chapter](./index.md)
+[Return to Center of Mass and Linear Momentum Chapter](../../center-mass-momentum)

@@ -1,14 +1,26 @@
 ---
 title: Physics Book - Magnetic Fields for JEE & NEET
 description: Comprehensive guide on magnetic fields for JEE and NEET, covering Biot-Savart law, Ampere’s law, magnetic fields due to current configurations, and applications in electromagnetism, with extensive examples.
-slug: books/physics/magnetic-fields
+slug: magnetic-fields
 keywords: physics magnetic fields, JEE physics Biot-Savart law, NEET physics Ampere’s law, electromagnetism
 og:image: https://vidyamarg.com/og-physics-magnetic-fields.jpg
 ---
 
 # Chapter 28: Magnetic Fields
 
-**Beta Version**: Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!
+
+
+<div class="callout-block callout-warning">
+    <div class="content">
+        <h4 class="callout-title">
+            <span class="callout-icon-holder me-1">
+                <i class="fas fa-exclamation-triangle"></i>
+            </span>
+            Beta Version
+        </h4>
+        <p>Some equations may not render correctly (try Chrome/Firefox, clear cache, or refresh). Solutions, videos, and animations coming soon!</p>
+    </div>
+</div>
 
 Magnetic fields are crucial for understanding electromagnetic interactions, with applications like spacecraft navigation using magnetic sensors. Building on the concepts of current and circuits from Chapters 26–27, this chapter explores magnetic fields in depth. For JEE Main, JEE Advanced, and NEET students, mastering magnetic fields is essential, as these topics frequently appear in problems involving forces, fields, and electromagnetic devices. This chapter, **Magnetic Fields**, covers **introduction to magnetic fields**, **Biot-Savart law and applications**, **Ampere’s law and its applications**, and **magnetic fields of current distributions**, providing detailed explanations, derivations, solved examples, and practical applications to ensure conceptual clarity and problem-solving proficiency.
 
@@ -270,7 +282,7 @@ A spacecraft loop ($R = 0.03 \, \text{m}$, $I = 1 \, \text{A}$, $x = 0.04 \, \te
 ## Practice Problems
 Explore our problem set with **100 problems** inspired by JEE Main, JEE Advanced, and NEET patterns to test your understanding.
 
-[View Problems](./problems.md)
+[View Problems](./problems)
 
 ## Watch on YouTube
 Our Hinglish video lessons make electromagnetism engaging! Subscribe for updates.
